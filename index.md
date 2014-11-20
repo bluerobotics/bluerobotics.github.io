@@ -1,6 +1,6 @@
 ---
 layout: default
-title: T100 Thruster Documentation
+title: Thruster Documentation
 order: 0
 nav:
 - Introduction: introduction

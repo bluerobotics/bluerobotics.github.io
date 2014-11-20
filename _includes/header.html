@@ -10,12 +10,18 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="#"><img src="http://www.bluerobotics.com/images/br-logo-trans-blue-trans-sm-updated.png" class="img-br-logo logo-rotate">
-        <span class="blue toplogo">Blue</span><span class="robotics toplogo">Robotics</span>&nbsp;&nbsp;|&nbsp;&nbsp;Thruster Documentation</a>
+        <span class="blue toplogo">Blue</span><span class="robotics toplogo">Robotics</span><span style="font-size:1.2em">&nbsp;&nbsp;|&nbsp;&nbsp;{{ page.title }}</span></a>
       </div>
-      <div class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse navbar-right">
         <ul class="nav navbar-nav">
-          <!--<li class="active"><a href="#">Test</a></li>-->
-          <!--<li><a href="http://www.bluerobotics.com">BlueRobotics</a></li>-->
+          <li><a href="http://www.bluerobotics.com">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Documentation <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="http://bluerobotics.github.io/thrusters/">Thrusters</a></li>
+              <li><a href="http://bluerobotics.github.io/besc/">Basic ESC</a></li>
+            </ul>
+          </li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
