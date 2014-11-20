@@ -1,0 +1,64 @@
+---
+liOpen: false
+---
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="container">
+        <div class="col-sm-9">
+          {{ content }}
+        </div>
+        <nav id="sidenav" class="col-sm-3 bs-docs-sidebar">
+            <ul id="sidebar" class="nav nav-stacked bs-docs-sidenav affix-top" data-spy="affix" data-offset-top="130" data-offset-bottom="300">
+                {% for item_hash in page.nav %}
+                  {% assign page.liOpen = false %}
+                  {% for item in item_hash %}               
+                    {% if item[0] != nil %}
+                      {% if page.liOpen %}
+                        </li> <!-- This is here to close tag only after all subitems have been listed. -->
+                        {% assign page.liOpen = false %}
+                      {% endif %}
+                      <li> 
+                      {% assign page.liOpen = true %}
+                      <a {% if false %}class="active"{% endif %} href="#{{ item[1] }}">{{ item[0] }}</a>
+                    {% endif %}
+
+                    {% if item[0] == nil %}
+                      <ul class="nav nav-stacked">
+                      {% for subitem in item %}
+                        {% if subitem[0] != nil %}
+                          <li>
+                              <a {% if false %}class="active"{% endif %} href="#{{ subitem[1] }}">{{ subitem[0] }}</a>
+                          </li>
+                        {% endif %}
+                      {% endfor %} 
+                      </ul>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+            </ul>
+        </nav>
+      </div>
+    </div> 
+
+    {% include footer.html %}
+
+  </body>
+  <script>
+    // Table Bootstrap Classes
+    var tables = document.getElementsByTagName("table");
+
+    for (var i=0, max=tables.length; i < max; i++) {
+        tables[i].className += " table table-condensed";
+    }
+  </script>
+
+</html>

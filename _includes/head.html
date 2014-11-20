@@ -1,0 +1,41 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/sidenav.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="//bluerobotics.com/wp-content/themes/blue-theme/style-br.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+
+  <style>
+	@font-face {
+	  font-family: 'np_naipol_b';
+	  src: url("{{"/assets/fonts/np naipol all in one_b.eot" | prepend: site.baseurl }}");
+	  src: url("{{"/assets/fonts/np naipol all in one_b.eot?#iefix" | prepend: site.baseurl }}") format('embedded-opentype'),
+	       url("{{"/assets/fonts/np naipol all in one_b.woff" | prepend: site.baseurl }}") format('woff'),
+	       url("{{"/assets/fonts/np naipol all in one_b.ttf" | prepend: site.baseurl }}") format('truetype'),
+	       url("{{"/assets/fonts/np naipol all in one_b.svg#fp-20698" | prepend: site.baseurl }}") format('svg');
+	}
+	</style>
+</head>
