@@ -1,14 +1,13 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: BlueRobotics Product Documentation Site
+email: info@bluerobotics.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/docs-page-template/" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  The BlueRobotics documentation site has instructions, tutorials, and guides for
+  using BlueRobotics' products. You can contribute through Github!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://docs.bluerobotics.com" # the base hostname & protocol for your site
+twitter_username: bluerobotics
+github_username:  bluerobotics
 
 # Build settings
 markdown: kramdown
