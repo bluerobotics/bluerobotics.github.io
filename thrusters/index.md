@@ -6,6 +6,7 @@ nav:
 - Introduction: introduction
 - - Safety: safety
 - - Quick Start: quick-start
+- - Important Notes: important-notes
 - Specifications: t100-thruster-specifications
 - - Specification Table: specification-table
 - - Performance Charts: performance-charts
@@ -37,6 +38,17 @@ Always practice caution when you're working with electricity in water and with t
 ##Quick Start
 
 Show wiring diagram and quick list of steps to operate.
+
+##Important Notes
+
+**Important:**
+Do not operate the thruster for extended periods out of water. The bearings are lubricated by the water and vibration and noise will be greater when dry.
+
+**Important:**
+A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings, not by anything contacting.
+
+**Important:**
+The thruster can handle saltwater and sandy environments pretty well, but it does not get along with seaweed. Avoid sucking seaweed into the thruster to avoid damage.
 
 #T100 Thruster Specifications
 
@@ -104,12 +116,12 @@ The T100 Thruster comes with two propellers, one clockwise and one counter-clock
 
 Changing the propeller is easy and should only take a minute.
 
-*Tools Needed:*
+**Tools Needed:**
 
 * Phillips screwdriver with small tip
 * 2 mm hex key
 
-*Steps:*
+**Steps:**
 
 1. Using the screwdriver, remove the four outer screws from the nozzle.
 
@@ -154,9 +166,9 @@ To be completed.
 
 #Operation
 
-The thruster requires a brushless electronic speed controller (ESC). If you are using the BlueRobotics Basic ESC or BlueESC, please see the appropriate product page for instructions.
+The thruster requires a brushless electronic speed controller (ESC). If you are using the BlueRobotics BasicESC or BlueESC, please see the appropriate product page for instructions.
 
-* [Basic ESC](/besc/)
+* [BasicESC](/besc/)
 * [BlueESC](/bluesc/)
 
 **Important:**
@@ -180,16 +192,20 @@ During normal use:
 
 * Rinse after operating in sandy environments to remove sand particles.
 
+If operated for extended periods in the water:
+
+* Occasionally clean biological fouling and mineral deposits from the thruster or performance may be impacted.
+
 ##Disassembly / Assembly
 
 Occasionally it may be necessary to disassemble the thruster.
 
-*Tools Needed:*
+**Tools Needed:**
 
 * 1.5 mm, 2 mm, 2.5 mm hex keys
 * Phillips screwdriver with small tip
 
-*Steps:*
+**Steps:**
 
 1. Remove the four phillips-head screws from the outside of the nozzle.
 

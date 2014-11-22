@@ -36,26 +36,42 @@ When working with electricity, especially in water, always practice caution. Alw
 
 ##Specification Table
 
-| Parameter     | Value         | Unit          |
+|                 **Electrical**                |
 | ------------- | ------------- | ------------- |
-| Voltage       | 6-16          | volts         |
-| Max Current   | 30            | amps          |
-| Length        | 50            | mm            |
-| Width         | 25            | mm            |
-| Height        | 11            | mm            |
+| Voltage       | 6-16 volts                    |
+| Max Current   | 30 amps                       |
 | ------------- | ------------- | ------------- |
-|              *Pulse Width Signal*             |
+|                  **Physical**                 |
 | ------------- | ------------- | ------------- |
-| Signal Voltage| 3.3-5         | volts         |
-| Stopped       | 1500          | microseconds  |
-| Max forward   | 1900          | microseconds  |
-| Max reverse   | 1100          | microseconds  |
+| Length        | 50 mm         | 2.0 in        |
+| Width         | 25 mm         | 1.0 in        |
+| Height        | 11 mm         | 0.45 in       |
+| Power Connectors | Male 3.5 mm bullet         |
+| Motor Connectors | Female 3.5 mm bullet       |
+| Signal Connector | 3-pin servo connector (0.1" pitch) (ground, 5V, signal) |
+| ------------- | ------------- | ------------- |
+|            **Pulse Width Signal**             |
+| ------------- | ------------- | ------------- |
+| Signal Voltage| 3.3-5 volts                   |
+| Max Update Rate| 400 Hz                       |
+| Stopped       | 1500 microseconds             |
+| Max forward   | 1900 microseconds             |
+| Max reverse   | 1100 microseconds             |
 
 ##3D Model
+
+| File Type                  | Link                          |
+| -------------------------- | ----------------------------- |
+| SolidWorks Part (.sldprt)  | [BESC30-R1.sldprt](#) |
+| STEP (.step)               | [BESC30-R1.step](#)   |
+| IGES (.igs)                | [BESC30-R1.igs](#) |
+| STL (.stl)                 | [BESC30-R1.stl](#) |
 
 #Example Code
 
 ##Arduino
+
+This example uses the Arduino Servo library to control the speed controller. This provides an update rate of 50 Hz and can use any pin on the Arduino board as the "servoPin".
 
 ```c
 #include <Servo.h>
