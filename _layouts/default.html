@@ -13,9 +13,7 @@ liOpen: false
 
     <div class="page-content">
       <div class="container">
-        <div class="col-sm-9">
-          {{ content }}
-        </div>
+
         <nav id="sidenav" class="col-sm-3 bs-docs-sidebar">
             <ul id="sidebar" class="nav nav-stacked bs-docs-sidenav affix-top" data-spy="affix" data-offset-top="130" data-offset-bottom="300">
                 {% for item_hash in page.nav %}
@@ -46,6 +44,9 @@ liOpen: false
                 {% endfor %}
             </ul>
         </nav>
+        <div class="col-sm-9 content">
+          {{ content }}
+        </div>
       </div>
     </div> 
 

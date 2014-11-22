@@ -1,0 +1,228 @@
+---
+layout: default
+title: Thruster Documentation
+order: 0
+nav:
+- Introduction: introduction
+- - Safety: safety
+- - Quick Start: quick-start
+- Specifications: t100-thruster-specifications
+- - Specification Table: specification-table
+- - Performance Charts: performance-charts
+- - Dimensions: dimensions
+- - 3D Model: d-model
+- Installation: installation
+- - Changing the Propeller: changing-the-propeller
+- - Mounting Options: mounting-options
+- - Electrical Connections: electrical-connections
+- Operation: operation
+- - Clicking Noise: clicking-noise
+- Care and Maintenance: care-and-maintenance
+- - Normal Care: normal-care
+- - Disassembly / Assembly: disassembly--assembly
+- Troubleshooting: troubleshooting
+- Details: details
+- - Test Results: test-results
+- - Quality Control: quality-control
+---
+
+#Introduction
+
+The T100 Thruster is a low-cost high performance thruster for marine robotics. It was originally launched in 2014 through a [Kickstarter campaign](#).
+
+##Safety
+
+Always practice caution when you're working with electricity in water and with the spinning blades of the propeller. Keep body parts away from the thruster inlet and outlet to avoid injury.
+
+##Quick Start
+
+Show wiring diagram and quick list of steps to operate.
+
+#T100 Thruster Specifications
+
+##Specification Table
+
+| ----------------------- | ----------------------------- |
+|                   **Performance**                       |
+| ----------------------- | ----------------------------- |
+| Maximum Forward Thrust  | 2.36 kg       | 5.2 lbf       |
+| Maximum Reverse Thrust  | 1.85 kg       | 4.1 lbf       |
+| Minimum Thrust          | 0.01 kg       | 0.02 lbf      |
+| Rotational Speed        | 300-4200 rev/min              |
+| ----------------------- | ----------------------------- |
+|                    **Electrical**                       |
+| ----------------------- | ----------------------------- |
+| Operating Voltage       | 6-16 volts                    |
+| Max Current             | 12.5 amps                     |
+| Max Power               | 135 watts                     |
+| ----------------------- | ----------------------------- |
+|                    **Physical**                         |
+| ----------------------- | ----------------------------- |
+| Length (without BlueESC)| 102 mm        | 4.0 in        |
+| Diameter                | 100 mm        | 3.9 in        |
+| Propeller Diameter      | 76 mm         | 3.0 in        |
+| Mounting Hole Threads   | M3 x 0.5                      |
+| Mounting Hole Spacing   | 19 mm         | 0.75 in       |
+| Cable Length            | 1.0 m         | 39 in         |
+| Cable Diameter          | 6.3 mm        | 0.25 in       |
+
+##Performance Charts
+
+Chart images goes here.
+
+##Dimensions
+
+Put dimensional drawing here.
+
+##3D Model
+
+###Thruster (without BlueESC)
+
+| File Type                  | Link                          |
+| -------------------------- | ----------------------------- |
+| SolidWorks Part (.sldprt)  | [T100-THRUSTER-R1-PUBLIC.sldprt](#) |
+| STEP (.step)               | [T100-THRUSTER-R1-PUBLIC.step](#)   |
+| IGES (.igs)                | [T100-THRUSTER-R1-PUBLIC.igs](#) |
+| STL (.stl)                 | [T100-THRUSTER-R1-PUBLIC.stl](#) |
+
+###Mounting Bracket
+
+| File Type                  | Link                          |
+| -------------------------- | ----------------------------- |
+| SolidWorks Part (.sldprt)  | [T100-BRACKET-R1-PUBLIC.sldprt](#) |
+| STEP (.step)               | [T100-BRACKET-R1-PUBLIC.step](#)   |
+| IGES (.igs)                | [T100-BRACKET-R1-PUBLIC.igs](#) |
+| STL (.stl)                 | [T100-BRACKET-R1-PUBLIC.stl](#) |
+
+#Installation
+
+The T100 Thruster is easy to install in many different applications. It was designed with versatile mounting options for a variety of different applications. It includes a counter-rotating set of propellers.
+
+##Changing the Propeller
+
+The T100 Thruster comes with two propellers, one clockwise and one counter-clockwise turning. This allows the torque from two thrusters to be cancelled if they are operated along the same axis with opposite propellers.
+
+Changing the propeller is easy and should only take a minute.
+
+*Tools Needed:*
+
+* Phillips screwdriver with small tip
+* 2 mm hex key
+
+*Steps:*
+
+1. Using the screwdriver, remove the four outer screws from the nozzle.
+
+2. Pull the nozzle away from the rest of the thruster and set aside.
+
+3. Remove the two screws securing the propeller with the hex key.
+
+4. Remove the propeller and replace with the new propeller.
+
+5. Re-install propeller screws and nozzle screws.
+
+##Mounting Options
+
+The T100 Thruster has several mounting options. The nozzle has four mounting holes that can be used to secure directly to vehicle. 
+
+Occasionally, these holes may not be convenient or it may be difficult to secure the screws. In this case, the mounting bracket may be a better option. The mounting bracket is secured to the thruster through the four screw holes. It can be mounted in two different orientation as shown below.
+
+[Image of front/back orientation]
+*Thruster with bracket in front/back orientation*
+
+[Image of side/side orientation]
+*Thruster with bracket in side to side orientation*
+
+The mounting bracket also includes a guide hole that can be drilled out with a 1/4" (6.5mm) drill bit to allow the wire to pass directly through the bracket.
+
+[Image of bracket with hole drilled for wire]
+*Bracket with cable holes drilled out*
+
+Which mounting option you choose depends on your application.
+
+##Electrical Connections
+
+###Connecting to an External ESC
+
+The thruster has a cable containing three wires. These three wires must be connected to the three motor wires on the electronic speed controller (ESC). The order does not matter, but if the motor direction is the reverse of what is desired, switch two of the wires. 
+
+The three wires in the cable (green, white, blue) are always connected to the same motor phases, so connecting the colors in a consistent fashion will result in all motors rotating in the same direction.
+
+###Connecting the BlueESC
+
+To be completed.
+
+#Operation
+
+The thruster requires a brushless electronic speed controller (ESC). If you are using the BlueRobotics Basic ESC or BlueESC, please see the appropriate product page for instructions.
+
+* [Basic ESC](/besc/)
+* [BlueESC](/bluesc/)
+
+**Important:**
+Do not operate the thruster for extended periods out of water. The bearings are lubricated by the water and vibration and noise will be greater when dry.
+
+##Clicking Noise
+
+If you hear a clicking noise during operation, especially when operating in air, do not be alarmed. It's normal.
+
+The thruster uses solid plastic bushing and due to the tolerances of the bushings and motors shafts, the shaft can move slightly in the bearing. The noise is drastically reduced or eliminated when operated in water. The water acts as a lubricant for the bearings and smooths operation.
+
+#Care and Maintenance
+
+The T100 Thruster does not require much maintenence.
+
+##Normal Care
+
+During normal use:
+
+* Rinse with fresh water after use in saltwater to minimize the accumulation of salt deposits.
+
+* Rinse after operating in sandy environments to remove sand particles.
+
+##Disassembly / Assembly
+
+Occasionally it may be necessary to disassemble the thruster.
+
+*Tools Needed:*
+
+* 1.5 mm, 2 mm, 2.5 mm hex keys
+* Phillips screwdriver with small tip
+
+*Steps:*
+
+1. Remove the four phillips-head screws from the outside of the nozzle.
+
+2. Remove the nozzle from the rest of the motor and set aside.
+
+3. Using the 2.5 mm hex key, remove the screws securing the nose cone.
+
+4. Remove the nose cone and set aside.
+
+5. Manually turn the propeller until the shaft collar set screw is aligned with the notch in the plastic. Using the 1.5 mm hex key, loosen the shaft collar set screw.
+
+6. After being used in water, the shaft collar can be difficult to remove. Do not try to pry it up. Instead, pull on the propeller from the opposite side to remove the shaft from the shaft collar.
+
+7. Remove the propeller screws from the rotor with the 2 mm hex key and pull the propeller away from the rotor.
+
+8. Repeat these steps in the reverse direction to reassembly the thruster.
+
+#Details
+
+For all the engineers out there, here's some more info.
+
+##Test Results
+
+Results of long-endurance tests, sand and debris tests, depth tests.
+
+##Quality Control
+
+We perform the following tests on every thruster before they are shipped.
+
+* **Insulation Test**, also know as a hipot test. We submerge the thruster in water and measure current leakage at high voltage (250V) to ensure that the insulation is sufficient.
+
+* **Spin Test**. The thruster is operated in air across the entire speed range to ensure that it operates correctly.
+
+* **Visual Inspection**. Each thruster is inspected for visual issues or damage.
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />

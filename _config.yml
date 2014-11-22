@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   The BlueRobotics documentation site has instructions, tutorials, and guides for
   using BlueRobotics' products. You can contribute through Github!
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://docs.bluerobotics.com" # the base hostname & protocol for your site
+url: "http://docs.bluerobotics.com"
 twitter_username: bluerobotics
 github_username:  bluerobotics
 

@@ -2,13 +2,9 @@
 # Style CSS for Appearance
 ---
 
-h1,h2 {
-
-}
-
 h1 {
 	color: #2699D0;
-	font-size: 32px;
+	font-size: 28px;
 	font-weight: 600;
 }
 
@@ -16,4 +12,20 @@ h2 {
 	color: rgb(100,100,100);
 	font-size: 22px;
 	font-weight: 400;
+}
+
+h3 {
+	color: rgb(140,140,140);
+	font-size: 18px;
+	font-weight: 400;
+}
+
+h4 {
+	color: rgb(160,160,160);
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.content ul li {
+	margin-left: 30px;
 }
