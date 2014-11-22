@@ -37,7 +37,10 @@ Always practice caution when you're working with electricity in water and with t
 
 ##Quick Start
 
-Show wiring diagram and quick list of steps to operate.
+<img src="/assets/images/t100-wiring-1.png" class="img-responsive" style="max-width:800px" />
+
+1. Connect motor wires to ESC and connect the ESC to power and a signal.
+2. Send a signal and the thruster will start spinning. That's it.
 
 ##Important Notes
 
@@ -84,7 +87,7 @@ Chart images goes here.
 
 ##Dimensions
 
-Put dimensional drawing here.
+<img src="/assets/images/t100-three-view-1.png" class="img-responsive" style="max-width:800px" />
 
 ##3D Model
 
@@ -96,6 +99,7 @@ Put dimensional drawing here.
 | STEP (.step)               | [T100-THRUSTER-R1-PUBLIC.step](#)   |
 | IGES (.igs)                | [T100-THRUSTER-R1-PUBLIC.igs](#) |
 | STL (.stl)                 | [T100-THRUSTER-R1-PUBLIC.stl](#) |
+| All Formats in a Zip File (.zip)   | [T100-THRUSTER-R1-PUBLIC.zip](#) |
 
 ###Mounting Bracket
 
@@ -105,6 +109,7 @@ Put dimensional drawing here.
 | STEP (.step)               | [T100-BRACKET-R1-PUBLIC.step](#)   |
 | IGES (.igs)                | [T100-BRACKET-R1-PUBLIC.igs](#) |
 | STL (.stl)                 | [T100-BRACKET-R1-PUBLIC.stl](#) |
+| All Formats in a Zip File (.zip)   | [T100-BRACKET-R1-PUBLIC.zip](#) |
 
 #Installation
 
@@ -139,10 +144,12 @@ The T100 Thruster has several mounting options. The nozzle has four mounting hol
 
 Occasionally, these holes may not be convenient or it may be difficult to secure the screws. In this case, the mounting bracket may be a better option. The mounting bracket is secured to the thruster through the four screw holes. It can be mounted in two different orientation as shown below.
 
-[Image of front/back orientation]
+<img src="/assets/images/t100-with-bracket-fb-1.png" class="img-responsive" style="max-width:500px" />
+
 *Thruster with bracket in front/back orientation*
 
-[Image of side/side orientation]
+<img src="/assets/images/t100-with-bracket-ss-1.png" class="img-responsive" style="max-width:500px" />
+
 *Thruster with bracket in side to side orientation*
 
 The mounting bracket also includes a guide hole that can be drilled out with a 1/4" (6.5mm) drill bit to allow the wire to pass directly through the bracket.
