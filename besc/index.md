@@ -73,7 +73,7 @@ When working with electricity, especially in water, always practice caution. Alw
 
 This example uses the Arduino Servo library to control the speed controller. This provides an update rate of 50 Hz and can use any pin on the Arduino board as the "servoPin".
 
-```c
+~~~~~~~~~~
 #include <Servo.h>
 
 byte servoPin = 9;
@@ -91,7 +91,7 @@ void loop() {
 
 	servo.writeMicroseconds(signal); // Send signal to ESC.
 }
-```
+~~~~~~~~~~~~~~~~
 
 #Advanced
 
@@ -105,16 +105,16 @@ To compile the firmware, you'll need the avra AVR Assembler.
 
 *Mac:* (Uses Homebrew)
 
-```bash
+~~~ bash
 brew update
 brew install avra
 make afro_nfet.hex
-```
+~~~
 
 ###Firmware Flashing
 
 The ESC includes a bootloader that allows flashing through the PWM signal wire using a programming like the [Turnigy USB Linker](http://www.hobbyking.com/hobbyking/store/__10628__turnigy_usb_linker_for_aquastar_super_brain.html) or the [AfroESC Programmer](http://www.hobbyking.com/hobbyking/store/__39437__afro_esc_usb_programming_tool.html). 
 
-```bash
+~~~ bash
 avrdude -c stk500v2 -b 9600 -P [programmer port] -p m8 -U flash:w:afro_nfet.hex:i
-```
+~~~
