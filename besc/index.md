@@ -73,7 +73,7 @@ When working with electricity, especially in water, always practice caution. Alw
 
 This example uses the Arduino Servo library to control the speed controller. This provides an update rate of 50 Hz and can use any pin on the Arduino board as the "servoPin".
 
-~~~~~~~~~~
+~~~~~~~~~~ cpp
 #include <Servo.h>
 
 byte servoPin = 9;
