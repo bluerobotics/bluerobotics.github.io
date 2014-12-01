@@ -232,11 +232,11 @@ Occasionally it may be necessary to disassemble the thruster.
 
 #Troubleshooting
 
->The motor does not start but the propeller tries to move.
+**The motor does not start but the propeller tries to move.**
 
 This can be caused by a disconnected motor wire or a short between motor wires.Check that all three motor wires are connected and not shorting.
 
->The motor is jammed when turned by hand.
+**The motor is jammed when turned by hand.**
 
 This can be caused by something jamming the propeller or by major internal damaged caused by overheating, short circuits, or heavily worn bearings. Please disassemble the thruster and inspect for damage or blockage.
 
@@ -258,4 +258,4 @@ We perform the following tests on every thruster before they are shipped.
 
 * **Visual Inspection**. Each thruster is inspected for visual issues or damage.
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />

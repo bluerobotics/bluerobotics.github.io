@@ -65,13 +65,12 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | ----------------------- | ----------------------------- |
 |                    **Physical**                         |
 | ----------------------- | ----------------------------- |
-| Length (without BlueESC)| 102 mm        | 4.0 in        |
-| Diameter                | 100 mm        | 3.9 in        |
-| Propeller Diameter      | 76 mm         | 3.0 in        |
+| Overall Length          | 54 mm         | 2.12 in       |
+| Diameter                | 32 mm         | 1.26 in       |
+| Shaft Diameter          | 4.0 mm        | 0.157 in      | 
 | Mounting Hole Threads   | M3 x 0.5                      |
-| Mounting Hole Spacing   | 19 mm         | 0.75 in       |
-| Cable Length            | 1.0 m         | 39 in         |
-| Cable Diameter          | 6.3 mm        | 0.25 in       |
+| Base Mounting Hole Spacing | 16 mm & 19 mm | 0.63 in & 0.75 in |
+| Top Mounting Hole Spacing  | 19 mm         | 0.75 in    |
 
 ##Performance Charts
 
@@ -154,11 +153,11 @@ Occasionally it may be necessary to disassemble the motor.
 
 #Troubleshooting
 
->The motor does not start but the propeller tries to move.
+**The motor does not start but the propeller tries to move.**
 
 This can be caused by a disconnected motor wire or a short between motor wires.Check that all three motor wires are connected and not shorting.
 
->The motor is jammed when turned by hand.
+**The motor is jammed when turned by hand.**
 
 This can be caused by something jamming the propeller or by major internal damaged caused by overheating, short circuits, or heavily worn bearings. Please disassemble the motor and inspect for damage or blockage.
 
@@ -181,3 +180,4 @@ We perform the following tests on every motor before they are shipped.
 * **Visual Inspection**. Each motor is inspected for visual issues or damage.
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
