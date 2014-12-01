@@ -12,7 +12,7 @@ nav:
 - Example Code: example-code
 - - Arduino: arduino
 - Advanced: advanced
-- - Firmware Files
+- - Firmware Files: firmware-files
 - - Firmware Update and Customization: firmware-update-and-customization
 ---
 
@@ -58,6 +58,7 @@ You are welcome to purchase the ESCs directly and reprogram them yourself. We of
 | Stopped       | 1500 microseconds             |
 | Max forward   | 1900 microseconds             |
 | Max reverse   | 1100 microseconds             |
+| Signal Deadband| +/- 25 microseconds (centered around 1500 microseconds) |
 
 ##3D Model
 
