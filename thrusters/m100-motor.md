@@ -8,7 +8,7 @@ nav:
 - - Safety: safety
 - - Quick Start: quick-start
 - - Important Notes: important-notes
-- Specifications: t100-thruster-specifications
+- Specifications: m100-motor-specifications
 - - Specification Table: specification-table
 - - Performance Charts: performance-charts
 - - Dimensions: dimensions
@@ -32,13 +32,13 @@ The M100 Motor is a brushless electric motor for use underwater. It is pressure 
 
 ##Safety
 
-Always practice caution when you're working with electricity in water and with the spinning blades of the propeller. Keep body parts away from the thruster inlet and outlet to avoid injury.
+Always practice caution when you're working with electricity in water and with the spinning blades of the propeller. Keep body parts away from the motor to avoid injury.
 
 ##Quick Start
 
 1. Solder wires from ESC to pads on motor.
 2. Waterproof solder connection with epoxy or other potting compound.
-3. Send a signal to the ESC and the thruster will start spinning. That's it.
+3. Send a signal to the ESC and the motor will start spinning. That's it.
 
 ##Important Notes
 
@@ -83,8 +83,6 @@ Chart images goes here.
 
 ##3D Model
 
-###Thruster
-
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
 | SolidWorks Part (.sldprt)  | [M100-MOTOR-R1-PUBLIC.sldprt](#) |
@@ -101,9 +99,9 @@ The M100 Motor is easy to install in many different applications. It was designe
 
 ###Connecting to an External ESC
 
-The thruster has a cable containing three wires. These three wires must be connected to the three motor wires on the electronic speed controller (ESC). The order does not matter, but if the motor direction is the reverse of what is desired, switch two of the wires. 
+The motor has a solder pads to connect to three wires. These three pads must be connected to the three motor wires on the electronic speed controller (ESC). The order does not matter, but if the motor direction is the reverse of what is desired, switch two of the wires. 
 
-The three wires in the cable (green, white, blue) are always connected to the same motor phases, so connecting the colors in a consistent fashion will result in all motors rotating in the same direction.
+The three solder pads are always connected to the same motor phases, so connecting in a consistent fashion will result in all motors rotating in the same direction.
 
 ###Connecting the BlueESC
 
@@ -111,23 +109,18 @@ To be completed.
 
 #Operation
 
-The thruster requires a brushless electronic speed controller (ESC). If you are using the BlueRobotics BasicESC or BlueESC, please see the appropriate product page for instructions.
+The motor requires a brushless electronic speed controller (ESC). If you are using the BlueRobotics BasicESC or BlueESC, please see the appropriate product page for instructions.
 
 * [BasicESC](/besc/)
 * [BlueESC](/bluesc/)
-
-**Important:**
-Do not operate the thruster for extended periods out of water. The bearings are lubricated by the water and vibration and noise will be greater when dry.
 
 ##Clicking Noise
 
 If you hear a clicking noise during operation, especially when operating in air, do not be alarmed. It's normal.
 
-The thruster uses solid plastic bushing and due to the tolerances of the bushings and motors shafts, the shaft can move slightly in the bearing. The noise is drastically reduced or eliminated when operated in water. The water acts as a lubricant for the bearings and smooths operation.
+The motor uses solid plastic bushing and due to the tolerances of the bushings and motors shafts, the shaft can move slightly in the bearing. The noise is drastically reduced or eliminated when operated in water. The water acts as a lubricant for the bearings and smooths operation.
 
 #Care and Maintenance
-
-The T100 Thruster does not require much maintenence.
 
 ##Normal Care
 
@@ -139,11 +132,11 @@ During normal use:
 
 If operated for extended periods in the water:
 
-* Occasionally clean biological fouling and mineral deposits from the thruster or performance may be impacted.
+* Occasionally clean biological fouling and mineral deposits from the motor or performance may be impacted.
 
 ##Disassembly / Assembly
 
-Occasionally it may be necessary to disassemble the thruster.
+Occasionally it may be necessary to disassemble the motor.
 
 **Tools Needed:**
 
@@ -167,7 +160,7 @@ This can be caused by a disconnected motor wire or a short between motor wires.C
 
 >The motor is jammed when turned by hand.
 
-This can be caused by something jamming the propeller or by major internal damaged caused by overheating, short circuits, or heavily worn bearings. Please disassemble the thruster and inspect for damage or blockage.
+This can be caused by something jamming the propeller or by major internal damaged caused by overheating, short circuits, or heavily worn bearings. Please disassemble the motor and inspect for damage or blockage.
 
 #Details
 
@@ -179,7 +172,7 @@ Results of long-endurance tests, sand and debris tests, depth tests.
 
 ##Quality Control
 
-We perform the following tests on every thruster before they are shipped.
+We perform the following tests on every motor before they are shipped.
 
 * **Insulation Test**, also know as a hipot test. We submerge the motor in water and measure current leakage at high voltage (250V) to ensure that the insulation is sufficient.
 
