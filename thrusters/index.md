@@ -51,7 +51,7 @@ Do not operate the thruster for extended periods out of water. The bearings are 
 The thruster can handle saltwater and sandy environments pretty well, but it does not get along with seaweed. Avoid sucking seaweed into the thruster to avoid damage.
 
 <i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
-A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings, not by anything contacting.
+A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.
 
 #T100 Thruster Specifications
 

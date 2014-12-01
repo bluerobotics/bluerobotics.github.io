@@ -12,6 +12,7 @@ nav:
 - Example Code: example-code
 - - Arduino: arduino
 - Advanced: advanced
+- - Firmware Files
 - - Firmware Update and Customization: firmware-update-and-customization
 ---
 
@@ -23,7 +24,7 @@ You are welcome to purchase the ESCs directly and reprogram them yourself. We of
 
 ##Safety 
 
-When working with electricity, especially in water, always practice caution. Always ensure that connections are secure and watertight. Keep your body away from spinning motors and propellers.
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with electricity, especially in water, always practice caution. Always ensure that connections are secure and watertight. Keep your body away from spinning motors and propellers.
 
 ##Quick Start
 
@@ -95,6 +96,12 @@ void loop() {
 
 #Advanced
 
+##Firmware Files
+
+The compiled firmware files can be downloaded here: 
+
+[<i class="fa fa-download fa-fw"></i> Basic ESC Firmware (BESC30-R1)](#)
+
 ##Firmware Update and Customization
 
 The Basic ESC uses the [tgy firmware](http://github.com/bluerobotics/tgy) which is open source and editable. There are many parameters that can be changed to change the performance of the speed controller. 
@@ -116,5 +123,5 @@ make afro_nfet.hex
 The ESC includes a bootloader that allows flashing through the PWM signal wire using a programming like the [Turnigy USB Linker](http://www.hobbyking.com/hobbyking/store/__10628__turnigy_usb_linker_for_aquastar_super_brain.html) or the [AfroESC Programmer](http://www.hobbyking.com/hobbyking/store/__39437__afro_esc_usb_programming_tool.html). 
 
 ~~~ bash
-avrdude -c stk500v2 -b 9600 -P [programmer port] -p m8 -U flash:w:afro_nfet.hex:i
+avrdude -c stk500v2 -b 9600 -P [programmer port] -p m8 -U flash:w:afro_nfet_besc30_r1.hex:i
 ~~~
