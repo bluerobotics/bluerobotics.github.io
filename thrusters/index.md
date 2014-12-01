@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Thruster Documentation
+permalink: /thrusters/
 order: 0
 nav:
 - Introduction: introduction
@@ -16,6 +17,7 @@ nav:
 - - Changing the Propeller: changing-the-propeller
 - - Mounting Options: mounting-options
 - - Electrical Connections: electrical-connections
+- - How to Cut and Strip the Cable: how-to-cut-and-strip-the-cable
 - Operation: operation
 - - Clicking Noise: clicking-noise
 - Care and Maintenance: care-and-maintenance
@@ -171,6 +173,31 @@ The three wires in the cable (green, white, blue) are always connected to the sa
 
 To be completed.
 
+##How to Cut and Strip the Cable
+
+The thruster comes with a tough urethane-jacketed cable. This is great for use underwater, but it can be a little difficult to remove the jacket from the wires if you want to cut the cable to a shorter length. During production, we use a thermal wire strippers, but the jacket can also be removed with a razor blade or hobby knife.
+
+**Tools Needed:**
+
+* Wire cutters
+* Wire strippers for 18 AWG wire
+* Razor blade or hobby knife
+* Glove for hand protection
+
+**Steps:**
+
+1. Use the wire cutters to cut the cable to the desired length. Remember, it's always easier to cut off more so be conservative.
+
+2. Bend the cable sharply and gently cut the jacket with the knife. Be careful not to cut too deep.
+
+3. Rotate the wire so the other side is exposed and repeat Step 2.
+
+4. Grab the end firmly and pull the jacket off of the cable.
+
+5. The white teflon tape between the jacket and wires can be removed. Just peel it away.
+
+6. Strip the ends of each wire with the wire strippers, using the 18 AWG slot.
+
 #Operation
 
 The thruster requires a brushless electronic speed controller (ESC). If you are using the BlueRobotics BasicESC or BlueESC, please see the appropriate product page for instructions.
@@ -234,7 +261,7 @@ Occasionally it may be necessary to disassemble the thruster.
 
 **The motor does not start but the propeller tries to move.**
 
-This can be caused by a disconnected motor wire or a short between motor wires.Check that all three motor wires are connected and not shorting.
+This can be caused by a disconnected motor wire or a short between motor wires. Check that all three motor wires are connected and not shorting.
 
 **The motor is jammed when turned by hand.**
 
