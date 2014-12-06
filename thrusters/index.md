@@ -97,21 +97,21 @@ Chart images goes here.
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [T100-THRUSTER-R1-PUBLIC.sldprt](#) |
-| STEP (.step)               | [T100-THRUSTER-R1-PUBLIC.step](#)   |
-| IGES (.igs)                | [T100-THRUSTER-R1-PUBLIC.igs](#) |
-| STL (.stl)                 | [T100-THRUSTER-R1-PUBLIC.stl](#) |
-| All Formats in a Zip File (.zip)   | [T100-THRUSTER-R1-PUBLIC.zip](#) |
+| SolidWorks Part (.sldprt)  | [/thrusters/cad/T100-THRUSTER-R1.SLDPRT](#) |
+| STEP (.step)               | [/thrusters/cad/T100-THRUSTER-R1.STEP](#)   |
+| IGES (.igs)                | [/thrusters/cad/T100-THRUSTER-R1.IGS](#) |
+| STL (.stl)                 | [/thrusters/cad/T100-THRUSTER-R1.STL](#) |
+| All Formats in a Zip File (.zip)   | [/thrusters/cad/T100-THRUSTER-R1.zip](#) |
 
 ###Mounting Bracket
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [T100-BRACKET-R1-PUBLIC.sldprt](#) |
-| STEP (.step)               | [T100-BRACKET-R1-PUBLIC.step](#)   |
-| IGES (.igs)                | [T100-BRACKET-R1-PUBLIC.igs](#) |
-| STL (.stl)                 | [T100-BRACKET-R1-PUBLIC.stl](#) |
-| All Formats in a Zip File (.zip)   | [T100-BRACKET-R1-PUBLIC.zip](#) |
+| SolidWorks Part (.sldprt)  | [/thrusters/cad/T100-BRACKET-R1.SLDPRT](#) |
+| STEP (.step)               | [/thrusters/cad/T100-BRACKET-R1.STEP](#)   |
+| IGES (.igs)                | [/thrusters/cad/T100-BRACKET-R1.IGS](#) |
+| STL (.stl)                 | [/thrusters/cad/T100-BRACKET-R1.STL](#) |
+| All Formats in a Zip File (.zip)   | [/thrusters/cad/T100-BRACKET-R1.zip](#) |
 
 #Installation
 
