@@ -178,6 +178,3 @@ We perform the following tests on every motor before they are shipped.
 * **Spin Test**. The motor is operated in air across the entire speed range to ensure that it operates correctly.
 
 * **Visual Inspection**. Each motor is inspected for visual issues or damage.
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />

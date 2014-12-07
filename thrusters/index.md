@@ -284,5 +284,3 @@ We perform the following tests on every thruster before they are shipped.
 * **Spin Test**. The thruster is operated in air across the entire speed range to ensure that it operates correctly.
 
 * **Visual Inspection**. Each thruster is inspected for visual issues or damage.
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
