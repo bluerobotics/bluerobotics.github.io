@@ -38,9 +38,13 @@ This heading is shown as a submenu on the navbar.
 ~~~~~~~~
 
 #h1 heading
+
 ##h2 heading
+
 ###h3 heading
+
 ####h4 heading
+
 #####h5 heading
 
 ##Tables
@@ -58,6 +62,14 @@ This heading is shown as a submenu on the navbar.
 | Content Cell  | Content Cell  |
 
 ##Code
+
+~~~~~~~~ markdown
+~~~~~~ javascript
+var example = i;
+i++;
+console.log(i);
+~~~~~~~
+~~~~~~~~~~
 
 ~~~~~~ javascript
 var example = i;
