@@ -38,4 +38,8 @@ This page is hosted by and version-controlled through Github.com. Check out the 
 
 #License
 
-All content in this documentation is licensed under the Creative Commons Share-Alike license.
+
+
+[<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />](http://creativecommons.org/licenses/by-sa/4.0/)
+
+The Blue Robotics Documentation is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
