@@ -20,22 +20,22 @@ This page shows examples of the markdown text that can be used in this documenta
 
 This heading is shown as a submenu on the navbar.
 
-```yaml
+~~~~~~ yaml
 - Introduction: introduction
 - - Sub Menu: sub-menu-example
-```
+~~~~~~~
 
 #Examples
 
 ##Headings
 
-```markdown
+~~~~~~ markdown
 #h1 heading
 ##h2 heading
 ###h3 heading
 ####h4 heading
 #####h5 heading
-```
+~~~~~~~~
 
 #h1 heading
 ##h2 heading
@@ -45,12 +45,12 @@ This heading is shown as a submenu on the navbar.
 
 ##Tables
 
-'''markdown
+~~~~~~ markdown
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
-'''
+~~~~~~~~~
 
 | First Header  | Second Header |
 | ------------- | ------------- |
@@ -59,8 +59,8 @@ This heading is shown as a submenu on the navbar.
 
 ##Code
 
-```javascript
+~~~~~~ javascript
 var example = i;
 i++;
 console.log(i);
-```
+~~~~~~~
