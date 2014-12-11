@@ -84,11 +84,11 @@ Chart images goes here.
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [M100-MOTOR-R1-PUBLIC.sldprt](#) |
-| STEP (.step)               | [M100-MOTOR-R1-PUBLIC.step](#)   |
-| IGES (.igs)                | [M100-MOTOR-R1-PUBLIC.igs](#) |
-| STL (.stl)                 | [M100-MOTOR-R1-PUBLIC.stl](#) |
-| All Formats in a Zip File (.zip)   | [M100-MOTOR-R1-PUBLIC.zip](#) |
+| SolidWorks Part (.sldprt)  | [M100-MOTOR-R1.SLDPRT](/thrusters/cad/M100-MOTOR-R1.SLDPRT) |
+| STEP (.step)               | [M100-MOTOR-R1.STEP](/thrusters/cad/M100-MOTOR-R1.STEP)   |
+| IGES (.igs)                | [M100-MOTOR-R1.IGS](/thrusters/cad/M100-MOTOR-R1.IGS) |
+| STL (.stl)                 | [M100-MOTOR-R1.STL](/thrusters/cad/M100-MOTOR-R1.STL) |
+| All Formats in a Zip File (.zip)   | [M100-MOTOR-R1.zip](#) |
 
 #Installation
 
