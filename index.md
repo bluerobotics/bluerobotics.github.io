@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Thruster Documentation
+title: Documentation
 order: 0
 nav:
 - Home: blue-robotics-documentation

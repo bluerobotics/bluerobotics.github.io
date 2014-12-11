@@ -27,6 +27,7 @@ nav:
 - Details: details
 - - Test Results: test-results
 - - Quality Control: quality-control
+- - Painting the Thruster: painting-the-thruster
 ---
 
 #Introduction
@@ -284,3 +285,7 @@ We perform the following tests on every thruster before they are shipped.
 * **Spin Test**. The thruster is operated in air across the entire speed range to ensure that it operates correctly.
 
 * **Visual Inspection**. Each thruster is inspected for visual issues or damage.
+
+##Painting the Thruster
+
+If you want the thruster to match the color scheme of your vehicle, you can paint the propeller and other components. We have tested [Tamiya Spray Paint for Polycarbonate](http://www.tamiyausa.com/items/paints-amp-finishes-60/spray-ps-(polycarbonate)-61700) which comes in many colors and works well on the plastic.

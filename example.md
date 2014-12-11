@@ -23,6 +23,10 @@ This heading is shown as a submenu on the navbar.
 ~~~~~~ yaml
 - Introduction: introduction
 - - Sub Menu: sub-menu-example
+- Examples: examples
+- - Headings: headings
+- - Tables: tables
+- - Code: code
 ~~~~~~~
 
 #Examples
