@@ -88,7 +88,7 @@ Chart images goes here.
 | STEP (.step)               | [M100-MOTOR-R1.STEP](/thrusters/cad/M100-MOTOR-R1.STEP)   |
 | IGES (.igs)                | [M100-MOTOR-R1.IGS](/thrusters/cad/M100-MOTOR-R1.IGS) |
 | STL (.stl)                 | [M100-MOTOR-R1.STL](/thrusters/cad/M100-MOTOR-R1.STL) |
-| All Formats in a Zip File (.zip)   | [M100-MOTOR-R1.zip](#) |
+| All Formats in a Zip File (.zip)   | [M100-MOTOR-R1.zip](/thrusters/cad/M100-MOTOR-R1.zip) |
 
 #Installation
 
