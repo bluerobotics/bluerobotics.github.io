@@ -213,7 +213,7 @@ Do not operate the thruster for extended periods out of water. The bearings are 
 
 If you hear a clicking noise during operation, especially when operating in air, do not be alarmed. It's normal.
 
-The thruster uses solid plastic bushing and due to the tolerances of the bushings and motors shafts, the shaft can move slightly in the bearing. The noise is drastically reduced or eliminated when operated in water. The water acts as a lubricant for the bearings and smooths operation.
+The thruster uses solid plastic bushings and due to the tolerances of the bushings and motors shafts, the shaft can move slightly in the bearing. The noise is drastically reduced or eliminated when operated in water. The water acts as a lubricant for the bearings and smooths operation.
 
 #Care and Maintenance
 
