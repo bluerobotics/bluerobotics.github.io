@@ -73,28 +73,40 @@ ul {
     margin-bottom: 20px;
 }
 
-.affix-top,.affix{
-    position: static;
-    width:100%;
-    top:20px;
-}
-
 .affix-bottom {
     position: relative;
     width:100%;
     bottom:0px;
 }
 
-/*@media (min-width: 979px) {
+// Default query for xs
+#sidebar.affix-top, #sidebar.affix {
+    position: static;
+    width:100%;
+}
+
+@media (min-width: 768px) {
   #sidebar.affix-top {
     position: static;
-    margin-top:30px;
-    width:100%;
+    max-width:185px;
   }
   
   #sidebar.affix {
     position: fixed;
-    top:120px;
-    width:100%;
+    top:20px;
+    max-width:185px;
   }
-}*/
+}
+
+@media (min-width: 992px) {
+  #sidebar.affix-top {
+    position: static;
+    max-width: 250px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:20px;
+    max-width: 250px;
+  }
+}
