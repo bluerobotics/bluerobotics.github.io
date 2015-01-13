@@ -1,0 +1,45 @@
+---
+# CSS for Right Sidebar with Links
+---
+
+ul {
+    margin-right: 0px;
+}
+
+/* all links */
+.link-sidebar .nav>li>a {
+    color: #999;
+    border-right: 2px solid transparent;
+    text-align: right;
+    padding: 4px 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* active & hover links */ 
+.link-sidebar .nav>li>a:hover, 
+.link-sidebar .nav>li>a:focus {
+    color: #2699D0; //#563d7c;                 
+    text-decoration: none;          
+    background-color: transparent;  
+    border-right-color: #2699D0; //#563d7c; 
+}
+/* all active links */
+.link-sidebar .nav>.active:hover>a,
+.link-sidebar .nav>.active:focus>a {
+    font-weight: 700;
+}
+
+.link-heading {
+	margin-top: 20px;
+	margin-right: 20px;
+	font-size: 1.1em;
+	font-weight: 500;
+	color: #2699D0;
+	text-align: left;
+	border-bottom: 1px solid #EEE;
+}
+
+.sidebar-link a {
+	font-size: 0.8em !important;
+}

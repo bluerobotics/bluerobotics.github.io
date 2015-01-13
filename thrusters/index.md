@@ -28,6 +28,11 @@ nav:
 - - Test Results: test-results
 - - Quality Control: quality-control
 - - Painting the Thruster: painting-the-thruster
+
+store-links:
+- T100 Thruster: http://bluerobotics.com/store/thrusters/t100-thruster/
+- T200 Thruster: http://bluerobotics.com/store/thrusters/t200-thruster/
+- Basic ESC: http://bluerobotics.com/store/speed-controllers/besc-30-r1/
 ---
 
 #Introduction
