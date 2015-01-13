@@ -14,6 +14,13 @@ nav:
 - Advanced: advanced
 - - Firmware Files: firmware-files
 - - Firmware Update and Customization: firmware-update-and-customization
+
+store-links:
+- Basic ESC: http://bluerobotics.com/store/speed-controllers/besc-30-r1/
+
+manual-links:
+- T100/T200 Thrusters: /thrusters/
+- M100 Motor: /thrusters/motors/
 ---
 
 #Introduction

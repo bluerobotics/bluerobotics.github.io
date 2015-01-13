@@ -24,6 +24,14 @@ nav:
 - Details: details
 - - Test Results: test-results
 - - Quality Control: quality-control
+
+store-links:
+- M100 Motor: http://bluerobotics.com/store/thrusters/m100-motor/
+- Basic ESC: http://bluerobotics.com/store/speed-controllers/besc-30-r1/
+
+manual-links:
+- T100/T200 Thrusters: /thrusters/
+- Basic ESC: /besc/
 ---
 
 #Introduction
