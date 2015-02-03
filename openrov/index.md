@@ -19,7 +19,10 @@ nav:
 - - Step 7 - Install in the OpenROV: step-7-install-in-the-openrov
 - - Step 8 - Replace Thrust Guard: step-8-replace-thrust-guard
 - Forward Thrusters: forward-thruster-replacement
-
+- - Step 1 - Remove the Forward Thrusters: step-1-remove-the-forward-thrusters
+- - Step 2 - Remove the Plastic Thrust Guards: step-2-remove-the-plastic-thrust-guards
+- - Step 3 - Drill Holes for the T100 Thruster: step-3-drill-holes-for-the-t100-thruster
+- - Step 4 - Install the T100 Thruster: step-4-install-the-t100-thruster
 ---
 
 #Introduction
@@ -147,6 +150,8 @@ Replace the thrust guard on top. The motor shaft should stick through the center
 
 #Forward Thruster Replacement
 
+##Step 1: Remove the Forward Thrusters
+
 <img src="/assets/images/tutorials/openrov-kit/openrov-19.png" class="img-responsive" />
 
 First, cut the zip ties that secure the forward thruster wires.
@@ -154,6 +159,8 @@ First, cut the zip ties that secure the forward thruster wires.
 <img src="/assets/images/tutorials/openrov-kit/openrov-20.png" class="img-responsive" />
 
 Remove both thrusters using the M2 hex key. Note, in this image we removed the bell from the motor and removed the motor from the base. This is not necessary if you can remove the motor without disassembly.
+
+##Step 2: Remove the Plastic Thrust Guards
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-21.png" class="img-responsive" />
 
@@ -166,6 +173,8 @@ The small piece of plastic that the plastic rings were glued to must also be rem
 <img src="/assets/images/tutorials/openrov-kit/openrov-23.png" class="img-responsive" />
 
 When completed, the OpenROV will look like this. Both motors have been removed and the plastic rings have been removed.
+
+##Step 3: Drill Holes for the T100 Thruster
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-24.png" class="img-responsive" />
 
@@ -182,6 +191,8 @@ Use a marker or other method to mark the location of the four holes.
 <img src="/assets/images/tutorials/openrov-kit/openrov-27.png" class="img-responsive" />
 
 Using an 1/8" (3mm) or slightly larger drill bit, drill through the four holes. We recommend using a glove for protection.
+
+##Step 4: Install the T100 Thruster
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-28.png" class="img-responsive" />
 
