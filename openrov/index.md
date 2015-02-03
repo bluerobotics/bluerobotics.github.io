@@ -6,6 +6,8 @@ order: 1
 nav:
 - Introduction: introduction
 - - What's Included: whats-included
+- - Safety: safety
+- - Tools You Need: tools-you-need
 - - What to Know Before You Start: what-to-know-before-you-start
 - Vertical Thruster: vertical-thruster-replacement
 - - Step 1 - Remove the Vertical Thruster: step-1-remove-the-vertical-thruster
