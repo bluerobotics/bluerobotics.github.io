@@ -117,11 +117,11 @@ Chart images goes here.
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [T100-BRACKET-R1.SLDPRT](/thrusters/cad/T100-BRACKET-R1.SLDPRT) |
-| STEP (.step)               | [T100-BRACKET-R1.STEP](/thrusters/cad/T100-BRACKET-R1.STEP)   |
-| IGES (.igs)                | [T100-BRACKET-R1.IGS](/thrusters/cad/T100-BRACKET-R1.IGS) |
-| STL (.stl)                 | [T100-BRACKET-R1.STL](/thrusters/cad/T100-BRACKET-R1.STL) |
-| All Formats in a Zip File (.zip)   | [T100-BRACKET-R1.zip](/thrusters/cad/T100-BRACKET-R1.zip) |
+| SolidWorks Part (.sldprt)  | [T100-P-BRACKET-R1.SLDPRT](/thrusters/cad/T100-P-BRACKET-R1.SLDPRT) |
+| STEP (.step)               | [T100-P-BRACKET-R1.STEP](/thrusters/cad/T100-P-BRACKET-R1.STEP)   |
+| IGES (.igs)                | [T100-P-BRACKET-R1.IGS](/thrusters/cad/T100-P-BRACKET-R1.IGS) |
+| STL (.stl)                 | [T100-P-BRACKET-R1.STL](/thrusters/cad/T100-P-BRACKET-R1.STL) |
+| All Formats in a Zip File (.zip)   | [T100-P-BRACKET-R1.zip](/thrusters/cad/T100-P-BRACKET-R1.zip) |
 
 #Installation
 
