@@ -71,10 +71,10 @@ You are welcome to purchase the ESCs directly and reprogram them yourself. We of
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [BESC30-R1.sldprt](#) |
-| STEP (.step)               | [BESC30-R1.step](#)   |
-| IGES (.igs)                | [BESC30-R1.igs](#) |
-| STL (.stl)                 | [BESC30-R1.stl](#) |
+| SolidWorks Part (.sldprt)  | [BESC30-R1.sldprt](cad/BESC30-R1.sldprt) |
+| STEP (.step)               | [BESC30-R1.step](cad/BESC30-R1.step)   |
+| IGES (.igs)                | [BESC30-R1.igs](cad/BESC30-R1.igs) |
+| STL (.stl)                 | [BESC30-R1.stl](cad/BESC30-R1.stl) |
 
 #Example Code
 
