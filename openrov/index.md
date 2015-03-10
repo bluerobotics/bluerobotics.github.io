@@ -9,6 +9,7 @@ nav:
 - - Safety: safety
 - - Tools You Need: tools-you-need
 - - What to Know Before You Start: what-to-know-before-you-start
+- - Other Resources: other-resources
 - Vertical Thruster: vertical-thruster-replacement
 - - Step 1 - Remove the Vertical Thruster: step-1-remove-the-vertical-thruster
 - - Step 2 - Cut and Strip Vertical Thruster Wires: step-2-cut-and-strip-vertical-thruster-wires
@@ -23,6 +24,8 @@ nav:
 - - Step 2 - Remove the Plastic Thrust Guards: step-2-remove-the-plastic-thrust-guards
 - - Step 3 - Drill Holes for the T100 Thruster: step-3-drill-holes-for-the-t100-thruster
 - - Step 4 - Install the T100 Thruster: step-4-install-the-t100-thruster
+- - Step 5 - Cut and Strip Wires: step-5-cut-and-strip-wires
+- - Step 6 - Solder and Seal Connections: step-6-solder-and-seal-connections
 ---
 
 #Introduction
@@ -56,7 +59,13 @@ In the images below, we've started with the electronics tube and batteries remov
 
 Installing the Blue Robotics thrusters requires permanently removing some components from the OpenROV. It is not easily undone. Please make sure that you read the instructions thoroughly before installing them on your ROV.
 
-*This guide is not yet complete, but will be completed shortly. If you would like to contribute feedback, questions, or images to this tutorial, we would really appreciate it!*
+The T100 and M100 thrusters are heavier than the original thrusters and require the addition of some flotation foam at the back of the ROV. Please see the forum posts below for more info.
+
+##Other Resources
+
+Please also see discussions on our forums about the OpenROV Compatible Kit:
+
+* [OpenROV v2.7 with BR Compatible Kit](https://www.bluerobotics.com/forums/topic/openrov-v2-7-with-br-compatible-kit/)
 
 #Vertical Thruster Replacement
 
@@ -206,4 +215,42 @@ Here all four screws are installed.
 
 It's best to tuck the thruster cable next to the shell as shown above to allow some excess length. We will cut the thruster cable and the original motor wires and splice them together.
 
-#TO BE CONTINUED...
+##Step 5: Cut and Strip Wires
+
+<img src="/assets/images/tutorials/openrov-kit/openrov-31.png" class="img-responsive" />
+
+We have to cut the wires to the existing thrusters and reconnect those wires to the three thruster wires. Cut the wires relatively close to the motor to leave as much wire as possible for the connection.
+
+<img src="/assets/images/tutorials/openrov-kit/openrov-32.png" class="img-responsive" />
+
+Using a wire strippers, remove about 4mm of insulation from the end of each wire. You also have to strip the end of the thruster cable. Please the [cable stripping tutorial](/tutorials/cable-stripping/) for more info on how to do that.
+
+<img src="/assets/images/tutorials/openrov-kit/openrov-33.png" class="img-responsive" />
+
+We'll be using heat shrink combined with liquid electrical tape like MG Chemicals 4229. Cut a few pieces of heat shrink (not included) to size to seal the connections. We used three pieces of 3/16" tubing and one piece of 1/4" tubing. 
+
+##Step 6: Solder and Seal Connections
+
+<img src="/assets/images/tutorials/openrov-kit/openrov-34.png" class="img-responsive" />
+
+First of all, make sure you slide all of the heat shrink on before soldering anything!
+
+<img src="/assets/images/tutorials/openrov-kit/openrov-35.png" class="img-responsive" />
+
+This is a good time to borrow a friend or use a third hand tool. Solder the three white wires to the three thruster wires. The order of connections does not matter. We'd recommend tinning each wire separately and then connecting them together. 
+
+<img src="/assets/images/tutorials/openrov-kit/openrov-36.png" class="img-responsive" />
+
+The connections are sealed by first covering in liquid electrical tape and then sealing in heat shrink to add extra protection. 
+
+<img src="/assets/images/tutorials/openrov-kit/openrov-37.png" class="img-responsive" />
+
+The heat shrink can be shrunk while the liquid electrical tape is still wet.
+
+<img src="/assets/images/tutorials/openrov-kit/openrov-38.png" class="img-responsive" />
+
+We put a second coating over the first layer of heat shrink and seal that in the larger heat shrink. This adds a second level of protection and should guarantee a sealed connection.
+
+<img src="/assets/images/tutorials/openrov-kit/openrov-39.png" class="img-responsive" />
+
+Here's the finished connection. Now, just repeat these steps for the other forward thruster!
