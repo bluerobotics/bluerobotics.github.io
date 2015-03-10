@@ -52,6 +52,7 @@ The Blue Robotics OpenROV Compatible Thruster Kit provides powerful, corrosion-p
 * Good soldering iron with a small tip
 * Sharp knife (razor blade or X-Acto knife work well)
 * Protective gloves
+* Liquid electrical tape like MG Chemicals 4229
 
 ##What to Know Before You Start
 
