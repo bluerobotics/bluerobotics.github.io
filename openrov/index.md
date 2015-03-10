@@ -128,9 +128,9 @@ Next, we seal the wire connections. We recommend using a liquid electrical tape 
 
 Make sure you cover all exposed electrical connections. Allow several hours for the coating to dry.
 
-<img src="/assets/images/tutorials/openrov-kit/openrov-13.png" class="img-responsive" />
-
 ##Step 6: Install the OpenROV Mounting Adapter
+
+<img src="/assets/images/tutorials/openrov-kit/openrov-13.png" class="img-responsive" />
 
 Once the coating is dry, attach the OpenROV mounting adapter using two M3 screws. Note that there are two sets of holes on the M100 but only the wider set is the right width for the adapter.
 
