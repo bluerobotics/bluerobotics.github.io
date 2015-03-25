@@ -35,7 +35,7 @@ You are welcome to purchase the ESCs directly and reprogram them yourself. We of
 
 ##Quick Start
 
-1. Connect the three motor wires to the motor.
+1. Connect the three motor wires to the motor. The order of connections does not matter, however, switching any two wires will change the direction of the motor.
 2. Connect the red power wire and black ground wire to a power source like a battery. You will hear a few beeps from the ESC.
 3. Connect the signal cable to your signal source like an RC radio receiver or microcontroller board. The yellow wire is the signal wire.
 4. Send a stopped signal (1500 microseconds) for a few seconds to initialize the ESC. You will hear a long tone.
