@@ -41,7 +41,7 @@ manual-links:
 
 #Introduction
 
-The T100 Thruster is a low-cost high performance thruster for marine robotics. It was originally launched in 2014 through a [Kickstarter campaign](#).
+The T100 Thruster is a low-cost high performance thruster for marine robotics. It was originally launched in 2014 through a [Kickstarter campaign](https://www.kickstarter.com/projects/847478159/the-t100-a-game-changing-underwater-thruster).
 
 ##Safety
 
@@ -86,6 +86,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 |                    **Physical**                         |
 | ----------------------- | ----------------------------- |
 | Length (without BlueESC)| 102 mm        | 4.0 in        |
+| Length (with BlueESC)   | 113 mm        | 4.45 in       |
 | Diameter                | 100 mm        | 3.9 in        |
 | Propeller Diameter      | 76 mm         | 3.0 in        |
 | Mounting Hole Threads   | M3 x 0.5                      |
@@ -95,7 +96,13 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 
 ##Performance Charts
 
-Chart images goes here.
+<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~rjehangir/34.embed?width=640&height=480"></iframe>
+
+<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~rjehangir/40.embed?width=640&height=480"></iframe>
+
+<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~rjehangir/49.embed?width=640&height=480"></iframe>
+
+<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~rjehangir/46.embed?width=640&height=480"></iframe>
 
 ##Dimensions
 
@@ -166,9 +173,6 @@ Occasionally, these holes may not be convenient or it may be difficult to secure
 
 The mounting bracket also includes a guide hole that can be drilled out with a 1/4" (6.5mm) drill bit to allow the wire to pass directly through the bracket.
 
-[Image of bracket with hole drilled for wire]
-*Bracket with cable holes drilled out*
-
 Which mounting option you choose depends on your application.
 
 ##Electrical Connections
@@ -181,11 +185,11 @@ The three wires in the cable (green, white, blue) are always connected to the sa
 
 ###Connecting the BlueESC
 
-To be completed.
+The BlueESC must be pre-installed on the T100 Thruster. 
 
 ##How to Cut and Strip the Cable
 
-The thruster comes with a tough urethane-jacketed cable. This is great for use underwater, but it can be a little difficult to remove the jacket from the wires if you want to cut the cable to a shorter length. During production, we use a thermal wire strippers, but the jacket can also be removed with a razor blade or hobby knife.
+The thruster comes with a tough urethane-jacketed cable. This is great for use underwater, but it can be a little difficult to remove the jacket from the wires if you want to cut the cable to a shorter length. During production, we use a thermal wire strippers, but the jacket can also be removed with a razor blade or hobby knife. [Check out the cable stripping tutorial with pictures here](/tutorials/cable-stripping)
 
 **Tools Needed:**
 
@@ -269,6 +273,10 @@ Occasionally it may be necessary to disassemble the thruster.
 
 #Troubleshooting
 
+**The motor does not start**
+
+This is usually an issue with the proper commands being sent to the ESC. Please see the [ESC documentation](/besc/) for instructions on how to operate the ESC properly.
+
 **The motor does not start but the propeller tries to move.**
 
 This can be caused by a disconnected motor wire or a short between motor wires. Check that all three motor wires are connected and not shorting.
@@ -283,7 +291,11 @@ For all the engineers out there, here's some more info.
 
 ##Test Results
 
-Results of long-endurance tests, sand and debris tests, depth tests.
+* **Endurance Testing.** We have tested the T100 Thruster for up to 300 hours continuous operation at full throttle power.
+
+* **Sand and Particulate Testing.** The thrusters handle small particulate matter very well. See [this video](https://www.youtube.com/watch?v=0X0EncNR8l8) of testing the thrusters in heavy sand.
+
+* **Depth Testing.** As of writing, the thrusters have been tested to a maximum depth of 3000m (4500 psi) in static conditions. This testing was performed by Woods Holes Oceanographic Institution and you can [read more about it here](http://www.bluerobotics.com/pressure-testing-3000m-depth/).
 
 ##Quality Control
 

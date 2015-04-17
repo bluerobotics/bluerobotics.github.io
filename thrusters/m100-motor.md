@@ -36,7 +36,7 @@ manual-links:
 
 #Introduction
 
-The M100 Motor is a brushless electric motor for use underwater. It is pressure resistant and ruggedized against harsh ocean conditions. Many of the motors components are used in the [T100 Thruster](/thrusters/).
+The M100 Motor is a brushless electric motor for use underwater. It is pressure resistant and ruggedized against harsh ocean conditions. Many of the motor's components are used in the [T100 Thruster](/thrusters/).
 
 ##Safety
 
@@ -45,8 +45,8 @@ Always practice caution when you're working with electricity in water and with t
 ##Quick Start
 
 1. Solder wires from ESC to pads on motor.
-2. Waterproof solder connection with epoxy or other potting compound.
-3. Send a signal to the ESC and the motor will start spinning. That's it.
+2. Waterproof solder connection with epoxy or other potting compound. We recommend Loctite Marine Epoxy or MG Chemicals 4229.
+3. Connect the wires to an ESC, send a signal, and the motor will start spinning. That's it.
 
 ##Important Notes
 
@@ -82,7 +82,17 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 
 ##Performance Charts
 
-Chart images goes here.
+This performance information is given using the [3D printed M100 propeller](https://www.bluerobotics.com/store/parts/m100-p-propeller-rev-r1/).
+
+<div>
+    <a href="https://plot.ly/~rjehangir/82/" target="_blank" title="M100 Motor w/ 3D Printed Propeller: Thruster vs. PWM Input to ESC" style="display: block; text-align: center;"><img src="https://plot.ly/~rjehangir/82.png" alt="M100 Motor w/ 3D Printed Propeller: Thruster vs. PWM Input to ESC" style="max-width: 100%;width: 1368px;"  width="1368" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="rjehangir:82" src="https://plot.ly/embed.js" async></script>
+</div>
+
+<div>
+    <a href="https://plot.ly/~rjehangir/84/" target="_blank" title="M100 Motor w/ 3D Printed Prop: Power and Current vs. Input Signal to ESC" style="display: block; text-align: center;"><img src="https://plot.ly/~rjehangir/84.png" alt="M100 Motor w/ 3D Printed Prop: Power and Current vs. Input Signal to ESC" style="max-width: 100%;width: 1368px;"  width="1368" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="rjehangir:84" src="https://plot.ly/embed.js" async></script>
+</div>
 
 ##Dimensions
 
@@ -112,7 +122,9 @@ The three solder pads are always connected to the same motor phases, so connecti
 
 ###Connecting the BlueESC
 
-To be completed.
+Normally the BlueESC sold pre-installed on the T100 and T200 Thrusters, however it can be purchased separately for use with the M100 and other motors. Connecting the BlueESC is very similar to connecting the basic ESC. 
+
+Solder the three wires from the BlueESC to the pads on the M100. Check out the [BlueESC Manual](/bluesc/) for information on cable connections and operation.
 
 #Operation
 
@@ -161,6 +173,10 @@ Occasionally it may be necessary to disassemble the motor.
 
 #Troubleshooting
 
+**The motor does not start**
+
+This is usually an issue with the proper commands being sent to the ESC. Please see the [ESC documentation](/besc/) for instructions on how to operate the ESC properly.
+
 **The motor does not start but the propeller tries to move.**
 
 This can be caused by a disconnected motor wire or a short between motor wires.Check that all three motor wires are connected and not shorting.
@@ -175,7 +191,7 @@ For all the engineers out there, here's some more info.
 
 ##Test Results
 
-Results of long-endurance tests, sand and debris tests, depth tests.
+Check out the [test results section for the T100 Thruster](/thrusters/#test-results), which shares most of the same components as the M100.
 
 ##Quality Control
 
