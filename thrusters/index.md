@@ -37,6 +37,7 @@ store-links:
 manual-links:
 - M100 Motor: /thrusters/motors/
 - Basic ESC: /besc/
+- BlueESC: /bluesc/
 ---
 
 #Introduction
@@ -110,7 +111,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 
 ##3D Model
 
-###Thruster (without BlueESC)
+###T100 Thruster (without BlueESC)
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
@@ -119,6 +120,36 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | IGES (.igs)                | [T100-THRUSTER-R1.IGS](/thrusters/cad/T100-THRUSTER-R1.IGS) |
 | STL (.stl)                 | [T100-THRUSTER-R1.STL](/thrusters/cad/T100-THRUSTER-R1.STL) |
 | All Formats in a Zip File (.zip)   | [T100-THRUSTER-R1.zip](/thrusters/cad/T100-THRUSTER-R1.zip) |
+
+###T100 Thruster with BlueESC
+
+| File Type                  | Link                          |
+| -------------------------- | ----------------------------- |
+| SolidWorks Part (.sldprt)  | [T100-THRUSTER-BLUEESC-R1.SLDPRT](/thrusters/cad/T100-THRUSTER-BLUEESC-R1.SLDPRT) |
+| STEP (.step)               | [T100-THRUSTER-BLUEESC-R1.STEP](/thrusters/cad/T100-THRUSTER-BLUEESC-R1.STEP)   |
+| IGES (.igs)                | [T100-THRUSTER-BLUEESC-R1.IGS](/thrusters/cad/T100-THRUSTER-BLUEESC-R1.IGS) |
+| STL (.stl)                 | [T100-THRUSTER-BLUEESC-R1.STL](/thrusters/cad/T100-THRUSTER-BLUEESC-R1.STL) |
+| All Formats in a Zip File (.zip)   | [T100-THRUSTER-BLUEESC-R1.zip](/thrusters/cad/T100-THRUSTER-BLUEESC-R1.zip) |
+
+###T200 Thruster (without BlueESC)
+
+| File Type                  | Link                          |
+| -------------------------- | ----------------------------- |
+| SolidWorks Part (.sldprt)  | [T200-THRUSTER-R1.SLDPRT](/thrusters/cad/T200-THRUSTER-R1.SLDPRT) |
+| STEP (.step)               | [T200-THRUSTER-R1.STEP](/thrusters/cad/T200-THRUSTER-R1.STEP)   |
+| IGES (.igs)                | [T200-THRUSTER-R1.IGS](/thrusters/cad/T200-THRUSTER-R1.IGS) |
+| STL (.stl)                 | [T200-THRUSTER-R1.STL](/thrusters/cad/T200-THRUSTER-R1.STL) |
+| All Formats in a Zip File (.zip)   | [T200-THRUSTER-R1.zip](/thrusters/cad/T200-THRUSTER-R1.zip) |
+
+###T200 Thruster with BlueESC
+
+| File Type                  | Link                          |
+| -------------------------- | ----------------------------- |
+| SolidWorks Part (.sldprt)  | [T200-THRUSTER-BLUEESC-R1.SLDPRT](/thrusters/cad/T200-THRUSTER-BLUEESC-R1.SLDPRT) |
+| STEP (.step)               | [T200-THRUSTER-BLUEESC-R1.STEP](/thrusters/cad/T200-THRUSTER-BLUEESC-R1.STEP)   |
+| IGES (.igs)                | [T200-THRUSTER-BLUEESC-R1.IGS](/thrusters/cad/T200-THRUSTER-BLUEESC-R1.IGS) |
+| STL (.stl)                 | [T200-THRUSTER-BLUEESC-R1.STL](/thrusters/cad/T200-THRUSTER-BLUEESC-R1.STL) |
+| All Formats in a Zip File (.zip)   | [T200-THRUSTER-BLUEESC-R1.zip](/thrusters/cad/T200-THRUSTER-BLUEESC-R1.zip) |
 
 ###Mounting Bracket
 
