@@ -5,12 +5,16 @@ order: 1
 nav:
 - Introduction: introduction
 - - Safety: safety
-- - Quick Start: quick-start
 - What's Included: whats-included
 - - Parts List: parts-list
 - Specifications: specifications
 - - Specification Table: specification-table
 - - 3D Model: d-model
+- Assembly: assembly
+- - Frame: frame
+- - Watertight Enclosure: watertight-enclosure
+- - Thrusters: thrusters
+- - Electronics Tray: electronics-tray
 - Advanced: advanced
 
 store-links:
@@ -27,9 +31,6 @@ manual-links:
 ##Safety 
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with electricity, especially in water, always practice caution. Always ensure that connections are secure and watertight. Keep your body away from spinning motors and propellers.
-
-##Quick Start
-
 
 #What's Included
 
@@ -117,5 +118,30 @@ Quantity      | Part
 
 
 ##3D Model
+
+#Assembly
+
+##Frame
+
+The frame is the structure of the ROV and includes several laser-cut plastics pieces as well as metal hardware.
+
+**Tools Needed:**
+
+* 2.5mm Hex Key
+* 3mm Hex Key
+
+1. Remove the protective paper from all plastic parts.  
+
+<img src="/assets/images/tutorials/bluerov/frame-standoffs-1.jpg" class="img-responsive" style="max-width:600px" />
+
+2. Using twelve M4x10 Button-Head Socket Cap Screws, attach the six Round Aluminum Standoffs between the two Side Panels. The Blue Robotics logo should face outward on each panel.  
+
+3. Next, we will loosely assemble the center structure before attaching it to the rest of the ROV. 
+
+##Watertight Enclosure
+
+##Thrusters
+
+##Electronics Tray
 
 #Advanced
