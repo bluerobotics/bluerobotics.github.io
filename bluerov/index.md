@@ -196,6 +196,8 @@ Please see the [Watertight Enclosure Assembly Tutorial](/watertight-enclosures/)
 
 7. Install each of the cable penetrators on the end cap by first applying silicon grease to each o-ring and sliding onto the penetrator bolt. Pass the penetrator through the end-cap and secure with the nut. A firm hand-tightness is adequate.
 
+8. That's it! We recommend using the included bullet connectors with the Basic ESCs to attach the ESC to the thruster cables.
+
 ##Electronics Tray Assembly
 
 #Advanced
