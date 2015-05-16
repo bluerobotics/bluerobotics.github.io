@@ -99,7 +99,7 @@ Quantity      | Part
 1             | Secondary Tray (Black Delrin)                           
 2             | Semi-circular Tray Legs (Black Delrin)                  
 4             | Aluminum Hex Standoff, 25mm                             
-8             | M3x6 Button Cap Hex Screws                              
+8             | M3x6 Button-Head Socket Cap Screws                              
 1             | Velcro Battery Strap                                    
 1             | 8-Position Power Terminal Block                                    
 6             | Terminal Block Jumpers
@@ -199,5 +199,19 @@ Please see the [Watertight Enclosure Assembly Tutorial](/watertight-enclosures/)
 8. That's it! We recommend using the included bullet connectors with the Basic ESCs to attach the ESC to the thruster cables.
 
 ##Electronics Tray Assembly
+
+The BlueROV comes with an electronics tray designed to fit the ESCs, a Raspberry Pi 1/2 computer, and an 3DR APM 2.6 autopilot. It also has a power distribution terminal block and straps to hold a battery.
+
+1. First attach the terminal block in the center of the tray on top using the two provided holes.
+
+2. Next, attach the ESCs using the provided zip ties. The ESC should be arranged with the "BlueRobotics" logo facing toward the tray which will expose the warm parts of the ESC to air to enable cooling. Three ESCs are attached on top and three on bottom.
+
+3. We recommend attaching the Raspberry Pi and camera now as well. Hardware is not provided.
+
+4. Next, install the Secondary Tray above the main tray using the four provided Aluminum Hex Standoffs and eight M3x6 Button-Head Socket Cap screws.
+
+5. The round legs can be snapped on to each end of the tray. You can use glue to secure the legs if desired. 
+
+6. The provided velcro strap is used to secure a battery (not included).
 
 #Advanced
