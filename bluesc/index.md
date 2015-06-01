@@ -101,7 +101,7 @@ The I<sup>2</sup>C communication protocol allows two-directional communication w
 
 The throttle command is a 16-bit signed integer. The sign of the value determines the direction of rotation.
 
-###Registers: 
+###Registers: (0x00-0x01)
 
 * **throttle:** (write-only)
 	* -32767 (max reverse) to 32767 (max forward)
@@ -110,8 +110,8 @@ The throttle command is a 16-bit signed integer. The sign of the value determine
 
 ###Bytes
 
-* **Byte 0x00:** throttle_h  
-* **Byte 0x01:** throttle_l
+* **Byte 0:** throttle_h  
+* **Byte 1:** throttle_l
 
 ##Data Request
 
@@ -119,7 +119,7 @@ The throttle command is a 16-bit signed integer. The sign of the value determine
 
 The data registers can be read to provide information on voltage, current, RPM, and temperature. All values are 16-bit unsigned integers.
 
-###Registers:
+###Registers: (0x02-0x0A)
 
 * **pulse_count:** (read-only)
   * Commutation pulses since last request.
