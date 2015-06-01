@@ -10,6 +10,9 @@ nav:
 - Specifications: specifications
 - - Specification Table: specification-table
 - - 3D Model: d-model
+- I<sup>2</sup>C Protocol: i2c-protocol
+- - Throttle Command: throttle-command
+- - Data Request: data-request
 - Example Code: example-code
 - - Arduino: arduino
 - Advanced: advanced
@@ -87,6 +90,63 @@ Coming soon.
 | STL (.stl)                 | [BLUESC-R1.stl](#) |
 | All in a zip file (.zip)   | [BLUESC-R1.zip](#) |
 -->
+
+#I<sup>2</sup>C Protocol
+
+The I<sup>2</sup>C communication protocol allows two-directional communication with the ESC. The protocol uses a "register map" allowing registers to be written to and read from.
+
+##Throttle Command
+
+###Description
+
+The throttle command is a 16-bit signed integer. The sign of the value determines the direction of rotation.
+
+###Registers: 
+
+* **throttle:** (write-only)
+	* -32767 (max reverse) to 32767 (max forward)
+	* 0 is stopped
+	* No deadband
+
+###Bytes
+
+* **Byte 0x00:** throttle_h  
+* **Byte 0x01:** throttle_l
+
+##Data Request
+
+###Description
+
+The data registers can be read to provide information on voltage, current, RPM, and temperature. All values are 16-bit unsigned integers.
+
+###Registers:
+
+* **pulse_count:** (read-only)
+  * Commutation pulses since last request.
+  * Calculate rpm with pulse_count/dt*60/motor_pole_count
+* **voltage:** (read-only)
+	* ADC measurement scaled to 16 bits
+  * Calculate voltage with voltage/2016
+* **temperature:** (read-only)
+	* ADC measurement scaled to 16 bits
+  * Calculate temperature with the Steinhart equation
+* **current:** (read-only)
+	* ADC measurement scaled to 16 bits
+  * Calculate current with (current-32767)/891
+* **identifier:** (read-only)
+	* Identifier bit to test if ESC is alive
+
+###Bytes
+
+* **Byte 0:** pulse_count_h  
+* **Byte 1:** pulse_count_l  
+* **Byte 2:** voltage_h  
+* **Byte 3:** voltage_l  
+* **Byte 4:** temperature_h  
+* **Byte 5:** temperature_l  
+* **Byte 6:** current_h  
+* **Byte 7:** current_l  
+* **Byte 8:** 0xab (identifier to check if ESC is alive)
 
 #Example Code
 
