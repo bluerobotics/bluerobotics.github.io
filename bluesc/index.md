@@ -10,7 +10,7 @@ nav:
 - Specifications: specifications
 - - Specification Table: specification-table
 - - 3D Model: d-model
-- I<sup>2</sup>C Protocol: i2c-protocol
+- I<sup>2</sup>C Protocol: isup2supc-protocol
 - - Throttle Command: throttle-command
 - - Data Request: data-request
 - Example Code: example-code
