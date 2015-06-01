@@ -13,6 +13,7 @@ nav:
 - I<sup>2</sup>C Protocol: isup2supc-protocol
 - - Throttle Command: throttle-command
 - - Data Request: data-request
+- - Assigning I<sup>2</sup>C Addresses: assigning-isup2supc-addresses
 - Example Code: example-code
 - - Arduino: arduino
 - Advanced: advanced
@@ -147,6 +148,10 @@ The data registers can be read to provide information on voltage, current, RPM, 
 * **Byte 6:** current_h  
 * **Byte 7:** current_l  
 * **Byte 8:** 0xab (identifier to check if ESC is alive)
+
+##Assigning I<sup>2</sup>C Addresses
+
+To be completed. Stay tuned.
 
 #Example Code
 
