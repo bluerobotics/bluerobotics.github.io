@@ -1,14 +1,14 @@
 ---
 layout: default
-title: M100 Motor Documentation
-permalink: /thrusters/motors/
+title: M200 Motor Documentation
+permalink: /thrusters/motors/m200/
 order: 1
 nav:
 - Introduction: introduction
 - - Safety: safety
 - - Quick Start: quick-start
 - - Important Notes: important-notes
-- Specifications: m100-motor-specifications
+- Specifications: m200-motor-specifications
 - - Specification Table: specification-table
 - - Performance Charts: performance-charts
 - - Dimensions: dimensions
@@ -32,14 +32,14 @@ store-links:
 - Basic ESC: http://bluerobotics.com/store/speed-controllers/besc-30-r1/
 
 manual-links:
-- T100 Thrusters: /thrusters/
-- T200 Thrusters: /thrusters/t200/
+- T100 Thruster: /thrusters/
+- T200 Thruster: /thrusters/t200/
 - Basic ESC: /besc/
 ---
 
 #Introduction
 
-The M100 Motor is a brushless electric motor for use underwater. It is pressure resistant and ruggedized against harsh ocean conditions. Many of the motor's components are used in the [T100 Thruster](/thrusters/).
+The M200 Motor is a brushless electric motor for use underwater. It is pressure resistant and ruggedized against harsh ocean conditions. Many of the motor's components are used in the [T200 Thruster](/thrusters/t200).
 
 ##Safety
 
@@ -59,33 +59,33 @@ Do not operate the motor for extended periods out of water. The bearings are lub
 <i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
 A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.
 
-#M100 Motor Specifications
+#M200 Motor Specifications
 
 ##Specification Table
 
 | ----------------------- | ----------------------------- |
 |                   **Performance**                       |
 | ----------------------- | ----------------------------- |
-| RPM/V (Kv rating)       | 540 RPM/volt                  |
+| RPM/V (Kv rating)       | 490 RPM/volt                  |
 | ----------------------- | ----------------------------- |
 |                    **Electrical**                       |
 | ----------------------- | ----------------------------- |
-| Operating Voltage       | 6-16 volts                    |
-| Max Current             | 12.5 amps                     |
-| Max Power               | 135 watts                     |
+| Operating Voltage       | 6-20 volts                    |
+| Max Current             | 22 amps                       |
+| Max Power               | 350 watts                     |
 | ----------------------- | ----------------------------- |
 |                    **Physical**                         |
 | ----------------------- | ----------------------------- |
-| Overall Length          | 54 mm         | 2.12 in       |
-| Diameter                | 32 mm         | 1.26 in       |
-| Shaft Diameter          | 4.0 mm        | 0.157 in      | 
+| Overall Length          | 62 mm         | 2.44 in       |
+| Diameter                | 36 mm         | 1.42 in       |
+| Shaft Diameter          | 5.0 mm        | 0.197 in      | 
 | Mounting Hole Threads   | M3 x 0.5                      |
-| Base Mounting Hole Spacing | 16 mm & 19 mm | 0.63 in & 0.75 in |
-| Top Mounting Hole Spacing  | 19 mm         | 0.75 in    |
+| Base Mounting Hole Spacing (diagonal) | 24 mm      | 0.94 in       |
+| Top Mounting Hole Spacing  | 19 mm      | 0.75 in       |  
 
 ##Performance Charts
 
-This performance information is given using the [3D printed M100 propeller](https://www.bluerobotics.com/store/parts/m100-p-propeller-rev-r1/).
+<!--This performance information is given using the [3D printed M100 propeller](https://www.bluerobotics.com/store/parts/m100-p-propeller-rev-r1/).
 
 <div>
     <a href="https://plot.ly/~rjehangir/82/" target="_blank" title="M100 Motor w/ 3D Printed Propeller: Thruster vs. PWM Input to ESC" style="display: block; text-align: center;"><img src="https://plot.ly/~rjehangir/82.png" alt="M100 Motor w/ 3D Printed Propeller: Thruster vs. PWM Input to ESC" style="max-width: 100%;width: 1368px;"  width="1368" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -97,12 +97,15 @@ This performance information is given using the [3D printed M100 propeller](http
     <script data-plotly="rjehangir:84" src="https://plot.ly/embed.js" async></script>
 </div>
 
+-->
+
 ##Dimensions
 
-<img src="/assets/images/m100-three-view-1.png" class="img-responsive" style="max-width:800px" />
+<!--<img src="/assets/images/m100-three-view-1.png" class="img-responsive" style="max-width:800px" />-->
 
 ##3D Model
 
+<!--
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
 | SolidWorks Part (.sldprt)  | [M100-MOTOR-R1.SLDPRT](/thrusters/cad/M100-MOTOR-R1.SLDPRT) |
@@ -110,10 +113,11 @@ This performance information is given using the [3D printed M100 propeller](http
 | IGES (.igs)                | [M100-MOTOR-R1.IGS](/thrusters/cad/M100-MOTOR-R1.IGS) |
 | STL (.stl)                 | [M100-MOTOR-R1.STL](/thrusters/cad/M100-MOTOR-R1.STL) |
 | All Formats in a Zip File (.zip)   | [M100-MOTOR-R1.zip](/thrusters/cad/M100-MOTOR-R1.zip) |
+-->
 
 #Installation
 
-The M100 Motor is easy to install in many different applications. It was designed with mounting holes that are identical to those found on many common brushless motors.
+The M200 Motor is easy to install in many different applications. It was designed with mounting holes that are identical to those found on many common brushless motors.
 
 ##Electrical Connections
 
@@ -127,11 +131,11 @@ The three solder pads are always connected to the same motor phases, so connecti
 
 Normally the BlueESC sold pre-installed on the T100 and T200 Thrusters, however it can be purchased separately for use with the M100 and other motors. Connecting the BlueESC is very similar to connecting the basic ESC. 
 
-Solder the three wires from the BlueESC to the pads on the M100. Check out the [BlueESC Manual](/bluesc/) for information on cable connections and operation.
+Solder the three wires from the BlueESC to the pads on the M200. Check out the [BlueESC Manual](/bluesc/) for information on cable connections and operation.
 
 ##Sealing Connections
 
-We recommend using the following compounds to seal the soldered wire connections on the M100 Motor.
+We recommend using the following compounds to seal the soldered wire connections on the M200 Motor.
 
 * **Loctite Marine Epoxy** works well at great depths and is very thick so that it can be applied in one coat.
 * **MG Chemicals 4229** is a rubberized coating that can be used at shallow depths (less than 100ft) and is removeable if required.
@@ -201,7 +205,7 @@ For all the engineers out there, here's some more info.
 
 ##Test Results
 
-Check out the [test results section for the T100 Thruster](/thrusters/#test-results), which shares most of the same components as the M100.
+Check out the [test results section for the T200 Thruster](/thrusters/#test-results), which shares most of the same components as the M200.
 
 ##Quality Control
 
