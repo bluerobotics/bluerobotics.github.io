@@ -22,7 +22,11 @@ You can use the menu bar at the top to find the product you are looking for and 
 Here are some pages to get started with:
 
 * [T100 Thruster](/thrusters/)
+* [T200 Thruster](/thrusters/t200/)
+* [M100 Motor](/thrusters/motors/)
+* [BlueESC](/bluesc/)
 * [Basic ESC](/besc/)
+* [BlueROV](/bluerov/)
 
 #How to Contribute
 
