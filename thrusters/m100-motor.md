@@ -82,6 +82,8 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | Mounting Hole Threads   | M3 x 0.5                      |
 | Base Mounting Hole Spacing | 16 mm & 19 mm | 0.63 in & 0.75 in |
 | Top Mounting Hole Spacing  | 19 mm         | 0.75 in    |
+| Weight in Air           | 90 g          | 0.20 lb       |
+| Weight in Water         | 71 g          | 0.16 lb       |
 
 ##Performance Charts
 
