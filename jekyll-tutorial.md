@@ -26,9 +26,9 @@ Visit the [main repository](https://github.com/bluerobotics/bluerobotics.github.
 
 In order to work on the documentation, you'll need to create a copy on your own computer. You can either use the [Github Apps](#) or the command line:
 
-```bash
+~~~ bash
 git clone https://github.com/your-account-name/bluerobotics.github.io.git
-```
+~~~~~~
 
 #Make Changes
 
@@ -40,9 +40,9 @@ To view the result of changes you've made, you can serve the file locally on you
 
 To launch Jekyll, enter the follow from inside the documentation directory:
 
-```bash
+~~~~ bash
 jekyll serve
-```
+~~~~~~
 
 Jekyll will reprocess the files anytime you change anything, so just leave this running. 
 
@@ -52,20 +52,20 @@ You can visit the locally served page at *[http://localhost:4000/](http://localh
 
 Once you are happy with your changes, you can commit them to the repository:
 
-```bash
+~~~~ bash
 git commit -am "Comment about changes made."
-```
+~~~~~~
 
 Commiting only affects the local repository on your computer. To push to the changes to Github and publish to the web:
 
-```bash
+~~~~ bash
 git push
-```
+~~~~~~
 
 #Pull in New Changes from Github
 
 Since others may be working on the documentation and making their own changes, you will need to pull in the most recent changes occasionally. You can do this with:
 
-```bash
+~~~~ bash
 git pull
-```
+~~~~~~
