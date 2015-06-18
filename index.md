@@ -36,9 +36,11 @@ This page is hosted by and version-controlled through Github.com. Check out the 
 
 * **Issues.** You can submit issues like errors, missing content, etc. via Github's issue reporting tools
 
-* **Contribution.** If you are interested in writing larger sections of documentation including new pages, tutorials, etc. you should make a [branch](#) of this repository, write your content, and then ask us to [pull](#) that content into the main repository.
+* **Contribution.** If you are interested in writing larger sections of documentation including new pages, tutorials, etc. you should make a [fork](https://github.com/bluerobotics/bluerobotics.github.io) of this repository, write your content, and then ask us to [pull](https://github.com/bluerobotics/bluerobotics.github.io/pulls) that content into the main repository.
 
 [Here is an example page](/example/) showing what formatting is possible using the Markdown text format.
+
+[Here is a short tutorial](/jekyll-tutorial/) showing how to edit the documentation locally and push changes to your fork.
 
 #License
 
