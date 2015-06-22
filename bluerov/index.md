@@ -132,41 +132,50 @@ The frame is the structure of the ROV and includes several laser-cut plastics pi
 
 1. Remove the protective paper from all plastic parts.  
 
-	<img src="/assets/images/tutorials/bluerov/center-parts-1.jpg" class="img- responsive" style="max-width:600px" />
+	<img src="/assets/images/tutorials/bluerov-manual/Picture1.png" class="img- responsive" style="max-width:600px" />
 
 2. Next, we will loosely assemble the center structure before attaching it to the rest of the ROV. Start with the Center Panel, two Aluminum T-Slot Bars, four T-Slot Nuts, and four M5x12 Button-Head Socket Caps screws as shown above.
 
-	<img src="/assets/images/tutorials/bluerov/t-slot-1.jpg" class="img-responsive" style="max-width:600px" />
+	<img src="/assets/images/tutorials/bluerov-manual/Picture2.png" class="img-responsive" style="max-width:600px" />
 
 3. Insert the four screws into the Center Panel and lightly attached the T-slot Nuts as shown.
 
-	<img src="/assets/images/tutorials/bluerov/center-asm-1.jpg" class="img-responsive" style="max-width:600px" />
+	<img src="/assets/images/tutorials/bluerov-manual/Picture3.png" class="img-responsive" style="max-width:600px" />
 
 4. Slide the two Aluminum T-Slot Bars onto the T-Slot Nuts. Make sure the Center Panel is centered on both bars and gently tighten the screws.
 
-	<img src="/assets/images/tutorials/bluerov/cradle-parts-1.jpg" class="img-responsive" style="max-width:600px" />
+	<img src="/assets/images/tutorials/bluerov-manual/Picture4.png" class="img-responsive" style="max-width:600px" />
 
-5. Next we'll add the two Watertight Enclosure Cradles using four more nuts and screws. Insert the nut into the screw a few turns and then slide into the T-Slot bar. Then insert the plastic Cradle so that the screws fill the notches.
+5. Next we'll add the two Watertight Enclosure Cradles using four more nuts and screws. Insert the nut into the screw a few turns and then slide into the T-Slot bar. Then insert the Plastic Cradle so that the screws fill the notches.
 
-	<img src="/assets/images/tutorials/bluerov/center-asm-2.jpg" class="img-responsive" style="max-width:600px" />
+	<img src="/assets/images/tutorials/bluerov-manual/Picture5.png" class="img-responsive" style="max-width:600px" />
+	<img src="/assets/images/tutorials/bluerov-manual/Picture6.png" class="img-responsive" style="max-width:600px" />
 
 6. Gently tighten the screws to secure the Cradle as shown above.
 
-	<img src="/assets/images/tutorials/bluerov/rear-mount-1.jpg" class="img-responsive" style="max-width:600px" />
-
+	<img src="/assets/images/tutorials/bluerov-manual/Picture7.png" class="img-responsive" style="max-width:600px" />
+	
 7. Next, install the Rear Thruster Mount with the same method. The tab on the Mount fits into the notch on the Center Panel to align the mount.
 
-	<img src="/assets/images/tutorials/bluerov/center-w-straps-1.jpg" class="img-responsive" style="max-width:600px" />
-
+	<img src="/assets/images/tutorials/bluerov-manual/Picture8.png" class="img-responsive" style="max-width:600px" />
+	
 8. Last, insert the straps that will hold the Watertight Enclosure and cut two pieces of Rubber Edge Strip to fit on the curved surface of the cradle. You can secure the strips with hot glue if desired, but it is not necessary.
 
-	<img src="/assets/images/tutorials/bluerov/frame-standoffs-1.jpg" class="img-responsive" style="max-width:600px" />
+	<img src="/assets/images/tutorials/bluerov-manual/Picture9.png" class="img-responsive" style="max-width:600px" />
 
-9. Using twelve M4x10 Button-Head Socket Cap Screws, attach the six Round Aluminum Standoffs between the two Side Panels. The Blue Robotics logo should face outward on each panel.  
+9. Using six M4x10 Button-Head Socket Cap Screws, attach the six Round Aluminum Standoffs to one of the Side Panels. The Blue Robotics logo should face outward on each panel.  
 
-10. Using four M5x12 Button-Head Socket Cap Screws, attach the center panel assembly to the rest of the frame. Use a measuring device to ensure that the Center Panel is centered between the two Side Panels. If not, you can loosen the screws and adjust it.  
+	<img src="/assets/images/tutorials/bluerov-manual/Picture10.png" class="img-responsive" style="max-width:600px" />
 
-11. That's it! The frame is complete.
+10. Using two M5x12 Button-Head Socket Cap Screws, attach the center panel assembly to the Side Panel assembly. Use a measuring device to ensure that the Center Panel is centered between the two Side Panels. If not, you can loosen the screws and adjust it.  
+
+	<img src="/assets/images/tutorials/bluerov-manual/Picture11.png" class="img-responsive" style="max-width:600px" />
+
+11. Attach the remaining Side Panel using two M5x12 Button-Head Socket Cap Screws and six M4x10 Button-Head Socket Cap Screws.
+	
+	<img src="/assets/images/tutorials/bluerov-manual/picture12.png" class="img-responsive" style="max-width:600px" />
+
+12. That's it! The frame is complete. 
 
 ##Watertight Enclosure Assembly
 
