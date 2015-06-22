@@ -6,9 +6,16 @@ nav:
 - Introduction: introduction
 - - Safety: safety
 - What's Included: whats-included
-- - Parts List: parts-list
+- - Frame: frame
+- - Thrusters: thrusters
+- - Watertight Enclosure: watertight-enclosure
+- - Enclosure Vent: enclosure-vent
+- - Cable Penetrators: cable-penetrators
+- - Electronics Tray: electronics-tray
+- - Miscellaneous: miscellaneous
 - Specifications: specifications
 - - Specification Table: specification-table
+- - Recommended Electronics and Software: recommended-electronics-and-software
 - - 3D Model: d-model
 - Assembly: assembly
 - - Frame: frame-assembly
@@ -27,6 +34,7 @@ manual-links:
 
 #Introduction
 
+The **BlueROV** is an unassembled ROV kit with frame, watertight enclosure, thrusters, and speed controllers. Hardware/software experience required. It uses six thrusters to provide six-degree-of-freedom control allowing you to point the ROV in any orientation to film anything, grab anything with a simple robot arm, and have a lot of fun! 
 
 ##Safety 
 
@@ -34,9 +42,7 @@ manual-links:
 
 #What's Included
 
-##Parts List
-
-###Frame
+##Frame
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
@@ -53,7 +59,7 @@ Quantity      | Part
 2             | Velcro Straps                                           
 1             | Rubber Edge Strip    
 
-###Thrusters                                                         
+##Thrusters                                                         
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
@@ -61,7 +67,7 @@ Quantity      | Part
 6             | Basic ESC 30A                                           
 24            | M3x10 Button-Head Socket Cap Screws                     
 
-###Watertight Enclosure
+##Watertight Enclosure
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
@@ -72,7 +78,7 @@ Quantity      | Part
 4             | O-rings for Flange                                      
 12            | M3x16 Socket-Head Cap Screws                            
 
-###Enclosure Vent
+##Enclosure Vent
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
@@ -82,7 +88,7 @@ Quantity      | Part
 2             | O-rings for Vent Plug                                   
 1             | O-ring for Vent Bolt                                    
 
-###Cable Penetrators
+##Cable Penetrators
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
@@ -91,7 +97,7 @@ Quantity      | Part
 10            | Cable Penetrator Nut                                    
 10            | O-rings for Cable Penetrators                           
 
-###Electronics Tray
+##Electronics Tray
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
@@ -104,26 +110,64 @@ Quantity      | Part
 1             | 8-Position Power Terminal Block                                    
 6             | Terminal Block Jumpers
 5             | Zip Ties                                                
+1             | BlueRobotics Power Junction Board (*If BlueESC included*)
+1             | BlueRobotics Signal Junction Board (*If BlueESC included*)
+1             | BlueESC Power Cable, 1m (*If BlueESC included*)
+1             | BlueESC Signal Cable, 1m (*If BlueESC included*)    
 
-###Miscellaneous                                                      
+
+##Miscellaneous                                                      
+
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
 1             | Silicon grease tube                                     
-------------- | --------------------------------------------------------
 
 #Specifications
 
 ##Specification Table
 
+The following specifications are given for the BlueROV with T100 Thrusters and Basic ESCs.
+
+|    **Physical**                                                        |
+| -------------------------------------- | ----------------------------- |
+| Length                                 | 483 mm        | 19.0 in       |
+| Width                                  |     mm        |      in       |
+| Height                                 |     mm        |      in       |
+| Weight (no electronics)                |     m         |      in       |
+| Net Buoyancy (no electronics)          |     m         |      in       |
+| -------------------------------------- | ----------------------------- |
+|   **Performance**                                                      |
+| -------------------------------------- | ----------------------------- |
+| Total Forward Thrust                   | 4.72 kgf      | 10.4 lbf      |
+| Total Vertical Thrust                  | 7.08 kgf      | 15.6 lbf      |
+| Total Side Thrust                      | 2.36 kgf      | 5.2 lbf       |
+| Maximum Depth Rating (so far)          | 100 m         | 330 ft        |
+| -------------------------------------- | ----------------------------- |
+|    **Electrical**                                                      |
+| -------------------------------------- | ----------------------------- |
+| Operating Voltage                      | 12 volts                      |
+| -------------------------------------- | ----------------------------- |
+
+##Recommended Electronics and Software
+
+We recommend the open-source **bluerov-ros-pkg** software. For recommended electronics, please see the [bluerov-ros-pkg documentation](https://github.com/bluerobotics/bluerov-ros-pkg/blob/master/docs/index.md).
 
 ##3D Model
+
+| File Type                  | Link                          |
+| -------------------------- | ----------------------------- |
+| SolidWorks Part (.sldprt)  | [BROV-R1.SLDPRT](/bluerov/cad/BROV-R1.SLDPRT) |
+| STEP (.step)               | [BROV-R1.STEP](/bluerov/cad/BROV-R1.SLDPRT)   |
+| IGES (.igs)                | [BROV-R1.IGS](/bluerov/cad/BROV-R1.SLDPRT) |
+| STL (.stl)                 | [BROV-R1.STL](/bluerov/cad/BROV-R1.SLDPRT) |
+| All Formats in a Zip File (.zip)   | [BROV-R1.zip](/bluerov/cad/BROV-R1.SLDPRT) |
 
 #Assembly
 
 ##Frame Assembly
 
-The frame is the structure of the ROV and includes several laser-cut plastics pieces as well as metal hardware.
+The frame is the structure of the ROV and includes several laser-cut plastic pieces as well as metal hardware.
 
 **Tools Needed:**
 
