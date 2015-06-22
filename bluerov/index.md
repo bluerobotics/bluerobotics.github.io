@@ -25,7 +25,7 @@ nav:
 - Advanced: advanced
 
 store-links:
-- Basic ESC: http://bluerobotics.com/store/speed-controllers/besc-30-r1/
+- BlueROV: http://bluerobotics.com/store/rov/bluerov/
 
 manual-links:
 - T100/T200 Thrusters: /thrusters/
