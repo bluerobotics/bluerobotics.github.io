@@ -132,10 +132,13 @@ The following specifications are given for the BlueROV with T100 Thrusters and B
 |    **Physical**                                                        |
 | -------------------------------------- | ----------------------------- |
 | Length                                 | 483 mm        | 19.0 in       |
-| Width                                  |     mm        |      in       |
-| Height                                 |     mm        |      in       |
-| Weight (no electronics)                |     m         |      in       |
-| Net Buoyancy (no electronics)          |     m         |      in       |
+| Width                                  | 330 mm        | 13.0 in       |
+| Height                                 | 267 mm        | 10.5 in       |
+| Weight (no electronics)                |     kg        |      lb       |
+| Net Buoyancy (no electronics)          |     kg        |      lb       |
+| Watertight Enclosure Inner Diameter    | 102 mm        | 4.0 in        |
+| Watertight Enclosure Inner Length      | 298 mm        | 11.75 in      |
+| Cable Penetrator Holes                 | 10 x 10mm                     |
 | -------------------------------------- | ----------------------------- |
 |   **Performance**                                                      |
 | -------------------------------------- | ----------------------------- |
@@ -155,13 +158,14 @@ We recommend the open-source **bluerov-ros-pkg** software. For recommended elect
 
 ##3D Model
 
+These are BIG files since the model is fairly complex. If you just want to check out a 3D view of the BlueROV, we recommend [checking out the files on GrabCAD](https://grabcad.com/library/bluerobotics-bluerov-r1-1-1).
+
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [BROV-R1.SLDPRT](/bluerov/cad/BROV-R1.SLDPRT) |
-| STEP (.step)               | [BROV-R1.STEP](/bluerov/cad/BROV-R1.SLDPRT)   |
-| IGES (.igs)                | [BROV-R1.IGS](/bluerov/cad/BROV-R1.SLDPRT) |
-| STL (.stl)                 | [BROV-R1.STL](/bluerov/cad/BROV-R1.SLDPRT) |
-| All Formats in a Zip File (.zip)   | [BROV-R1.zip](/bluerov/cad/BROV-R1.SLDPRT) |
+| SolidWorks Part (.sldprt)  | [BROV-R1.SLDPRT](http://www.bluerobotics.com/models/bluerov/BROV-R1.SLDPRT) |
+| STEP (.step)               | [BROV-R1.STEP](http://www.bluerobotics.com/models/bluerov/BROV-R1.STEP)   |
+| IGES (.igs)                | [BROV-R1.IGS](http://www.bluerobotics.com/models/bluerov/BROV-R1.IGS) |
+| STL (.stl)                 | [BROV-R1.STL](http://www.bluerobotics.com/models/bluerov/BROV-R1.STL) |
 
 #Assembly
 
