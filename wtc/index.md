@@ -41,13 +41,13 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 
 **Steps:**
 
-<img src="/assets/images/tutorials/wtc-assembly/silicon-application-1.jpg" class="img-responsive" style="max-width:400px" />
+<img src="/assets/images/tutorials/wtc-assembly/step-1.jpg" class="img-responsive" style="max-width:600px" />
 1. Apply a thin layer of silicon sealant to the face of the flange.
 
-<img src="/assets/images/tutorials/wtc-assembly/silicon-application-1.jpg" class="img-responsive" style="max-width:400px" />
+<img src="/assets/images/tutorials/wtc-assembly/step-2.jpg" class="img-responsive" style="max-width:600px" />
 2. Attach the end caps to the flanges with 6 socket cap screws. Tighten screws until all air is cleared from the silicon.
 
-<img src="/assets/images/tutorials/wtc-assembly/flange-o-ring-1.jpg" class="img-responsive" style="max-width:400px" />
+<img src="/assets/images/tutorials/wtc-assembly/step-3.jpg" class="img-responsive" style="max-width:600px" />
 3. Lubricate the o-rings with a thin layer of silicon grease and then install into the grooves on the flange.
 
 <img src="/assets/images/tutorials/wtc-assembly/vent-1.jpg" class="img-responsive" style="max-width:400px" />
