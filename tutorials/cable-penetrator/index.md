@@ -16,7 +16,7 @@ nav:
 
 #Introduction
 
-Blue Robotics' thrusters and BlueESC come with tough urethane jacketed cable for reliable performance underwater. It can be a little tricky to strip the jacket from the cable but these steps should make it simple!
+This tutorial should help make the Cable Penetrator Installation simple!
 
 ##Safety
 
@@ -24,9 +24,9 @@ Blue Robotics' thrusters and BlueESC come with tough urethane jacketed cable for
 
 ##Tools You Need
 
-* Sharp knife (razor blade or X-Acto knife work well)
-* Protective glove
-* Wire strippers with slot for 18 AWG wire
+* Super Glue
+* Marine Epoxy
+
 
 #Instructions
 
@@ -36,6 +36,28 @@ To strip the wire jacket, please follow the [Cable Jacket Stripping Tutorial](/t
 
 ##Step 2: Attaching the Penetrator
 
+<img src="/assets/images/tutorials/cable-penetrator/step-1.png" class="img-responsive" style="max-width:600px" />
+Twist the conductors so they will slide through the penetrator.
+
+<img src="/assets/images/tutorials/cable-penetrator/step-2.png" class="img-responsive" style="max-width:600px" />
+Apply a small amount of super glue to the edge of the cable jacket. 
+
+<img src="/assets/images/tutorials/cable-penetrator/step-3.png" class="img-responsive" style="max-width:600px" />
+Insert the cable into the penetrator, allowing the super glue to set.  
+
+
 ##Step 3: Sealing the Penetrator
+
+<img src="/assets/images/tutorials/cable-penetrator/step-4.png" class="img-responsive" style="max-width:600px" />
+Mix your epoxy and fill your syringe. 
+
+<img src="/assets/images/tutorials/cable-penetrator/step-5.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/cable-penetrator/step-6.png" class="img-responsive" style="max-width:600px" />
+Fill the penetrator hole with the epoxy. Twist the cable within the hole to ensure the epoxy is filling any gaps. 
+
+<img src="/assets/images/tutorials/cable-penetrator/step-7.png" class="img-responsive" style="max-width:600px" />
+After the epoxy dries, apply the same method to the other side of the penetrator. 
+
+
 
 ##Step 4: Installation
