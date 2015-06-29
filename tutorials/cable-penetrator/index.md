@@ -49,11 +49,11 @@ Insert the cable into the penetrator, allowing the super glue to set.
 ##Step 3: Sealing the Penetrator
 
 <img src="/assets/images/tutorials/cable-penetrator/step-4.png" class="img-responsive" style="max-width:600px" />
-Mix your epoxy and fill your syringe. 
+Mix the epoxy and fill the syringe. 
 
 <img src="/assets/images/tutorials/cable-penetrator/step-5.png" class="img-responsive" style="max-width:600px" />
 <img src="/assets/images/tutorials/cable-penetrator/step-6.png" class="img-responsive" style="max-width:600px" />
-Fill the penetrator hole with the epoxy. Twist the cable within the hole to ensure the epoxy is filling any gaps. 
+Fill the penetrator hole with the epoxy. Move the cable from side to side within the hole to ensure the epoxy is filling any gaps. 
 
 <img src="/assets/images/tutorials/cable-penetrator/step-7.png" class="img-responsive" style="max-width:600px" />
 After the epoxy dries, apply the same method to the other side of the penetrator. 
