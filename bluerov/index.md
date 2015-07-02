@@ -162,10 +162,10 @@ These are BIG files since the model is fairly complex. If you just want to check
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [BROV-R1.SLDPRT](http://www.bluerobotics.com/models/bluerov/BROV-R1.SLDPRT) |
-| STEP (.step)               | [BROV-R1.STEP](http://www.bluerobotics.com/models/bluerov/BROV-R1.STEP)   |
-| IGES (.igs)                | [BROV-R1.IGS](http://www.bluerobotics.com/models/bluerov/BROV-R1.IGS) |
-| STL (.stl)                 | [BROV-R1.STL](http://www.bluerobotics.com/models/bluerov/BROV-R1.STL) |
+| SolidWorks Part (.sldprt)  | [BROV-R1.SLDPRT](http://www.bluerobotics.com/models/bluerov-r1/BROV-R1.SLDPRT) |
+| STEP (.step)               | [BROV-R1.STEP](http://www.bluerobotics.com/models/bluerov-r1/BROV-R1.STEP)   |
+| IGES (.igs)                | [BROV-R1.IGS](http://www.bluerobotics.com/models/bluerov-r1/BROV-R1.IGS) |
+| STL (.stl)                 | [BROV-R1.STL](http://www.bluerobotics.com/models/bluerov-r1/BROV-R1.STL) |
 
 #Assembly
 
