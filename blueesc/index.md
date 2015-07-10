@@ -74,6 +74,11 @@ The BlueESC comes preinstalled on the T100 or T200 Thrusters, and you don't have
 | Max reverse                 | 1100 microseconds             |
 | Signal Deadband             | +/- 25 microseconds (centered around 1500 microseconds) |
 | --------------------------- | ------------- | ------------- |
+|                   **I<sup>2</sup>C Signal**                 |
+| --------------------------- | ------------- | ------------- |
+| Signal Voltage              | 5 volts                       |
+| I<sup>2</sup>C Address      | 0x29 (default) - 0x38         |
+| --------------------------- | ------------- | ------------- |
 |                    **Performance**                   |
 | --------------------------- | ------------- | ------------- |
 | Maximum Depth               | To be determined; Designed for 500m+|
@@ -151,13 +156,36 @@ The data registers can be read to provide information on voltage, current, RPM, 
 
 ##Assigning I<sup>2</sup>C Addresses
 
-To be completed. Stay tuned.
+When using more than one ESC, it is necessary to assign unique addresses to each ESC. To assign a new address to the ESC, you will have to update the firmware on the ESC.
+
+**Tools Needed:**
+
+* Arduino board with [ArduinoUSBLinker](#) code uploaded
+
+1. First, make sure that the [ArduinoUSBLinker](#) code is uploaded on your Arduino. You can do this through the Arduino IDE.
+
+2. Connect the BlueESC signal cable's black ground wire to one of the "GND" pins on the Arduino. Connect the red or yellow PWM signal wire to Arduino pin 2.
+
+3. Power the BlueESC with a battery or power supply.
+
+4. Download the latest BlueESC firmware zip file [here](#). 
+
+5. There are several ways to upload the firmware to the BlueESC. The first is using avrdude from the command line:
+
+~~~~~~~~~~ bash
+# Replace XX with the desired ID number 0-16
+avrdude -c stk500v2 -b 19200 -P [programmer port] -p m8 -U flash:w:blueesc_idXX.hex:i
+~~~~~~~~~~~~~~~
+
+The second method is using a graphical utility such as [KKMulticopterTool](#).
 
 #Example Code
 
 ##Arduino
 
 This example uses the Arduino Servo library to control the speed controller. This provides an update rate of 50 Hz and can use any pin on the Arduino board as the "servoPin".
+
+**Note:** If you power the Arduino before powering the ESC, then the ESC will miss the initialization step and won't start. Power them up at the same time, power the ESC first, or press "reset" on the Arduino after applying power to the ESC.
 
 ~~~~~~~~~~ cpp
 #include <Servo.h>
