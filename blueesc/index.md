@@ -160,9 +160,9 @@ When using more than one ESC, it is necessary to assign unique addresses to each
 
 **Tools Needed:**
 
-* Arduino board with [ArduinoUSBLinker](#) code uploaded
+* Arduino board with [ArduinoUSBLinker](https://github.com/c---/ArduinoUSBLinker) code uploaded
 
-1. First, make sure that the [ArduinoUSBLinker](#) code is uploaded on your Arduino. You can do this through the Arduino IDE.
+1. First, make sure that the [ArduinoUSBLinker](https://github.com/c---/ArduinoUSBLinker) code is uploaded on your Arduino. You can do this through the Arduino IDE.
 
 2. Connect the BlueESC signal cable's black ground wire to one of the "GND" pins on the Arduino. Connect the red or yellow PWM signal wire to Arduino pin 2.
 
@@ -177,7 +177,7 @@ When using more than one ESC, it is necessary to assign unique addresses to each
 avrdude -c stk500v2 -b 19200 -P [programmer port] -p m8 -U flash:w:blueesc_idXX.hex:i
 ~~~~~~~~~~~~~~~
 
-The second method is using a graphical utility such as [KKMulticopterTool](#).
+The second method is using a graphical utility such as [KKMulticopterTool](http://lazyzero.de/en/modellbau/kkmulticopterflashtool).
 
 #Example Code
 
