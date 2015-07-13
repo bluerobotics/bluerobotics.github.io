@@ -30,6 +30,9 @@ The enclosure vent allows the release of trapped air when using the watertight e
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 Always inspect the o-rings before inserting the plug. Any dust, hair, or other particles can cause a leak.
 
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
+Use plastic tools, NOT steel or other hard tools, to remove the o-rings from the aluminum sealing flange. Hard tools can create scrapes that will compromise sealing ability.
+
 <!--<i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
 A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.-->
 
