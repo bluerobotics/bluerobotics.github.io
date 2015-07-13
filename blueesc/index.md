@@ -168,7 +168,7 @@ When using more than one ESC, it is necessary to assign unique addresses to each
 
 3. Power the BlueESC with a battery or power supply.
 
-4. Download the latest BlueESC firmware zip file [here](#). 
+4. Download the [latest BlueESC firmware zip file here](/blueesc/firmware/blueesc_firmware_2015-07-09_a34f109.zip). 
 
 5. There are several ways to upload the firmware to the BlueESC. The first is using avrdude from the command line:
 
@@ -211,11 +211,9 @@ void loop() {
 
 ##Firmware Files
 
-The compiled firmware files can be downloaded here: 
+The compiled firmware files can be downloaded below. This file includes firmware hex files precompiled with 16 different I<sup>2</sup>C addresses.
 
-<!--[<i class="fa fa-download fa-fw"></i> BlueESC Firmware (BLUESC-R1)](#)-->
-
-Coming soon.
+[<i class="fa fa-download fa-fw"></i> BlueESC Firmware (2015-07-09 a34f109)](/blueesc/firmware/blueesc_firmware_2015-07-09_a34f109.zip)
 
 ##Firmware Update and Customization
 
