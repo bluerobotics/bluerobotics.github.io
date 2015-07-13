@@ -18,6 +18,7 @@ store-links:
 
 manual-links:
 - Watertight Enclosure - 4" Series: /watertight-enclosures/4-series/
+- Enclosure Vent: /vent/
 ---
 
 #Introduction

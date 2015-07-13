@@ -19,6 +19,7 @@ store-links:
 
 manual-links:
 - Watertight Enclosure - 2" Series: /watertight-enclosures/2-series/
+- Enclosure Vent: /vent/
 ---
 
 #Introduction
