@@ -1,4 +1,4 @@
----
+ ---
 layout: default
 title: 4" Series Watertight Enclosure Documentation
 permalink: /watertight-enclosures/4-series/
@@ -93,11 +93,12 @@ The assembly process is simple and straightforward - it will take a few minutes!
 
 **Steps:**
 
-<img src="/assets/images/tutorials/wtc-assembly/step-3.jpg" class="img-responsive" style="max-width:600px" />
-1. Lubricate the three o-rings with a thin layer of silicon grease and then install into the grooves on the flange. The thin o-ring is placed in the groove in the face of the flange.
+<img src="/assets/images/tutorials/WTE/4-step-2.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/WTE/4-step-1.png" class="img-responsive" style="max-width:600px" />
+1. Lubricate the three O-rings with a thin layer of silicon grease and then install into the grooves on the flange. The thin O-ring is placed in the groove in the face of the flange.
 
-<img src="/assets/images/tutorials/wtc-assembly/step-2.jpg" class="img-responsive" style="max-width:600px" />
-2. Attach the end caps to the flanges with 6 socket cap screws. Gently tighten the screws so that the o-ring is compressed but not so tight as to damage the plastic
+<img src="/assets/images/tutorials/WTE/4-step-3.png" class="img-responsive" style="max-width:600px" />
+2. Attach the end caps to the flanges with 6 socket cap screws. Gently tighten the screws so that the O-ring is compressed but not so tight as to damage the plastic
 
 <img src="/assets/images/tutorials/wtc-assembly/vent-1.jpg" class="img-responsive" style="max-width:400px" />
 3. Install the vent and any necessary cable penetrators into the end-cap.  
@@ -122,7 +123,7 @@ The assembly process is slightly different for the first version of the sealing 
 2. Attach the end caps to the flanges with 6 socket cap screws. Tighten screws until all air is cleared from the silicon.
 
 <img src="/assets/images/tutorials/wtc-assembly/step-3.jpg" class="img-responsive" style="max-width:600px" />
-3. Lubricate the o-rings with a thin layer of silicon grease and then install into the grooves on the flange.
+3. Lubricate the O-rings with a thin layer of silicon grease and then install into the grooves on the flange.
 
 <img src="/assets/images/tutorials/wtc-assembly/vent-1.jpg" class="img-responsive" style="max-width:400px" />
 4. Install the vent and any necessary cable penetrators into the end-cap.  
