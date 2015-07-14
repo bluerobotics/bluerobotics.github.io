@@ -63,7 +63,7 @@ Quantity      | Part
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
-6             | T100 Thrusters                                          
+6             | T100/T200 Thrusters                                          
 6             | Basic ESC 30A                                           
 24            | M3x10 Button-Head Socket Cap Screws                     
 

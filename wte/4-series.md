@@ -1,4 +1,4 @@
- ---
+---
 layout: default
 title: 4" Series Watertight Enclosure Documentation
 permalink: /watertight-enclosures/4-series/
