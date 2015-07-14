@@ -95,7 +95,7 @@ The assembly process is simple and straightforward - it will take a few minutes!
 <img src="/assets/images/tutorials/WTE/2-step-2.png" class="img-responsive" style="max-width:600px" />
 1. Lubricate the three O-rings with a thin layer of silicon grease and then install into the grooves on the flange. The thin O-ring is placed in the groove in the face of the flange.
 
-<img src="/assets/images/tutorials/WTE/2-step-3png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/WTE/2-step-3.png" class="img-responsive" style="max-width:600px" />
 2. Attach the end caps to the flanges with 6 socket cap screws. Gently tighten the screws so that the O-ring is compressed but not so tight as to damage the plastic
 
 <img src="/assets/images/tutorials/wtc-assembly/vent-1.jpg" class="img-responsive" style="max-width:400px" />
