@@ -98,8 +98,9 @@ The assembly process is simple and straightforward - it will take a few minutes!
 <img src="/assets/images/tutorials/WTE/2-step-3.png" class="img-responsive" style="max-width:600px" />
 2. Attach the end caps to the flanges with 6 socket cap screws. Gently tighten the screws so that the O-ring is compressed but not so tight as to damage the plastic
 
-<img src="/assets/images/tutorials/wtc-assembly/vent-1.jpg" class="img-responsive" style="max-width:400px" />
+<img src="/assets/images/tutorials/WTE/step-4.png" class="img-responsive" style="max-width:600px" />
 3. Install the vent and any necessary cable penetrators into the end-cap.  
+<img src="/assets/images/tutorials/WTE/step-5.png" class="img-responsive" style="max-width:600px" />
 4. Install the flanges onto the tube and replace the vent cap to seal.
 
 #Making Custom End-Caps
