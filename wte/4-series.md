@@ -93,8 +93,9 @@ The assembly process is simple and straightforward - it will take a few minutes!
 
 **Steps:**
 
-<img src="/assets/images/tutorials/WTE/4-step-2.png" class="img-responsive" style="max-width:600px" />
+
 <img src="/assets/images/tutorials/WTE/4-step-1.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/WTE/4-step-2.png" class="img-responsive" style="max-width:600px" />
 1. Lubricate the three O-rings with a thin layer of silicon grease and then install into the grooves on the flange. The thin O-ring is placed in the groove in the face of the flange.
 
 <img src="/assets/images/tutorials/WTE/4-step-3.png" class="img-responsive" style="max-width:600px" />
