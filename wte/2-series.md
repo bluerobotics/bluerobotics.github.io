@@ -49,10 +49,12 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | Tube Outer Diameter                 | 2.25 in       | 57.2 mm       |
 | Tube Thickness                      | 0.125 in      | 3.2 mm        |
 | End Cap Thickness                   | 0.24 in       | 6.0 mm        |
-| Aluminum Flange Inner Diameter      | 3.5 in        | 89 mm         |
+| Aluminum Flange Inner Diameter      | 1.5 in        | 38 mm         |
 | Total Length                        | 12.7 in       | 322 mm        |
 | Radial Seal O-ring (1 used)         | AS568-133, Buna-N             |
 | Face Seal O-ring (1 used)           | AS568-030, Buna-N             |
+| End-cap Screws                      | M2x10 (Stainless Steel 316)   |
+| Inner Mounting Holes                | M3 threading                  |
 
 ##3D Models
 

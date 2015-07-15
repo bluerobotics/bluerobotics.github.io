@@ -54,6 +54,8 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | Total Length                        | 13.15 in      | 334 mm        |
 | Radial Seal O-ring (2 used)         | AS568-238, Buna-N             |
 | Face Seal O-ring (1 used)           | AS568-154, Buna-N             |
+| End-cap Screws                      | M3x16 (Stainless Steel 316)   |
+| Inner Mounting Holes                | M3 threading                  |
 
 ##3D Models
 
