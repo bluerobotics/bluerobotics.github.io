@@ -135,7 +135,7 @@ The assembly process is slightly different for the first version of the sealing 
 
 #Opening Enclosure 
 
-Opening the enclosure is super simple!
+Opening the enclosure is straightforward.
 
 **Steps:**
 
