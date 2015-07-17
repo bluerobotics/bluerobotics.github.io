@@ -227,7 +227,7 @@ The frame is the structure of the ROV and includes several laser-cut plastic pie
 
 ##Watertight Enclosure Assembly
 
-Please see the [Watertight Enclosure Assembly Tutorial](/watertight-enclosures/) for detailed instructions on how to assemble the Watertight Enclosure. Once the enclosure is assembled, do the following:
+Please see the [Watertight Enclosure Assembly Tutorial](/watertight-enclosures/4-series/#assembly-old-r1-style) for detailed instructions on how to assemble the Watertight Enclosure. Once the enclosure is assembled, do the following:
 
 1. We need the enclosure in place to measure the necessary length of each thruster cable. Attach the enclosure to the frame using the two velcro straps.  
 
