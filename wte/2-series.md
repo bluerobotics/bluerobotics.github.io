@@ -50,10 +50,12 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | Tube Outer Diameter                 | 2.25 in       | 57.2 mm       |
 | Tube Thickness                      | 0.125 in      | 3.2 mm        |
 | End Cap Thickness                   | 0.24 in       | 6.0 mm        |
-| Aluminum Flange Inner Diameter      | 3.5 in        | 89 mm         |
+| Aluminum Flange Inner Diameter      | 1.5 in        | 38 mm         |
 | Total Length                        | 12.7 in       | 322 mm        |
 | Radial Seal O-ring (1 used)         | AS568-133, Buna-N             |
 | Face Seal O-ring (1 used)           | AS568-030, Buna-N             |
+| End-cap Screws                      | M2x10 (Stainless Steel 316)   |
+| Inner Mounting Holes                | M3 threading                  |
 
 ##3D Models
 
@@ -94,10 +96,10 @@ The assembly process is simple and straightforward - it will take a few minutes!
 
 <img src="/assets/images/tutorials/WTE/2-step-1.png" class="img-responsive" style="max-width:600px" />
 <img src="/assets/images/tutorials/WTE/2-step-2.png" class="img-responsive" style="max-width:600px" />
-1. Lubricate the three O-rings with a thin layer of silicon grease and then install into the grooves on the flange. The thin O-ring is placed in the groove in the face of the flange.
+1. Lubricate the two O-rings with a thin layer of silicon grease and then install into the grooves on the flange. The thin O-ring is placed in the groove in the face of the flange.
 
 <img src="/assets/images/tutorials/WTE/2-step-3.png" class="img-responsive" style="max-width:600px" />
-2. Attach the end caps to the flanges with 6 socket cap screws. Gently tighten the screws so that the O-ring is compressed but not so tight as to damage the plastic
+2. Attach the end cap to the flange with 6 socket cap screws. Gently tighten the screws so that the O-ring is compressed but not so tight as to damage the plastic.
 
 <img src="/assets/images/tutorials/WTE/2-step-5.png" class="img-responsive" style="max-width:600px" />
 3. Install the vent and any necessary cable penetrators into the end-cap.  
