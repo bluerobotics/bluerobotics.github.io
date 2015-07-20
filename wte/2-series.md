@@ -106,7 +106,7 @@ The assembly process is simple and straightforward - it will take a few minutes!
 <img src="/assets/images/tutorials/WTE/2-step-4.png" class="img-responsive" style="max-width:600px" />
 4. Install the flanges onto the tube and replace the vent cap to seal.
 
-Opening Enclosure 
+#Opening Enclosure 
 
 Opening the enclosure is straightforward.
 
