@@ -10,6 +10,7 @@ nav:
 - - Specification Table: specification-table
 - - 3D Model: d-models
 - Assembly: assembly
+- Opening Enclosure: opening-enclosure
 - Making Custom End-Caps: making-custom-end-caps
 
 store-links:
@@ -100,10 +101,23 @@ The assembly process is simple and straightforward - it will take a few minutes!
 <img src="/assets/images/tutorials/WTE/2-step-3.png" class="img-responsive" style="max-width:600px" />
 2. Attach the end cap to the flange with 6 socket cap screws. Gently tighten the screws so that the O-ring is compressed but not so tight as to damage the plastic.
 
-<img src="/assets/images/tutorials/WTE/step-4.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/WTE/2-step-5.png" class="img-responsive" style="max-width:600px" />
 3. Install the vent and any necessary cable penetrators into the end-cap.  
-<img src="/assets/images/tutorials/WTE/step-5.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/WTE/2-step-4.png" class="img-responsive" style="max-width:600px" />
 4. Install the flanges onto the tube and replace the vent cap to seal.
+
+#Opening Enclosure 
+
+Opening the enclosure is straightforward.
+
+**Steps:**
+
+<img src="/assets/images/tutorials/WTE/2-open-step-1.png" class="img-responsive" style="max-width:600px" />
+1. Remove the vent plug. 
+
+<img src="/assets/images/tutorials/WTE/2-open-step-2.png" class="img-responsive" style="max-width:600px" />
+2. Remove the flange using the tabs on the sides of the endcap. 
+
 
 #Making Custom End-Caps
 

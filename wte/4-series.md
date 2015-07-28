@@ -11,6 +11,7 @@ nav:
 - - 3D Model: d-models
 - Assembly: assembly
 - Assembly (Old R1 Style): assembly-old-r1-style
+- Opening Enclosure: opening-enclosure
 - Making Custom End-Caps: making-custom-end-caps
 
 store-links:
@@ -133,6 +134,20 @@ The assembly process is slightly different for the first version of the sealing 
 4. Install the vent and any necessary cable penetrators into the end-cap.  
 <img src="/assets/images/tutorials/WTE/step-5.png" class="img-responsive" style="max-width:600px" />
 5. Install the flanges onto the tube and replace the vent cap to seal.
+
+#Opening Enclosure 
+
+Opening the enclosure is straightforward.
+
+**Steps:**
+
+<img src="/assets/images/tutorials/WTE/open-step-1.png" class="img-responsive" style="max-width:600px" />
+1. Remove the vent plug. 
+
+<img src="/assets/images/tutorials/WTE/open-step-2.png" class="img-responsive" style="max-width:600px" />
+2. Remove the flange using the tabs on the sides of the endcap. 
+
+
 
 #Making Custom End-Caps
 
