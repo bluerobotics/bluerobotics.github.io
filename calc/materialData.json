@@ -1,0 +1,12 @@
+{ "materials": [
+		{ "name": "Acrylic", 							"density": "1.18 g/cm3" },
+		{ "name": "Aluminum", 						"density": "2712.63 kg/m3" },
+		{ "name": "HDPE", 								"density": "0.95 g/cm3" },
+		{ "name": "Polycarbonate", 				"density": "1.21 g/cm3" },
+		{ "name": "Subsea Buoyancy Foam", "density": "192 kg/m3", "link": "https://www.bluerobotics.com/store/buoyancy-ballast/float-r1/"},
+		{ "name": "Stainless Steel", 			"density": "7861.1 kg/m3" },
+		{ "name": "UHMW Polyethylene", 		"density": "0.945 g/cm3" },
+		{ "name": "Water, fresh", 				"density": "999.97 kg/m3"},
+		{ "name": "Water, salt", 					"density": "1024 kg/m3"}
+	]
+}
