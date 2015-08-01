@@ -9,7 +9,9 @@ nav:
 - Learn More: learn-more
 ---
 
-#Calculator (Beta, please double check results & report bugs!)
+#Calculator 
+
+#(Beta, please double check results & report bugs!)
 
 This calculator finds the buoyancy of an object based on it's volume. It also uses the object weight or density to find the net buoyancy.
 
