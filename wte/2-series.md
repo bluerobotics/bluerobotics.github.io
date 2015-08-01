@@ -46,6 +46,9 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | ----------------------------------- | ----------------------------- |
 | Maximum Tested Depth (Saltwater)    | 330 ft        | 100 m         |
 | Maximum Pressure                    | 146 psi       | 1000 kPa      |
+| Weight in Air                       | 1.1 lb        | 500 g         |
+| Weight in Water (Fresh)             | -0.72 lb      | -326 g        |
+| Displacement                        | 50.3 in^3     | 825 cm^3      |
 | Tube Inner Diameter                 | 2 in          | 50.8 mm       |
 | Tube Outer Diameter                 | 2.25 in       | 57.2 mm       |
 | Tube Thickness                      | 0.125 in      | 3.2 mm        |
