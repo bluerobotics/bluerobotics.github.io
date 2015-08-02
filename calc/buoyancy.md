@@ -13,12 +13,12 @@ nav:
 
 #(Beta, please double check results & report bugs!)
 
-This calculator finds the buoyancy of an object based on it's volume. It also uses the object weight or density to find the net buoyancy.
+This calculator finds the buoyancy of an object based on it's displacement. It also uses the object weight or density to find the net buoyancy.
 
 <div class="well">
 <form>
 <div class="form-group has-feedback" id="volumeInputGroup">
-	<label for="volumeInput">Volume of Object</label>
+	<label for="volumeInput">Displacement of Object</label>
 	<input type="text" class="form-control" id="volumeInput" onkeyup="runCalcs()" aria-describedby="inputSuccess2Status" value="50 in^3"></input>
 	<span class="glyphicon form-control-feedback" id="volumeInputIcon" aria-hidden="true"></span>
   <span id="inputSuccess2Status" class="sr-only">(success)</span>
