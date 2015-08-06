@@ -43,6 +43,8 @@ function runCalcs() {
 		document.getElementById("weightInputIcon").classList.add("glyphicon-ok");
 
 		calculate();
+	} else {
+		clearTable();
 	}
 }
 
