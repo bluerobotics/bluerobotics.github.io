@@ -105,15 +105,13 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 
 ##3D Model
 
-<!--
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [M100-MOTOR-R1.SLDPRT](/thrusters/cad/M100-MOTOR-R1.SLDPRT) |
-| STEP (.step)               | [M100-MOTOR-R1.STEP](/thrusters/cad/M100-MOTOR-R1.STEP)   |
-| IGES (.igs)                | [M100-MOTOR-R1.IGS](/thrusters/cad/M100-MOTOR-R1.IGS) |
-| STL (.stl)                 | [M100-MOTOR-R1.STL](/thrusters/cad/M100-MOTOR-R1.STL) |
-| All Formats in a Zip File (.zip)   | [M100-MOTOR-R1.zip](/thrusters/cad/M100-MOTOR-R1.zip) |
--->
+| SolidWorks Part (.sldprt)  | [M200-MOTOR-R1.SLDPRT](/thrusters/cad/M200-MOTOR-R1.SLDPRT) |
+| STEP (.step)               | [M200-MOTOR-R1.STEP](/thrusters/cad/M200-MOTOR-R1.STEP)   |
+| IGES (.igs)                | [M200-MOTOR-R1.IGS](/thrusters/cad/M200-MOTOR-R1.IGS) |
+| STL (.stl)                 | [M200-MOTOR-R1.STL](/thrusters/cad/M200-MOTOR-R1.STL) |
+| All Formats in a Zip File (.zip)   | [M200-MOTOR-R1.zip](/thrusters/cad/M200-MOTOR-R1.zip) |
 
 #Installation
 
