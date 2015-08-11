@@ -260,8 +260,8 @@ Please see the [Watertight Enclosure Assembly Tutorial](/watertight-enclosures/4
 The BlueROV comes with an electronics tray designed to fit the ESCs, a Raspberry Pi 1/2 computer, and an 3DR APM 2.6 autopilot. It also has a power distribution terminal block and straps to hold a battery.
 
 
-	<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-1.png" class="img-responsive" style="max-width:600px" />
-	<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-4.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-1.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-4.png" class="img-responsive" style="max-width:600px" />
 
 1. First, install the Secondary Tray above the main tray using the four provided Aluminum Hex Standoffs and eight M3x6 Button-Head Socket Cap screws.
 
