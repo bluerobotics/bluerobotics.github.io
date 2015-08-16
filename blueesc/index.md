@@ -278,6 +278,12 @@ brew install avra
 make bluesc.hex
 ~~~
 
+To compile the files with multiple I2C addresses, you can use the following:
+
+~~~ bash
+make build_blueesc_addresses
+~~~
+
 ###Firmware Flashing
 
 The ESC includes a bootloader that allows flashing through the PWM signal wire using a programming like the [Turnigy USB Linker](http://www.hobbyking.com/hobbyking/store/__10628__turnigy_usb_linker_for_aquastar_super_brain.html) or the [AfroESC Programmer](http://www.hobbyking.com/hobbyking/store/__39437__afro_esc_usb_programming_tool.html). 
