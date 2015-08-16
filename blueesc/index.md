@@ -15,7 +15,8 @@ nav:
 - - Data Request: data-request
 - - Assigning I<sup>2</sup>C Addresses: assigning-isup2supc-addresses
 - Example Code: example-code
-- - Arduino: arduino
+- - Arduino With Servo Library: arduino-with-servo-library
+- - Arduino With I2C: arduino-with-isup2supc
 - Advanced: advanced
 - - Firmware Files: firmware-files
 - - Firmware Update and Customization: firmware-update-and-customization
@@ -181,7 +182,7 @@ The second method is using a graphical utility such as [KKMulticopterTool](http:
 
 #Example Code
 
-##Arduino
+##Arduino with Servo Library
 
 This example uses the Arduino Servo library to control the speed controller. This provides an update rate of 50 Hz and can use any pin on the Arduino board as the "servoPin".
 
@@ -206,6 +207,52 @@ void loop() {
 	servo.writeMicroseconds(signal); // Send signal to ESC.
 }
 ~~~~~~~~~~~~~~~~
+
+##Arduino with I2C
+
+The following example uses the [Blue Robotics Arduino_I2C_ESC library](https://github.com/bluerobotics/Arduino_I2C_ESC) to control the BlueESC through I2C. 
+
+~~~~ cpp
+
+#include <Wire.h>
+#include "Arduino_I2C_ESC.h"
+
+#define ESC_ADDRESS 0x29
+
+Arduino_I2C_ESC motor(ESC_ADDRESS);
+
+int signal;
+
+void setup() {
+  Serial.begin(57600);
+  Serial.println("Starting");
+  
+  Wire.begin();
+}
+
+void loop() {
+
+  if ( Serial.available() > 0 ) {
+    signal = Serial.parseInt();
+  }
+  
+  motor.set(signal);
+
+  motor.update();
+
+  Serial.print("ESC: ");
+  if(motor.isAlive()) Serial.print("OK\t\t"); 
+  else Serial.print("NA\t\t");
+  Serial.print(signal);Serial.print(" \t\t");  
+  Serial.print(motor.rpm());Serial.print(" RPM\t\t");
+  Serial.print(motor.voltage());Serial.print(" V\t\t");
+  Serial.print(motor.current());Serial.print(" A\t\t");
+  Serial.print(motor.temperature());Serial.print(" `C");
+  Serial.println();
+
+  delay(250); // Update at roughly 4 hz
+}
+~~~~~~~~~~~~~~~~~~~
 
 #Advanced
 
