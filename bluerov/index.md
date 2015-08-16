@@ -259,13 +259,28 @@ Please see the [Watertight Enclosure Assembly Tutorial](/watertight-enclosures/4
 
 The BlueROV comes with an electronics tray designed to fit the ESCs, a Raspberry Pi 1/2 computer, and an 3DR APM 2.6 autopilot. It also has a power distribution terminal block and straps to hold a battery.
 
-1. First attach the terminal block in the center of the tray on top using the two provided holes.
+
+<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-1.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-4.png" class="img-responsive" style="max-width:600px" />
+
+1. First, install the Secondary Tray above the main tray using the four provided Aluminum Hex Standoffs and eight M3x6 Button-Head Socket Cap screws.
+
+	<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-5.png" class="img-responsive" style="max-width:600px" />
+	<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-7.png" class="img-responsive" style="max-width:600px" />
+	<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-8.png" class="img-responsive" style="max-width:600px" />
+
+2. Next, attach the Terminal Block Jumpers to the Terminal Block. 
+
+	<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-9.png" class="img-responsive" style="max-width:600px" />
+	<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-10.png" class="img-responsive" style="max-width:600px" />
+
+3. Next, attach the terminal block in the center of the tray on top using the two provided holes.
 
 2. Next, attach the ESCs using the provided zip ties. The ESC should be arranged with the "BlueRobotics" logo facing toward the tray which will expose the warm parts of the ESC to air to enable cooling. Three ESCs are attached on top and three on bottom.
 
 3. We recommend attaching the Raspberry Pi and camera now as well. Hardware is not provided.
 
-4. Next, install the Secondary Tray above the main tray using the four provided Aluminum Hex Standoffs and eight M3x6 Button-Head Socket Cap screws.
+
 
 5. The round legs can be snapped on to each end of the tray. You can use glue to secure the legs if desired. 
 
