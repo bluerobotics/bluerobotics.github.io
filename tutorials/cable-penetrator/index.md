@@ -25,7 +25,7 @@ This tutorial should help make the Cable Penetrator Installation simple!
 ##Tools You Need
 
 * Super Glue
-* Marine Epoxy
+* [Marine Epoxy](https://www.bluerobotics.com/store/tools/loctite-marine-epoxy/)
 
 
 #Instructions
