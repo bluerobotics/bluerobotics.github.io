@@ -48,7 +48,7 @@ Always practice caution when you're working with electricity in water and with t
 ##Quick Start
 
 1. Solder wires from ESC to pads on motor.
-2. Waterproof solder connection with epoxy or other potting compound. We recommend Loctite Marine Epoxy or MG Chemicals 4229.
+2. Waterproof solder connection with epoxy or other potting compound. We recommend [Loctite Marine Epoxy](https://www.bluerobotics.com/store/tools/loctite-marine-epoxy/) or MG Chemicals 4229.
 3. Connect the wires to an ESC, send a signal, and the motor will start spinning. That's it.
 
 ##Important Notes
