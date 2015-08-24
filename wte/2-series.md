@@ -128,7 +128,7 @@ One of the cool things about the watertight enclosure design is that it's compat
 
 The CAD files above as long as the DXF drawing file attached below will give you a good starting point for your design. You'll need access to either 3D modeling software like SolidWorks or AutoCAD or 2D drawing software like Adobe Illustrator, Inkscape, and others.
 
-- [WTE2-END-CAP-R1.DXF](/wte/dxf/WTE2-END-CAP-R1.DXF)
+- [WTE2-P-END-CAP-R1.DXF](/wte/dxf/WTE2-P-END-CAP-R1.DXF)
 
 Here are a few things to remember:
 
