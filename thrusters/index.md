@@ -87,6 +87,10 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | Length (without BlueESC)| 102 mm        | 4.0 in        |
 | Length (with BlueESC)   | 113 mm        | 4.45 in       |
 | Diameter                | 100 mm        | 3.9 in        |
+| Weight in Air (with 1m cable)(without BlueESC)         | 0.65 lb        | 295 g       |
+| Weight in Air (with 1m cable)(with BlueESC)        | 0.84 lb       | 378 g        |
+| Weight in Water (with 1m cable)(without BlueESC)              | 0.26 lb       | 120 g        |
+| Weight in Water (with 1m cable)(with BlueESC)               | 0.37 lb        | 167 g      |
 | Propeller Diameter      | 76 mm         | 3.0 in        |
 | Mounting Hole Threads   | M3 x 0.5                      |
 | Mounting Hole Spacing   | 19 mm         | 0.75 in       |
@@ -156,27 +160,29 @@ Changing the propeller is easy and should only take a minute.
 
 **Steps:**
 
-1. Using the screwdriver, remove the four outer screws from the nozzle.
+<img src="/assets/images/tutorials/changing-a-propeller/propeller-1.png" class="img-responsive" style="max-width:500px" />
+1. Using the screwdriver, remove the four outer screws from the nozzle.    
+2. Pull the nozzle away from the rest of the thruster and set aside. 
 
-2. Pull the nozzle away from the rest of the thruster and set aside.
-
+<img src="/assets/images/tutorials/changing-a-propeller/propeller-2.png" class="img-responsive" style="max-width:500px" />
 3. Remove the two screws securing the propeller with the hex key.
 
-4. Remove the propeller and replace with the new propeller.
-
+<img src="/assets/images/tutorials/changing-a-propeller/propeller-3.png" class="img-responsive" style="max-width:500px" />
+4. Remove the propeller and replace with the new propeller.   
 5. Re-install propeller screws and nozzle screws.
+
 
 ##Mounting Options
 
 The T100 Thruster has several mounting options. The nozzle has four mounting holes that can be used to secure directly to vehicle. 
 
-Occasionally, these holes may not be convenient or it may be difficult to secure the screws. In this case, the mounting bracket may be a better option. The mounting bracket is secured to the thruster through the four screw holes. It can be mounted in two different orientation as shown below.
+Occasionally, these holes may not be convenient or it may be difficult to secure the screws. In this case, the mounting bracket may be a better option. The mounting bracket is secured to the thruster through the four screw holes. It can be mounted in two different orientations as shown below.
 
-<img src="/assets/images/t100-with-bracket-fb-1.png" class="img-responsive" style="max-width:500px" />
+<img src="/assets/images/bracket-1.png" class="img-responsive" style="max-width:500px" />
 
 *Thruster with bracket in front/back orientation*
 
-<img src="/assets/images/t100-with-bracket-ss-1.png" class="img-responsive" style="max-width:500px" />
+<img src="/assets/images/bracket-2.png" class="img-responsive" style="max-width:500px" />
 
 *Thruster with bracket in side to side orientation*
 
@@ -199,27 +205,6 @@ The BlueESC must be pre-installed on the T100 Thruster.
 ##How to Cut and Strip the Cable
 
 The thruster comes with a tough urethane-jacketed cable. This is great for use underwater, but it can be a little difficult to remove the jacket from the wires if you want to cut the cable to a shorter length. During production, we use a thermal wire strippers, but the jacket can also be removed with a razor blade or hobby knife. [Check out the cable stripping tutorial with pictures here](/tutorials/cable-stripping)
-
-**Tools Needed:**
-
-* Wire cutters
-* Wire strippers for 18 AWG wire
-* Razor blade or hobby knife
-* Glove for hand protection
-
-**Steps:**
-
-1. Use the wire cutters to cut the cable to the desired length. Remember, it's always easier to cut off more so be conservative.
-
-2. Bend the cable sharply and gently cut the jacket with the knife. Be careful not to cut too deep.
-
-3. Rotate the wire so the other side is exposed and repeat Step 2.
-
-4. Grab the end firmly and pull the jacket off of the cable.
-
-5. The white teflon tape between the jacket and wires can be removed. Just peel it away.
-
-6. Strip the ends of each wire with the wire strippers, using the 18 AWG slot.
 
 #Operation
 
@@ -264,21 +249,23 @@ Occasionally it may be necessary to disassemble the thruster.
 
 **Steps:**
 
-1. Remove the four phillips-head screws from the outside of the nozzle.
+<img src="/assets/images/tutorials/changing-a-propeller/propeller-1.png" class="img-responsive" style="max-width:500px" />
+1. Remove the four phillips-head screws from the outside of the nozzle.      
+2. Remove the nozzle from the rest of the motor and set aside.   
 
-2. Remove the nozzle from the rest of the motor and set aside.
-
-3. Using the 2.5 mm hex key, remove the screws securing the nose cone.
-
+<img src="/assets/images/tutorials/disassembly/disassembly-1.png" class="img-responsive" style="max-width:500px" />
+3. Using the 2.5 mm hex key, remove the screws securing the nose cone.      
 4. Remove the nose cone and set aside.
 
-5. Manually turn the propeller until the shaft collar set screw is aligned with the notch in the plastic. Using the 1.5 mm hex key, loosen the shaft collar set screw.
+<img src="/assets/images/tutorials/disassembly/disassembly-2.png" class="img-responsive" style="max-width:500px" />
+5. Manually turn the propeller until the shaft collar set screw is aligned with the notch in the plastic. Using the 1.5 mm hex key, loosen the shaft collar set screw.       
+<img src="/assets/images/tutorials/disassembly/disassembly-3.png" class="img-responsive" style="max-width:500px" />   
+6. After being used in water, the shaft collar can be difficult to remove. Do not try to pry it up. Instead, pull on the propeller from the opposite side to remove the shaft from the shaft collar.      
 
-6. After being used in water, the shaft collar can be difficult to remove. Do not try to pry it up. Instead, pull on the propeller from the opposite side to remove the shaft from the shaft collar.
+<img src="/assets/images/tutorials/changing-a-propeller/propeller-2.png" class="img-responsive" style="max-width:500px" />
+7. Remove the propeller screws from the rotor with the 2 mm hex key and pull the propeller away from the rotor.     
+8. Repeat these steps in the reverse direction to reassemble the thruster.      
 
-7. Remove the propeller screws from the rotor with the 2 mm hex key and pull the propeller away from the rotor.
-
-8. Repeat these steps in the reverse direction to reassembly the thruster.
 
 #Troubleshooting
 
