@@ -127,7 +127,7 @@ The three solder pads are always connected to the same motor phases, so connecti
 
 ###Connecting the BlueESC
 
-Normally the BlueESC sold pre-installed on the T100 and T200 Thrusters, however it can be purchased separately for use with the M100 and other motors. Connecting the BlueESC is very similar to connecting the basic ESC. 
+Normally the BlueESC sold pre-installed on the T100 and T200 Thrusters, however it can used with the M100 and other motors. Connecting the BlueESC is very similar to connecting the basic ESC. 
 
 Solder the three wires from the BlueESC to the pads on the M100. Check out the [BlueESC Manual](/bluesc/) for information on cable connections and operation.
 
