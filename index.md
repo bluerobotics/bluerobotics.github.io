@@ -76,14 +76,26 @@ You can use the menu bar at the top to find the product you are looking for and 
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(/assets/images/tutorials/wire-stripping/wire-strip-7.png)">
-  		<a href="/tutorials/cable-stripping/">Cable Jacket Stripping <i class="fa fa-chevron-circle-right"></i></a>
-  	</div>
+    <div class="tile" style="background-image:url(/assets/images/tutorials/wire-stripping/wire-strip-7.png)">
+      <a href="/tutorials/cable-stripping/">Cable Jacket Stripping <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
   </div>
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(/assets/images/tutorials/cable-penetrator/step-5.png)">
-  		<a href="/tutorials/cable-penetrator/">Cable Penetrator <i class="fa fa-chevron-circle-right"></i></a>
-  	</div>
+    <div class="tile" style="background-image:url(/assets/images/tutorials/cable-penetrator/step-5.png)">
+      <a href="/tutorials/cable-penetrator/">Cable Penetrator <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/tutorials/changing-a-propeller/propeller-3.png)">
+      <a href="/tutorials/changing-the-propeller/">Changing the Propeller <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/tutorials/disassembly/disassembly-2.png)">
+      <a href="/tutorials/disassembly-assembly/">Disassembly/Assembly <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
   </div>
 </div>
 
@@ -102,8 +114,6 @@ This page is hosted by and version-controlled through Github.com. Check out the 
 [Here is a short tutorial](/jekyll-tutorial/) showing how to edit the documentation locally and push changes to your fork.
 
 #License
-
-
 
 [<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />](http://creativecommons.org/licenses/by-sa/4.0/)
 
