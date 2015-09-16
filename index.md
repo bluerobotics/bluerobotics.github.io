@@ -22,51 +22,51 @@ You can use the menu bar at the top to find the product you are looking for and 
 
 <div class="row">
   <div class="col-sm-4 col-md-4"> 
-  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2014/08/blueesc-11-500x500.png)">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/thruster-2.png)">
   		<a href="/thrusters/">T100 Thruster <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2014/09/t200-31-500x500.png)">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/t200-1.png)">
   		<a href="/thrusters/t200/">T200 Thruster <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2014/10/kit-22-500x500.png)">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/kit-2.png)">
   		<a href="/bluerov/">BlueROV <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
 </div>
 <div class="row">
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2014/11/top-3-500x500.png)">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/top-3.png)">
   		<a href="/thrusters/motors/">M100 Motor <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2015/06/m200-22-500x500.png)">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/m200-1.png)">
   		<a href="/thrusters/motors/m200">M200 Motor <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2014/08/besc-2-900x900.png)">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/besc-2.png)">
   		<a href="/besc/">Basic ESC <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
 </div>
 <div class="row">
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2015/03/assem-2-900x900.png)">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/assem-4in.png)">
   		<a href="/watertight-enclosures/4-series/">4"-Series Enclosure <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2015/07/assem-2-500x500.png)">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/assem-2in.png)">
   		<a href="/watertight-enclosures/2-series/">2"-Series Enclosure <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(http://www.bluerobotics.com/images/thruster/blueesc-inside.jpg)">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/blueesc-inside.jpg)">
   		<a href="/bluesc/">BlueESC <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
