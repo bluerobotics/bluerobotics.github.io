@@ -54,8 +54,8 @@ Quantity      | Part
 1             | Rear Thruster Mount (Black Delrin)                      
 2             | Watertight Enclosure Cradles (Black Delrin)             
 10            | T-Slot Nuts                                             
-14            | M5x12 Button-Head Socket Cap Screws                     
-12            | M4x10 Button-Head Socket Cap Screws                     
+12            | M5x12 Cross Head Plastic Screws                     
+12            | M4x10 Button-Head Hex Screws                     
 2             | Velcro Straps                                           
 1             | Rubber Edge Strip    
 
@@ -65,7 +65,7 @@ Quantity      | Part
 ------------- | --------------------------------------------------------
 6             | T100/T200 Thrusters                                          
 6             | Basic ESC 30A                                           
-24            | M3x10 Button-Head Socket Cap Screws                     
+24            | M3x10 Button-Head Hex Screws                     
 
 ##Watertight Enclosure
 
@@ -76,7 +76,7 @@ Quantity      | Part
 1             | Clear Endcap with 8 x 10mm holes (cast acrylic)         
 2             | CNC Aluminum Sealing Flange                             
 4             | O-rings for Flange                                      
-12            | M3x16 Socket-Head Cap Screws                            
+12            | M3x16 Socket-Head Hex Screws                            
 
 ##Enclosure Vent
 
@@ -105,7 +105,7 @@ Quantity      | Part
 1             | Secondary Tray (Black Delrin)                           
 2             | Semi-circular Tray Legs (Black Delrin)                  
 4             | Aluminum Hex Standoff, 25mm                             
-8             | M3x6 Button-Head Socket Cap Screws                              
+8             | M3x6 Button-Head Hex Screws                              
 1             | Velcro Battery Strap                                    
 1             | 8-Position Power Terminal Block                                    
 6             | Terminal Block Jumpers
@@ -121,7 +121,7 @@ Quantity      | Part
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
-1             | Silicon grease tube                                     
+1             | Silicone grease tube                                     
 
 #Specifications
 
@@ -175,18 +175,20 @@ The frame is the structure of the ROV and includes several laser-cut plastic pie
 
 **Tools Needed:**
 
-* 2.5mm Hex Key
-* 3mm Hex Key
+* 2mm Hex Driver
+* 2.5mm Hex Driver
+* Flathead Screwdriver
+* Knife or Scissors
 
-1. Remove the protective paper from all plastic parts.  
+1. Remove the brown protective paper from all plastic parts.  
 
-	<img src="/assets/images/tutorials/bluerov-manual/Picture1.png" class="img- responsive" style="max-width:600px" />
+	<img src="/assets/images/tutorials/bluerov-manual/Picture1.png" class="img-responsive" style="max-width:600px" />
 
-2. Next, we will loosely assemble the center structure before attaching it to the rest of the ROV. Start with the Center Panel, two Aluminum T-Slot Bars, four T-Slot Nuts, and four M5x12 Button-Head Socket Caps screws as shown above.
+2. Next, we will loosely assemble the center structure before attaching it to the rest of the ROV. Start with the Center Panel, two Aluminum T-Slot Bars, four T-Slot Nuts, and four M5x12 Cross Head Plastic Screws as shown above. Note: old screw hardware in image above.
 
 	<img src="/assets/images/tutorials/bluerov-manual/Picture2.png" class="img-responsive" style="max-width:600px" />
 
-3. Insert the four screws into the Center Panel and lightly attached the T-slot Nuts as shown.
+3. Insert the four screws into the Center Panel and lightly attached the T-slot Nuts as shown. Note thate the beveled edge of the T-slot nuts faces inward into the Aluminum T-Slot Bars.
 
 	<img src="/assets/images/tutorials/bluerov-manual/Picture3.png" class="img-responsive" style="max-width:600px" />
 
@@ -194,7 +196,7 @@ The frame is the structure of the ROV and includes several laser-cut plastic pie
 
 	<img src="/assets/images/tutorials/bluerov-manual/Picture4.png" class="img-responsive" style="max-width:600px" />
 
-5. Next we'll add the two Watertight Enclosure Cradles using four more nuts and screws. Insert the nut into the screw a few turns and then slide into the T-Slot bar. Then insert the Plastic Cradle so that the screws fill the notches.
+5. Next we'll add the two Watertight Enclosure Cradles using four more nuts and plastic screws. Insert the nut into the screw a few turns and then slide into the T-Slot bar. Then insert the Plastic Cradle so that the screws fill the notches.
 
 	<img src="/assets/images/tutorials/bluerov-manual/Picture5.png" class="img-responsive" style="max-width:600px" />
 	<img src="/assets/images/tutorials/bluerov-manual/Picture6.png" class="img-responsive" style="max-width:600px" />
@@ -207,19 +209,19 @@ The frame is the structure of the ROV and includes several laser-cut plastic pie
 
 	<img src="/assets/images/tutorials/bluerov-manual/Picture8.png" class="img-responsive" style="max-width:600px" />
 	
-8. Last, insert the straps that will hold the Watertight Enclosure and cut two pieces of Rubber Edge Strip to fit on the curved surface of the cradle. You can secure the strips with hot glue if desired, but it is not necessary.
+8. Last, open and insert the straps that will hold the Watertight Enclosure and cut two pieces of Rubber Edge Strip to fit on the curved surface of the cradle. You can secure the strips with hot glue if desired, but it is not necessary.
 
 	<img src="/assets/images/tutorials/bluerov-manual/Picture9.png" class="img-responsive" style="max-width:600px" />
 
-9. Using six M4x10 Button-Head Socket Cap Screws, attach the six Round Aluminum Standoffs to one of the Side Panels. The Blue Robotics logo should face outward on each panel.  
+9. Using six  M4x10 Button-Head Hex Screws, attach the six Round Aluminum Standoffs along the outer rim of one of  the Side Panels. The Blue Robotics logo should face outward on each panel.  
 
 	<img src="/assets/images/tutorials/bluerov-manual/Picture10.png" class="img-responsive" style="max-width:600px" />
 
-10. Using two M5x12 Button-Head Socket Cap Screws, attach the center panel assembly to the Side Panel assembly. Use a measuring device to ensure that the Center Panel is centered between the two Side Panels. If not, you can loosen the screws and adjust it.  
+10. Using two M5x12 Cross Head Plastic Screws, attach the center panel assembly to the Side Panel assembly, with the Rear Thruster Mount facing the back (shorter) end of the Side Panel. Use a measuring device to ensure that the Center Panel is centered between the two Side Panels. If not, you can loosen the screws and adjust it.  
 
 	<img src="/assets/images/tutorials/bluerov-manual/Picture11.png" class="img-responsive" style="max-width:600px" />
 
-11. Attach the remaining Side Panel using two M5x12 Button-Head Socket Cap Screws and six M4x10 Button-Head Socket Cap Screws.
+11. Attach the remaining Side Panel using two M5x12 Cross Head Plastic Screws and six M4x10 Button-Head Hex Screws.
 	
 	<img src="/assets/images/tutorials/bluerov-manual/picture12.png" class="img-responsive" style="max-width:600px" />
 
@@ -227,7 +229,7 @@ The frame is the structure of the ROV and includes several laser-cut plastic pie
 
 ##Watertight Enclosure Assembly
 
-Please see the [Watertight Enclosure Assembly Tutorial](/watertight-enclosures/4-series/#assembly-old-r1-style) for detailed instructions on how to assemble the Watertight Enclosure. Once the enclosure is assembled, do the following:
+Please see the [Watertight Enclosure Assembly Tutorial](/watertight-enclosures/4-series/#assembly) for detailed instructions on how to assemble the Watertight Enclosure. Once the enclosure is assembled, do the following:
 
 1. We need the enclosure in place to measure the necessary length of each thruster cable. Attach the enclosure to the frame using the two velcro straps.  
 
@@ -251,7 +253,7 @@ Please see the [Watertight Enclosure Assembly Tutorial](/watertight-enclosures/4
 
 6. Next, follow the [Cable Penetrator Tutorial](/tutorials/cable-penetrator/) to install the cable penetrator bolt on each cable. Allow time for the sealant to dry on each penetrator before installation on the end cap.
 
-7. Install each of the cable penetrators on the end cap by first applying silicon grease to each o-ring and sliding onto the penetrator bolt. Pass the penetrator through the end-cap and secure with the nut. A firm hand-tightness is adequate.
+7. Install each of the cable penetrators on the end cap by first applying silicone grease to each o-ring and sliding onto the penetrator bolt. Pass the penetrator through the end-cap and secure with the nut. A firm hand-tightness is adequate.
 
 8. That's it! We recommend using the included bullet connectors with the Basic ESCs to attach the ESC to the thruster cables.
 
@@ -263,18 +265,18 @@ The BlueROV comes with an electronics tray designed to fit the ESCs, a Raspberry
 <img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-1.png" class="img-responsive" style="max-width:600px" />
 <img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-4.png" class="img-responsive" style="max-width:600px" />
 
-1. First, install the Secondary Tray above the main tray using the four provided Aluminum Hex Standoffs and eight M3x6 Button-Head Socket Cap screws.
+1. First, install the Secondary Tray above the main tray using the four provided Aluminum Hex Standoffs and eight M3x6 Button-Head Hex Screws.
 
 	<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-5.png" class="img-responsive" style="max-width:600px" />
 	<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-7.png" class="img-responsive" style="max-width:600px" />
 	<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-8.png" class="img-responsive" style="max-width:600px" />
 
-2. Next, attach the Terminal Block Jumpers to the Terminal Block. 
+2. Next, attach the Terminal Block Jumpers to the Terminal Block, leaving out a jumper in the middle. 
 
 	<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-9.png" class="img-responsive" style="max-width:600px" />
 	<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-10.png" class="img-responsive" style="max-width:600px" />
 
-3. Next, attach the terminal block in the center of the tray on top using the two provided holes.
+3. Next, attach the terminal block in the center of the tray on top using the two provided holes. This can be done with M3 screws or zip ties.
 
 2. Next, attach the ESCs using the provided zip ties. The ESC should be arranged with the "BlueRobotics" logo facing toward the tray which will expose the warm parts of the ESC to air to enable cooling. Three ESCs are attached on top and three on bottom.
 
