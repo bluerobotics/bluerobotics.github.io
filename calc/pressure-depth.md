@@ -60,6 +60,8 @@ This calculator determines the water depth to reach or given pressure or the pre
 
 [See here](http://hyperphysics.phy-astr.gsu.edu/hbase/pflu.html) for an explanation of static fluid pressure.
 
+For watertight enclosure design, please check out [Under Pressure](/resources/#under-pressure-software).
+
 This calculator uses the [js-quantities library](https://github.com/gentooboontoo/js-quantities) by gentooboontoo for unit conversions.
 
 <script type="text/javascript" src="https://cdn.rawgit.com/gentooboontoo/js-quantities/master/src/quantities.js"></script>

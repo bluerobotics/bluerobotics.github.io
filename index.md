@@ -4,7 +4,8 @@ title: Documentation
 order: 0
 nav:
 - Home: blue-robotics-documentation
-- Getting Started: getting-started
+- Product Manuals: product-manuals
+- Tutorials: tutorials
 - How to Contribute: how-to-contribute
 - License: license
 ---
@@ -15,18 +16,76 @@ This is our product documentation. Think about it as an online user manual. Ther
 
 We do our best to make this documentation as complete as possible but you can [contribute, point out errors, and make suggestions](#how-to-contribute) to help us improve the documentation.
 
-#Getting Started
-
 You can use the menu bar at the top to find the product you are looking for and the navigation bar on the left to help you find what you are looking for on each page.
 
-Here are some pages to get started with:
+#Product Manuals
 
-* [T100 Thruster](/thrusters/)
-* [T200 Thruster](/thrusters/t200/)
-* [M100 Motor](/thrusters/motors/)
-* [BlueESC](/bluesc/)
-* [Basic ESC](/besc/)
-* [BlueROV](/bluerov/)
+<div class="row">
+  <div class="col-sm-4 col-md-4"> 
+  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2014/08/blueesc-11-500x500.png)">
+  		<a href="/thrusters/">T100 Thruster <i class="fa fa-chevron-circle-right"></i></a>
+  	</div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2014/09/t200-31-500x500.png)">
+  		<a href="/thrusters/t200/">T200 Thruster <i class="fa fa-chevron-circle-right"></i></a>
+  	</div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2014/10/kit-22-500x500.png)">
+  		<a href="/bluerov/">BlueROV <i class="fa fa-chevron-circle-right"></i></a>
+  	</div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4 col-md-4">
+  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2014/11/top-3-500x500.png)">
+  		<a href="/thrusters/motors/">M100 Motor <i class="fa fa-chevron-circle-right"></i></a>
+  	</div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2015/06/m200-22-500x500.png)">
+  		<a href="/thrusters/motors/m200">M200 Motor <i class="fa fa-chevron-circle-right"></i></a>
+  	</div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2014/08/besc-2-900x900.png)">
+  		<a href="/besc/">Basic ESC <i class="fa fa-chevron-circle-right"></i></a>
+  	</div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4 col-md-4">
+  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2015/03/assem-2-900x900.png)">
+  		<a href="/watertight-enclosures/4-series/">4"-Series Enclosure <i class="fa fa-chevron-circle-right"></i></a>
+  	</div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+  	<div class="tile" style="background-image:url(https://www.bluerobotics.com/wp-content/uploads/2015/07/assem-2-500x500.png)">
+  		<a href="/watertight-enclosures/2-series/">2"-Series Enclosure <i class="fa fa-chevron-circle-right"></i></a>
+  	</div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+  	<div class="tile" style="background-image:url(http://www.bluerobotics.com/images/thruster/blueesc-inside.jpg)">
+  		<a href="/bluesc/">BlueESC <i class="fa fa-chevron-circle-right"></i></a>
+  	</div>
+  </div>
+</div>
+
+#Tutorials
+
+<div class="row">
+  <div class="col-sm-4 col-md-4">
+  	<div class="tile" style="background-image:url(/assets/images/tutorials/wire-stripping/wire-strip-7.png)">
+  		<a href="/tutorials/cable-stripping/">Cable Jacket Stripping <i class="fa fa-chevron-circle-right"></i></a>
+  	</div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+  	<div class="tile" style="background-image:url(/assets/images/tutorials/cable-penetrator/step-5.png)">
+  		<a href="/tutorials/cable-penetrator/">Cable Penetrator <i class="fa fa-chevron-circle-right"></i></a>
+  	</div>
+  </div>
+</div>
 
 #How to Contribute
 

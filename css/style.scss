@@ -9,3 +9,24 @@
 .content {
 	border-left: 2px solid #eee;
 }
+
+.tile {
+	position: relative;
+	height: 200px;
+	width: 100%;
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-bottom: 75px;
+}
+.tile a {
+	background: rgba(240,240,240,0.9);
+	color: #2699D0;
+	font-size: 1.3em;
+	font-weight: 600;
+	position: absolute;
+	bottom: -50px;
+	padding: 10px 15px 10px 15px;
+	width: 100%;
+	border-radius:0px;
+}
