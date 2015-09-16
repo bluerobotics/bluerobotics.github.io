@@ -247,7 +247,8 @@ If operated for extended periods in the water:
 * Occasionally clean biological fouling and mineral deposits from the thruster or performance may be impacted.
 
 ##Disassembly/Assembly
-You may need to take apart your thruster from time to time - or you maybe you just want to take a peak at the inner workings of the T100! Either way, this tutorial illustrates how.
+
+You may need to take apart your thruster from time to time - or maybe you just want to take a peak at the inner workings of the T100! Either way, this tutorial illustrates how.
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
