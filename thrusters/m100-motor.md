@@ -20,7 +20,7 @@ nav:
 - - Clicking Noise: clicking-noise
 - Care and Maintenance: care-and-maintenance
 - - Normal Care: normal-care
-- - Disassembly / Assembly: disassembly--assembly
+- - Disassembly/Assembly: disassembly--assembly
 - Troubleshooting: troubleshooting
 - Details: details
 - - Test Results: test-results
@@ -36,6 +36,7 @@ manual-links:
 - T200 Thrusters: /thrusters/t200/
 - Basic ESC: /besc/
 ---
+<img src="/assets/images/documentation/m100-multi.png" class="img-responsive img-center" style="max-width:700px" />   
 
 #Introduction
 
@@ -142,8 +143,19 @@ We recommend using the following compounds to seal the soldered wire connections
 
 The motor requires a brushless electronic speed controller (ESC). If you are using the BlueRobotics BasicESC or BlueESC, please see the appropriate product page for instructions.
 
-* [BasicESC](/besc/)
-* [BlueESC](/bluesc/)
+<div class="row">
+  <div class="col-sm-4 col-md-4">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/besc-2.png)">
+  		<a href="/besc/">Basic ESC <i class="fa fa-chevron-circle-right"></i></a>
+  	</div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/blueesc-inside.jpg)">
+  		<a href="/bluesc/">BlueESC <i class="fa fa-chevron-circle-right"></i></a>
+  	</div>
+  </div>
+</div>
+
 
 ##Clicking Noise
 
@@ -165,23 +177,18 @@ If operated for extended periods in the water:
 
 * Occasionally clean biological fouling and mineral deposits from the motor or performance may be impacted.
 
-##Disassembly / Assembly
+##Disassembly/Assembly
 
-Occasionally it may be necessary to disassemble the motor.
+Occasionally it may be necessary to disassemble the motor. Here is a quick guide on how to do so!
 
-**Tools Needed:**
+<div class="row">
+ <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/tutorials/m100-disassembly/m100-disassem-1.png)">
+      <a href="/tutorials/disassembly-assembly/m100-m200-disassembly/">Disassembly/Assembly <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+</div>
 
-* 1.5 mm hex key
-
-**Steps:**
-
-1. Loosen the set screw from the shaft collar at the bottom of the motor.
-
-2. Remove shaft collar. If it seems stuck, pull the rotor away from the base to pull the shaft out of the collar. Do not pry the shaft collar.
-
-3. Remove the rotor assembly.
-
-4. Repeat these steps in the reverse direction to reassemble the motor.
 
 #Troubleshooting
 
