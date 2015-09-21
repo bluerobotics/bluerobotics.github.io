@@ -94,15 +94,16 @@ The assembly process is simple and straightforward - it will take a few minutes!
 
 * Silicon grease
 * 2.5mm Hex Key
+* Isopropyl alcohol
 
 **Steps:**
 
 <img src="/assets/images/tutorials/WTE/2-step-1.png" class="img-responsive" style="max-width:600px" />
 <img src="/assets/images/tutorials/WTE/2-step-2.png" class="img-responsive" style="max-width:600px" />
-1. Lubricate the two O-rings with a thin layer of silicon grease and then install into the grooves on the flange. The thin O-ring is placed in the groove in the face of the flange.
+1. We recommend first cleaning the o-rings and the o-ring grooves with isopropyl alcohol. This will ensure a good seal. Next, lubricate the two O-rings with a thin layer of silicon grease and then install into the grooves on the flange. The thin O-ring is placed in the groove in the face of the flange.
 
 <img src="/assets/images/tutorials/WTE/2-step-3.png" class="img-responsive" style="max-width:600px" />
-2. Attach the end cap to the flange with 6 socket cap screws. Gently tighten the screws so that the O-ring is compressed but not so tight as to damage the plastic.
+2. Attach the end cap to the flange with 6 socket cap screws. Gently tighten the screws so that the O-ring is compressed but not so tight as to damage the plastic. Do not overtighten the screws!
 
 <img src="/assets/images/tutorials/WTE/2-step-5.png" class="img-responsive" style="max-width:600px" />
 3. Install the vent and any necessary cable penetrators into the end-cap.  

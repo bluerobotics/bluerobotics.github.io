@@ -10,6 +10,8 @@ nav:
 - Specifications: specifications
 - - Specification Table: specification-table
 - - 3D Model: d-model
+- Operation: operation
+- - LED Indicator Lights: LED Indicator Lights
 - I<sup>2</sup>C Protocol: isup2supc-protocol
 - - Throttle Command: throttle-command
 - - Data Request: data-request
@@ -97,6 +99,12 @@ Coming soon.
 | STL (.stl)                 | [BLUESC-R1.stl](#) |
 | All in a zip file (.zip)   | [BLUESC-R1.zip](#) |
 -->
+
+#Operation
+
+##LED Indicator Lights
+
+The BlueESC includes two indicator lights that show the status of the ESC. 
 
 #I<sup>2</sup>C Protocol
 
