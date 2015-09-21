@@ -46,7 +46,7 @@ Start by cleaning all surfaces that will be in contact with epoxy with isopropyl
 Twist the conductors so they will slide through the penetrator.
 
 <img src="/assets/images/tutorials/cable-penetrator/step-2.png" class="img-responsive" style="max-width:600px" />
-Apply a small amount of super glue to the edge of the cable jacket. 
+Apply a small amount of super glue to the edge of the cable jacket. Optionally, you can apply "CA kicker" inside the penetrator so that the glue will dry quickly.
 
 <img src="/assets/images/tutorials/cable-penetrator/step-3.png" class="img-responsive" style="max-width:600px" />
 Insert the cable into the penetrator, allowing the super glue to set.  
