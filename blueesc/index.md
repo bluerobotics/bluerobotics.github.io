@@ -114,7 +114,7 @@ The I<sup>2</sup>C communication protocol allows two-directional communication w
 
 ###Description
 
-The throttle command is a 16-bit signed integer. The sign of the value determines the direction of rotation.
+The throttle command is a 16-bit signed integer. The sign of the value determines the direction of rotation. Note, you must send a value of "0" at startup to initialize the thruster.
 
 ###Registers: (0x00-0x01)
 
