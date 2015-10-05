@@ -39,35 +39,35 @@ You can use the menu bar at the top to find the product you are looking for and 
 </div>
 <div class="row">
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(/assets/images/documentation/m100-1.png)">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/m100-2.png)">
   		<a href="/thrusters/motors/">M100 Motor <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(/assets/images/documentation/m200-1.png)">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/m200-4.png)">
   		<a href="/thrusters/motors/m200">M200 Motor <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(/assets/images/documentation/besc-2.png)">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/besc-3-new.png)">
   		<a href="/besc/">Basic ESC <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
 </div>
 <div class="row">
   <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/documentation/blueesc-inside.jpg)">
+      <a href="/bluesc/">BlueESC <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
   	<div class="tile" style="background-image:url(/assets/images/documentation/assem-4in.png)">
   		<a href="/watertight-enclosures/4-series/">4"-Series Enclosure <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(/assets/images/documentation/assem-2in.png)">
-  		<a href="/watertight-enclosures/2-series/">2"-Series Enclosure <i class="fa fa-chevron-circle-right"></i></a>
-  	</div>
-  </div>
-  <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(/assets/images/documentation/blueesc-inside.jpg)">
-  		<a href="/bluesc/">BlueESC <i class="fa fa-chevron-circle-right"></i></a>
+  	<div class="tile" style="background-image:url(/assets/images/documentation/foam-1.png)">
+  		<a href="/float">Subsea Buoyancy Foam <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
 </div>
