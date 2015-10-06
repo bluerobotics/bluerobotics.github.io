@@ -16,6 +16,7 @@ manual-links:
 - T100 Thruster: /thrusters/
 - Basic ESC: /besc/
 ---
+<img src="/assets/images/documentation/foam-2.png" class="img-responsive" style="max-width:600px" />
 
 #Introduction
 

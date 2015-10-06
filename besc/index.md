@@ -22,6 +22,7 @@ manual-links:
 - T100/T200 Thrusters: /thrusters/
 - M100 Motor: /thrusters/motors/
 ---
+<img src="/assets/images/documentation/besc-side.png" class="img-responsive" style="max-width:600px" />
 
 #Introduction
 

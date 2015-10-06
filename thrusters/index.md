@@ -209,7 +209,7 @@ The thruster requires a brushless electronic speed controller (ESC). If you are 
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(/assets/images/documentation/besc-2.png)">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/besc-3-new.png)">
   		<a href="/besc/">Basic ESC <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
