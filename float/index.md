@@ -16,7 +16,7 @@ manual-links:
 - T100 Thruster: /thrusters/
 - Basic ESC: /besc/
 ---
-<img src="/assets/images/documentation/foam-2.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/documentation/foam-2.png" class="img-responsive img-center" style="max-width:600px" />
 
 #Introduction
 
@@ -44,44 +44,22 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 
 ##3D Models
 
-###8" x 4" x 0.5"
+All 3D models are provided in zip archives containing the follow file types:
 
-| File Type                  | Link                          |
-| -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [FLOAT-8X4X0P5-R1.SLDPRT](/float/cad/FLOAT-8X4X0P5-R1.SLDPRT) |
-| STEP (.step)               | [FLOAT-8X4X0P5-R1.STEP](/float/cad/FLOAT-8X4X0P5-R1.STEP)   |
-| IGES (.igs)                | [FLOAT-8X4X0P5-R1.IGS](/float/cad/FLOAT-8X4X0P5-R1.IGS) |
-| STL (.stl)                 | [FLOAT-8X4X0P5-R1.STL](/float/cad/FLOAT-8X4X0P5-R1.STL) |
-| All Formats in a Zip File (.zip)   | [FLOAT-8X4X0P5-R1.zip](/float/cad/FLOAT-8X4X0P5-R1.zip) |
+- SolidWorks Part (.sldprt)
+- IGES (.igs) 
+- STEP (.step)
+- STL (.stl)
 
-###12" x 6" x 1"
 
-| File Type                  | Link                          |
-| -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [FLOAT-12X6X1-R1.SLDPRT](/float/cad/FLOAT-12X6X1-R1.SLDPRT) |
-| STEP (.step)               | [FLOAT-12X6X1-R1.STEP](/float/cad/FLOAT-12X6X1-R1.STEP)   |
-| IGES (.igs)                | [FLOAT-12X6X1-R1.IGS](/float/cad/FLOAT-12X6X1-R1.IGS) |
-| STL (.stl)                 | [FLOAT-12X6X1-R1.STL](/float/cad/FLOAT-12X6X1-R1.STL) |
-| All Formats in a Zip File (.zip)   | [FLOAT-12X6X1-R1.zip](/float/cad/FLOAT-12X6X1-R1.zip) |
 
-###16" x 8" x 1"
+| Size                       | Zip File                                                |
+| -------------------------- | --------------------------------------------------------|
+| 8" x 4" x 0.5"             | [FLOAT-8X4X0P5-R1.zip](/float/cad/FLOAT-8X4X0P5-R1.zip) |
+| 12" x 6" x 1"              | [FLOAT-12X6X1-R1.zip](/float/cad/FLOAT-12X6X1-R1.zip)   |
+| 16" x 8" x 1"              | [FLOAT-16X8X1-R1.zip](/float/cad/FLOAT-16X8X1-R1.zip)   |
+| 24" x 8" x 2.5"            | [FLOAT-24X8X0P5-R1.zip](/float/cad/FLOAT-24X8X0P5-R1.zip)|
 
-| File Type                  | Link                          |
-| -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [FLOAT-16X8X1-R1.SLDPRT](/float/cad/FLOAT-16X8X1-R1.SLDPRT) |
-| STEP (.step)               | [FLOAT-16X8X1-R1.STEP](/float/cad/FLOAT-16X8X1-R1.STEP)   |
-| IGES (.igs)                | [FLOAT-16X8X1-R1.IGS](/float/cad/FLOAT-16X8X1-R1.IGS) |
-| STL (.stl)                 | [FLOAT-16X8X1-R1.STL](/float/cad/FLOAT-16X8X1-R1.STL) |
-| All Formats in a Zip File (.zip)   | [FLOAT-16X8X1-R1.zip](/float/cad/FLOAT-16X8X1-R1.zip) |
 
-###24" x 8" x 2.5"
-
-| File Type                  | Link                          |
-| -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [FLOAT-24X8X0P5-R1.SLDPRT](/float/cad/FLOAT-24X8X0P5-R1.SLDPRT) |
-| STEP (.step)               | [FLOAT-24X8X0P5-R1.STEP](/float/cad/FLOAT-24X8X0P5-R1.STEP)   |
-| IGES (.igs)                | [FLOAT-24X8X0P5-R1.IGS](/float/cad/FLOAT-24X8X0P5-R1.IGS) |
-| STL (.stl)                 | [FLOAT-24X8X0P5-R1.STL](/float/cad/FLOAT-24X8X0P5-R1.STL) |
-| All Formats in a Zip File (.zip)   | [FLOAT-24X8X0P5-R1.zip](/float/cad/FLOAT-24X8X0P5-R1.zip) |
 
 
