@@ -283,13 +283,22 @@ To compile the firmware, you'll need the avra AVR Assembler.
 ~~~ bash
 brew update
 brew install avra
-make bluesc.hex
+make blueesc.hex
 ~~~
 
 To compile the files with multiple I2C addresses, you can use the following:
 
 ~~~ bash
 make build_blueesc_addresses
+~~~
+
+*Linux (Ubuntu 14 LTS):*
+
+~~~ bash
+sudo apt-get install avra
+git clone https://github.com/bluerobotics/tgy
+cd tgy
+make blueesc.hex
 ~~~
 
 ###Firmware Flashing
