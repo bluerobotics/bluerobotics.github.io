@@ -36,7 +36,7 @@ manual-links:
 - T200 Thruster: /thrusters/t200/
 - Basic ESC: /besc/
 ---
-<img src="/assets/images/documentation/m200-multi.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/documentation/m200-multi.png" class="img-responsive img-center" style="max-width:600px" />
 
 #Introduction
 

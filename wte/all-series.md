@@ -41,11 +41,11 @@ Always inspect the o-rings before operation in water and especially when replaci
 Use plastic tools, NOT steel or other hard tools, to remove the o-rings from the aluminum sealing flange. Hard tools can create scrapes that will compromise sealing ability.
 
 <!--<i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
-A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.-->
-
-<img src="/assets/images/documentation/2-series-side.png" class="img-responsive" style="max-width:600px" />   
+A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.-->  
 
 #Specifications: (2" Series)
+
+<img src="/assets/images/documentation/2-series-side.png" class="img-responsive img-center" style="max-width:600px" /> 
 
 ##Specification Table (2" Series)
 
@@ -87,9 +87,9 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap with 2 x 10mm Holes          | [WTE2-P-END-CAP-2X10MM-R1.zip](http://www.bluerobotics.com/models/WTE2-P-END-CAP-2X10MM-R1.zip)         |
 
 
-<img src="/assets/images/documentation/3-series-side.png" class="img-responsive" style="max-width:600px" />
-
 #Specifications: 3" Series
+
+<img src="/assets/images/documentation/3-series-side.png" class="img-responsive img-center" style="max-width:600px" />
 
 ##Specification Table (3" Series)
 
@@ -128,9 +128,9 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap with 4 x 10mm Holes          |     
 | End Cap with 7 x 10mm Holes          |    
 
-<img src="/assets/images/documentation/4-series-side.png" class="img-responsive" style="max-width:600px" />
-
 #Specifications: 4" Series
+
+<img src="/assets/images/documentation/4-series-side.png" class="img-responsive img-center" style="max-width:600px" />
 
 ##Specification Table (4" Series)
 
