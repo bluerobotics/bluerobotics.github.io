@@ -4,7 +4,7 @@ title: BlueESC Documentation
 permalink: /bluesc/
 order: 1
 nav:
-- Introduction: introduction
+- Introduction: introduction 
 - - Safety: safety
 - - Quick Start: quick-start
 - Specifications: specifications
@@ -177,16 +177,30 @@ When using more than one ESC, it is necessary to assign unique addresses to each
 
 3. Power the BlueESC with a battery or power supply.
 
-4. Download the [latest BlueESC firmware zip file here](/blueesc/firmware/blueesc_firmware_2015-07-09_a34f109.zip). 
+4. Download the [latest BlueESC firmware zip file here](/blueesc/firmware/blueesc_firmware_2015-07-09_a34f109.zip). Extract to a convenient location. 
 
-5. There are several ways to upload the firmware to the BlueESC. The first is using avrdude from the command line:
+5. There are several ways to upload the firmware to the BlueESC. The first is using [avrdude](http://www.ladyada.net/learn/avr/setup-win.html) from the command line:
 
 ~~~~~~~~~~ bash
-# Replace XX with the desired ID number 0-16
+# Navigate to the location containing the BlueESC firmware files
+# Replace XX with the desired ID number 0-16 (0 ,1, 2, 3, etc.)
+# Replace [programmer port] with serial programmer port, i.e. COM3
 avrdude -c stk500v2 -b 19200 -P [programmer port] -p m8 -U flash:w:blueesc_idXX.hex:i
 ~~~~~~~~~~~~~~~
 
-The second method is using a graphical utility such as [KKMulticopterTool](http://lazyzero.de/en/modellbau/kkmulticopterflashtool).
+The second method is using a graphical utility such as [KKMulticopterTool](http://lazyzero.de/en/modellbau/kkmulticopterflashtool). Both the 32 and 64 bit versions will work.
+
+* Set the programmer to *ArduinoUSBLinker*
+* Select the port with your Arduino.
+* Set the controller to *atmega 8-based brushless ESC (8kB flash)* 
+* Under "Flashing", click on the "File" tab and browse to the firmware file you wish to flash.
+* Click the green button to flash your BlueESC.
+
+<img src="/assets/images/documentation/KKshot1.png" class="img-responsive" style="max-width:600px" />
+
+If everything went well, this is the message you should see indicating a successful firmware flash:
+
+<img src="/assets/images/documentation/KKshot2.png" class="img-responsive" style="max-width:600px" />
 
 #Example Code
 
