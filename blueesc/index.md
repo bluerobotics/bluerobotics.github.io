@@ -196,11 +196,11 @@ The second method is using a graphical utility such as [KKMulticopterTool](http:
 * Under "Flashing", click on the "File" tab and browse to the firmware file you wish to flash.
 * Click the green button to flash your BlueESC.
 
-<img src="/assets/images/documentation/KKshot1.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/documentation/KKshot1a.png" class="img-responsive" style="max-width:600px" />
 
 If everything went well, this is the message you should see indicating a successful firmware flash:
 
-<img src="/assets/images/documentation/KKshot2.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/documentation/KKshot2a.png" class="img-responsive" style="max-width:600px" />
 
 #Example Code
 
