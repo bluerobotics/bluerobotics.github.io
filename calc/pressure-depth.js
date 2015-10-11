@@ -1,4 +1,4 @@
-var pressureUnits = ["kPa","bar","atm","psi"];
+var pressureUnits = ["kPa","bar","atm","psi","mmHg","inHg"];
 var depthUnits = ["meters","feet","fathoms"];
 
 checkValidDepth();
