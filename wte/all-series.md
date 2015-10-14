@@ -98,15 +98,15 @@ All 3D models are provided in zip archives containing the follow file types:
 | ----------------------------------- | ----------------------------- |
 | Maximum Tested Depth (Saltwater)    | 330 ft        | 100 m         |
 | Maximum Pressure                    | 146 psi       | 1000 kPa      |
-| Tube Inner Diameter                 | 4 in          | 101.6 mm      |
-| Tube Outer Diameter                 | 4.5 in        | 114.3 mm      |
+| Tube Inner Diameter                 | 3 in          | 76.2 mm       |
+| Tube Outer Diameter                 | 3.5 in        | 88.9 mm       |
 | Tube Thickness                      | 0.25 in       | 6.3 mm        |
 | End Cap Thickness                   | 0.47 in       | 12.0 mm       |
 | Aluminum Flange Inner Diameter      | 3.5 in        | 89 mm         |
 | Total Length                        | 13.15 in      | 334 mm        |
-| Radial Seal O-ring (2 used)         | AS568-238, Buna-N             |
-| Face Seal O-ring (1 used)           | AS568-154, Buna-N             |
-| End-cap Screws                      | M3x16 (Stainless Steel 316)   |
+| Radial Seal O-ring (2 used)         | AS568-230, Buna-N             |
+| Face Seal O-ring (1 used)           | AS568-148, Buna-N             |
+| End-cap Screws                      | M3x12 (Stainless Steel 316)   |
 | Inner Mounting Holes                | M3 threading                  |
 
 ##3D Models (3" Series)
