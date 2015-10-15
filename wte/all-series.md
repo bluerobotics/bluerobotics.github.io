@@ -52,10 +52,12 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | ----------------------------------- | ----------------------------- |
 |                          **2" Series Enclosure**                    |
 | ----------------------------------- | ----------------------------- |
-| Maximum Tested Depth (Saltwater)    | 330 ft        | 100 m         |
-| Maximum Pressure                    | 146 psi       | 1000 kPa      |
-| Weight in Air                       | 1.1 lb        | 500 g         |
-| Weight in Water (Fresh)             | -0.72 lb      | -326 g        |
+| Maximum Depth Rating                | 330 ft        | 100 m         |
+| Maximum Tested Depth (to failure)   | 660 ft        | 200 m         |
+| [Failure Depth](https://youtu.be/1rX_jH3785I) (for 12" length)      | 660 ft        | 200 m         |
+| Maximum External Pressure Rating    | 146 psi       | 1000 kPa      |
+| Weight in Air (12" Length)          | 1.1 lb        | 500 g         |
+| Weight in Water (Freshwater)        | -0.72 lb      | -326 g        |
 | Displacement                        | 50.3 in^3     | 825 cm^3      |
 | Tube Inner Diameter                 | 2 in          | 50.8 mm       |
 | Tube Outer Diameter                 | 2.25 in       | 57.2 mm       |
@@ -96,14 +98,16 @@ All 3D models are provided in zip archives containing the follow file types:
 | ----------------------------------- | ----------------------------- |
 |                          **3" Series Enclosure**                    |
 | ----------------------------------- | ----------------------------- |
-| Maximum Tested Depth (Saltwater)    | 330 ft        | 100 m         |
-| Maximum Pressure                    | 146 psi       | 1000 kPa      |
+| Maximum Depth Rating                | 500 ft        | 150 m         |
+| Maximum Tested Depth                | 660 ft        | 200 m         |
+| Failure Depth                       | TBD                           |
+| Maximum External Pressure Rating    | 215 psi       | 1500 kPa      |
 | Tube Inner Diameter                 | 3 in          | 76.2 mm       |
 | Tube Outer Diameter                 | 3.5 in        | 88.9 mm       |
 | Tube Thickness                      | 0.25 in       | 6.3 mm        |
 | End Cap Thickness                   | 0.47 in       | 12.0 mm       |
 | Aluminum Flange Inner Diameter      | 3.5 in        | 89 mm         |
-| Total Length                        | 13.15 in      | 334 mm        |
+| Total Length                        | 12.93 in      | 329 mm        |
 | Radial Seal O-ring (2 used)         | AS568-230, Buna-N             |
 | Face Seal O-ring (1 used)           | AS568-148, Buna-N             |
 | End-cap Screws                      | M3x12 (Stainless Steel 316)   |
@@ -121,12 +125,12 @@ All 3D models are provided in zip archives containing the follow file types:
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
 |               **3" Series Enclosure**                                                                                                          |
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
-| Assembly Model                       | 
-| Tube (Standard 11.75", 298mm length) | 
-| Aluminum O-ring Flange               |             
-| Plain Solid End Cap			       |                 
-| End Cap with 4 x 10mm Holes          |     
-| End Cap with 7 x 10mm Holes          |    
+| Assembly Model                       | [WTE3-ASM-R1.zip](http://www.bluerobotics.com/models/WTE3-ASM-R1.zip)
+| Tube (Standard 11.75", 298mm length) | [WTE3-P-TUBE-R1.zip](http://www.bluerobotics.com/models/WTE3-P-TUBE-R1.zip)
+| Aluminum O-ring Flange               | [WTE3-M-FLANGE-SEAL-R1.zip](http://www.bluerobotics.com/models/WTE3-M-FLANGE-SEAL-R1.zip)
+| Plain Solid End Cap			       | [WTE3-P-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-R1.zip)
+| End Cap with 4 x 10mm Holes          | [WTE3-P-END-CAP-4X10MM-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-4X10MM-R1.zip)
+| End Cap with 7 x 10mm Holes          | [WTE3-P-END-CAP-7X10MM-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-7X10MM-R1.zip)
 
 #Specifications: 4" Series
 
@@ -165,7 +169,9 @@ All 3D models are provided in zip archives containing the follow file types:
 | Assembly Model                       | [WTE4-ASM-R2.zip](http://www.bluerobotics.com/models/WTE4-ASM-R2.zip)
 | Tube (Standard 11.75", 298mm length) | [WTE4-P-TUBE-12-R1.zip](http://www.bluerobotics.com/models/WTE4-P-TUBE-12-R1.zip)
 | Aluminum O-ring Flange               | [WTE4-M-FLANGE-SEAL-R2.zip](http://www.bluerobotics.com/models/WTE4-M-FLANGE-SEAL-R2.zip)            
-| Plain Solid End Cap			       | [WTE4-P-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-R1.zip)               
+| Plain Solid End Cap			       | [WTE4-P-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-R1.zip)      
+| Aluminum Solid End Cap               | [WTE4-M-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE4-M-END-CAP-R1.zip)        
+| Aluminum End Cap with 10 x 10mm Holes| [WTE4-M-END-CAP-10X10MM-R1.zip](http://www.bluerobotics.com/models/WTE4-M-END-CAP-10X10MM-R1.zip)   
 | End Cap with 5 x 10mm Holes          | [WTE4-P-END-CAP-5X10MM-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-5X10MM-R1.zip)    
 | End Cap with 10 x 10mm Holes         | [WTE4-P-END-CAP-10X10MM-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-10X10MM-R1.zip)  
 

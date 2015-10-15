@@ -43,8 +43,8 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | ----------------------------------- | ----------------------------- |
 |                          **Enclosure Vent**                         |
 | ----------------------------------- | ----------------------------- |
-| Maximum Tested Depth (Saltwater)    | 330 ft        | 100 m         |
-| Maximum Pressure                    | 146 psi       | 1000 kPa      |
+| Maximum Tested Depth (Saltwater)    | 660 ft        | 200 m         |
+| Maximum Pressure                    | 290 psi       | 2000 kPa      |
 | Bolt Hole Diameter                  | 0.4 in        | 10 mm         |
 | Outer Diameter                      | 0.71 in       | 18 mm         |
 | Maximum Wall Thickness              | 0.75 in       | 19 mm         |
@@ -52,6 +52,20 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | Bolt O-ring (1 used)                | AS568-013, Buna-N             |
 
 ##3D Models
+
+All 3D models are provided in zip archives containing the follow file types:
+
+- SolidWorks Part (.sldprt)
+- IGES (.igs) 
+- STEP (.step)
+- STL (.stl)
+
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+|               **Enclosure Vent**                                                                                                               |
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+| Vent Bolt                            | [VENT-M-BOLT-10-25-A-R3.zip](http://www.bluerobotics.com/models/VENT-M-BOLT-10-25-A-R3.zip)             |
+| Vent Plug                            | [VENT-M-PLUG-10-A-R2.zip](http://www.bluerobotics.com/models/VENT-M-PLUG-10-A-R2.zip)                   |
+| Vent Nut           			       | [PENETRATOR-M-NUT-10-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-NUT-10-A-R2.zip)         |
 
 
 #Assembly
