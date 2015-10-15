@@ -26,6 +26,8 @@ store-links:
 
 manual-links:
 - Enclosure Vent: /vent/
+
+tutorial-links:
 ---
 
 #Introduction

@@ -38,6 +38,11 @@ manual-links:
 - M100 Motor: /thrusters/motors/
 - Basic ESC: /besc/
 - BlueESC: /bluesc/
+
+tutorial-links:
+- Thruster Assembly/Disassembly: /tutorials/disassembly-assembly/
+- Changing the Propeller: /tutorials/changing-the-propeller/
+- Cable Stripping: /tutorials/cable-stripping/
 ---
 <img src="/assets/images/documentation/2-t100s.png" class="img-responsive img-center" />
 
