@@ -14,11 +14,13 @@ nav:
 - - Step 4 - Sealing the penetrator: step-4-sealing-the-penetrator
 - - Step 5 - Installation: step-5-installation
 - Notes: notes
----
 
+store-links:
+- Cable Penetrators: https://www.bluerobotics.com/product-category/parts/connectors/
+---
 #Introduction
 
-This tutorial should help make the Cable Penetrator Installation simple!
+This tutorial should help make the [Cable Penetrator](https://www.bluerobotics.com/product-category/parts/connectors/) Installation simple!
 
 ##Safety
 
