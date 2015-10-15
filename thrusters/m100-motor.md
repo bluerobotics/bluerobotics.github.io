@@ -35,6 +35,9 @@ manual-links:
 - T100 Thrusters: /thrusters/
 - T200 Thrusters: /thrusters/t200/
 - Basic ESC: /besc/
+
+tutorial-links:
+- Motor Assembly/Disassembly: /tutorials/disassembly-assembly/m100-m200-disassembly/
 ---
 <img src="/assets/images/documentation/m100-multi.png" class="img-responsive img-center" style="max-width:700px" />   
 
