@@ -249,11 +249,16 @@ One of the cool things about the watertight enclosure design is that it's compat
 
 The CAD files above as long as the DXF drawing file attached below will give you a good starting point for your design. You'll need access to either 3D modeling software like SolidWorks or AutoCAD or 2D drawing software like Adobe Illustrator, Inkscape, and others.
 
+- [WTE2-P-END-CAP-R1.DXF](/wte/dxf/WTE2-P-END-CAP-R1.DXF)
+- [WTE3-P-END-CAP-R1.DXF](/wte/dxf/WTE3-P-END-CAP-R1.DXF)
 - [WTE4-P-END-CAP-R1.DXF](/wte/dxf/WTE4-P-END-CAP-R1.DXF)
 
 Here are a few things to remember:
 
-- For the 4" enclosure we recommend thick 12mm cast acrylic to handle the pressure
+- We recommend the following thicknesses of cast acrylic to handle the pressure:
+	- 2" Series: 6mm / 0.25"
+	- 3" Series: 9mm / 0.375"
+	- 4" Series: 12mm / 0.50"
 - Note the inner diameter of the aluminum sealing flange and ensure that any holes are within that diameter
 - Feel free to extend beyond the original shape to add mounting holes, etc.
 
