@@ -183,7 +183,7 @@ When using more than one ESC, it is necessary to assign unique addresses to each
 
 ~~~~~~~~~~ bash
 # Navigate to the location containing the BlueESC firmware files
-# Replace XX with the desired ID number 0-16 (0 ,1, 2, 3, etc.)
+# Replace XX with the desired ID number 0-15 (0 ,1, 2, 3, etc.)
 # Replace [programmer port] with serial programmer port, i.e. COM3
 avrdude -c stk500v2 -b 19200 -P [programmer port] -p m8 -U flash:w:blueesc_idXX.hex:i
 ~~~~~~~~~~~~~~~
