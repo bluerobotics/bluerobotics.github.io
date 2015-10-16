@@ -32,6 +32,7 @@ store-links:
 - Basic ESC: http://bluerobotics.com/store/speed-controllers/besc-30-r1/
 
 manual-links:
+- M200 Motor: /thrusters/m200-motor/
 - T100 Thrusters: /thrusters/
 - T200 Thrusters: /thrusters/t200/
 - Basic ESC: /besc/
