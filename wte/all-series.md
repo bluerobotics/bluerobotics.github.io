@@ -20,9 +20,9 @@ nav:
 - Making Custom End-Caps: making-custom-end-caps
 
 store-links:
-- Watertight Enclosure - 4" Series: https://www.bluerobotics.com/product-category/4-series/
-- Watertight Enclosure - 3" Series: https://www.bluerobotics.com/product-category/3-series/
 - Watertight Enclosure - 2" Series: https://www.bluerobotics.com/product-category/2-series/
+- Watertight Enclosure - 3" Series: https://www.bluerobotics.com/product-category/3-series/
+- Watertight Enclosure - 4" Series: https://www.bluerobotics.com/product-category/4-series/
 
 manual-links:
 - Enclosure Vent: /vent/

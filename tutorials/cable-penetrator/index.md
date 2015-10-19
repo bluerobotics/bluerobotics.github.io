@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Cable Penetrator Assembly Tutorial
+title: Cable Penetrator Documentation
 permalink: /tutorials/cable-penetrator/
 order: 1
 nav:
 - Introduction: introduction
-- - Safety: safety
-- - Tools You Will Need: tools-you-will-need
-- Instructions: instructions
+- Specifications: specifications 
+- Installation: installation
 - - Step 1 - Stripping the Jacket: step-1-stripping-the-jacket
 - - Step 2 - Cleaning Surfaces: step-2-cleaning-surfaces
 - - Step 3 - Attaching the penetrator: step-3-attaching-the-penetrator
 - - Step 4 - Sealing the penetrator: step-4-sealing-the-penetrator
 - - Step 5 - Installation: step-5-installation
+
 - Notes: notes
 
 store-links:
@@ -20,19 +20,36 @@ store-links:
 ---
 #Introduction
 
-This tutorial should help make the [Cable Penetrator](https://www.bluerobotics.com/product-category/parts/connectors/) Installation simple!
+Our cable penetrators make waterproof, high-pressure seals to pass the thruster cables into a water-tight enclosure. Each set includes a bolt, nut, and O-ring. We offer cable penetrators with a hole for the thruster cable and also with no hole. 
 
-##Safety
+#Specifications 
+
+|-----------------------------------|--------------------------------|
+|                                   |          Parameter             |
+|-----------------------------------|--------------------------------|
+| Recommended Through-Hole Diameter | 10 mm                          |
+|-----------------------------------|--------------------------------|
+| Bolt Threading                    | M10 x 1.5                      |
+|-----------------------------------|--------------------------------|
+| Bolt Length                       | 0.98 in      | 25 mm           |
+|-----------------------------------|--------------------------------|
+| Bolt Head/Nut Diameter            | 0.71 in      | 18 mm           |
+|                        
+
+
+#Installation
+
+This tutorial should help make the Cable Penetrator Installation simple!
+
+**Safety**
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with tools, always use caution. This tutorial is provided as guidance and should be followed at your own risk.
 
-##Tools You Need
+**Tools You Need**
 
 * Super Glue
 * [Marine Epoxy](https://www.bluerobotics.com/store/tools/loctite-marine-epoxy/)
 * Isopropyl alcohol for cleaning
-
-#Instructions
 
 ##Step 1: Stripping the Jacket
 
@@ -67,7 +84,10 @@ After the epoxy dries, apply the same method to the other side of the penetrator
 
 ##Step 5: Installation
 
-To be completed.
+<img src="/assets/images/documentation/BR-5.png" class="img-responsive" style="max-width:600px" />
+
+
+
 
 #Notes
 
