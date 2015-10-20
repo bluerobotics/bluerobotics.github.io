@@ -6,6 +6,8 @@ order: 1
 nav:
 - Introduction: introduction
 - Specifications: specifications 
+- - Specification Table: specification-table
+- - 3D Model: d-model
 - Installation: installation
 - - Step 1 - Stripping the Jacket: step-1-stripping-the-jacket
 - - Step 2 - Cleaning Surfaces: step-2-cleaning-surfaces
@@ -24,6 +26,8 @@ Our cable penetrators make waterproof, high-pressure seals to pass the thruster 
 
 #Specifications 
 
+##Specification Table
+
 |-----------------------------------|--------------------------------|
 |                                   |          Parameter             |
 |-----------------------------------|--------------------------------|
@@ -36,6 +40,17 @@ Our cable penetrators make waterproof, high-pressure seals to pass the thruster 
 | Bolt Head/Nut Diameter            | 0.71 in      | 18 mm           |
 |                        
 
+
+##3D Model
+
+
+| File Type                  | Link                          |
+| -------------------------- | ----------------------------- |
+| SolidWorks Part (.sldprt)  | 
+| STEP (.step)               | 
+| IGES (.igs)                | 
+| STL (.stl)                 | 
+| All Formats in a Zip File (.zip)   
 
 #Installation
 
@@ -84,7 +99,7 @@ After the epoxy dries, apply the same method to the other side of the penetrator
 
 ##Step 5: Installation
 
-<img src="/assets/images/documentation/BR-5.png" class="img-responsive" style="max-width:600px" />
+
 
 
 
