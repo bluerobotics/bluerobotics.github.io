@@ -6,6 +6,7 @@ order: 1
 nav:
 - Introduction: introduction
 - Specifications: specifications 
+- - 3D Models: d-models
 - Installation: installation
 - - Step 1 - Stripping the Jacket: step-1-stripping-the-jacket
 - - Step 2 - Cleaning Surfaces: step-2-cleaning-surfaces
@@ -28,14 +29,27 @@ Our cable penetrators make waterproof, high-pressure seals to pass the thruster 
 |                                   |          Parameter             |
 |-----------------------------------|--------------------------------|
 | Recommended Through-Hole Diameter | 10 mm                          |
-|-----------------------------------|--------------------------------|
 | Bolt Threading                    | M10 x 1.5                      |
-|-----------------------------------|--------------------------------|
 | Bolt Length                       | 0.98 in      | 25 mm           |
-|-----------------------------------|--------------------------------|
 | Bolt Head/Nut Diameter            | 0.71 in      | 18 mm           |
-|                        
+| Wrench Flats                      | 5/8 in       | 16 mm           |
+| O-ring 														| NBR70 AS568-013                |
 
+##3D Models
+
+All 3D models are provided in zip archives containing the follow file types:
+
+- SolidWorks Part (.sldprt)
+- IGES (.igs) 
+- STEP (.step)
+- STL (.stl)
+
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+|               **Cable Penetrators**                                                                                                            |
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+| Cable Penetrator Bolt for 6mm Cable  | [PENETRATOR-M-BOLT-10-25-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-BOLT-10-25-A-R2.zip)
+| Cable Penetrator Bolt (Blank)        | [PENETRATOR-M-BOLT-BLANK-10-25-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-BOLT-BLANK-10-25-R2.zip)
+| Cable Penetrator Nut                 | [PENETRATOR-M-NUT-10-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-NUT-10-A-R2.zip)
 
 #Installation
 
