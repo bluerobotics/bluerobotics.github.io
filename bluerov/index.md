@@ -33,6 +33,8 @@ manual-links:
 - M100 Motor: /thrusters/motors/
 ---
 
+<img src="/assets/images/tutorials/bluerov-manual/Michal-banner.png" class="img-responsive" style="max-width:900px" />
+
 #Introduction
 
 The **BlueROV** is an unassembled ROV kit with frame, watertight enclosure, thrusters, and speed controllers. Hardware/software experience required. It uses six thrusters to provide six-degree-of-freedom control allowing you to point the ROV in any orientation to film anything, grab anything with a simple robot arm, and have a lot of fun! 
