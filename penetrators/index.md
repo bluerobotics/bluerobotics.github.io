@@ -12,7 +12,8 @@ nav:
 - - Step 2 - Cleaning Surfaces: step-2-cleaning-surfaces
 - - Step 3 - Attaching the penetrator: step-3-attaching-the-penetrator
 - - Step 4 - Sealing the penetrator: step-4-sealing-the-penetrator
-- - Step 5 - Installation: step-5-installation
+- - Step 5 - Lubricating the O-ring: step-5-lubricating-the-oring
+- - Step 6 - Installation: step-6-installation
 
 - Notes: notes
 
@@ -99,11 +100,18 @@ Fill the penetrator hole with the epoxy. Move the cable from side to side within
 <img src="/assets/images/tutorials/cable-penetrator/step-7.png" class="img-responsive" style="max-width:600px" />
 After the epoxy dries, apply the same method to the other side of the penetrator. 
 
-##Step 5: Installation
+##Step 5: Lubricating the O-ring
+
+<img src="/assets/images/tutorials/cable-penetrator/step-six.png" class="img-responsive" style="max-width:600px" />
+
+Use a small amount of silicon grease to lubricate the O-ring and place it in the groove of the penetrator. 
+
+##Step 6: Installation
 
 <img src="/assets/images/tutorials/cable-penetrator/step-five.png" class="img-responsive" style="max-width:600px" />
 
-Install cable penetrator into watertight enclosure end cap. 
+Tighten each penetrator by hand or using a wrench.
+
 
 
 
