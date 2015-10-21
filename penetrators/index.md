@@ -6,13 +6,14 @@ order: 1
 nav:
 - Introduction: introduction
 - Specifications: specifications 
+- - Specification Table: specification-table
 - - 3D Models: d-models
 - Installation: installation
 - - Step 1 - Stripping the Jacket: step-1-stripping-the-jacket
 - - Step 2 - Cleaning Surfaces: step-2-cleaning-surfaces
 - - Step 3 - Attaching the penetrator: step-3-attaching-the-penetrator
 - - Step 4 - Sealing the penetrator: step-4-sealing-the-penetrator
-- - Step 5 - Lubricating the O-ring: step-5-lubricating-the-oring
+- - Step 5 - Lubricating the O-ring: step-5-lubricating-the-o-ring
 - - Step 6 - Installation: step-6-installation
 
 - Notes: notes
