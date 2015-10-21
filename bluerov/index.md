@@ -160,7 +160,7 @@ We recommend the open-source **bluerov-ros-pkg** software. For recommended elect
 
 ##3D Model
 
-These are BIG files since the model is fairly complex. If you just want to check out a 3D view of the BlueROV, we recommend [checking out the files on GrabCAD](https://grabcad.com/library/bluerobotics-bluerov-r1-1-1).
+These are BIG files since the model is fairly complex. If you just want to check out a 3D view of the BlueROV, we recommend [checking out the files on GrabCAD](https://grabcad.com/liBRary/bluerobotics-bluerov-r1-1-1).
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
@@ -180,12 +180,13 @@ The frame is the structure of the ROV and includes several laser-cut plastic pie
 * 2mm Hex Driver
 * 2.5mm Hex Driver
 * Flathead Screwdriver
+* Phillips screwdriver
 * Knife or Scissors
 * Syringe with Luer Tip
 * Wire cutters
 * Wire Strippers
 
-1. Remove the brown protective paper from all plastic parts.  
+1. Remove the Brown protective paper from all plastic parts.  
 
 	<img src="/assets/images/tutorials/bluerov-manual/Picture1.png" class="img-responsive" style="max-width:600px" />
 
@@ -235,7 +236,7 @@ The frame is the structure of the ROV and includes several laser-cut plastic pie
 ##Watertight Enclosure Assembly
 
 Please see the [Watertight Enclosure Assembly Tutorial](/watertight-enclosures/4-series/#assembly) for detailed instructions on how to assemble the Watertight Enclosure.
-<img src="/assets/images/tutorials/bluerov-manual/br-3.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/bluerov-manual/BR-3.png" class="img-responsive" style="max-width:600px" />
 The above shows the suggested penetrator configuration for the Blue ROV, with the vent plug placed in the upper right hole. This configuration will enable easy access to the vent plug, and clean cable routing for all six thrusters.
 
 ##Thruster Preparation
@@ -243,7 +244,7 @@ The above shows the suggested penetrator configuration for the Blue ROV, with th
 1. First, we'll change the propellers on two thrusters so that we have counter-rotating pairs. Follow the instructions on the [Thruster Manual](/thrusters/) to do so. These two thrusters will be the right horizontal and right vertical thrusters.
 
 2. Label the thrusters with the location of where they will be going on the ROV. The standard thruster label configuration for the Blue ROV is shown here.
-<img src="/assets/images/tutorials/bluerov-manual/br-11.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/bluerov-manual/BR-11.png" class="img-responsive" style="max-width:600px" />
 
 
 	From left to right, the vertical thrusters are 1 and 2, with the horizontal thrusters 3 and 4. Thus one of the thrusters with the counter-rotating blade should be labelled 2, and the other 4. The rear vertical thruster is 5, and the strafing thruster 6.
@@ -280,16 +281,16 @@ The BlueROV comes with an electronics tray designed to fit the ESCs, a Raspberry
 3. Next, attach the terminal block in the center of the tray on top using the two provided holes. This can be done with M3 screws or zip ties. Put the screws through the holes in the terminal block closest to the electronics shelf to allow clearance for the wires coming from the ESCs mounted to the underside of the board.
 
 4. Next, attach the ESCs using the provided zip ties. The ESC should be arranged with the "BlueRobotics" logo facing toward the tray which will expose the warm parts of the ESC to air to enable cooling. Three ESCs are attached on top and three on bottom. Label the ESCs 1-6 before mounting in order to keep track of which will be controlling which motor. We suggest the following configuration to allow for the most direct wire routing.
-<img src="/assets/images/tutorials/bluerov-manual/br-7.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/bluerov-manual/BR-7.png" class="img-responsive" style="max-width:600px" />
 
 5. First loosly attatch 2 ESCs to the top and bottom of the electronics tray, leaving enough slack in the zip tie to be able to adjust the positions of the ESCs.
-<img src="/assets/images/tutorials/bluerov-manual/br-8.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/bluerov-manual/BR-8.png" class="img-responsive" style="max-width:600px" />
 
 6. Cut and strip the power input wires of the ESCs to an appropriate length to attatch them to the terminal block, negative wires on the left side and positive on the right. We use crimped spade connectors at the ends of the wires, but just the bare wires will work fine as well. If you need additional clearance to route or bend a wire, the clear heat shrink on the ESC can be cut back a bit to give a little extra room.
-<img src="/assets/images/tutorials/bluerov-manual/br-9.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/bluerov-manual/BR-9.png" class="img-responsive" style="max-width:600px" />
 
 7. Repeat for the 4 additional ESCs. Take your time in laying out the cables, and be sure that they will reach the terminal block before cutting. Attatch a battery lead with the connector of your choice to the terminal block, and route the cable below to the battery area.
-<img src="/assets/images/tutorials/bluerov-manual/br-13.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/bluerov-manual/BR-13.png" class="img-responsive" style="max-width:600px" />
 
 8. We recommend attaching the Raspberry Pi and camera now as well. Hardware is not provided.
 
@@ -302,18 +303,18 @@ The BlueROV comes with an electronics tray designed to fit the ESCs, a Raspberry
 Please see the [Cable Penetrator Tutorial](/tutorials/cable-penetrator/) on wire potting instructions. To make the Blue ROV wire potting as easy as possible, follow these steps.
 
 1. Take your completed endcap, and feed each thruster cable through its corresponding suggested penetrator, gluing the jacket with CA glue as in the cable penetrator tutorial. Try to keep each cable as straight as possible where it enters the penetrator. If the cable is tilting slightly, direct it towards the rim of the endcap as seen below.
-<img src="/assets/images/tutorials/bluerov-manual/br-4.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/bluerov-manual/BR-4.png" class="img-responsive" style="max-width:600px" />
 
 2. Pot the cables with marine epoxy, being sure to slightly agitate the cable afterwards to work out any air bubbles.
-<img src="/assets/images/tutorials/bluerov-manual/br-5.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/bluerov-manual/BR-5.png" class="img-responsive" style="max-width:600px" />
 
 3. Once the epoxy has cured (about 24 hours), flip the endcap over and pot the other side where the wires exit to the inside. You may find it convenient to prop up the encap to make this process easier, we use the cardboard tubes that the thrusters are packaged in to do the job.
-<img src="/assets/images/tutorials/bluerov-manual/br-6.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/bluerov-manual/BR-6.png" class="img-responsive" style="max-width:600px" />
 
 4. Solder 3.5mm male bullet connectors to the motor wires, and cover the joints with heat shrink.
 
 5. Attach the bullet connectors of each motor to its corresponding ESC, and slide the electronics tray into the watertight enclosure. Put on the endcap, and secure the enclosure to the ROV frame with the two provided velcro straps. The enclosure can be moved forward and backward to adjust center of gravity and center of buoyancy of the vehicle. Now your frame, enclosure, and motors are ready to go!
-<img src="/assets/images/tutorials/bluerov-manual/br-12.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/bluerov-manual/BR-12.png" class="img-responsive" style="max-width:600px" />
 
 
 
