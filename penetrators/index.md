@@ -105,13 +105,13 @@ After the epoxy dries, apply the same method to the other side of the penetrator
 
 <img src="/assets/images/tutorials/cable-penetrator/step-six.png" class="img-responsive" style="max-width:600px" />
 
-Use a small amount of silicon grease to lubricate the O-ring and place it in the groove of the penetrator. 
+Use a small amount of silicone grease to lubricate the O-ring and place it in the groove of the penetrator. 
 
 ##Step 6: Installation
 
 <img src="/assets/images/tutorials/cable-penetrator/step-five.png" class="img-responsive" style="max-width:600px" />
 
-Tighten each penetrator by hand or using a wrench.
+Install each penetrator into the end cap ighten each penetrator by hand or using a wrench.
 
 
 
