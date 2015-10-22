@@ -242,12 +242,9 @@ The above shows the suggested penetrator configuration for the Blue ROV, with th
 ##Thruster Preparation
 
 1. First, we'll change the propellers on two thrusters so that we have counter-rotating pairs. Follow the instructions on the [Thruster Manual](/thrusters/) to do so. These two thrusters will be the right horizontal and right vertical thrusters.
-
-2. Label the thrusters with the location of where they will be going on the ROV. The standard thruster label configuration for the Blue ROV is shown here.
-<img src="/assets/images/tutorials/bluerov-manual/BR-11.png" class="img-responsive" style="max-width:600px" />
-
-
-	From left to right, the vertical thrusters are 1 and 2, with the horizontal thrusters 3 and 4. Thus one of the thrusters with the counter-rotating blade should be labelled 2, and the other 4. The rear vertical thruster is 5, and the strafing thruster 6.
+<img src="/assets/images/tutorials/bluerov-manual/BR-11.png" class="img-responsive" style="max-width:600px" /> 
+2. Label the thrusters with the location of where they will be going on the ROV. The standard thruster label configuration for the Blue ROV is shown above.
+   From left to right, the vertical thrusters are 1 and 2, with the horizontal thrusters 3 and 4. Thus one of the thrusters with the counter-rotating blade should be labelled 2, and the other 4. The rear vertical thruster is 5, and the strafing thruster 6.
 
 3. Once the thrusters have been labelled and set aside for specific locations, cut the cables to length. We suggest the following lengths, measured from where they exit the nose of the thruster:
   * Thrusters 1 and 2 (Front Vertical) to 84cm (33")
@@ -279,42 +276,42 @@ The BlueROV comes with an electronics tray designed to fit the ESCs, a Raspberry
 	<img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-10.png" class="img-responsive" style="max-width:600px" />
 
 3. Next, attach the terminal block in the center of the tray on top using the two provided holes. This can be done with M3 screws or zip ties. Put the screws through the holes in the terminal block closest to the electronics shelf to allow clearance for the wires coming from the ESCs mounted to the underside of the board.
-
-4. Next, attach the ESCs using the provided zip ties. The ESC should be arranged with the "BlueRobotics" logo facing toward the tray which will expose the warm parts of the ESC to air to enable cooling. Three ESCs are attached on top and three on bottom. Label the ESCs 1-6 before mounting in order to keep track of which will be controlling which motor. We suggest the following configuration to allow for the most direct wire routing.
 <img src="/assets/images/tutorials/bluerov-manual/BR-7.png" class="img-responsive" style="max-width:600px" />
 
-5. First loosly attatch 2 ESCs to the top and bottom of the electronics tray, leaving enough slack in the zip tie to be able to adjust the positions of the ESCs.
+4. Next, attach the ESCs using the provided zip ties. The ESC should be arranged with the "BlueRobotics" logo facing toward the tray which will expose the warm parts of the ESC to air to enable cooling. Three ESCs are attached on top and three on bottom. Label the ESCs 1-6 before mounting in order to keep track of which will be controlling which motor. We suggest the above configuration to allow for the most direct wire routing.
 <img src="/assets/images/tutorials/bluerov-manual/BR-8.png" class="img-responsive" style="max-width:600px" />
 
-6. Cut and strip the power input wires of the ESCs to an appropriate length to attatch them to the terminal block, negative wires on the left side and positive on the right. We use crimped spade connectors at the ends of the wires, but just the bare wires will work fine as well. If you need additional clearance to route or bend a wire, the clear heat shrink on the ESC can be cut back a bit to give a little extra room.
+5. First loosly attatch 2 ESCs to the top and bottom of the electronics tray, leaving enough slack in the zip tie to be able to adjust the positions of the ESCs.
 <img src="/assets/images/tutorials/bluerov-manual/BR-9.png" class="img-responsive" style="max-width:600px" />
 
-7. Repeat for the 4 additional ESCs. Take your time in laying out the cables, and be sure that they will reach the terminal block before cutting. Attatch a battery lead with the connector of your choice to the terminal block, and route the cable below to the battery area.
+6. Cut and strip the power input wires of the ESCs to an appropriate length to attatch them to the terminal block, negative wires on the left side and positive on the right. We use crimped spade connectors at the ends of the wires, but just the bare wires will work fine as well. If you need additional clearance to route or bend a wire, the clear heat shrink on the ESC can be cut back a bit to give a little extra room.
 <img src="/assets/images/tutorials/bluerov-manual/BR-13.png" class="img-responsive" style="max-width:600px" />
+
+7. Repeat for the 4 additional ESCs. Take your time in laying out the cables, and be sure that they will reach the terminal block before cutting. Attatch a battery lead with the connector of your choice to the terminal block, and route the cable below to the battery area.
 
 8. We recommend attaching the Raspberry Pi and camera now as well. Hardware is not provided.
 
 9. The round legs can be snapped on to each end of the tray. You can use glue to secure the legs if desired. 
 
-10. The provided velcro strap is used to secure a battery (not included). We recommend using a 4s (14.8v) lithium polymer battery, either from a local hobby shop or a retailer such as [Hobby King](http://www.hobbyking.com/hobbyking/store/index.asp). You can also use a 3s (11.1v) battery, and the T200 can be safely run with up to a 5s (18.5v) battery.
+10. The provided double sided velcro strap is used to secure a battery (not included). We recommend using a 4s (14.8v) lithium polymer battery, either from a local hobby shop or a retailer such as [Hobby King](http://www.hobbyking.com/hobbyking/store/index.asp). You can also use a 3s (11.1v) battery, and the T200 can be safely run with up to a 5s (18.5v) battery.
 
 ##Cable Potting
 
 Please see the [Cable Penetrator Tutorial](/tutorials/cable-penetrator/) on wire potting instructions. To make the Blue ROV wire potting as easy as possible, follow these steps.
-
-1. Take your completed endcap, and feed each thruster cable through its corresponding suggested penetrator, gluing the jacket with CA glue as in the cable penetrator tutorial. Try to keep each cable as straight as possible where it enters the penetrator. If the cable is tilting slightly, direct it towards the rim of the endcap as seen below.
 <img src="/assets/images/tutorials/bluerov-manual/BR-4.png" class="img-responsive" style="max-width:600px" />
 
-2. Pot the cables with marine epoxy, being sure to slightly agitate the cable afterwards to work out any air bubbles.
+1. Take your completed endcap, and feed each thruster cable through its corresponding suggested penetrator, gluing the jacket with CA glue as in the cable penetrator tutorial. Try to keep each cable as straight as possible where it enters the penetrator. If the cable is tilting slightly, direct it towards the rim of the endcap as seen above.
 <img src="/assets/images/tutorials/bluerov-manual/BR-5.png" class="img-responsive" style="max-width:600px" />
 
-3. Once the epoxy has cured (about 24 hours), flip the endcap over and pot the other side where the wires exit to the inside. You may find it convenient to prop up the encap to make this process easier, we use the cardboard tubes that the thrusters are packaged in to do the job.
+2. Pot the cables with marine epoxy, being sure to slightly agitate the cable afterwards to work out any air bubbles.
 <img src="/assets/images/tutorials/bluerov-manual/BR-6.png" class="img-responsive" style="max-width:600px" />
 
+3. Once the epoxy has cured (about 24 hours), flip the endcap over and pot the other side where the wires exit to the inside. You may find it convenient to prop up the encap to make this process easier, we use the cardboard tubes that the thrusters are packaged in to do the job.
+
 4. Solder 3.5mm male bullet connectors to the motor wires, and cover the joints with heat shrink.
+<img src="/assets/images/tutorials/bluerov-manual/BR-12.png" class="img-responsive" style="max-width:600px" />
 
 5. Attach the bullet connectors of each motor to its corresponding ESC, and slide the electronics tray into the watertight enclosure. Put on the endcap, and secure the enclosure to the ROV frame with the two provided velcro straps. The enclosure can be moved forward and backward to adjust center of gravity and center of buoyancy of the vehicle. Now your frame, enclosure, and motors are ready to go!
-<img src="/assets/images/tutorials/bluerov-manual/BR-12.png" class="img-responsive" style="max-width:600px" />
 
 
 
