@@ -6,13 +6,15 @@ order: 1
 nav:
 - Introduction: introduction
 - Specifications: specifications 
+- - Specification Table: specification-table
 - - 3D Models: d-models
 - Installation: installation
 - - Step 1 - Stripping the Jacket: step-1-stripping-the-jacket
 - - Step 2 - Cleaning Surfaces: step-2-cleaning-surfaces
 - - Step 3 - Attaching the penetrator: step-3-attaching-the-penetrator
 - - Step 4 - Sealing the penetrator: step-4-sealing-the-penetrator
-- - Step 5 - Installation: step-5-installation
+- - Step 5 - Lubricating the O-ring: step-5-lubricating-the-o-ring
+- - Step 6 - Installation: step-6-installation
 
 - Notes: notes
 
@@ -24,6 +26,8 @@ store-links:
 Our cable penetrators make waterproof, high-pressure seals to pass the thruster cables into a water-tight enclosure. Each set includes a bolt, nut, and O-ring. We offer cable penetrators with a hole for the thruster cable and also with no hole. 
 
 #Specifications 
+
+##Specification Table
 
 |-----------------------------------|--------------------------------|
 |                                   |          Parameter             |
@@ -50,6 +54,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Cable Penetrator Bolt for 6mm Cable  | [PENETRATOR-M-BOLT-10-25-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-BOLT-10-25-A-R2.zip)
 | Cable Penetrator Bolt (Blank)        | [PENETRATOR-M-BOLT-BLANK-10-25-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-BOLT-BLANK-10-25-R2.zip)
 | Cable Penetrator Nut                 | [PENETRATOR-M-NUT-10-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-NUT-10-A-R2.zip)
+
 
 #Installation
 
@@ -96,9 +101,17 @@ Fill the penetrator hole with the epoxy. Move the cable from side to side within
 <img src="/assets/images/tutorials/cable-penetrator/step-7.png" class="img-responsive" style="max-width:600px" />
 After the epoxy dries, apply the same method to the other side of the penetrator. 
 
-##Step 5: Installation
+##Step 5: Lubricating the O-ring
 
-<img src="/assets/images/documentation/BR-5.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/tutorials/cable-penetrator/step-six.png" class="img-responsive" style="max-width:600px" />
+
+Use a small amount of silicone grease to lubricate the O-ring and place it in the groove of the penetrator. 
+
+##Step 6: Installation
+
+<img src="/assets/images/tutorials/cable-penetrator/step-five.png" class="img-responsive" style="max-width:600px" />
+
+Install each penetrator into the end cap ighten each penetrator by hand or using a wrench.
 
 
 
