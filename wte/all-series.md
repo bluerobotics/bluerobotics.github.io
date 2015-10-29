@@ -17,7 +17,7 @@ nav:
 - Assembly: assembly
 - Assembly (Old R1 Style): assembly-old-r1-style
 - Opening Enclosure: opening-enclosure
-- Making Custom End-Caps: making-custom-end-caps
+- Making Custom End Caps: making-custom-end-caps
 
 store-links:
 - Watertight Enclosure - 2" Series: https://www.bluerobotics.com/product-category/2-series/
@@ -40,7 +40,7 @@ Blue Robotics offers a series of watertight enclosures for use on ROVs, AUVs, an
 Always inspect the o-rings before operation in water and especially when replacing the end-caps, aluminum flanges, or penetrators. Any dust, hair, or other particles can cause a leak.
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Use plastic tools, NOT steel or other hard tools, to remove the o-rings from the aluminum sealing flange. Hard tools can create scrapes that will compromise sealing ability.
+Use plastic tools, NOT steel or other hard tools, to remove the O-rings from the aluminum sealing flange. Hard tools can create scrapes that will compromise sealing ability.
 
 <!--<i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
 A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.-->  
@@ -69,7 +69,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | Total Length                        | 12.7 in       | 322 mm        |
 | Radial Seal O-ring (1 used)         | AS568-133, Buna-N             |
 | Face Seal O-ring (1 used)           | AS568-030, Buna-N             |
-| End-cap Screws                      | M2x10 (Stainless Steel 316)   |
+| End Cap Screws                      | M2x10 (Stainless Steel 316)   |
 | Inner Mounting Holes                | M3 threading                  |
 
 ##3D Models (2" Series)
@@ -112,7 +112,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Total Length                        | 12.93 in      | 329 mm        |
 | Radial Seal O-ring (2 used)         | AS568-230, Buna-N             |
 | Face Seal O-ring (1 used)           | AS568-148, Buna-N             |
-| End-cap Screws                      | M3x12 (Stainless Steel 316)   |
+| End Cap Screws                      | M3x12 (Stainless Steel 316)   |
 | Inner Mounting Holes                | M3 threading                  |
 
 ##3D Models (3" Series)
@@ -153,7 +153,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Total Length                        | 13.15 in      | 334 mm        |
 | Radial Seal O-ring (2 used)         | AS568-238, Buna-N             |
 | Face Seal O-ring (1 used)           | AS568-154, Buna-N             |
-| End-cap Screws                      | M3x16 (Stainless Steel 316)   |
+| End Cap Screws                      | M3x16 (Stainless Steel 316)   |
 | Inner Mounting Holes                | M3 threading                  |
 
 ##3D Models (4" Series)
@@ -193,10 +193,10 @@ The assembly process is simple and straightforward - it will take a few minutes!
 
 <img src="/assets/images/tutorials/WTE/4-step-2.png" class="img-responsive" style="max-width:600px" />
 <img src="/assets/images/tutorials/WTE/4-step-1.png" class="img-responsive" style="max-width:600px" />
-1. We recommend first cleaning the o-rings and the o-ring grooves with isopropyl alcohol. This will ensure a good seal. Next, lubricate the three O-rings with a thin layer of silicone grease and then install the two thick O-rings into the grooves on the flange. The thin O-ring is placed in the groove in the face of the flange.
+1. We recommend first cleaning the O-rings and the O-ring grooves with isopropyl alcohol. This will ensure a good seal. Next, lubricate the three O-rings with a thin layer of silicone grease and then install the two thick O-rings into the grooves on the flange. The thin O-ring is placed in the groove in the face of the flange.
 
 <img src="/assets/images/tutorials/WTE/4-step-3.png" class="img-responsive" style="max-width:600px" />
-2. Attach the end caps to the flanges with 6 socket cap screws. Gently tighten the screws in an alternating cross pattern so that the O-ring is compressed but not so tight as to damage the plastic. Do not overtighten the screws!
+2. Attach the end-caps to the flanges with 6 socket cap screws. Gently tighten the screws in an alternating cross pattern so that the O-ring is compressed but not so tight as to damage the plastic. Do not overtighten the screws!
 
 <img src="/assets/images/tutorials/WTE/step-4.png" class="img-responsive" style="max-width:600px" />
 3. Install the vent and any necessary cable penetrators into the end-cap.  
@@ -219,7 +219,7 @@ The assembly process is slightly different for the first version of the sealing 
 1. Apply a thin layer of sealant to the face of the flange.
 
 <img src="/assets/images/tutorials/wtc-assembly/step-2.jpg" class="img-responsive" style="max-width:600px" />
-2. Attach the end caps to the flanges with 6 socket cap screws. Tighten screws until all air is cleared from the silicone.
+2. Attach the end-caps to the flanges with 6 socket cap screws. Tighten screws until all air is cleared from the silicone.
 
 <img src="/assets/images/tutorials/wtc-assembly/step-3.jpg" class="img-responsive" style="max-width:600px" />
 3. Lubricate the O-rings with a thin layer of silicone grease and then install into the grooves on the flange.
@@ -240,14 +240,14 @@ Opening the enclosure is straightforward.
 1. Remove the vent plug. 
 
 <img src="/assets/images/tutorials/WTE/open-step-2.png" class="img-responsive" style="max-width:600px" />
-2. Remove the flange using the tabs on the sides of the endcap. 
+2. Remove the flange using the tabs on the sides of the end cap. 
 
 
 
 
-#Making Custom End-Caps
+#Making Custom End Caps
 
-One of the cool things about the watertight enclosure design is that it's compatible with all sort of end-cap sizes and shapes. We've got a few different ones available but we encourage you to design your own to perfectly suit your application.
+One of the cool things about the watertight enclosure design is that it's compatible with all sort of end cap sizes and shapes. We've got a few different ones available but we encourage you to design your own to perfectly suit your application.
 
 The CAD files above as long as the DXF drawing file attached below will give you a good starting point for your design. You'll need access to either 3D modeling software like SolidWorks or AutoCAD or 2D drawing software like Adobe Illustrator, Inkscape, and others.
 
