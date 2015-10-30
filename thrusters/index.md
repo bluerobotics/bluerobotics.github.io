@@ -117,7 +117,13 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 
 ##Dimensions
 
-<img src="/assets/images/t100-three-view-1.png" class="img-responsive" style="max-width:800px" />
+###T100 Thruster (without BlueESC)
+
+<img src="/assets/images/T100 Plain Drawing.PNG" class="img-responsive" style="max-width:800px" />
+
+###T100 Thruster with BlueESC
+
+<img src="/assets/images/T100 Blue ESC Drawing.PNG" class="img-responsive" style="max-width:800px" />
 
 ##3D Model
 
@@ -253,7 +259,7 @@ If operated for extended periods in the water:
 
 ##Disassembly/Assembly
 
-You may need to take apart your thruster from time to time - or maybe you just want to take a peak at the inner workings of the T100! Either way, this tutorial illustrates how.
+You may need to take apart your thruster from time to time - or maybe you just want to take a peek at the inner workings of the T100! Either way, this tutorial illustrates how.
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
@@ -283,7 +289,7 @@ For all the engineers out there, here's some more info.
 
 ##Test Results
 
-* **Endurance Testing.** We have tested the T100 Thruster for up to 300 hours continuous operation at full throttle power.
+* **Endurance Testing.** The T100 has been tested for over 1300 hours in virtually continuous operation at half throttle, only being halted shortly for internal inspection every few weeks. Additionally, we have tested the T100 Thruster for up to 300 hours continuous operation at full throttle power.
 
 * **Sand and Particulate Testing.** The thrusters handle small particulate matter very well. See [this video](https://www.youtube.com/watch?v=0X0EncNR8l8) of testing the thrusters in heavy sand.
 
