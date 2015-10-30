@@ -119,11 +119,11 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 
 ###T100 Thruster (without BlueESC)
 
-<img src="/assets/images/T100 Plain Drawing.PNG" class="img-responsive" style="max-width:800px" />
+<img src="/assets/images/T100-Plain-Drawing.PNG" class="img-responsive" style="max-width:800px" />
 
 ###T100 Thruster with BlueESC
 
-<img src="/assets/images/T100 Blue ESC Drawing.PNG" class="img-responsive" style="max-width:800px" />
+<img src="/assets/images/T100-BlueESC-Drawing.PNG" class="img-responsive" style="max-width:800px" />
 
 ##3D Model
 
