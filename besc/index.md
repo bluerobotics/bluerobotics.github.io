@@ -36,18 +36,22 @@ You are welcome to purchase the ESCs directly and reprogram them yourself. We of
 
 ##Quick Start
 
-1. Connect the three motor wires to the motor. The order of connections does not matter, however, switching any two wires will change the direction of the motor.
+1. Connect the three motor wires to the motor. The order of connections does not matter, however, switching any two wires will change the direction of the motor. The output phases A, B, and C are completely interchangeable
 2. Connect the red power wire and black ground wire to a power source like a battery. You will hear a few beeps from the ESC.
-3. Connect the signal cable to your signal source like an RC radio receiver or microcontroller board. The yellow wire is the signal wire.
+3. Connect the signal cable to your signal source like an RC radio receiver or microcontroller board. The yellow wire is the signal wire. The red wire is the battery eliminator circuit (BEC) output, which supplies 5V at 500mA to power a control system. The brown wire is ground.
 4. Send a stopped signal (1500 microseconds) for a few seconds to initialize the ESC. You will hear a long tone.
 
 #Specifications
+
+##Diagram
+
+<img src="/assets/images/documentation/besc-labels.png" class="img-responsive" style="max-width:800px" />
 
 ##Specification Table
 
 |                 **Electrical**                |
 | ------------- | ------------- | ------------- |
-| Voltage       | 6-16 volts                    |
+| Voltage       | 6-16.8 volts                    |
 | Max Current   | 30 amps                       |
 | ------------- | ------------- | ------------- |
 |                  **Physical**                 |
