@@ -39,6 +39,10 @@ Our cable penetrators make waterproof, high-pressure seals to pass the thruster 
 | Wrench Flats                      | 5/8 in       | 16 mm           |
 | O-ring 														| NBR70 AS568-013                |
 
+##Assembled Cutaway View
+
+<img src="/assets/images/Pottedcutaway.png" class="img-responsive" style="max-width:600px" />
+
 ##3D Models
 
 All 3D models are provided in zip archives containing the follow file types:
