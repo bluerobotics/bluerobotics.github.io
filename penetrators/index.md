@@ -41,7 +41,7 @@ Our cable penetrators make waterproof, high-pressure seals to pass the thruster 
 
 ##Assembled Cutaway View
 
-<img src="/assets/images/Pottedcutaway.png" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/pottedrender.png" class="img-responsive" style="max-width:600px" />
 
 ##3D Models
 
