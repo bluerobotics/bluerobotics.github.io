@@ -162,7 +162,7 @@ We recommend the open-source **bluerov-ros-pkg** software. For recommended elect
 
 ##3D Model
 
-These are BIG files since the model is fairly complex. If you just want to check out a 3D view of the BlueROV, we recommend [checking out the files on GrabCAD](https://grabcad.com/liBRary/bluerobotics-bluerov-r1-1-1).
+These are BIG files since the model is fairly complex. If you just want to check out a 3D view of the BlueROV, we recommend [checking out the files on GrabCAD](https://grabcad.com/library/bluerobotics-bluerov-r1-1-1).
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
