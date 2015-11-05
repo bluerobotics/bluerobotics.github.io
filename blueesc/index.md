@@ -37,14 +37,15 @@ The BlueESC is an electronic speed controller for the T100 and T200 Thrusters. I
 The BlueESC comes preinstalled on the T100 or T200 Thrusters, and you don't have to do much to get started. All you need is a power source like a 12V battery or power supply and a signal source, like a servo tester, RC radio receiver, or a microcontroller.
 
 1. Connect the BlueESC to the power source by connecting the thick red and black wires to power and ground (negative).
-
-2. On the smaller signal cable, connect the black ground wire to the ground wire of the signal source. Connect the red or yellow PWM signal wire to the signal.
-
+2. On the smaller signal cable, connect the black ground wire to the ground wire of the signal source. Connect the red or yellow PWM signal wire to the signal. The BlueESC does not have a battery eliminator circuit (BEC) and cannot power an external device at 5V.
 3. Provide a "stopped" signal at 1500 &mu;s for a few seconds to allow the ESC to initialize. It will beep and the lights will flash briefly.
-
 4. Once initialized, it's ready to run!
 
 #Specifications
+
+##Diagram
+
+<img src="/assets/images/documentation/blue-esc-labels.png" class="img-responsive" style="max-width:800px" />
 
 ##Specification Table
 
