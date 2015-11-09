@@ -33,7 +33,7 @@ manual-links:
 - M100 Motor: /thrusters/motors/
 ---
 
-<img src="/assets/images/tutorials/bluerov-manual/Michal-banner.png" class="img-responsive" style="max-width:900px" />
+<img src="/assets/images/tutorials/bluerov-manual/michal-rov-banner.png" class="img-responsive" style="max-width:900px" />
 
 #Introduction
 
