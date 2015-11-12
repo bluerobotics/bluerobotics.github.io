@@ -19,7 +19,7 @@ This part allows you to vacuum test enclosures through the standard vent, ensuri
 
 ##Tools You Need
 
-* Hand operated vacuum pump
+* Hand-operated vacuum pump
 * [Vacuum test plug](https://www.bluerobotics.com/store/tools/vacuum-plug/) 
 * [Silicone grease](https://www.bluerobotics.com/store/tools/tool-silicone-grease-10g-r1)
 
