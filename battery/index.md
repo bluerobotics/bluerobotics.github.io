@@ -34,7 +34,7 @@ The T100 thruster can be powered off of any 6–16V power source, and the T200 o
 
 #LiPo Batteries
 
-<img src="/assets/images/documentation/battery-3.PNG" class="img-responsive" style="max-width:600px" />
+<img src="/assets/images/documentation/battery-3.png" class="img-responsive" style="max-width:600px" />
 
 ##Voltage
 
@@ -42,9 +42,9 @@ LiPo battery packs come in different voltages, in which each cell is nominally 3
 
 | Battery    | Nominal Voltage |  Maximum Voltage |	Recommended Minimum Safe Voltage  (3.4V per cell) |
 |------------|-----------------|------------------|---------------------------------------|
-| **3s**         |  11.1V           | 12.6V             | 10.2V
-| **4s**         |    14.8V         |   16.8V           | 13.6V
-| **5s**		 | 18.5V            |    21.0V            | 17.0V|
+| **3s**         |  11.1V           | 12.6V             | 10.2V|
+| **4s**         |    14.8V         |   16.8V           | 13.6V|
+| **5s**		 | 18.5V            |    21.0V          | 17.0V|
 
 For maximum efficiency, the T100 should be run at 12V, and the T200 at 16V.  A 11.1V 3s LiPo is recommended for the T100, and a 14.8V 4s LiPo for the T200, though the T100 can be safely run with a 4s pack and the T200 with a 5s pack. If you choose to do this, you will see slightly higher performance, but reduced efficiency than when running at the recommended voltages.
 
