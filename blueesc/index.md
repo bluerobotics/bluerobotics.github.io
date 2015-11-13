@@ -15,6 +15,7 @@ nav:
 - I<sup>2</sup>C Protocol: isup2supc-protocol
 - - Throttle Command: throttle-command
 - - Data Request: data-request
+- - Data Conversion: data-conversion
 - - Assigning I<sup>2</sup>C Addresses: assigning-isup2supc-addresses
 - Example Code: example-code
 - - Arduino With Servo Library: arduino-with-servo-library
@@ -163,6 +164,79 @@ The data registers can be read to provide information on voltage, current, RPM, 
 * **Byte 6:** current_h  
 * **Byte 7:** current_l  
 * **Byte 8:** 0xab (identifier to check if ESC is alive)
+
+##Data Conversion
+
+The values sent through I2C for the sensors must be converted to the correct units. The following equations describe how to do so.
+
+###Voltage
+
+The voltage divider uses and 18K and 3.3K resistor for a voltage divider ratio of 6.45. The raw measurement is scaled to 16 bits. The conversion is as follows:
+
+$$
+\begin{align*}
+V_{ESC} = 0.0004921 V_{raw}
+\end{align*}
+$$
+
+###Current
+
+The current is measured by the ACS711, a hall-effect sensor IC. The output is 14.706 A/V with a 2.5V offset. The raw measurements is scaled to 16 bits.
+
+$$
+\begin{align*}
+I_{ESC} = 0.001122 (I_{raw}-32767)
+\end{align*}
+$$
+
+###Temperature
+
+The temperature is measured by a 10K thermistor (NCP18XH103J03RB) and 3.3K resistor. The temperature is calculated with the Steinhart equations. A code example follows:
+
+~~~ cpp
+// THERMISTOR SPECIFICATIONS
+// resistance at 25 degrees C
+#define THERMISTORNOMINAL 10000      
+// temp. for nominal resistance (almost always 25 C)
+#define TEMPERATURENOMINAL 25   
+// The beta coefficient of the thermistor (usually 3000-4000)
+#define BCOEFFICIENT 3900
+// the value of the 'other' resistor
+#define SERIESRESISTOR 3300 
+
+float temperature(_temp_raw) {
+  // This code was taken from an Adafruit
+  float resistance = SERIESRESISTOR/(65535/float(_temp_raw)-1);
+
+  float steinhart;
+  steinhart = resistance / THERMISTORNOMINAL;  // (R/Ro)
+  steinhart = log(steinhart);                  // ln(R/Ro)
+  steinhart /= BCOEFFICIENT;                   // 1/B * ln(R/Ro)
+  steinhart += 1.0 / (TEMPERATURENOMINAL + 273.15); // + (1/To)
+  steinhart = 1.0 / steinhart;                 // Invert
+  steinhart -= 273.15;                         // convert to C
+
+  return steinhart;
+}
+~~~
+
+###RPM
+
+The RPM is sent as *pulses since last read*, which is the number of commutation cycles since the last time the I2C was polled.
+
+$$
+\begin{align*}
+RPS_{ESC} = \frac{RPS_{raw}}{N_{poles} \Delta t} 
+\end{align*}
+$$
+
+$$
+\begin{align*}
+RPM_{ESC} = 60 RPS_{ESC}
+\end{align*}
+$$
+
+The value of $$N_{poles}$$ depends on the motor. The T100 has 12 poles and the T200 has 14 poles. The RPM measurement *does not include direction*. You can include direction by adding a negative symbol if the input signal to the ESC is negative.
 
 ##Assigning I<sup>2</sup>C Addresses
 
@@ -323,3 +397,5 @@ The ESC includes a bootloader that allows flashing through the PWM signal wire u
 ~~~ bash
 avrdude -c stk500v2 -b 9600 -P [programmer port] -p m8 -U flash:w:bluesc.hex:i
 ~~~
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
