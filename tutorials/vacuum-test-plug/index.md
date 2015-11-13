@@ -6,7 +6,7 @@ order: 1
 nav:
 - Introduction: introduction
 - Attaching the Vacuum Plug to the Pump: attaching-the-vacuum-plug-to-the-pump
-- Testing the Test Setiup: testing-the-test-setup
+- Testing the Test Setup: testing-the-test-setup
 - Testing the Enclosure: testing-the-enclosure
 ---
 
