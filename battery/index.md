@@ -107,7 +107,7 @@ $$
 
 For the Blue ROV, "d" is 50.8mm, and "x" is 3.6mm. If your battery is long enough to come up to the ESC wires or another obstruction on the bottom of the elctronics tray, add its height to "x". Conversly, if you wish to allow the battery tray to be moved up by the battery, you can subtract up to 2.5mm from "x". 
 
-Hobbyking's [battery finder tool](http://www.hobbyking.com/hobbyking/store/multifinder.asp?t=lipo) is very useful in finding batteries that will fit the Blue ROV. Note that the "with" and "height" dimensions in the battery finder tool are the reverse from the varaibles in the above fit fomula.
+Hobbyking's [battery finder tool](http://www.hobbyking.com/hobbyking/store/multifinder.asp?t=lipo) is very useful in finding batteries that will fit the Blue ROV. Note that the "width" and "height" dimensions in the battery finder tool are the reverse from the varaibles in the above fit fomula.
 
 ##Example Batteries
 
