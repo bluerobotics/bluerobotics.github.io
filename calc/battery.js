@@ -56,11 +56,6 @@ function calculate() {
 	rawVoltage = Number(voltageInput.toString('V').replace(/[^0-9.,]\w+/g, ''));
 	rawCapacity = Number(capacityInput.toString('Ah').replace(/[^0-9.,]\w+/g, ''));
 
-	if ( document.getElementById("freshwater").checked ) {
-	  //rho = freshwaterDensity;
-	} else {
-		//rho = saltwaterDensity;
-	}
 
 	var energy;
 	var rawEnergy;
@@ -98,7 +93,7 @@ function calculate() {
 	}
 
 	for ( var i = -6 ; i < 6 ; i += 0.1 ) {
-		if ( Math.abs(i) < 0.5 ) { 
+		if ( Math.abs(i) < 0.3 ) { 
 			dataT100.push([i,null]);
 		} else {
 			var power = getT100Power(i);
@@ -107,7 +102,7 @@ function calculate() {
 	}
 
 	for ( var i = -11 ; i < 12 ; i += 0.1 ) {
-		if ( Math.abs(i) < 0.5 ) { 
+		if ( Math.abs(i) < 0.2 ) { 
 			dataT200.push([i,null]);
 		} else {
 			var power = getT200Power(i);
@@ -190,33 +185,6 @@ function getT200Power(thrust) {
 	return a+b*x+c*Math.pow(x,2)+d*Math.pow(x,3)+e*Math.pow(x,4);
 }
 
-function clearTable() {
-	var densityTableHTML = '';
-	var buoyancyTableHTML = '';
-	var netBuoyancyTableHTML = '';
-	var weightTableHTML = '';
-
-	for ( i = 0 ; i < densityUnits.length ; i++ ) {
-		densityTableHTML += '<tr><td>- '+densityUnits[i]+'</td></tr>';
-	}
-
-	for ( i = 0 ; i < buoyancyUnits.length ; i++ ) {
-		buoyancyTableHTML += '<tr><td>- '+buoyancyUnits[i]+'</td></tr>';
-	}
-
-	for ( i = 0 ; i < netBuoyancyUnits.length ; i++ ) {
-		netBuoyancyTableHTML += '<tr><td>- '+netBuoyancyUnits[i]+'</td></tr>';
-	}
-
-	for ( i = 0 ; i < weightUnits.length ; i++ ) {
-		weightTableHTML += '<tr><td>- '+weightUnits[i]+'</td></tr>';
-	}	
-
-	document.getElementById("densityTableContent").innerHTML = densityTableHTML;
-	document.getElementById("buoyancyTableContent").innerHTML = buoyancyTableHTML;
-	document.getElementById("netBuoyancyTableContent").innerHTML = netBuoyancyTableHTML;
-	document.getElementById("weightTableContent").innerHTML = weightTableHTML;
-}
 
 function setDensity(density) {
 	document.getElementById("weightInput").value = density;

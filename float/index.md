@@ -60,6 +60,10 @@ All 3D models are provided in zip archives containing the follow file types:
 | 16" x 8" x 1"              | [FLOAT-16X8X1-R1.zip](/float/cad/FLOAT-16X8X1-R1.zip)   |
 | 24" x 8" x 2.5"            | [FLOAT-24X8X0P5-R1.zip](/float/cad/FLOAT-24X8X0P5-R1.zip)|
 
+#Battery Selection
 
+The T100 thruster can be powered off of any 6 – 16V power source, and the T200 off of 6 – 20V. This can be an AC power supply, lead acid battery such as from a car,  nickel metal hydride (NiMH) battery, or a lithium polymer (LiPo) battery. LiPo batteries are particularly light and energy dense while offering high performance with low voltage drop under load, making them the recommended choice for on board ROV power.
+
+LiPo battery cells come in different voltages, in which each cell is nominally 3.7V.  However, when fully charged a LiPo battery cell rests at 4.2V, and this must be taken into account when determining if your electronics will be able to handle your battery.
 
 

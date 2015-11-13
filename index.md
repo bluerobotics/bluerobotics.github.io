@@ -6,6 +6,7 @@ nav:
 - Home: blue-robotics-documentation
 - Product Manuals: product-manuals
 - Tutorials: tutorials
+- Guides: guides
 - How to Contribute: how-to-contribute
 - License: license
 ---
@@ -107,6 +108,16 @@ You can use the menu bar at the top to find the product you are looking for and 
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/tutorials/m100-disassembly/m100-disassem-1.png)">
       <a href="/tutorials/disassembly-assembly/m100-m200-disassembly/">Motor Disassembly/Assembly <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+</div>
+
+#Guides
+
+<div class="row">
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/documentation/battery-1.png)">
+      <a href="/battery/">Battery Selection <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
 </div>
