@@ -179,6 +179,14 @@ V_{ESC} = 0.0004921 V_{raw}
 \end{align*}
 $$
 
+A code example follows:
+
+~~~ cpp
+float voltage() {
+  return voltage_raw*0.0004921;
+}
+~~~
+
 ###Current
 
 The current is measured by the ACS711, a hall-effect sensor IC. The output is 14.706 A/V with a 2.5V offset. The raw measurements is scaled to 16 bits.
@@ -189,9 +197,26 @@ I_{ESC} = 0.001122 (I_{raw}-32767)
 \end{align*}
 $$
 
+A code example follows:
+
+~~~ cpp
+float current() {
+  (return current_raw-32767)*0.001122;
+}
+~~~
+
 ###Temperature
 
-The temperature is measured by a 10K thermistor (NCP18XH103J03RB) and 3.3K resistor. The temperature is calculated with the Steinhart equations. A code example follows:
+The temperature is measured by a 10K thermistor (NCP18XH103J03RB) and 3.3K resistor. The temperature is calculated with the Steinhart-Hart equations. 
+
+$$
+\begin{align*}
+\frac{1}{T}=\frac{1}{T_0}+\frac{1}{B}ln \left (\frac{1}{T}\right )
+\end{align*}
+$$
+
+
+A code example follows:
 
 ~~~ cpp
 // THERMISTOR SPECIFICATIONS
@@ -237,6 +262,15 @@ RPM_{ESC} = 60 RPS_{ESC}
 $$
 
 The value of $$N_{poles}$$ depends on the motor. The T100 has 12 poles and the T200 has 14 poles. The RPM measurement *does not include direction*. You can include direction by adding a negative symbol if the input signal to the ESC is negative.
+
+A code example follows:
+
+~~~cpp
+float rpm() {  
+  _rpm = float(_rpm)/((uint16_t(millis())-_rpmTimer)/1000.0f)*60/float(_poleCount);
+  _rpmTimer = millis();
+}
+~~~
 
 ##Assigning I<sup>2</sup>C Addresses
 
