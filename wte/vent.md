@@ -6,19 +6,20 @@ order: 0
 nav:
 - Introduction: introduction
 - - Important Notes: important-notes
-- Specifications: specifications
+- Specifications: watertight-enclosure-specifications
 - - Specification Table: specification-table
 - - 3D Model: d-models
 - Assembly: assembly
 
 store-links:
 - Enclosure Vent: https://www.bluerobotics.com/store/vent-r1/
-- Watertight Enclosure - 4" Series: https://www.bluerobotics.com/product-category/4-series/
 - Watertight Enclosure - 2" Series: https://www.bluerobotics.com/product-category/2-series/
+- Watertight Enclosure - 3" Series: https://www.bluerobotics.com/product-category/3-series/
+- Watertight Enclosure - 4" Series: https://www.bluerobotics.com/product-category/4-series/
+
 
 manual-links:
-- Watertight Enclosure - 4" Series: /watertight-enclosures/4-series/
-- Watertight Enclosure - 2" Series: /watertight-enclosures/2-series/
+- Watertight Enclosures: /watertight-enclosures/
 ---
 
 #Introduction
@@ -28,10 +29,10 @@ The enclosure vent allows the release of trapped air when using the watertight e
 ##Important Notes
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Always inspect the o-rings before inserting the plug. Any dust, hair, or other particles can cause a leak.
+Always inspect the O-rings before inserting the plug. Any dust, hair, or other particles can cause a leak.
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Use plastic tools, NOT steel or other hard tools, to remove the o-rings from the aluminum sealing flange. Hard tools can create scrapes that will compromise sealing ability.
+Use plastic tools, NOT steel or other hard tools, to remove the O-rings from the aluminum sealing flange. Hard tools can create scrapes that will compromise sealing ability.
 
 <!--<i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
 A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.-->
@@ -76,9 +77,12 @@ All 3D models are provided in zip archives containing the follow file types:
 
 **Steps:**
 
-1. Lubricate the o-rings with a thin layer of silicon grease. Install the small o-rings on the plug and install the large o-ring on the bolt.
+<img src="/assets/images/WTE/vent/vent-1.png" class="img-responsive" style="max-width:500px" />
+1. Lubricate the O-rings with a thin layer of silicon grease. Install the small O-rings on the plug and install the large O-ring on the bolt.
 
+<img src="/assets/images/WTE/vent/vent-2.png" class="img-responsive" style="max-width:500px" />
 2. Using the provided nut, secure the bolt to an appropriate hole in the watertight enclosure.
 
-3. Insert plug and tighten.
+<img src="/assets/images/WTE/vent/vent-3.png" class="img-responsive" style="max-width:500px" />
+3. Insert the plug and tighten.
 
