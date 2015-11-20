@@ -9,6 +9,7 @@ nav:
 - - Specification Table: specification-table
 - - 3D Models: d-models
 - Installation: installation
+- - Video Tutorial: video-tutorial
 - - Step 1 - Stripping the Jacket: step-1-stripping-the-jacket
 - - Step 2 - Cleaning Surfaces: step-2-cleaning-surfaces
 - - Step 3 - Attaching the penetrator: step-3-attaching-the-penetrator
@@ -73,6 +74,11 @@ This tutorial should help make the Cable Penetrator Installation simple!
 * Super Glue
 * [Marine Epoxy](https://www.bluerobotics.com/store/tools/loctite-marine-epoxy/)
 * Isopropyl alcohol for cleaning
+
+##Video Tutorial
+
+<iframe width="700" height="393.75" src="https://www.youtube.com/embed/9KHltdk5Ts0?list=PLZ486nvZoegusCQXQwC-5C-MzKkHBfw0d" frameborder="0" allowfullscreen></iframe>
+<br />
 
 ##Step 1: Stripping the Jacket
 

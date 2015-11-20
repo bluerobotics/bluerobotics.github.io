@@ -271,7 +271,7 @@ You may need to take apart your thruster from time to time - or maybe you just w
 
 #Troubleshooting
 
-**The motor does not start**
+**The motor does not start.**
 
 This is usually an issue with the proper commands being sent to the ESC. Please see the [ESC documentation](/besc/) for instructions on how to operate the ESC properly.
 

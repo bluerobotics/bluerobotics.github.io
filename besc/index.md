@@ -9,6 +9,8 @@ nav:
 - Specifications: specifications
 - - Specification Table: specification-table
 - - 3D Model: d-model
+- Installation: installation
+- - Video Tutorial: video-tutorial
 - Example Code: example-code
 - - Arduino: arduino
 - Advanced: advanced
@@ -80,6 +82,13 @@ You are welcome to purchase the ESCs directly and reprogram them yourself. We of
 | STEP (.step)               | [BESC30-R1.step](cad/BESC30-R1.step)   |
 | IGES (.igs)                | [BESC30-R1.igs](cad/BESC30-R1.igs) |
 | STL (.stl)                 | [BESC30-R1.stl](cad/BESC30-R1.stl) |
+
+#Installation
+
+##Video Tutorial
+
+<iframe width="700" height="393.75" src="https://www.youtube.com/embed/pFAnEkb0Qtg?list=PLZ486nvZoegusCQXQwC-5C-MzKkHBfw0d" frameborder="0" allowfullscreen></iframe>
+<br />
 
 #Example Code
 
