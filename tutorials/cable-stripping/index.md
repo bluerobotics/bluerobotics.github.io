@@ -7,6 +7,7 @@ nav:
 - Introduction: introduction
 - - Safety: safety
 - - Tools You Will Need: tools-you-will-need
+- Video Tutorial: video-tutorial
 - Instructions: instructions
 - - Step 1 - Stripping the Jacket: step-1-stripping-the-jacket
 - - Step 2 - Stripping the Conductors: step-2-stripping-the-conductors
@@ -25,6 +26,11 @@ Blue Robotics' thrusters and BlueESC come with tough urethane jacketed cable for
 * Sharp knife (razor blade or X-Acto knife work well)
 * Protective glove
 * Wire strippers with slot for 18 AWG wire
+
+#Video Tutorial
+
+<iframe width="700" height="393.75" src="https://www.youtube.com/embed/jNYPrN3rj5k" frameborder="0" allowfullscreen></iframe>
+<br />
 
 #Instructions
 

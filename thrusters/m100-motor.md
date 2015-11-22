@@ -14,6 +14,7 @@ nav:
 - - Dimensions: dimensions
 - - 3D Model: d-model
 - Installation: installation
+- - Video Tutorial: video-tutorial
 - - Electrical Connections: electrical-connections
 - - Sealing Connections: sealing-connections
 - Operation: operation
@@ -121,6 +122,11 @@ This performance information is given using the [3D printed M100 propeller](http
 #Installation
 
 The M100 Motor is easy to install in many different applications. It was designed with mounting holes that are identical to those found on many common brushless motors.
+
+##Video Tutorial
+
+<iframe width="700" height="393.75" src="https://www.youtube.com/embed/UCFR6N9lcJ4?list=PLZ486nvZoegusCQXQwC-5C-MzKkHBfw0d" frameborder="0" allowfullscreen></iframe>
+<br />
 
 ##Electrical Connections
 

@@ -15,6 +15,8 @@ nav:
 - - Specification Table: specification-table-4-series
 - - 3D Models: d-models-4-series
 - Assembly: assembly
+- - Video Tutorial: video-tutorial
+- - Steps: steps
 - Assembly (Old R1 Style): assembly-old-r1-style
 - Opening Enclosure: opening-enclosure
 - Making Custom End Caps: making-custom-end-caps
@@ -37,7 +39,7 @@ Blue Robotics offers a series of watertight enclosures for use on ROVs, AUVs, an
 ##Important Notes
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Always inspect the o-rings before operation in water and especially when replacing the end-caps, aluminum flanges, or penetrators. Any dust, hair, or other particles can cause a leak.
+Always inspect the O-rings before operation in water and especially when replacing the end-caps, aluminum flanges, or penetrators. Any dust, hair, or other particles can cause a leak.
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 Use plastic tools, NOT steel or other hard tools, to remove the O-rings from the aluminum sealing flange. Hard tools can create scrapes that will compromise sealing ability.
@@ -178,6 +180,10 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap with 10 x 10mm Holes         | [WTE4-P-END-CAP-10X10MM-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-10X10MM-R1.zip)  
 
 
+
+
+<br />
+
 #Assembly
 
 The assembly process is simple and straightforward - it will take a few minutes!
@@ -188,7 +194,12 @@ The assembly process is simple and straightforward - it will take a few minutes!
 * 2.5mm Hex Driver
 * Isopropyl alcohol
 
-**Steps:**
+##Video Tutorial
+
+<iframe width="700" height="393.75" src="https://www.youtube.com/embed/G6PqEsKjxHM" frameborder="0" allowfullscreen></iframe>
+<br />
+
+##Steps
 
 
 <img src="/assets/images/tutorials/WTE/4-step-2.png" class="img-responsive" style="max-width:600px" />
@@ -212,6 +223,8 @@ The assembly process is slightly different for the first version of the sealing 
 * Silicone sealant
 * Silicone grease
 * 2.5mm Hex Driver
+
+
 
 **Steps:**
 
