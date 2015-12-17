@@ -289,7 +289,7 @@ For all the engineers out there, here's some more info.
 
 ##Test Results
 
-* **Endurance Testing.** The T100 has been tested for over 1300 hours in virtually continuous operation at half throttle, only being halted shortly for internal inspection every few weeks. Additionally, we have tested the T100 Thruster for up to 300 hours continuous operation at full throttle power.
+* **Endurance Testing.** [The T100 has been tested for over 2400 hours](https://youtu.be/HBtxAO1sL7k) in virtually continuous operation at half throttle, only being halted shortly for internal inspection every few weeks. Additionally, we have tested the T100 Thruster for up to 300 hours continuous operation at full throttle power.
 
 * **Sand and Particulate Testing.** The thrusters handle small particulate matter very well. See [this video](https://www.youtube.com/watch?v=0X0EncNR8l8) of testing the thrusters in heavy sand.
 
