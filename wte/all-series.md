@@ -155,7 +155,8 @@ All 3D models are provided in zip archives containing the follow file types:
 | Total Length                        | 13.15 in      | 334 mm        |
 | Radial Seal O-ring (2 used)         | AS568-238, Buna-N             |
 | Face Seal O-ring (1 used)           | AS568-154, Buna-N             |
-| End Cap Screws                      | M3x16 (Stainless Steel 316)   |
+| End Cap Screws (Acrylic Endcaps)    | M3x16 (Stainless Steel 316)   |
+| End Cap Screws (Aluminum & Dome Endcaps)    | M3x12 (Stainless Steel 316)   |
 | Inner Mounting Holes                | M3 threading                  |
 
 ##3D Models (4" Series)
@@ -178,6 +179,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Aluminum End Cap with 10 x 10mm Holes| [WTE4-M-END-CAP-10X10MM-R1.zip](http://www.bluerobotics.com/models/WTE4-M-END-CAP-10X10MM-R1.zip)   
 | End Cap with 5 x 10mm Holes          | [WTE4-P-END-CAP-5X10MM-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-5X10MM-R1.zip)    
 | End Cap with 10 x 10mm Holes         | [WTE4-P-END-CAP-10X10MM-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-10X10MM-R1.zip)  
+| Dome End Cap                         | [WTE4-P-DOME-R1.zip](http://www.bluerobotics.com/models/WTE4-P-DOME-R1.zip)  
 
 
 
