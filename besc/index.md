@@ -10,7 +10,7 @@ nav:
 - - Specification Table: specification-table
 - - 3D Model: d-model
 - Installation: installation
-- - Heating Considerations: heating-considerations
+- - Thermal Considerations: thermal-considerations
 - - Video Tutorial: video-tutorial
 - Example Code: example-code
 - - Arduino: arduino
@@ -86,7 +86,7 @@ You are welcome to purchase the ESCs directly and reprogram them yourself. We of
 
 #Installation
 
-##Heating Considerations
+##Thermal Considerations
 
 Like all ESCs, the Basic ESC can generate a significant amount of heat when operated. It's important to consider this when mounting and operating the ESC to ensure that it is not damaged by overheating. Most of the heat is generated in the MOSFETs (six black chips about 6mm x 6mm each) and the voltage regulator, which is on the same side of the ESC as the MOSFETs. Here are a few helpful tips:
 
