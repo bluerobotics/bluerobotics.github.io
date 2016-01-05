@@ -89,6 +89,8 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | Operating Voltage                                      | 6-16 volts                    |
 | Max Current                                            | 12.5 amps                     |
 | Max Power                                              | 135 watts                     |
+| Phase Resistance                                       | 0.24 +/- 0.01 Ohms            |
+| Phase Inductance (@ 1 kHz)                             | 0.120 +/- 0.008 mH            |
 | -------------------------------------------------------|-------------------------------|
 |                                 **Physical**                                           |
 | ---------------------------------------------------------------------------------------|
