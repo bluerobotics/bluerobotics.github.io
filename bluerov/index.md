@@ -29,7 +29,7 @@ store-links:
 - BlueROV: http://bluerobotics.com/store/rov/bluerov/
 
 manual-links:
-- T100/T200 Thrusters: /thrusters/
+- T200 Thrusters: /thrusters/
 - M100 Motor: /thrusters/motors/
 ---
 
@@ -67,7 +67,7 @@ Quantity      | Part
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
-6             | T100/T200 Thrusters                                          
+6             | T200 Thrusters                                          
 6             | Basic ESC 30A                                           
 24            | M3x10 Button-Head Hex Screws                     
 
