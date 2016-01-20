@@ -21,21 +21,24 @@ store-links:
 manual-links:
 - Bar 30 Pressure Sensor: /bar30
 ---
+
+@Todo:
+
+- Update schematic
+- Add picture of labeled DF13
+
+
 #Picture of Celsius Temperature Sensor
 
 #Introduction
 
-The Celsius Temperature Sensor is a high accuracy, fast time response subsea temperature sensor with I2C interface.
-
-##Safety 
-
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with electricity, especially in water, always practice caution. Always ensure that connections are secure and watertight. Keep your body away from spinning motors and propellers.
+The Celsius Temperature Sensor is a high-accuracy, fast time-response subsea temperature sensor with I2C interface. It is sealed in a high-pressure bulkhead compatible with the Blue Robotics watertight enclosures or any 10mm hole.
 
 ##Quick Start
 
-1. Download [TSYS01 Arduino Library](https://github.com/bluerobotics/TSYS01).
+1. Download [TSYS01 Arduino Library](https://github.com/bluerobotics/BlueRobotics_TSYS01_Library).
 2. Install software such as the [Example Code](#example-code) to your microcontroller.
-3. Connect the DF13 or bare wires to the appropriate microcontroller pins [green-SCL, white-SDA, red-positive(3.3-5.5V), black ground]. That's it!
+3. Connect the DF13 or bare wires to the appropriate microcontroller pins (green: SCL, white: SDA, red: +3.3-5.5V, black: ground). That's it!
 
 #Specifications
 
@@ -58,7 +61,8 @@ For further information please see the [TSYS01 Data Sheet.](http://meas-spec.com
 |      **Electrical**       |
 | ------------- | --------- |
 | **Item** | **Condition** | **Value** |
-| Supply Voltage| -- | -0.3 to 3.6 volts |
+| Supply Voltage| -- | 3.3 to 5.5 volts |
+| I<sup>2</sup>C Logic Voltage (SDA and SCL) | -- | 3.3 volts |
 | Standby Supply Current | at 25&deg;C | 1.4 &mu;A |
 | Peak Current   | -- | 1.4 mA   |
 | ------------- | --------- |
@@ -67,13 +71,13 @@ For further information please see the [TSYS01 Data Sheet.](http://meas-spec.com
 | ------------- | ------------- | ------------- |
 | **Item** | **Condition** | **Value** |
 | Operating Temperature | -- | -40 to +125&deg;C |
-|Storage Temperature | -- | -55 to +150&deg&deg;C                        |
+|Storage Temperature | -- | -55 to +150&deg;C                        |
 |Absolute Accuracy   | From -5 to 50&deg;C | +/- 0.1&deg;C      |
 |                    | From -40 to 125&deg;C |  +/- 0.5&deg;C   |
 |  **Physical**  |
 | Wire Colors | Green - I<sup>2</sup>C Clock (SCL) |
 |             | White - I<sup>2</sup>C Data (SDA)  |
-|             | Red - Positive (2.5-5.5V) |
+|             | Red - Positive (3.3-5.5V) |
 |             | Black - Ground          |
 | ------------|-------------------------|
 | Overall Length | 56.1 mm |
@@ -99,7 +103,7 @@ All 3D models are provided in zip archives containing the follow file types:
 
 ##Step 1: Lubricating the O-ring
 
-Use a small amount of silicone grease on the O-ring for lubrication and place it in the groove of the Bar30 Pressure Sensor. 
+Use a small amount of silicone grease on the O-ring for lubrication and place it in the groove of the Celsius Temperature Sensor. 
 
 ##Step 2: Installation
 
