@@ -4,12 +4,12 @@ title: Bar 30 Pressure Sensor Documentation
 order: 1
 nav:
 - Introduction: introduction
-- - Safety: safety
 - - Quick Start: quick-start
 - Specifications: specifications
 - - Schematic: schematic
 - - 2D Drawing: d-drawing
 - - Specification Table: specification-table
+- - DF-13 Pinout: df-13-pinout
 - - 3D Model: d-model
 - Installation: installation
 - Example Code: example-code
@@ -21,15 +21,12 @@ store-links:
 manual-links:
 - Celsius Temperature Sensor: #
 ---
-#Picture of Bar30 Pressure Sensor
+
+<img src="/bar30/cad/pressure-sensor-4.png" class="img-responsive" style="max-width:900px"  />
 
 #Introduction
 
 The Bar30 is a high resolution, water proof pressure and temperature sensor which comes in a Blue Robotics penetrator which provides a waterproof, high-pressure seal for your enclosure.
-
-##Safety 
-
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with electricity, especially in water, always practice caution. Always ensure that connections are secure and watertight. Keep your body away from spinning motors and propellers.
 
 ##Quick Start
 
@@ -43,9 +40,9 @@ The Bar30 is a high resolution, water proof pressure and temperature sensor whic
 
 The [EagleCAD files](https://github.com/bluerobotics/Bar30-Pressure-Sensor) for the schematic and board are available on our [GitHub page.](https://github.com/bluerobotics)
 
-[<img src="/assets/images/BAR30 Schematic.png" class="img-responsive" style="max-width:300px" />](/assets/images/BAR30 Schematic.png)
+[<img src="/bar30/cad/BAR30-SENSOR-Schematic.png" class="img-responsive" style="max-width:300px" />](/assets/images/BAR30 Schematic.png)
 
-[Bar30 Schematic.png](/assets/images/BAR30 Schematic.png)
+[Bar30 Schematic.png](/bar30/cad/BAR30-SENSOR-Schematic.png)
 
 ##2D Drawing
 
@@ -91,6 +88,16 @@ For further information please see the [MS5837-30BA Data Sheet.](http://meas-spe
 | Thread Size    | M10x1.5 20 mm threaded |
 | Recommended Through Hole Size | 10-11 mm |
 | Wrench Flats | 16 mm |
+|----------------------|
+
+##DF-13 Pinout
+
+| 1 &Delta; |  Red - Positive (3.3-5.5V) |
+| 2 |  Green - I<sup>2</sup>C Clock (SCL) |
+| 3 |  White - I<sup>2</sup>C Data (SDA)  |
+| 4 |  Black - Ground          |
+
+<img src="/bar30/cad/DF-13_Pinout.png" class="img-responsive" style="max-width:900px" />
 
 ##3D Model
 
