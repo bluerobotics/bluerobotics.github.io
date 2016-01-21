@@ -13,11 +13,13 @@ store-links:
 - Basic ESC: http://bluerobotics.com/store/speed-controllers/besc-30-r1/
 ---
 
+
+
 #Comparison
 
 The *Basic ESC* and *BlueESC* are both electronic speed controllers that can be used with the T100 and T200 Thrusters. They are both very similar designs with a few key differences.
 
-<img src="/assets/images/documentation/besc-side.png" class="img-responsive img-center" style="max-width:600px" />
+<img src="/assets/images/documentation/esc-comparison.png" class="img-responsive img-center" style="max-width:600px" />
 
 The *Basic ESC* is a standard hobby ESC that has been reprogrammed with custom firmware to enable both forward *and* reverse rotation, important for a thruster. It is an electronic PCB with power, motor, and signal wires. It must be mounted in a dry location away from the thruster.
 
