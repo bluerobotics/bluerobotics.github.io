@@ -4,12 +4,12 @@ title: Celsius Temperature Sensor Documentation
 order: 1
 nav:
 - Introduction: introduction
-- - Safety: safety
 - - Quick Start: quick-start
 - Specifications: specifications
 - - Schematic: schematic
 - - 2D Drawing: d-drawing
 - - Specification Table: specification-table
+- - DF-13 Pinout: df-13-pinout
 - - 3D Model: d-model
 - Installation: installation
 - Example Code: example-code
@@ -22,13 +22,7 @@ manual-links:
 - Bar 30 Pressure Sensor: /bar30
 ---
 
-@Todo:
-
-- Update schematic
-- Add picture of labeled DF13
-
-
-#Picture of Celsius Temperature Sensor
+<img src="celsius/cad/
 
 #Introduction
 
@@ -84,6 +78,17 @@ For further information please see the [TSYS01 Data Sheet.](http://meas-spec.com
 | Thread Size    | M10x1.5 20 mm threaded |
 | Recommended Through Hole Size | 10-11 mm |
 | Wrench Flats | 16 mm |
+|---------------------------------------------|
+
+
+##DF-13 Pinout
+
+| 1 &Delta; |  Red - Positive (3.3-5.5V) |
+| 2 |  Green - I<sup>2</sup>C Clock (SCL) |
+| 3 |  White - I<sup>2</sup>C Data (SDA)  |
+| 4 |  Black - Ground          |
+
+<img src="/celsius/cad/DF-13_Pinout.png" class="img-responsive" style="max-width:900px" />
 
 ##3D Model
 
