@@ -19,7 +19,7 @@ store-links:
 - Bar30: #
 
 manual-links:
-- Celsius Temperature Sensor: #
+- Celsius Temperature Sensor: /celsius
 ---
 
 <img src="/bar30/cad/pressure-sensor-4.png" class="img-responsive" style="max-width:900px"  />
@@ -56,20 +56,19 @@ For further information please see the [MS5837-30BA Data Sheet.](http://meas-spe
 | ------------- | --------- |
 | **Item** | **Condition** | **Value** |
 | Supply Voltage| -- | 2.5-5.5 volts |
-| Standby Supply Current | at 25&deg;C | 30 &mu;A |
 | Peak Current   | -- | 1.25 mA   |
 | ------------- | --------- |
 |                **Pressure**                  		 |
 | ------------- | ---------------------------------- |
 | **Item** | **Condition** | **Value** |
-| Overpressure | -- | 50 bar |
+| Maximum Mechanical Pressure | -- | 50 bar |
 |Operating Pressure| -- |0-30 bar [up to 1000 ft (300 m) in water]|
-|Absolute Accuracy  (0-40&deg;C) | From 0-6 bar | +/- 50 mbar 			 |
-|  				   | From 0-20 bar | +/- 100 mbar 			 |
-|				   | From 0-30 bar | +/- 200 mbar      	 |
-|Absolute Accuracy (-25-85&deg;C)| From 0-6 bar | +/- 100 mbar 			 |
-|  				   | From 0-20 bar | +/- 200 mbar 			 |
-|				   | From 0-30 bar | +/- 400 mbar      	 |
+|Absolute Accuracy  (0-40&deg;C) | From 0-6 bar | +/- 50 mbar 	(51 cm in freshwater)		 |
+|  				   | From 0-20 bar | +/- 100 mbar (102 cm in freshwater)			 |
+|				   | From 0-30 bar | +/- 200 mbar (204 cm in freshwater)    	 |
+|Absolute Accuracy (-25-85&deg;C)| From 0-6 bar | +/- 100 mbar 	(102 cm in freshwater)		 |
+|  				   | From 0-20 bar | +/- 200 mbar (204 cm in freshwater)			 |
+|				   | From 0-30 bar | +/- 400 mbar (408 cm in freshwater)     	 |
 | ---------------- | ------------------------------- |
 |            **Temperature**            			 |
 | ------------- | ------------- | ------------- |
@@ -140,12 +139,15 @@ You can find the [MS5837 Library](https://github.com/bluerobotics/BlueRobotics_M
 MS5837 sensor;
 
 void setup() {
-  Serial.begin(57600);
+  
+  Serial.begin(9600);
+  
   Serial.println("Starting");
   
   Wire.begin();
 
   sensor.init();
+  
   sensor.setFluidDensity(997); // kg/m^3 (997 freshwater, 1029 for seawater)
 }
 
@@ -153,16 +155,21 @@ void loop() {
 
   sensor.read();
 
-  Serial.print("Pressure: "); Serial.print(sensor.pressure()); Serial.print(" mbar");
-  Serial.print("   "); Serial.print(sensor.pressure(MS5837::Pa)); Serial.println(" Pa");
+  Serial.print("Pressure: "); 
+  Serial.print(sensor.pressure()); 
+  Serial.println(" mbar");
   
-  Serial.print("Temperature: "); Serial.print(sensor.temperature()); Serial.println(" deg C");
+  Serial.print("Temperature: "); 
+  Serial.print(sensor.temperature()); 
+  Serial.println(" deg C");
   
-  Serial.print("Depth: "); Serial.print(sensor.depth()); Serial.println(" m");
+  Serial.print("Depth: "); 
+  Serial.print(sensor.depth()); 
+  Serial.println(" m");
   
-  Serial.print("Altitude: "); Serial.print(sensor.altitude()); Serial.println(" m above mean sea level");
-  
-  Serial.println("---");
+  Serial.print("Altitude: "); 
+  Serial.print(sensor.altitude()); 
+  Serial.println(" m above mean sea level");
 
   delay(1000);
 }

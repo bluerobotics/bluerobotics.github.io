@@ -22,7 +22,7 @@ manual-links:
 - Bar 30 Pressure Sensor: /bar30
 ---
 
-<img src="celsius/cad/
+<img src="/celsius/cad/temp-sensor-4.png" class="img-responsive" style="max-width:900px" />
 
 #Introduction
 
@@ -57,7 +57,6 @@ For further information please see the [TSYS01 Data Sheet.](http://meas-spec.com
 | **Item** | **Condition** | **Value** |
 | Supply Voltage| -- | 3.3 to 5.5 volts |
 | I<sup>2</sup>C Logic Voltage (SDA and SCL) | -- | 3.3 volts |
-| Standby Supply Current | at 25&deg;C | 1.4 &mu;A |
 | Peak Current   | -- | 1.4 mA   |
 | ------------- | --------- |
 
@@ -145,7 +144,9 @@ void loop() {
 
   sensor.read();
  
-  Serial.print("Temperature: "); Serial.print(sensor.temperature()); Serial.println(" deg C");
+  Serial.print("Temperature: ");
+  Serial.print(sensor.temperature()); 
+  Serial.println(" deg C");
    
   Serial.println("---");
 
