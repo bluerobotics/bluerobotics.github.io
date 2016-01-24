@@ -67,9 +67,9 @@ You can use the menu bar at the top to find the product you are looking for and 
   	</div>
   </div>
   <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(/assets/images/documentation/foam-1.png)">
-  		<a href="/float">Subsea Buoyancy Foam <i class="fa fa-chevron-circle-right"></i></a>
-  	</div>
+    <div class="tile" style="background-image:url(/assets/images/documentation/vent-r2-1.png)">
+      <a href="/vent/">Vent <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
   </div>
 </div>
 <div class="row">
@@ -79,8 +79,20 @@ You can use the menu bar at the top to find the product you are looking for and 
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/assets/images/documentation/vent-r2-1.png)">
-      <a href="/vent/">Vent <i class="fa fa-chevron-circle-right"></i></a>
+    <div class="tile" style="background-image:url(/bar30/cad/pressure-sensor-3.png)">
+      <a href="/bar30/"><em>Bar30</em> Pressure Sensor <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/celsius/cad/temp-sensor-6.png)">
+      <a href="/watertight-enclosures/"><em>Celsius</em> Temp Sensor <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/documentation/foam-1.png)">
+      <a href="/float">Subsea Buoyancy Foam <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
 </div>
