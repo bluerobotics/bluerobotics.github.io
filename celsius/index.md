@@ -26,7 +26,7 @@ manual-links:
 
 #Introduction
 
-The Celsius Temperature Sensor is a high-accuracy, fast time-response subsea temperature sensor with I2C interface. It is sealed in a high-pressure bulkhead compatible with the Blue Robotics watertight enclosures or any 10mm hole.
+The Celsius Temperature Sensor is a high-accuracy, fast time-response subsea temperature sensor with I<sup>2</sup>C interface. It is sealed in a high-pressure bulkhead compatible with the Blue Robotics watertight enclosures or any 10mm hole.
 
 ##Quick Start
 
@@ -117,13 +117,13 @@ Install the Celsius Temperature Sensor into an endcap and tighten by hand or wit
 
 ##Arduino
 
-This example uses the [TSYS01 Arduino Library](https://github.com/bluerobotics/TSYS01) with the connected sensor. The example reads the sensor and prints the resulting values to the serial terminal.
+This example uses the [TSYS01 Arduino Library](https://github.com/bluerobotics/BlueRobotics_MS5837_Library) with the connected sensor. The example reads the sensor and prints the resulting values to the serial terminal.
 
 If you've never used Arduino before, we suggest checking out [some tutorials!](https://www.arduino.cc/en/Tutorial/HomePage)
 
-You can find the [TSYS01 Arduino Library](https://github.com/bluerobotics/TSYS01) on our [GitHub page.](https://github.com/bluerobotics)
+You can find the [TSYS01 Arduino Library](https://github.com/bluerobotics/BlueRobotics_MS5837_Library) on our [GitHub page.](https://github.com/bluerobotics)
 
-~~~~~~~~~~ 
+~~~~~~~~~~cpp
 
 #include <Wire.h>
 #include "TSYS01.h"
@@ -131,7 +131,9 @@ You can find the [TSYS01 Arduino Library](https://github.com/bluerobotics/TSYS01
 TSYS01 sensor;
 
 void setup() {
+
   Serial.begin(9600);
+  
   Serial.println("Starting");
   
   Wire.begin();

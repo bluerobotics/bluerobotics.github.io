@@ -32,7 +32,7 @@ The Bar30 is a high resolution, water proof pressure and temperature sensor whic
 
 1. Download [MS5837 Arduino Library](https://github.com/bluerobotics/BlueRobotics_MS5837_Library).
 2. Install software such as the [Example Code](#example-code) to your microcontroller.
-3. Connect the DF13 or bare wires to the appropriate microcontroller pins [green-SCL, white-SDA, red-positive(2.5-5.5V), black ground]. That's it!
+3. Connect the DF13 or bare wires to the appropriate microcontroller pins (green: SCL, white: SDA, red: +3.3-5.5V, black: ground). That's it!
 
 #Specifications
 
