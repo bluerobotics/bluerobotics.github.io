@@ -121,15 +121,15 @@ Install the Celsius Temperature Sensor into an endcap and tighten by hand or wit
 
 ##Arduino
 
-This example uses the [TSYS01 Arduino Library](https://github.com/bluerobotics/TSYS01) with the connected sensor. The example reads the sensor and prints the resulting values to the serial terminal.
+This example uses the [TSYS01 Arduino Library](https://github.com/bluerobotics/BlueRobotics_TSYS01_Library) with the connected sensor. The example reads the sensor and prints the resulting values to the serial terminal.
 
 Please remember to use a logic level converter, such as [this one](https://www.sparkfun.com/products/12009), to convert Arduino 5V levels to 3.3V!
 
 If you've never used Arduino before, we suggest checking out [some tutorials](https://www.arduino.cc/en/Tutorial/HomePage)!
 
-You can find the [TSYS01 Arduino Library](https://github.com/bluerobotics/TSYS01) on our [GitHub page](https://github.com/bluerobotics).
+You can find the [TSYS01 Arduino Library](https://github.com/bluerobotics/BlueRobotics_TSYS01_Library) on our [GitHub page.](https://github.com/bluerobotics)
 
-~~~~~~~~~~ 
+~~~~~~~~~~cpp
 
 #include <Wire.h>
 #include "TSYS01.h"
@@ -137,7 +137,9 @@ You can find the [TSYS01 Arduino Library](https://github.com/bluerobotics/TSYS01
 TSYS01 sensor;
 
 void setup() {
+
   Serial.begin(9600);
+  
   Serial.println("Starting");
   
   Wire.begin();
