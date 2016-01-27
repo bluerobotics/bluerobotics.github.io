@@ -8,7 +8,7 @@ nav:
 - Specifications: specifications
 - - Schematic: schematic
 - - Specification Table: specification-table
-- - DF-13 Pinout: df-13-pinout
+- - DF-13 Pinout: df13-pinout
 - - 2D Drawing: d-drawing
 - - 3D Model: d-model
 - Installation: installation
