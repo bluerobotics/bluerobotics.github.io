@@ -121,7 +121,7 @@ Use a small amount of silicone grease to lubricate the O-ring and place it in th
 
 <img src="/assets/images/tutorials/cable-penetrator/step-five.png" class="img-responsive" style="max-width:600px" />
 
-Install each penetrator into the end cap ighten each penetrator by hand or using a wrench.
+Install each penetrator into the end cap tighten each penetrator by hand or using a wrench.
 
 
 
