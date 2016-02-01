@@ -106,7 +106,7 @@ Coming soon.
 
 ##LED Indicator Lights
 
-The BlueESC includes two indicator lights that show the status of the ESC. 
+The BlueESC includes two indicator lights that show the status of the ESC. The behavior of these LEDs is consistent with the default behavior in the *tgy* firmware. Please see the [README for *tgy* for a detailed description of LED indicator light behavior](https://github.com/sim-/tgy/blob/master/README.md#troubleshooting).
 
 #I<sup>2</sup>C Protocol
 
