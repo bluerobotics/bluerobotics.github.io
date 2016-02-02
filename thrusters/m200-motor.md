@@ -21,7 +21,7 @@ nav:
 - - Clicking Noise: clicking-noise
 - Care and Maintenance: care-and-maintenance
 - - Normal Care: normal-care
-- - Disassembly/Assembly: disassembly--assembly
+- - Disassembly/Assembly: disassemblyassembly
 - Troubleshooting: troubleshooting
 - Details: details
 - - Test Results: test-results
@@ -43,21 +43,21 @@ tutorial-links:
 ---
 <img src="/assets/images/documentation/m200-multi.png" class="img-responsive img-center" style="max-width:600px" />
 
-#Introduction
+# Introduction
 
 The M200 Motor is a brushless electric motor for use underwater. It is pressure resistant and ruggedized against harsh ocean conditions. Many of the motor's components are used in the [T200 Thruster](/thrusters/t200).
 
-##Safety
+## Safety
 
 Always practice caution when you're working with electricity in water and with the spinning blades of the propeller. Keep body parts away from the motor to avoid injury.
 
-##Quick Start
+## Quick Start
 
 1. Solder wires from ESC to pads on motor.
 2. Waterproof solder connection with epoxy or other potting compound. We recommend [Loctite Marine Epoxy](https://www.bluerobotics.com/store/tools/loctite-marine-epoxy/) or MG Chemicals 4229.
 3. Connect the wires to an ESC, send a signal, and the motor will start spinning. That's it.
 
-##Important Notes
+## Important Notes
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 Do not operate the motor for extended periods out of water. The bearings are lubricated by the water and vibration and noise will be greater when dry.
@@ -65,9 +65,9 @@ Do not operate the motor for extended periods out of water. The bearings are lub
 <i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
 A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.
 
-#M200 Motor Specifications
+# M200 Motor Specifications
 
-##Specification Table
+## Specification Table
 
 | ----------------------- | ----------------------------- |
 |                   **Performance**                       |
@@ -89,7 +89,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | Base Mounting Hole Spacing (diagonal) | 24 mm      | 0.94 in       |
 | Top Mounting Hole Spacing  | 19 mm      | 0.75 in       |  
 
-##Performance Charts
+## Performance Charts
 
 <!--This performance information is given using the [3D printed M100 propeller](https://www.bluerobotics.com/store/parts/m100-p-propeller-rev-r1/).
 
@@ -105,11 +105,11 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 
 -->
 
-##Dimensions
+## Dimensions
 
 <!--<img src="/assets/images/m100-three-view-1.png" class="img-responsive" style="max-width:800px" />-->
 
-##3D Model
+## 3D Model
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
@@ -119,37 +119,37 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | STL (.stl)                 | [M200-MOTOR-R1.STL](/thrusters/cad/M200-MOTOR-R1.STL) |
 | All Formats in a Zip File (.zip)   | [M200-MOTOR-R1.zip](/thrusters/cad/M200-MOTOR-R1.zip) |
 
-#Installation
+# Installation
 
 The M200 Motor is easy to install in many different applications. It was designed with mounting holes that are identical to those found on many common brushless motors.
 
-##Video Tutorial
+## Video Tutorial
 
 <iframe width="700" height="393.75" src="https://www.youtube.com/embed/UCFR6N9lcJ4?list=PLZ486nvZoegusCQXQwC-5C-MzKkHBfw0d" frameborder="0" allowfullscreen></iframe>
 <br />
 
-##Electrical Connections
+## Electrical Connections
 
-###Connecting to an External ESC
+### Connecting to an External ESC
 
 The motor has a solder pads to connect to three wires. These three pads must be connected to the three motor wires on the electronic speed controller (ESC). The order does not matter, but if the motor direction is the reverse of what is desired, switch two of the wires. 
 
 The three solder pads are always connected to the same motor phases, so connecting in a consistent fashion will result in all motors rotating in the same direction.
 
-###Connecting the BlueESC
+### Connecting the BlueESC
 
 Normally the BlueESC sold pre-installed on the T100 and T200 Thrusters, however it can be purchased separately for use with the M100 and other motors. Connecting the BlueESC is very similar to connecting the basic ESC. 
 
 Solder the three wires from the BlueESC to the pads on the M200. Check out the [BlueESC Manual](/bluesc/) for information on cable connections and operation.
 
-##Sealing Connections
+## Sealing Connections
 
 We recommend using the following compounds to seal the soldered wire connections on the M200 Motor.
 
 * **Loctite Marine Epoxy** works well at great depths and is very thick so that it can be applied in one coat.
 * **MG Chemicals 4229** is a rubberized coating that can be used at shallow depths (less than 100ft) and is removeable if required.
 
-#Operation
+# Operation
 
 The motor requires a brushless electronic speed controller (ESC). If you are using the BlueRobotics BasicESC or BlueESC, please see the appropriate product page for instructions.
 
@@ -167,15 +167,15 @@ The motor requires a brushless electronic speed controller (ESC). If you are usi
 </div>
 
 
-##Clicking Noise
+## Clicking Noise
 
 If you hear a clicking noise during operation, especially when operating in air, do not be alarmed. It's normal.
 
 The motor uses solid plastic bushings and due to the tolerances of the bushings and motors shafts, the shaft can move slightly in the bearing. The noise is drastically reduced or eliminated when operated in water. The water acts as a lubricant for the bearings and smooths operation.
 
-#Care and Maintenance
+# Care and Maintenance
 
-##Normal Care
+## Normal Care
 
 During normal use:
 
@@ -187,7 +187,7 @@ If operated for extended periods in the water:
 
 * Occasionally clean biological fouling and mineral deposits from the motor or performance may be impacted.
 
-##Disassembly/Assembly
+## Disassembly/Assembly
 
 Occasionally it may be necessary to disassemble the motor. Here is a quick guide on how to do so!
 
@@ -200,7 +200,7 @@ Occasionally it may be necessary to disassemble the motor. Here is a quick guide
 </div>
 
 
-#Troubleshooting
+# Troubleshooting
 
 **The motor does not start**
 
@@ -214,15 +214,15 @@ This can be caused by a disconnected motor wire or a short between motor wires.C
 
 This can be caused by something jamming the propeller or by major internal damaged caused by overheating, short circuits, or heavily worn bearings. Please disassemble the motor and inspect for damage or blockage.
 
-#Details
+# Details
 
 For all the engineers out there, here's some more info.
 
-##Test Results
+## Test Results
 
 Check out the [test results section for the T200 Thruster](/thrusters/#test-results), which shares most of the same components as the M200.
 
-##Quality Control
+## Quality Control
 
 We perform the following tests on every motor before they are shipped.
 
