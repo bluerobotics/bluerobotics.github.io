@@ -24,11 +24,11 @@ manual-links:
 
 <img src="/bar30/cad/pressure-sensor-4.png" class="img-responsive" style="max-width:900px"  />
 
-#Introduction
+# Introduction
 
 The <em>Bar30</em> is a high resolution, water proof pressure and temperature sensor which comes in a Blue Robotics penetrator which provides a waterproof, high-pressure seal for your enclosure.
 
-##Quick Start
+## Quick Start
 
 1. Download [MS5837 Arduino Library](https://github.com/bluerobotics/BlueRobotics_MS5837_Library).
 2. Install software such as the [Example Code](#example-code) to your microcontroller.
@@ -38,9 +38,9 @@ The <em>Bar30</em> is a high resolution, water proof pressure and temperature se
   - Red: +2.5-5.5V
   - Black: Ground
 
-#Specifications
+# Specifications
 
-##Schematic
+## Schematic
 
 The [EagleCAD files](https://github.com/bluerobotics/Bar30-Pressure-Sensor) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
 
@@ -48,7 +48,7 @@ The [EagleCAD files](https://github.com/bluerobotics/Bar30-Pressure-Sensor) for 
 
 [Bar30 Schematic.png](/bar30/cad/BAR30-SENSOR-Schematic.png)
 
-##Specification Table
+## Specification Table
 
 For further information please see the [MS5837-30BA Data Sheet.](http://meas-spec.com/downloads/MS5837-30BA.pdf)
 
@@ -105,7 +105,7 @@ For further information please see the [MS5837-30BA Data Sheet.](http://meas-spe
 
 <img src="/assets/images/BAR30-2view.png" class="img-responsive" style="max-width:900px" />
 
-##3D Model
+## 3D Model
 
 All 3D models are provided in zip archives containing the follow file types:
 
@@ -119,19 +119,19 @@ All 3D models are provided in zip archives containing the follow file types:
 | Bar30 Pressure Sensor      | [BAR30-PRESSURE-SENSOR-R1.zip](cad/BAR30-PRESSURE-SENSOR-R1.zip) |
 | Bar30 Penetrator Nut		 | [PENETRATOR-M-NUT-10-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-NUT-10-A-R2.zip)|																								|
 
-#Installation
+# Installation
 
-##Step 1: Lubricating the O-ring
+## Step 1: Lubricating the O-ring
 
 Use a small amount of silicone grease on the O-ring for lubrication and place it in the groove of the Bar30 Pressure Sensor. 
 
-##Step 2: Installation
+## Step 2: Installation
 
 Install the Bar30 Pressure Sensor into an endcap and tighten by hand or with a wrench.
 
-#Example Code
+# Example Code
 
-##Arduino
+## Arduino
 
 This example uses the [BlueRobotics MS5837 Library](https://github.com/bluerobotics/BlueRobotics_MS5837_Library) with the connected sensor. The example reads the sensor and prints the resulting values to the serial terminal.
 

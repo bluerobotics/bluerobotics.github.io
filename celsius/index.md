@@ -24,11 +24,11 @@ manual-links:
 
 <img src="/celsius/cad/temp-sensor-4.png" class="img-responsive" style="max-width:900px" />
 
-#Introduction
+# Introduction
 
 The Celsius Temperature Sensor is a high-accuracy, fast-response subsea temperature sensor with I<sup>2</sup>C interface. It is sealed in a high-pressure bulkhead compatible with the Blue Robotics watertight enclosures or any 10mm hole.
 
-##Quick Start
+## Quick Start
 
 1. Download [TSYS01 Arduino Library](https://github.com/bluerobotics/BlueRobotics_TSYS01_Library).
 2. Install software such as the [Example Code](#example-code) to your microcontroller.
@@ -38,9 +38,9 @@ The Celsius Temperature Sensor is a high-accuracy, fast-response subsea temperat
   - Red: +2.5-5.5V
   - Black: Ground
 
-#Specifications
+# Specifications
 
-##Schematic
+## Schematic
 
 The [EagleCAD files](https://github.com/bluerobotics/Celsius-Temperature-Sensor) for the schematic and board are available on our [GitHub page.](https://github.com/bluerobotics)
 
@@ -48,11 +48,11 @@ The [EagleCAD files](https://github.com/bluerobotics/Celsius-Temperature-Sensor)
 
 [Celsius-Temperature-Sensor.png](/celsius/cad/Celsius-Temperature-Sensor.png)
 
-##2D Drawing
+## 2D Drawing
 
 <img src="/celsius/cad/CELSIUS-TEMPERATURE-SENSOR-ASSEMBLY-X1.png" class="img-responsive" style="max-width:900px" />
 
-##Specification Table
+## Specification Table
 
 For further information please see the [TSYS01 Data Sheet](http://meas-spec.com/downloads/TSYS01_Digital_Temperature_Sensor.pdf).
 
@@ -84,7 +84,7 @@ For further information please see the [TSYS01 Data Sheet](http://meas-spec.com/
 |---------------------------------------------|
 
 
-##DF-13 Pinout
+## DF-13 Pinout
 
 | 1 &Delta; |  Red - Positive (3.3-5.5V) |
 | 2 |  Green - I<sup>2</sup>C Clock (SCL) |
@@ -93,7 +93,7 @@ For further information please see the [TSYS01 Data Sheet](http://meas-spec.com/
 
 <img src="/celsius/cad/DF-13_Pinout.png" class="img-responsive" style="max-width:900px" />
 
-##3D Model
+## 3D Model
 
 All 3D models are provided in zip archives containing the follow file types:
 
@@ -107,9 +107,9 @@ All 3D models are provided in zip archives containing the follow file types:
 | Celsius Temperature Sensor    | [CELSIUS-TEMPERATURE-SENSOR-ASSEMBLY-X1](cad/CELSIUS-TEMPERATURE-SENSOR-ASSEMBLY-X1.zip) |
 | Celsius Penetrator Nut		 | [PENETRATOR-M-NUT-10-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-NUT-10-A-R2.zip)|																								|
 
-#Installation
+# Installation
 
-##Step 1: Lubricating the O-ring
+## Step 1: Lubricating the O-ring
 
 Use a small amount of silicone grease on the O-ring for lubrication and place it in the groove of the Celsius Temperature Sensor. 
 
@@ -117,9 +117,9 @@ Use a small amount of silicone grease on the O-ring for lubrication and place it
 
 Install the Celsius Temperature Sensor into an endcap and tighten by hand or with a wrench.
 
-#Example Code
+# Example Code
 
-##Arduino
+## Arduino
 
 This example uses the [TSYS01 Arduino Library](https://github.com/bluerobotics/BlueRobotics_TSYS01_Library) with the connected sensor. The example reads the sensor and prints the resulting values to the serial terminal.
 

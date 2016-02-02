@@ -22,11 +22,11 @@ manual-links:
 - Watertight Enclosures: /watertight-enclosures/
 ---
 
-#Introduction
+# Introduction
 
 The enclosure vent allows the release of trapped air when using the watertight enclosures. Once sealed, it provides a reliable high-pressure seal against water. 
 
-##Important Notes
+## Important Notes
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 Always inspect the O-rings before inserting the plug. Any dust, hair, or other particles can cause a leak.
@@ -37,9 +37,9 @@ Use plastic tools, NOT steel or other hard tools, to remove the O-rings from the
 <!--<i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
 A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.-->
 
-#Watertight Enclosure Specifications
+# Watertight Enclosure Specifications
 
-##Specification Table
+## Specification Table
 
 | ----------------------------------- | ----------------------------- |
 |                          **Enclosure Vent**                         |
@@ -52,7 +52,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | Plug O-ring (2 used)                | 2mm Wide, 6mm ID, Buna-N      |
 | Bolt O-ring (1 used)                | AS568-013, Buna-N             |
 
-##3D Models
+## 3D Models
 
 All 3D models are provided in zip archives containing the follow file types:
 
@@ -69,7 +69,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Vent Nut           			       | [PENETRATOR-M-NUT-10-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-NUT-10-A-R2.zip)         |
 
 
-#Assembly
+# Assembly
 
 **Tools Needed:**
 

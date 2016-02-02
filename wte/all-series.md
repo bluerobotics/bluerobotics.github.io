@@ -32,11 +32,11 @@ manual-links:
 tutorial-links:
 ---
 
-#Introduction
+# Introduction
 
 Blue Robotics offers a series of watertight enclosures for use on ROVs, AUVs, and other marine vehicles. A modular design consisting of a tube, sealing flanges, and various end caps allows lots of flexibility and modification. The enclosures are made of high-quality, precision machined parts and are simple to assemble.
 
-##Important Notes
+## Important Notes
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 Always inspect the O-rings before operation in water and especially when replacing the end-caps, aluminum flanges, or penetrators. Any dust, hair, or other particles can cause a leak.
@@ -47,11 +47,11 @@ Use plastic tools, NOT steel or other hard tools, to remove the O-rings from the
 <!--<i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
 A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.-->  
 
-#Specifications: (2" Series)
+# Specifications: (2" Series)
 
 <img src="/assets/images/documentation/2-series-side.png" class="img-responsive img-center" style="max-width:600px" /> 
 
-##Specification Table (2" Series)
+## Specification Table (2" Series)
 
 | ----------------------------------- | ----------------------------- |
 |                          **2" Series Enclosure**                    |
@@ -74,7 +74,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | End Cap Screws                      | M2x10 (Stainless Steel 316)   |
 | Inner Mounting Holes                | M3 threading                  |
 
-##3D Models (2" Series)
+## 3D Models (2" Series)
 
 All 3D models are provided in zip archives containing the follow file types:
 
@@ -93,11 +93,11 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap with 2 x 10mm Holes          | [WTE2-P-END-CAP-2X10MM-R1.zip](http://www.bluerobotics.com/models/WTE2-P-END-CAP-2X10MM-R1.zip)         |
 
 
-#Specifications: 3" Series
+# Specifications: 3" Series
 
 <img src="/assets/images/documentation/3-series-side.png" class="img-responsive img-center" style="max-width:600px" />
 
-##Specification Table (3" Series)
+## Specification Table (3" Series)
 
 | ----------------------------------- | ----------------------------- |
 |                          **3" Series Enclosure**                    |
@@ -117,7 +117,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap Screws                      | M3x12 (Stainless Steel 316)   |
 | Inner Mounting Holes                | M3 threading                  |
 
-##3D Models (3" Series)
+## 3D Models (3" Series)
 
 All 3D models are provided in zip archives containing the follow file types:
 
@@ -136,11 +136,11 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap with 4 x 10mm Holes          | [WTE3-P-END-CAP-4X10MM-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-4X10MM-R1.zip)
 | End Cap with 7 x 10mm Holes          | [WTE3-P-END-CAP-7X10MM-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-7X10MM-R1.zip)
 
-#Specifications: 4" Series
+# Specifications: 4" Series
 
 <img src="/assets/images/documentation/4-series-side.png" class="img-responsive img-center" style="max-width:600px" />
 
-##Specification Table (4" Series)
+## Specification Table (4" Series)
 
 | ----------------------------------- | ----------------------------- |
 |                          **4" Series Enclosure**                    |
@@ -159,7 +159,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap Screws (Aluminum & Dome Endcaps)    | M3x12 (Stainless Steel 316)   |
 | Inner Mounting Holes                | M3 threading                  |
 
-##3D Models (4" Series)
+## 3D Models (4" Series)
 
 All 3D models are provided in zip archives containing the follow file types:
 
@@ -186,7 +186,7 @@ All 3D models are provided in zip archives containing the follow file types:
 
 <br />
 
-#Assembly
+# Assembly
 
 The assembly process is simple and straightforward - it will take a few minutes!
 
@@ -196,12 +196,12 @@ The assembly process is simple and straightforward - it will take a few minutes!
 * 2.5mm Hex Driver
 * Isopropyl alcohol
 
-##Video Tutorial
+## Video Tutorial
 
 <iframe width="700" height="393.75" src="https://www.youtube.com/embed/G6PqEsKjxHM" frameborder="0" allowfullscreen></iframe>
 <br />
 
-##Steps
+## Steps
 
 
 <img src="/assets/images/tutorials/WTE/4-step-2.png" class="img-responsive" style="max-width:600px" />
@@ -216,7 +216,7 @@ The assembly process is simple and straightforward - it will take a few minutes!
 <img src="/assets/images/tutorials/WTE/step-5.png" class="img-responsive" style="max-width:600px" />
 4. Install the flanges onto the tube and replace the vent cap to seal.
 
-#Assembly (Old R1 Style)
+# Assembly (Old R1 Style)
 
 The assembly process is slightly different for the first version of the sealing flange, included with BlueROV kits and to beta testers.
 
@@ -245,7 +245,7 @@ NOTE: 2" Series Flange only has 1 radial O-ring.
 <img src="/assets/images/tutorials/WTE/step-5.png" class="img-responsive" style="max-width:600px" />
 5. Install the flanges onto the tube and replace the vent cap to seal.
 
-#Opening Enclosure 
+# Opening Enclosure 
 
 Opening the enclosure is straightforward.
 
@@ -260,7 +260,7 @@ Opening the enclosure is straightforward.
 
 
 
-#Making Custom End Caps
+# Making Custom End Caps
 
 One of the cool things about the watertight enclosure design is that it's compatible with all sort of end cap sizes and shapes. We've got a few different ones available but we encourage you to design your own to perfectly suit your application.
 

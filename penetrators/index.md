@@ -22,13 +22,13 @@ nav:
 store-links:
 - Cable Penetrators: https://www.bluerobotics.com/product-category/parts/connectors/
 ---
-#Introduction
+# Introduction
 
 Our cable penetrators make waterproof, high-pressure seals to pass the thruster cables into a water-tight enclosure. Each set includes a bolt, nut, and O-ring. We offer cable penetrators with a hole for the thruster cable and also with no hole. 
 
-#Specifications 
+# Specifications 
 
-##Specification Table
+## Specification Table
 
 |-----------------------------------|--------------------------------|
 |                                   |          Parameter             |
@@ -40,11 +40,11 @@ Our cable penetrators make waterproof, high-pressure seals to pass the thruster 
 | Wrench Flats                      | 5/8 in       | 16 mm           |
 | O-ring 														| NBR70 AS568-013                |
 
-##Assembled Cutaway View
+## Assembled Cutaway View
 
 <img src="/assets/images/pottedrender.png" class="img-responsive" style="max-width:600px" />
 
-##3D Models
+## 3D Models
 
 All 3D models are provided in zip archives containing the follow file types:
 
@@ -61,7 +61,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Cable Penetrator Nut                 | [PENETRATOR-M-NUT-10-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-NUT-10-A-R2.zip)
 
 
-#Installation
+# Installation
 
 This tutorial should help make the Cable Penetrator Installation simple!
 
@@ -75,20 +75,20 @@ This tutorial should help make the Cable Penetrator Installation simple!
 * [Marine Epoxy](https://www.bluerobotics.com/store/tools/loctite-marine-epoxy/)
 * Isopropyl alcohol for cleaning
 
-##Video Tutorial
+## Video Tutorial
 
 <iframe width="700" height="393.75" src="https://www.youtube.com/embed/9KHltdk5Ts0?list=PLZ486nvZoegusCQXQwC-5C-MzKkHBfw0d" frameborder="0" allowfullscreen></iframe>
 <br />
 
-##Step 1: Stripping the Jacket
+## Step 1: Stripping the Jacket
 
 To strip the wire jacket, please follow the [Cable Jacket Stripping Tutorial](/tutorials/cable-stripping/).
 
-##Step 2: Cleaning Surfaces
+## Step 2: Cleaning Surfaces
 
 Start by cleaning all surfaces that will be in contact with epoxy with isopropyl alcohol. This will ensure a good bond. Clean the inside of the penetrator and the end of the cable. Let it dry for a few minutes before continuing.
 
-##Step 3: Attaching the Penetrator
+## Step 3: Attaching the Penetrator
 
 <img src="/assets/images/tutorials/cable-penetrator/step-1.png" class="img-responsive" style="max-width:600px" />
 Twist the conductors so they will slide through the penetrator.
@@ -99,7 +99,7 @@ Apply a small amount of super glue to the edge of the cable jacket. Optionally, 
 <img src="/assets/images/tutorials/cable-penetrator/step-3.png" class="img-responsive" style="max-width:600px" />
 Insert the cable into the penetrator, allowing the super glue to set.  
 
-##Step 4: Sealing the Penetrator
+## Step 4: Sealing the Penetrator
 
 <img src="/assets/images/tutorials/cable-penetrator/step-4.png" class="img-responsive" style="max-width:600px" />
 Mix the epoxy and fill the syringe. 
@@ -111,13 +111,13 @@ Fill the penetrator hole with the epoxy. Move the cable from side to side within
 <img src="/assets/images/tutorials/cable-penetrator/step-7.png" class="img-responsive" style="max-width:600px" />
 After the epoxy dries, apply the same method to the other side of the penetrator. 
 
-##Step 5: Lubricating the O-ring
+## Step 5: Lubricating the O-ring
 
 <img src="/assets/images/tutorials/cable-penetrator/step-six.png" class="img-responsive" style="max-width:600px" />
 
 Use a small amount of silicone grease to lubricate the O-ring and place it in the groove of the penetrator. 
 
-##Step 6: Installation
+## Step 6: Installation
 
 <img src="/assets/images/tutorials/cable-penetrator/step-five.png" class="img-responsive" style="max-width:600px" />
 
@@ -126,7 +126,7 @@ Install each penetrator into the end cap tighten each penetrator by hand or usin
 
 
 
-#Notes
+# Notes
 
 * If using a cable with smaller diameter, you can add layers of heat shrink tubing to increase diameter for a snug fit in the cable penetrator.
 
