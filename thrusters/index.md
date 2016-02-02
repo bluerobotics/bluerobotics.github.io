@@ -22,7 +22,7 @@ nav:
 - - Clicking Noise: clicking-noise
 - Care and Maintenance: care-and-maintenance
 - - Normal Care: normal-care
-- - Disassembly/Assembly: disassembly--assembly
+- - Disassembly/Assembly: disassemblyassembly
 - Troubleshooting: troubleshooting
 - Details: details
 - - Test Results: test-results
