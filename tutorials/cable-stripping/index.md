@@ -6,7 +6,7 @@ order: 1
 nav:
 - Introduction: introduction
 - - Safety: safety
-- - Tools You Will Need: tools-you-need
+- - Tools You Need: tools-you-need
 - Video Tutorial: video-tutorial
 - Instructions: instructions
 - - Step 1 - Stripping the Jacket: step-1-stripping-the-jacket
