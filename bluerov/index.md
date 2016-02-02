@@ -35,17 +35,17 @@ manual-links:
 
 <img src="/assets/images/tutorials/bluerov-manual/michal-rov-banner.png" class="img-responsive" style="max-width:900px" />
 
-#Introduction
+# Introduction
 
 The **BlueROV** is an unassembled ROV kit with frame, watertight enclosure, thrusters, and speed controllers. Hardware/software experience required. It uses six thrusters to provide six-degree-of-freedom control allowing you to point the ROV in any orientation to film anything, grab anything with a simple robot arm, and have a lot of fun! 
 
-##Safety 
+## Safety 
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with electricity, especially in water, always practice caution. Always ensure that connections are secure and watertight. Keep your body away from spinning motors and propellers.
 
-#What's Included
+# What's Included
 
-##Frame
+## Frame
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
@@ -63,7 +63,7 @@ Quantity      | Part
 1             | Double Sided Velco Strap                             
 1             | Rubber Edge Strip    
 
-##Thrusters                                                         
+## Thrusters                                                         
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
@@ -71,7 +71,7 @@ Quantity      | Part
 6             | Basic ESC 30A                                           
 24            | M3x10 Button-Head Hex Screws                     
 
-##Watertight Enclosure
+## Watertight Enclosure
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
@@ -82,7 +82,7 @@ Quantity      | Part
 4             | O-rings for Flange                                      
 12            | M3x16 Socket-Head Hex Screws                            
 
-##Enclosure Vent
+## Enclosure Vent
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
@@ -92,7 +92,7 @@ Quantity      | Part
 2             | O-rings for Vent Plug                                   
 1             | O-ring for Vent Bolt                                    
 
-##Cable Penetrators
+## Cable Penetrators
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
@@ -101,7 +101,7 @@ Quantity      | Part
 10            | Cable Penetrator Nut                                    
 10            | O-rings for Cable Penetrators                           
 
-##Electronics Tray
+## Electronics Tray
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
@@ -120,16 +120,16 @@ Quantity      | Part
 1             | BlueESC Signal Cable, 1m (*If BlueESC included*)    
 
 
-##Miscellaneous                                                      
+## Miscellaneous                                                      
 
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
 1             | Silicone grease tube                                     
 
-#Specifications
+# Specifications
 
-##Specification Table
+## Specification Table
 
 The following specifications are given for the BlueROV with T100 Thrusters and Basic ESCs at 12 volts.
 
@@ -156,11 +156,11 @@ The following specifications are given for the BlueROV with T100 Thrusters and B
 | Operating Voltage                      | 12-16 volts                   |
 | -------------------------------------- | ----------------------------- |
 
-##Recommended Electronics and Software
+## Recommended Electronics and Software
 
 We recommend the open-source **bluerov-ros-pkg** software. For recommended electronics, please see the [bluerov-ros-pkg documentation](https://github.com/bluerobotics/bluerov-ros-pkg/blob/master/docs/index.md).
 
-##3D Model
+## 3D Model
 
 These are BIG files since the model is fairly complex. If you just want to check out a 3D view of the BlueROV, we recommend [checking out the files on GrabCAD](https://grabcad.com/library/bluerobotics-bluerov-r1-1-1).
 
@@ -171,9 +171,9 @@ These are BIG files since the model is fairly complex. If you just want to check
 | IGES (.igs)                | [BROV-R1.IGS](http://www.bluerobotics.com/models/bluerov-r1/BROV-R1.IGS) |
 | STL (.stl)                 | [BROV-R1.STL](http://www.bluerobotics.com/models/bluerov-r1/BROV-R1.STL) |
 
-#Assembly
+# Assembly
 
-##Frame Assembly
+## Frame Assembly
 
 The frame is the structure of the ROV and includes several laser-cut plastic pieces as well as metal hardware.
 
@@ -235,13 +235,13 @@ The frame is the structure of the ROV and includes several laser-cut plastic pie
 
 12. That's it! The frame is complete. 
 
-##Watertight Enclosure Assembly
+## Watertight Enclosure Assembly
 
 Please see the [Watertight Enclosure Assembly Tutorial](/watertight-enclosures/4-series/#assembly) for detailed instructions on how to assemble the Watertight Enclosure.
 <img src="/assets/images/tutorials/bluerov-manual/BR-3.png" class="img-responsive" style="max-width:600px" />
 The above shows the suggested penetrator configuration for the Blue ROV, with the vent plug placed in the upper right hole. This configuration will enable easy access to the vent plug, and clean cable routing for all six thrusters.
 
-##Thruster Preparation
+## Thruster Preparation
 
 1. First, we'll change the propellers on two thrusters so that we have counter-rotating pairs. Follow the instructions in the [Propeller Changing Tutorial](/tutorials/changing-the-propeller) to do so. These two thrusters will be the right horizontal and right vertical thrusters.
 <img src="/assets/images/tutorials/bluerov-manual/BR-11.png" class="img-responsive" style="max-width:600px" /> 
@@ -258,7 +258,7 @@ The above shows the suggested penetrator configuration for the Blue ROV, with th
 
 4. When the cables have been cut to length, follow the [Cable Stripping Tutorial](/tutorials/cable-stripping/) to remove 10-12cm (4-5")of cable jacket from each cable. Stip a small length of the wires at the end to allow connectors to be soldered on.  
 
-##Electronics Tray Assembly
+## Electronics Tray Assembly
 
 The BlueROV comes with an electronics tray designed to fit the ESCs, a Raspberry Pi 1/2 computer, and an 3DR APM 2.6 autopilot. It also has a power distribution terminal block and straps to hold a battery.
 
@@ -297,7 +297,7 @@ The BlueROV comes with an electronics tray designed to fit the ESCs, a Raspberry
 
 10. The provided double sided velcro strap is used to secure a battery (not included). We recommend using a 4s (14.8v) lithium polymer battery, either from a local hobby shop or a retailer such as [Hobby King](http://www.hobbyking.com/hobbyking/store/index.asp). You can also use a 3s (11.1v) battery, and the T200 can be safely run with up to a 5s (18.5v) battery.
 
-##Cable Potting
+## Cable Potting
 
 Please see the [Cable Penetrator Tutorial](/tutorials/cable-penetrator/) on wire potting instructions. To make the Blue ROV wire potting as easy as possible, follow these steps.
 <img src="/assets/images/tutorials/bluerov-manual/BR-4.png" class="img-responsive" style="max-width:600px" />

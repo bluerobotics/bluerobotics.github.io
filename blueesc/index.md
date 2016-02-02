@@ -25,15 +25,15 @@ nav:
 - - Firmware Update and Customization: firmware-update-and-customization
 ---
 
-#Introduction
+# Introduction
 
 The BlueESC is an electronic speed controller for the T100 and T200 Thrusters. It's custom designed to mount directly to the thrusters and it is waterproof, water-cooled, and pressure-resistant.
 
-##Safety 
+## Safety 
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with electricity, especially in water, always practice caution. Always ensure that connections are secure and watertight. Keep your body away from spinning motors and propellers.
 
-##Quick Start
+## Quick Start
 
 The BlueESC comes preinstalled on the T100 or T200 Thrusters, and you don't have to do much to get started. All you need is a power source like a 12V battery or power supply and a signal source, like a servo tester, RC radio receiver, or a microcontroller.
 
@@ -42,13 +42,13 @@ The BlueESC comes preinstalled on the T100 or T200 Thrusters, and you don't have
 3. Provide a "stopped" signal at 1500 &mu;s for a few seconds to allow the ESC to initialize. It will beep and the lights will flash briefly.
 4. Once initialized, it's ready to run!
 
-#Specifications
+# Specifications
 
-##Diagram
+## Diagram
 
 <img src="/assets/images/documentation/blue-esc-labels.png" class="img-responsive" style="max-width:800px" />
 
-##Specification Table
+## Specification Table
 
 |                       **Electrical**                        |
 | --------------------------- | ------------- | ------------- |
@@ -88,7 +88,7 @@ The BlueESC comes preinstalled on the T100 or T200 Thrusters, and you don't have
 | --------------------------- | ------------- | ------------- |
 | Maximum Depth               | To be determined; Designed for 500m+|
 
-##3D Model
+## 3D Model
 
 Coming soon.
 
@@ -102,41 +102,41 @@ Coming soon.
 | All in a zip file (.zip)   | [BLUESC-R1.zip](#) |
 -->
 
-#Operation
+# Operation
 
-##LED Indicator Lights
+## LED Indicator Lights
 
 The BlueESC includes two indicator lights that show the status of the ESC. The behavior of these LEDs is consistent with the default behavior in the *tgy* firmware. Please see the [README for *tgy* for a detailed description of LED indicator light behavior](https://github.com/sim-/tgy/blob/master/README.md#troubleshooting).
 
-#I<sup>2</sup>C Protocol
+# I<sup>2</sup>C Protocol
 
 The I<sup>2</sup>C communication protocol allows two-directional communication with the ESC. The protocol uses a "register map" allowing registers to be written to and read from.
 
-##Throttle Command
+## Throttle Command
 
-###Description
+### Description
 
 The throttle command is a 16-bit signed integer. The sign of the value determines the direction of rotation. Note, you must send a value of "0" at startup to initialize the thruster.
 
-###Registers: (0x00-0x01)
+### Registers: (0x00-0x01)
 
 * **throttle:** (write-only)
 	* -32767 (max reverse) to 32767 (max forward)
 	* 0 is stopped
 	* No deadband
 
-###Bytes
+### Bytes
 
 * **Byte 0:** throttle_h  
 * **Byte 1:** throttle_l
 
-##Data Request
+## Data Request
 
-###Description
+### Description
 
 The data registers can be read to provide information on voltage, current, RPM, and temperature. All values are 16-bit unsigned integers.
 
-###Registers: (0x02-0x0A)
+### Registers: (0x02-0x0A)
 
 * **pulse_count:** (read-only)
   * Commutation pulses since last request.
@@ -153,7 +153,7 @@ The data registers can be read to provide information on voltage, current, RPM, 
 * **identifier:** (read-only)
 	* Identifier bit to test if ESC is alive
 
-###Bytes
+### Bytes
 
 * **Byte 0:** pulse_count_h  
 * **Byte 1:** pulse_count_l  
@@ -165,11 +165,11 @@ The data registers can be read to provide information on voltage, current, RPM, 
 * **Byte 7:** current_l  
 * **Byte 8:** 0xab (identifier to check if ESC is alive)
 
-##Data Conversion
+## Data Conversion
 
 The values sent through I2C for the sensors must be converted to the correct units. The following equations describe how to do so.
 
-###Voltage
+### Voltage
 
 The voltage divider uses and 18K and 3.3K resistor for a voltage divider ratio of 6.45. The raw measurement is scaled to 16 bits. The conversion is as follows:
 
@@ -187,7 +187,7 @@ float voltage() {
 }
 ~~~
 
-###Current
+### Current
 
 The current is measured by the ACS711, a hall-effect sensor IC. The output is 14.706 A/V with a 2.5V offset. The raw measurements is scaled to 16 bits.
 
@@ -205,7 +205,7 @@ float current() {
 }
 ~~~
 
-###Temperature
+### Temperature
 
 The temperature is measured by a 10K thermistor (NCP18XH103J03RB) and 3.3K resistor. The temperature is calculated with the Steinhart-Hart equations. 
 
@@ -245,7 +245,7 @@ float temperature(_temp_raw) {
 }
 ~~~
 
-###RPM
+### RPM
 
 The RPM is sent as *pulses since last read*, which is the number of commutation cycles since the last time the I2C was polled.
 
@@ -272,7 +272,7 @@ float rpm() {
 }
 ~~~
 
-##Assigning I<sup>2</sup>C Addresses
+## Assigning I<sup>2</sup>C Addresses
 
 When using more than one ESC, it is necessary to assign unique addresses to each ESC. To assign a new address to the ESC, you will have to update the firmware on the ESC.
 
@@ -311,9 +311,9 @@ If everything went well, this is the message you should see indicating a success
 
 <img src="/assets/images/documentation/KKshot2a.png" class="img-responsive" style="max-width:600px" />
 
-#Example Code
+# Example Code
 
-##Arduino with Servo Library
+## Arduino with Servo Library
 
 This example uses the Arduino Servo library to control the speed controller. This provides an update rate of 50 Hz and can use any pin on the Arduino board as the "servoPin".
 
@@ -385,19 +385,19 @@ void loop() {
 }
 ~~~~~~~~~~~~~~~~~~~
 
-#Advanced
+# Advanced
 
-##Firmware Files
+## Firmware Files
 
 The compiled firmware files can be downloaded below. This file includes firmware hex files precompiled with 16 different I<sup>2</sup>C addresses.
 
 [<i class="fa fa-download fa-fw"></i> BlueESC Firmware (2015-07-09 a34f109)](/blueesc/firmware/blueesc_firmware_2015-07-09_a34f109.zip)
 
-##Firmware Update and Customization
+## Firmware Update and Customization
 
 The Basic ESC uses the [tgy firmware](http://github.com/bluerobotics/tgy) which is open source and editable. There are many parameters that can be changed to change the performance of the speed controller. 
 
-###Firmware Compilation
+### Firmware Compilation
 
 To compile the firmware, you'll need the avra AVR Assembler.
 
@@ -424,7 +424,7 @@ cd tgy
 make blueesc.hex
 ~~~
 
-###Firmware Flashing
+### Firmware Flashing
 
 The ESC includes a bootloader that allows flashing through the PWM signal wire using a programming like the [Turnigy USB Linker](http://www.hobbyking.com/hobbyking/store/__10628__turnigy_usb_linker_for_aquastar_super_brain.html) or the [AfroESC Programmer](http://www.hobbyking.com/hobbyking/store/__39437__afro_esc_usb_programming_tool.html). 
 
