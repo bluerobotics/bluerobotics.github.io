@@ -90,7 +90,7 @@ For further information please see the [MS5837-30BA Data Sheet.](http://meas-spe
 | Wrench Flats | 16 mm |
 |----------------------|
 
-##DF13 Pinout
+## DF13 Pinout
 
 | 1 &Delta; |  Red - Positive (3.3-5.5V) |
 | 2 |  Green - I<sup>2</sup>C Clock (SCL) |
@@ -101,7 +101,7 @@ For further information please see the [MS5837-30BA Data Sheet.](http://meas-spe
 
 **Mating Connector:** [Hirose 4-pos DF13 on Digi-Key](http://www.digikey.com/product-detail/en/DF13-4P-1.25DSA/H2193-ND/241767)
 
-##2D Drawing
+## 2D Drawing
 
 <img src="/assets/images/BAR30-2view.png" class="img-responsive" style="max-width:900px" />
 
