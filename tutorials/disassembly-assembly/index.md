@@ -5,6 +5,7 @@ permalink: /tutorials/disassembly-assembly/
 order: 1
 nav:
 - Introduction: introduction
+- - Tools Needed: tools-needed
 - Instructions: instructions
 ---
 
