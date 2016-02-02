@@ -21,7 +21,7 @@ Changing the propeller is easy and should only take a minute.
 * Phillips screwdriver with small tip
 * 2 mm hex key
 
-#Video Tutorial
+# Video Tutorial
 
 <iframe width="700" height="393.75" src="https://www.youtube.com/embed/xFCIiMTceRs" frameborder="0" allowfullscreen></iframe>
 <br />
