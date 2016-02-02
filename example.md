@@ -12,11 +12,11 @@ nav:
 - - Code: code
 ---
 
-#Introduction
+# Introduction
 
 This page shows examples of the markdown text that can be used in this documentation.
 
-##Sub Menu Example
+## Sub Menu Example
 
 This heading is shown as a submenu on the navbar.
 
@@ -29,9 +29,9 @@ This heading is shown as a submenu on the navbar.
 - - Code: code
 ~~~~~~~
 
-#Examples
+# Examples
 
-##Headings
+## Headings
 
 ~~~~~~ markdown
 #h1 heading
@@ -41,17 +41,17 @@ This heading is shown as a submenu on the navbar.
 #####h5 heading
 ~~~~~~~~
 
-#h1 heading
+# h1 heading
 
-##h2 heading
+## h2 heading
 
-###h3 heading
+### h3 heading
 
-####h4 heading
+#### h4 heading
 
-#####h5 heading
+##### h5 heading
 
-##Tables
+## Tables
 
 ~~~~~~ markdown
 | First Header  | Second Header |
@@ -65,7 +65,7 @@ This heading is shown as a submenu on the navbar.
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
-##Code
+## Code
 
 ~~~~~~~~ markdown
 ~~~~~~ javascript

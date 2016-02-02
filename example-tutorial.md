@@ -24,17 +24,17 @@ tutorial-links:
 
 [diagram]: /assets/images/t100-wiring-1.png
 
-#Introduction
+# Introduction
 
 This page shows examples of the markdown text that can be used in this documentation.
 
-##Tools and Supplies
+## Tools and Supplies
 
 * 1.5mm hex key
 * Wire cutters
 * Wire strippers
 
-#Step 1: Remove Stock OpenROV Motors
+# Step 1: Remove Stock OpenROV Motors
 
 The first thing you'll have to do is to remove the stock OpenROV motors to make room for the thrusters.
 
@@ -48,6 +48,6 @@ When you're done, it will look like this:
 
 ---
 
-#Step 2: Cut and Strip Motor Wires
+# Step 2: Cut and Strip Motor Wires
 
 Next, you need to cut and strip the old wires from the motors before attaching them to the thruster wires.
