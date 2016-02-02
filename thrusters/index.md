@@ -247,7 +247,7 @@ The thruster uses solid plastic bushings and due to the tolerances of the bushin
 
 The T100 Thruster does not require much maintenence.
 
-##Normal Care
+## Normal Care
 
 During normal use:
 
@@ -259,7 +259,7 @@ If operated for extended periods in the water:
 
 * Occasionally clean biological fouling and mineral deposits from the thruster or performance may be impacted.
 
-##Disassembly/Assembly
+## Disassembly/Assembly
 
 You may need to take apart your thruster from time to time - or maybe you just want to take a peek at the inner workings of the T100! Either way, this tutorial illustrates how.
 
