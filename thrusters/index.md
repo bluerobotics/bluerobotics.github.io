@@ -46,22 +46,22 @@ tutorial-links:
 ---
 <img src="/assets/images/documentation/2-t100s.png" class="img-responsive img-center" />
 
-#Introduction
+# Introduction
 
 The T100 Thruster is a low-cost high performance thruster for marine robotics. It was originally launched in 2014 through a [Kickstarter campaign](https://www.kickstarter.com/projects/847478159/the-t100-a-game-changing-underwater-thruster).
 
 
 
-##Safety
+## Safety
 
 Always practice caution when you're working with electricity in water and with the spinning blades of the propeller. Keep body parts away from the thruster inlet and outlet to avoid injury.
 
-##Quick Start
+## Quick Start
 
 1. Connect motor wires to ESC and connect the ESC to power and a signal.
 2. Send a signal and the thruster will start spinning. That's it.
 
-##Important Notes
+## Important Notes
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 Do not operate the thruster for extended periods out of water. The bearings are lubricated by the water and vibration and noise will be greater when dry.
@@ -72,9 +72,9 @@ The thruster can handle saltwater and sandy environments pretty well, but it doe
 <i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
 A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.
 
-#T100 Thruster Specifications
+# T100 Thruster Specifications
 
-##Specification Table
+## Specification Table
 
 |----------------------------------------------------------------------------------------|
 |                                 **Performance**                                        |
@@ -107,7 +107,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | Cable Length                                           | 1.0 m         | 39 in         |
 | Cable Diameter                                         | 6.3 mm        | 0.25 in       |
 
-##Performance Charts
+## Performance Charts
 
 <iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~rjehangir/34.embed?width=640&height=480"></iframe>
 
@@ -117,19 +117,19 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 
 <iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~rjehangir/46.embed?width=640&height=480"></iframe>
 
-##Dimensions
+## Dimensions
 
-###T100 Thruster (without BlueESC)
+### T100 Thruster (without BlueESC)
 
 <img src="/assets/images/T100-Plain-Drawing.PNG" class="img-responsive" style="max-width:800px" />
 
-###T100 Thruster with BlueESC
+### T100 Thruster with BlueESC
 
 <img src="/assets/images/T100-BlueESC-Drawing.PNG" class="img-responsive" style="max-width:800px" />
 
-##3D Model
+## 3D Model
 
-###T100 Thruster (without BlueESC)
+### T100 Thruster (without BlueESC)
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
@@ -139,7 +139,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | STL (.stl)                 | [T100-THRUSTER-R1.STL](/thrusters/cad/T100-THRUSTER-R1.STL) |
 | All Formats in a Zip File (.zip)   | [T100-THRUSTER-R1.zip](/thrusters/cad/T100-THRUSTER-R1.zip) |
 
-###T100 Thruster with BlueESC
+### T100 Thruster with BlueESC
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
@@ -149,7 +149,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | STL (.stl)                 | [T100-THRUSTER-BLUEESC-R1.STL](/thrusters/cad/T100-THRUSTER-BLUEESC-R1.STL) |
 | All Formats in a Zip File (.zip)   | [T100-THRUSTER-BLUEESC-R1.zip](/thrusters/cad/T100-THRUSTER-BLUEESC-R1.zip) |
 
-###Mounting Bracket
+### Mounting Bracket
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
@@ -159,7 +159,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | STL (.stl)                 | [T100-P-BRACKET-R1.STL](/thrusters/cad/T100-P-BRACKET-R1.STL) |
 | All Formats in a Zip File (.zip)   | [T100-P-BRACKET-R1.zip](/thrusters/cad/T100-P-BRACKET-R1.zip) |
 
-#Installation
+# Installation
 
 The T100 Thruster is easy to install in many different applications. It was designed with versatile mounting options for a variety of different applications. It includes a counter-rotating set of propellers. Check out the tutorial on how to change the propeller. 
 
@@ -174,7 +174,7 @@ The T100 Thruster is easy to install in many different applications. It was desi
 
 
 
-##Mounting Options
+## Mounting Options
 
 The T100 Thruster has several mounting options. The nozzle has four mounting holes that can be used to secure directly to vehicle. 
 
@@ -192,19 +192,19 @@ The mounting bracket also includes a guide hole that can be drilled out with a 1
 
 Which mounting option you choose depends on your application.
 
-##Electrical Connections
+## Electrical Connections
 
-###Connecting to an External ESC
+### Connecting to an External ESC
 
 The thruster has a cable containing three wires. These three wires must be connected to the three motor wires on the electronic speed controller (ESC). The order does not matter, but if the motor direction is the reverse of what is desired, switch two of the wires. 
 
 The three wires in the cable (green, white, blue) are always connected to the same motor phases, so connecting the colors in a consistent fashion will result in all motors rotating in the same direction.
 
-###Connecting the BlueESC
+### Connecting the BlueESC
 
 The BlueESC must be pre-installed on the T100 Thruster. 
 
-##How to Cut and Strip the Cable
+## How to Cut and Strip the Cable
 
 The thruster comes with a tough urethane-jacketed cable. This is great for use underwater, but it can be a little difficult to remove the jacket from the wires if you want to cut the cable to a shorter length. During production, we use a thermal wire strippers, but the jacket can also be removed with a razor blade or hobby knife. Check out the cable stripping tutorial with pictures here:
 
@@ -216,7 +216,7 @@ The thruster comes with a tough urethane-jacketed cable. This is great for use u
   </div>
 </div>
 
-#Operation
+# Operation
 
 The thruster requires a brushless electronic speed controller (ESC). If you are using the BlueRobotics BasicESC or BlueESC, please see the appropriate product page for instructions.
 
@@ -237,13 +237,13 @@ The thruster requires a brushless electronic speed controller (ESC). If you are 
 **Important:**
 Do not operate the thruster for extended periods out of water. The bearings are lubricated by the water and vibration and noise will be greater when dry.
 
-##Clicking Noise
+## Clicking Noise
 
 If you hear a clicking noise during operation, especially when operating in air, do not be alarmed. It's normal.
 
 The thruster uses solid plastic bushings and due to the tolerances of the bushings and motors shafts, the shaft can move slightly in the bearing. The noise is drastically reduced or eliminated when operated in water. The water acts as a lubricant for the bearings and smooths operation.
 
-#Care and Maintenance
+# Care and Maintenance
 
 The T100 Thruster does not require much maintenence.
 
@@ -271,7 +271,7 @@ You may need to take apart your thruster from time to time - or maybe you just w
   </div>
 </div>
 
-#Troubleshooting
+# Troubleshooting
 
 **The motor does not start.**
 
@@ -285,11 +285,11 @@ This can be caused by a disconnected motor wire or a short between motor wires. 
 
 This can be caused by something jamming the propeller or by major internal damaged caused by overheating, short circuits, or heavily worn bearings. Please disassemble the thruster and inspect for damage or blockage.
 
-#Details
+# Details
 
 For all the engineers out there, here's some more info.
 
-##Test Results
+## Test Results
 
 * **Endurance Testing.** [The T100 has been tested for over 2400 hours](https://youtu.be/HBtxAO1sL7k) in virtually continuous operation at half throttle, only being halted shortly for internal inspection every few weeks. Additionally, we have tested the T100 Thruster for up to 300 hours continuous operation at full throttle power.
 
@@ -297,7 +297,7 @@ For all the engineers out there, here's some more info.
 
 * **Depth Testing.** As of writing, the thrusters have been tested to a maximum depth of 3000m (4500 psi) in static conditions. This testing was performed by Woods Holes Oceanographic Institution and you can [read more about it here](http://www.bluerobotics.com/pressure-testing-3000m-depth/).
 
-##Quality Control
+## Quality Control
 
 We perform the following tests on every thruster before they are shipped.
 
