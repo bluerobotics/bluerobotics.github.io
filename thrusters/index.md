@@ -163,7 +163,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 
 The T100 Thruster is easy to install in many different applications. It was designed with versatile mounting options for a variety of different applications. It includes a counter-rotating set of propellers. Check out the tutorial on how to change the propeller. 
 
-
+## Changing the Propeller
 <div class="row">
   <div class="col-sm-4 col-md-4">
   	<div class="tile" style="background-image:url(/assets/images/tutorials/changing-a-propeller/propeller-3.png)">
