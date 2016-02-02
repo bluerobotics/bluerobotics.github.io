@@ -11,7 +11,7 @@ nav:
 - License: license
 ---
 
-#Blue Robotics Documentation
+# Blue Robotics Documentation
 
 This is our product documentation. Think about it as an online user manual. There are instructions and tutorials for the T100 Thruster and our other products.
 
@@ -19,7 +19,7 @@ We do our best to make this documentation as complete as possible but you can [c
 
 You can use the menu bar at the top to find the product you are looking for and the navigation bar on the left to help you find what you are looking for on each page.
 
-#Product Manuals
+# Product Manuals
 
 <div class="row">
   <div class="col-sm-4 col-md-4"> 
@@ -97,7 +97,7 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
 </div>
 
-#Tutorials
+# Tutorials
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
@@ -134,7 +134,7 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
 </div>
 
-#Guides
+# Guides
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
@@ -144,7 +144,7 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
 </div>
 
-#How to Contribute
+# How to Contribute
 
 Want to help us improve our documentation? There are several way to help out.
 
@@ -158,7 +158,7 @@ This page is hosted by and version-controlled through Github.com. Check out the 
 
 [Here is a short tutorial](/jekyll-tutorial/) showing how to edit the documentation locally and push changes to your fork.
 
-#License
+# License
 
 [<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />](http://creativecommons.org/licenses/by-sa/4.0/)
 
