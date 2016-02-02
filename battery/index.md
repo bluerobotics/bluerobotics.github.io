@@ -26,17 +26,17 @@ manual-links:
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
-#Introduction
+# Introduction
 
 <img src="/assets/images/documentation/battery-1.png" class="img-responsive" style="max-width:600px" />
 
 The T100 thruster can be powered off of any 6–16V power source, and the T200 off of 6–20V. This can be an AC power supply, lead acid (Pb) battery such as from a car,  nickel metal hydride (NiMH) battery, or a lithium polymer (LiPo) battery. LiPo batteries are particularly light and energy dense while offering high performance with low voltage drop under load, making them the recommended choice for on board ROV power.
 
-#LiPo Batteries
+# LiPo Batteries
 
 <img src="/assets/images/documentation/battery-3.png" class="img-responsive" style="max-width:600px" />
 
-##Voltage
+## Voltage
 
 LiPo battery packs come in different voltages, in which each cell is nominally 3.7V.  However, when fully charged a LiPo battery cell rests at 4.2V, and this must be taken into account when determining if your electronics will be able to handle your battery. Furthermore, LiPo batteries should not be discharged below an absolute bare minimum of 3.0V per cell, or permanent damage may occur. Recharging a battery well before this point is reached will ensure good performance and long life of the battery. 
 
@@ -48,11 +48,11 @@ LiPo battery packs come in different voltages, in which each cell is nominally 3
 
 For maximum efficiency, the T100 should be run at 12V, and the T200 at 16V.  A 11.1V 3s LiPo is recommended for the T100, and a 14.8V 4s LiPo for the T200, though the T100 can be safely run with a 4s pack and the T200 with a 5s pack. If you choose to do this, you will see slightly higher performance, but reduced efficiency than when running at the recommended voltages.
 
-##Capacity
+## Capacity
 
 The capacity of a LiPo, or any, battery is in milliamp hours (mAh) or amp hours (Ah) and determines how much energy a battery stores. For example, a 5Ah battery would approximately be able to run a 5 amp device for 1 hour, or a 1 amp device for 5 hours.
 
-##Discharge Rate
+## Discharge Rate
 
 The discharge rate is a rating of how much current a battery can safely provide. This is a multiplier of battery capacity, for example a 20C 5Ah battery can safely drive 20 x 5 = 100 amps. Similarly, a 50C 7Ah battery can provide up to 50 x 7 = 350 amps. The burst C rating describes safe maximum current bursts, usually a duration of about 10 seconds. Higher C rated LiPos also have lower voltage drop under load, giving a boost in performance and more punch. 
 
@@ -63,7 +63,7 @@ Running more thrusters off of a single battery will put a greater load on it, so
 | **T100**   |  14.5A         | 21.5A | N/A
 | **T200**   |    18A         |   25A | 32A+
 
-##LiPo Safety:
+## LiPo Safety:
 
 LiPo batteries have a high energy density and must be treated with the proper precautions. More information about LiPo batteries including their correct use and care can be found on the following webpages.
 
@@ -75,13 +75,13 @@ LiPo batteries have a high energy density and must be treated with the proper pr
 
 [Team Orion LiPo Battery Production Video](https://www.youtube.com/watch?v=6vBH6zlrXuM)
 
-##Where to Buy
+## Where to Buy
 
 LiPo batteries can be bought at hobby shops and online through numerous vendors, including [HobbyKing](http://www.hobbyking.com/hobbyking/store/index.asp). We use HobbyKing's Multistar, Turnigy, and Zippy brands of LiPo batteries for our testing.
 
-#Batteries for the Blue ROV
+# Batteries for the Blue ROV
 
-##Battery Clearance
+## Battery Clearance
 
 The Blue ROV electronics tray will accommodate batteries up to 230mm (9in) long. However, if basic ESCs are being used, the ESCs mounted to the bottom of the tray will reduce clreances. Past 125mm (4.9in), 5mm (0.2in) of the height availble is taken up by the ESC wires. Beyond 155mm (6.1in), 10mm (0.4in) is taken up by the ESC itself.
 
@@ -109,7 +109,7 @@ For the Blue ROV, "d" is 50.8mm, and "x" is 3.6mm. If your battery is long enoug
 
 Hobbyking's [battery finder tool](http://www.hobbyking.com/hobbyking/store/multifinder.asp?t=lipo) is very useful in finding batteries that will fit the Blue ROV. Note that the "width" and "height" dimensions in the battery finder tool are the reverse from the varaibles in the above fit fomula.
 
-##Example Batteries
+## Example Batteries
 
 These batteries will all fit the Blue ROV with basic ESCs, many of them have been used for our testing at Blue Robotics without any issues.
 
@@ -129,7 +129,7 @@ These batteries will all fit the Blue ROV with basic ESCs, many of them have bee
 
 # Battery Calculator 
 
-##(Beta, please double check results & report bugs!)
+## (Beta, please double check results & report bugs!)
 
 This calculator finds battery energy based on voltage and capacity ratings. It also estimates how long a battery will run a thruster at a specific throttle level.
 
@@ -177,7 +177,7 @@ This calculator finds battery energy based on voltage and capacity ratings. It a
 
 </div>
 
-##Learn More
+## Learn More
 
 This calculator uses the [js-quantities library](https://github.com/gentooboontoo/js-quantities) by gentooboontoo for unit conversions.
 

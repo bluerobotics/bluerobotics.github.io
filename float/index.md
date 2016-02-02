@@ -18,7 +18,7 @@ manual-links:
 ---
 <img src="/assets/images/documentation/foam-2.png" class="img-responsive img-center" style="max-width:600px" />
 
-#Introduction
+# Introduction
 
 Blue Robotics offers subsea buoyancy foam for use on ROVs, AUVs, and other marine vehicles. The foam is water and pressure resistant. It's also machinable, glueable, and paintable so that you can make just about any shape imaginable.
 
@@ -30,9 +30,9 @@ Always inspect the o-rings before inserting onto the tube. Any dust, hair, or ot
 <!--<i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
 A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.-->
 
-#Specifications
+# Specifications
 
-##Specification Table
+## Specification Table
 
 | ----------------------- | ----------------------------- |
 |               **Subsea Buoyancy Foam**                  |
@@ -42,7 +42,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | Tested Depth (Uncoated) | 300 ft        | 91 m          |
 | Tested Depth (Coated)   | 600 ft        | 182 m         |
 
-##3D Models
+## 3D Models
 
 All 3D models are provided in zip archives containing the follow file types:
 

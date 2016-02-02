@@ -13,28 +13,28 @@ nav:
 - - Step 2 - Stripping the Conductors: step-2-stripping-the-conductors
 ---
 
-#Introduction
+# Introduction
 
 Blue Robotics' thrusters and BlueESC come with tough urethane jacketed cable for reliable performance underwater. It can be a little tricky to strip the jacket from the cable but these steps should make it simple!
-
-##Safety
+ 
+## Safety
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with tools, always use caution. This tutorial is provided as guidance and should be followed at your own risk.
 
-##Tools You Need
+## Tools You Need
 
 * Sharp knife (razor blade or X-Acto knife work well)
 * Protective glove
 * Wire strippers with slot for 18 AWG wire
 
-#Video Tutorial
+# Video Tutorial
 
 <iframe width="700" height="393.75" src="https://www.youtube.com/embed/jNYPrN3rj5k" frameborder="0" allowfullscreen></iframe>
 <br />
 
-#Instructions
+# Instructions
 
-##Step 1: Stripping the Jacket
+## Step 1: Stripping the Jacket
 
 <img src="/assets/images/tutorials/wire-stripping/wire-strip-1.png" class="img-responsive" style="max-width:800px" />
 
@@ -64,7 +64,7 @@ Pull the jacket away from the conductors and tape. The tape will probably come o
 
 If any tape is left, you can gently tear it away.
 
-##Step 2: Stripping the Conductors
+## Step 2: Stripping the Conductors
 
 <img src="/assets/images/tutorials/wire-stripping/wire-strip-8.png" class="img-responsive" style="max-width:800px" />
 

@@ -8,16 +8,16 @@ nav:
 - Instructions: instructions
 ---
 
-#Introduction
+# Introduction
 
 You might need to take apart your thruster from time to time. Here's how!
 
-##Tools Needed:
+## Tools Needed:
 
 * 1.5 mm, 2 mm, 2.5 mm hex keys
 * Phillips screwdriver with small tip
 
-#Instructions
+# Instructions
 
 <img src="/assets/images/tutorials/changing-a-propeller/propeller-1.png" class="img-responsive" style="max-width:500px" />
 1. Remove the four phillips-head screws from the outside of the nozzle.      
