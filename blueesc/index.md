@@ -8,10 +8,11 @@ nav:
 - - Safety: safety
 - - Quick Start: quick-start
 - Specifications: specifications
+- - Diagram: diagram
 - - Specification Table: specification-table
 - - 3D Model: d-model
 - Operation: operation
-- - LED Indicator Lights: LED Indicator Lights
+- - LED Indicator Lights: led-indicator-lights
 - I<sup>2</sup>C Protocol: isup2supc-protocol
 - - Throttle Command: throttle-command
 - - Data Request: data-request
@@ -339,7 +340,7 @@ void loop() {
 }
 ~~~~~~~~~~~~~~~~
 
-##Arduino with I2C
+## Arduino with I2C
 
 The following example uses the [Blue Robotics Arduino_I2C_ESC library](https://github.com/bluerobotics/Arduino_I2C_ESC) to control the BlueESC through I2C. 
 

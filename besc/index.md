@@ -7,6 +7,7 @@ nav:
 - - Safety: safety
 - - Quick Start: quick-start
 - Specifications: specifications
+- - Diagram: diagram
 - - Specification Table: specification-table
 - - 3D Model: d-model
 - Installation: installation
