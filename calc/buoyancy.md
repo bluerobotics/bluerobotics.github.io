@@ -9,9 +9,9 @@ nav:
 - Learn More: learn-more
 ---
 
-#Calculator 
+# Calculator 
 
-#(Beta, please double check results & report bugs!)
+# (Beta, please double check results & report bugs!)
 
 This calculator finds the buoyancy of an object based on it's displacement. It also uses the object weight or density to find the net buoyancy.
 
@@ -89,7 +89,7 @@ This calculator finds the buoyancy of an object based on it's displacement. It a
 
 </div>
 
-#Densities of Common Materials
+# Densities of Common Materials
 
 <table class="table table-hover table-condensed">
 	<tr>
@@ -100,7 +100,7 @@ This calculator finds the buoyancy of an object based on it's displacement. It a
 	</tbody>
 </table>
 
-#Learn More
+# Learn More
 
 This calculator uses the [js-quantities library](https://github.com/gentooboontoo/js-quantities) by gentooboontoo for unit conversions.
 

@@ -8,7 +8,7 @@ nav:
 - Learn More: learn-more
 ---
 
-#Calculator
+# Calculator
 
 This calculator determines the water depth to reach or given pressure or the pressure at a given depth. You can enter the depth or pressure input with most common units and it will be converted automatically. This calculator *does not* add air pressure at the surface - the results are relative to the surface pressure.
 
@@ -56,7 +56,7 @@ This calculator determines the water depth to reach or given pressure or the pre
 
 </div>
 
-#Learn More
+# Learn More
 
 [See here](http://hyperphysics.phy-astr.gsu.edu/hbase/pflu.html) for an explanation of static fluid pressure.
 

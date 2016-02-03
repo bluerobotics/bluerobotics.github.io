@@ -5,12 +5,13 @@ permalink: /calc/battery/
 order: 0
 nav:
 - Calculator: calculator
+- Example Batteries: example-batteries
 - Learn More: learn-more
 ---
 
-#Calculator 
+# Calculator 
 
-#(Beta, please double check results & report bugs!)
+# (Beta, please double check results & report bugs!)
 
 This calculator finds the buoyancy of an object based on it's volume. It also uses the object weight or density to find the net buoyancy.
 
@@ -73,7 +74,7 @@ This calculator finds the buoyancy of an object based on it's volume. It also us
 
 </div>
 
-#Example Batteries
+# Example Batteries
 
 <table class="table table-hover table-condensed">
 	<tr>
@@ -85,7 +86,7 @@ This calculator finds the buoyancy of an object based on it's volume. It also us
 	</tbody>
 </table>
 
-#Learn More
+# Learn More
 
 This calculator uses the [js-quantities library](https://github.com/gentooboontoo/js-quantities) by gentooboontoo for unit conversions.
 
