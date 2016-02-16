@@ -1,4 +1,4 @@
-Blue Robotics Documentation Website
+Blue Robotics Documentation Website [![Build Status](https://travis-ci.org/bluerobotics/bluerobotics.github.io.svg?branch=master)](https://travis-ci.org/bluerobotics/bluerobotics.github.io)
 ===================================
 
 This repository is the home to Blue Robotics' product documentation, including product manuals, tutorials, and guides. This information is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. We welcome and encourage contributions from others as well as reports of issues or errors.
