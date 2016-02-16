@@ -158,6 +158,10 @@ This page is hosted by and version-controlled through Github.com. Check out the 
 
 [Here is a short tutorial](/jekyll-tutorial/) showing how to edit the documentation locally and push changes to your fork.
 
+**The current build status of the documentation is:**
+
+[![Build Status](https://travis-ci.org/bluerobotics/bluerobotics.github.io.svg?branch=master)](https://travis-ci.org/bluerobotics/bluerobotics.github.io)
+
 # License
 
 [<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />](http://creativecommons.org/licenses/by-sa/4.0/)
