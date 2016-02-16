@@ -28,22 +28,22 @@ nav:
 - - Step 6 - Solder and Seal Connections: step-6-solder-and-seal-connections
 ---
 
-#Introduction
+# Introduction
 
 The Blue Robotics OpenROV Compatible Thruster Kit provides powerful, corrosion-proof thrusters for your OpenROV. This tutorial describes how to change from the standard OpenROV thrusters to the Blue Robotics thrusters.
 
-##What's Included
+## What's Included
 
 * 2 x T100 Thrusters
 * 1 x M100 Motor
 * 1 x M100 Propeller
 * 1 x OpenROV Mounting Adapter and Hardware
 
-##Safety
+## Safety
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with tools, always use caution. This tutorial is provided as guidance and should be followed at your own risk.
 
-##Tools You Need
+## Tools You Need
 
 * Wire cutter
 * Wire strippers
@@ -54,7 +54,7 @@ The Blue Robotics OpenROV Compatible Thruster Kit provides powerful, corrosion-p
 * Protective gloves
 * Liquid electrical tape like MG Chemicals 4229
 
-##What to Know Before You Start
+## What to Know Before You Start
 
 In the images below, we've started with the electronics tube and batteries removed to provide good access to the thrusters.
 
@@ -62,15 +62,15 @@ Installing the Blue Robotics thrusters requires permanently removing some compon
 
 The T100 and M100 thrusters are heavier than the original thrusters and require the addition of some flotation foam at the back of the ROV. Please see the forum posts below for more info.
 
-##Other Resources
+## Other Resources
 
 Please also see discussions on our forums about the OpenROV Compatible Kit:
 
 * [OpenROV v2.7 with BR Compatible Kit](https://www.bluerobotics.com/forums/topic/openrov-v2-7-with-br-compatible-kit/)
 
-#Vertical Thruster Replacement
+# Vertical Thruster Replacement
 
-##Step 1: Remove the Vertical Thruster
+## Step 1: Remove the Vertical Thruster
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-1.png" class="img-responsive" />
 
@@ -80,7 +80,7 @@ Remove the thrust guard for easier access to the vertical thruster.
 
 Remove the four M2 nuts and bolts that secure the motor to the plastic. In this picture, we've removed the bell and base from the motor, but that is not necessary.
 
-##Step 2: Cut and Strip Vertical Thruster Wires
+## Step 2: Cut and Strip Vertical Thruster Wires
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-3.png" class="img-responsive" />
 
@@ -102,7 +102,7 @@ After cutting, ensure that the loose ends will reach the vertical thruster posit
 
 Using a wire strippers, remove about 4mm of insulation from the end of each wire.
 
-##Step 3: Tin the Wires and M100 Solder Pads
+## Step 3: Tin the Wires and M100 Solder Pads
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-8.png" class="img-responsive" />
 
@@ -112,13 +112,13 @@ We recommend tinning the ends of the wire to make it easier to solder to the M10
 
 Next, tin the pads on the M100. Heat up each pad and then apply a small amount of solder - just enough to make a small mound on the pad.
 
-##Step 4: Solder Wires to M100
+## Step 4: Solder Wires to M100
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-10.png" class="img-responsive" />
 
 Since both the wire and pad are tinned, you shouldn't have to add any solder to connect the two. Hold the tinned wire to the pad and apply heat to both until they join. Again, it's best to do this quickly to avoid having solder travel up the cable. Repeat for the other two wires and check to make sure there are no shorts between solder joints.
 
-##Step 5: Seal the Electrical Connection
+## Step 5: Seal the Electrical Connection
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-11.png" class="img-responsive" />
 
@@ -128,13 +128,13 @@ Next, we seal the wire connections. We recommend using a liquid electrical tape 
 
 Make sure you cover all exposed electrical connections. Allow several hours for the coating to dry.
 
-##Step 6: Install the OpenROV Mounting Adapter
+## Step 6: Install the OpenROV Mounting Adapter
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-13.png" class="img-responsive" />
 
 Once the coating is dry, attach the OpenROV mounting adapter using two M3 screws. Note that there are two sets of holes on the M100 but only the wider set is the right width for the adapter.
 
-##Step 7: Install in the OpenROV
+## Step 7: Install in the OpenROV
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-14.png" class="img-responsive" />
 
@@ -152,15 +152,15 @@ This image shows the complete vertical thruster from below...
 
 ...and from above.
 
-##Step 8: Replace Thrust Guard
+## Step 8: Replace Thrust Guard
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-18.png" class="img-responsive" />
 
 Replace the thrust guard on top. The motor shaft should stick through the center hole.
 
-#Forward Thruster Replacement
+# Forward Thruster Replacement
 
-##Step 1: Remove the Forward Thrusters
+## Step 1: Remove the Forward Thrusters
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-19.png" class="img-responsive" />
 
@@ -170,7 +170,7 @@ First, cut the zip ties that secure the forward thruster wires.
 
 Remove both thrusters using the M2 hex key. Note, in this image we removed the bell from the motor and removed the motor from the base. This is not necessary if you can remove the motor without disassembly.
 
-##Step 2: Remove the Plastic Thrust Guards
+## Step 2: Remove the Plastic Thrust Guards
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-21.png" class="img-responsive" />
 
@@ -184,7 +184,7 @@ The small piece of plastic that the plastic rings were glued to must also be rem
 
 When completed, the OpenROV will look like this. Both motors have been removed and the plastic rings have been removed.
 
-##Step 3: Drill Holes for the T100 Thruster
+## Step 3: Drill Holes for the T100 Thruster
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-24.png" class="img-responsive" />
 
@@ -202,7 +202,7 @@ Use a marker or other method to mark the location of the four holes.
 
 Using an 1/8" (3mm) or slightly larger drill bit, drill through the four holes. We recommend using a glove for protection.
 
-##Step 4: Install the T100 Thruster
+## Step 4: Install the T100 Thruster
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-28.png" class="img-responsive" />
 
@@ -216,7 +216,7 @@ Here all four screws are installed.
 
 It's best to tuck the thruster cable next to the shell as shown above to allow some excess length. We will cut the thruster cable and the original motor wires and splice them together.
 
-##Step 5: Cut and Strip Wires
+## Step 5: Cut and Strip Wires
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-31.png" class="img-responsive" />
 
@@ -230,7 +230,7 @@ Using a wire strippers, remove about 4mm of insulation from the end of each wire
 
 We'll be using heat shrink combined with liquid electrical tape like MG Chemicals 4229. Cut a few pieces of heat shrink (not included) to size to seal the connections. We used three pieces of 3/16" tubing and one piece of 1/4" tubing. 
 
-##Step 6: Solder and Seal Connections
+## Step 6: Solder and Seal Connections
 
 <img src="/assets/images/tutorials/openrov-kit/openrov-34.png" class="img-responsive" />
 
