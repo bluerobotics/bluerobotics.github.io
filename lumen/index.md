@@ -4,7 +4,8 @@ title: Lumen Light
 order: 1
 nav:
 - Introduction: introduction
-- - Quick Start: quick-start
+- - Quick Start: quick-start-with-no-pwm-signal-source
+- - Quick Start: quick-start-with-pwm-signal
 - Specifications: specifications
 - - Schematic: schematic
 - - Specification Table: specification-table
@@ -25,20 +26,32 @@ manual-links:
 
 <img src="/bar30/cad/pressure-sensor-4.png" class="img-responsive" style="max-width:900px"  />
 
-#Introduction
+# Introduction
 
-The _Lumen_ Light is a waterproof LED which can supply up to 1500 lumens at depths of up to 300 meters. 
+The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at depths of up to 300 meters. The *Lumen* Light can be smoothly dimmed with a servo PWM signal or simply turned on/off with a switch. Up to six lights can be daisy-chained together to be controlled with a single signal, requiring only one penetration into a watertight enclosure.
 
-##Quick Start
+## Quick Start (with no PWM signal source)
 
-1. Connect the bare wires to the appropriate microcontroller pins.
-  - Yellow: PWM (3.3 - 48 volts)
-  - Red: + 9 - 48 volts
+1. Connect the power wires to a power source
+  - Red: + 10 - 48 volts
   - Black: Ground
 
-#Specifications
+2. Connect the signal wire to the the power wire directly or through a switch to turn on to full brightness
 
-##Schematic
+## Quick Start (with PWM signal)
+
+1. Connect the signal wire to the appropriate microcontroller pin
+  - Yellow: PWM (3 - 48 volts)
+
+2. Connect the power wires to a power source
+  - Red: + 10 - 48 volts
+  - Black: Ground
+
+3. Provide a servo PWM pulse from 1100 &mu;s (off) to 1900 &mu;s (brightest) 
+
+# Specifications
+
+## Schematic
 
 The [EagleCAD files](https://github.com/bluerobotics/lumen) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
 
@@ -46,17 +59,17 @@ The [EagleCAD files](https://github.com/bluerobotics/lumen) for the schematic an
 
 [Lumen Schematic.png](/lumen/cad/lumen-schematic.png)
 
-##Specification Table
+## Specification Table
 
-For further information please see the [Cree XLamp MK-R LED Data Sheet.](http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampMKR.pdf)
+For further information please see the [Cree XLamp MK-R LED Data Sheet](http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampMKR.pdf). The specific LED model used is MKRAWT-00-0000-0B00H4051.
 
 |      **Electrical**       |
 | ------------- | --------- |
 | **Item** | **Value** |
-| Supply Voltage| 7 - 48 volts |
-| Full Brightness Supply Voltage | 10 - 48 volts |
-| PWM Logic Voltage  | 3.3 - 48 volts |
-| Peak Current   | 15 / V_in amps  |
+| Supply Voltage (V<sub>in</sub>) | 7 - 48 volts |
+| Full Brightness Supply Voltage (V<sub>in</sub>) | 10 - 48 volts |
+| PWM Logic Voltage  | 3 - 48 volts |
+| Peak Current   | 15 / V<sub>in</sub> amps  |
 | ------------- | --------- |
 |   **Light**    |
 |--------------|--------------|
@@ -64,10 +77,10 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet.](http://
 | Color Temperature | 6,200 kelvin | 
 |  **Physical**  |
 | ------------|-------------------------|
-| Overall Length | 61.5 mm |
-| Overall Diameter   | 32 mm |
-| Recommended Through Hole Size | 10-11 mm |
-| Wrench Flats | 16 mm |
+| Overall Length | 61.5 mm | 2.42 in |
+| Overall Diameter   | 32 mm | 1.26 in |
+| Bracket Mounting Hole Spacing | 19 mm | 0.75 in |
+| Bracket Screw Size | M3 |
 |----------------------|
 
 
@@ -105,57 +118,29 @@ Use a small amount of silicone grease on the O-ring for lubrication and place it
 
 Install the Bar30 Pressure Sensor into an endcap and tighten by hand or with a wrench.
 
-#Example Code
+# Example Code
 
-##Arduino
+## Arduino
 
-This example uses the [BlueRobotics Lumen Library](https://github.com/bluerobotics/BlueRobotics_MS5837_Library) with the connected sensor. The example reads the sensor and prints the resulting values to the serial terminal.
-
-Please remember to use a logic level converter, such as [this one](https://www.sparkfun.com/products/12009), to convert Arduino 5V levels to 3.3V!
+This example uses the Arduino Servo library to control the light brightness. This provides an update rate of 50 Hz and can use any pin on the Arduino board as the "servoPin".
 
 If you've never used Arduino before, we suggest checking out [some tutorials!](https://www.arduino.cc/en/Tutorial/HomePage)
 
-You can find the [MS5837 Library](https://github.com/bluerobotics/BlueRobotics_MS5837_Library) on our [GitHub page](https://github.com/bluerobotics).
-
 ~~~~~~~~~~ cpp
-#include <Wire.h>
-#include "MS5837.h"
+#include <Servo.h>
 
-MS5837 sensor;
+byte servoPin = 9;
+Servo servo;
 
 void setup() {
-  
-  Serial.begin(9600);
-  
-  Serial.println("Starting");
-  
-  Wire.begin();
+  servo.attach(servoPin);
 
-  sensor.init();
-  
-  sensor.setFluidDensity(997); // kg/m^3 (997 freshwater, 1029 for seawater)
+  servo.writeMicroseconds(1100); // send "off" signal to Lumen light
 }
 
 void loop() {
+  int signal = 1700; // Set signal value, which should be between 1100 and 1900
 
-  sensor.read();
-
-  Serial.print("Pressure: "); 
-  Serial.print(sensor.pressure()); 
-  Serial.println(" mbar");
-  
-  Serial.print("Temperature: "); 
-  Serial.print(sensor.temperature()); 
-  Serial.println(" deg C");
-  
-  Serial.print("Depth: "); 
-  Serial.print(sensor.depth()); 
-  Serial.println(" m");
-  
-  Serial.print("Altitude: "); 
-  Serial.print(sensor.altitude()); 
-  Serial.println(" m above mean sea level");
-
-  delay(1000);
+  servo.writeMicroseconds(signal); // Send signal to Lumen light
 }
 ~~~~~~~~~~~~~~~~
