@@ -279,9 +279,9 @@ When using more than one ESC, it is necessary to assign unique addresses to each
 
 **Tools Needed:**
 
-* Arduino board with [ArduinoUSBLinker](https://github.com/c---/ArduinoUSBLinker) code uploaded
+* Arduino board with [ArduinoUSBLinker](https://github.com/bluerobotics/ArduinoUSBLinker) code uploaded
 
-1. First, make sure that the [ArduinoUSBLinker](https://github.com/c---/ArduinoUSBLinker) code is uploaded on your Arduino. You can do this through the Arduino IDE.
+1. First, make sure that the [ArduinoUSBLinker](https://github.com/bluerobotics/ArduinoUSBLinker) code is uploaded on your Arduino. You can do this through the Arduino IDE.
 
 2. Connect the BlueESC signal cable's black ground wire to one of the "GND" pins on the Arduino. Connect the red or yellow PWM signal wire to Arduino pin 2.
 
