@@ -12,6 +12,7 @@ nav:
 - - 2D Drawings: d-drawings
 - - 3D Model: d-model
 - Installation: installation
+- Daisy Chain: daisy-chain
 - Example Code: example-code
 - - Arduino: arduino
 
@@ -24,7 +25,7 @@ manual-links:
 - Bar30 Pressure Sensor: /bar30
 ---
 
-<img src="/bar30/cad/pressure-sensor-4.png" class="img-responsive" style="max-width:900px"  />
+<img src="/lumen/cad/lumen-1.png" class="img-responsive" style="max-width:900px"  />
 
 # Introduction
 
@@ -103,20 +104,49 @@ All 3D models are provided in zip archives containing the follow file types:
 - STEP (.step)
 - STL (.stl)
 
-|		**Lumen Light**																						|
+|		**Lumen Light**																			|
 | --------------------------------------------------------------------------------------------- |
-| Lumen Light Assembly      | [LUMEN-LIGHT-ASSEMBLY-R1.zip](cad/LUMEN-LIGHT-ASSEMBLY-R1.zip)                                 |
-| Lumen Light Mount 	    | [LUMEN-M-MOUNT.zip](cad/LUMEN-M-MOUNT-X1.zip) |  |
+| Lumen Light Assembly      | [LUMEN-LIGHT-ASSEMBLY-R1.zip](cad/LUMEN-LIGHT-ASSEMBLY-R1.zip)    |
+| Lumen Light Mount 	    | [LUMEN-M-MOUNT.zip](cad/LUMEN-M-MOUNT-X1.zip) 				    |
 
 #Installation
 
-##Step 1: Lubricating the O-ring
+The _Lumen_ Light can be installed two different ways using the _Lumen_ Mount.
 
-Use a small amount of silicone grease on the O-ring for lubrication and place it in the groove of the Bar30 Pressure Sensor. 
+## Using the Center Hole
 
-##Step 2: Installation
+1. Drill one hole between 3.15mm and 3.3mm in diameter.
 
-Install the Bar30 Pressure Sensor into an endcap and tighten by hand or with a wrench.
+2. Attach _Lumen_ Mount using one M3x0.5 316 stainless steel flat head screw.
+
+## Using the Drilled and Tapped Outside Holes
+
+1. Drill two holes between 3.15mm and 3.30mm in diameter 19mm apart.
+
+2. Attach _Lumen_ Mount using two M3X0.5 316 stainless steel screws.
+
+#Daisy Chain
+
+The _Lumen_ Light can be daisy chained using the following procedure:
+
+1. Make a daisy chain penetrator cable with penetrators on both ends and approximately 50mm of wire sticking out of the penetrator. See our tutorial on [making cable penetrators](/tutorials/cable-penetrator) for further information on making penetrator cables.
+
+2. Remove Aluminum flange cap from the back of both _Lumen_ Lights that you wish to daisy chain.
+
+3. Remove blank penetrator from both _Lumen_ Lights.
+
+4. Install 010 O-rings on both penetrators on daisy chain cable.
+
+5. Install daisy chain penetrators on both _Lumen_ Lights where the blank penetrator was. 
+
+6. Fully tighten daisy chain penetrator on both _Lumen_ Lights.
+
+7. Solder wires to _Lumen_ Light PCB.
+	-Black: GND
+	-Red: VIN
+	-Yellow: PWM
+	
+8. Reinstall Aluminum flange cap on both _Lumen_ Lights.
 
 # Example Code
 
