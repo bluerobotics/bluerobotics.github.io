@@ -12,6 +12,8 @@ nav:
 - - 2D Drawings: d-drawings
 - - 3D Model: d-model
 - Installation: installation
+- - Using the Center Hole: using-the-center-hole
+- - Using the Drilled and Tapped Outside Holes: using-the-drilled-and-tapped-outside-holes
 - Daisy Chain: daisy-chain
 - Example Code: example-code
 - - Arduino: arduino
@@ -115,23 +117,29 @@ The _Lumen_ Light can be installed two different ways using the _Lumen_ Mount.
 
 ## Using the Center Hole
 
-1. Drill one hole between 3.15mm and 3.3mm in diameter.
+1. Drill one hole between 3.15mm and 3.3mm in diameter on the part that you wish to mount the light.
 
-2. Attach _Lumen_ Mount using one M3x0.5 316 stainless steel flat head screw.
+2. Install an M3X0.5 316 stainless steel flat-head socket cap screw through the countersunk hole in the center of the _Lumen_ Mount.
+
+3. Pass the M3X0.5 screw throught the hole in your part and attach using a 316 stainless steel lock-nut.
 
 ## Using the Drilled and Tapped Outside Holes
 
-1. Drill two holes between 3.15mm and 3.30mm in diameter 19mm apart.
+1. Drill two holes between 3.15mm and 3.30mm in diameter 19mm apart on the part you wish to mount the light.
 
-2. Attach _Lumen_ Mount using two M3X0.5 316 stainless steel screws.
+2. Pass two M3X0.5 316 stainless steel screws through the holes that you just drilled.
+
+	-Note: the screws should be between 1.5 - 3.0mm longer than the thickness of the part that you are mounting to.
+
+3. Thread the screws into the _Lumen_ Mounts 
 
 #Daisy Chain
 
 The _Lumen_ Light can be daisy chained using the following procedure:
 
-1. Make a daisy chain penetrator cable with penetrators on both ends and approximately 50mm of wire sticking out of the penetrator. See our tutorial on [making cable penetrators](/tutorials/cable-penetrator) for further information on making penetrator cables.
+1. Make a daisy chain penetrator cable with penetrators on both ends and approximately 50mm of wire sticking out of the penetrator. For further instructions, see our tutorial on [making cable penetrators](/tutorials/cable-penetrator/#video-tutorial).
 
-2. Remove Aluminum flange cap from the back of both _Lumen_ Lights that you wish to daisy chain.
+2. Remove aluminum flange cap from the back of both _Lumen_ Lights that you wish to daisy chain.
 
 3. Remove blank penetrator from both _Lumen_ Lights.
 
@@ -146,7 +154,7 @@ The _Lumen_ Light can be daisy chained using the following procedure:
 	-Red: VIN
 	-Yellow: PWM
 	
-8. Reinstall Aluminum flange cap on both _Lumen_ Lights.
+8. Reinstall aluminum flange cap on both _Lumen_ Lights.
 
 # Example Code
 
