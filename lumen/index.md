@@ -88,6 +88,7 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 | | Yellow - Signal |
 |  **Physical**  |
 | ------------|-------------------------|
+| Pressure Rating<sup>1</sup> | 300 m | 985 ft |
 | Overall Length | 61.5 mm | 2.42 in |
 | Overall Diameter   | 32 mm | 1.26 in |
 | Bracket Mounting Hole Spacing | 19 mm | 0.75 in |
@@ -98,6 +99,7 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 | Beam Angle | 150 degrees |
 |----------------------|
 
+[1] Pressure rating is based on design and a conservative safety factor until testing is completed.
 
 ## 2D Drawings
 
