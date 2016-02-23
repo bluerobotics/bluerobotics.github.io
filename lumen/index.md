@@ -139,6 +139,8 @@ The center hole is best used when you can't tighten a screw into the two threade
 
 3. Fasten the screw to your vehicle with a nut or threaded hole. You can loosen and retighten to adjust the angle of the light.
 
+4. Use 133 O-ring (included) to attach the _Lumen_ Light to the _Lumen_ Mount.
+
 ## Using the Threaded Outside Holes
 
 The two threaded holes are best used when you have access to install a screw that tightens into the holes. This applies to most ROVs including the BlueROV. Note that the threaded holes have the same size and spacing as the thruster mounting holes so you can use a thruster mounting bracket or hole pattern.
@@ -148,6 +150,8 @@ The two threaded holes are best used when you have access to install a screw tha
 2. Install two M3x0.5 screws through the holes that you just drilled. We recommend 316 stainless steel screws and they should be roughly 1.5 - 3.0mm longer than the thickness of the part that you are mounting to.
 
 3. Tighten the screws into the _Lumen_ mount. 
+
+4. Use 133 O-ring (included) to attach the _Lumen_ Light to the _Lumen_ Mount.
 
 # Daisy Chain Connection
 
