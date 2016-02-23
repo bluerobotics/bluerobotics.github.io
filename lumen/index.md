@@ -30,7 +30,7 @@ manual-links:
 
 # Introduction
 
-The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at depths of up to 300 meters. The *Lumen* Light can be smoothly dimmed with a servo PWM signal or simply turned on/off with a switch. Up to six lights can be daisy-chained together to be controlled with a single signal, requiring only one penetration into a watertight enclosure.
+The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at depths of up to 300 meters. The *Lumen* Light can be smoothly dimmed with a servo PWM signal or simply turned on/off with a switch. Up to six lights can be daisy-chained together and controlled with a single signal, requiring only one penetration into a watertight enclosure.
 
 ## Quick Start (on/off with no PWM signal source)
 
@@ -122,7 +122,7 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**Lumen Light**																			|
 | --------------------------------------------------------------------------------------------- |
-| Lumen Light Assembly      | [LUMEN-LIGHT-ASSEMBLY-R1.zip](cad/LUMEN-LIGHT-ASSEMBLY-R1.zip)    |
+| Lumen Light Assembly      | [Assem-LUMEN-LIGHT-R1.zip](cad/Assem-LUMEN-LIGHT-R1.zip)    |
 | Lumen Light Mount 	    | [LUMEN-M-MOUNT.zip](cad/LUMEN-M-MOUNT-X1.zip) 				    |
 
 # Installation
@@ -163,12 +163,12 @@ The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_cha
 
 5. Remove blank penetrator from the flange cap.
 
-6. With a thin coating of silicon grease, install an 010 O-ring (included) on the penetrator and tighen it to the flange cap.
+6. With a thin coating of silicon grease, install an 010 O-ring (included) on the penetrator and tighten it to the flange cap.
 
 7. Solder the wires to "daisy chain pads" on the _Lumen_ Light PCB.
-	-Black: GND
-	-Red: VIN
-	-Yellow: PWM
+	- Black: GND
+	- Red: VIN
+	- Yellow: PWM
 	
 8. Reinstall aluminum flange cap on the light.
 
