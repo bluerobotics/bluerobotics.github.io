@@ -4,8 +4,8 @@ title: Lumen Light
 order: 1
 nav:
 - Introduction: introduction
-- - Quick Start: quick-start-with-no-pwm-signal-source
-- - Quick Start: quick-start-with-pwm-signal
+- - Quick Start (On/off): quick-start-on-off-with-no-pwm-signal-source
+- - Quick Start (Dimming): quick-start-dimming-with-pwm-signal
 - Specifications: specifications
 - - Schematic: schematic
 - - Specification Table: specification-table
@@ -32,7 +32,7 @@ manual-links:
 
 The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at depths of up to 300 meters. The *Lumen* Light can be smoothly dimmed with a servo PWM signal or simply turned on/off with a switch. Up to six lights can be daisy-chained together to be controlled with a single signal, requiring only one penetration into a watertight enclosure.
 
-## Quick Start (with no PWM signal source)
+## Quick Start (on/off with no PWM signal source)
 
 1. Connect the power wires to a power source
   - Red: +10-48 volts
@@ -40,7 +40,7 @@ The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at de
 
 2. Connect the signal wire to the the power wire directly or through a switch to turn on to full brightness
 
-## Quick Start (with PWM signal)
+## Quick Start (dimming with PWM signal)
 
 1. Connect the signal wire to the appropriate microcontroller pin
   - Yellow: PWM (3-48 volts)
@@ -77,6 +77,15 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 |--------------|--------------|
 | Maximum Brightness | 1,500 lumens |
 | Color Temperature | 6,200 kelvin | 
+|  **Cable**  |
+| Cable Diameter | 3.8mm | 0.15 in |
+| Cable Length | 1 m | 39 in |
+| Cable Jacket | Black Urethane |
+| Conductor Insulation | Acid-Etched FEP |
+| Conductor Gauge | 20 AWG |
+| Wires | Black - Ground |
+| | Red - Power |
+| | Yellow - Signal |
 |  **Physical**  |
 | ------------|-------------------------|
 | Overall Length | 61.5 mm | 2.42 in |
