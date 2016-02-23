@@ -92,8 +92,8 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 | Overall Diameter   | 32 mm | 1.26 in |
 | Bracket Mounting Hole Spacing | 19 mm | 0.75 in |
 | Bracket Screw Size | M3 |
-| Weight in Air | g    |   lb     |
-| Weight in Water | g    |   lb   |
+| Weight in Air (w/ 1m cable) | 82 g    |   2.9 oz     |
+| Weight in Water (w/ 1m cable) | 32 g    |  1.1 oz   |
 |----------------------|
 
 
