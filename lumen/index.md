@@ -78,7 +78,7 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 | Maximum Brightness | 1,500 lumens |
 | Color Temperature | 6,200 kelvin | 
 |  **Cable**  |
-| Cable Diameter | 3.8mm | 0.15 in |
+| Cable Diameter | 3.8 mm | 0.15 in |
 | Cable Length | 1 m | 39 in |
 | Cable Jacket | Black Urethane |
 | Conductor Insulation | Acid-Etched FEP |
@@ -92,8 +92,10 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 | Overall Diameter   | 32 mm | 1.26 in |
 | Bracket Mounting Hole Spacing | 19 mm | 0.75 in |
 | Bracket Screw Size | M3 |
-| Weight in Air (w/ 1m cable) | 82 g    |   2.9 oz     |
+| Weight in Air (w/ 1m cable) | 82 g    |   2.9 oz    |
 | Weight in Water (w/ 1m cable) | 32 g    |  1.1 oz   |
+| Maximum Temperature when Run in Air | 55&deg; C | 130&deg; F
+| Beam Angle | 150 degrees |
 |----------------------|
 
 
