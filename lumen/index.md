@@ -13,18 +13,17 @@ nav:
 - - 3D Model: d-model
 - Installation: installation
 - - Using the Center Hole: using-the-center-hole
-- - Using the Drilled and Tapped Outside Holes: using-the-drilled-and-tapped-outside-holes
-- Daisy Chain: daisy-chain
+- - Using the Threaded Outside Holes: using-the-threaded-outside-holes
+- Daisy Chain Connection: daisy-chain-connection
 - Example Code: example-code
 - - Arduino: arduino
 
 store-links:
-- Bar30:  https://www.bluerobotics.com/store/electronics/bar30-sensor-r1/
-- Celsius: https://www.bluerobotics.com/store/electronics/celsius-sensor-r1/
+- Lumen:  https://www.bluerobotics.com/store/electronics/lumen-light-r1/
 
 manual-links:
-- Celsius Temperature Sensor: /celsius
-- Bar30 Pressure Sensor: /bar30
+- Thrusters: /thrusters
+- BlueROV: /bluerov
 ---
 
 <img src="/lumen/cad/lumen-1.png" class="img-responsive" style="max-width:900px"  />
@@ -36,7 +35,7 @@ The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at de
 ## Quick Start (with no PWM signal source)
 
 1. Connect the power wires to a power source
-  - Red: + 10 - 48 volts
+  - Red: +10-48 volts
   - Black: Ground
 
 2. Connect the signal wire to the the power wire directly or through a switch to turn on to full brightness
@@ -44,10 +43,10 @@ The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at de
 ## Quick Start (with PWM signal)
 
 1. Connect the signal wire to the appropriate microcontroller pin
-  - Yellow: PWM (3 - 48 volts)
+  - Yellow: PWM (3-48 volts)
 
 2. Connect the power wires to a power source
-  - Red: + 10 - 48 volts
+  - Red: +10-48 volts
   - Black: Ground
 
 3. Provide a servo PWM pulse from 1100 &mu;s (off) to 1900 &mu;s (brightest) 
@@ -84,20 +83,22 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 | Overall Diameter   | 32 mm | 1.26 in |
 | Bracket Mounting Hole Spacing | 19 mm | 0.75 in |
 | Bracket Screw Size | M3 |
+| Weight in Air | g    |   lb     |
+| Weight in Water | g    |   lb   |
 |----------------------|
 
 
-##2D Drawings
+## 2D Drawings
 
-###Lumen Light Assembly
+### Lumen Light Assembly
 
 <img src="/lumen/cad/lumen-light-R1.PNG" class="img-responsive" style="max-width:900px" />
 
-###Lumen Light Mount
+### Lumen Light Mount
 
 <img src="/lumen/cad/lumen-mount.PNG" class="img-responsive" style="max-width:900px" />
 
-##3D Model
+## 3D Model
 
 All 3D models are provided in zip archives containing the follow file types:
 
@@ -111,50 +112,52 @@ All 3D models are provided in zip archives containing the follow file types:
 | Lumen Light Assembly      | [LUMEN-LIGHT-ASSEMBLY-R1.zip](cad/LUMEN-LIGHT-ASSEMBLY-R1.zip)    |
 | Lumen Light Mount 	    | [LUMEN-M-MOUNT.zip](cad/LUMEN-M-MOUNT-X1.zip) 				    |
 
-#Installation
+# Installation
 
 The _Lumen_ Light can be installed two different ways using the _Lumen_ Mount.
 
 ## Using the Center Hole
 
-1. Drill one hole between 3.15mm and 3.3mm in diameter on the part that you wish to mount the light.
+The center hole is best used when you can't tighten a screw into the two threaded holes. Use a flat head screw to fit in the countersink in the mount.
 
-2. Install an M3X0.5 316 stainless steel flat-head socket cap screw through the countersunk hole in the center of the _Lumen_ Mount.
+1. Drill one hole between 3.1mm and 3.3mm in diameter on the part that you wish to mount the light.
 
-3. Pass the M3X0.5 screw throught the hole in your part and attach using a 316 stainless steel lock-nut.
+2. Install an M3x0.5 flat-head screw in the mount. We recommend using 316 stainless steel screws.
 
-## Using the Drilled and Tapped Outside Holes
+3. Fasten the screw to your vehicle with a nut or threaded hole. You can loosen and retighten to adjust the angle of the light.
 
-1. Drill two holes between 3.15mm and 3.30mm in diameter 19mm apart on the part you wish to mount the light.
+## Using the Threaded Outside Holes
 
-2. Pass two M3X0.5 316 stainless steel screws through the holes that you just drilled.
+The two threaded holes are best used when you have access to install a screw that tightens into the holes. This applies to most ROVs including the BlueROV. Note that the threaded holes have the same size and spacing as the thruster mounting holes so you can use a thruster mounting bracket or hole pattern.
 
-	-Note: the screws should be between 1.5 - 3.0mm longer than the thickness of the part that you are mounting to.
+1. Drill two holes between 3.1mm and 3.3mm in diameter 19mm apart on the part you wish to mount the light.
 
-3. Thread the screws into the _Lumen_ Mounts 
+2. Install two M3x0.5 screws through the holes that you just drilled. We recommend 316 stainless steel screws and they should be roughly 1.5 - 3.0mm longer than the thickness of the part that you are mounting to.
 
-#Daisy Chain
+3. Tighten the screws into the _Lumen_ mount. 
 
-The _Lumen_ Light can be daisy chained using the following procedure:
+# Daisy Chain Connection
 
-1. Make a daisy chain penetrator cable with penetrators on both ends and approximately 50mm of wire sticking out of the penetrator. For further instructions, see our tutorial on [making cable penetrators](/tutorials/cable-penetrator/#video-tutorial).
+The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_chain_%28electrical_engineering%29) using the following procedure:
 
-2. Remove aluminum flange cap from the back of both _Lumen_ Lights that you wish to daisy chain.
+1. Measure wire length needed from one light to the other and cut the cable, leaving several inches of excess.
 
-3. Remove blank penetrator from both _Lumen_ Lights.
+2. Install the blue penetrator to the end of the cable, leaving approximately 2" of exposed wires sticking out of the penetrator. For further instructions, see our tutorial on [making cable penetrators](/tutorials/cable-penetrator/#video-tutorial).
 
-4. Install 010 O-rings on both penetrators on daisy chain cable.
+3. Strip about 2mm of insulation from the end of each conductor. We recommend tinning the ends with solder to make attachment easier.
 
-5. Install daisy chain penetrators on both _Lumen_ Lights where the blank penetrator was. 
+4. Remove the aluminum flange cap from the back of the other light.
 
-6. Fully tighten daisy chain penetrator on both _Lumen_ Lights.
+5. Remove blank penetrator from the flange cap.
 
-7. Solder wires to _Lumen_ Light PCB.
+6. With a thin coating of silicon grease, install an 010 O-ring (included) on the penetrator and tighen it to the flange cap.
+
+7. Solder the wires to "daisy chain pads" on the _Lumen_ Light PCB.
 	-Black: GND
 	-Red: VIN
 	-Yellow: PWM
 	
-8. Reinstall aluminum flange cap on both _Lumen_ Lights.
+8. Reinstall aluminum flange cap on the light.
 
 # Example Code
 
