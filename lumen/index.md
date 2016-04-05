@@ -105,7 +105,7 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 
 ### Lumen Light Assembly
 
-<img src="/lumen/cad/lumen-light-R1.PNG" class="img-responsive" style="max-width:900px" />
+<img src="/lumen/cad/Assem-LUMEN-LIGHT-R1-2D.PNG" class="img-responsive" style="max-width:900px" />
 
 ### Lumen Light Mount
 
