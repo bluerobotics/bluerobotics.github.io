@@ -163,30 +163,36 @@ The two threaded holes are best used when you have access to install a screw tha
 
 The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_chain_%28electrical_engineering%29) using the following procedure:
 
-1. Measure wire length needed from one light to the other and cut the cable, leaving several inches of excess.
+1. Measure the distance between where you want to mount the two lights, as you plan on routing the cable between them, then cut cable to length. We recommend leaving several inches excess.
 
-2. Strip approximately 50 mm of jacket, then strip and tin 2-4mm of each individual cable. 
+2. [Strip approximately 50 mm of jacket](http://docs.bluerobotics.com/tutorials/cable-stripping/), then strip and tin 2-4mm of conductor insulation from each conductor. 
 
-3. Twist the wires together and install into the blue penetrator. For further instructions, see our tutorial on [making cable penetrators](/tutorials/cable-penetrator/#video-tutorial).
+3. Twist the wires together and install into the blue penetrator. 
 
 	<img src="/lumen/cad/lumen-tutorial-1-arrows.PNG" class="img-responsive" style="max-width:700px" />
+	
+4. Apply marine epoxy to the conductor jackets when the cable jacket is approximately even with the top of the penetrator.
 
-4. Remove the aluminum flange cap from the back of the other light.
+5. Insert the cable the rest of the way into the penetrator.
 
-5. Remove blank penetrator from the flange cap.
+6. Apply marine epoxy to the penetrator until the epoxy is even with the top of the penetrator.
 
-6. With a thin coating of silicon grease, install an 010 O-ring (included) on the penetrator and tighten it to the flange cap.
+7. Remove the aluminum flange cap from the back of the other light.
+
+8. Remove blank penetrator from the flange cap.
+
+9. Apply a thin coating of silicone grease to a 010 O-ring, install O-ring on penetrator, and then tighten the penetrator to the flange cap.
 
 	<img src="/lumen/cad/lumen-tutorial-2-arrows.PNG" class="img-responsive" style="max-width:700px" />
 
-7. Solder the wires to "daisy chain pads" on the _Lumen_ Light PCB.
+10. Solder the wires to "daisy chain pads" on the _Lumen_ Light PCB.
 	- Black: GND
 	- Red: VIN
 	- Yellow: PWM
 
 	<img src="/lumen/cad/lumen-tutorial-3.PNG" class="img-responsive" style="max-width:700px" />	
 	
-8. Reinstall aluminum flange cap on the light.
+11. Reinstall aluminum flange cap on the light.
 
 # Example Code
 
