@@ -96,7 +96,7 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 | Weight in Air (w/ 1m cable) | 82 g    |   2.9 oz    |
 | Weight in Water (w/ 1m cable) | 32 g    |  1.1 oz   |
 | Maximum Temperature when Run in Air | 55&deg; C | 130&deg; F
-| Beam Angle | 150 degrees |
+| Beam Angle | 135 degrees in water |
 |----------------------|
 
 [1] Pressure rating is based on design and a conservative safety factor until testing is completed.
@@ -135,11 +135,17 @@ The center hole is best used when you can't tighten a screw into the two threade
 
 1. Drill one hole between 3.1mm and 3.3mm in diameter on the part that you wish to mount the light.
 
+	<img src="/lumen/cad/lumen-tutorial-6-arrows.PNG" class="img-responsive" style="max-width:600px" />
+
 2. Install an M3x0.5 flat-head screw in the mount. We recommend using 316 stainless steel screws.
+
+	<img src="/lumen/cad/lumen-tutorial-5.PNG" class="img-responsive" style="max-width:600px" />
 
 3. Fasten the screw to your vehicle with a nut or threaded hole. You can loosen and retighten to adjust the angle of the light.
 
 4. Use 133 O-ring (included) to attach the _Lumen_ Light to the _Lumen_ Mount.
+
+	<img src="/lumen/cad/lumen-tutorial-4.PNG" class="img-responsive" style="max-width:600px" />
 
 ## Using the Threaded Outside Holes
 
@@ -159,9 +165,11 @@ The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_cha
 
 1. Measure wire length needed from one light to the other and cut the cable, leaving several inches of excess.
 
-2. Install the blue penetrator to the end of the cable, leaving approximately 2" of exposed wires sticking out of the penetrator. For further instructions, see our tutorial on [making cable penetrators](/tutorials/cable-penetrator/#video-tutorial).
+2. Strip approximately 50 mm of jacket, then strip and tin 2-4mm of each individual cable. 
 
-3. Strip about 2mm of insulation from the end of each conductor. We recommend tinning the ends with solder to make attachment easier.
+3. Twist the wires together and install into the blue penetrator. For further instructions, see our tutorial on [making cable penetrators](/tutorials/cable-penetrator/#video-tutorial).
+
+	<img src="/lumen/cad/lumen-tutorial-1-arrows.PNG" class="img-responsive" style="max-width:700px" />
 
 4. Remove the aluminum flange cap from the back of the other light.
 
@@ -169,10 +177,14 @@ The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_cha
 
 6. With a thin coating of silicon grease, install an 010 O-ring (included) on the penetrator and tighten it to the flange cap.
 
+	<img src="/lumen/cad/lumen-tutorial-2-arrows.PNG" class="img-responsive" style="max-width:700px" />
+
 7. Solder the wires to "daisy chain pads" on the _Lumen_ Light PCB.
 	- Black: GND
 	- Red: VIN
 	- Yellow: PWM
+
+	<img src="/lumen/cad/lumen-tutorial-3.PNG" class="img-responsive" style="max-width:700px" />	
 	
 8. Reinstall aluminum flange cap on the light.
 
