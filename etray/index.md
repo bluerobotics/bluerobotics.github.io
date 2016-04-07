@@ -95,4 +95,4 @@ All 3D models are provided in zip archives containing the follow file types:
 
 8. Install two M3x8 screws into the two holes of the front tray. Tighten the screws until they have slightly indented the front tray.
 
-That is it!
+9. 
