@@ -53,7 +53,7 @@ All 3D models are provided in zip archives containing the follow file types:
 - STEP (.step)
 - STL (.stl)
 
-|		**Electronics Tray**																			|
+|		**Electronics Tray**																    |
 | --------------------------------------------------------------------------------------------- |
 | Electronics Tray Assembly     | 
 
@@ -61,7 +61,21 @@ All 3D models are provided in zip archives containing the follow file types:
 
 ## Populating the main tray
 
-1. 
+1. Install the 6 ESCs, with the power and motor wires stripped and tinned, using zip ties. 
+
+2. Install the black terminal blocks
+
+3. Install the white terminal blocks
+
+4. Install your autopilot/tether board/computer 
+
+5. Connect the ESC power wires to the black terminal block
+
+6. Connect the ESC motor wires to the white terminal block
+
+7. Connect the signal wires from the ESCs to the autopilot
+
+8. 
 
 ## Putting it All Together
 
