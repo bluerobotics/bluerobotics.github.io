@@ -145,7 +145,7 @@ The center hole is best used when you can't tighten a screw into the two threade
 
 4. Use 133 O-ring (included) to attach the _Lumen_ Light to the _Lumen_ Mount.
 
-	
+	<img src="/lumen/cad/lumen-tutorial-14.PNG" class="img-responsive" style="max-width:600px" />
 
 ## Using the Threaded Outside Holes
 
@@ -162,6 +162,8 @@ The two threaded holes are best used when you have access to install a screw tha
 3. Tighten the screws into the _Lumen_ mount. 
 
 4. Use 133 O-ring (included) to attach the _Lumen_ Light to the _Lumen_ Mount.
+
+	<img src="/lumen/cad/lumen-tutorial-14.PNG" class="img-responsive" style="max-width:600px" />
 
 # Daisy Chain Connection
 
@@ -186,8 +188,6 @@ The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_cha
 	
 	<img src="/lumen/cad/lumen-tutorial-3.PNG" class="img-responsive" style="max-width:700px" />
 	This is what the bottom should look like
-	
-6. Place the penetrator horizontally on a sturdy surface and allow 24 hours for it to fully cure.
 	
 7. Apply marine epoxy to the penetrator until the epoxy is even with the top of the penetrator.
 
@@ -214,9 +214,7 @@ The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_cha
 
 	<img src="/lumen/cad/Lumen-soldering.PNG" class="img-responsive" style="max-width:700px" />	
 	
-13. Reinstall aluminum flange cap on the light.
-
-That's it!
+13. Reinstall aluminum flange cap on the light, and that's it!
 
 	<img src="/lumen/cad/lumen-tutorial-9.PNG" class="img-responsive" style="max-width:700px" />	
 
