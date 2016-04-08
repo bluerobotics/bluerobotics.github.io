@@ -26,7 +26,7 @@ manual-links:
 - BlueROV: /bluerov
 ---
 
-<img src="/lumen/cad/lumen-1.png" class="img-responsive" style="max-width:900px"  />
+<img src="/lumen/cad/lumen-r2-1.png" class="img-responsive" style="max-width:900px"  />
 
 # Introduction
 
@@ -135,17 +135,17 @@ The center hole is best used when you can't tighten a screw into the two threade
 
 1. Drill one hole between 3.1mm and 3.3mm in diameter on the part that you wish to mount the light.
 
-	<img src="/lumen/cad/lumen-tutorial-6-arrows.PNG" class="img-responsive" style="max-width:600px" />
+	<img src="/lumen/cad/lumen-tutorial-11.PNG" class="img-responsive" style="max-width:600px" />
 
 2. Install an M3x0.5 flat-head screw in the mount. We recommend using 316 stainless steel screws.
 
-	<img src="/lumen/cad/lumen-tutorial-5.PNG" class="img-responsive" style="max-width:600px" />
+	<img src="/lumen/cad/lumen-tutorial-12.PNG" class="img-responsive" style="max-width:600px" />
 
 3. Fasten the screw to your vehicle with a nut or threaded hole. You can loosen and retighten to adjust the angle of the light.
 
 4. Use 133 O-ring (included) to attach the _Lumen_ Light to the _Lumen_ Mount.
 
-	<img src="/lumen/cad/lumen-tutorial-4.PNG" class="img-responsive" style="max-width:600px" />
+	
 
 ## Using the Threaded Outside Holes
 
@@ -153,7 +153,11 @@ The two threaded holes are best used when you have access to install a screw tha
 
 1. Drill two holes between 3.1mm and 3.3mm in diameter 19mm apart on the part you wish to mount the light.
 
+	<img src="/lumen/cad/lumen-tutorial-10.PNG" class="img-responsive" style="max-width:600px" />
+
 2. Install two M3x0.5 screws through the holes that you just drilled. We recommend 316 stainless steel screws and they should be roughly 1.5 - 3.0mm longer than the thickness of the part that you are mounting to.
+
+	<img src="/lumen/cad/lumen-tutorial-13.PNG" class="img-responsive" style="max-width:600px" />
 
 3. Tighten the screws into the _Lumen_ mount. 
 
@@ -173,26 +177,48 @@ The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_cha
 	
 4. Apply marine epoxy to the conductor jackets when the cable jacket is approximately even with the top of the penetrator.
 
-5. Insert the cable the rest of the way into the penetrator.
+	<img src="/lumen/cad/lumen-tutorial-1.PNG" class="img-responsive" style="max-width:700px" />
 
-6. Apply marine epoxy to the penetrator until the epoxy is even with the top of the penetrator.
+5. Insert the cable the rest of the way into the penetrator, and twist back and forth to maximize the area the epoxy covers.
 
-7. Remove the aluminum flange cap from the back of the other light.
+	<img src="/lumen/cad/lumen-tutorial-2.PNG" class="img-responsive" style="max-width:700px" />
+	This is what the top should look like
+	
+	<img src="/lumen/cad/lumen-tutorial-3.PNG" class="img-responsive" style="max-width:700px" />
+	This is what the bottom should look like
+	
+6. Place the penetrator horizontally on a sturdy surface and allow 24 hours for it to fully cure.
+	
+7. Apply marine epoxy to the penetrator until the epoxy is even with the top of the penetrator.
 
-8. Remove blank penetrator from the flange cap.
+	<img src="/lumen/cad/lumen-tutorial-4.PNG" class="img-responsive" style="max-width:700px" />
 
-9. Apply a thin coating of silicone grease to a 010 O-ring, install O-ring on penetrator, and then tighten the penetrator to the flange cap.
+8. Allow 24 hours for the marine epoxy to fully cure
+	
+9. Remove blank penetrator from the flange cap.	
+
+	<img src="/lumen/cad/lumen-tutorial-5.PNG" class="img-responsive" style="max-width:700px" />
+	
+10. Remove the aluminum flange cap from the back of the other light.
+
+	<img src="/lumen/cad/lumen-tutorial-6.PNG" class="img-responsive" style="max-width:700px" />
+
+11. Apply a thin coating of silicone grease to a 010 O-ring, install O-ring on penetrator, and then tighten the penetrator to the flange cap.
 
 	<img src="/lumen/cad/lumen-tutorial-2-arrows.PNG" class="img-responsive" style="max-width:700px" />
 
-10. Solder the wires to "daisy chain pads" on the _Lumen_ Light PCB.
+12. Solder the wires to "daisy chain pads" on the _Lumen_ Light PCB.
 	- Black: GND
 	- Red: VIN
 	- Yellow: PWM
 
-	<img src="/lumen/cad/lumen-tutorial-3.PNG" class="img-responsive" style="max-width:700px" />	
+	<img src="/lumen/cad/Lumen-soldering.PNG" class="img-responsive" style="max-width:700px" />	
 	
-11. Reinstall aluminum flange cap on the light.
+13. Reinstall aluminum flange cap on the light.
+
+That's it!
+
+	<img src="/lumen/cad/lumen-tutorial-9.png" class="img-responsive" style="max-width:700px" />	
 
 # Example Code
 
