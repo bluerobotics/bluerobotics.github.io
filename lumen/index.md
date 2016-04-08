@@ -218,7 +218,7 @@ The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_cha
 
 That's it!
 
-	<img src="/lumen/cad/lumen-tutorial-9.png" class="img-responsive" style="max-width:700px" />	
+	<img src="/lumen/cad/lumen-tutorial-9.PNG" class="img-responsive" style="max-width:700px" />	
 
 # Example Code
 
