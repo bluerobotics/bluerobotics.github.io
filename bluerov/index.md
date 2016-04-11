@@ -158,7 +158,7 @@ The following specifications are given for the BlueROV with T100 Thrusters and B
 
 ## Recommended Electronics and Software
 
-We recommend the open-source **bluerov-ros-pkg** software. For recommended electronics, please see the [bluerov-ros-pkg documentation](https://github.com/bluerobotics/bluerov-ros-pkg/blob/master/docs/index.md).
+We recommend the open-source **ArduSub** software. You can read more about it on the [ArduSub documentation site](http://ardusub.bluerobotics.com/).
 
 ## 3D Model
 
@@ -260,7 +260,7 @@ The above shows the suggested penetrator configuration for the Blue ROV, with th
 
 ## Electronics Tray Assembly
 
-The BlueROV comes with an electronics tray designed to fit the ESCs, a Raspberry Pi 1/2 computer, and an 3DR APM 2.6 autopilot. It also has a power distribution terminal block and straps to hold a battery.
+The BlueROV comes with an electronics tray designed to fit the ESCs, a Raspberry Pi 1/2/3 computer, and an 3DR PixHawk autopilot. It also has a power distribution terminal block and straps to hold a battery.
 
 
 <img src="/assets/images/tutorials/bluerov-manual/Electronics-tray/elec-step-1.png" class="img-responsive" style="max-width:600px" />
