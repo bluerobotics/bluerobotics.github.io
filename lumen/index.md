@@ -4,7 +4,7 @@ title: Lumen Light
 order: 1
 nav:
 - Introduction: introduction
-- - Quick Start (On/off): quick-start-on-off-with-no-pwm-signal-source
+- - Quick Start (On/off): quick-start-onoff-with-no-pwm-signal-source
 - - Quick Start (Dimming): quick-start-dimming-with-pwm-signal
 - Specifications: specifications
 - - Schematic: schematic
@@ -38,7 +38,7 @@ The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at de
   - Red: +10-48 volts
   - Black: Ground
 
-2. Connect the signal wire to the the power wire directly or through a switch to turn on to full brightness
+2. Connect the yellow signal wire to the the power wire directly or through a switch to turn on to full brightness
 
 ## Quick Start (dimming with PWM signal)
 
@@ -89,7 +89,7 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 |  **Physical**  |
 | ------------|-------------------------|
 | Pressure Rating<sup>1</sup> | 300 m | 985 ft |
-| Overall Length | 61.5 mm | 2.42 in |
+| Overall Length | 64.8 mm | 2.55 in |
 | Overall Diameter   | 32 mm | 1.26 in |
 | Bracket Mounting Hole Spacing | 19 mm | 0.75 in |
 | Bracket Screw Size | M3 |
@@ -149,7 +149,7 @@ The center hole is best used when you can't tighten a screw into the two threade
 
 ## Using the Threaded Outside Holes
 
-The two threaded holes are best used when you have access to install a screw that tightens into the holes. This applies to most ROVs including the BlueROV. Note that the threaded holes have the same size and spacing as the thruster mounting holes so you can use a thruster mounting bracket or hole pattern.
+The two threaded holes are best used when you have access to install a screw that tightens into the holes. This applies to most ROVs. Note that the threaded holes have the same size and spacing as the thruster mounting holes so you can use a thruster mounting bracket or hole pattern.
 
 1. Drill two holes between 3.1mm and 3.3mm in diameter 19mm apart on the part you wish to mount the light.
 
@@ -169,14 +169,16 @@ The two threaded holes are best used when you have access to install a screw tha
 
 The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_chain_%28electrical_engineering%29) using the following procedure:
 
-1. Measure the distance between where you want to mount the two lights, as you plan on routing the cable between them, then cut cable to length. We recommend leaving several inches excess.
+1. Measure the distance between where you want to mount the two lights, as you plan on routing the cable between them, then cut cable to length from one _Lumen_ Light. We recommend leaving several inches excess.
 
-2. [Strip approximately 50 mm of jacket](http://docs.bluerobotics.com/tutorials/cable-stripping/), then strip and tin 2-4mm of conductor insulation from each conductor. 
+2. [Strip approximately 50 mm of jacket](http://docs.bluerobotics.com/tutorials/cable-stripping/), then strip and tin 2-4mm of conductor insulation from each conductor.
 
+	<img src="/lumen/cad/lumen-wire-annotated.PNG" class="img-responsive" style="max-width:700px" />
+	
 3. Twist the wires together and install into the blue penetrator. 
 
-	<img src="/lumen/cad/lumen-tutorial-1-arrows.PNG" class="img-responsive" style="max-width:700px" />
-	
+	<img src="/lumen/cad/lumen-tutorial-16.PNG" class="img-responsive" style="max-width:700px" />
+		
 4. Apply marine epoxy to the conductor jackets when the cable jacket is approximately even with the top of the penetrator.
 
 	<img src="/lumen/cad/lumen-tutorial-1.PNG" class="img-responsive" style="max-width:700px" />
@@ -188,6 +190,8 @@ The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_cha
 	
 	<img src="/lumen/cad/lumen-tutorial-3.PNG" class="img-responsive" style="max-width:700px" />
 	This is what the bottom should look like
+
+6. Set cable flat on a sturdy surface and allow the marine epoxy approximately 2 hours to dry.
 	
 7. Apply marine epoxy to the penetrator until the epoxy is even with the top of the penetrator.
 
@@ -195,17 +199,17 @@ The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_cha
 
 8. Allow 24 hours for the marine epoxy to fully cure
 	
-9. Remove blank penetrator from the flange cap.	
+9. Remove blank penetrator from the flange cap, from the _Lumen_ that you have not been working on.	
 
 	<img src="/lumen/cad/lumen-tutorial-5.PNG" class="img-responsive" style="max-width:700px" />
 	
-10. Remove the aluminum flange cap from the back of the other light.
+10. Remove the aluminum flange cap from the back of the _Lumen_ that you just removed the blank penetrator from.
 
 	<img src="/lumen/cad/lumen-tutorial-6.PNG" class="img-responsive" style="max-width:700px" />
+	
+11. Apply a thin coating of silicone grease to a 010 O-ring (included), install O-ring on penetrator, and then tighten the penetrator to the flange cap where the blank penetrator used to be. Tighten using a wrench to ensure the penetrator is tight.
 
-11. Apply a thin coating of silicone grease to a 010 O-ring, install O-ring on penetrator, and then tighten the penetrator to the flange cap.
-
-	<img src="/lumen/cad/lumen-tutorial-2-arrows.PNG" class="img-responsive" style="max-width:700px" />
+	<img src="/lumen/cad/lumen-tutorial-15.PNG" class="img-responsive" style="max-width:700px" />
 
 12. Solder the wires to "daisy chain pads" on the _Lumen_ Light PCB.
 	- Black: GND
