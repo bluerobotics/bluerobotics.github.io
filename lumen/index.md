@@ -171,7 +171,7 @@ The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_cha
 
 1. Measure the distance between where you want to mount the two lights, as you plan on routing the cable between them, then cut cable to length from one _Lumen_ Light. We recommend leaving several inches excess.
 
-2. [Strip approximately 50 mm of jacket](http://docs.bluerobotics.com/tutorials/cable-stripping/), then strip and tin 2-4mm of conductor insulation from each conductor.
+2. [Strip approximately 50 mm of jacket](http://docs.bluerobotics.com/tutorials/cable-stripping/) from the wire you just cut, then strip and tin 2-4mm of conductor insulation from each conductor.
 
 	<img src="/lumen/cad/lumen-wire-annotated.PNG" class="img-responsive" style="max-width:700px" />
 	
@@ -186,20 +186,20 @@ The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_cha
 5. Insert the cable the rest of the way into the penetrator, and twist back and forth to maximize the area the epoxy covers.
 
 	<img src="/lumen/cad/lumen-tutorial-2.PNG" class="img-responsive" style="max-width:700px" />
-	This is what the top should look like
+	_This is what the top should look like_
 	
 	<img src="/lumen/cad/lumen-tutorial-3.PNG" class="img-responsive" style="max-width:700px" />
-	This is what the bottom should look like
+	_This is what the bottom should look like_
 
 6. Set cable flat on a sturdy surface and allow the marine epoxy approximately 2 hours to dry.
 	
-7. Apply marine epoxy to the penetrator until the epoxy is even with the top of the penetrator.
+7. Fill the penetrator hole with the epoxy. Move the cable from side to side within the hole to ensure the epoxy is filling any gaps. Use a vice or other method to hold the penetrator upright while the epoxy cures.
 
 	<img src="/lumen/cad/lumen-tutorial-4.PNG" class="img-responsive" style="max-width:700px" />
 
 8. Allow 24 hours for the marine epoxy to fully cure
 	
-9. Remove blank penetrator from the flange cap, from the _Lumen_ that you have not been working on.	
+9. Remove blank penetrator from the flange cap of the _Lumen_ that you have not been working on.	
 
 	<img src="/lumen/cad/lumen-tutorial-5.PNG" class="img-responsive" style="max-width:700px" />
 	
