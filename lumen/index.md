@@ -59,7 +59,7 @@ The [EagleCAD files](https://github.com/bluerobotics/lumen) for the schematic an
 
 [<img src="/lumen/cad/lumen-schematic.png" class="img-responsive" style="max-width:300px" />](/lumen/cad/lumen-schematic.png)
 
-[Lumen Schematic.png](/lumen/cad/lumen-schematic.png)
+[Lumen Schematic.png](/lumen/cad/Lumen-Schematic.png)
 
 ## Specification Table
 
