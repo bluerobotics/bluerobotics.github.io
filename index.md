@@ -37,8 +37,6 @@ You can use the menu bar at the top to find the product you are looking for and 
   		<a href="/bluerov/">BlueROV <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
-</div>
-<div class="row">
   <div class="col-sm-4 col-md-4">
   	<div class="tile" style="background-image:url(/assets/images/documentation/m100-2.png)">
   		<a href="/thrusters/motors/">M100 Motor <i class="fa fa-chevron-circle-right"></i></a>
@@ -50,12 +48,15 @@ You can use the menu bar at the top to find the product you are looking for and 
   	</div>
   </div>
   <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/documentation/lumen-1.png)">
+      <a href="/lumen/"><em>Lumen</em> Subsea Light <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
   	<div class="tile" style="background-image:url(/assets/images/documentation/besc-3-new.png)">
   		<a href="/besc/">Basic ESC <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
-</div>
-<div class="row">
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/blueesc-inside.jpg)">
       <a href="/bluesc/">BlueESC <i class="fa fa-chevron-circle-right"></i></a>
@@ -71,8 +72,6 @@ You can use the menu bar at the top to find the product you are looking for and 
       <a href="/vent/">Vent <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
-</div>
-<div class="row">
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/cable-penetrator-1-r2.png)">
       <a href="/tutorials/cable-penetrator/">Cable Penetrator <i class="fa fa-chevron-circle-right"></i></a>
@@ -88,8 +87,6 @@ You can use the menu bar at the top to find the product you are looking for and 
       <a href="/celsius/"><em>Celsius</em> Temp Sensor <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
-</div>
-<div class="row">
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/foam-1.png)">
       <a href="/float">Subsea Buoyancy Foam <i class="fa fa-chevron-circle-right"></i></a>
