@@ -30,7 +30,7 @@ manual-links:
 # Introduction
 
 The Fathom Tether is a high quality tether cable designed specifically for ROVs and other subsea applications. 
-It is neutrally buoyant, has 500+ lb breaking strength, and is embedded with water-blocking fibers to seal any leaks. The tether has a diameter of 7.6mm and is slimmer than the vast majority of comparable ROV tethers.
+It is neutrally buoyant, has 200+ lb breaking strength, and is embedded with water-blocking fibers to seal any leaks. The tether has a diameter of 7.6mm and is slimmer than the vast majority of comparable ROV tethers.
 
 We put a lot of time into making sure that it has impeccable electrical qualities. The tether carries four unshielded twisted pairs (UTP) of 26AWG wire. 
 These pairs are colored and arranged in the same fashion as a Cat5 networking cable including cross-talk resistance. Each pair is individually jacketed inside the cable to maintain reliable properties and minimize interference between each pair of wires.
@@ -43,20 +43,16 @@ These pairs are colored and arranged in the same fashion as a Cat5 networking ca
 | ------------- | --------- |
 | **Item** | **Value** |
 | Tether Diameter | 7.6 mm | 0.30 in |
-| Weight | XX kg/m | XX lbs/ft
-| Density | XX kg/m<sup>3</sup> | XX lbs/ft<sup>3</sup>
+| Weight | 0.22 kg/m | 0.03 lbs/ft
+| Density | 1000 kg/m<sup>3</sup> | 62.43 lbs/ft<sup>3</sup>
 | Wire Gauge   | 26 AWG |
-| Pull Strength | XX N | XX lb<sub>f</sub> |
-| Breaking Strength | XX N | XX lb<sub>f</sub> |
+| Pull Strength | 355 N | 80 lb<sub>f</sub> |
+| Breaking Strength | 890 N | 200 lb<sub>f</sub> |
 | ------------- | --------- |
 
 ## Section View
 
-Picture of cleanly cut section
-
-## Twisted Pairs
-
-Labeled close up picture of the twisted pairs
+<img src="/fathom/cad/Tether-Cross-Section.PNG" class="img-responsive" style="max-width:900px"  />
 
 # Installation
 
@@ -92,7 +88,7 @@ The _Fathom_ Tether can be installed into a watertight enclosure using the follo
 
 	<img src="/fathom/cad/tether-tutorial-9.PNG" class="img-responsive" style="max-width:700px"  />
 	
-9. Find a stranded pair and grab it near the end which has been cut.
+9. Find a stranded pair and grab it near the end.
 
 	<img src="/fathom/cad/tether-tutorial-10.PNG" class="img-responsive" style="max-width:700px"  />
 	
@@ -100,35 +96,37 @@ The _Fathom_ Tether can be installed into a watertight enclosure using the follo
 
 	<img src="/fathom/cad/tether-tutorial-11.PNG" class="img-responsive" style="max-width:700px"  />
 	
+11. Cut the excess binding.
+	
 	<img src="/fathom/cad/tether-tutorial-12.PNG" class="img-responsive" style="max-width:700px"  />
 	
-11. With the 26 AWG slot on a set of wire strippers, remove the insulation from each conductor.
+12. With the 26 AWG slot on a set of wire strippers, remove the insulation from each conductor.
 
 	<img src="/fathom/cad/tether-tutorial-13.PNG" class="img-responsive" style="max-width:700px"  />
 	
-12. Clean the jacket and the tether penetrator that will touch epoxy with isopropyl alcohol.
+13. Clean the jacket and the tether penetrator that will touch epoxy with isopropyl alcohol.
 	
-13. Twist the Kevlar and the conductors so that they will slide through the penetrator.
+14. Twist the Kevlar and the conductors so that they will slide through the penetrator.
 
 	<img src="/fathom/cad/tether-tutorial-14.PNG" class="img-responsive" style="max-width:700px"  />
 	
-14. Apply a small amount of super glue to the edge of the cable jacket. Optionally, you can apply "CA kicker" inside the penetrator so that the glue will dry quickly.
+15. Apply a small amount of super glue to the edge of the tether jacket. Optionally, you can apply "CA kicker" inside the penetrator so that the glue will dry quickly.
 
-15. Insert the tether into the penetrator, allow time for the super glue to set.
+16. Insert the tether into the penetrator, allow time for the super glue to set.
 
 	<img src="/fathom/cad/tether-tutorial-15.PNG" class="img-responsive" style="max-width:700px"  />
 	
-16. Mix a small batch of [Loctite Marine Epoxy](https://www.bluerobotics.com/store/tools/loctite-marine-epoxy/) and fill a syring from the [potting kit.](https://www.bluerobotics.com/store/tools/tool-potting-kit-r1/)
+17. Mix a small batch of [Loctite Marine Epoxy](https://www.bluerobotics.com/store/tools/loctite-marine-epoxy/) and pour into a [potting syringe.](https://www.bluerobotics.com/store/tools/tool-potting-kit-r1/)
 	
-17. Fill the penetrator hole with the epoxy. Move the cable from side to side within the hole to ensure the epoxy is filling all gaps. Use a vice or other secure method to hold the penetrator upright with the tether centered while the epoxy dries.
+18. Fill the penetrator hole with the epoxy. Move the tether from side to side within the hole to ensure the epoxy is filling all gaps. Use a vice or other secure method to hold the penetrator upright with the tether centered while the epoxy dries.
 
 	<img src="/fathom/cad/tether-tutorial-16.PNG" class="img-responsive" style="max-width:700px"  />
 	
-18. When the epoxy has dried, apply epoxy to the other side of the penetrator using the same method.
+19. When the epoxy has dried, apply epoxy to the other side of the penetrator using the same method.
 
 	<img src="/fathom/cad/tether-tutorial-18.PNG" class="img-responsive" style="max-width:700px"  />
 	
-19. Cut off excess Kevlar strands, and that's it!
+20. Cut off excess Kevlar strands, and that's it!
 	
 # Strain Relief
 
