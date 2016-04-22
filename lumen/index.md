@@ -26,7 +26,7 @@ manual-links:
 - BlueROV: /bluerov
 ---
 
-<img src="/lumen/cad/lumen-r2-1.png" class="img-responsive" style="max-width:900px"  />
+<img src="/lumen/cad/lumen-r2-1-1.png" class="img-responsive" style="max-width:900px"  />
 
 # Introduction
 
