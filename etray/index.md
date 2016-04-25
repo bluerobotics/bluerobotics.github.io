@@ -36,7 +36,7 @@ For further information please see the
 | Length |
 | Width |
 | Height |
-| Wegith (no electronics) |
+| Weight (no electronics) |
 
 
 
@@ -55,27 +55,31 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**Electronics Tray**																    |
 | --------------------------------------------------------------------------------------------- |
-| Electronics Tray Assembly     | 
+| Electronics Tray Assembly     | [ASSEM-ETRAY-X1](/etray/cad/ASSEM-ETRAY-X1.zip)
 
 # Installation
 
 ## Populating the main tray
 
-1. Install the 6 ESCs, with the power and motor wires stripped and tinned, using zip ties. 
+1. Cut off the bullet connectors from the Afro ESCs.
 
-2. Install the black terminal blocks
+2. Strip off about 4 mm of jacket from the ESC motor and power wires.
 
-3. Install the white terminal blocks
+3. Tin the wires
 
-4. Install your autopilot/tether board/computer 
+4. Install the 6 ESCs, using zip ties
 
-5. Connect the ESC power wires to the black terminal block
+5. Install the black terminal blocks
 
-6. Connect the ESC motor wires to the white terminal block
+6. Install the white terminal blocks
 
-7. Connect the signal wires from the ESCs to the autopilot
+7. Install your autopilot/tether board/computer 
 
-8. 
+8. Connect the ESC power wires to the black terminal block
+
+9. Connect the ESC motor wires to the white terminal block
+
+10. Connect the signal wires from the ESCs to the autopilot
 
 ## Putting it All Together
 
