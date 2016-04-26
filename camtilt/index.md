@@ -40,47 +40,31 @@ The Camtilt is a single axis gimbal stabilization / tilting camera mount designe
 
 # Specifications
 
+[Hitec Product Page - HS-5055mg](http://hitecrcd.com/products/servos/micro-and-mini-servos/digital-micro-and-mini-servos/hs-5055mg-economy-metal-gear-feather-servo/product)
 
 
 ## Specification Table
 
-For further information please see the [Cree XLamp MK-R LED Data Sheet](http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampMKR.pdf). The specific LED model used is MKRAWT-00-0000-0B00H4051.
-
-|      **Electrical**       |
+| **Servo Specifications** |
+|               |  **Parameter**       |
 | ------------- | --------- |
-| **Item** | **Value** |
-| Supply Voltage (V<sub>in</sub>) | 7 - 48 volts |
-| Full Brightness Supply Voltage (V<sub>in</sub>) | 10 - 48 volts |
-| PWM Logic Voltage  | 3 - 48 volts |
-| Peak Current   | 15 / V<sub>in</sub> amps  |
-| ------------- | --------- |
-|   **Light**    |
-|--------------|--------------|
-| Maximum Brightness | 1,500 lumens |
-| Color Temperature | 6,200 kelvin | 
-|  **Cable**  |
-| Cable Diameter | 3.8 mm | 0.15 in |
-| Cable Length | 1 m | 39 in |
-| Cable Jacket | Black Urethane |
-| Conductor Insulation | Acid-Etched FEP |
-| Conductor Gauge | 20 AWG |
-| Wires | Black - Ground |
-| | Red - Power |
-| | Yellow - Signal |
-|  **Physical**  |
-| ------------|-------------------------|
-| Pressure Rating<sup>1</sup> | 300 m | 985 ft |
-| Overall Length | 61.5 mm | 2.42 in |
-| Overall Diameter   | 32 mm | 1.26 in |
-| Bracket Mounting Hole Spacing | 19 mm | 0.75 in |
-| Bracket Screw Size | M3 |
-| Weight in Air (w/ 1m cable) | 82 g    |   2.9 oz    |
-| Weight in Water (w/ 1m cable) | 32 g    |  1.1 oz   |
-| Maximum Temperature when Run in Air | 55&deg; C | 130&deg; F
-| Beam Angle | 135 degrees in water |
-|----------------------|
-
-[1] Pressure rating is based on design and a conservative safety factor until testing is completed.
+| **Control Signal** | Standard 3-5V Pulse Width Control |
+|                | 1500 &mu;s - neutral (+/- 1&mu;s deadband) |
+|                | 1100 &mu;s - 45&deg; counter-clockwise |
+|                | 1900 &mu;s - 45&deg; clowckwise |
+| **Speed**          | 0.20 sec/60&deg; at 4.8V |
+|                | 0.17 sec/60&deg; at 6.0V |
+| **Torque**         | 18.05 oz/in @ 4.8V | 1.3 kg/cm @ 4.8V |
+|                | 22.2 oz/in @ 6.0V  | 1.6 kg/cm @ 6.0V |
+| **Dimensions**     | 0.89" x 0.451" x 0.94" | 22.8 x 11.6 x 24mm |
+| **Weight**         | 0.33oz | 9.5g |
+| **Electrical Connector** | 3-pin female (0.1" pitch) |
+| **Cable Length** | 7in | 178mm |
+| **Idle Current @ 6.0V** | 3mA |
+| **Analog Camera Specifications** |
+| --------------| **Parameter** |
+| Light Sensitivity | 0.0003 [lux](https://en.wikipedia.org/wiki/Lux) |
+| 
 
 ## 2D Drawings
 
@@ -105,6 +89,12 @@ All 3D models are provided in zip archives containing the follow file types:
 | --------------------------------------------------------------------------------------------- |
 | Camtilt Analog     |    |
 | Camtilt HD   	    | 			    |
+
+|  **Camtilt Parts for 3D Printing** |
+| --------------------------------------|
+| Analog Camera Mount                   | [analog-camera-mount.stl](cad/CAMTILT-RASBPI-MOUNT-X1A.STL) |
+| Wide Angled Raspberry Pi Camera Mount | [pi-camera-mount.stl](cad/CAMTILT-RASBPI-MOUNT-X1A.STL)     |
+| Servo Mount                           | [servo-mount.stl](cad/CAMTILT-SERVO-MOUNT-X2A.STL)
 
 # Installation
 
