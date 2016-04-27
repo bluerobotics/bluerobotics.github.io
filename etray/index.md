@@ -26,8 +26,7 @@ Headline Image
 # Introduction
 
 The Etray is an exciting new way to mount your underwater electronics into a 4" watertight enclosure. We designed this tray to make installing and working on your electronics as convenient as possible. The Etray is designed to bolt to a 4" WTE O-ring
-flange, so now when you want to access your electronics, simply remove the 4" tube from the O-ring flange and your electronics will be available. We have also designed the Etray to work with the most several of the more popular computers and 
-autopilots. 
+flange, so now when you want to access your electronics, simply remove the 4" tube from the O-ring flange. 
 
 # Features
 
@@ -40,8 +39,8 @@ autopilots.
 	- 1 Blue Robotics Tether Board
 	- 1 BeagleBone Black or Raspberry Pi 2/3
 	- 1 Blue Robotics Camtilt
-	- 2 [Screw Terminal Blocks with 8 Circuits](http://www.digikey.com/product-search/en?keywords=wm5765-nd) (optional)
-	- 2 [Eurostyle Terminal Block with 9 Circuits](http://www.digikey.com/product-search/en?keywords=wm15918-nd) (optional)
+	- 2 [Screw Terminal Blocks with 8 Circuits](http://www.digikey.com/product-search/en?keywords=wm5765-nd) 
+	- 2 [Eurostyle Terminal Block with 9 Circuits](http://www.digikey.com/product-search/en?keywords=wm15918-nd)
 
 ## 2D Drawings
 
