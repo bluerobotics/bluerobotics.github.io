@@ -10,6 +10,7 @@ nav:
 - - Specification Table: specification-table
 - - 2D Drawings: d-drawings
 - - 3D Model: d-model
+- - 3D Printer Settings: d-printer-settings
 - Installation: installation
 - - Low-Light Analog Camera: low-light-analog-camera
 - - Wide Angle Rasberry Pi Camera: wide-angle-raspberry-pi-camera
@@ -93,6 +94,11 @@ All 3D models are provided in zip archives containing the follow file types:
 | Analog Camera Mount   	           | [CAMTILT-ANALOG-MOUNT-R1.zip](cad/CAMTILT-ANALOG-MOUNT-R1.zip)	      |
 | Wide Angle Raspberry Pi Camera Mount | [CAMTILT-RASPBERRYPI-MOUNT-R1.zip](cad/CAMTILT-RASPBERRYPI-MOUNT-R1.zip) |
 
+## 3D Printer Settings
+
+Here are the printer settings that we used with a Lulzbot Taz 5 and Simplify3D
+
+[CAMTILT-PRINTER-SETTINGS-R1.fff](cad/CAMTILT-PRINTER-SETTINGS-R1.fff)
 
 # Installation
 
