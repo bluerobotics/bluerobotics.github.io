@@ -55,8 +55,9 @@ These pairs are colored and arranged in the same fashion as a Cat5 networking ca
 | ------------- | --------- |
 | **Item** | **Value** |
 | Tether Diameter | 7.6 mm | 0.30 in |
-| Weight | 0.22 kg/m | 0.03 lbs/ft
-| Density | 1000 kg/m<sup>3</sup> | 62.43 lbs/ft<sup>3</sup>
+| Weight | 0.043 kg/m | 0.0287 lbs/ft
+| Buoyancy in Freshwater | Neutral 
+| Buoyancy in Saltwater | Slightly Positive
 | Wire Gauge   | 26 AWG |
 | Working Strength | 355 N | 80 lb<sub>f</sub> |
 | Breaking Strength | 1550 N | 350 lb<sub>f</sub> |
