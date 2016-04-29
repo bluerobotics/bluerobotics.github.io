@@ -4,25 +4,29 @@ title: Fathom Tether
 order: 1
 nav:
 - Introduction: introduction
-- - Quick Start 
+- Quick Start 
 - Specifications: specifications
 - - Specification Table: specification-table
 - - Section View: section-view
-- - Twisted Pairs: twisted-pairs
+
 - Installation: installation
-- Strain Relief: strain-relief
+- - Stripping the Jacket: stripping-the-jacket
+- - Stripping the Twisted Pair: stripping-the-twisted-pair
+- - Installing Into a Penetrator: installing-into-a-penetrator
+- - Strain Relief: strain-relief
 
 
 store-links:
 - Fathom:  https://www.bluerobotics.com/store/parts/cables/fathom-tether-nb-4p-26awg-r1/
-- Fathom-S: https://www.bluerobotics.com/store/electronics/fathom-s-r1/
+- Thimble:  https://www.bluerobotics.com/store/parts/fathom-p-thimble-r1/
+- Penetrator:  https://www.bluerobotics.com/store/parts/penetrator-10-25-a-8mm-r2/
 - Potting Kit: https://www.bluerobotics.com/store/tools/tool-potting-kit-r1/
 - Loctite Marine Epoxy: https://www.bluerobotics.com/store/tools/loctite-marine-epoxy/
 
 manual-links:
 - Watertight Enclosures: /watertight-enclosures
 - BlueROV: /bluerov
-- Fathom-S: #
+
 ---
 
 <img src="/fathom/cad/spool.PNG" class="img-responsive" style="max-width:900px"  />
@@ -30,10 +34,18 @@ manual-links:
 # Introduction
 
 The Fathom Tether is a high quality tether cable designed specifically for ROVs and other subsea applications. 
-It is neutrally buoyant, has 200+ lb breaking strength, and is embedded with water-blocking fibers to seal any leaks. The tether has a diameter of 7.6mm and is slimmer than the vast majority of comparable ROV tethers.
+It is neutrally buoyant, has 350+ lb breaking strength, and is embedded with water-blocking fibers to seal any leaks. The tether has a diameter of 7.6mm and is slimmer than the vast majority of comparable ROV tethers.
 
 We put a lot of time into making sure that it has impeccable electrical qualities. The tether carries four unshielded twisted pairs (UTP) of 26AWG wire. 
 These pairs are colored and arranged in the same fashion as a Cat5 networking cable including cross-talk resistance. Each pair is individually jacketed inside the cable to maintain reliable properties and minimize interference between each pair of wires.
+ 
+# Quick Start 
+
+1. Prepare the ends of your tether for use as shown in the [tutorial](#installation).
+
+2. Be sure to tin the ends of the conductors prior to installing the tether into your vehicle.
+
+3. Firmly attach the tether to your vehicle by following the [strain relief tutorial](#strain-relief) or some other method. The tether can twist the penetrator loose if you do not provide strain relief
  
 # Specifications
 
@@ -46,9 +58,29 @@ These pairs are colored and arranged in the same fashion as a Cat5 networking ca
 | Weight | 0.22 kg/m | 0.03 lbs/ft
 | Density | 1000 kg/m<sup>3</sup> | 62.43 lbs/ft<sup>3</sup>
 | Wire Gauge   | 26 AWG |
-| Pull Strength | 355 N | 80 lb<sub>f</sub> |
-| Breaking Strength | 890 N | 200 lb<sub>f</sub> |
+| Working Strength | 355 N | 80 lb<sub>f</sub> |
+| Breaking Strength | 1550 N | 350 lb<sub>f</sub> |
 | ------------- | --------- |
+
+|      **Electrical**       |
+| ------------- | --------- |
+| **Item** | **Value** |
+| DC Resistance @ 20&deg;C| 0.043 &Omega; / ft | 0.013 &Omega; / m |
+| Characteristic Impedance | 130 &Omega;  
+| Voltage Rating (Twisted Pair) | 300 VDC
+| Voltage Rating (Between Pairs)  | TBD
+
+|      **Twisted Pairs**    |
+|---|---|---------------------|
+| **Pair 1** | Wire 1 | White |
+|         | Wire 2| Blue |
+| **Pair 2** | Wire 1 | White |
+|        | Wire 2 | Orange |
+| **Pair 3** | Wire 1 | White |
+|        | Wire 2 | Green |
+| **Pair 4** | Wire 1 | White |
+|        | Wire 2 | Brown |
+
 
 ## Section View
 
@@ -56,17 +88,15 @@ These pairs are colored and arranged in the same fashion as a Cat5 networking ca
 
 # Installation
 
-The _Fathom_ Tether can be installed into a watertight enclosure using the following procedure:
+## Stripping the Jacket
 
 1. Wearing a protective glove, bend the cable at the point that you want to cut. Bending the cable makes it easy to see when you have cut through the jacket.
-
-
 
 2. Using a knife, gently slice the jacket open using a sawing motion. Stop when the jacket opens and you can see the white Dacron fibers underneath the jacket.
 
 	<img src="/fathom/cad/tether-tutorial-3.PNG" class="img-responsive" style="max-width:700px"  />
 
-3. Turn the tether open and repeat on the other side.
+3. Turn the tether over and repeat on the other side.
 
 4. To remove the unneeded part of the jacket, lay the tether on a sturdy flat surface, then cut along the top of the part of the tether that you wish to remove. Take care not to cut deeper than the jacket.
 
@@ -82,21 +112,21 @@ The _Fathom_ Tether can be installed into a watertight enclosure using the follo
 
 	<img src="/fathom/cad/tether-tutorial-8.PNG" class="img-responsive" style="max-width:700px"  />
 
-7. Seperate out the white Dacron fibers from the conductor bundle.
-
-8. Cut off the all white fibers and plastic wrap at the jacket.
+7. Separate out the white Dacron fibers from the conductor bundle and cut off the all white fibers and plastic wrap at the jacket.
 
 	<img src="/fathom/cad/tether-tutorial-9.PNG" class="img-responsive" style="max-width:700px"  />
 	
-9. Find a stranded pair and grab it near the end.
+## Stripped the Twisted Pairs
+	
+9. Take a jacketed, twisted pair and grab it near the end.
 
 	<img src="/fathom/cad/tether-tutorial-10.PNG" class="img-responsive" style="max-width:700px"  />
 	
-10. Use a knife split the pair. You don't have to cut very far, then you can pull apart with your fingers or pliers.
+10. Use a knife to split the pair. Cut 5 to 10 mm and then you can pull the wires apart using your fingers or pliers.
 
 	<img src="/fathom/cad/tether-tutorial-11.PNG" class="img-responsive" style="max-width:700px"  />
 	
-11. Cut the excess binding.
+11. Cut the excess clear jacket.
 	
 	<img src="/fathom/cad/tether-tutorial-12.PNG" class="img-responsive" style="max-width:700px"  />
 	
@@ -104,15 +134,17 @@ The _Fathom_ Tether can be installed into a watertight enclosure using the follo
 
 	<img src="/fathom/cad/tether-tutorial-13.PNG" class="img-responsive" style="max-width:700px"  />
 	
+13. Tin the ends of the conductors.
+
+## Installing into a Penetrator
+	
 13. Clean the jacket and the tether penetrator that will touch epoxy with isopropyl alcohol.
 	
 14. Twist the Kevlar and the conductors so that they will slide through the penetrator.
 
 	<img src="/fathom/cad/tether-tutorial-14.PNG" class="img-responsive" style="max-width:700px"  />
 	
-15. Apply a small amount of super glue to the edge of the tether jacket. Optionally, you can apply "CA kicker" inside the penetrator so that the glue will dry quickly.
-
-16. Insert the tether into the penetrator, allow time for the super glue to set.
+16. Insert the tether into the penetrator
 
 	<img src="/fathom/cad/tether-tutorial-15.PNG" class="img-responsive" style="max-width:700px"  />
 	
@@ -130,11 +162,7 @@ The _Fathom_ Tether can be installed into a watertight enclosure using the follo
 	
 # Strain Relief
 
-Please note that this tether is stiff enough to transfer enough torque to loosen a tether penetrator if connected directly to your underwater vessel.
-
-We recommend the following method to relieve the strain on the tether penetrator:
-
-1. Grab the tether somewhere between about 16 and 24 inches away from the penetrator and loop it around a plastic thimble.
+1. Grab the tether somewhere between about 16 and 24 inches away from the penetrator and loop it around a [plastic thimble.](https://www.bluerobotics.com/store/parts/fathom-p-thimble-r1/)
 
 2. Firmly attach three alternating heavy gauge zip ties at the base of the thimble.
 
