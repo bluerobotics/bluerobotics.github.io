@@ -45,7 +45,7 @@ These pairs are colored and arranged in the same fashion as a Cat5 networking ca
 
 2. Be sure to tin the ends of the conductors prior to installing the tether into your vehicle.
 
-3. Firmly attach the tether to your vehicle by following the [strain relief tutorial](#strain-relief) or some other method. The tether can twist the penetrator loose if you do not provide strain relief
+3. Firmly attach the tether to your vehicle by following the [strain relief tutorial](#strain-relief) or some other method that prevents the tether from pulling directly on the tether penetrator. The tether can twist the penetrator loose if you do not provide strain relief.
  
 # Specifications
 
@@ -92,7 +92,7 @@ These pairs are colored and arranged in the same fashion as a Cat5 networking ca
 
 1. Wearing a protective glove, bend the cable at the point that you want to cut. Bending the cable makes it easy to see when you have cut through the jacket.
 
-2. Using a knife, gently slice the jacket open using a sawing motion. Stop when the jacket opens and you can see the white Dacron fibers underneath the jacket.
+2. Using a sharp knife, gently slice the jacket open using a sawing motion. Stop when the jacket opens and you can see the white Dacron fibers underneath the jacket.
 
 	<img src="/fathom/cad/tether-tutorial-3.PNG" class="img-responsive" style="max-width:700px"  />
 
@@ -164,7 +164,7 @@ These pairs are colored and arranged in the same fashion as a Cat5 networking ca
 
 1. Grab the tether somewhere between about 16 and 24 inches away from the penetrator and loop it around a [plastic thimble.](https://www.bluerobotics.com/store/parts/fathom-p-thimble-r1/)
 
-2. Firmly attach three alternating heavy gauge zip ties at the base of the thimble.
+2. Firmly attach three alternating heavy gauge zip ties (included with thimble) at the base of the thimble.
 
 	<img src="/fathom/cad/thimble-r1-3.PNG" class="img-responsive" style="max-width:700px"  />
 	
