@@ -11,7 +11,7 @@ nav:
 
 - Installation: installation
 - - Stripping the Jacket: stripping-the-jacket
-- - Stripping the Twisted Pair: stripping-the-twisted-pair
+- - Stripping the Twisted Pairs: stripping-the-twisted-pairs
 - - Installing Into a Penetrator: installing-into-a-penetrator
 - - Strain Relief: strain-relief
 
@@ -41,7 +41,7 @@ These pairs are colored and arranged in the same fashion as a Cat5 networking ca
  
 # Quick Start 
 
-1. Prepare the ends of your tether for use as shown in the [tutorial](#installation).
+1. Prepare the ends of your tether for use as shown in the [installation tutorial](#installation).
 
 2. Be sure to tin the ends of the conductors prior to installing the tether into your vehicle.
 
@@ -59,8 +59,9 @@ These pairs are colored and arranged in the same fashion as a Cat5 networking ca
 | Buoyancy in Freshwater | Neutral 
 | Buoyancy in Saltwater | Slightly Positive
 | Wire Gauge   | 26 AWG |
-| Working Strength | 355 N | 80 lb<sub>f</sub> |
-| Breaking Strength | 1550 N | 350 lb<sub>f</sub> |
+| Working Strength | 35 kg<sub>f</sub> | 80 lb<sub>f</sub> |
+| Breaking Strength | 155 kg<sub>f</sub> | 350 lb<sub>f</sub> |
+| Minimum Bend Diameter | 203 mm | 8 in |
 | ------------- | --------- |
 
 |      **Electrical**       |
@@ -117,13 +118,13 @@ These pairs are colored and arranged in the same fashion as a Cat5 networking ca
 
 	<img src="/fathom/cad/tether-tutorial-9.PNG" class="img-responsive" style="max-width:700px"  />
 	
-## Stripped the Twisted Pairs
+## Stripping the Twisted Pairs
 	
 9. Take a jacketed, twisted pair and grab it near the end.
 
 	<img src="/fathom/cad/tether-tutorial-10.PNG" class="img-responsive" style="max-width:700px"  />
 	
-10. Use a knife to split the pair. Cut 5 to 10 mm and then you can pull the wires apart using your fingers or pliers.
+10. Use a knife to split the pair. Cut into the pair 5 to 10 mm and then you can pull the wires apart using your fingers or pliers.
 
 	<img src="/fathom/cad/tether-tutorial-11.PNG" class="img-responsive" style="max-width:700px"  />
 	
@@ -145,7 +146,7 @@ These pairs are colored and arranged in the same fashion as a Cat5 networking ca
 
 	<img src="/fathom/cad/tether-tutorial-14.PNG" class="img-responsive" style="max-width:700px"  />
 	
-16. Insert the tether into the penetrator
+16. Insert the tether into the penetrator.
 
 	<img src="/fathom/cad/tether-tutorial-15.PNG" class="img-responsive" style="max-width:700px"  />
 	
