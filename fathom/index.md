@@ -71,8 +71,8 @@ These pairs are colored and arranged in the same fashion as a Cat5 networking ca
 | Characteristic Impedance @ 1 MHz | 120 &Omega; | 
 | Capacitance @ 1 kHz      | 16.5 pF / kft | 54.1 pF / km |
 | Insulation Resistance @ 500 VDC | > 500 M&Omega; / kft | > 1640 M&Omega; / km |
-| Voltage Rating (Twisted Pair) | 300 VDC
-| Voltage Rating (Between Pairs)  | TBD
+| Voltage Rating (Twisted Pair) | 300 VDC |
+| Voltage Rating (Between Pairs)  | 600 VDC |
 
 |      **Twisted Pairs**    |
 |---|---|---------------------|
