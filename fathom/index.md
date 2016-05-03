@@ -61,14 +61,16 @@ These pairs are colored and arranged in the same fashion as a Cat5 networking ca
 | Wire Gauge   | 26 AWG |
 | Working Strength | 35 kg<sub>f</sub> | 80 lb<sub>f</sub> |
 | Breaking Strength | 155 kg<sub>f</sub> | 350 lb<sub>f</sub> |
-| Minimum Bend Diameter | 203 mm | 8 in |
+| Minimum Working Bend Diameter | 200 mm | 8 in |
 | ------------- | --------- |
 
 |      **Electrical**       |
 | ------------- | --------- |
 | **Item** | **Value** |
-| DC Resistance @ 20&deg;C| 0.043 &Omega; / ft | 0.013 &Omega; / m |
-| Characteristic Impedance | 130 &Omega;  
+| DC Resistance @ 20&deg;C| 0.0386 &Omega; / ft | 0.127 &Omega; / m |
+| Characteristic Impedance @ 1 MHz | 120 &Omega; | 
+| Capacitance @ 1 kHz      | 16.5 pF / kft | 54.1 pF / km |
+| Insulation Resistance @ 500 VDC | > 500 M&Omega; / kft | > 1640 M&Omega; / km |
 | Voltage Rating (Twisted Pair) | 300 VDC
 | Voltage Rating (Between Pairs)  | TBD
 
@@ -83,10 +85,11 @@ These pairs are colored and arranged in the same fashion as a Cat5 networking ca
 | **Pair 4** | Wire 1 | White |
 |        | Wire 2 | Brown |
 
-
 ## Section View
 
 <img src="/fathom/cad/Tether-Cross-Section.PNG" class="img-responsive" style="max-width:900px"  />
+
+A datasheet for the polyethylene jacket material is available here: [DF4960 Polyethylene Foam](DF4960.pdf).
 
 # Installation
 
