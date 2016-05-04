@@ -141,29 +141,33 @@ A datasheet for the polyethylene jacket material is available here: [DF4960 Poly
 	
 13. Tin the ends of the conductors.
 
+	<img src="/fathom/cad/tether-tutorial-a6.PNG" class="img-responsive" style="max-width:700px"  />
+
 ## Installing into a Penetrator
 	
 13. Clean the jacket and the tether penetrator that will touch epoxy with isopropyl alcohol.
 	
 14. Twist the Kevlar and the conductors so that they will slide through the penetrator.
 
-	<img src="/fathom/cad/tether-tutorial-14.PNG" class="img-responsive" style="max-width:700px"  />
+	<img src="/fathom/cad/tether-tutorial-a7.PNG" class="img-responsive" style="max-width:700px"  />
 	
 16. Insert the tether into the penetrator.
 
-	<img src="/fathom/cad/tether-tutorial-15.PNG" class="img-responsive" style="max-width:700px"  />
+	<img src="/fathom/cad/tether-tutorial-a4.PNG" class="img-responsive" style="max-width:700px"  />
 	
 17. Mix a small batch of [Loctite Marine Epoxy](https://www.bluerobotics.com/store/tools/loctite-marine-epoxy/) and pour into a [potting syringe.](https://www.bluerobotics.com/store/tools/tool-potting-kit-r1/)
 	
 18. Fill the penetrator hole with the epoxy. Move the tether from side to side within the hole to ensure the epoxy is filling all gaps. Use a vice or other secure method to hold the penetrator upright with the tether centered while the epoxy dries.
 
-	<img src="/fathom/cad/tether-tutorial-16.PNG" class="img-responsive" style="max-width:700px"  />
+	<img src="/fathom/cad/tether-tutorial-a5.PNG" class="img-responsive" style="max-width:700px"  />
 	
 19. When the epoxy has dried, apply epoxy to the other side of the penetrator using the same method.
 
-	<img src="/fathom/cad/tether-tutorial-18.PNG" class="img-responsive" style="max-width:700px"  />
+	<img src="/fathom/cad/tether-tutorial-a3.PNG" class="img-responsive" style="max-width:700px"  />
 	
 20. Cut off excess Kevlar strands, and that's it!
+
+	<img src="/fathom/cad/tether-tutorial-a2.PNG" class="img-responsive" style="max-width:700px"  />
 	
 # Strain Relief
 
@@ -171,7 +175,7 @@ A datasheet for the polyethylene jacket material is available here: [DF4960 Poly
 
 2. Firmly attach three alternating heavy gauge zip ties (included with thimble) at the base of the thimble.
 
-	<img src="/fathom/cad/thimble-r1-3.PNG" class="img-responsive" style="max-width:700px"  />
+	<img src="/fathom/cad/tether-tutorial-a1.PNG" class="img-responsive" style="max-width:700px"  />
 	
 3. Firmly attach the thimble to your vehicle using at least two heavy gauge zip ties.
 
