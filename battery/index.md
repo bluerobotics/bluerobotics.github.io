@@ -83,7 +83,7 @@ LiPo batteries can be bought at hobby shops and online through numerous vendors,
 
 ## Battery Clearance
 
-The Blue ROV electronics tray will accommodate batteries up to 230mm (9in) long. However, if basic ESCs are being used, the ESCs mounted to the bottom of the tray will reduce clreances. Past 125mm (4.9in), 5mm (0.2in) of the height availble is taken up by the ESC wires. Beyond 155mm (6.1in), 10mm (0.4in) is taken up by the ESC itself.
+The Blue ROV electronics tray will accommodate batteries up to 230mm (9in) long. However, if basic ESCs are being used, the ESCs mounted to the bottom of the tray will reduce clearances. Past 125mm (4.9in), 5mm (0.2in) of the height availble is taken up by the ESC wires. Beyond 155mm (6.1in), 10mm (0.4in) is taken up by the ESC itself.
 
 <img src="/assets/images/documentation/batterytraymockup.PNG" class="img-responsive img-center" style="max-width:600px" />
 
