@@ -6,177 +6,143 @@ nav:
 - Introduction: introduction
 - - Quick Start: quick-start
 - Specifications: specifications
-- - Schematic: schematic
+- - Function Diagrams: function-diagrams
 - - Specification Table: specification-table
+- - Schematic: schematic
 - Installation: installation
-- Example Code: example-code
-- - Arduino: arduino
+- - To Pixhawk: to-pixhawk
+- - To Arduino: to-arduino
+- - Video Gain Adjustment: video-gain-adjustment
+- Advanced: advanced
+- - Arduino Programming: arduino-programming
+- - Spare Twisted Pair: spare-twisted-pair
+- - Connecting Relay or Switch: connecting-relay-or-switch
 
 store-links:
 - Fathom-S: https://www.bluerobotics.com/store/electronics/fathom-s-r1/
+- Fathom Tether: https://www.bluerobotics.com/store/parts/cables/fathom-tether-nb-4p-26awg-r1/
 
 manual-links:
-- Celsius Temperature Sensor: /celsius
+- Fathom Tether: /fathom/
 ---
 
-<img src="/bar30/cad/pressure-sensor-4.png" class="img-responsive" style="max-width:900px"  />
+<img src=".png" class="img-responsive" style="max-width:900px"  />
 
 # Introduction
 
-The <em>Bar30</em> is a high resolution, water proof pressure and temperature sensor which comes in a Blue Robotics penetrator which provides a waterproof, high-pressure seal for your enclosure.
+The <em>Fathom-S</em> Tether Interface Boards provide a video and communication interface between your ROV and topside. Differential analog video and RS-422 communication provide a reliable, low-latency link and the flexibility to be used in many different applications.
+
+The Fathom-S hardware is designed to be used with tether cables that have four twisted pairs, preferably similar to Cat5 cable. The design is based on the tether cable available from Blue Robotics, but will also work with standard Cat5 network cable.
+
+The Fathom-S interface includes [DroneCode Mini compatible](https://wiki.dronecode.org/workgroup/connectors/start) connectors for easy use with the Pixhawk and other autopilot controllers and the [ArduSub Control Software](www.ardusub.com).
+
+##Features 
+
+* Low Latency Analog Video through NTSC or PAL (1000+ ft, 300+ m)
+* Adjustable Video Gain for different tether lengths
+* Full-duplex RS-422 serial connection with TTL and USB connections (up to 250 Kbps, 4000 ft, 1200 m) (3.3V logic, 5V tolerant)
+* Power switch that uses a 3-50V input signal to turn on interface (and optionally the autopilot and/or a high power switch/relay)
+* Onboard 5V and 12V (camera) regulated supplies
+* Jumpers to enable/disable configuration options
+  * Power-on through tether / power always on when batteries connected
+  * Power cycle on USB RTS signal for Arduino programming
+* DroneCode Mini Compatible JST-GH and DF13 connectors
 
 ## Quick Start
 
-1. Download [MS5837 Arduino Library](https://github.com/bluerobotics/BlueRobotics_MS5837_Library).
-2. Install software such as the [Example Code](#example-code) to your microcontroller.
-3. Connect the DF13 or bare wires to the appropriate microcontroller pins, using a logic level converter if your board has 5V logic:
-  - Green: SCL (3.3V logic)
-  - White: SDA (3.3V logic)
-  - Red: +2.5-5.5V
-  - Black: Ground
+1. Connect tether cable to the terminal block, matching colors with the labels
+2. Connect the ROV side serial port to the ROV controller (Arduino, Pixhawk, etc.)
+3. Connect an analog camera to the ROV side camera input
+4. Connect the topside board to an analog (NTSC/PAL) display and a computer USB port to view video and communicate through serial
 
 # Specifications
 
-## Schematic
+## Function Diagrams
 
-The [EagleCAD files](https://github.com/bluerobotics/Bar30-Pressure-Sensor) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
+<a href="/fathom-s/Fathom-S-ROV-Diagram.png"><img src="/fathom-s/Fathom-S-ROV-Diagram.png" class="img-responsive img-center" style="max-width:800px" alt="Fathom-S ROV Board" /></a>
 
-[<img src="/bar30/cad/BAR30-SENSOR-Schematic.png" class="img-responsive" style="max-width:300px" />](/bar30/cad/BAR30-SENSOR-Schematic.png)
-
-[Bar30 Schematic.png](/bar30/cad/BAR30-SENSOR-Schematic.png)
+<a href="/fathom-s/Fathom-S-Topside-Diagram.png"><img src="/fathom-s/Fathom-S-Topside-Diagram.png" class="img-responsive img-center" style="max-width:800px" alt="Fathom-S Topside Board" /></a>
 
 ## Specification Table
 
-For further information please see the [MS5837-30BA Data Sheet.](http://meas-spec.com/downloads/MS5837-30BA.pdf)
-
+| **Item** | **Condition** | **Value** |
+| ------------- | --------- |
 |      **Electrical**       |
 | ------------- | --------- |
-| **Item** | **Condition** | **Value** |
-| Supply Voltage| -- | 2.5-5.5 volts |
-| I<sup>2</sup>C Logic Voltage (SDA and SCL) | -- | 2.5 - 3.6 volts |
-| Peak Current   | -- | 1.25 mA   |
+| Supply Voltage| -- | 7-20 volts |
+| TTL Serial Voltage (ROV Board) | -- | 3.3 volts (5 volt tolerant) |
+| TTL Serial Voltage (Topside Board) | -- | 5 volts |
+| Camera Supply Voltage | Vin > 12V | 12 volts |
+|                       | Vin < 12V | Vbat |
+| Max 5V Load Current | Vin @ 12V | 250 mA |
+|                     | Vin @ 16V | 150 mA |
+| Max 12V Camera Current | Vin @ 12V | 1000 mA |
+|                        | Vin @ 16V | 400 mA |
+| Switched Power Voltage (SW Header) | | Vbat |
+| Switched Power Current (SW Header) | | 6A |
 | ------------- | --------- |
-|                **Pressure**                  		 |
+|                **Performance**                  		 |
 | ------------- | ---------------------------------- |
-| **Item** | **Condition** | **Value** |
-| Maximum Mechanical Pressure | -- | 50 bar |
-|Operating Pressure| -- |0-30 bar [up to 1000 ft (300 m) in water]|
-|Absolute Accuracy  (0-40&deg;C) | From 0-6 bar | +/- 50 mbar 	(51 cm in freshwater)		 |
-|  				   | From 0-20 bar | +/- 100 mbar (102 cm in freshwater)			 |
-|				   | From 0-30 bar | +/- 200 mbar (204 cm in freshwater)    	 |
-|Absolute Accuracy (-25-85&deg;C)| From 0-6 bar | +/- 100 mbar 	(102 cm in freshwater)		 |
-|  				   | From 0-20 bar | +/- 200 mbar (204 cm in freshwater)			 |
-|				   | From 0-30 bar | +/- 400 mbar (408 cm in freshwater)     	 |
+| Max Serial Baudrate        |           | 250 Kbps |
+| Max Tether Length (RS422)  |           | 1200 m   |
+| Max Tether Length (Video)  |           | 300 m    |
 | ---------------- | ------------------------------- |
-|            **Temperature**            			 |
-| ------------- | ------------- | ------------- |
-| **Item** | **Condition** | **Value** |
-| Operating Temperature | -- | -20 to +85&deg;C |
-|Storage Temperature | -- | -40 to +85&deg;C                        |
-|Absolute Accuracy   | From 0-10 bar at 0-60&deg;C | +/- 1.5&deg;C      |
-|                    | From 0-30 bar at -20-85&deg;C |  +/- 4.0&deg;C   |
 |  **Physical**  |
-| Wire Colors | Green - I<sup>2</sup>C Clock (SCL, 3.3V) |
-|             | White - I<sup>2</sup>C Data (SDA, 3.3V) |
-|             | Red - Positive (2.5-5.5V) |
-|             | Black - Ground          |
-| ------------|-------------------------|
-| Overall Length | 37 mm |
-| Thread Size    | M10x1.5 20 mm threaded |
-| Recommended Through Hole Size | 10-11 mm |
-| Wrench Flats | 16 mm |
+| ------------- | ------------- | ------------- |
+| Operating Temperature | -- | -20 to +85&deg;C |
+| Storage Temperature | -- | -40 to +85&deg;C |
+| DF13 UART Pinout | | [DroneCode Mini Standard](https://wiki.dronecode.org/workgroup/connectors/start#telemetry_port) (crossover rx/tx) |
+| JST-GH UART Pinout | | [DroneCode Mini Standard](https://wiki.dronecode.org/workgroup/connectors/start#telemetry_port) (crossover rx/tx) |
+| USB Connector Type | | USB Mini B Female |
+| Dimensions (ROV Board) | | 64 x 46 mm |
+| Screw Hole Spacing (ROV Board) | | 57 x 40 mm |
+| Dimensions (Topside Board) | | 48 x 45 mm |
+| Screw Hole Spacing (Topside Board) | | 42 x 40 mm |
+| Screw Hole Diameter | | 3.3 mm |
 |----------------------|
 
-## DF13 Pinout
+## Schematic
 
-| 1 &Delta; |  Red - Positive (3.3-5.5V) |
-| 2 |  Green - I<sup>2</sup>C Clock (SCL) |
-| 3 |  White - I<sup>2</sup>C Data (SDA)  |
-| 4 |  Black - Ground          |
+The [EagleCAD files](https://github.com/bluerobotics/fathom-s/) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
 
-<img src="/bar30/cad/DF-13_Pinout.png" class="img-responsive" style="max-width:900px" />
+[<img src="/fathom-s/Fathom-S-Schematic.png" class="img-responsive" style="max-width:300px" />](https://github.com/bluerobotics/fathom-s/raw/master/Fathom-S-Schematic.pdf)
 
-**Mating Connector:** [Hirose 4-pos DF13 on Digi-Key](http://www.digikey.com/product-detail/en/DF13-4P-1.25DSA/H2193-ND/241767)
-
-## 2D Drawing
-
-<img src="/assets/images/BAR30-2view.png" class="img-responsive" style="max-width:900px" />
-
-## 3D Model
-
-All 3D models are provided in zip archives containing the follow file types:
-
-- SolidWorks Part (.sldprt)
-- IGES (.igs) 
-- STEP (.step)
-- STL (.stl)
-
-|		**Bar 30 Pressure Sensor**																						|
-| --------------------------------------------------------------------------------------------- |
-| Bar30 Pressure Sensor      | [BAR30-PRESSURE-SENSOR-R1.zip](cad/BAR30-PRESSURE-SENSOR-R1.zip) |
-| Bar30 Penetrator Nut		 | [PENETRATOR-M-NUT-10-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-NUT-10-A-R2.zip)|																								|
+[Fathom-S-Schematic.pdf](https://github.com/bluerobotics/fathom-s/raw/master/Fathom-S-Schematic.pdf)
 
 # Installation
 
-## Step 1: Lubricating the O-ring
+## To Pixhawk
+[Picture connected to Pixhawk + Camera + power]
 
-Use a small amount of silicone grease on the O-ring for lubrication and place it in the groove of the Bar30 Pressure Sensor. 
+## To Arduino
+[Picture connected to Arduino + Camera + power]
 
-## Step 2: Installation
+## Video Gain Adjustment
 
-Install the Bar30 Pressure Sensor into an endcap and tighten by hand or with a wrench.
+The video gain potentiometer allows the video receiver gain to be adjusted for different tether lengths. This makes a relatively minor difference in video quality but is noticeable over widely different lengths.
 
-# Example Code
+<a href="/fathom-s/Fathom-S-Gain.png"><img src="/fathom-s/Fathom-S-Gain.png" class="img-responsive img-center" style="max-width:200px" alt="Fathom-S Gain Potentiometer" /></a>
 
-## Arduino
+The potentiometer can be adjusted for gain suitable for 10m length to 700m length.
 
-This example uses the [BlueRobotics MS5837 Library](https://github.com/bluerobotics/BlueRobotics_MS5837_Library) with the connected sensor. The example reads the sensor and prints the resulting values to the serial terminal.
+# Advanced
 
-Please remember to use a logic level converter, such as [this one](https://www.sparkfun.com/products/12009), to convert Arduino 5V levels to 3.3V!
+## Arduino Programming
 
-If you've never used Arduino before, we suggest checking out [some tutorials!](https://www.arduino.cc/en/Tutorial/HomePage)
+The *Fathom-S* board includes features to allow an Arduino microcontroller to be programmed through a tether. To enable that feature:
 
-You can find the [MS5837 Library](https://github.com/bluerobotics/BlueRobotics_MS5837_Library) on our [GitHub page](https://github.com/bluerobotics).
+1. Install the `RTS RESET JMPR` on the topside board
 
-~~~~~~~~~~ cpp
-#include <Wire.h>
-#include "MS5837.h"
+2. Make sure the ROV board has a jumper installed for `TETHER PWR-SW`
 
-MS5837 sensor;
+3. Connect the Arduino serial port to the tether board via the `GND`, `+5V`, `RX`, and `TX` pins. Make sure the Arduino is *only* powered via the tether board. This is required so that it will reset when the tether board resets.
 
-void setup() {
-  
-  Serial.begin(9600);
-  
-  Serial.println("Starting");
-  
-  Wire.begin();
+4. Select the appropriate serial port in the Arduino IDE and program like normal!
 
-  sensor.init();
-  
-  sensor.setFluidDensity(997); // kg/m^3 (997 freshwater, 1029 for seawater)
-}
+## Spare Twisted Pair
 
-void loop() {
+In some applications, an addition twisted pair may be needed from the tether for other devices. In this case, you can disconnect Pair 4 from the tether boards and use it for other applications. This will disable the power-on feature so `ALWAYS ON` jumper must be installed.
 
-  sensor.read();
+## Connecting Relay or Switch
 
-  Serial.print("Pressure: "); 
-  Serial.print(sensor.pressure()); 
-  Serial.println(" mbar");
-  
-  Serial.print("Temperature: "); 
-  Serial.print(sensor.temperature()); 
-  Serial.println(" deg C");
-  
-  Serial.print("Depth: "); 
-  Serial.print(sensor.depth()); 
-  Serial.println(" m");
-  
-  Serial.print("Altitude: "); 
-  Serial.print(sensor.altitude()); 
-  Serial.println(" m above mean sea level");
-
-  delay(1000);
-}
-~~~~~~~~~~~~~~~~
+The *Fathom-S* board includes logic to turn itself on through the tether connection. This can also be used to turn on an entire ROV by powering a relay or MOSFET switch. The `SW` pins provide a switched battery connection for this purpose.
