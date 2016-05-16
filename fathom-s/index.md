@@ -89,10 +89,10 @@ The Fathom-S interface includes [DroneCode Mini compatible](https://wiki.droneco
 | ---------------- | ------------------------------- |
 |  **Physical**  |
 | ------------- | ------------- | ------------- |
-| Operating Temperature | -- | -20 to +85&deg;C |
-| Storage Temperature | -- | -40 to +85&deg;C |
-| DF13 UART Pinout | | [DroneCode Mini Standard](https://wiki.dronecode.org/workgroup/connectors/start#telemetry_port) (crossover rx/tx) |
-| JST-GH UART Pinout | | [DroneCode Mini Standard](https://wiki.dronecode.org/workgroup/connectors/start#telemetry_port) (crossover rx/tx) |
+| Operating Temperature | | -20 to +85&deg;C |
+| Storage Temperature | | -40 to +85&deg;C |
+| DF13 UART Pinout | | [DroneCode Mini Standard](https://wiki.dronecode.org/workgroup/connectors/start#telemetry_port) (crossover RX/TX) |
+| JST-GH UART Pinout | | [DroneCode Mini Standard](https://wiki.dronecode.org/workgroup/connectors/start#telemetry_port) (crossover RX/TX) |
 | USB Connector Type | | USB Mini B Female |
 | Dimensions (ROV Board) | | 64 x 46 mm |
 | Screw Hole Spacing (ROV Board) | | 57 x 40 mm |
