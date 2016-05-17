@@ -6,7 +6,7 @@ nav:
 - Introduction: introduction
 - - Quick Start: quick-start
 - Specifications: specifications
-- - Function Diagrams: function-diagrams
+- - Diagram: diagram
 - - Specification Table: specification-table
 - - Schematic: schematic
 - Installation: installation
@@ -76,10 +76,10 @@ The Fathom-S interface includes [DroneCode Mini compatible](https://wiki.droneco
 |                       | Vin < 12V | Vbat |
 | Max 5V Load Current | Vin @ 12V | 250 mA |
 |                     | Vin @ 16V | 150 mA |
-| Max 12V Camera Current | Vin @ 12V | 1000 mA |
-|                        | Vin @ 16V | 400 mA |
+| Max 12V Camera Current | Vin @ 12V | 600 mA |
+|                        | Vin @ 16V | 250 mA |
 | Switched Power Voltage (SW Header) | | Vbat |
-| Switched Power Current (SW Header) | | 6A |
+| Switched Power Current (SW Header) | | 2A |
 | ------------- | --------- |
 |                **Performance**                  		 |
 | ------------- | ---------------------------------- |
