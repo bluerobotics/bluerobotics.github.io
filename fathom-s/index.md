@@ -26,7 +26,7 @@ manual-links:
 - Fathom Tether: /fathom/
 ---
 
-<img src=".png" class="img-responsive" style="max-width:900px"  />
+<img src="Fathom-S-Both.png" class="img-responsive" style="max-width:800px"  />
 
 # Introduction
 
@@ -46,7 +46,7 @@ The Fathom-S interface includes [DroneCode Mini compatible](https://wiki.droneco
 * Jumpers to enable/disable configuration options
   * Power-on through tether / power always on when batteries connected
   * Power cycle on USB RTS signal for Arduino programming
-* DroneCode Mini Compatible JST-GH and DF13 connectors
+* [DroneCode Mini](https://wiki.dronecode.org/workgroup/connectors/start) Compatible JST-GH and DF13 connectors
 
 ## Quick Start
 
@@ -112,10 +112,21 @@ The [EagleCAD files](https://github.com/bluerobotics/fathom-s/) for the schemati
 # Installation
 
 ## To Pixhawk
-[Picture connected to Pixhawk + Camera + power]
+
+To connect to a Pixhawk autopilot, use the DF13 cable included with the Pixhawk to connect the `DF13 UART` connector on the Fathom-S ROV board to the `Telem1` connector on the Pixhawk. Note that you must power the Pixhawk with the Pixhawk power module or another method as the Fathom-S board cannot supply sufficient power.
+
+<a href="/fathom-s/pixhawk-setup.png"><img src="/fathom-s/pixhawk-setup.png" class="img-responsive img-center" style="max-width:600px" alt="Fathom-S and Pixhawk" /></a>
 
 ## To Arduino
-[Picture connected to Arduino + Camera + power]
+
+To connect to an Arduino, using the header pins on the Fathom-S board and connect the following:
+
+* Fathom-S `RX` to Arduino `RX`
+* Fathom-S `TX` to Arduino `TX`
+* Fathom-S `5V` to Arduino `5V`
+* Fathom-S `GND` to Arduino `GND`
+
+<a href="/fathom-s/arduino-setup.png"><img src="/fathom-s/arduino-setup.png" class="img-responsive img-center" style="max-width:600px" alt="Fathom-S and Arduino" /></a>
 
 ## Video Gain Adjustment
 
