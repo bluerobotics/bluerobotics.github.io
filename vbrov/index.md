@@ -168,11 +168,48 @@ Now your ROV should look like the picture below, and it is time to move on to se
 	
 ## Electronics Enclosure
 
+The electronics enclosure ships partially assembled, and will arive looking like this.
+
+<img src="cad/electronics-assembly-step0.png" class="img-responsive" style="max-width:700px" />
+
 1. Remove the tube from the rear flange. You can twist a screwdriver in the slots if it does not pull off easily.
 
-2. Remove the 14 hole end cap from the rear flange. 
+	<img src="cad/electronics-assembly-step1.png" class="img-responsive" style="max-width:700px" />
 
-3. 
+2. Remove the rear 14 hole end cap by removing the screws using a M2.5 Allen key. Place the M3x12 screws and the clips in a safe place. 
+
+	<img src="cad/electronics-assembly-step2-annotated.png" class="img-responsive" style="max-width:700px" />
+	
+3. Connect the ESC power wires to the power terminals
+
+4. Connect the ESC motor wires to the motor wire terminals.
+
+5. Attach your autopilot/computer.
+
+6. 	Attach your tether board.
+
+7. Attach the tether board power jumpers to the power terminal blocks and the tether board
+
+7. Cut the 5V line on 5 of the ESC signal wires, then connect your ESC signal wires to your autopilot. 
+
+8. Attach your camera wire to the tether board
+
+9. Connect your camera servo signal wire to your autopilot
+
+10. Apply silicone grease to nine 013 O-rings, then install them onto the 6 T200 penetrators, the Lumen Light penetrator, the Fathom Tether penetrator, and the power cable penetrator (side without bullet connectors), 
+	
+11. Install the T200 Thrusters, Lumen Lights, Fathom Tether, and power cable penetrators into the end cap as shown below, using two 16mm open end wrenches. 
+You should tighten the penetrators finger tight plus ~1/16 of a turn. To make sure that the penetrators are tight enough, try to loosen them with your fingers after tightening. If you can't loosen them they are tight enough.
+
+12. Reinstall the end cap onto the electronics enclosure, using the screws, clips, and M2.5 Allen key from step 2.
+
+13. Connect the Bar30 signal wire to the I<sup>2</sup>C port on your autopilot.
+
+14. Connect the power wires to the power terminal blocks.
+
+15. Connect the Lumen light signal wire to your autopilot and the Lumen light power and ground wires to the power terminals.
+
+15.  Connect your motor wires to the motor wire terminal
 
 ## Electronics Tray
 
