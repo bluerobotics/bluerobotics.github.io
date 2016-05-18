@@ -36,7 +36,7 @@ The Fathom-S hardware is designed to be used with tether cables that have four t
 
 The Fathom-S interface includes [DroneCode Mini compatible](https://wiki.dronecode.org/workgroup/connectors/start) connectors for easy use with the Pixhawk and other autopilot controllers and the [ArduSub Control Software](www.ardusub.com).
 
-##Features 
+## Features 
 
 * Low Latency Analog Video through NTSC or PAL (1000+ ft, 300+ m)
 * Adjustable Video Gain for different tether lengths
