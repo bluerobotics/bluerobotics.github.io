@@ -15,21 +15,23 @@ nav:
 - - Miscellaneous: miscellaneous
 - Assembly: assembly
 - - Installing the Battery Enclosure onto the Bottom Panel: installing-the-battery-enclosure-onto-the-bottom-panel
-
+- - Putting the Frame Together: putting-the-frame-together
+- - Assembling the Electronics Enclosure: assembling-the-electronics-enclosure
+- - Installing the Thrusters, Lights, and Electronics Enclosure onto the Frame: installing-the-thrusters-lights-and-electronics-enclosure-onto-the-frame
+- - Installing Ballast Weights: installing-ballast-weights
 
 store-links:
 - BlueROV: http://bluerobotics.com/store/rov/bluerov/
 
 manual-links:
 - T200 Thrusters: /thrusters/
-- M100 Motor: /thrusters/motors/
 ---
 
 <img src="/assets/images/tutorials/bluerov-manual/michal-rov-banner.png" class="img-responsive" style="max-width:900px" />
 
 # Introduction
 
-The **BlueROV** is an unassembled ROV kit with frame, watertight enclosure, thrusters, and speed controllers. Hardware/software experience required. It uses six thrusters to provide six-degree-of-freedom control allowing you to point the ROV in any orientation to film anything, grab anything with a simple robot arm, and have a lot of fun! 
+The **BlueROV** is an unassembled ROV kit with frame, watertight enclosure, thrusters, and speed controllers. Hardware/software experience required. It uses six thrusters to provide five-degree-of-freedom control allowing you to point the ROV in almost any orientation to film anything, grab anything with a simple robot arm, and have a lot of fun! 
 
 ## Safety 
 
@@ -55,27 +57,43 @@ Quantity      | Part
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
-1             |                                           
-6             |                                           
-24            |                     
+1             | Electronics tray with terminal blocks and ESCs installed                                          
+1             | 4" watertight enclosure with 4" dome installed                                          
+1             | Camtilt with servo and camera installed    
+1             | Fathom tether board
+1             | 14 hole end cap with 3 blanks, 1 Bar30, 1 vent, and 1 power cable installed
+1             | Set of 8" long black and red 20 AWG wires 
+4             | M3x16 Socket Head Cap Screw (316 Stainless Steel)  
 
 ## Battery Enclosure
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
 2             | Battery Enclosure Cradle (Black Anodized Aluminum w/ rubber strip)          
-1             |                              
-1             |          
-2             |                             
-4             |                                      
-12            |                            
+1             | 3" Watertight Enclosure 8-3/4" Long                             
+1             | 3" Blank Endcap (Anodized Aluminum 6061)         
+1             | 3" 4 Hole Endcap w/ 2 blanks and 1 vent installed (Anodized Aluminum 6061)                           
+2             | 3" Flange Seals, installed on end caps w/ O-rings (Anodized Aluminum 6061)                                     
+1             | XT-90 to 5mm Bullet Connector Adapter
+4             | M4x14 Socket Head Cap Screw (316 Stainless Steel)   
+4             | M3x12 Socket Head Cap Screws (316 Stainless Steel)                       
 
 ## Thrusters
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
 6   		  | T200 Thrusters w/ installed penetrator
-24            | M3x16 Socket Head Cap Screw (316 Stainless Steel)                                  
+24            | M3x16 Socket Head Cap Screw (316 Stainless Steel)      
+30            | 5 1/2" Zip Ties (Nylon)
+
+## Lights
+
+Quantity      | Part
+------------- | --------------------------------------------------------
+2    		  | Lumen Lights Daisy Chained
+2             | Lumen Light Mounts (Aluminum 6061)    
+2             | 133 O-ring (Buna-N)             
+4             | M3x12 Socket Head Cap Screw (316 Stainless Steel)               
 
 ## Fairings
 
@@ -106,14 +124,10 @@ Quantity      | Part
 
 **Tools Needed:**
 
-* 2mm Hex Driver
-* 2.5mm Hex Driver
-* Flathead Screwdriver
-* Phillips screwdriver
-* Knife or Scissors
-* Syringe with Luer Tip
-* Wire cutters
-* Wire Strippers
+* 2 - 16mm Open Ended Wrenches 
+* Wire Cutters or Scissors (for cutting zip ties)
+* Phillips Head Screw Driver
+* 2mm Flat Head Screw Driver
 * Thread locker (we recommend loctite 243)
 
 # Assembly
@@ -136,7 +150,7 @@ Quantity      | Part
 
 	<img src="cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:700px" />
 	
-## Frame
+## Putting the Frame Together
 
 1. Apply several drops of threadlocker to the end of 8 M4x18 screws.
 
@@ -166,7 +180,7 @@ Now your ROV should look like the picture below, and it is time to move on to se
 
 <img src="cad/brov-assembly-step7.png" class="img-responsive" style="max-width:700px" />
 	
-## Electronics Enclosure
+## Assembling the Electronics Enclosure
 
 The electronics enclosure ships partially assembled, and will arive looking like this.
 
@@ -205,15 +219,52 @@ You should tighten the penetrators finger tight plus ~1/16 of a turn. To make su
 
 13. Connect the Bar30 signal wire to the I<sup>2</sup>C port on your autopilot.
 
-14. Connect the power wires to the power terminal blocks.
+14. Connect the Lumen power wires to the power terminal blocks.
 
 15. Connect the Lumen light signal wire to your autopilot and the Lumen light power and ground wires to the power terminals.
 
-15.  Connect your motor wires to the motor wire terminal
+15. Connect your motor wires to the motor wire terminal
 
-## Electronics Tray
+16. Connect the tether to the tether board.
 
-1. 
+17. Reinstall tube with dome over the electronics tray.
+
+## Installing the Thrusters, Lights, and Electronics Enclosure onto the Frame
+
+1. Attach the electronics enclosure to the cradles using four M3x16 socket head cap screws with threadlocker applied to them.
+
+2. Install a 013 O-ring on the power wire penetrator, then install it onto the open spot on the battery enclosure end cap.
+
+3. Install counter-clockwise propellers to thrusters 1, 2, and 5. Follow the [changing the propeller tutorial](http://docs.bluerobotics.com/tutorials/changing-the-propeller/)
+
+4. Install thrusters 1 and 2. Tighten screws until they indent the frame slightly. 
+
+5. Install thrusters 5 and 6. Tighten the screws until they indent the frame slightly.
+
+6. Install thrusters 3 and 4. Tighten the screws until they indent the frame slightly.
+
+7. Use the provided zip ties and the holes in the center panels to clean up the wiring as shown.
+
+8. Install the Lumens into the Lumen mount using the 133 O-ring that is in the same bag that the Lumen mount was in.
+
+9. Install the tether into the thimble. See the [strain relief section of the tether tutorial](http://docs.bluerobotics.com/fathom/#strain-relief) for more details.
+
+10. Attach the tether thimble to the frame as shown.
+
+11. Install the buoyancy foam into the fairings.
+
+12. Attach the fairings to the frame using the 3/4 inch long #4 self tapping screws.
+
+13. Attach the XT-90 to 5mm bullet connector to the 5mm bullet connectors on the power cable on the battery enclosure side.
+
+14. Vacuum test your electronics and battery enclosures.
+
+15. Attach your battery and that's it!
+
+## Installing Ballast Weights
+
+We recommend leaving the BlueROV2 slightly positively buoyant so that if your battery dies while you are diving, the ROV will help you when you are pulling it back in. 
+The BlueROV2 is slightly tail heavy, so we recommend starting with more of the ballast in the front.
 
 
 
