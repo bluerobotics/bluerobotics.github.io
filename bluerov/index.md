@@ -243,6 +243,8 @@ The above shows the suggested penetrator configuration for the Blue ROV, with th
 
 ## Thruster Preparation
 
+*Note: These images show T100 thrusters but the BlueROV kit actually includes T200 thrusters.*
+
 1. First, we'll change the propellers on two thrusters so that we have counter-rotating pairs. Follow the instructions in the [Propeller Changing Tutorial](/tutorials/changing-the-propeller) to do so. These two thrusters will be the right horizontal and right vertical thrusters.
 <img src="/assets/images/tutorials/bluerov-manual/BR-11.png" class="img-responsive" style="max-width:600px" /> 
 2. Label the thrusters with the location of where they will be going on the ROV. The standard thruster label configuration for the Blue ROV is shown above.
