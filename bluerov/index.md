@@ -57,10 +57,9 @@ Quantity      | Part
 1             | Rear Thruster Mount (Black Delrin)                      
 2             | Watertight Enclosure Cradles (Black Delrin)             
 10            | T-Slot Nuts                                             
-12            | M5x12 Cross Head Plastic Screws                     
+12            | M5x12 Button-Head Hex Screws                       
 12            | M4x10 Button-Head Hex Screws                     
-2             | Velcro Straps
-1             | Double Sided Velco Strap                             
+2             | Velcro Straps                          
 1             | Rubber Edge Strip    
 
 ## Thrusters                                                         
