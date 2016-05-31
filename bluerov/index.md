@@ -95,10 +95,10 @@ Quantity      | Part
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
-8             | Cable Penetrator Bolt for 6mm Cable                     
-2             | Cable Penetrator Bolt (No Hole)                         
-10            | Cable Penetrator Nut                                    
-10            | O-rings for Cable Penetrators                           
+9             | Cable Penetrator Bolt for 6mm Cable                     
+4             | Cable Penetrator Bolt (No Hole)                         
+11            | Cable Penetrator Nut                                    
+11            | O-rings for Cable Penetrators                           
 
 ## Electronics Tray
 
