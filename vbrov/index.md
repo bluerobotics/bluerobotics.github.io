@@ -5,6 +5,7 @@ order: 1
 nav:
 - Introduction: introduction
 - - Safety: safety
+- Tools Needed: tools-needed
 - What's Included: whats-included
 - - Frame: frame
 - - Thrusters: thrusters
@@ -13,8 +14,9 @@ nav:
 - - Cable Penetrators: cable-penetrators
 - - Electronics Tray: electronics-tray
 - - Miscellaneous: miscellaneous
+- - Other Items Not Included: other-items-not-included-in-kit
 - Assembly: assembly
-- - Installing the Battery Enclosure onto the Bottom Panel: installing-the-battery-enclosure-onto-the-bottom-panel
+- - Bottom Panel: installing-the-battery-enclosure-onto-the-bottom-panel
 - - Putting the Frame Together: putting-the-frame-together
 - - Assembling the Electronics Enclosure: assembling-the-electronics-enclosure
 - - Installing the Thrusters, Lights, and Electronics Enclosure onto the Frame: installing-the-thrusters-lights-and-electronics-enclosure-onto-the-frame
@@ -36,6 +38,14 @@ The **BlueROV** is an unassembled ROV kit with frame, watertight enclosure, thru
 ## Safety 
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with electricity, especially in water, always practice caution. Always ensure that connections are secure and watertight. Keep your body away from spinning motors and propellers.
+
+# Tools Needed
+
+* 2 - 16mm Open Ended Wrenches 
+* Wire Cutters or Scissors (for cutting zip ties)
+* Phillips Head Screw Driver
+* 2mm Flat Head Screw Driver
+* Thread locker (we recommend loctite 243)
 
 # What's Included
 
@@ -100,7 +110,7 @@ Quantity      | Part
 Quantity      | Part
 ------------- | --------------------------------------------------------
 4             | Fairings (Blue Polycarbonate)                    
-4             | Buoyancy Foam ()                        
+4             | Buoyancy Foam (R-3318 Urethane Foam)                        
 16            | #4 Size, 3/4" Long Pan Head Self Tapping Screw (316 Stainless Steel)                                   
 
 ## Tether
@@ -108,6 +118,7 @@ Quantity      | Part
 Quantity      | Part
 ------------- | --------------------------------------------------------
 1             | Fathom Tether                               
+1             | 8mm Cable Penetrator and Nut (pre-installed)
 1             | Fathom Thimble                          
 5             | Heavy Duty Zip Ties               
  
@@ -122,13 +133,9 @@ Quantity      | Part
 1             | 2.5mm Hex Key
 1			  | 3mm Hex Key                  
 
-**Tools Needed:**
+## Other Items Not Included
 
-* 2 - 16mm Open Ended Wrenches 
-* Wire Cutters or Scissors (for cutting zip ties)
-* Phillips Head Screw Driver
-* 2mm Flat Head Screw Driver
-* Thread locker (we recommend loctite 243)
+[tbd]
 
 # Assembly
 
@@ -178,7 +185,7 @@ Now your ROV should look like the picture below, and it is time to move on to se
 	
 ## Assembling the Electronics Enclosure
 
-The electronics enclosure ships partially assembled, and will arive looking like this.
+The electronics enclosure ships partially assembled, and will arrive looking like this.
 
 <img src="cad/electronics-assembly-step0.png" class="img-responsive" style="max-width:700px" />
 
@@ -186,7 +193,7 @@ The electronics enclosure ships partially assembled, and will arive looking like
 
 	<img src="cad/electronics-assembly-step1.png" class="img-responsive" style="max-width:700px" />
 
-2. Remove the rear 14 hole end cap by removing the screws using a M2.5 Allen key. Place the M3x12 screws and the clips in a safe place. 
+2. Remove the rear 14 hole end cap by removing the screws using a M2.5 Allen key. Place the M3x12 screws, clips, and O-ring in a safe place. 
 
 	<img src="cad/electronics-assembly-step2-annotated.png" class="img-responsive" style="max-width:700px" />
 	
@@ -208,7 +215,7 @@ The electronics enclosure ships partially assembled, and will arive looking like
 
 <img src="cad/fathom-step-2.png" class="img-responsive" style="max-width:700px" />
 
-7. Attach the tether board power jumpers to the power terminal blocks and the tether board
+7. Attach the tether board power wires to the power terminal blocks and the tether board
 
 
 
