@@ -2,6 +2,10 @@
 # Style CSS for Appearance
 ---
 
+a:hover {
+    text-decoration: none;
+}
+
 .content ul li {
 	margin-left: 30px;
 }
@@ -29,4 +33,11 @@
 	padding: 10px 15px 10px 15px;
 	width: 100%;
 	border-radius:0px;
+}
+
+.anchorjs-link:hover {
+  color: #2500AD;
+}
+*:hover > .anchorjs-link {
+  transition: color .25s linear;
 }

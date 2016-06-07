@@ -5,117 +5,136 @@ liOpen: false
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
 
-    {% include header.html %}
+  {% include header.html %}
 
-    <div class="page-content">
-      <div class="container">
-        <div class="col-sm-3">
-          <nav id="sidenav" class="bs-docs-sidebar">
-              <ul id="sidebar" class="nav nav-stacked bs-docs-sidenav affix-top" data-spy="affix" data-offset-top="130" data-offset-bottom="300">
-                <div class="link-heading">Navigation</div>
-                  {% for item_hash in page.nav %}
-                    {% assign page.liOpen = false %}
-                    {% for item in item_hash %}               
-                      {% if item[0] != nil %}
-                        {% if page.liOpen %}
-                          </li> <!-- This is here to close tag only after all subitems have been listed. -->
-                          {% assign page.liOpen = false %}
-                        {% endif %}
-                        <li> 
-                        {% assign page.liOpen = true %}
-                        <a {% if false %}class="active"{% endif %} href="#{{ item[1] }}">{{ item[0] }}</a>
-                      {% endif %}
+  <div class="page-content">
+    <div class="container">
+      <div class="col-sm-3">
+        <nav id="sidenav" class="bs-docs-sidebar">
+          <ul id="sidebar" class="nav nav-stacked bs-docs-sidenav affix-top" data-spy="affix" data-offset-top="130" data-offset-bottom="300">
+            <div class="link-heading">Navigation</div>
+            {% for item_hash in page.nav %}
+            {% assign page.liOpen = false %}
+            {% for item in item_hash %}               
+            {% if item[0] != nil %}
+            {% if page.liOpen %}
+          </li> <!-- This is here to close tag only after all subitems have been listed. -->
+          {% assign page.liOpen = false %}
+          {% endif %}
+          <li> 
+            {% assign page.liOpen = true %}
+            <a {% if false %}class="active"{% endif %} href="#{{ item[1] }}">{{ item[0] }}</a>
+            {% endif %}
 
-                      {% if item[0] == nil %}
-                        <ul class="nav nav-stacked">
-                        {% for subitem in item %}
-                          {% if subitem[0] != nil %}
-                            <li>
-                                <a {% if false %}class="active"{% endif %} href="#{{ subitem[1] }}">{{ subitem[0] }}</a>
-                            </li>
-                          {% endif %}
-                        {% endfor %} 
-                        </ul>
-                      {% endif %}
-                    {% endfor %}
-                  {% endfor %}
-
-              <br /><br />
-
-              {% if page.store-links != nil %}
-              <div class="link-heading"><i class="fa fa-arrow-right fa-fw"></i> Store</div>
-              {% for link in page.store-links %}
-                <li class="sidebar-link">
-                  {% for subitem in link %}
-                    <a href="{{ subitem[1] }}">{{ subitem[0] }}</a>
-                  {% endfor %}
-                </li>
-              {% endfor %}
+            {% if item[0] == nil %}
+            <ul class="nav nav-stacked">
+              {% for subitem in item %}
+              {% if subitem[0] != nil %}
+              <li>
+                <a {% if false %}class="active"{% endif %} href="#{{ subitem[1] }}">{{ subitem[0] }}</a>
+              </li>
               {% endif %}
-
-              {% if page.manual-links != nil %}
-              <div class="link-heading"><i class="fa fa-book fa-fw"></i> Product Manuals</div>
-              {% for link in page.manual-links %}
-                <li class="sidebar-link">
-                  {% for subitem in link %}
-                    <a href="{{ subitem[1] }}">{{ subitem[0] }}</a>
-                  {% endfor %}
-                </li>
-              {% endfor %}
-              {% endif %}
-
-              {% if page.tutorial-links != nil %}
-              <div class="link-heading"><i class="fa fa-university fa-fw"></i> Related Tutorials</div>
-              {% for link in page.tutorial-links %}
-                <li class="sidebar-link">
-                  {% for subitem in link %}
-                    <a href="{{ subitem[1] }}">{{ subitem[0] }}</a>
-                  {% endfor %}
-                </li>
-              {% endfor %}
-              {% endif %}
-              
-              <br /><br />
-
-              <li><a href="https://github.com/bluerobotics/bluerobotics.github.io/issues/new"><span class="small"><i class="fa fa-exclamation-circle"></i> Report an Issue or Make a Suggestion</span></a></li>
-
-              <br />
-
-              <li><iframe src="https://ghbtns.com/github-btn.html?user=bluerobotics&repo=bluerobotics.github.io&type=star&count=true" frameborder="0" scrolling="0" width="160px" height="50px" style="padding-left:20px"></iframe></li>
-
-              
-
-
+              {% endfor %} 
             </ul>
-          </nav>
-        </div>
-        <div class="col-sm-9 content">
-          <p class="lead">{{ page.title }}</p>
-          <hr />
-          <br />
-          {{ content }}
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br /><br />
-        </div>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+
+            <br /><br />
+
+            {% if page.store-links != nil %}
+            <div class="link-heading"><i class="fa fa-arrow-right fa-fw"></i> Store</div>
+            {% for link in page.store-links %}
+            <li class="sidebar-link">
+              {% for subitem in link %}
+              <a href="{{ subitem[1] }}">{{ subitem[0] }}</a>
+              {% endfor %}
+            </li>
+            {% endfor %}
+            {% endif %}
+
+            {% if page.manual-links != nil %}
+            <div class="link-heading"><i class="fa fa-book fa-fw"></i> Product Manuals</div>
+            {% for link in page.manual-links %}
+            <li class="sidebar-link">
+              {% for subitem in link %}
+              <a href="{{ subitem[1] }}">{{ subitem[0] }}</a>
+              {% endfor %}
+            </li>
+            {% endfor %}
+            {% endif %}
+
+            {% if page.tutorial-links != nil %}
+            <div class="link-heading"><i class="fa fa-university fa-fw"></i> Related Tutorials</div>
+            {% for link in page.tutorial-links %}
+            <li class="sidebar-link">
+              {% for subitem in link %}
+              <a href="{{ subitem[1] }}">{{ subitem[0] }}</a>
+              {% endfor %}
+            </li>
+            {% endfor %}
+            {% endif %}
+
+            <br /><br />
+
+            <li><a href="https://github.com/bluerobotics/bluerobotics.github.io/issues/new"><span class="small"><i class="fa fa-exclamation-circle"></i> Report an Issue or Make a Suggestion</span></a></li>
+
+            <br />
+
+            <li><iframe src="https://ghbtns.com/github-btn.html?user=bluerobotics&repo=bluerobotics.github.io&type=star&count=true" frameborder="0" scrolling="0" width="160px" height="50px" style="padding-left:20px"></iframe></li>
+
+
+
+
+          </ul>
+        </nav>
       </div>
-    </div> 
+      <div class="col-sm-9 content">
+        <p class="lead">{{ page.title }}</p>
+        <hr />
+        <br />
+        {{ content }}
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br />
+      </div>
+    </div>
+  </div> 
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-  </body>
-  <script>
+</body>
+<script>
     // Table Bootstrap Classes
     var tables = document.getElementsByTagName("table");
 
     for (var i=0, max=tables.length; i < max; i++) {
-        tables[i].className += " table table-condensed";
+      tables[i].className += " table table-condensed";
     }
+    </script>
+    <script>
+  /**
+  * AnchorJS v1.1.1 options and selector
+  */
+  anchors.add('h1');
+  anchors.add('h2');
+  anchors.add('h3');
+  anchors.add('h4');
+  anchors.remove('.no-anchor');
   </script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-45744597-2', 'auto');
+  ga('send', 'pageview');
+
+  </script>
 </html>

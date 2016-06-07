@@ -46,7 +46,7 @@ Using the knife, gently slice the jacket open with a sawing motion.
 
 <img src="/assets/images/tutorials/wire-stripping/wire-strip-3.png" class="img-responsive" style="max-width:800px" />
 
-Stop one the jacket opens and you can see the white Teflon tape underneath.
+Stop once the jacket opens and you can see the white Teflon tape underneath.
 
 <img src="/assets/images/tutorials/wire-stripping/wire-strip-4.png" class="img-responsive" style="max-width:800px" />
 
@@ -74,4 +74,4 @@ With the 18 AWG slot on a standard wire strippers, remove the insulation from ea
 
 That's it!
 
-We'd recommend practicing a few times on a spare piece of cable before you try this on your thruster. If you have one available, a thermal wire strippers makes this process much quicker.
+We'd recommend practicing a few times on a spare piece of cable before you try this on your thruster. If you have one available, a thermal wire stripper makes this process much quicker.
