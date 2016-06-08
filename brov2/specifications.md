@@ -1,6 +1,7 @@
 ---
 layout: default
 title: BlueROV2 Specifications
+permalink: /brov2/
 order: 1
 nav:
 - Introduction: introduction

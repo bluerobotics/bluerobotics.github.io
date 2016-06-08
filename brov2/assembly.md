@@ -1,6 +1,7 @@
 ---
 layout: default
 title: BlueROV2 Assembly Instructions
+permalink: /brov2/assembly/
 order: 1
 nav:
 - Introduction: introduction
