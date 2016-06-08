@@ -17,11 +17,12 @@ nav:
 - - Tether: tether
 - - Sensors: Sensors
 - - Camera Tilt: camera-tilt
-- Standard and Advanced Comparison: standard-and-advanced-comparison
-- Assembly: assembly
-- Control Software: control-software
-- Operation: operation
+- - Standard and Advanced Comparison: standard-and-advanced-comparison
 - 3D Model: d-model
+- Assembly-Manual: assembly-manual
+- Control Software: control-software
+- Operation-Manual: operation-manual
+
 
 store-links:
 - BlueROV2: https://www.bluerobotics.com/store/rov/bluerov2/
@@ -166,18 +167,6 @@ The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected 
 |                            | Gamepad Controller such as [Xbox](#) or [Logitech](#)                                                      | Gamepad Controller  such as [Xbox](#) or [Logitech](#)                                                          |
 |                            | [Analog video screen with RCA Input](#)                                                                    |                                                                                                                    |
 
-# Assembly
-
-Please look at our [Assembly Tutorial Page](/brov2/assembly) for more detailed assembly instructions.
-
-# Control Software
-
-Please look at our [ArduSub Documentation](http://ardusub.com/introduction/#overview) for more details on the control software.
-
-# Operation
-
-Please look at our [BlueROV2 Operation Page](/brov2/operation) for a detailed operating manual.
-
 # 3D Model
 
 These are BIG files since the model is fairly complex. If you just want to check out a 3D view of the BlueROV, we recommend [checking out the files on GrabCAD](https://grabcad.com/library/bluerobotics-bluerov2-r1-1-1).
@@ -188,5 +177,17 @@ These are BIG files since the model is fairly complex. If you just want to check
 | STEP (.step)               | [Assem-BROV2-R1.STEP](#)   |
 | IGES (.igs)                | [Assem-BROV2-R1.IGS](#) |
 | STL (.stl)                 | [Assem-BROV2-R1.STL](#)|
+
+# Assembly Manual
+
+Please look at our [Assembly Tutorial Page](/brov2/assembly) for more detailed assembly instructions.
+
+# Control Software
+
+Please look at our [ArduSub Documentation](http://ardusub.com/introduction/#overview) for more details on the control software.
+
+# Operation Manual
+
+Please look at our [BlueROV2 Operation Page](/brov2/operation) for a detailed operating manual.
 
 
