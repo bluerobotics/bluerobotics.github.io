@@ -1,11 +1,14 @@
 ---
 layout: default
-title: BlueROV2 Specifications
+title: BlueROV2
 permalink: /brov2/
 order: 1
 nav:
 - Introduction: introduction
-- Build Time: build-time
+- - Features: features
+- - What's Included: whats-included
+- - What's Not Included: whats-not-included
+- - Resources
 - Specifications: specifications
 - - Physical: physical
 - - Performance: performance
@@ -15,7 +18,9 @@ nav:
 - - Sensors: Sensors
 - - Camera Tilt: camera-tilt
 - Standard and Advanced Comparison: standard-and-advanced-comparison
+- Assembly: assembly
 - Control Software: control-software
+- Operation: operation
 - 3D Model: d-model
 
 store-links:
@@ -41,9 +46,39 @@ manual-links:
 The _BlueROV2_ is the world's most affordable high-performance ROV. The _BlueROV2_ is capable of delivering live ultra-low latency video. It comes standard with a highly maneuverable vectored thruster configuration, which is stable and optimized for inspection 
 and research missions. It is hand portable and easy to use with a cross-platform user interface. It also has room to expand with three free cable penetrators. 
 
-# Build Time
+## Features
+
+- Live Ultra-low Latency Video
+- Highly Maneuverable Vectored Thruster Configuration
+- Stable and Optimized for Inspection- and Research-class Missions
+- Easy to Use, Cross-platform User Interface
+- Highly Expandable with Three Free Cable Penetrators
+
+## What's Included
 
 The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected build time is 4-8 hours to operation depending on experience.
+
+[Add link to standard/advanced comparison]
+
+[Add link to BOM]
+
+## What's Not Included
+
+[Analog screen]
+
+[Xbox controller]
+
+[Laptop or tablet]
+
+## Resources
+
+[Assembly tutorial]
+
+[BOM]
+
+[ArduSub Initial Setup]
+
+[ArduSub Operation]
 
 # Specifications
 
@@ -131,9 +166,17 @@ The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected 
 |                            | Gamepad Controller such as [Xbox](#) or [Logitech](#)                                                      | Gamepad Controller  such as [Xbox](#) or [Logitech](#)                                                          |
 |                            | [Analog video screen with RCA Input](#)                                                                    |                                                                                                                    |
 
+# Assembly
+
+Please look at our [Assembly Tutorial Page](/brov2/assembly) for more detailed assembly instructions.
+
 # Control Software
 
 Please look at our [ArduSub Documentation](http://ardusub.com/introduction/#overview) for more details on the control software.
+
+# Operation
+
+Please look at our [BlueROV2 Operation Page](/brov2/operation) for a detailed operating manual.
 
 # 3D Model
 
