@@ -37,8 +37,8 @@ manual-links:
 
 # Introduction
 
-The _BlueROV2_ is the world's most affordable high-performance ROV. The _BlueROV2_ is capable of delivering live ultra-low latency video. It comes standard with a highly maneuverable vectored thruster configuration, which is stable and optimized for inspection and research missions. 
-It is hand portable and easy to use with a cross-platform user interface. It also has room to expand with three free cable penetrators. 
+The _BlueROV2_ is the world's most affordable high-performance ROV. The _BlueROV2_ is capable of delivering live ultra-low latency video. It comes standard with a highly maneuverable vectored thruster configuration, which is stable and optimized for inspection 
+and research missions. It is hand portable and easy to use with a cross-platform user interface. It also has room to expand with three free cable penetrators. 
 
 # Build Time
 
@@ -127,7 +127,7 @@ The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected 
 |                            |                                                                                                            | Computer such as the [Raspberry Pi 3](#)                                                                           |
 |                            | **Standard Required Topside**                                                                              | **Advanced Required Topside**                                                                                      |
 |                            | Laptop or Tablet                                                                                           | Laptop or Tablet                                                                                                   |
-|                            | Gamepad Controller such as [Xbox](#) or [Logitech](#)                                                      | Gamepad or Controller  such as [Xbox](#) or [Logitech](#)                                                          |
+|                            | Gamepad Controller such as [Xbox](#) or [Logitech](#)                                                      | Gamepad Controller  such as [Xbox](#) or [Logitech](#)                                                          |
 |                            | [Analog video screen with RCA Input](#)                                                                    |                                                                                                                    |
 
 # Control Software
