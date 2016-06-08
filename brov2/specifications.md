@@ -81,8 +81,8 @@ The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected 
 
 ## Battery
 
-| Battery Life (Normal Use)              | ~1 hour w/ 10Ah battery ($60 each) |
-| Battery Life (Light Use)               | ~4 hours w/ 10Ah battery ($60 each) |
+| Battery Life (Normal Use)              | ~1 hour w/ [10Ah battery](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844) ($60 each) |
+| Battery Life (Light Use)               | ~4 hours w/ [10Ah battery](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844) ($60 each) |
 
 ## Lights
 
