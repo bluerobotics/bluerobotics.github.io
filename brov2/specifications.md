@@ -28,15 +28,8 @@ store-links:
 - BlueROV2: https://www.bluerobotics.com/store/rov/bluerov2/
 
 manual-links:
-- T200 Thrusters: /thrusters/
-- Lumen Subsea Light: /lumen/
-- Fathom-S: /fathom-s/
-- Basic ESC: /besc/
-- Watertight Enclosures: /watertight-enclosures/
-- Vent: /vent/
-- Cable Penetrator: /cable-penetrator/
-- Bar 30 Pressure Sensor: /bar30/
-- Fathom Tether: /fathom/
+- Assembly Manual: /brov2/assembly/
+- Operation Manual: /brov2/operation/
 
 ---
 
@@ -44,8 +37,7 @@ manual-links:
 
 # Introduction
 
-The _BlueROV2_ is the world's most affordable high-performance ROV. The _BlueROV2_ is capable of delivering live ultra-low latency video. It comes standard with a highly maneuverable vectored thruster configuration, which is stable and optimized for inspection 
-and research missions. It is hand portable and easy to use with a cross-platform user interface. It also has room to expand with three free cable penetrators. 
+The _BlueROV2_ is the world's most affordable high-performance ROV. 
 
 ## Features
 
@@ -59,12 +51,13 @@ and research missions. It is hand portable and easy to use with a cross-platform
 
 The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected build time is 4-8 hours to operation depending on experience.
 
-[Add link to standard/advanced comparison]
+Here is the [bill of material](/brov2/operation/#whats-included) for the each BlueROV2 kit.
 
-[Add link to BOM]
+The standard and advanced options have a couple of differences shown [here](/brov2/#standard-and-advanced-comparison)
 
 ## What's Not Included
 
+There are some items necessary for operation that are not included with the kit. 
 [Analog screen]
 
 [Xbox controller]
@@ -73,13 +66,13 @@ The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected 
 
 ## Resources
 
-[Assembly tutorial]
+ - [Assembly Instructions](/brov2/assembly/)
 
-[BOM]
+ - [Bill of Materials](/brov2/assembly/#whats-included)
 
-[ArduSub Initial Setup]
+ - [Initial ArduSub Set-up](http://ardusub.com/initial-setup/)
 
-[ArduSub Operation]
+ - [ArduSub Operation](#)
 
 # Specifications
 
@@ -158,8 +151,8 @@ The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected 
 | Light Sensitivity          | 0.0003 [lux](https://en.wikipedia.org/wiki/Lux#Illuminance)                                                | TBD                                                                                                                |
 | Resolution                 | 700 TVL                                                                                                    | up to 4k                                                                                                           |
 |                            | **Standard Control System and Electronics**                                                                | **Advanced Control System and Electronics**                                                                        | 
-| Tether Board               | [Fathom-S Tether Interface Board](http://docs.bluerobotics.com/fathom-s/) for video and communication      | [Fathom-X Tether and Interface Board](http://docs.bluerobotics.com/fathom-x/) (tether > 100m)                      |
-|                            |                                                                                                            | [Fathom-E Tether and Interface Board](https://www.bluerobotics.com/store/electronics/fathom-e-r1/)  (tether < 100m)|
+| Tether Board               | [Fathom-S Tether Interface Board](http://docs.bluerobotics.com/fathom-s/) for video and communication      | [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/) (tether > 100m)                      |
+|                            |                                                                                                            | [Fathom-E Tether Interface Board](https://www.bluerobotics.com/store/electronics/fathom-e-r1/)  (tether < 100m)|
 | Control System             | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
 |                            |                                                                                                            | Computer such as the [Raspberry Pi 3](#)                                                                           |
 |                            | **Standard Required Topside**                                                                              | **Advanced Required Topside**                                                                                      |
