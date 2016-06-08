@@ -144,19 +144,19 @@ Quantity      | Part
 
 1. Take one battery cradle and apply several drops of threadlocker to the bottom third of the screw holes on the bottom of the cradle. 
 
-	<img src="cad/locktite-application-blind.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2//brov2/cad/locktite-application-blind.png" class="img-responsive" style="max-width:700px" />
 
 2. Attach that battery cradle to the bottom panel, using M4x14 socket head cap screws. Be sure that the screw head is in the counterbore. 
 
-	<img src="cad/brov-assembly-step1-annotated.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2//brov2/cad/brov-assembly-step1-annotated.png" class="img-responsive" style="max-width:700px" />
 
 3. Apply several drops of threadlocker to the end of 4 M3x12 screws.
 
-	<img src="cad/locktite-application-2.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2//brov2/cad/locktite-application-2.png" class="img-responsive" style="max-width:700px" />
 
 4. Install the 4 M3x12 screws into the cradle to clamp the battery enclosure into place.
 
-	<img src="cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2//brov2/cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:700px" />
 	
 ## Putting the Frame Together
 
@@ -164,41 +164,41 @@ Quantity      | Part
 	
 2. Attach the electronics enclosure cradle to the rear center panels. 
 
-	<img src="cad/brov-assembly-step3-annotated.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2//brov2/cad/brov-assembly-step3-annotated.png" class="img-responsive" style="max-width:700px" />
 	
 3. Attach the electronics enclosure cradle to the front center panels.
 
-	<img src="cad/brov-assembly-step4-annotated.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2//brov2/cad/brov-assembly-step4-annotated.png" class="img-responsive" style="max-width:700px" />
 	
 4. Apply several drops of threadlocker to the end of the 12 M5x16 screws.
 
 5. Install the side panels to the bottom panel.
 
-	<img src="cad/brov-assembly-step5-annotated.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2//brov2/cad/brov-assembly-step5-annotated.png" class="img-responsive" style="max-width:700px" />
 	
 6. Install the center panel assemblies to the side panels.
 
-	<img src="cad/brov-assembly-step6-annotated.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2//brov2/cad/brov-assembly-step6-annotated.png" class="img-responsive" style="max-width:700px" />
 	
 Now your ROV should look like the picture below, and it is time to move on to setting up your electronics enclosure.
 
-<img src="cad/brov-assembly-step7.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2//brov2/cad/brov-assembly-step7.png" class="img-responsive" style="max-width:700px" />
 	
 ## Assembling the Electronics Enclosure
 
 The electronics enclosure ships partially assembled, and will arrive looking like this.
 
-<img src="cad/electronics-assembly-step0.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/electronics-assembly-step0.png" class="img-responsive" style="max-width:700px" />
 
 1. Remove the tube from the rear flange. You can twist a screwdriver in the slots if it does not pull off easily.
 
-	<img src="cad/electronics-assembly-step1.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2/cad/electronics-assembly-step1.png" class="img-responsive" style="max-width:700px" />
 
 2. Remove the rear 14 hole end cap by removing the screws using a M2.5 Allen key. Place the M3x12 screws, clips, and O-ring in a safe place. 
 
-	<img src="cad/electronics-assembly-step2-annotated.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2/cad/electronics-assembly-step2-annotated.png" class="img-responsive" style="max-width:700px" />
 	
-	<img src="cad/etray-disasseble.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2/cad/etray-disasseble.png" class="img-responsive" style="max-width:700px" />
 	
 3. Connect the ESC power wires to the power terminals
 
@@ -206,7 +206,7 @@ The electronics enclosure ships partially assembled, and will arrive looking lik
 
 4. Connect the ESC motor wires to the motor wire terminals.
 
-<img src="cad/installed-motor-wires.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/installed-motor-wires.png" class="img-responsive" style="max-width:700px" />
 
 5. Attach your autopilot/computer.
 
@@ -214,7 +214,7 @@ The electronics enclosure ships partially assembled, and will arrive looking lik
 
 6. 	Attach your tether board.
 
-<img src="cad/fathom-step-2.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/fathom-step-2.png" class="img-responsive" style="max-width:700px" />
 
 7. Attach the tether board power wires to the power terminal blocks and the tether board
 
@@ -222,9 +222,9 @@ The electronics enclosure ships partially assembled, and will arrive looking lik
 
 7. Cut the 5V line on 5 of the ESC signal wires, then connect your ESC signal wires to your autopilot. 
 
-<img src="cad/esc-5-volt-remove-2.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/esc-5-volt-remove-2.png" class="img-responsive" style="max-width:700px" />
 
-<img src="cad/esc-signal-wire-install.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/esc-signal-wire-install.png" class="img-responsive" style="max-width:700px" />
 
 8. Attach your camera wire to the tether board
 
@@ -236,7 +236,7 @@ The electronics enclosure ships partially assembled, and will arrive looking lik
 
 10. Apply silicone grease to nine 013 O-rings, then install them onto the 6 T200 penetrators, the Lumen Light penetrator, and the Fathom Tether penetrator.
 
-<img src="cad/grease-o-ring.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/grease-o-ring.png" class="img-responsive" style="max-width:700px" />
 	
 11. Install the T200 Thrusters, Lumen Lights, Fathom Tether, and power cable penetrators into the end cap as shown below, using two 16mm open end wrenches. 
 You should tighten the penetrators finger tight plus ~1/16 of a turn. To make sure that the penetrators are tight enough, try to loosen them with your fingers after tightening. If you can't loosen them they are tight enough.
@@ -245,33 +245,33 @@ You should tighten the penetrators finger tight plus ~1/16 of a turn. To make su
 
 12. Reinstall O-ring to the flange seal and reinstall the end cap onto the electronics enclosure, using the screws, clips, and M2.5 Allen key from step 2.
 
-<img src="cad/electronics-flange-with-o-ring.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/electronics-flange-with-o-ring.png" class="img-responsive" style="max-width:700px" />
 
-<img src="cad/end-cap-installed.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/end-cap-installed.png" class="img-responsive" style="max-width:700px" />
 
 13. Connect the Bar30 signal wire to the I<sup>2</sup>C port on your autopilot.
 
-<img src="cad/i2c-installed.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/i2c-installed.png" class="img-responsive" style="max-width:700px" />
 
 14. Connect the power wires to the power terminal blocks.
 
-<img src="cad/installed-power-wire.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/installed-power-wire.png" class="img-responsive" style="max-width:700px" />
 
 15. Connect the Lumen light signal wire to your autopilot and the Lumen light power and ground wires to the power terminals.
 
-<img src="cad/installed-lumen-power-wire.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/installed-lumen-power-wire.png" class="img-responsive" style="max-width:700px" />
 
 15. Connect your motor wires to the motor wire terminal
 
-<img src="cad/installed-motor-wires.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/installed-motor-wires.png" class="img-responsive" style="max-width:700px" />
 
 16. Install the camera wire into the tether board.
 
-<img src="cad/camera-wire-install.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/camera-wire-install.png" class="img-responsive" style="max-width:700px" />
 
 16. Connect the tether to the tether board.
 
-<img src="cad/installed-tether-wires.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/installed-tether-wires.png" class="img-responsive" style="max-width:700px" />
 
 17. Reinstall tube with dome over the electronics tray.
 
@@ -281,13 +281,13 @@ You should tighten the penetrators finger tight plus ~1/16 of a turn. To make su
 
 1. Attach the electronics enclosure to the cradles using four M3x16 socket head cap screws with threadlocker applied to them.
 
-<img src="cad/installed-etray-empty-frame.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/installed-etray-empty-frame.png" class="img-responsive" style="max-width:700px" />
 
 2. Install a 013 O-ring on the power wire penetrator, then install it onto the open spot on the battery enclosure end cap.
 
 3. Install counter-clockwise propellers to thrusters 1, 2, and 5. Follow the [changing the propeller tutorial](http://docs.bluerobotics.com/tutorials/changing-the-propeller/)
 
-<img src="cad/end-cap-with-penetrators.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/end-cap-with-penetrators.png" class="img-responsive" style="max-width:700px" />
 
 4. Install thrusters 1 and 2. Tighten screws until they indent the frame slightly. 
 
@@ -297,13 +297,13 @@ You should tighten the penetrators finger tight plus ~1/16 of a turn. To make su
 
 7. Use the provided zip ties and the holes in the center panels to clean up the wiring as shown. The goal is to make sure that there are no loose wires to get caught while opening and closing the enclosure.
 
-<img src="cad/etray-ratsnest.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/etray-ratsnest.png" class="img-responsive" style="max-width:700px" />
 
-<img src="cad/etray-cleaned.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/etray-cleaned.png" class="img-responsive" style="max-width:700px" />
 
 8. Install the lumen mounts onto the frame
 
-<img src="cad/lumen-installed-close.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/lumen-installed-close.png" class="img-responsive" style="max-width:700px" />
 
 8. Install the Lumens into the Lumen mount using the 133 O-ring that is in the same bag that the Lumen mount was in.
 
@@ -313,7 +313,7 @@ You should tighten the penetrators finger tight plus ~1/16 of a turn. To make su
 
 11. Check that the buoyancy foam is still installed in the fairing.
 
-<img src="cad/buoyancy-in-fairing.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/buoyancy-in-fairing.png" class="img-responsive" style="max-width:700px" />
 
 12. Attach the fairings to the frame using the 3/4 inch long #4 self tapping screws.
 
@@ -325,7 +325,7 @@ You should tighten the penetrators finger tight plus ~1/16 of a turn. To make su
 
 ## Installing Ballast Weights
 
-<img src="cad/ballast-installed-close.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/ballast-installed-close.png" class="img-responsive" style="max-width:700px" />
 
 We recommend leaving the BlueROV2 slightly positively buoyant so that if your battery dies while you are diving, the ROV will help you when you are pulling it back in. 
 The BlueROV2 is slightly tail heavy, so we recommend starting with more of the ballast in the front.
