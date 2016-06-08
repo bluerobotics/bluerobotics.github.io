@@ -34,7 +34,7 @@ manual-links:
 
 ---
 
-<img src="/vbrov/cad/brov-banner.png" class="img-responsive" style="max-width:900px" />
+<img src="/brov2/cad/brov-banner.png" class="img-responsive" style="max-width:900px" />
 
 # Introduction
 
