@@ -58,11 +58,14 @@ The standard and advanced options have a couple of differences shown [here](/bro
 ## What's Not Included
 
 There are some items necessary for operation that are not included with the kit. 
-[Analog screen]
 
-[Xbox controller]
+ - Analog screen for the standard BlueROV2. We recommend [this one]().
 
-[Laptop or tablet]
+ - A gamepad controller. We recommend [this one]().
+
+ - A laptop or a tablet. ArduSub works on Mac, Linux, and Windows.
+ 
+ - A battery for your BlueROV2. We recommend [this one](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
 
 ## Resources
 
@@ -113,6 +116,8 @@ There are some items necessary for operation that are not included with the kit.
 
 | Battery Life (Normal Use)              | ~1 hour w/ [10Ah battery](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844) ($60 each) |
 | Battery Life (Light Use)               | ~4 hours w/ [10Ah battery](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844) ($60 each) |
+
+The batteries can be changed in about 30 seconds
 
 ## Lights
 
