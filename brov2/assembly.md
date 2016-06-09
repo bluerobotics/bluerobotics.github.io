@@ -9,25 +9,35 @@ nav:
 - Tools Needed: tools-needed
 - What's Included: whats-included
 - - Frame: frame
+- - Electronics Enclosure: electronics-enclosure
+- - Battery Enclosure: battery-enclosure
 - - Thrusters: thrusters
-- - Watertight Enclosure: watertight-enclosure
-- - Enclosure Vent: enclosure-vent
-- - Cable Penetrators: cable-penetrators
-- - Electronics Tray: electronics-tray
-- - Miscellaneous: miscellaneous
-- - Other Items Not Included: other-items-not-included-in-kit
+- - Fairings: fairings
+- - Tether: tether
+- - Tools: tools
+- - Lights: lights
+- - Standard Electronics: standard-electronics
+- - Advanced Electronics: advanced-electronics
+
 - Assembly: assembly
-- - Bottom Panel: installing-the-battery-enclosure-onto-the-bottom-panel
-- - Putting the Frame Together: putting-the-frame-together
-- - Assembling the Electronics Enclosure: assembling-the-electronics-enclosure
-- - Installing the Thrusters, Lights, and Electronics Enclosure onto the Frame: installing-the-thrusters-lights-and-electronics-enclosure-onto-the-frame
-- - Installing Ballast Weights: installing-ballast-weights
+- - Battery Enclosure: installing-the-battery-enclosure
+- - Frame: assembling-the-frame
+- - Electronics: installing-the-electronics
+- - Electronics Enclosure: mounting-the electronics enclosure
+- - Thrusters: installing the thrusters
+- - Lights: mounting the lights
+- - Wiring: wire-routing
+- - Buoyancy: installing-buoyancy-foam-and-fairings
+- - Tether: mounting-the-tether-to-the-frame
+- - Battery: installing-the-battery
+- - Ballast: mounting-and-trimming-ballast
 
 store-links:
 - BlueROV: http://bluerobotics.com/store/rov/bluerov/
 
 manual-links:
-- T200 Thrusters: /thrusters/
+- Specifications: /brov2/
+- Operations Manual: /brov2/operation/
 ---
 
 <img src="/assets/images/tutorials/bluerov-manual/michal-rov-banner.png" class="img-responsive" style="max-width:900px" />
@@ -42,11 +52,14 @@ The **BlueROV** is an unassembled ROV kit with frame, watertight enclosure, thru
 
 # Tools Needed
 
-* 2 - 16mm Open Ended Wrenches 
-* Wire Cutters or Scissors (for cutting zip ties)
-* Phillips Head Screw Driver
-* 2mm Flat Head Screw Driver
-* Thread locker (we recommend loctite 243)
+- 2mm Hex Key
+- 3mm Hex Key
+- 2mm Flat Head Screwdriver
+- 2mm Flat Head Screwdriver
+- #3 Screwdriver
+- Adjustable Cresent Wrenches
+- Wire Cutters or Scissors (for cutting zip ties)
+- Threadlocker such as Loctite 243
 
 # What's Included
 
@@ -97,15 +110,6 @@ Quantity      | Part
 24            | M3x16 Socket Head Cap Screw (316 Stainless Steel)      
 30            | 5 1/2" Zip Ties (Nylon)
 
-## Lights
-
-Quantity      | Part
-------------- | --------------------------------------------------------
-2    		  | Lumen Lights Daisy Chained
-2             | Lumen Light Mounts (Aluminum 6061)    
-2             | 133 O-ring (Buna-N)             
-4             | M3x12 Socket Head Cap Screw (316 Stainless Steel)               
-
 ## Fairings
 
 Quantity      | Part
@@ -118,25 +122,32 @@ Quantity      | Part
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
-1             | Fathom Tether                               
+1             | Fathom Tether (25-300m)                              
 1             | 8mm Cable Penetrator and Nut (pre-installed)
 1             | Fathom Thimble                          
-5             | Heavy Duty Zip Ties               
- 
+5             | Heavy Duty Zip Ties            
+
 ## Tools                                                      
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
 1             | Silicone Grease Tube 
 1             | O-Ring Pick   
-1             | 1.5mm Hex Key
-1             | 2mm Hex Key
 1             | 2.5mm Hex Key
-1			  | 3mm Hex Key                  
+1			  | #1 Phillips Head Screwdriver    
+2			  | Blue Robotics Penetrator Wrenches  
 
-## Other Items Not Included
+## Lights
 
-[tbd]
+Quantity      | Part
+------------- | --------------------------------------------------------
+0-2 (optional)| Lumen Subsea Light (Pair, Pre-Connected)            
+ 
+## Standard Electronics
+
+## Advanced Electroncis       
+
+## Other Necessary Items Not Included
 
 # Assembly
 
