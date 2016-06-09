@@ -550,10 +550,9 @@ The buoyancy comes preinstalled in the fairings, but make sure it is still in al
 	
 3. Reinstall the Lumens.
 
-## Install the Battery and That's It!
-	
-	
-	
+## Operation
+
+Please refer to the [Operations Manual](/brov2/operation/) for detailed information of setting up the software and completing your first dive.
 	
 
 
