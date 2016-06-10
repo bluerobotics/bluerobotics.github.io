@@ -6,7 +6,7 @@ order: 1
 nav:
 - Introduction: introduction
 - - Safety: safety
-- Required Tools: required-tools
+- Required Tools: required-tools-not-included
 - What's Included: whats-included
 - - Frame: frame
 - - Electronics Enclosure: electronics-enclosure
@@ -19,6 +19,7 @@ nav:
 - - Standard Electronics: standard-electronics
 - - Advanced Electronics: advanced-electronics
 - - Lights: lights
+- What's Not Included: what-you-need-for-operation-that-is-not-included
 
 - Assembly: assembly
 - - Battery Enclosure: mounting-the-battery-enclosure-onto-the-bottom-panel
@@ -46,7 +47,7 @@ nav:
 - - Installing Battery: install-the-battery-and-thats-it
 
 store-links:
-- BlueROV: http://bluerobotics.com/store/rov/bluerov/
+- BlueROV: http://bluerobotics.com/store/rov/bluerov2/
 
 manual-links:
 - Specifications: /brov2/
@@ -57,13 +58,13 @@ manual-links:
 
 # Introduction
 
-The _BlueROV_ kit comes almost ready to dive. The assembly can be completed with basic hand tools; no soldering or potting are required. We have included a couple of the tools that will be used most often to make assembly and regular use as smooth as possible.
+The _BlueROV_ kit comes almost ready to dive. The assembly can be completed with basic hand tools; no soldering or potting is required. We have included a couple of the tools that will be used most often to make assembly and regular use as smooth as possible.
 
 ## Safety 
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with electricity, especially in water, always practice caution. Always ensure that connections are secure and watertight. Keep your body away from spinning motors and propellers.
 
-# Required Tools
+# Required Tools Not Included
 
 - 2mm Hex Key
 - 3mm Hex Key
@@ -77,78 +78,78 @@ The _BlueROV_ kit comes almost ready to dive. The assembly can be completed with
 
 ## Frame
 
-Quantity      | Part
-------------- | --------------------------------------------------------
-2             | Front Center Panel (1/2" thick black HDPE)                       
-2             | Rear Center Panel (1/2" thick black HDPE)                       
-1             | Bottom Panel (1/2" thick black HDPE)                         
-2             | Side Panel (3/8" thick black HDPE)                       
-2             | Electronics Enclosure Cradle (Black Anodized Aluminum)  
-8 			  | M4x18 Button Head Cap Screw (316 Stainless Steel)                    
-12            | M5x16 Button Head Cap Screw (316 Stainless Steel)             
-6             | 8-16 Thread, 5/8" Long, Thread-Forming Screw                                          
-6             | 200g Ballast 
+Quantity      | Part														| Usage
+------------- | --------------------------------------------------------	| ----------------------
+2             | Front Center Panel (1/2" thick black HDPE)        			|    
+2             | Rear Center Panel (1/2" thick black HDPE)           		|     	       
+1             | Bottom Panel (1/2" thick black HDPE)                       	|  
+2             | Side Panel (3/8" thick black HDPE)                       	|
+2             | Electronics Enclosure Cradle (Black Anodized Aluminum)  	| Mounting the electonics enclosure to the frame
+8 			  | M4x18 Button Head Cap Screw (316 Stainless Steel)           | Mounting the electronics cradles to the frame        
+12            | M5x16 Button Head Cap Screw (316 Stainless Steel)           | Assembling the frame
+6             | 8-16 Thread, 5/8" Long, Thread-Forming Screw                | Mounting the ballast to the frame                         
+6             | 200g Ballast												| 
 
 ## Electronics Enclosure                                                         
 
-Quantity      | Part
-------------- | --------------------------------------------------------
-1             | Electronics tray with terminal blocks and ESCs installed                                          
-1             | 4" watertight enclosure with 4" dome installed                                          
-1             | 14 hole end cap with 3 blanks, 1 Bar30, 1 vent, and 1 power cable installed
-1             | Set of 8" long black and red 20 AWG wires 
-4             | M3x16 Socket Head Cap Screw (316 Stainless Steel)  
+Quantity      | Part																		| Usage
+------------- | --------------------------------------------------------					| ---------------
+1             | Electronics tray with terminal blocks and ESCs installed                    |                      
+1             | 4" watertight enclosure with 4" dome installed                              |            
+1             | 14 hole end cap with 3 blanks, 1 Bar30, 1 vent, and 1 power cable installed	|
+1             | Set of tether board power wires  											| Provided power to your tether board
+4             | M3x16 Socket Head Cap Screw (316 Stainless Steel)  							| Mounting the electronics enclosure to the electronics enclosure cradle
+1			  | Power module power wire														| Powering your PixHawk power module
 
 ## Battery Enclosure
 
-Quantity      | Part
-------------- | --------------------------------------------------------
-2             | Battery Enclosure Cradle (Black Anodized Aluminum w/ rubber strip)          
-1             | 3" Watertight Enclosure 8-3/4" Long                             
-1             | 3" Blank Endcap (Anodized Aluminum 6061)         
-1             | 3" 4 Hole Endcap w/ 2 blanks and 1 vent installed (Anodized Aluminum 6061)                                                                
-1             | XT-90 to 5mm Bullet Connector Adapter
-4             | M4x14 Socket Head Cap Screw (316 Stainless Steel)   
-4             | M3x12 Socket Head Cap Screws (316 Stainless Steel)                       
+Quantity      | Part																		| Usage
+------------- | --------------------------------------------------------					| ------------------------
+2             | Battery Enclosure Cradle (Black Anodized Aluminum w/ rubber strip)   		| Mounting the battery enclosure to the frame       
+1             | 3" Watertight Enclosure 8-3/4" Long                             			|
+1             | 3" Blank Endcap (Anodized Aluminum 6061)         							|
+1             | 3" 4 Hole Endcap w/ 2 blanks and 1 vent installed (Anodized Aluminum 6061)  |                                                              
+1             | XT90 to 3.5mm Bullet Connector Adapter										| Adapting power wire connector to battery connector
+4             | M4x14 Socket Head Cap Screw (316 Stainless Steel)   						| Mounting the battery cradle to the frame
+4             | M3x12 Socket Head Cap Screws (316 Stainless Steel)             				| Connecting the battery cradles           
 
 ## Thrusters
 
-Quantity      | Part
-------------- | --------------------------------------------------------
-6   		  | T200 Thrusters w/ installed penetrator
-24            | M3x16 Socket Head Cap Screw (316 Stainless Steel)      
-30            | 5 1/2" Zip Ties (Nylon)
+Quantity      | Part													| Usage
+------------- | --------------------------------------------------------|--------------
+6   		  | T200 Thrusters w/ installed penetrator					|
+24            | M3x16 Socket Head Cap Screw (316 Stainless Steel)      	| Mounting the thrusters to the frame
+30            | 5 1/2" Zip Ties (Nylon)									| Routing the thruster and lumen cables
 
 ## Fairings
 
-Quantity      | Part
-------------- | --------------------------------------------------------
-4             | Fairings (Blue Polycarbonate)                    
-4             | Buoyancy Foam (R-3318 Urethane Foam)                        
-16            | #4 Size, 3/4" Long Pan Head Self Tapping Screw (316 Stainless Steel)                                   
+Quantity      | Part																	|
+------------- | ----------------------------------------------------------------------  | ---------------------
+4             | Fairings (Blue Polycarbonate)                    						|
+4             | Buoyancy Foam (R-3318 Urethane Foam)                        			|
+16            | #4 Size, 3/4" Long Pan Head Self Tapping Screw (316 Stainless Steel)    | Mounting the fairings and buoyancy to the frame                               
 
 ## Tether
 
-Quantity      | Part
-------------- | --------------------------------------------------------
-1             | Fathom Tether (25-300m)                              
-1             | 8mm Cable Penetrator and Nut (pre-installed)
-1             | Fathom Thimble                          
-5             | Heavy Duty Zip Ties            
+Quantity      | Part														| Usage 
+------------- | --------------------------------------------------------	|--------------
+1             | Fathom Tether w/ installed penetrator(25-300m)           	|
+1             | Fathom Thimble                          					| Mounting the tether to the frame	
+5             | Heavy Duty Zip Ties											| Mounting the tether to the thimble and frame            
 
 ## Tools                                                      
 
-Quantity      | Part
-------------- | --------------------------------------------------------
-1             | Silicone Grease Tube 
-1             | O-Ring Pick   
-1             | 2.5mm Hex Key
-1			  | #1 Phillips Head Screwdriver    
-2			  | Blue Robotics Penetrator Wrenches  
+Quantity      | Part													| Usages
+------------- | --------------------------------------------------------| ---------------
+1             | Silicone Grease Tube									| Lubricate O-rings prior to installation 
+1             | O-Ring Pick   											| Remove and install O-rings
+1             | 2.5mm Hex Key											| Install M3 screws 
+1			  | #1 Phillips Head Screwdriver    						| Install the fairing screws 
+2			  | Blue Robotics Penetrator Wrenches                       | Install penetrators
 
-## Optional Configurations
+# Optional Configurations
 
-### Standard Electronics Package 
+## Standard Electronics Package 
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
@@ -156,7 +157,7 @@ Quantity      | Part
 1             | Analog Camera with Camera Tilt
 1             | 3DR PixHawk (Optional)
 
-### Advanced Electronics Package
+## Advanced Electronics Package
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
@@ -167,14 +168,24 @@ Quantity      | Part
 1             | 3DR PixHawk (Optional)
 1             | Raspberry Pi 3 (Optional)
 
-### Lights
+## Lights
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
-1             | Lumen Subsea Light (Pair, Pre-Connected) (Optional)           
- 
-## Other Necessary Items Not Included
+1             | Lumen Subsea Light w/ Mounts (Pair, Pre-Connected) (Optional)      
 
+## What You Need for Operation that is Not Included 
+
+There are some items necessary for operation that are not included with the kit. 
+
+ - Analog screen for the standard BlueROV2. We recommend [this one]().
+
+ - A gamepad controller. We recommend [this one]().
+
+ - A laptop or a tablet. ArduSub works on Mac, Linux, and Windows.
+ 
+ - A battery for your BlueROV2. We recommend [this one](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)    
+ 
 # Assembly
 
 ## Mounting the Battery Enclosure onto the Bottom Panel
@@ -307,7 +318,7 @@ Here is an overview of how the wiring will go. It is followed by the order of in
 
 	[diagram that shows which ESC goes to which motor]
 	
-6. Connect your camera servo signal wire to PixHawk input channel 8.
+6. Connect the camera servo signal wire to PixHawk input channel 8.
 
 	[picture of the connected camera servo signal wire]
 	
@@ -323,7 +334,7 @@ Here is an overview of how the wiring will go. It is followed by the order of in
 
 If you have the Advanced Electronics, please continue to [Wiring the Advanced Electronics](/brov2/assembly/#wiring-the-advanced-electronics)
 	
-1. Attach your camera wire to the tether board
+1. Attach the camera wire to the tether board
 
 	<img src="/brov2/cad/camera-wire-install.png" class="img-responsive" style="max-width:700px" />
 	
@@ -396,6 +407,10 @@ If you install the penetrators as shown in the diagram below, it will keep every
 	- Thruster 2 (CCW propeller)
 	- Tether
 	
+At this point all of your thrusters, lights, and your tether should be loosly hanging from the end cap, and it should look something like this. 
+
+[picture of the mess of wires and thrusters you have]
+	
 ## Installing the End Cap
 
 1. Retrieve the size [size here] O-ring, the 6 M3x12 screws, and the 2 clips that you removed earlier
@@ -427,6 +442,10 @@ Here is a diagram showing where all of the wires from the penetrators go. The fo
 2. Connect the Lumen power wires to the power terminal block
 
 	[clear picture a lumen power wire attached]
+	
+3. Connect the Lumen signal wire to the PixHawk channel [channel]
+
+	[picture of it installed]
 
 3. Connect the Bar30 cable to the I<sup>2</sup>C port on the PixHawk
 
