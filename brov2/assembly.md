@@ -39,7 +39,8 @@ nav:
 - Cable Installation:
 - - Penetrator Installation: installing-the-penetrators
 - - End Cap Installation: installing-the-end-cap
-- - Penetrator Wiring: installing-the-wires-from-the-penetrators
+- - Penetrator Power Wiring: installing-the-power-wires-from-the-penetrators
+- - Penetrator Signal Wiring: installing-the-signal-wires-from-the-penetrators
 - - Electronics Cable Routing: electronics-tray-cable-management
 - Final Assembly:
 - - Mounting Electronics Enclosure: mounting-the-electronics-enclosure-onto-the-frame
@@ -185,16 +186,25 @@ Quantity      | Part
 There are some items necessary for operation that are not included with the kit. 
 
  - Analog screen for the standard BlueROV2. We recommend [this one](#).
-
  - A gamepad controller. We recommend [this one](#).
-
- - A laptop or a tablet. ArduSub works on Mac, Linux, and Windows.
- 
+ - A laptop or a tablet. ArduSub works on Mac, Linux, and Windows. 
  - A battery for your BlueROV2. We recommend getting 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)   
  
 # Assembling the Frame
 
 ## Mounting the Battery Enclosure to the Bottom Panel
+
+To mount the battery enclosure to the bottom panel you will need the following tools and items:
+
+- 2 battery cradles (included with ROV)
+- thread-locker (not included)
+- Bottom panel (included with rov)
+- Bag with 4 M4x14 socket head cap screws and 4 M3x12 socket head cap screws
+- Battery Enclosure
+
+1. Open the battery enclosure and set the bags inside of it to the side, except for the bag with 4 M4x14 and 4 M3x12 screws in it.
+
+	[picture of the battery cradle with the stuff that comes in it neatly layed out next to it]
 
 1. Remove one battery cradle from the bubble wrap and apply one or two drops of threadlocker to the screw holes on the bottom of the cradle. 
 
@@ -202,25 +212,29 @@ There are some items necessary for operation that are not included with the kit.
 
 2. Attach that battery cradle to the bottom panel, using 4 M4x14 socket head cap screws from the bag with 4 M4x14 screws and 4 M3x12 screws. Be sure that the screw head is in the counterbore. The bottom panel is only counterbored on one side.
 
-	[picture of bag w/ M4x14 screws & M3x12 screws]
-
 	<img src="/brov2/cad/brov-assembly-step1-annotated.png" class="img-responsive" style="max-width:700px" /> 
 
 3. Apply one or two drops of threadlocker to the end of 4 M3x12 screws from the bag you just got the M4x14 screws from.
 
 	<img src="/brov2/cad/locktite-application-2.png" class="img-responsive" style="max-width:700px" />
 
-4. Grab the other battery cradle and install the 4 M3x12 screws into the cradle to clamp the battery enclosure into place. Install all four screws loosly at first and then slowly tighten them on both sides evenly.
+4. Grab the battery enclosure and the other battery cradle and install the 4 M3x12 screws into the cradle to clamp the battery enclosure into place. Install all four screws loosly at first and then slowly tighten them on both sides evenly.
 Keep the battery enclosure approximately centered in the cradles.
 
 	<img src="/brov2/cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:700px" />
 	
 ## Assembling the Center Panels
 
-1. Apply one or two drops of threadlocker to the end of 8 M4x18 screws from the bag with only 8 M4x18 screws.
+To assemble the center panels you will need the following tools and items:
 
-	[picture of bag with 8 M4x18 screws]
-	
+- 2 front center panels (included with ROV)
+- 2 rear center panels (included with ROV)
+- threadlocker (not included)
+- The bag with 8 M4x18 socket head cap screws (included with ROV)
+- 3 mm allen hex key (included with ROV)
+
+1. Apply one or two drops of threadlocker to the end of 8 M4x18.
+
 2. Attach the electronics enclosure cradle to the rear center panels. 
 
 	<img src="/brov2//cad/brov-assembly-step3-annotated.png" class="img-responsive" style="max-width:700px" />
@@ -229,14 +243,19 @@ Keep the battery enclosure approximately centered in the cradles.
 
 	<img src="/brov2//cad/brov-assembly-step4-annotated.png" class="img-responsive" style="max-width:700px" />
 	
-## Installing the Lumen Mount
-	
 ## Assembling the Frame
-	
-1. Apply several drops of threadlocker to the end of the 12 M5x16 screws from the bag with only 12 M5x12 screws.
-	
-	[picture of bag with 12 M5x12 screws]
 
+To assemble the frame you will need the following tools and items:
+
+- Threadlocker (not included)
+- The bag with 12 M5x12 button head cap screws (included with the ROV)
+- 2 Side Panels
+- The bottom panel with the battery enclosure installed
+- The front center panel assembly
+- The rear center panel assembly
+	
+1. Apply several drops of threadlocker to the end of the 12 M5x16 screws.
+	
 2. Install the side panels to the bottom panel.
 
 	<img src="/brov2//cad/brov-assembly-step5-annotated.png" class="img-responsive" style="max-width:700px" />
@@ -257,31 +276,52 @@ The electronics enclosure ships partially assembled, and will arrive looking lik
 
 [picute of the electronics enclosure as shipped]
 
-1. Remove the tube from the rear flange. You can twist a flat head screwdriver in the slots if it does not pull off easily.
+To partially disassemble the electronics enclosure you will need the following tools and items:
+
+- Large flat head screw driver
+- The electronics enclosure assembly
+- 2.5 mm allen key driver 
+
+1. Remove the tube from the rear flange. You can twist a large flat head screwdriver in the slots if it does not pull off easily. Set the loose items that come inside the electronics enclosure to the side so you can find them easily.
 
 	<img src="/brov2/cad/electronics-assembly-step1.png" class="img-responsive" style="max-width:700px" />
+		
+	[add picture of the dissassembled enclosure with the stuff that comes with it set to the side neatly]
 
-2. Remove the rear 14 hole end cap by removing the screws using a M2.5 Allen key. Place the M3x12 screws, clips, and O-ring in a safe place. 
+2. Remove the rear 14 hole end cap by removing the screws using the M2.5 Allen key. Place the M3x12 screws, clips, and O-ring in a safe place. 
 
 	<img src="/brov2/cad/electronics-assembly-step2-annotated.png" class="img-responsive" style="max-width:700px" />
 	
-	<img src="/brov2/cad/etray-disasseble.png" class="img-responsive" style="max-width:700px" />
-
+	<img src="/brov2/cad/etray-disassemble.png" class="img-responsive" style="max-width:700px" />
+	
 ## Installing the Standard Electronics
 
 If you have the Advanced Electronics, please skip to [Installing the Advanced Electronics](/brov2/#installing-the-advanced-electronics)
 
-1. Attach your 3DR PixHawk [tape or zip ties]
+To install the standard electronics, you need the following parts and tools:
 
+- PixHawk Autopilot (optionally included)
+- Fathom-S Tether Interface Board (included with the ROV)
+- Bag with 4 short self tapping screws and 4 plastic spacers (included in the battery enclosure)
+- \#1 phillips head screw driver (included with ROV)
 
+1. Clean the back of the PixHawk and the area on the electronics tray that you want to mount the PixHawk to with isopropyl alcohol.
 
-2. 	Attach your Fathom-S Tether Interface Board to the Electronics Tray, using the 4 3-24 self tapping screws and standoffs that came in the bag with only 4 self tapping screws and standoffs.
+	[picture showing the areas to clean]
 
-[cad drawing of the port side of the electronics tray showing what holes to use and making it clear that it is the port side]
+2. Attach your 3DR PixHawk using the two sided foam tape included with the PixHawk. 
 
-[picture of the bag with self tapping screws and standoffs]
+	[picture with the tape attached to the pixhawk]
+	
+	[picture with the pixhawk attached to the tray]
 
-[exploded cad view of it being installed]
+2. 	Attach your Fathom-S Tether Interface Board to the Electronics Tray, using the self tapping screws and spacers. 
+
+	[cad drawing of the port side of the electronics tray showing what holes to use and making it clear that it is the port side]
+
+	[picture of the bag with self tapping screws and standoffs]
+
+	[exploded cad view of it being installed]
 
 ## Installing the Advanced Electronics
 
@@ -303,57 +343,102 @@ If you have the Standard Electronics, please skip to [Wiring the Electronics](/b
 
 ## Power Cable Wiring
 
-1. Connect the ESC power and ground wires to the power and ground terminal blocks. The 
+To complete the power cable wiring, you will need the following items:
 
-	<img src="/brov2/cad/sboard-side-power-wiring.png" class="img-responsive" style="max-width:900px" />
+- Large phillips head screwdriver (not provided)
+- Tether board power wires (included with the electronics enclosure)
+- XT60 to spade adapter (included with the electronics enclosure)
+- PixHawk power module (included with the PixHawk)
+- PixHawk power module jumper cable (included with the PixHawk)
+
+The following two diagrams show the power wiring for the port and starboard sides. 
+
+<img src="/brov2/cad/sboard-side-power-wiring.png" class="img-responsive" style="max-width:900px" />
 	
-	<img src="/brov2/cad/port-side-power-wiring.png" class="img-responsive" style="max-width:900px" />
-
-2. Connect the ESC motor wires to the motor wire terminals.
-
-3. Attach the tether board power wires to the power terminal blocks and the tether board
-
-4. Remove and cut the 5V line on 5 of the ESC signal wires. 3DR [recommends only connecting one ESC +5V output](https://pixhawk.org/users/actuators/pwm_escs_and_servos)
-
-	[picture showing how to pop the header pin out of the connector]
+<img src="/brov2/cad/port-side-power-wiring.png" class="img-responsive" style="max-width:900px" />
 	
-	<img src="/brov2/cad/esc-5-volt-remove-2.png" class="img-responsive" style="max-width:700px" />
+1. Connect the ESC power and ground wires to the power and ground terminal blocks, using your large phillips head screwdriver.
+
+	[picture of the esc power wires attached to the power terminal block]
+
+2. Attach the tether board power wires to the power terminal blocks and the tether board. 
+
+	[picture of the tether board power wires attached]
+
+3. Attach the included XT60 to terminal block spade adapter to the power terminal blocks and the power module.
+
+	[picture of the power module attached]
+
+4. Plug in the power module to the "Power" port on the PixHawk
+
+	[picture of the power module attached to the pixhawk]
 	
+5. Connect the ESC motor wires to the motor wire terminals. The motor wires should be attached as shown in the following diagrams. The wires from the thrusters will be attached to this terminal block at a later time.
+
+	<img src="/brov2/cad/port-side-motor-power-wiring.png" class="img-responsive" style="max-width:900px" />
+	
+	<img src="/brov2/cad/sboard-side-motor-power-wiring.png" class="img-responsive" style="max-width:900px" />
+
 ## Signal Cable Wiring
 
-5. Connect the ESC signal wires to the PixHawk per the following diagram.
+To complete the signal cable wiring you need the following items:
 
-	[diagram that shows which ESC goes to which motor]
+- a small (~1.5mm) flat head screw driver (not supplied)
+- wire cutters (not supplied)
+
+The following two diagrams show the signal wiring for the port and starboard sides.
+
+<img src="/brov2/cad/sboard-side-signal-wiring.png" class="img-responsive" style="max-width:900px" />
 	
-6. Connect the camera servo signal wire to PixHawk input channel 8.
+<img src="/brov2/cad/port-side-signal-wiring.png" class="img-responsive" style="max-width:900px" />
 
-	[picture of the connected camera servo signal wire]
+1. Remove and cut the 5V line on 5 of the ESC signal wires. 3DR [recommends only connecting one ESC +5V output](https://pixhawk.org/users/actuators/pwm_escs_and_servos)
+
+	i. Seperate the three wires coming into the connector plug to about 2 inches away from the plug.
 	
-7. Install the PixHawk power module to the PixHawk and the XT60 connector that was in the electronics enclosure.
-
-	[picture of the installed power module]
+	[picture of seperating the wires]
 	
-8. Install the ends of the XT60 connector to the power terminals as shown below.
+	ii. Remove the center pin from the plug by lifting up on the plastic with a small flat head screw driver.
+	
+	[picture showing how to pop the header pin out of the connector]
+	
+	iii. Cut off the +5V line using wire cutters or scissors about an inch away from the connector plug
+	
+	<img src="/brov2/cad/esc-5-volt-remove-2.png" class="img-responsive" style="max-width:700px" />
 
-	[picture of the XT60 being installed in the power terminal blocks]
+2. Connect the ESC signal wires to the PixHawk Main Out.
+
+	- Channel 1: ESC 1
+	- Channel 2: ESC 2
+	- Channel 3: ESC 3
+	- Channel 4: ESC 4 
+	- Channel 5: ESC 5
+	- Channel 6: ESC 6 
+	
+3. Connect the camera servo signal wire to PixHawk Main Out Channel 8. Do not remove the +5V line from this connector.
 
 ## Wiring the Standard Electronics
 
 If you have the Advanced Electronics, please continue to [Wiring the Advanced Electronics](/brov2/assembly/#wiring-the-advanced-electronics)
+
+To complete the wiring of the Standard Electronics kit you need the following items:
+
+- The analog camera cable (included attached to the camera)
+- PixHawk serial cable (included with the PixHawk)
 	
-1. Attach the camera wire to the tether board
+1. Attach the camera wire to the "NTSC/PAL CAMERA" port on the Fathom-S Tether Interface Board.
 
 	<img src="/brov2/cad/camera-wire-install.png" class="img-responsive" style="max-width:700px" />
 	
-2. Connect the serial wire from the Fathom-S Tether Interface Board to the Telem1 Serial Port on the PixHawk.
+2. Connect the serial wire from the "DF13 UART" port on the Fathom-S Tether Interface Board to the "Telem1" Serial Port on the PixHawk.
 
-[picture of the serial wire]
+	[picture of the serial wire]
 
-[picture of the serial wire installed]
+	[picture of the serial wire installed]
 
 ## Wiring the Advanced Electronics
 
-If you have the Standard Electronics, please continue to [Penetrator Installation](brov2/assembly/installing-the-penetrators)
+If you have the Standard Electronics, please continue to [Changing the Propellers](brov2/assembly/changing-the-propellers)
 
 1. Plug the included ethernet cable to the Raspberry Pi 3 and the Fathom-X Tether Interface Board.
 
@@ -375,11 +460,15 @@ If you have the Standard Electronics, please continue to [Penetrator Installatio
 	
 	[plug in the sd card into the pi]	
 	
-## Changing the Propellers
+# Changing the Propellers
 
-[brief explanation of why we the propellers are the way that they are]
+To change the propellers on three of the thrusters you will need the following items and tools:
 
-1. Remove 3 thrusters from their tubes.
+- 3 T200 Thrusters (included with ROV)
+- Large (~#3) Phillips Head Screwdriver (not included)
+- 2mm Allen Hex Key (included with ROV)
+
+1. Remove 3 thrusters from their tubes. These will become Thrusters 1, 2, and 5.
 
 	[picture of three thrusters removed from their tubes]
 	
@@ -391,32 +480,42 @@ If you have the Standard Electronics, please continue to [Penetrator Installatio
 
 ##Installing the Penetrators
 
-If you install the penetrators as shown in the diagram below, it will keep everything neat, organized and logical.
+To install the penetrators you will need the following items and tools:
 
-[annotated picture of what penetrator goes where on an as shipped end cap]
+- The bag with 2 black penetrator nuts, 7 red penetrator nuts, and 9 O-rings (included with ROV)
+- Silicone grease (included with ROV)
+- 14 hole end cap with blanks, Bar30, vent, and power wire installed (included installed on the electronics enclosure)
+- 3 T200 with counter-clockwise thrusters (included in cardboard thruster tubes)
+- 3 T200 with clockwise thrusters (included in cardboard thruster tubes)
+- 1 set of daisy chained Lumen lights (included in the cardboard box under the tether interface board)
+- 1 tether with penetrator installed (included in box strapped to ROV box)
 
-1. Find the bag with 2 black penetrator nuts, 7 red penetrator nuts and 9 size 013 O-rings.
+The electronics enclosure end cap will ship with 3 blank penetrators, 1 Bar30 pressure sensor, 1 vent, and 1 battery power wire penetrator installed.
 
-	[picure of the bag]
+<img src="/brov2/cad/end-cap-as-shipped.png" class="img-responsive" style="max-width:700px" />
+
+If you install the remaining penetrators as shown in the diagram below, it will keep everything neat, organized and logical.
+
+<img src="/brov2/cad/end-cap-final.png" class="img-responsive" style="max-width:700px" />
 	
-2. Remove 8 of the O-rings and apply Silicone grease to them.
+1. Remove 8 of the O-rings and apply Silicone grease to them. Hold on to that other O-ring, you will need it in a minute.
 
 	<img src="/brov2/cad/grease-o-ring.png" class="img-responsive" style="max-width:700px" />
 
-3. Install the O-rings onto all of the thruster penetrators, the lumen penetrator, and the tether penetrator.
+2. Install the O-rings onto all of the thruster penetrators, the lumen penetrator, and the tether penetrator.
 
 	[picture of installed o-ring]
 	
-4. Install the penetrators to the end cap in the order shown below. Tighten to finger tight, then use the provided wrenches to tighten them an additional ~1/16 of a turn. If you can't loosen them with your fingers, they are tight enough. 
+3. Install the penetrators to the end cap in the order shown below. Tighten to finger tight, then use the provided wrenches to tighten them an additional ~1/16 of a turn. If you can't loosen them with your fingers, they are tight enough. 
 
-	- Thruster 1 (CCW propeller)
-	- Thruster 5 (CCW propeller)
-	- Thruster 3 (CW propeller)
-	- Lumen 
-	- Thruster 4 (CW propeller)
-	- Thruster 6 (CW propeller)
-	- Thruster 2 (CCW propeller)
-	- Tether
+	- Thruster 1 (CCW propeller) with red penetrator nut
+	- Thruster 5 (CCW propeller) with red penetrator nut
+	- Thruster 3 (CW propeller) with red penetrator nut
+	- Lumen with red penetrator nut
+	- Thruster 4 (CW propeller) with red penetrator nut
+	- Thruster 6 (CW propeller) with red penetrator nut
+	- Thruster 2 (CCW propeller) with red penetrator nut
+	- Tether with black penetrator nut
 	
 At this point all of your thrusters, lights, and your tether should be loosly hanging from the end cap, and it should look something like this. 
 
@@ -424,9 +523,18 @@ At this point all of your thrusters, lights, and your tether should be loosly ha
 	
 ## Installing the End Cap
 
-1. Retrieve the size [size here] O-ring, the 6 M3x12 screws, and the 2 clips that you removed earlier
+To reinstall the end cap you will need the following items and tools:
 
-	[picture of the o-ring, screws, and clips]
+- The O-ring, the 6 M3x12 screws, and the clips that you removed from the end cap earlier
+- Silicone grease
+- End cap with thrusters, lumen, tether, and power cable hanging off the back
+- 2.5 mm allen head hex driver
+
+To reinstall the end cap you need the following tools and items:
+
+1. Retrieve the Face Seal O-ring, the 6 M3x12 screws, and the 2 clips that you removed earlier
+
+	<img src="/brov2/cad/etray-disassemble.png" class="img-responsive" style="max-width:700px" />
 	
 2. Clean the O-ring and make sure that it is free of any debris or damage.
 
@@ -442,9 +550,17 @@ At this point all of your thrusters, lights, and your tether should be loosly ha
 
 	[picture or cad model of the end cap back on the flange seal]
 	
-## Installing the Wires from the Penetrators
+## Installing the Power Wires from the Penetrators
 
-Here is a diagram showing where all of the wires from the penetrators go. The following steps will show an order of operations that makes it easy to install the wires and show pictures of what they look like when installed.
+To install the wires from the penetrators you will need the following tools and items:
+
+- Large (~#3) phillips head screw driver
+ 
+Here is a diagram of where the power wires from the end caps should get connected. 
+
+<img src="/brov2/cad/sboard-side-power-wiring-with-endcap.png" class="img-responsive" style="max-width:700px" />
+
+<img src="/brov2/cad/port-side-power-with-end-cap.png" class="img-responsive" style="max-width:700px" />
 
 1. Connect the battery power wires to the power terminal block
 
@@ -454,9 +570,19 @@ Here is a diagram showing where all of the wires from the penetrators go. The fo
 
 	[clear picture a lumen power wire attached]
 	
-3. Connect the Lumen signal wire to the PixHawk channel [channel]
+## Installing the Signal Wires from the Penetrators
+	
+To install the wires from the penetrators you will need the following tools and items:
 
-	[picture of it installed]
+- Small (~2 mm) flat head screw driver
+
+Here is a diagram of where the signal wires from the end caps should get connected.
+
+<img src="/brov2/cad/sboard-side-signal-wiring.png" class="img-responsive" style="max-width:900px" />
+	
+<img src="/brov2/cad/port-side-signal-wiring.png" class="img-responsive" style="max-width:900px" />
+	
+3. Connect the Lumen signal wire to the PixHawk channel 7. 
 
 3. Connect the Bar30 cable to the I<sup>2</sup>C port on the PixHawk
 
@@ -490,13 +616,18 @@ Occasionally, you may want to open and close the electronics enclosure, and it i
 
 	[cad exploded view]
 
-	<img src="/brov2/cad/installed-etray-empty-frame.png" class="img-responsive" style="max-width:700px" />
-	
 ## Mounting the Thrusters to the Frame
+
+To mount the thrusters to the frame, you need the following tools and items:
+
+- 2.5 mm allen key driver
+- 6 T200 thrusters
+- Bag with 24 M3x16 screws
+- The ROV frame
 
 Here is a diagram of where the thrusters go. The order of installation does matter here. You cannot get the front thrusters on if the rear ones were installed first.
 
-Grab the bag with 24 M3x16 screws. These screws do not require threadlocker, the frame and the small head size serve keep them from backing out.
+<img src="http://ardusub.com/images/vectored-frame.png" class="img-responsive" style="max-width:700px" />
 
 1. Install thrusters 1 and 2. Tighten the screws so that they indent the frame slightly. It is physically possible to keep turning the screw at this point, but it isn't necessary.
 
@@ -510,15 +641,23 @@ Grab the bag with 24 M3x16 screws. These screws do not require threadlocker, the
 
 ## Mounting the Lights
 
+To install the Lumen mounts you will need the following tools and items:
+
+- The bag with the Lumen mounts, O-rings, and 4 M3x12 socket head cap screws (included with ROV)
+- 2.5mm hex driver (included with ROV)
+- 2 side panels
+
 Loop 1 size 133 O-ring from the bag that had the Lumen Mounts and screws around each Lumen Mount and Lumen as shown below.
 
 <img src="/lumen/cad/lumen-tutorial-14.png" class="img-responsive" style="max-width:700px" />	
 
 ## Mounting the Tether to the Frame
 
-The tether needs to be firmly mounted to the frame to prevent the tether penetrator from being loosened. To do this start by grabbing the bag with 5 large zip ties and a thimble.
+The tether needs to be firmly mounted to the frame to prevent the tether penetrator from being loosened. To do this, you will need the following tools and items:
 
-[picture of the bag]
+- Bag with thimble and 5 large zip ties
+- Tether 
+- ROV frame
 
 1. Grab the tether between around 12 inches away from the tether penetrator.
 
@@ -536,9 +675,14 @@ The tether needs to be firmly mounted to the frame to prevent the tether penetra
 	
 ## Finishing the Battery Enclosure
 
-1. Find the bag that had the penetrator nuts and O-rings in it and grab the remaining black nut and O-ring.
+To finish installing the battery enclosure you need the following tools and items:
 
-	[picture of the bag]
+- The bag with one black penetrator nut and one O-ring left in it
+- The 4 hole 3 inch enclosure end cap
+- 2 16 mm wrenches
+- XT90 to 3.5 mm bullet connector adapter
+ 
+1. Find the bag that had the penetrator nuts and O-rings in it and grab the remaining black nut and O-ring.
 	
 2. Apply Silicone grease to the O-ring.
 
@@ -550,9 +694,9 @@ The tether needs to be firmly mounted to the frame to prevent the tether penetra
 
 	[picture of it installed]
 	
-5. Install the XT90 to bullet connector adaptor to the battery power wire. 
+5. Install the XT90 to bullet connector adapter to the battery power wire. 
 
-	[picture of the adaptor installed]
+	[picture of the adapter installed]
 	
 ## Thruster and Lumen Cable Management
 
@@ -562,23 +706,25 @@ To clean up the thruster and lumen wires, you will need the bag of 30 zip ties a
 
 [picture of an example of cleaned up wires]
 
-[should formalize my process and write it down as the instructions]
-
 ## Installing the Fairings and Buoyancy
 
-The buoyancy comes preinstalled in the fairings, but make sure it is still in all of the fairings prior to installing the fairings. To install the fairings, you will need the 16 #4 3/4" long self tapping screws and the included #1 phillips head screwdriver.
+The buoyancy comes preinstalled in the fairings, but make sure it is still in all of the fairings prior to installing the fairings. To install the fairings, you will need the following items:
+
+- 4 Fairings with buoyancy installed (included with the ROV)
+- Bag with 16 self tapping screws (included with the ROV)
+- \#1 phillips head screwdriver (included with the ROV)
 
 1. Remove the Lumens from their mount.
 
 	[picture showing them hanging]
 
 2. Install the screws through the center panels and into the fairings.
-
-	[diagram of which screws to use]
 	
 	[picture of someone installing them]
 	
 3. Reinstall the Lumens.
+
+	<img src="/brov2/cad/BlueROV2-front-angle.png" class="img-responsive" style="max-width:700px" />	
 
 ## Operation
 
