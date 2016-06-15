@@ -88,7 +88,7 @@ The *Fathom-X* board is also part of the *Advanced ROV Electronics Package* and 
 
 The [EagleCAD files](https://github.com/bluerobotics/fathom-x/) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
 
-[<img src="/fathom-x/Fathom-X-Schematic.png" class="img-responsive" style="max-width:300px" />](https://github.com/bluerobotics/fathom-x/raw/master/Fathom-X-Schematic.pdf)
+[<img src="/fathom-x/fathom-x-schematic.png" class="img-responsive" style="max-width:300px" />](https://github.com/bluerobotics/fathom-x/raw/master/Fathom-X-Schematic.pdf)
 
 [Fathom-X-Schematic.pdf](https://github.com/bluerobotics/fathom-x/raw/master/Fathom-X-Schematic.pdf)
 
