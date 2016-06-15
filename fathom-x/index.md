@@ -15,10 +15,13 @@ nav:
 
 store-links:
 - Fathom-X: https://www.bluerobotics.com/store/electronics/fathom-x-r1/
+- Fathom-X: https://www.bluerobotics.com/store/electronics/fathom-x-r1/
 - Fathom Tether: https://www.bluerobotics.com/store/parts/cables/fathom-tether-nb-4p-26awg-r1/
 
 manual-links:
 - Fathom Tether: /fathom/
+- Fathom-S Interface: /fathom-s/
+- ArduSub: http://ardusub.com/
 ---
 
 <img src="Fathom-X-1.png" class="img-responsive" style="max-width:800px"  />
