@@ -49,7 +49,7 @@ The *Fathom-X* board is also part of the *Advanced ROV Electronics Package* and 
 
 ## Function Diagrams
 
-<a href="/fathom-s/Fathom-X-Diagram.png"><img src="/fathom-x/Fathom-X-Diagram.png" class="img-responsive img-center" style="max-width:800px" alt="Fathom-X Board" /></a>
+<a href="/fathom-s/Fathom-X-Diagram.png"><img src="/fathom-x/Fathom-X-Diagram.png" class="img-responsive img-center" style="max-width:800px" alt="Fathom-X Diagram" /></a>
 
 ## Specification Table
 
