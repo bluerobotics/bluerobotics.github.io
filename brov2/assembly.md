@@ -75,7 +75,7 @@ The _BlueROV_ kit comes almost ready to dive. The assembly can be completed with
 - \#2 Phillips Head Screwdriver
 - Adjustable Crescent Wrench
 - Wire Cutters or Scissors (for cutting zip ties)
-- Threadlocker such as [Loctite 243](https://www.amazon.com/Loctite-1330799-Resistant-Threadlocker-6-milliliter/dp/B004L439FE/ref=sr_1_1?ie=UTF8&qid=1466440165&sr=8-1&keywords=loctite+243+threadlocker)
+- Thread-locker such as [Loctite 243](https://www.amazon.com/Loctite-1330799-Resistant-thread-locker-6-milliliter/dp/B004L439FE/ref=sr_1_1?ie=UTF8&qid=1466440165&sr=8-1&keywords=loctite+243+thread-locker)
 - Tweezers (for assistance installing wires into terminal blocks)
 - Isopropyl Alcohol
 
@@ -200,10 +200,10 @@ There are some items necessary for operation that are not included with the kit.
 
 ## Mounting the Battery Enclosure to the Bottom Panel
 
-To mount the battery enclosure to the bottom panel you will need the following tools and items:
+To mount the battery enclosure to the bottom panel you will need the following parts and tools:
 
 - 2 battery cradles 
-- thread-locker 
+- Thread-locker 
 - Bottom panel 
 - Bag with 4 M4x14 socket head cap screws and 4 M3x12 socket head cap screws
 - Battery Enclosure
@@ -212,7 +212,7 @@ To mount the battery enclosure to the bottom panel you will need the following t
 
 	[picture of the battery enclosure with the stuff that comes in it neatly layed out next to it]
 
-1. Remove one battery cradle from the bubble wrap and apply one drop of threadlocker to the screw holes on the bottom of the cradle. 
+1. Remove one battery cradle from the bubble wrap and apply one drop of thread-locker to the screw holes on the bottom of the cradle. 
 
 	<img src="/brov2/cad/locktite-application-blind.png" class="img-responsive" style="max-width:700px" />
 
@@ -220,7 +220,7 @@ To mount the battery enclosure to the bottom panel you will need the following t
 
 	<img src="/brov2/cad/brov-assembly-step1-annotated.png" class="img-responsive" style="max-width:700px" /> 
 
-3. Apply one drop of threadlocker to the end of each of the 4 M3x12 screws.
+3. Apply one drop of thread-locker to the end of each of the 4 M3x12 screws.
 
 	<img src="/brov2/cad/locktite-application-2.png" class="img-responsive" style="max-width:700px" />
 
@@ -235,11 +235,11 @@ To assemble the center panels you will need the following tools and items:
 
 - 2 front center panels 
 - 2 rear center panels 
-- threadlocker 
+- Thread-locker 
 - The bag with 8 M4x18 socket head cap screws 
 - 3 mm allen hex key 
 
-1. Apply one drop of threadlocker to the end of each of the 8 M4x18 screws.
+1. Apply one drop of thread-locker to the end of each of the 8 M4x18 screws.
 
 2. Attach one of the electronics enclosure cradle to the rear center panels. 
 
@@ -253,14 +253,14 @@ To assemble the center panels you will need the following tools and items:
 
 To assemble the frame you will need the following tools and items:
 
-- Threadlocker 
+- thread-locker 
 - The bag with 12 M5x12 button head cap screws 
 - 2 Side Panels
 - The bottom panel with the battery enclosure installed
 - The front center panel assembly
 - The rear center panel assembly
 	
-1. Apply one drop of threadlocker to the end of the 12 M5x16 screws.
+1. Apply one drop of thread-locker to the end of the 12 M5x16 screws.
 	
 2. Install the side panels to the bottom panel.
 
@@ -399,8 +399,8 @@ jumpers installed. The white rectangular holes with rounded corners, in the diag
 
 To complete the signal cable wiring you need the following items:
 
-- a small (~2mm) flat head screw driver
-- wire cutters
+- A small (~2mm) flat head screw driver
+- Wire cutters
 
 The following two diagrams show the signal wiring for the port and starboard sides.
 
@@ -611,7 +611,7 @@ Occasionally, you may want to open and close the electronics enclosure, and it i
 To mount the electronics enclosure to the frame you need the following parts and tools:
 
 - 4" WTE with dome installed
-- Threadlocker
+- Thread-locker
 - Bag with 4 M3x16 screws
 - 2.5 mm hex driver
 
@@ -619,7 +619,7 @@ To mount the electronics enclosure to the frame you need the following parts and
 
 	<img src="/brov2/cad/installed-etray-empty-frame.png" class="img-responsive" style="max-width:700px" />
 
-2. Apply one drop of threadlocker to each of the 4 M3x16 screws.
+2. Apply one drop of thread-locker to each of the 4 M3x16 screws.
 
 3. Install the M3x16 screws through the clips and into the cradles. It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the cradles. This allows to clips to rotate so you can find the cradle hole easily.
 
@@ -653,9 +653,9 @@ To install the Lumen mounts you will need the following parts and tools:
 - The bag with the Lumen mounts, O-rings, and 4 M3x12 socket head cap screws 
 - 2.5mm hex driver 
 - ROV side panels
-- Threadlocker
+- Thread-locker
 
-1. Apply one drop of threadlocker to each of the M3x12 screws.
+1. Apply one drop of thread-locker to each of the M3x12 screws.
 
 2. Install the mounts as shown
 
