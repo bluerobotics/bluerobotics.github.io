@@ -65,21 +65,15 @@ The Standard and Advanced options have a couple of differences shown [here](/bro
 There are some items necessary for operation that are not included with the kit. 
 
  - Analog screen for the Standard BlueROV2. We recommend [this one]().
-
  - A gamepad controller. We recommend [this one]().
-
- - A laptop or a tablet. ArduSub works on Mac, Linux, and Windows.
- 
+ - A laptop or a tablet. ArduSub works on Mac, Linux, Windows, iOS, and Android devices.
  - A battery for your BlueROV2. We recommend getting two or three of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
 
 ## Resources
 
  - [Assembly Instructions](/brov2/assembly/)
-
  - [Bill of Materials](/brov2/assembly/#whats-included)
-
  - [Initial ArduSub Set-up](http://ardusub.com/initial-setup/)
-
  - [ArduSub Operation](#)
 
 # Specifications
@@ -161,7 +155,7 @@ The batteries can be changed in about 30 seconds.
 | Light Sensitivity          | 0.0003 [lux](https://en.wikipedia.org/wiki/Lux#Illuminance)                                                | TBD                                                                                                                |
 | Resolution                 | 700 TVL                                                                                                    | up to 4k                                                                                                           |
 |                            | **Standard Control System**                                                             				      | **Advanced Control System**                                                                        | 
-| Tether Board               | [Fathom-S Tether Interface Board](http://docs.bluerobotics.com/fathom-s/) for video and communication      | [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/) (tether > 100m)                      |
+| Tether Board               | [Fathom-S Tether Interface Board](http://docs.bluerobotics.com/fathom-s/) 							      | [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/) (tether > 100m)                      |
 |                            |                                                                                                            | [Fathom-E Tether Interface Board](https://www.bluerobotics.com/store/electronics/fathom-e-r1/)  (tether < 100m)|
 | Control System             | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
 |                            |                                                                                                            | Computer such as the [Raspberry Pi 3](#)                                                                           |
