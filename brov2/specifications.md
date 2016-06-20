@@ -64,10 +64,10 @@ The Standard and Advanced options have a couple of differences shown [here](/bro
 
 There are some items necessary for operation that are not included with the kit. 
 
- - Analog screen for the Standard BlueROV2. We recommend [this one]().
+ - Analog screen for the Standard _BlueROV2_. We recommend [this one]().
  - A gamepad controller. We recommend [this one]().
  - A laptop or a tablet. ArduSub works on Mac, Linux, Windows, iOS, and Android devices.
- - A battery for your BlueROV2. We recommend getting two or three of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
+ - A LiPo battery. We recommend getting two or three of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
 
 ## Resources
 
@@ -185,6 +185,6 @@ Please look at our [ArduSub Documentation](http://ardusub.com/introduction/#over
 
 # Operation Manual
 
-Please look at our [BlueROV2 Operation Page](/brov2/operation) for a detailed operating manual.
+Please look at our [_BlueROV2_ Operation Page](/brov2/operation) for a detailed operating manual.
 
 
