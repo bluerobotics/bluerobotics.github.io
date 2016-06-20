@@ -59,11 +59,11 @@ manual-links:
 - Operations Manual: /brov2/operation/
 ---
 
-<img src="/assets/images/tutorials/bluerov-manual/michal-rov-banner.png" class="img-responsive" style="max-width:900px" />
+<img src="/brov2/cad/BlueROV2-Black-Sands-1.png" class="img-responsive" style="max-width:900px" />
 
 # Introduction
 
-The _BlueROV_ kit comes almost ready to dive. The assembly can be completed with basic hand tools; no soldering or potting is required. We have included a couple of the tools that will be used most often to make assembly and regular use as smooth as possible.
+The _BlueROV_ kit comes almost ready to dive. The assembly can be completed with basic hand tools; no soldering or potting is required. We have included a couple of the tools that will be used most often to make assembly and regular use go as smoothly as possible.
 
 ## Safety 
 
@@ -72,10 +72,12 @@ The _BlueROV_ kit comes almost ready to dive. The assembly can be completed with
 # Required Tools Not Included
 
 - 2mm Flat Head Screwdriver
-- \#3 Phillips Head Screwdriver (or similar size)
+- \#2 Phillips Head Screwdriver
 - Adjustable Crescent Wrench
 - Wire Cutters or Scissors (for cutting zip ties)
-- Threadlocker such as [Loctite 243](#)
+- Threadlocker such as [Loctite 243](https://www.amazon.com/Loctite-1330799-Resistant-Threadlocker-6-milliliter/dp/B004L439FE/ref=sr_1_1?ie=UTF8&qid=1466440165&sr=8-1&keywords=loctite+243+threadlocker)
+- Tweezers (for assistance installing wires into terminal blocks)
+- Isopropyl Alcohol
 
 # What's Included
 
@@ -90,8 +92,8 @@ Quantity      | Part														| Usage
 2             | Electronics Enclosure Cradle (Black Anodized Aluminum)  	| Mounting the electronics enclosure to the frame
 8 			  | M4x18 Button Head Cap Screw (316 Stainless Steel)           | Mounting the electronics enclosure cradles to the frame        
 12            | M5x16 Button Head Cap Screw (316 Stainless Steel)           | Assembling the frame
-6             | 8-16 Thread, 5/8" Long, Thread-Forming Screw                | Mounting the ballast to the frame                         
-6             | 200g Ballast												| 
+7             | 8-16 Thread, 5/8" Long, Thread-Forming Screw                | Mounting the ballast to the frame                         
+7             | 200g Ballast												| 
 
 ## Electronics Enclosure                                                         
 
@@ -105,7 +107,7 @@ Quantity      | Part																		| Usage
 1			  | Power module power wire														| Powering the PixHawk power module
 4			  | 3-24 x 3/8" long self tapping screws (316 Stainless Steel)					| Mounting the tether interface board (Fathom-S or Fathom-X)
 4 			  | 1/8" x 1/8" diameter spacers (nylon)										| Mounting the tether interface board (Fathom-S or Fathom-X)
-10 			  | 3" Zip Ties (Nylon)															| Cable management inside the electronics enclosure
+10 			  | 5 1/2" Zip Ties (Nylon)															| Cable management inside the electronics enclosure
 
 ## Battery Enclosure
 
@@ -172,11 +174,12 @@ Quantity      | Part
 Quantity      | Part
 ------------- | --------------------------------------------------------
 1             | Fathom-X Tether Interface 
-1             | HD Raspberry Pi Camera
+1             | HD Raspberry Pi Camera with Camera Tilt
 1             | Pre-loaded SD Card
 1             | Power Supply
 1             | 3DR PixHawk (Optional)
 1             | Raspberry Pi 3 
+1 			  | PixHawk Adapter Plate with Standoffs
 
 ## Lights
 
@@ -188,9 +191,9 @@ Quantity      | Part
 
 There are some items necessary for operation that are not included with the kit. 
 
- - Analog screen for the standard BlueROV2. We recommend [this one](#).
- - A gamepad controller. We recommend [this one](#).
- - A laptop or a tablet. ArduSub works on Mac, Linux, and Windows. 
+ - Analog screen for the standard BlueROV2. We recommend [this one](https://www.adafruit.com/products/2261).
+ - A gamepad controller. We recommend [an Xbox360 Controller](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [a Logitech F310 Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
+ - A laptop or a tablet. ArduSub works on Mac, Linux, Windows, iOS, and Android. 
  - A battery for the BlueROV2. We recommend getting 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)   
  
 # Assembling the Frame
@@ -199,25 +202,25 @@ There are some items necessary for operation that are not included with the kit.
 
 To mount the battery enclosure to the bottom panel you will need the following tools and items:
 
-- 2 battery cradles (included with ROV)
-- thread-locker (not included)
-- Bottom panel (included with rov)
+- 2 battery cradles 
+- thread-locker 
+- Bottom panel 
 - Bag with 4 M4x14 socket head cap screws and 4 M3x12 socket head cap screws
 - Battery Enclosure
 
 1. Open the battery enclosure and set the bags inside of it to the side, except for the bag with 4 M4x14 and 4 M3x12 screws in it.
 
-	[picture of the battery cradle with the stuff that comes in it neatly layed out next to it]
+	[picture of the battery enclosure with the stuff that comes in it neatly layed out next to it]
 
-1. Remove one battery cradle from the bubble wrap and apply one or two drops of threadlocker to the screw holes on the bottom of the cradle. 
+1. Remove one battery cradle from the bubble wrap and apply one drop of threadlocker to the screw holes on the bottom of the cradle. 
 
 	<img src="/brov2/cad/locktite-application-blind.png" class="img-responsive" style="max-width:700px" />
 
-2. Attach that battery cradle to the bottom panel, using 4 M4x14 socket head cap screws from the bag with 4 M4x14 screws and 4 M3x12 screws. Be sure that the screw head is in the counterbore. The bottom panel is only counterbored on one side.
+2. Attach that battery cradle to the bottom panel, using 4 M4x14 socket head cap screws. Be sure that the screw head is in the [counterbore](https://en.wikipedia.org/wiki/Counterbore). The bottom panel is only counterbored on one side.
 
 	<img src="/brov2/cad/brov-assembly-step1-annotated.png" class="img-responsive" style="max-width:700px" /> 
 
-3. Apply one or two drops of threadlocker to the end of 4 M3x12 screws from the bag you just got the M4x14 screws from.
+3. Apply one drop of threadlocker to the end of each of the 4 M3x12 screws.
 
 	<img src="/brov2/cad/locktite-application-2.png" class="img-responsive" style="max-width:700px" />
 
@@ -230,19 +233,19 @@ Keep the battery enclosure approximately centered in the cradles.
 
 To assemble the center panels you will need the following tools and items:
 
-- 2 front center panels (included with ROV)
-- 2 rear center panels (included with ROV)
-- threadlocker (not included)
-- The bag with 8 M4x18 socket head cap screws (included with ROV)
-- 3 mm allen hex key (included with ROV)
+- 2 front center panels 
+- 2 rear center panels 
+- threadlocker 
+- The bag with 8 M4x18 socket head cap screws 
+- 3 mm allen hex key 
 
-1. Apply one or two drops of threadlocker to the end of 8 M4x18.
+1. Apply one drop of threadlocker to the end of each of the 8 M4x18 screws.
 
-2. Attach the electronics enclosure cradle to the rear center panels. 
+2. Attach one of the electronics enclosure cradle to the rear center panels. 
 
 	<img src="/brov2//cad/brov-assembly-step3-annotated.png" class="img-responsive" style="max-width:700px" />
 	
-3. Attach the electronics enclosure cradle to the front center panels.
+3. Attach the other electronics enclosure cradle to the front center panels.
 
 	<img src="/brov2//cad/brov-assembly-step4-annotated.png" class="img-responsive" style="max-width:700px" />
 	
@@ -250,14 +253,14 @@ To assemble the center panels you will need the following tools and items:
 
 To assemble the frame you will need the following tools and items:
 
-- Threadlocker (not included)
-- The bag with 12 M5x12 button head cap screws (included with the ROV)
+- Threadlocker 
+- The bag with 12 M5x12 button head cap screws 
 - 2 Side Panels
 - The bottom panel with the battery enclosure installed
 - The front center panel assembly
 - The rear center panel assembly
 	
-1. Apply several drops of threadlocker to the end of the 12 M5x16 screws.
+1. Apply one drop of threadlocker to the end of the 12 M5x16 screws.
 	
 2. Install the side panels to the bottom panel.
 
@@ -285,12 +288,10 @@ To partially disassemble the electronics enclosure you will need the following t
 - The electronics enclosure assembly
 - 2.5 mm allen key driver 
 
-1. Remove the tube from the rear flange. You can twist a large flat head screwdriver in the slots if it does not pull off easily. Set the loose items that come inside the electronics enclosure to the side so you can find them easily.
+1. Remove the tube from the rear flange. You can twist a large flat head screwdriver in the slots if it does not pull off easily. Set the loose items that come inside the electronics enclosure to the side so you can find them easily later.
 
 	<img src="/brov2/cad/electronics-assembly-step1.png" class="img-responsive" style="max-width:700px" />
 		
-	[add picture of the dissassembled enclosure with the stuff that comes with it set to the side neatly]
-
 2. Remove the rear 14 hole end cap by removing the screws using the M2.5 Allen key. Place the M3x12 screws, clips, and O-ring in a safe place. 
 
 	<img src="/brov2/cad/electronics-assembly-step2-annotated.png" class="img-responsive" style="max-width:700px" />
@@ -303,20 +304,20 @@ If you have the Advanced Electronics, please skip to [Installing the Advanced El
 
 To install the standard electronics, you need the following parts and tools:
 
-- PixHawk Autopilot (optionally included)
-- Fathom-S Tether Interface Board (included with the ROV)
-- Bag with 4 short self tapping screws and 4 plastic spacers (included in the battery enclosure)
-- \#1 phillips head screw driver (included with ROV)
+- PixHawk Autopilot
+- Fathom-S Tether Interface Board
+- Bag with 4 short self tapping screws and 4 plastic spacers
+- \#1 phillips head screw driver
 
-1. Clean the back of the PixHawk and the area on the electronics tray that you want to mount the PixHawk to with isopropyl alcohol.
+1. Clean the back of the PixHawk and the area on the electronics tray (starboard side) that you want to mount the PixHawk to with isopropyl alcohol.
 
-2. Attach the 3DR PixHawk using the two sided foam tape included with the PixHawk. 
+2. Attach the PixHawk using the two sided foam tape included with the PixHawk. 
 
-	<img src="/brov2/cad/pixhawk-2-sided-tape.jpg" class="img-responsive" style="max-width:700px" />
+	[picture of pixhawk with tape on it]
 	
-	<img src="/brov2/cad/pixhawk-installed.jpg" class="img-responsive" style="max-width:700px" />
+	[picture of etray with pixhawk on it]
 
-2. 	Attach the Fathom-S Tether Interface Board to the Electronics Tray, using the self tapping screws and spacers. 
+2. 	Attach the Fathom-S Tether Interface Board to the Electronics Tray, using the self tapping screws and spacers. The tether board should mount to the port side.
 
 	<img src="/brov2/cad/tether-board-install.png" class="img-responsive" style="max-width:700px" />
 
@@ -324,13 +325,36 @@ To install the standard electronics, you need the following parts and tools:
 
 If you have the Standard Electronics, please skip to [Wiring the Electronics](/brov2/#wiring-the-electronics)
 
-[Need to take pictures for and write this section]
+1. Attach the standoffs to the raspberry pi as shown:
 
-1. Install the Fathom-X Tether Interface Board to the port side of the Electronics Tray, using the self tapping screws and spacers.
+	[CAD exploded view of standoffs attaching to pi]
+	
+2. Attach PixHawk adapter plate to Raspberry Pi standoffs.
+
+	[CAD exploded view of standoffs attaching to adapter plate]
+	
+3. Install the Raspberry Pi camera.
+
+	[picture of raspberry pi camera installed]
+	
+4. Install the Raspberry Pi to the Starboard side of the electronics tray.
+
+	[exploded CAD view of the raspberry pi being installed]
+	
+3. Clean the back of the PixHawk and the top of the adapter plate with isopropyl alcohol
+
+4. Attach the PixHawk using the two sided foam tape included with the PixHawk
+
+	[Picture of the PixHawk with tape]
+	
+	[Picture of the PixHawk installed]
+	
+
+5. Install the Fathom-X Tether Interface Board to the port side of the Electronics Tray, using the self tapping screws and spacers.
 
 	<img src="/brov2/cad/tether-board-install.png" class="img-responsive" style="max-width:700px" />
 
-2. [installing raspberry pi and pixhawk, still need to figure out exactly how this happens don't forget that the camera wire needs to get installed early]
+6. [installing raspberry pi and pixhawk, still need to figure out exactly how this happens don't forget that the camera wire needs to get installed early]
 
 # Wiring the Electronics
 
@@ -338,23 +362,30 @@ If you have the Standard Electronics, please skip to [Wiring the Electronics](/b
 
 To complete the power cable wiring, you will need the following items:
 
-- Large phillips head screwdriver (not provided)
-- Tether board power wires (included with the electronics enclosure)
-- XT60 to spade adapter (included with the electronics enclosure)
-- PixHawk power module (included with the PixHawk)
-- PixHawk power module jumper cable (included with the PixHawk)
+- Large phillips head screwdriver 
+- Tether board power wires 
+- XT60 to spade adapter 
+- PixHawk power module 
+- PixHawk power module jumper cable
 
-The following two diagrams show the power wiring for the port and starboard sides. 
+The following two diagrams show the power wiring for the port and starboard sides. Our convention for power wiring is to have the positive power terminal on the starboard side and the ground power terminal on the port side. The power terminal blocks come with 
+jumpers installed. The white rectangular holes with rounded corners, in the diagrams, are physical holes in the electronics tray used to pass power cables from one side to the other.
 
 <img src="/brov2/cad/sboard-side-power-wiring.png" class="img-responsive" style="max-width:900px" />
 	
 <img src="/brov2/cad/port-side-power-wiring.png" class="img-responsive" style="max-width:900px" />
 	
-1. Connect the ESC power and ground wires to the power and ground terminal blocks, using your large phillips head screwdriver.
+1. Connect the ESC power and ground wires to the power and ground terminal blocks, using your large phillips head screwdriver. 
+
+	[picture of the power side wires installed]
 
 2. Attach the tether board power wires to the power terminal blocks and the tether board. 
 
-3. Attach the included XT60 to terminal block spade adapter to the power terminal blocks and the power module.
+	[picture of the wires installed]
+
+3. Attach the included XT60 to terminal block spade adapter to the power terminal blocks and the PixHawk power module.
+
+	[picture of this assembly installed]
 
 4. Plug in the power module to the "Power" port on the PixHawk
 	
@@ -368,8 +399,8 @@ The following two diagrams show the power wiring for the port and starboard side
 
 To complete the signal cable wiring you need the following items:
 
-- a small (~1.5mm) flat head screw driver (not supplied)
-- wire cutters (not supplied)
+- a small (~2mm) flat head screw driver
+- wire cutters
 
 The following two diagrams show the signal wiring for the port and starboard sides.
 
@@ -428,23 +459,17 @@ If you have the Standard Electronics, please continue to [Changing the Propeller
 1. Plug the included ethernet cable to the Raspberry Pi 3 and the Fathom-X Tether Interface Board.
 
 	[picture of the installed ethernet cable]
-
-2. Connect the Raspberry Pi Camera cable to the Raspberry Pi Camera. [link to raspberry pi tutorial]
-
-	[picture of the connected camera]
 	
-3. Plug the Raspberry Pi power supply to the Raspberry Pi 3.
+2. Plug the Raspberry Pi power supply to the Raspberry Pi 3.
 
 	[picture of a close up of the installation into the pi]
 	
-4. Connect the Raspberry Pi power supply to the terminal blocks.
+3. Connect the Raspberry Pi power supply to the terminal blocks.
 
 	[picture of the power supply installed on the terminal blocks]
 	
-	[usb from raspbery pi to pixhawk] cable supplied and part of the advanced package
-	
-	[plug in the sd card into the pi]	
-	
+4. Connect the usb cable to raspbery pi and pixhawk
+		
 # Changing the Propellers
 
 To change the propellers on three of the thrusters you will need the following items and tools:
@@ -457,7 +482,7 @@ To change the propellers on three of the thrusters you will need the following i
 	
 2. Switch the propellers from the clockwise thrusters that come installed to the counter-clockwise thrusters that come along with the thrusters. Please refer to our [Changing the Propeller Tutorial](/tutorials/changing-the-propeller) for detailed instructions.
 
-3. The next few steps will be easier if you keep the clockwise and counter-clockwise thrusters seperated, but for reference the picture below shows clockwise and counter-clockwise propellers installed on thrusters.
+3. The next few steps will be easier if you keep the clockwise and counter-clockwise thrusters seperated, and for reference the picture below shows clockwise and counter-clockwise propellers installed on thrusters.
 
 	[annotated picture with cw and ccw thrusters]
 	
@@ -504,7 +529,7 @@ If you install the remaining penetrators as shown in the diagram below, it will 
 	
 At this point all of the thrusters, lights, and the tether should be loosly hanging from the end cap, and it should look something like this. 
 
-[picture of the mess of wires and thrusters you have]
+[picture of the wires hanging from the end cap]
 	
 ## Installing the End Cap
 
@@ -515,13 +540,13 @@ To reinstall the end cap you will need the following items and tools:
 - End cap with thrusters, lumen, tether, and power cable hanging off the back
 - 2.5 mm allen head hex driver
 
-To reinstall the end cap you need the following tools and items:
+To reinstall the end cap you need the following parts and tools:
 
 1. Retrieve the Face Seal O-ring, the 6 M3x12 screws, and the 2 clips that you removed earlier
 
 	<img src="/brov2/cad/etray-disassemble.png" class="img-responsive" style="max-width:700px" />
 	
-2. Clean the O-ring and make sure that it is free of any debris or damage.
+2. Clean the O-ring and make sure that it is free of any debris or damage. If it appears to be damaged, replace it with the spare 4" face seal O-ring.
 
 3. Apply Silicone grease to the O-ring.
 
@@ -535,9 +560,9 @@ To reinstall the end cap you need the following tools and items:
 	
 ## Installing the Power Wires from the Penetrators
 
-To install the wires from the penetrators you will need the following tools and items:
+To install the wires from the penetrators you will need the following parts and tools:
 
-- Large (~#3) phillips head screw driver
+- Large (~#2) phillips head screw driver
  
 Here is a diagram of where the power wires from the end caps should get connected. 
 
@@ -551,7 +576,7 @@ Here is a diagram of where the power wires from the end caps should get connecte
 	
 ## Installing the Signal Wires from the Penetrators
 	
-To install the wires from the penetrators you will need the following tools and items:
+To install the wires from the penetrators you will need the following parts and tools:
 
 - Small (~2 mm) flat head screw driver
 
@@ -577,64 +602,78 @@ Here is a diagram of where the signal wires from the end caps should get connect
 
 Occasionally, you may want to open and close the electronics enclosure, and it is very helpful to have the wires tidy so that they do not get caught up with the acrylic tube. We recommend something like this.
 
-	[gotta see if the new trays facilitate having step by step wiring instrustions]
+	[picture of the cable management]
 	
 # Final Assembly
 
 ## Mounting the Electronics Enclosure onto the Frame
 
+To mount the electronics enclosure to the frame you need the following parts and tools:
+
+- 4" WTE with dome installed
+- Threadlocker
+- Bag with 4 M3x16 screws
+- 2.5 mm hex driver
+
 1. Reinstall tube with dome over the electronics tray.
 
 	<img src="/brov2/cad/installed-etray-empty-frame.png" class="img-responsive" style="max-width:700px" />
 
-2. Apply one or two drops of threadlocker to the 4 M3x16 screws in the bag with only 4 M3x16 screws.
+2. Apply one drop of threadlocker to each of the 4 M3x16 screws.
 
-3. Install the M3x16 screws through the clips and into the cradles. It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the cradles. This allows to cradles to rotate so you can find the cradle hole easily.
+3. Install the M3x16 screws through the clips and into the cradles. It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the cradles. This allows to clips to rotate so you can find the cradle hole easily.
 
 	<img src="/brov2/cad/clip-installation.png" class="img-responsive" style="max-width:700px" />
 
 ## Mounting the Thrusters to the Frame
 
-To mount the thrusters to the frame, you need the following tools and items:
+To mount the thrusters to the frame, you need the following parts and tools:
 
-- 2.5 mm allen key driver
+- 2.5 mm hex driver
 - 6 T200 thrusters
-- Bag with 24 M3x16 screws
+- Bag with 16 M3x16 screws and 8 M3x12 screws in smaller bag
 - The ROV frame
 
 Here is a diagram of where the thrusters go. The order of installation does matter here. You cannot get the front thrusters on if the rear ones were installed first.
 
 <img src="http://ardusub.com/images/vectored-frame.png" class="img-responsive" style="max-width:700px" />
 
-1. Install thrusters 1 and 2. Tighten the screws so that they indent the frame slightly. It is physically possible to keep turning the screw at this point, but it isn't necessary.
+1. Install thrusters 1 and 2, using the M3x16 screws. Tighten the screws so that they indent the frame slightly. It is physically possible to keep turning the screw at this point, but it isn't necessary.
 
 	[close up picture of a screw slightly indenting the frame]
 	
-2. Install thrusters 5 and 6. Tighten the screws so that they indent the frame slightly.
+2. Install thrusters 5 and 6, using the M3x12 screws. Tighten the screws so that they indent the frame slightly.
 
-3. Install thrusters 3 and 4. Tighten the screws so that they indent the frame slightly.
+3. Install thrusters 3 and 4, using the M3x16 screws. Tighten the screws so that they indent the frame slightly.
 
 ## Mounting the Lights
 
-To install the Lumen mounts you will need the following tools and items:
+To install the Lumen mounts you will need the following parts and tools:
 
-- The bag with the Lumen mounts, O-rings, and 4 M3x12 socket head cap screws (included with ROV)
-- 2.5mm hex driver (included with ROV)
-- 2 side panels
+- The bag with the Lumen mounts, O-rings, and 4 M3x12 socket head cap screws 
+- 2.5mm hex driver 
+- ROV side panels
+- Threadlocker
 
-Loop 1 size 133 O-ring from the bag that had the Lumen Mounts and screws around each Lumen Mount and Lumen as shown below.
+1. Apply one drop of threadlocker to each of the M3x12 screws.
+
+2. Install the mounts as shown
+
+	[exploded CAD view of mounts being installed]
+	
+3. Loop 1 size 133 O-ring from the bag that had the Lumen Mounts and screws around each Lumen Mount and Lumen as shown below.
 
 <img src="/lumen/cad/lumen-tutorial-14.png" class="img-responsive" style="max-width:700px" />	
 
 ## Mounting the Tether to the Frame
 
-The tether needs to be firmly mounted to the frame to prevent the tether penetrator from being loosened. To do this, you will need the following tools and items:
+The tether needs to be firmly mounted to the frame to prevent the tether penetrator from being loosened through normal use. To do this, you will need the following parts and tools:
 
 - Bag with thimble and 5 large zip ties
 - Tether 
 - ROV frame
 
-1. Grab the tether between around 12 inches away from the tether penetrator.
+1. Grab the tether around 12 inches away from the tether penetrator.
 
 2. Loop the tether around the plastic thimble.
 
@@ -650,7 +689,7 @@ The tether needs to be firmly mounted to the frame to prevent the tether penetra
 	
 ## Finishing the Battery Enclosure
 
-To finish installing the battery enclosure you need the following tools and items:
+To finish installing the battery enclosure you need the following parts and tools:
 
 - The bag with one black penetrator nut and one O-ring left in it
 - The 4 hole 3 inch enclosure end cap
@@ -673,7 +712,7 @@ To finish installing the battery enclosure you need the following tools and item
 	
 ## Thruster and Lumen Cable Management
 
-To clean up the thruster and lumen wires, you will need the bag of 30 zip ties and your scissors/wire cutters.
+To clean up the thruster and lumen wires, you will need the bag of 30 zip ties and your scissors/wire cutters. 
 
 [bottom view of the frame point out cable routing points]
 
@@ -689,7 +728,7 @@ The buoyancy comes preinstalled in the fairings, but make sure it is still in al
 
 1. Remove the Lumens from their mount.
 
-	[picture showing them hanging]
+	[picture showing the unmounted lumens]
 
 2. Install the screws through the center panels and into the fairings.
 	

@@ -56,7 +56,7 @@ high-end commercial mini-ROV at the price of the most basic commercial ROVs.
 
 The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected build time is 4-8 hours to operation depending on experience.
 
-Here is the [Bill of Material](/brov2/operation/#whats-included) for the each _BlueROV2_ kit.
+Here is the [Bill of Material](/brov2/assembly/#whats-included) for the each _BlueROV2_ kit.
 
 The Standard and Advanced options have a couple of differences shown [here](/brov2/#standard-and-advanced-comparison)
 
@@ -64,8 +64,8 @@ The Standard and Advanced options have a couple of differences shown [here](/bro
 
 There are some items necessary for operation that are not included with the kit. 
 
- - Analog screen for the Standard _BlueROV2_. We recommend [this one]().
- - A gamepad controller. We recommend [this one]().
+ - Analog screen for the Standard _BlueROV2_. We recommend [this one](https://www.adafruit.com/products/2261).
+ - A gamepad controller. We recommend [this XBox360 Controller](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [this Logitech Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
  - A laptop or a tablet. ArduSub works on Mac, Linux, Windows, iOS, and Android devices.
  - A LiPo battery. We recommend getting two or three of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
 
@@ -93,7 +93,7 @@ There are some items necessary for operation that are not included with the kit.
 | Construction                           | HDPE frame, aluminum flanges/end cap, and acrylic tubes |
 | Main Tube (Electronics Enclosure)      | [Blue Robotics 4 inch series w/ aluminum end caps](http://docs.bluerobotics.com/watertight-enclosures/#specifications-4-series)        |
 | Battery Tube                           | [Blue Robotics 3 inch series w/ aluminum end caps](http://docs.bluerobotics.com/watertight-enclosures/#specifications-3-series)        |
-| Buoyancy Foam                          | [R-3318 Urethane Foam](http://docs.bluerobotics.com/float/) rated to 210 meters                |
+| Buoyancy Foam                          | [R-3318 Urethane Foam](https://www.bluerobotics.com/store/parts/float-r1/) rated to 210 meters                |
 | Ballast Weight                         | 6 x [200 g coated lead weights](https://www.bluerobotics.com/store/parts/ballast-200g-r1/)                             |
 | Battery Connector						 | XT90                                                    |
 
@@ -158,7 +158,7 @@ The batteries can be changed in about 30 seconds.
 | Tether Board               | [Fathom-S Tether Interface Board](http://docs.bluerobotics.com/fathom-s/) 							      | [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/) (tether > 100m)                      |
 |                            |                                                                                                            | [Fathom-E Tether Interface Board](https://www.bluerobotics.com/store/electronics/fathom-e-r1/)  (tether < 100m)|
 | Control System             | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
-|                            |                                                                                                            | Computer such as the [Raspberry Pi 3](#)                                                                           |
+|                            |                                                                                                            | Computer such as the Raspberry Pi 3                                                                           |
 |                            | **Standard Required Topside**                                                                              | **Advanced Required Topside**                                                                                      |
 |                            | Laptop or Tablet                                                                                           | Laptop or Tablet                                                                                                   |
 |                            | Gamepad Controller such as [Xbox](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [Logitech](http://gaming.logitech.com/en-us/product/f310-gamepad)   | Gamepad Controller  such as [Xbox](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [Logitech](http://gaming.logitech.com/en-us/product/f310-gamepad)                                                          |
