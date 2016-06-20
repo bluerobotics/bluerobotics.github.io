@@ -33,39 +33,44 @@ manual-links:
 
 ---
 
-<img src="/brov2/cad/brov-banner.png" class="img-responsive" style="max-width:900px" />
+<img src="/brov2/cad/BlueROV2-Honaunau-6.png" class="img-responsive" style="max-width:700px" />
 
 # Introduction
 
-The _BlueROV2_ is the world's most affordable high-performance ROV. 
+The _BlueROV2_ is the world's most affordable high-performance ROV. The 6-thruster vectored configuration, coupled with strong static stability, provides a vehicle that is smooth and stable, yet highly maneuverable. The _BlueROV2_ provides the capabilities of a 
+high-end commercial mini-ROV at the price of the most basic commercial ROVs.
 
 ## Features
 
-- Live Ultra-low Latency Video
+- Live Ultra-low Latency Video (with Standard Electronics Package)
+- Live 1080p HD Video (with Advanced Electronics Package, 200 ms latency)
 - Highly Maneuverable Vectored Thruster Configuration
 - Stable and Optimized for Inspection- and Research-class Missions
 - Easy to Use, Cross-platform User Interface
 - Highly Expandable with Three Free Cable Penetrators
+- Standard 100m Depth Rating and Up to 300m Tether Available
+- 6 T200 Thrusters and Basic ESCs for the Best Thrust-to-Weight Ratio in its Class
+- Battery powered With Quick-Swappable Batteries for Long Missions
 
 ## What's Included
 
 The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected build time is 4-8 hours to operation depending on experience.
 
-Here is the [bill of material](/brov2/operation/#whats-included) for the each BlueROV2 kit.
+Here is the [Bill of Material](/brov2/operation/#whats-included) for the each _BlueROV2_ kit.
 
-The standard and advanced options have a couple of differences shown [here](/brov2/#standard-and-advanced-comparison)
+The Standard and Advanced options have a couple of differences shown [here](/brov2/#standard-and-advanced-comparison)
 
 ## What's Not Included
 
 There are some items necessary for operation that are not included with the kit. 
 
- - Analog screen for the standard BlueROV2. We recommend [this one]().
+ - Analog screen for the Standard BlueROV2. We recommend [this one]().
 
  - A gamepad controller. We recommend [this one]().
 
  - A laptop or a tablet. ArduSub works on Mac, Linux, and Windows.
  
- - A battery for your BlueROV2. We recommend [this one](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
+ - A battery for your BlueROV2. We recommend getting two or three of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
 
 ## Resources
 
@@ -117,7 +122,7 @@ There are some items necessary for operation that are not included with the kit.
 | Battery Life (Normal Use)              | ~1 hour w/ [10Ah battery](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844) ($60 each) |
 | Battery Life (Light Use)               | ~4 hours w/ [10Ah battery](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844) ($60 each) |
 
-The batteries can be changed in about 30 seconds
+The batteries can be changed in about 30 seconds.
 
 ## Lights
 
@@ -137,12 +142,12 @@ The batteries can be changed in about 30 seconds
 
 ## Sensors
 
-- 3-DOF Gyroscope 
-- 3-DOF accelerometer 
-- 3-DOF magnetometer  
-- Internal barometer 
+- 3-DOF Gyroscope (on the PixHawk)
+- 3-DOF Accelerometer (on the PixHawk)
+- 3-DOF Magnetometer (on the PixHawk)
+- Internal barometer (on the PixHawk)
 - [Blue Robotics Bar 30 Pressure/Depth and Temperature Sensor](http://docs.bluerobotics.com/bar30/) (external) 
-- Current and Voltage Sensing 
+- Current and Voltage Sensing (included with the PixHawk)
 
 ## Camera Tilt
 					   
@@ -155,7 +160,7 @@ The batteries can be changed in about 30 seconds
 | Field of View (Underwater) | 110 degrees (horizontal)                                                                                   | TBD                                                                                                                |
 | Light Sensitivity          | 0.0003 [lux](https://en.wikipedia.org/wiki/Lux#Illuminance)                                                | TBD                                                                                                                |
 | Resolution                 | 700 TVL                                                                                                    | up to 4k                                                                                                           |
-|                            | **Standard Control System and Electronics**                                                                | **Advanced Control System and Electronics**                                                                        | 
+|                            | **Standard Control System**                                                             				      | **Advanced Control System**                                                                        | 
 | Tether Board               | [Fathom-S Tether Interface Board](http://docs.bluerobotics.com/fathom-s/) for video and communication      | [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/) (tether > 100m)                      |
 |                            |                                                                                                            | [Fathom-E Tether Interface Board](https://www.bluerobotics.com/store/electronics/fathom-e-r1/)  (tether < 100m)|
 | Control System             | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
