@@ -33,7 +33,7 @@ manual-links:
 
 ---
 
-<img src="/brov2/cad/BlueROV2-Honaunau-6.png" class="img-responsive" style="max-width:700px" />
+<img src="/brov2/cad/BlueROV2-Honaunau-6.png" class="img-responsive" style="max-width:900px" />
 
 # Introduction
 
@@ -153,7 +153,7 @@ The batteries can be changed in about 30 seconds.
 |                            |**Standard Camera**                                                                                         | **Advanced Camera**                                                                                                |
 | Field of View (Underwater) | 110 degrees (horizontal)                                                                                   | TBD                                                                                                                |
 | Light Sensitivity          | 0.0003 [lux](https://en.wikipedia.org/wiki/Lux#Illuminance)                                                | TBD                                                                                                                |
-| Resolution                 | 700 TVL                                                                                                    | up to 4k                                                                                                           |
+| Resolution                 | 700 TVL                                                                                                    | 1080p                                                                                                          |
 |                            | **Standard Control System**                                                             				      | **Advanced Control System**                                                                        | 
 | Tether Board               | [Fathom-S Tether Interface Board](http://docs.bluerobotics.com/fathom-s/) 							      | [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/) (tether > 100m)                      |
 |                            |                                                                                                            | [Fathom-E Tether Interface Board](https://www.bluerobotics.com/store/electronics/fathom-e-r1/)  (tether < 100m)|
@@ -161,8 +161,8 @@ The batteries can be changed in about 30 seconds.
 |                            |                                                                                                            | Computer such as the [Raspberry Pi 3](#)                                                                           |
 |                            | **Standard Required Topside**                                                                              | **Advanced Required Topside**                                                                                      |
 |                            | Laptop or Tablet                                                                                           | Laptop or Tablet                                                                                                   |
-|                            | Gamepad Controller such as [Xbox](#) or [Logitech](#)                                                      | Gamepad Controller  such as [Xbox](#) or [Logitech](#)                                                          |
-|                            | [Analog video screen with RCA Input](#)                                                                    |                                                                                                                    |
+|                            | Gamepad Controller such as [Xbox](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [Logitech](http://gaming.logitech.com/en-us/product/f310-gamepad)   | Gamepad Controller  such as [Xbox](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [Logitech](http://gaming.logitech.com/en-us/product/f310-gamepad)                                                          |
+|                            | [Analog video screen with RCA Input](https://www.adafruit.com/products/2261)                                                                    |                                                                                                                    |
 
 # 3D Model
 
