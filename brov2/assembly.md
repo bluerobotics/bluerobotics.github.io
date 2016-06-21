@@ -218,7 +218,7 @@ To mount the battery enclosure to the bottom panel you will need the following p
 
 2. Attach that battery cradle to the bottom panel, using 4 M4x14 socket head cap screws. Be sure that the screw head is in the [counterbore](https://en.wikipedia.org/wiki/Counterbore). The bottom panel is only counterbored on one side.
 
-	<img src="/brov2/cad/brov-assembly-step1-annotated.png" class="img-responsive" style="max-width:700px" /> 
+	<img src="/brov2/cad/brov-assembly-step1-annotated.PNG" class="img-responsive" style="max-width:700px" /> 
 
 3. Apply one drop of thread-locker to the end of each of the 4 M3x12 screws.
 
