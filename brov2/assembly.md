@@ -218,7 +218,7 @@ To mount the battery enclosure to the bottom panel you will need the following p
 
 2. Attach that battery cradle to the bottom panel, using 4 M4x14 socket head cap screws. Be sure that the screw head is in the [counterbore](https://en.wikipedia.org/wiki/Counterbore). The bottom panel is only counterbored on one side.
 
-	<img src="/brov2/cad/brov-assembly-step1-annotated.PNG" class="img-responsive" style="max-width:700px" /> 
+	<img src="/brov2/cad/brov-assembly-step1-annotated.png" class="img-responsive" style="max-width:700px" /> 
 
 3. Apply one drop of thread-locker to the end of each of the 4 M3x12 screws.
 
@@ -290,7 +290,7 @@ To partially disassemble the electronics enclosure you will need the following t
 
 1. Remove the tube from the rear flange. You can twist a large flat head screwdriver in the slots if it does not pull off easily. Set the loose items that come inside the electronics enclosure to the side so you can find them easily later.
 
-	<img src="/brov2/cad/electronics-assembly-step1.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2/cad/electronics-assembly-step1.PNG" class="img-responsive" style="max-width:700px" />
 		
 2. Remove the rear 14 hole end cap by removing the screws using the M2.5 Allen key. Place the M3x12 screws, clips, and O-ring in a safe place. 
 
@@ -319,7 +319,7 @@ To install the standard electronics, you need the following parts and tools:
 
 2. 	Attach the Fathom-S Tether Interface Board to the Electronics Tray, using the self tapping screws and spacers. The tether board should mount to the port side.
 
-	<img src="/brov2/cad/tether-board-install.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2/cad/tether-board-install.PNG" class="img-responsive" style="max-width:700px" />
 
 ## Installing the Advanced Electronics
 
@@ -352,7 +352,7 @@ If you have the Standard Electronics, please skip to [Wiring the Electronics](/b
 
 5. Install the Fathom-X Tether Interface Board to the port side of the Electronics Tray, using the self tapping screws and spacers.
 
-	<img src="/brov2/cad/tether-board-install.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2/cad/tether-board-install.PNG" class="img-responsive" style="max-width:700px" />
 
 6. [installing raspberry pi and pixhawk, still need to figure out exactly how this happens don't forget that the camera wire needs to get installed early]
 
@@ -623,7 +623,7 @@ To mount the electronics enclosure to the frame you need the following parts and
 
 3. Install the M3x16 screws through the clips and into the cradles. It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the cradles. This allows to clips to rotate so you can find the cradle hole easily.
 
-	<img src="/brov2/cad/clip-installation.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2/cad/clip-installation.PNG" class="img-responsive" style="max-width:700px" />
 
 ## Mounting the Thrusters to the Frame
 
@@ -732,7 +732,7 @@ The buoyancy comes preinstalled in the fairings, but make sure it is still in al
 
 2. Install the screws through the center panels and into the fairings.
 	
-	<img src="/brov2/cad/fairing-install-cad.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2/cad/fairing-install-cad.PNG" class="img-responsive" style="max-width:700px" />
 	
 3. Reinstall the Lumens.
 
