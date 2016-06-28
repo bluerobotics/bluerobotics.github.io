@@ -78,7 +78,7 @@ The *Fathom-X* board is also part of the *Advanced ROV Electronics Package* and 
 | Storage Temperature | | -40 to +85&deg;C |
 | USB Connector Type | | USB Mini B Female |
 | Tether Wire Gauge | | 12-30 AWG |
-| Power Wrie Gauge | | 16-26 AWG |
+| Power Wire Gauge | | 16-26 AWG |
 | Dimensions                     | | 64 x 46 mm |
 | Screw Hole Spacing             | | 57 x 40 mm |
 | Screw Hole Diameter | | 3.3 mm |
