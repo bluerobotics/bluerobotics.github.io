@@ -16,7 +16,7 @@ This calculator determines the water depth to reach or given pressure or the pre
 <form>
 <div class="form-group has-feedback" id="depthInputGroup">
 	<label for="depthInput">Input Pressure or Depth</label>
-	<input type="text" class="form-control" id="depthInput" placeholder="100 m" onkeyup="checkValidDepth()" aria-describedby="inputSuccess2Status" value="100 m"></input>
+	<input type="text" class="form-control" id="depthInput" placeholder="100 m" onkeyup="checkValidDepth()" aria-describedby="inputSuccess2Status" value="100 m" />
 	<span class="glyphicon form-control-feedback" id="depthInputIcon" aria-hidden="true"></span>
   <span id="inputSuccess2Status" class="sr-only">(success)</span>
   <span id="helpBlock" class="help-block">Enter depth or pressure followed by unit. (e.g. "110 psi" or "450 ft")</span>

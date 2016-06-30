@@ -19,7 +19,7 @@ This calculator finds the buoyancy of an object based on it's displacement. It a
 <form>
 <div class="form-group has-feedback" id="volumeInputGroup">
 	<label for="volumeInput">Displacement of Object</label>
-	<input type="text" class="form-control" id="volumeInput" onkeyup="runCalcs()" aria-describedby="inputSuccess2Status" value="50 in^3"></input>
+	<input type="text" class="form-control" id="volumeInput" onkeyup="runCalcs()" aria-describedby="inputSuccess2Status" value="50 in^3" />
 	<span class="glyphicon form-control-feedback" id="volumeInputIcon" aria-hidden="true"></span>
   <span id="inputSuccess2Status" class="sr-only">(success)</span>
   <span id="helpBlock" class="help-block">Enter volume followed by unit. (e.g. "0.1 m^3" or "20 in^3")</span>
@@ -27,7 +27,7 @@ This calculator finds the buoyancy of an object based on it's displacement. It a
 
 <div class="form-group has-feedback" id="weightInputGroup">
 	<label for="weightInput">Object Weight, Mass, or Density</label>
-	<input type="text" class="form-control" id="weightInput" onkeyup="runCalcs()" aria-describedby="inputSuccess2Status" value="12 lb/ft^3"></input>
+	<input type="text" class="form-control" id="weightInput" onkeyup="runCalcs()" aria-describedby="inputSuccess2Status" value="12 lb/ft^3" />
 	<span class="glyphicon form-control-feedback" id="weightInputIcon" aria-hidden="true"></span>
   <span id="inputSuccess2Status" class="sr-only">(success)</span>
   <span id="helpBlock" class="help-block">Enter weight or density followed by unit. (e.g. "2.1 kg" or "12 lb/ft^3")</span>
