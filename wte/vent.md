@@ -73,7 +73,7 @@ All 3D models are provided in zip archives containing the follow file types:
 
 **Tools Needed:**
 
-* Silicon grease
+* Silicone grease
 
 **Steps:**
 
