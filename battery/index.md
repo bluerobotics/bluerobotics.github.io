@@ -137,7 +137,7 @@ This calculator finds battery energy based on voltage and capacity ratings. It a
 <form>
 <div class="form-group has-feedback" id="voltageInputGroup">
 	<label for="voltageInput">Nominal Voltage of Battery</label>
-	<input type="text" class="form-control" id="voltageInput" onkeyup="runCalcs()" aria-describedby="inputSuccess2Status" value="11.1 V"></input>
+	<input type="text" class="form-control" id="voltageInput" onkeyup="runCalcs()" aria-describedby="inputSuccess2Status" value="11.1 V" />
 	<span class="glyphicon form-control-feedback" id="voltageInputIcon" aria-hidden="true"></span>
   <span id="inputSuccess2Status" class="sr-only">(success)</span>
   <span id="helpBlock" class="help-block">Enter voltage followed by unit. (e.g. "11.1 V")</span>
@@ -145,7 +145,7 @@ This calculator finds battery energy based on voltage and capacity ratings. It a
 
 <div class="form-group has-feedback" id="capacityInputGroup">
 	<label for="capacityInput">Capacity of Battery</label>
-	<input type="text" class="form-control" id="capacityInput" onkeyup="runCalcs()" aria-describedby="inputSuccess2Status" value="5000 mAh"></input>
+	<input type="text" class="form-control" id="capacityInput" onkeyup="runCalcs()" aria-describedby="inputSuccess2Status" value="5000 mAh" />
 	<span class="glyphicon form-control-feedback" id="capacityInputIcon" aria-hidden="true"></span>
   <span id="inputSuccess2Status" class="sr-only">(success)</span>
   <span id="helpBlock" class="help-block">Enter capacity followed by unit. (e.g. "5000 mAh" or "10 Ah")</span>
