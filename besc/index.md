@@ -136,7 +136,7 @@ void loop() {
 
 The compiled firmware files can be downloaded here: 
 
-[<i class="fa fa-download fa-fw"></i> Basic ESC Firmware (BESC30-R1)](/besc/firmware/afro_nfet_besc30_r1.hex)
+[<i class="fa fa-download fa-fw"></i> Basic ESC Firmware (BESC30-R1)](https://www.bluerobotics.com/downloads/besc30-r1/afro_nfet_besc30_r1.hex)
 
 ## Firmware Update and Customization
 
