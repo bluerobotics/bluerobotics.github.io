@@ -236,7 +236,7 @@ The frame is the structure of the ROV and includes several laser-cut plastic pie
 
 ## Watertight Enclosure Assembly
 
-Please see the [Watertight Enclosure Assembly Tutorial](/watertight-enclosures/4-series/#assembly) for detailed instructions on how to assemble the Watertight Enclosure.
+Please see the [Watertight Enclosure Assembly Tutorial](/watertight-enclosures/#assembly) for detailed instructions on how to assemble the Watertight Enclosure.
 <img src="/assets/images/tutorials/bluerov-manual/BR-3.png" class="img-responsive" style="max-width:600px" />
 The above shows the suggested penetrator configuration for the Blue ROV, with the vent plug placed in the upper right hole. This configuration will enable easy access to the vent plug, and clean cable routing for all six thrusters.
 
