@@ -732,19 +732,21 @@ To finish installing the battery enclosure you need the following parts and tool
 	
 4. Install the battery power cable penetrator into the opening in the battery end cap.
 
-	[picture of it installed]
+	<img src="/brov2/cad/brov2-battery-penetrator.png" class="img-responsive" style="max-width:700px" />
 	
 5. Install the XT90 to bullet connector adapter to the battery power wire. 
 
-	[picture of the adapter installed]
+	<img src="/brov2/cad/brov2-bullet-to-xt90.png" class="img-responsive" style="max-width:700px" />
 	
 ## Thruster and Lumen Cable Management
 
 To clean up the thruster and lumen wires, you will need the bag of 30 zip ties and your scissors/wire cutters. 
 
-[bottom view of the frame point out cable routing points]
+<img src="/brov2/cad/brov2-cable-routing-port.png" class="img-responsive" style="max-width:700px" />
 
-[picture of an example of cleaned up wires]
+<img src="/brov2/cad/brov2-cable-routing-starboard.png" class="img-responsive" style="max-width:700px" />
+
+<img src="/brov2/cad/brov2-cable-routing-back.png" class="img-responsive" style="max-width:700px" />
 
 ## Installing the Fairings and Buoyancy
 
