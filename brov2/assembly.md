@@ -383,7 +383,7 @@ To install the Advanced Electronics, you need the following parts and tools:
 
 	<img src="/brov2/cad/brov2-pi-camera-attached.png" class="img-responsive" style="max-width:700px" />
 
-2. Attach the PixHawk shelf to the Raspberry Pi. 
+2. Attach the PixHawk shelf to the Raspberry Pi using two of the self tapping screws. 
 
 	<img src="/brov2/cad/brov2-pixhawk-shelf-installed.png" class="img-responsive" style="max-width:700px" />
 
@@ -414,8 +414,6 @@ To connect the PixHawk Power Module, you need the following parts and tools:
 1. Connect the spade to XT60 adapter to the black screw terminal blocks. You want the Power Module to be on the port side, so route the red +16 V wire through the hole near the power terminal blocks. 
 
 	<img src="/brov2/cad/brov2-current-monitoring-3.png" class="img-responsive" style="max-width:700px" />
-
-
 
 2. Connect the PixHawk Power Module to the XT60 connector you just installed.
 
