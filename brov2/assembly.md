@@ -108,11 +108,11 @@ Quantity      | Part																		| Usage
 1			  | Spade to XT60 adapter   													| Connecting the PixHawk Power Module to the power terminal block
 1			  | XT60 to 3.5 mm Bullet Connector adapter										| Connecting the PixHawk Power Module to the battery
 4			  | 3-24 x 3/8" long self tapping screws (316 Stainless Steel)					| Mounting the tether interface board (Fathom-S or Fathom-X)
-4 			  | 1/8" x 1/8" diameter spacers (nylon)										| Mounting the tether interface board (Fathom-S or Fathom-X)
+4 			  | 1/8" x 1/8" diameter spacers (Nylon)										| Mounting the tether interface board (Fathom-S or Fathom-X)
 10 			  | 5 1/2" Zip Ties (Nylon)														| Cable management inside the electronics enclosure
 2 			  | Pieces of two sided tape  													| Mounting PixHawk
 4			  | 3-24 x 3/8" long self tapping screws (316 Stainless Steel)					| Mounting the Raspberry Pi (Advanced Electronics only)
-2 			  | 1/8" x 1/8" diameter spacers (nylon)										| Mounting the Raspberry Pi (Advanced Electronics only)
+2 			  | 1/8" x 1/8" diameter spacers (Nylon)										| Mounting the Raspberry Pi (Advanced Electronics only)
 
 ## Battery Enclosure
 
@@ -327,7 +327,7 @@ Here is a diagram of where the ESC power wires should go for the port and starbo
 
 2. Pass the ESC signal wires from the port side to the starboard side through the holes by the black screw terminal block. This will help with cable routing later.
 
-3. Use your phillips head screw driver to connect the ESC power wires to the black screw terminal blocks as shown below.
+3. Use your Phillips head screw driver to connect the ESC power wires to the black screw terminal blocks as shown below.
 
 	<img src="/brov2/cad/brov2-esc-signal-wire-routing.png" class="img-responsive" style="max-width:700px" />
 
@@ -350,10 +350,10 @@ To install the standard electronics, you need the following parts and tools:
 - PixHawk Autopilot
 - Fathom-S Tether Interface Board
 - Bag with 4 short self tapping screws and 4 plastic spacers
-- \#1 phillips head screw driver
+- \#1 Phillips head screw driver
 
 1. Clean the back of the PixHawk and the area on the electronics tray (starboard side) that you want to mount the PixHawk to with isopropyl alcohol.
-
+		
 2. Attach the PixHawk using the two sided tape.
 
 	<img src="/brov2/cad/pixhawk-2-sided-tape.png" class="img-responsive" style="max-width:700px" />
@@ -377,7 +377,7 @@ To install the Advanced Electronics, you need the following parts and tools:
 - Bag with 4 self tapping screws and 2 spacers
 - Fathom-X Tether Interface Board
 - Two sided tape
-- \#1 phillips head screw driver
+- \#1 Phillips head screw driver
 
 1. Connect the camera cable from the Raspberry Pi Camera to the Raspberry Pi as shown below. Note the cable passing through the hole in the front panel of the electronics tray.
 
@@ -578,7 +578,7 @@ To reinstall the end cap you need the following parts and tools:
 
 4. Install O-ring back onto the flange seal
 	
-5. Install the end cap onto the O-ring. Pay close attention to the orientation. Do not fully tighten any screws fully when first installing them; it may cause the O-ring to slip out of its groove.
+5. Install the end cap onto the O-ring. Pay close attention to the orientation. Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove.
 
 	<img src="/brov2/cad/brov2-endcap-installed-iso.png" class="img-responsive" style="max-width:900px" />
 	
@@ -586,7 +586,7 @@ To reinstall the end cap you need the following parts and tools:
 
 To install the wires from the penetrators you will need the following parts and tools:
 
-- Large (~#2) phillips head screw driver
+- Large (~#2) Phillips head screw driver
  
 Here is a diagram of where the power wires from the end caps should get connected. 
 
@@ -754,7 +754,7 @@ The buoyancy comes preinstalled in the fairings, but make sure it is still in al
 
 - 4 Fairings with buoyancy installed (included with the ROV)
 - Bag with 16 self tapping screws (included with the ROV)
-- \#1 phillips head screwdriver (included with the ROV)
+- \#1 Phillips head screwdriver (included with the ROV)
 
 1. Remove the Lumens from their mount.
 
