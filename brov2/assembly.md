@@ -685,9 +685,7 @@ To install the Lumen mounts you will need the following parts and tools:
 
 2. Install the mounts.
 
-	[picture of two mounts installed]
-
-	[picture of four mounts installed]
+	<img src="/brov2/cad/brov2-light-mounts.png" class="img-responsive" style="max-width:700px" />
 	
 3. Loop 1 size 133 O-ring from the bag that had the Lumen Mounts and screws around each Lumen Mount and Lumen as shown below.
 
