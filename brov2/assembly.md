@@ -225,13 +225,17 @@ To mount the battery enclosure to the bottom panel you will need the following p
 
 	<img src="/brov2/cad/brov2-loctite-applied.png" class="img-responsive" style="max-width:700px" />
 
-3. Attach that battery cradle to the bottom panel, using 4 M4x14 socket head cap screws. Be sure that the screw head is in the [counterbore](https://en.wikipedia.org/wiki/Counterbore). The bottom panel is only counterbored on one side.
+3. Attach that battery cradle to the bottom panel, using 4 M4x14 socket head cap screws. Be sure that the screw head is in the [counterbore](https://en.wikipedia.org/wiki/Counterbore). The bottom panel is only counterbored on one side. 
 
 	<img src="/brov2/cad/brov-assembly-step1-annotated.png" class="img-responsive" style="max-width:700px" /> 
 
-4. Apply one drop of thread-locker to the end of each of the 4 M3x12 screws.
+4. Tighten the screws until they are flush with the bottom of the bottom panel. 
 
-5. Grab the battery enclosure and the other battery cradle and install the 4 M3x12 screws into the cradle to clamp the battery enclosure into place. Install all four screws loosly at first and then slowly tighten them on both sides evenly.
+	<img src="/brov2/cad/brov2-battery-cradle-screws-flush.png" class="img-responsive" style="max-width:700px" /> 
+
+5. Apply one drop of thread-locker to the end of each of the 4 M3x12 screws.
+
+6. Grab the battery enclosure and the other battery cradle and install the 4 M3x12 screws into the cradle to clamp the battery enclosure into place. Install all four screws loosly at first and then slowly tighten them on both sides evenly.
 Keep the battery enclosure approximately centered in the cradles.
 
 	<img src="/brov2/cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:700px" />
@@ -339,7 +343,7 @@ Here is a diagram of where the ESC power wires should go for the port and starbo
 
 	<img src="/brov2/cad/brov2-motor-wire-install-starboard.png" class="img-responsive" style="max-width:700px" />
 
-	<img src="/brov2/cad/brov2-euro-terminal-reinstall-port.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2/cad/brov2-motor-wire-install-port.png" class="img-responsive" style="max-width:700px" />
 	
 ## Installing the Standard Electronics
 
@@ -383,7 +387,7 @@ To install the Advanced Electronics, you need the following parts and tools:
 
 	<img src="/brov2/cad/brov2-pi-camera-attached.png" class="img-responsive" style="max-width:700px" />
 
-2. Attach the PixHawk shelf to the Raspberry Pi using two of the self tapping screws. 
+2. Attach the PixHawk shelf to the Raspberry Pi using two of the self tapping screws from the bag with four self tapping screws and two spacers. 
 
 	<img src="/brov2/cad/brov2-pixhawk-shelf-installed.png" class="img-responsive" style="max-width:700px" />
 
@@ -391,11 +395,11 @@ To install the Advanced Electronics, you need the following parts and tools:
 
 	<img src="/brov2/cad/brov2-pixhawk-fully-installed.png" class="img-responsive" style="max-width:700px" />
 
-4. Attach the PixHawk Raspberry Pi Assembly to the Electronics Tray. Make sure that the orientation matches the picture. 
+4. Attach the PixHawk Raspberry Pi Assembly to the Electronics Tray, using two of the self tapping screws and two of the spacers. Make sure that the orientation matches the picture. 
 
 	<img src="/brov2/cad/brov2-pixhawk-on-pi-on-tray.png" class="img-responsive" style="max-width:700px" />
 
-5. Attach the Fathom-X Tether Interface Board to the Electronics Tray as shown.
+5. Attach the Fathom-X Tether Interface Board to the Electronics Tray using the four self tapping screws and four spacers.
 
 	<img src="/brov2/cad/brov2-fathomx-installed.png" class="img-responsive" style="max-width:700px" />
 
@@ -589,8 +593,6 @@ To install the wires from the penetrators you will need the following parts and 
 Here is a diagram of where the power wires from the end caps should get connected. 
 
 1. Connect the battery power bullet connectors to bullet connectors on XT60 to bullet connector adapter.
-
-	<img src="/brov2/cad/brov2-battery-power-wire.png" class="img-responsive" style="max-width:900px" />
 
 2. Connect the Lumen power wires to the power terminal block
 	
