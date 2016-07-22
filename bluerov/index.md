@@ -247,7 +247,7 @@ The above shows the suggested penetrator configuration for the Blue ROV, with th
 1. First, we'll change the propellers on two thrusters so that we have counter-rotating pairs. Follow the instructions in the [Propeller Changing Tutorial](/tutorials/changing-the-propeller) to do so. These two thrusters will be the right horizontal and right vertical thrusters.
 <img src="/assets/images/tutorials/bluerov-manual/BR-11.png" class="img-responsive" style="max-width:600px" /> 
 2. Label the thrusters with the location of where they will be going on the ROV. The standard thruster label configuration for the Blue ROV is shown above.
-   From left to right, the vertical thrusters are 1 and 2, with the horizontal thrusters 3 and 4. Thus one of the thrusters with the counter-rotating blade should be labelled 2, and the other 4. The rear vertical thruster is 5, and the strafing thruster 6.
+   From left to right, the vertical thrusters are 4 and 3, with the horizontal thrusters 2 and 1. Thus one of the thrusters with the counter-rotating blade should be labelled 1, and the other 3. The rear vertical thruster is 5, and the strafing thruster 6.
 
 3. Once the thrusters have been labelled and set aside for specific locations, cut the cables to length. We suggest the following lengths, measured from where they exit the nose of the thruster:
   * Thrusters 1 and 2 (Front Vertical) to 84cm (33")
