@@ -278,13 +278,13 @@ To assemble the frame you will need the following tools and items:
 	
 1. Apply one drop of thread-locker to the end of the 12 M5x16 screws.
 	
-2. Install the side panels to the bottom panel. Take care not to overtighten; turn with the short end of the hex key.
+2. Install the side panels to the bottom panel; the blank end cap of the battery enclosure should be on the same side as the Lumen mounting holes. Take care not to overtighten; turn with the short end of the hex key. 
 
-	<img src="/brov2//cad/brov-assembly-step5-annotated.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2//cad/brov2-assembly-frame-1.png" class="img-responsive" style="max-width:700px" />
 	
 3. Install the center panel assemblies to the side panels. Take care not to overtighten; turn with the short end of the hex key.
 
-	<img src="/brov2//cad/brov-assembly-step6-annotated.png" class="img-responsive" style="max-width:700px" />
+	<img src="/brov2//cad/brov2-assembly-frame-2.png" class="img-responsive" style="max-width:700px" />
 	
 Now the ROV should look like the picture below, and it is time to move on to setting up the electronics enclosure.
 
