@@ -651,7 +651,7 @@ To mount the electronics enclosure to the frame you need the following parts and
 
 2. Apply one drop of thread-locker to each of the 4 M3x16 screws.
 
-3. Install the M3x16 screws through the clips and into the cradles. It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the cradles. This allows to clips to rotate so you can find the cradle hole easily.
+3. Mount the electronics enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels. Install the M3x16 screws through the clips and into the cradles. It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the cradles. This allows to clips to rotate so you can find the cradle hole easily. 
 
 	<img src="/brov2/cad/clip-installation.PNG" class="img-responsive" style="max-width:700px" />
 
