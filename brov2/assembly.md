@@ -70,9 +70,11 @@ The _BlueROV_ kit comes almost ready to dive. The assembly can be completed with
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with electricity, especially in water, always practice caution. Always ensure that connections are secure and watertight. Keep your body away from spinning motors and propellers.
 
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with silicone grease and threadlocker, take care to minimize skin contact. Wear protective nitrile of PVC gloves when handling.
+
 # Required Tools Not Included
 
-- 2mm Flat Head Screwdriver
+- 2.5 or 3mm Flat Head Screwdriver
 - \#2 Phillips Head Screwdriver
 - Adjustable Crescent Wrench
 - Wire Cutters or Scissors (for cutting zip ties)
@@ -315,9 +317,10 @@ To partially disassemble the electronics enclosure you will need the following t
 To connect the ESC power and motor wires, you need the following parts and tools
 
 - 1.5 mm allen hex key
-- 2 mm flat head screw driver
+- 2.5 or 3 mm flat head screw driver
 - Phillips head screw driver
 - Electronics tray
+- Tweezers
 
 Here is a diagram of where the ESC power wires should go for the port and starboard side. The camera is mounted on the port side.
 
@@ -331,7 +334,7 @@ Here is a diagram of where the ESC power wires should go for the port and starbo
 
 2. Pass the ESC signal wires from the port side to the starboard side through the holes by the black screw terminal block. This will help with cable routing later.
 
-3. Use your Phillips head screw driver to connect the ESC power wires to the black screw terminal blocks as shown below.
+3. Feed all black ESC power wires to the port side using the holes near the black power terminal block and feed all red ESC power wires through to the starboard side. Connect the power wires to their terminal blocks. Make sure to keep the outer screw terminals open, the power wires will get connected there later. Using tweezers can help with wire routing and pushing the spades into the screw terminals.
 
 	<img src="/brov2/cad/brov2-esc-signal-wire-routing.png" class="img-responsive" style="max-width:700px" />
 
@@ -339,7 +342,7 @@ Here is a diagram of where the ESC power wires should go for the port and starbo
 
 	<img src="/brov2/cad/brov2-euro-terminal-reinstall-starboard.png" class="img-responsive" style="max-width:700px" />
 
-5. Connect the motor power wires to the white euro-style terminal blocks as shown below.
+5. Connect the motor power wires to the white euro-style terminal blocks as shown below, using your 2.5 or 3 mm flat head screw driver.
 
 	<img src="/brov2/cad/brov2-motor-wire-install-starboard.png" class="img-responsive" style="max-width:700px" />
 
@@ -377,29 +380,34 @@ To install the Advanced Electronics, you need the following parts and tools:
 - The Electronics Tray
 - Raspberry Pi
 - Raspberry Pi Shelf
+- SD Card
 - Bag with 4 self tapping screws and 4 spacers
 - Bag with 4 self tapping screws and 2 spacers
 - Fathom-X Tether Interface Board
 - Two sided tape
 - \#1 Phillips head screw driver
 
-1. Connect the camera cable from the Raspberry Pi Camera to the Raspberry Pi as shown below. Note the cable passing through the hole in the front panel of the electronics tray.
+1. Install the microSD card into the Raspberry Pi.
+
+2. Connect the camera cable from the Raspberry Pi Camera to the Raspberry Pi as shown below. To connect the camera cable, lift the tabs on the camera cable port on the Raspberry Pi, push the cable in (match the orientation in the picture), then push the tabs back down. Note the cable passing through the hole in the front panel of the electronics tray.
 
 	<img src="/brov2/cad/brov2-pi-camera-attached.png" class="img-responsive" style="max-width:700px" />
 
-2. Attach the PixHawk shelf to the Raspberry Pi using two of the self tapping screws from the bag with four self tapping screws and two spacers. 
+3. Attach the PixHawk shelf to the Raspberry Pi using two of the self tapping screws from the bag with four self tapping screws and two spacers. Mount the shelf in the orientation shown in the picture to ensure that you have access to the GPIO pins on the Raspberry Pi.
 
 	<img src="/brov2/cad/brov2-pixhawk-shelf-installed.png" class="img-responsive" style="max-width:700px" />
 
-3. Attach the PixHawk to the PixHawk shelf. Note the orientation of the PixHawk relative to the Raspberry Pi.
+4. Attach the PixHawk to the PixHawk shelf, using the included double sided tape. Note the orientation of the PixHawk relative to the Raspberry Pi.
+
+	<img src="/brov2/cad/pixhawk-2-sided-tape.png" class="img-responsive" style="max-width:700px" />
 
 	<img src="/brov2/cad/brov2-pixhawk-fully-installed.png" class="img-responsive" style="max-width:700px" />
 
-4. Attach the PixHawk Raspberry Pi Assembly to the Electronics Tray, using two of the self tapping screws and two of the spacers. Make sure that the orientation matches the picture. 
+5. Attach the PixHawk Raspberry Pi Assembly to the Electronics Tray, using two of the self tapping screws and two of the spacers. The spacers should be between the Raspberry Pi and the tray. Make sure that the orientation matches the picture. 
 
 	<img src="/brov2/cad/brov2-pixhawk-on-pi-on-tray.png" class="img-responsive" style="max-width:700px" />
 
-5. Attach the Fathom-X Tether Interface Board to the Electronics Tray using the four self tapping screws and four spacers.
+6. Attach the Fathom-X Tether Interface Board to the Electronics Tray using the four self tapping screws and four spacers.
 
 	<img src="/brov2/cad/brov2-fathomx-installed.png" class="img-responsive" style="max-width:700px" />
 
@@ -470,7 +478,7 @@ To complete the wiring of the Advanced Electronics you need the following items 
 
 	<img src="/brov2/cad/brov2-fathomx-power.png" class="img-responsive" style="max-width:700px" />
 
-4. Connect the Battery Eliminator Circuit to the Raspberry Pi and the black screw terminal blocks.
+4. Connect the Battery Eliminator Circuit to the Raspberry Pi and the black screw terminal blocks. 
 
 	<img src="/brov2/cad/brov2-pi-power.png" class="img-responsive" style="max-width:700px" />
 
@@ -481,7 +489,7 @@ To complete the signal cable wiring you need the following items:
 - A small (~2mm) flat head screw driver
 - Wire cutters
 
-1. Remove and cut the 5V line on 5 of the ESC signal wires. 3DR [recommends only connecting one ESC +5V output](https://pixhawk.org/users/actuators/pwm_escs_and_servos)
+1. Remove and cut the 5V line (middle wire) on 5 of the ESC signal wires. 3DR [recommends only connecting one ESC +5V output](https://pixhawk.org/users/actuators/pwm_escs_and_servos)
 
 	i. Seperate the three wires coming into the connector plug to about 2 inches away from the plug.
 		
@@ -532,9 +540,9 @@ To install the penetrators you will need the following items and tools:
 - 3 T200 with counter-clockwise thrusters 
 - 3 T200 with clockwise thrusters 
 - 1 set of daisy chained Lumen lights 
-- 1 tether with penetrator installed 
+- 1 tether with penetrator installed
 
-The electronics enclosure end cap will ship with 3 blank penetrators, 1 Bar30 pressure sensor, 1 vent, and 1 battery power wire penetrator installed.
+The electronics enclosure end cap ships with 3 blank penetrators, 1 Bar30 pressure sensor, 1 vent, and 1 battery power wire penetrator installed.
 
 <img src="/brov2/cad/end-cap-as-shipped.png" class="img-responsive" style="max-width:900px" />
 
@@ -542,11 +550,11 @@ If you install the remaining penetrators as shown in the diagram below, it will 
 
 <img src="/brov2/cad/end-cap-final.png" class="img-responsive" style="max-width:900px" />
 	
-1. Remove 8 of the O-rings and apply Silicone grease to them. Hold on to that other O-ring, you will need it in a minute.
+1. Remove 8 of the O-rings and apply Silicone grease to them. Hold on to that other O-ring, you will need it in a minute. 
 
 	<img src="/brov2/cad/grease-o-ring.png" class="img-responsive" style="max-width:700px" />
 
-2. Install the O-rings onto all of the thruster penetrators, the lumen penetrator, and the tether penetrator.
+2. Install the O-rings onto all of the thruster penetrators, the lumen penetrator, and the tether penetrator. 
 	
 3. Install the penetrators to the end cap in the order shown below. Tighten to finger tight, then use the provided wrenches to tighten them an additional ~1/16 of a turn. If you can't loosen them with your fingers, they are tight enough. 
 
@@ -568,8 +576,6 @@ To reinstall the end cap you will need the following items and tools:
 - End cap with thrusters, lumen, tether, and power cable hanging off the back
 - 2.5 mm allen head hex driver
 
-To reinstall the end cap you need the following parts and tools:
-
 1. Retrieve the Face Seal O-ring, the 6 M3x12 screws, and the 2 clips that you removed earlier
 
 	<img src="/brov2/cad/etray-disassemble.png" class="img-responsive" style="max-width:700px" />
@@ -578,9 +584,11 @@ To reinstall the end cap you need the following parts and tools:
 
 3. Apply Silicone grease to the O-ring.
 
-4. Install O-ring back onto the flange seal
+4. Install O-ring back onto the flange seal. 
+
+5. Reapply one drop of thread-locker to the end of the 6 M3x12 screws.
 	
-5. Install the end cap onto the O-ring. Pay close attention to the orientation. Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove.
+6. Install the end cap onto the O-ring. Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove.
 
 	<img src="/brov2/cad/brov2-endcap-installed-iso.png" class="img-responsive" style="max-width:900px" />
 	
@@ -630,10 +638,10 @@ To install the wires from the penetrators you will need the following parts and 
 
 Occasionally, you may want to open and close the electronics enclosure, and it is very helpful to have the wires tidy so that they do not get caught up with the acrylic tube. We recommend something like this.
 
-<img src="/brov2/cad/brov2-wire-management-2.png" class="img-responsive" style="max-width:900px" />
+<img src="/brov2/cad/brov2-wire-management-1.png" class="img-responsive" style="max-width:900px" />
 
 <img src="/brov2/cad/brov2-wire-management-2.png" class="img-responsive" style="max-width:900px" />
-	
+
 # Final Assembly
 
 ## Mounting the Electronics Enclosure onto the Frame
@@ -645,13 +653,15 @@ To mount the electronics enclosure to the frame you need the following parts and
 - Bag with 4 M3x16 screws
 - 2.5 mm hex driver
 
-1. Reinstall tube with dome over the electronics tray.
+1. Remove the vent plug from the vent penetrator.
+
+2. Reapply silicone grease to the O-rings at the back of the electronics tray, then reinstall tube with dome over the electronics tray.
 
 	<img src="/brov2/cad/installed-etray-empty-frame.png" class="img-responsive" style="max-width:700px" />
 
-2. Apply one drop of thread-locker to each of the 4 M3x16 screws.
+3. Apply one drop of thread-locker to each of the 4 M3x16 screws.
 
-3. Mount the electronics enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels (the center panels _without_ the 3 large holes). Install the M3x16 screws through the clips and into the cradles. It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the cradles. This allows to clips to rotate so you can find the cradle hole easily. 
+4. Mount the electronics enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels (the center panels _without_ the 3 large holes). Install the M3x16 screws through the clips and into the cradles. It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the cradles. This allows to clips to rotate so you can find the cradle hole easily. 
 
 	<img src="/brov2/cad/clip-installation.PNG" class="img-responsive" style="max-width:700px" />
 
