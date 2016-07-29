@@ -281,7 +281,7 @@ To assemble the frame you will need the following tools and items:
 	
 1. Apply one drop of thread-locker to the end of the 12 M5x16 screws.
 	
-2. Install the side panels to the bottom panel; the blank end cap of the battery enclosure should be on the same side as the Lumen mounting holes. Take care not to overtighten; turn with the short end of the hex key. 
+2. Install the side panels to the bottom panel; the blank end cap on the battery enclosure should be on the same side as the Lumen mounting holes. Take care not to overtighten; turn with the short end of the hex key. 
 
 	<img src="/brov2//cad/brov2-assembly-frame-1.png" class="img-responsive" style="max-width:900px" />
 	
@@ -809,12 +809,12 @@ To get the longest battery life and the best driving experience, it is important
 
 **BlueROV2 with 2 _Lumen_ Lights**
 <p align="center">
-<img src="/brov2/cad/ballast-2-lights.png" class="img-responsive" style="max-height:500px" />
+<img src="/brov2/cad/ballast-2-lights.PNG" class="img-responsive" style="max-height:500px" />
 </p>
 
 **BlueROV2 with 4 _Lumen_ Lights**
 <p align="center">
-<img src="/brov2/cad/ballast-4-lights.png" class="img-responsive" style="max-height:500px" />
+<img src="/brov2/cad/ballast-4-lights.PNG" class="img-responsive" style="max-height:500px" />
 </p>
 
 # Operating the ROV
