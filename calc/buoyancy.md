@@ -104,7 +104,7 @@ This calculator finds the buoyancy of an object based on it's displacement. It a
 
 This calculator uses the [js-quantities library](https://github.com/gentooboontoo/js-quantities) by gentooboontoo for unit conversions.
 
-<script type="text/javascript" src="/calc/quantities.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/calc/quantities.js"></script>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/2.0.1/math.min.js"></script>
 
