@@ -777,6 +777,8 @@ To finish installing the battery enclosure you need the following parts and tool
 
 To clean up the thruster and lumen wires, you will need the bag of 30 zip ties and your scissors/wire cutters. 
 
+The primary goal of Thruster and Lumen cable management is to prevent the wires from getting cut by the propellers. Make sure to check that no wire can reach a propeller after you have finished routing the cables.
+
 <img src="/brov2/cad/brov2-cable-routing-port.png" class="img-responsive" style="max-width:900px" />
 
 <img src="/brov2/cad/brov2-cable-routing-starboard.png" class="img-responsive" style="max-width:900px" />
