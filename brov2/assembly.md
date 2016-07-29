@@ -301,12 +301,16 @@ The electronics enclosure ships with the camera mount attached to the port side 
 
 The pictures below show orientation of the main pieces of hardware when the tray is assembled. They also point out the names of several of the important parts for assembly that will be discussed throughout the instructions.
 
+<b> <font size="4"> Advanced Electronics Top View </font> </b> 
 <img src="/brov2//cad/advanced-top-render-1.png" class="img-responsive" style="max-width:900px" />
 
+<b> <font size="4"> Advanced Electronics Starboard View </font> </b> 
 <img src="/brov2//cad/advanced-starboard-render-1.png" class="img-responsive" style="max-width:900px" />
 
+<b> <font size="4"> Advanced Electronics Port View </font> </b> 
 <img src="/brov2//cad/advanced-port-render-1.png" class="img-responsive" style="max-width:900px" />
 
+<b> <font size="4"> Advance Electronics Front View </font> </b> 
 <img src="/brov2//cad/advanced-front-render-1.png" class="img-responsive" style="max-width:900px" />
 	
 ## Partially Disassembling the Electronics Enclosure
@@ -807,12 +811,12 @@ To mount the ballast to the frame you need the following parts and tools:
 
 To get the longest battery life and the best driving experience, it is important to have the ROV close to balanced from front to back in water and close to neutrally buoyant. Trimming the ballast may involve a bit of trial and error. The pictures below should provide a good starting point for mounting ballast if you have a stock BlueROV2 with the [recommended battery.](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
 
-**BlueROV2 with 2 _Lumen_ Lights**
+<b> <font size="4"> BlueROV2 with 2 <i> Lumen </i> Lights </font> </b> 
 <p align="center">
 <img src="/brov2/cad/ballast-2-lights.PNG" class="img-responsive" style="max-height:500px" />
 </p>
 
-**BlueROV2 with 4 _Lumen_ Lights**
+<b> <font size="4"> BlueROV2 with 4 <i> Lumen </i> Lights </font> </b> 
 <p align="center">
 <img src="/brov2/cad/ballast-4-lights.PNG" class="img-responsive" style="max-height:500px" />
 </p>
