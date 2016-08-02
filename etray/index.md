@@ -5,13 +5,18 @@ order: 1
 nav:
 - Introduction: introduction
 - Features: features
-- - Specification Table: specification-table
+- - Specifications: specifications
 - - 2D Drawings: d-drawings
 - - 3D Model: d-model
 - Installation: installation
-- - Populating the Main Tray: populating-the-main-tray
-- - Putting it All Together: putting-it-all-together
-- - Completing the Wiring: completing-the-wiring
+- - Diagram of the Tray: diagram-of-the-tray
+- - Putting the Tray Together: putting-the-tray-together
+- - Installing Terminal Blocks: installing-the-terminal-blocks
+- Electronics Examples: examples-of-installed-electronics
+- - Advanced Port Side: advanced-port-side
+- - Advanced Starboard Side: advanced-starboard-side
+- - Standard Port Side: standard-port-side
+- - Standard Starboard Side: standard-starboard-side
 
 store-links:
 - Electronics Tray:  #
@@ -30,17 +35,20 @@ flange, so now when you want to access your electronics, simply remove the 4" tu
 
 # Features
 
+## Specifications
+
 - Machined 5mm thick HDPE panels
 - Hard anodized aluminum standoffs 
 - Convenient cable routing slots and holes
 - Mounting Locations for:
-	- Up to 6 Basic 30A ESCs	
-	- 1 3DR PixHawk autopilot
-	- 1 Blue Robotics Tether Board
+	- Up to 6 [Basic 30A ESCs](https://www.bluerobotics.com/store/speed-controllers/besc-30-r1/)	
+	- 1 [3DR PixHawk autopilot](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) 
+	- 1 [Blue Robotics Tether Board](https://www.bluerobotics.com/product-category/electronics/tether-interface/)
 	- 1 BeagleBone Black or Raspberry Pi 2/3
-	- 1 Blue Robotics Camtilt
+	- 1 [Blue Robotics Camtilt](https://www.bluerobotics.com/store/uncategorized/camera-tilt-mount/#mount)
 	- 2 [Screw Terminal Blocks with 8 Circuits](http://www.digikey.com/product-search/en?keywords=wm5765-nd) 
 	- 2 [Eurostyle Terminal Block with 9 Circuits](http://www.digikey.com/product-search/en?keywords=wm15918-nd)
+	- 14 [Jumper for Screw Terminal](http://www.digikey.com/product-search/en?keywords=wm9712-nd)
 
 ## 2D Drawings
 
@@ -62,84 +70,71 @@ All 3D models are provided in zip archives containing the follow file types:
 
 # Installation
 
-## Populating the main tray
+## Diagram of the Tray
 
-1. Attach six Afro ESCs to the main body using 5" zip ties.
-	
-	a. The Afro ESCs should be attached to the main tray so that the mosfet side is facing away from the tray and so that the power wire side of the ESC is towards the back of the tray
-	
-2. Attach the black power terminal block to both sides of the tray using the M3x20 screws. Place on tray so that the side with jumpers is closer to the back.	
+<p align="center">
+<img src="/etray/cad/elec-tray-annotated.png" class="img-responsive" style="max-width:900px" />
+</p>
 
-3. Connect the ESC power wires to the black terminal block. We have been using the convention, red on right.
-	
-4. Attach the eurostyle terminal blocks to the tray using the M2.5 standoffs and screws. The standoff towards the front should be on the left hand side.
+## Putting the Tray Together
 
-5. Attach the ESC motor wires to the eurostyle terminal block in the order that they lay on the tray
+1. Install the four short standoffs in the four inch O-ring flange.
 
-6. Zip tie the PixHawk to the board using the 8" zip ties
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC.png" class="img-responsive" style="max-width:900px" />
 
-7. Attach the tether board to the tray using the supplied screws and standoffs
+2. Install the rear panel on the short standoffs.
 
-8. Connect the ESC signal connectors to the first 6 pins of the PixHawk. Using the convention established in the ArduSub documentation
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-2.png" class="img-responsive" style="max-width:900px" />
 
-9. Run the power wires from the black power terminal block to the tether board
+3. Install the long standoffs into the rear panel.
 
-10. Connect power from the tether board to the PixHawk.
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-3.png" class="img-responsive" style="max-width:900px" />
 
-11. Use the included zip ties to clean up the wiring.
+4. Install the main panel and front panel. 
+
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-4.png" class="img-responsive" style="max-width:900px" />
+
+5. Now your Etray is ready for installing your electronics.
+
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-5.png" class="img-responsive" style="max-width:900px" />
+
+## Installing the Terminal Blocks
+
+Some other components such as ESCs are easier to install without the terminal blocks on. It is also easier to attach wires to the Screw Terminal Block with 8 Circuits when the Eurostyle Terminal Block with 9 Circuits. 
+
+1. Attach the jumpers to the Black Screw Terminal Block if necessary for your application.
 
 
-## Putting it All Together
 
-1. Coat with silicone grease, then install the radial O-rings (size 238) on the O-ring flange.
+2. Install the Black Screw Terminal Blocks onto the main tray.
 
-2. Install the short blue standoffs into the O-ring flange finger tight plus 1/8 of a turn.
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-7.png" class="img-responsive" style="max-width:900px" />
 
-3. Set the etray rear tray on the short standoffs. Be sure to align the small slot on the rear tray with the standoffs that are aligned with the flange cap holes
+3. Install the standoffs and White Eurostyle Terminal Block on top of the standoffs.
 
-4. Install two M3x8 screws into the two holes that are aligned with the narrow slots. Tighten the screws until they have slightly indented the rear tray
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-8.png" class="img-responsive" style="max-width:900px" />
 
-5. Install the two long standoffs into the two remaining holes finger tight plus 1/8 of a turn.
+4. Now you are ready to finish installing your electronics or to install the Etray into a 4 inch watertight enclosure!
 
-6. Place the power distribution side of the populated main tray into the slots of the rear tray. 
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-9.png" class="img-responsive" style="max-width:900px" />
 
-7. Place the populated front tray on top of the main tray and long standoffs, see Camtilt instructions for details on how to populate the front tray 
 
-8. Install two M3x8 screws into the two holes of the front tray. Tighten the screws until they have slightly indented the front tray.
+# Examples of Installed Electronics
 
-## Completing the wiring
+We use the electronics tray on the _BlueROV2_ for both the Standard and Advanced Electronics Packages. The [_BlueROV2_ Assembly Instructions](http://docs.bluerobotics.com/brov2/assembly/#assembling-the-electronics-tray) show the process for attaching electronics to the Etray in detail. Here are some examples of what completed Etrays could look like:
 
-1. Install the penetrators into the 14 hole end cap. Use silicone grease to lubricate the o-rings prior to installation and attach penetrators to end cap prior to installing end cap on the o-ring flange. The penetrators are much easier to install from the inside out.
+## Advanced Port Side
 
-	a. Install the 3 blank penetrators
-	
-	b. Install the Bar30 Pressure Sensor
-	
-	c. Install the vent penetrators
-	
-	d. Install the thruster penetrators
-	
-	e. Install the light and power penetrators
-	
-	f. Install the tether penetrator
-	
-2. Once you have installed all of the penetrators, you can install the 14 hole end cap onto the o-ring flange. Be sure to lubricate the face seal o-ring (size 154) with silicone grease first. 
+<img src="/etray/cad/brov2-wire-management-2.png" class="img-responsive" style="max-width:900px" />
 
-3. After the endcap has been installed, it is time to connect all of the wires.
+## Advanced Starboard Side
 
-	a. Connect the power wires to the black power terminal block
-	
-	b. Connect the Bar30 wires to the I<sup>2</sup>C module on the PixHawk
-	
-	c. Connect the power and ground wire from the light to the black power terminal block, then connect the signal wire to channel 7 on the PixHawk.
-	
-	d. Connect the motor wires to the white eurostyle terminal block. Line up the blue wire from the motor with the black wire from the ESC, then the green wire from the motor with the yellow wire from the ESC, and then the white wire from the motor with the red wire from the ESC
-	
-	e. Connect the tether to the tether board.
+<img src="/etray/cad/brov2-wire-management-1.png" class="img-responsive" style="max-width:900px" />
 
-4. Clean up the wiring with the provided zip ties. 	
+## Standard Port Side
 
-5. Close up your water tight enclosure.
+<img src="/etray/cad/etray-cleaned-2.png" class="img-responsive" style="max-width:900px" />
 
-6. Perform a [vacuum test](http://docs.bluerobotics.com/tutorials/vacuum-test-plug/) of your seals, and you are ready to go!
+## Standard Starboard Side
 
+<img src="/etray/cad/etray-cleaned.png" class="img-responsive" style="max-width:900px" />
