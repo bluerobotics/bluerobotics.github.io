@@ -116,6 +116,7 @@ Quantity      | Part																		| Usage
 2 			  | Pieces of two sided tape  													| Mounting PixHawk
 4			  | 3-24 x 3/8" long self tapping screws (316 Stainless Steel)					| Mounting the Raspberry Pi (Advanced Electronics only)
 2 			  | 1/8" x 1/8" diameter spacers (Nylon)										| Mounting the Raspberry Pi (Advanced Electronics only)
+1			  | 1 1/2" long x 3/8" diameter heat shrink										| Battery cable strain relief
 
 ## Battery Enclosure
 
@@ -758,6 +759,8 @@ To finish installing the battery enclosure you need the following parts and tool
 - The 4 hole 3 inch enclosure end cap
 - 2 16 mm wrenches
 - XT90 to 3.5 mm bullet connector adapter
+- 1.5 inch piece of heat shrink
+- heat gun, hairdryer, or lighter
  
 1. Find the bag that had the penetrator nuts and O-rings in it and grab the remaining black nut and O-ring.
 	
@@ -772,6 +775,14 @@ To finish installing the battery enclosure you need the following parts and tool
 5. Install the XT90 to bullet connector adapter to the battery power wire. 
 
 	<img src="/brov2/cad/brov2-bullet-to-xt90.png" class="img-responsive" style="max-width:900px" />
+
+6. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator.
+
+	<img src="/brov2/cad/brov2-strain-relief-1.png" class="img-responsive" style="max-width:900px" />
+
+7. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires
+
+	<img src="/brov2/cad/brov2-strain-relief-2.png" class="img-responsive" style="max-width:900px" />
 	
 ## Thruster and Lumen Cable Management
 
