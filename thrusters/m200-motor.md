@@ -73,6 +73,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 |                   **Performance**                       |
 | ----------------------- | ----------------------------- |
 | RPM/V (Kv rating)       | 490 RPM/volt                  |
+| Torque <sup>1</sup>     | 0.50 N m      | 4.5 in-lb     |
 | ----------------------- | ----------------------------- |
 |                    **Electrical**                       |
 | ----------------------- | ----------------------------- |
@@ -88,6 +89,8 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | Mounting Hole Threads   | M3 x 0.5                      |
 | Base Mounting Hole Spacing (diagonal) | 24 mm      | 0.94 in       |
 | Top Mounting Hole Spacing  | 19 mm      | 0.75 in       |  
+
+<small><sup>1</sup> Torque is provided as the theoretical maximum based on the motor design. This torque can only be achieved at all speeds with the proper motor controller. These numbers have not been validated experimentally.</small>
 
 ## Performance Charts
 
