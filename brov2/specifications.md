@@ -165,14 +165,7 @@ The batteries can be changed in about 30 seconds.
 
 # 3D Model
 
-These are BIG files since the model is fairly complex. If you just want to check out a 3D view of the BlueROV, we recommend [checking out the files on GrabCAD](https://grabcad.com/library/bluerov2-1).
-
-| File Type                  | Link                          |
-| -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [Assem-BROV2-R1.SLDPRT](#) |
-| STEP (.step)               | [Assem-BROV2-R1.STEP](#)   |
-| IGES (.igs)                | [Assem-BROV2-R1.IGS](#) |
-| STL (.stl)                 | [Assem-BROV2-R1.STL](#)|
+These are BIG files since the model is fairly complex. If you just want to check out a 3D view or 3D models of the BlueROV, we recommend [checking out the CAD files on GrabCAD](https://grabcad.com/library/bluerov2-1).
 
 # Assembly Manual
 
