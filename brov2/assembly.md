@@ -560,7 +560,7 @@ To change the propellers on three of the thrusters you will need the following i
 
 To install the penetrators you will need the following items and tools:
 
-- The bag with 2 black penetrator nuts, 7 red penetrator nuts, and 9 O-rings
+- The bag with 1 black penetrator nuts, 8 red penetrator nuts, and 9 O-rings
 - Silicone grease 
 - 14 hole end cap with blanks, Bar30, vent, and power wire installed 
 - 3 T200 with counter-clockwise thrusters 
@@ -762,7 +762,7 @@ To finish installing the battery enclosure you need the following parts and tool
 - 1.5 inch piece of heat shrink
 - heat gun, hairdryer, or lighter
  
-1. Find the bag that had the penetrator nuts and O-rings in it and grab the remaining black nut and O-ring.
+1. Find the bag that had the penetrator nuts and O-rings in it and grab the remaining red nut and O-ring.
 	
 2. Apply Silicone grease to the O-ring.
 
@@ -771,18 +771,20 @@ To finish installing the battery enclosure you need the following parts and tool
 4. Install the battery power cable penetrator into the opening in the battery end cap.
 
 	<img src="/brov2/cad/brov2-battery-penetrator.png" class="img-responsive" style="max-width:900px" />
-	
-5. Install the XT90 to bullet connector adapter to the battery power wire. 
 
-	<img src="/brov2/cad/brov2-bullet-to-xt90.png" class="img-responsive" style="max-width:900px" />
-
-6. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator.
+5. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator.
 
 	<img src="/brov2/cad/brov2-strain-relief-1.png" class="img-responsive" style="max-width:900px" />
 
-7. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires
+6. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires
 
 	<img src="/brov2/cad/brov2-strain-relief-2.png" class="img-responsive" style="max-width:900px" />
+
+7. Install the XT90 to bullet connector adapter to the battery power wire. 
+
+	<img src="/brov2/cad/brov2-bullet-to-xt90.png" class="img-responsive" style="max-width:900px" />
+
+
 	
 ## Thruster and Lumen Cable Management
 
