@@ -774,9 +774,7 @@ To finish installing the battery enclosure you need the following parts and tool
 
 5. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator.
 
-	<img src="/brov2/cad/brov2-strain-relief-1.png" class="img-responsive" style="max-width:900px" />
-
-6. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires
+6. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires. You should be able to see the threads in the penetrator through the heat shrink.
 
 	<img src="/brov2/cad/brov2-strain-relief-2.png" class="img-responsive" style="max-width:900px" />
 
