@@ -207,7 +207,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Aluminum End Cap with 10 x 10mm Holes| [WTE4-M-END-CAP-10X10MM-R1.zip](http://www.bluerobotics.com/models/WTE4-M-END-CAP-10X10MM-R1.zip)   
 | End Cap with 5 x 10mm Holes          | [WTE4-P-END-CAP-5X10MM-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-5X10MM-R1.zip)    
 | End Cap with 10 x 10mm Holes         | [WTE4-P-END-CAP-10X10MM-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-10X10MM-R1.zip)  
-| End Cap with 14 x 10mm Holes 		   | [WTE4-M-END-CAP-14X10MM-R1.zip](dxf/WTE4-M-END-CAP-14X10MM-R1.zip)
+| End Cap with 14 x 10mm Holes 		   | [WTE4-M-END-CAP-14X10MM-R1.zip](/wte/cad/WTE4-M-END-CAP-14X10MM-R1.zip)
 | Dome End Cap                         | [WTE4-P-DOME-R1.zip](http://www.bluerobotics.com/models/WTE4-P-DOME-R1.zip)  
 
 
