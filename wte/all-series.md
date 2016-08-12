@@ -7,12 +7,15 @@ nav:
 - - Important Notes: important-notes
 - Specs (2" Series): specifications-2-series
 - - Specification Table: specification-table-2-series
+- - 2D Drawings: d-drawings-2-series
 - - 3D Models: d-models-2-series
 - Specs (3" Series): specifications-3-series
 - - Specification Table: specification-table-3-series
+- - 2D Drawings: d-drawings-3-series
 - - 3D Models: d-models-3-series
 - Specs (4" Series): specifications-4-series
 - - Specification Table: specification-table-4-series
+- - 2D Drawings: d-drawings-4-series
 - - 3D Models: d-models-4-series
 - Assembly: assembly
 - - Video Tutorial: video-tutorial
@@ -74,6 +77,16 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | End Cap Screws                      | M2x10 (Stainless Steel 316)   |
 | Inner Mounting Holes                | M3 threading                  |
 
+## 2D Drawings (2" Series)
+
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+|               **2" Series Enclosure**                                                                                                          |
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+| Assembly                             | [WTE2-ASM-R1 Drawing](/assets/images/WTE/drawings/WTE2-ASM-2-R1.png)                                                        |
+| Aluminum O-ring Flange               | [WTE2-M-FLANGE-SEAL-R2 Drawing](/assets/images/WTE/drawings/WTE2-M-FLANGE-SEAL-R2.png)               |
+| Plain Solid End Cap			       | [WTE2-P-END-CAP-R1 Drawing](/assets/images/WTE/drawings/WTE2-SIMPLE-END-CAP2-R1.png)                       |
+| End Cap with 2 x 10mm Holes          | [WTE2-P-END-CAP-2X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE2-P-END-CAP-2-2X10MM-R1.png)         |
+
 ## 3D Models (2" Series)
 
 All 3D models are provided in zip archives containing the follow file types:
@@ -117,6 +130,18 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap Screws                      | M3x12 (Stainless Steel 316)   |
 | Inner Mounting Holes                | M3 threading                  |
 
+## 2D Drawings (3" Series)
+
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+|               **3" Series Enclosure**                                                                                                          |
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+| Assembly Model                       | [WTE3-ASM-R1 Drawing](/assets/images/WTE/drawings/WTE3-ASM-R1.png)
+| Aluminum O-ring Flange               | [WTE3-M-FLANGE-SEAL-R2 Drawing](/assets/images/WTE/drawings/WTE3-M-FLANGE-SEAL-R2.png)
+| Plain Solid End Cap			       | [WTE3-P-END-CAP-R1 Drawing](/assets/images/WTE/drawings/WTE2-ASM-2-R1.png)
+| End Cap with 4 x 10mm Holes          | [WTE3-P-END-CAP-4X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE3-PM-END-CAP-4X10MM-R1.png)
+| End Cap with 7 x 10mm Holes          | [WTE3-P-END-CAP-7X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE3-PM-END-CAP-7X10MM-R1.png)
+
+
 ## 3D Models (3" Series)
 
 All 3D models are provided in zip archives containing the follow file types:
@@ -159,7 +184,10 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap Screws (Aluminum & Dome Endcaps)    | M3x12 (Stainless Steel 316)   |
 | Inner Mounting Holes                | M3 threading                  |
 
+## 2D Drawings (4" Series)
+
 ## 3D Models (4" Series)
+
 
 All 3D models are provided in zip archives containing the follow file types:
 
