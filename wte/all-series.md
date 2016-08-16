@@ -82,10 +82,10 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
 |               **2" Series Enclosure**                                                                                                          |
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
-| Assembly                             | [WTE2-ASM-R1 Drawing](/assets/images/WTE/drawings/WTE2-ASM-2-R1.png)                                                        |
-| Aluminum O-ring Flange               | [WTE2-M-FLANGE-SEAL-R2 Drawing](/assets/images/WTE/drawings/WTE2-M-FLANGE-SEAL-R2.png)               |
-| Plain Solid End Cap			       | [WTE2-P-END-CAP-R1 Drawing](/assets/images/WTE/drawings/WTE2-SIMPLE-END-CAP2-R1.png)                       |
-| End Cap with 2 x 10mm Holes          | [WTE2-P-END-CAP-2X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE2-P-END-CAP-2-2X10MM-R1.png)         |
+| Assembly                             | [WTE2-ASM-R1 Drawing](/assets/images/WTE/drawings/WTE2/WTE2-ASM-2-R1.png)                                                        |
+| Aluminum O-ring Flange               | [WTE2-M-FLANGE-SEAL-R2 Drawing](/assets/images/WTE/drawings/WTE2/WTE2-M-FLANGE-SEAL-R2.png)               |
+| Plain Solid End Cap			       | [WTE2-P-END-CAP-R1 Drawing](/assets/images/WTE/drawings/WTE2/WTE2-SIMPLE-END-CAP-R1.png)                       |
+| End Cap with 2 x 10mm Holes          | [WTE2-P-END-CAP-2X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE2/WTE2-P-END-CAP-2-2X10MM-R1.png)         |
 
 ## 3D Models (2" Series)
 
@@ -135,11 +135,11 @@ All 3D models are provided in zip archives containing the follow file types:
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
 |               **3" Series Enclosure**                                                                                                          |
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
-| Assembly Model                       | [WTE3-ASM-R1 Drawing](/assets/images/WTE/drawings/WTE3-ASM-R1.png)
-| Aluminum O-ring Flange               | [WTE3-M-FLANGE-SEAL-R2 Drawing](/assets/images/WTE/drawings/WTE3-M-FLANGE-SEAL-R2.png)
-| Plain Solid End Cap			       | [WTE3-P-END-CAP-R1 Drawing](/assets/images/WTE/drawings/WTE2-ASM-2-R1.png)
-| End Cap with 4 x 10mm Holes          | [WTE3-P-END-CAP-4X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE3-PM-END-CAP-4X10MM-R1.png)
-| End Cap with 7 x 10mm Holes          | [WTE3-P-END-CAP-7X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE3-PM-END-CAP-7X10MM-R1.png)
+| Assembly Model                       | [WTE3-ASM-R1 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-ASM-R1.png)
+| Aluminum O-ring Flange               | [WTE3-M-FLANGE-SEAL-R2 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-M-FLANGE-SEAL-R2.png)
+| Plain Solid End Cap			       | [WTE3-P-END-CAP-R1 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-PM-END-CAP-R1.png)
+| End Cap with 4 x 10mm Holes          | [WTE3-P-END-CAP-4X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-PM-END-CAP-4X10MM-R1.png)
+| End Cap with 7 x 10mm Holes          | [WTE3-P-END-CAP-7X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-PM-END-CAP-7X10MM-R1.png)
 
 
 ## 3D Models (3" Series)
@@ -186,6 +186,19 @@ All 3D models are provided in zip archives containing the follow file types:
 
 ## 2D Drawings (4" Series)
 
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+|               **4" Series Enclosure**                                                                                                          |
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+| Assembly Model                       | [WTE4-ASM-R1 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-ASM-4-R1.png)
+| Aluminum O-ring Flange               | [WTE4-M-FLANGE-SEAL-R2 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-M-FLANGE-SEAL-R3.png)      
+| Plain Solid End Cap			       | [WTE4-P-END-CAP-R1 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-M-END-CAP-R1.png)       
+| Aluminum Solid End Cap               | [WTE4-M-END-CAP-R1 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-M-END-CAP-R1.png)   
+| Aluminum End Cap with 10 x 10mm Holes| [WTE4-M-END-CAP-10X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-M-END-CAP-10-10MM-R1.png)   
+| End Cap with 5 x 10mm Holes          | [WTE4-P-END-CAP-5X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-P-END-CAP-5-10MM-R1.png)  
+| End Cap with 10 x 10mm Holes         | [WTE4-P-END-CAP-10X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-M-END-CAP-10-10MM-R1.png)  
+| End Cap with 14 x 10mm Holes 		   | [WTE4-M-END-CAP-14X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-M-END-CAP-14X10MM-R1.png) 
+| Dome End Cap                         | [WTE4-P-DOME-R1 Drawing]
+
 ## 3D Models (4" Series)
 
 
@@ -199,7 +212,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
 |               **4" Series Enclosure**                                                                                                          |
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
-| Assembly Model                       | [WTE4-ASM-R2.zip](http://www.bluerobotics.com/models/WTE4-ASM-R2.zip)
+| Assembly Model                       | [WTE4-ASM-R1.zip](http://www.bluerobotics.com/models/WTE4-ASM-4-R1.zip)
 | Tube (Standard 11.75", 298mm length) | [WTE4-P-TUBE-12-R1.zip](http://www.bluerobotics.com/models/WTE4-P-TUBE-12-R1.zip)
 | Aluminum O-ring Flange               | [WTE4-M-FLANGE-SEAL-R2.zip](http://www.bluerobotics.com/models/WTE4-M-FLANGE-SEAL-R2.zip)            
 | Plain Solid End Cap			       | [WTE4-P-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-R1.zip)      
