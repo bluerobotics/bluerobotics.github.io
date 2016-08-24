@@ -163,7 +163,8 @@ Quantity      | Part													| Usages
 1             | O-Ring Pick   											| Remove and install O-rings
 1             | 2.5mm Hex Driver										| Install M3 screws 
 1			  | #1 Phillips Head Screwdriver    						| Install the fairing screws 
-2			  | Blue Robotics Penetrator Wrenches                       | Install penetrators
+1			  | Blue Robotics Penetrator Wrenches  
+                     | Install penetrators
 1			  | 1.5mm Hex Key											| Thruster dissassembly
 1			  | 2mm Hex Key											   	| Change propellers
 1			  | 3mm Hex Key												| Install M4 and M5 screws
@@ -567,6 +568,7 @@ To install the penetrators you will need the following items and tools:
 - 3 T200 with clockwise thrusters 
 - 1 set of daisy chained Lumen lights 
 - 1 tether with penetrator installed
+- 1 Penetrator wrench
 
 The electronics enclosure end cap ships with 3 blank penetrators, 1 Bar30 pressure sensor, 1 vent, and 1 battery power wire penetrator installed.
 
@@ -582,7 +584,7 @@ If you install the remaining penetrators as shown in the diagram below, it will 
 
 2. Install the O-rings onto all of the thruster penetrators, the lumen penetrator, and the tether penetrator. 
 	
-3. Install the penetrators to the end cap in the order shown below. Tighten to finger tight, then use the provided wrenches to tighten them an additional ~1/16 of a turn. If you can't loosen them with your fingers, they are tight enough. 
+3. Install the penetrators to the end cap in the order shown below. Tighten to finger tight, then use the provided wrench to tighten them an additional ~1/16 of a turn. If you can't loosen them with your fingers, they are tight enough. 
 
 	- Thruster 1 (CCW propeller) with red penetrator nut
 	- Thruster 5 (CCW propeller) with red penetrator nut
@@ -757,7 +759,7 @@ To finish installing the battery enclosure you need the following parts and tool
 
 - The bag with one black penetrator nut and one O-ring left in it
 - The 4 hole 3 inch enclosure end cap
-- 2 16 mm wrenches
+- 1 Penetrator wrench
 - XT90 to 3.5 mm bullet connector adapter
 - 1.5 inch piece of heat shrink
 - heat gun, hairdryer, or lighter
