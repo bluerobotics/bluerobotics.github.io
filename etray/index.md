@@ -8,47 +8,42 @@ nav:
 - - Specifications: specifications
 - - 2D Drawings: d-drawings
 - - 3D Model: d-model
-- Installation: installation
+- Assembly: assembly
 - - Diagram of the Tray: diagram-of-the-tray
-- - Putting the Tray Together: putting-the-tray-together
+- - Assembling the Tray: assembling-the-electronics-tray
 - - Installing Terminal Blocks: installing-the-terminal-blocks
-- Electronics Examples: examples-of-installed-electronics
-- - Advanced Port Side: advanced-port-side
-- - Advanced Starboard Side: advanced-starboard-side
-- - Standard Port Side: standard-port-side
-- - Standard Starboard Side: standard-starboard-side
 
 store-links:
-- Electronics Tray:  #
+- Electronics Tray:  https://www.bluerobotics.com/store/watertight-enclosures/4-series/electronics-tray-2/
+- Watertight Enclosure for ROV/AUV (4" Series): https://www.bluerobotics.com/store/watertight-enclosures/wte4-asm-r1/#configuration
+- O-Ring Flange (4" Series): https://www.bluerobotics.com/store/watertight-enclosures/wte4-m-flange-seal-r3/
 
 manual-links:
-- Thrusters: /thrusters
-- BlueROV: /bluerov
+- Watertight Enclosures: /watertight-enclosures
+- Camera Tilt: /camtilt
 ---
 
-Headline Image
+<img src="/etray/cad/electronics-tray-render.png" class="img-responsive" style="max-width:900px" />
 
 # Introduction
 
-The Etray is an exciting new way to mount your underwater electronics into a 4" watertight enclosure. We designed this tray to make installing and working on your electronics as convenient as possible. The Etray is designed to bolt to a 4" WTE O-ring
-flange, so now when you want to access your electronics, simply remove the 4" tube from the O-ring flange. 
+The _Electronics Tray_ is a convenient new way to mount your underwater electronics into a 4" watertight enclosure. We designed this tray to make installing and working on your electronics as easy as possible. The _Electronics Tray_ mounts to a 4" Watertight Enclosure O-ring Flange, so you don't need any tools to access your electronics.
 
 # Features
 
 ## Specifications
 
-- Machined 5mm thick HDPE panels
+- 5mm thick machined ABS panels
 - Hard anodized aluminum standoffs 
 - Convenient cable routing slots and holes
 - Mounting Locations for:
 	- Up to 6 [Basic 30A ESCs](https://www.bluerobotics.com/store/speed-controllers/besc-30-r1/)	
 	- 1 [3DR PixHawk autopilot](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) 
 	- 1 [Blue Robotics Tether Board](https://www.bluerobotics.com/product-category/electronics/tether-interface/)
-	- 1 BeagleBone Black or Raspberry Pi 2/3
+	- 1 [BeagleBone Black](https://beagleboard.org/black) or [Raspberry Pi 2/3](https://www.bluerobotics.com/store/electronics/rpi3-r1/)
 	- 1 [Blue Robotics Camtilt](https://www.bluerobotics.com/store/uncategorized/camera-tilt-mount/#mount)
-	- 2 [Screw Terminal Blocks with 8 Circuits](http://www.digikey.com/product-search/en?keywords=wm5765-nd) 
-	- 2 [Eurostyle Terminal Block with 9 Circuits](http://www.digikey.com/product-search/en?keywords=wm15918-nd)
-	- 14 [Jumper for Screw Terminal](http://www.digikey.com/product-search/en?keywords=wm9712-nd)
+	- 2 [8-Circuit Barrier Block](http://www.digikey.com/product-search/en?keywords=wm5765-nd) 
+	- 2 [9-Circuit Eurostyle Terminal Strip](http://www.alliedelec.com/m/d/51da743e94f770c045f4103843fbb9bb.pdf)
 
 ## 2D Drawings
 
@@ -65,10 +60,10 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**Electronics Tray**																    |
 | --------------------------------------------------------------------------------------------- |
-| Electronics Tray Assembly     | [ASSEM-ETRAY-X1](/etray/cad/ASSEM-ETRAY-X1.zip)               |
+| Electronics Tray Assembly     | [ASSEM-ETRAY-R1](/etray/cad/ASSEM-ETRAY-R1.zip)               |
 | O-Ring Flange                 | [WTE4-M-FLANGE-SEAL-R2.zip](http://www.bluerobotics.com/models/WTE4-M-FLANGE-SEAL-R2.zip) |
 
-# Installation
+# Assembly
 
 ## Diagram of the Tray
 
@@ -76,7 +71,7 @@ All 3D models are provided in zip archives containing the follow file types:
 <img src="/etray/cad/elec-tray-annotated.png" class="img-responsive" style="max-width:900px" />
 </p>
 
-## Putting the Tray Together
+## Assembling the Electronics Tray
 
 1. Install the four short standoffs in the four inch O-ring flange.
 
@@ -100,41 +95,21 @@ All 3D models are provided in zip archives containing the follow file types:
 
 ## Installing the Terminal Blocks
 
-Some other components such as ESCs are easier to install without the terminal blocks on. It is also easier to attach wires to the Screw Terminal Block with 8 Circuits when the Eurostyle Terminal Block with 9 Circuits. 
+The _Electronics Tray_ optionally comes with 2 8-Circuit Barrier Blocks and 2 9-Circuit Eurostyle Terminal Strips, along with their mounting hardware. Below are instructions on how to attach them. Please note that if you are planning on installing [Basic ESCs](https://www.bluerobotics.com/store/speed-controllers/besc-30-r1/), it is easier to install them prior to installing the Barrier/Terminal Blocks. The rest of the electronics that the _Electronics Tray_ is designed for can be mounted easily after the terminal blocks have been installed. 
 
 1. Attach the jumpers to the Black Screw Terminal Block if necessary for your application.
 
 
-
-2. Install the Black Screw Terminal Blocks onto the main tray.
+2. Install the 8-Circuit Barrier Blocks onto the main tray.
 
 	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-7.png" class="img-responsive" style="max-width:900px" />
 
-3. Install the standoffs and White Eurostyle Terminal Block on top of the standoffs.
+3. Install the standoffs and 9-Circuit Eurostyle Terminal Strip on top of the standoffs.
 
 	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-8.png" class="img-responsive" style="max-width:900px" />
 
-4. Now you are ready to finish installing your electronics or to install the Etray into a 4 inch watertight enclosure!
+4. Now you are ready to finish installing your electronics!
 
 	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-9.png" class="img-responsive" style="max-width:900px" />
 
 
-# Examples of Installed Electronics
-
-We use the electronics tray on the _BlueROV2_ for both the Standard and Advanced Electronics Packages. The [_BlueROV2_ Assembly Instructions](http://docs.bluerobotics.com/brov2/assembly/#assembling-the-electronics-tray) show the process for attaching electronics to the Etray in detail. Here are some examples of what completed Etrays could look like:
-
-## Advanced Port Side
-
-<img src="/etray/cad/brov2-wire-management-2.png" class="img-responsive" style="max-width:900px" />
-
-## Advanced Starboard Side
-
-<img src="/etray/cad/brov2-wire-management-1.png" class="img-responsive" style="max-width:900px" />
-
-## Standard Port Side
-
-<img src="/etray/cad/etray-cleaned-2.png" class="img-responsive" style="max-width:900px" />
-
-## Standard Starboard Side
-
-<img src="/etray/cad/etray-cleaned.png" class="img-responsive" style="max-width:900px" />
