@@ -1,40 +1,38 @@
 ---
 layout: default
-title: Camtilt 
+title: Camera Tilt System
 order: 1
 nav:
 - Introduction: introduction
 - - Quick Start 
 - Specifications: specifications
-- - Schematic: schematic
 - - Specification Table: specification-table
 - - 2D Drawings: d-drawings
 - - 3D Model: d-model
 - - 3D Printer Settings: d-printer-settings
-- Installation: installation
+- Assembly: assembly
+- - Raspberry Pi Camera: raspberry-pi-camera
 - - Low-Light Analog Camera: low-light-analog-camera
-- - Wide Angle Rasberry Pi Camera: wide-angle-raspberry-pi-camera
 - Example Code: example-code
 - - Arduino: arduino
 
 store-links:
-- Camtilt:  #
+- Camera Tilt System:  https://www.bluerobotics.com/store/watertight-enclosures/4-series/camera-tilt-mount/
 - Low-Light Analog Camera: https://www.bluerobotics.com/store/electronics/low-light-ntsc-camera/
-- Wide Angle Raspberry Pi Camera: #
+- Raspberry Pi Camera w/ Wide Angle Lens: https://www.bluerobotics.com/store/electronics/cam-rpi-wide-r1/
+- Electronics Tray: https://www.bluerobotics.com/store/watertight-enclosures/4-series/electronics-tray-2/
 
 
 manual-links:
-- Low-Light Analog Camera: #
-- Wide Angle Raspberry Pi Camera: #
+- Watertight Enclosures: /watertight-enclosures/ 
+- Electronics Tray: /etray
 ---
 
 Headline Image
 
 # Introduction
 
-The Camtilt is a fully customizeable single axis gimbal stabilization / tilting camera mount designed to work seamlessly with our [4" Series of watertight enclosures](https://www.bluerobotics.com/store/watertight-enclosures/wte4-asm-r1/),
- the [4" series dome end cap](https://www.bluerobotics.com/store/watertight-enclosures/wte4-p-end-cap-dome-r1/), and the [4" series electronics tray](#). The camtilt is designed specifically for use with our low light analog camera and raspberry pi camera, 
- but the camtilt files are all open source so that you can modify them to use a camera or servo that you already have too!  
+The _Camera Tilt System_ can mount to the front of the [Electronics Tray](https://www.bluerobotics.com/store/watertight-enclosures/4-series/electronics-tray-2/) and provides a simple up/down tilt mechanism for your camera. It designed to work seamlessly with our [4" Series of watertight enclosures](https://www.bluerobotics.com/store/watertight-enclosures/wte4-asm-r1/), the [4" series dome end cap](https://www.bluerobotics.com/store/watertight-enclosures/wte4-p-end-cap-dome-r1/), and the [4" series electronics tray](#). The camtilt is designed specifically for use with our low light analog camera and raspberry pi camera, but the _Camera Tilt System_ files are all open source so that you can modify them to use a camera or servo that you already have too!  
 
 ## Quick Start 
 
@@ -77,7 +75,7 @@ The Camtilt is a fully customizeable single axis gimbal stabilization / tilting 
 
 ### Raspberry Pi Camera Mount
 
-<img src="/camtilt/cad/CAMTILT-RASPBERRYPI-MOUNT-R1.png" class="img-responsive" style="max-width:900px"  />
+<img src="/camtilt/cad/CAMTILT-RASBPI2-CAMERA-MOUNT-R1.png" class="img-responsive" style="max-width:900px"  />
 
 ## 3D Model
 
@@ -90,9 +88,9 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**Camtilt 3D Files**															                      |
 | ----------------------------------------------------------------------------------------------------------- |
-| Servo Mount                          | [CAMTILT-SERVO-MOUNT-R1.zip](cad/CAMTILT-SERVO-MOUNT-R1.zip)            |
-| Analog Camera Mount   	           | [CAMTILT-ANALOG-MOUNT-R1.zip](cad/CAMTILT-ANALOG-MOUNT-R1.zip)	      |
-| Wide Angle Raspberry Pi Camera Mount | [CAMTILT-RASPBERRYPI-MOUNT-R1.zip](cad/CAMTILT-RASPBERRYPI-MOUNT-R1.zip) |
+| Servo Mount                          | [CAMTILT-SERVO-MOUNT-R2.zip](cad/CAMTILT-SERVO-MOUNT-R2.zip)            |
+| Analog Camera Mount   	           | [CAMTILT-ANALOG-MOUNT-R2.zip](cad/CAMTILT-ANALOG-MOUNT-R2.zip)	      |
+| Wide Angle Raspberry Pi Camera Mount | [CAMTILT-RASPI2-CAMERA-MOUNT-R1.zip](cad/CAMTILT-RASPI2-CAMERA-MOUNT-R1.zip) |
 
 ## 3D Printer Settings
 
@@ -100,17 +98,56 @@ Here are the printer settings that we used with a Lulzbot Taz 5 and Simplify3D
 
 [CAMTILT-PRINTER-SETTINGS-R1.fff](cad/CAMTILT-PRINTER-SETTINGS-R1.fff)
 
-# Installation
+# Assembly
 
-1. First, attach the servo mount to the front tray of the etray using the 7/16" long self tapping screws
+## Raspberry Pi Camera
 
-2. Next, attach the servo to the servo mount using the 5/16" long self tapping screws.
+1. Attach the servo mount to the front tray of the _Electronics Tray_ using 2 of the M2x8 screws.
 
-3. Attach the camera mount to the servo arm using the screws that come in the servo packaging.
+2. Install the servo arm onto the servo 
+	
+	a. Remove the servo arm that comes with the servo, keep the screw that was holding the servo arm on in a safe place.
 
-4. Then, attach the camera to the camera mount 
+	b. Grab the servo arm shown below.
 
-5. Finally, attach the servo and camera wires to your microcontroller / computer.
+	c. Trim off the ends of the servo arm so that only one screw hole remains on both sides.
+
+	d. Place the servo arm back on the servo and rotate it as far counterclockwise as possible.
+
+	e. Remove the servo arm and install it on the servo so that it is as close to perpendicular to the servo body as possible using the small black screw that was holding on the original servo arm.
+
+3. Install the camera mount onto the servo using the self-tapping screws that came in the servo box. 
+
+4. Trim the threads that stick out of the back of the camera mount. Be sure to wear safety glasses.
+
+5. Install the servo onto the servo mount using 2 of the M2x8 screws.
+
+6. Attach the camera to the camera mount.
+
+
+## Low-Light Analog Camera
+
+1. Attach the servo mount to the front tray of the _Electronics Tray_ using 2 of the M2x8 screws.
+
+2. Install the servo arm onto the servo 
+	
+	a. Remove the servo arm that comes with the servo, keep the screw that was holding the servo arm on in a safe place.
+
+	b. Grab the servo arm shown below.
+
+	c. Trim off the ends of the servo arm so that only one screw hole remains on both sides.
+
+	d. Place the servo arm back on the servo and rotate it as far counterclockwise as possible.
+
+	e. Remove the servo arm and install it on the servo so that it is as close to perpendicular to the servo body as possible using the small black screw that was holding on the original servo arm.
+
+3. Install the camera mount onto the servo using the self-tapping screws that came in the servo box. 
+
+4. Trim the threads that stick out of the back of the camera mount. Be sure to wear safety glasses.
+
+5. Install the servo onto the servo mount.
+
+6. Attach the camera to the camera mount.
 
 # Example Code
 
