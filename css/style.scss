@@ -41,3 +41,15 @@ a:hover {
 *:hover > .anchorjs-link {
   transition: color .25s linear;
 }
+
+.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+	margin-right:10px;
+}
+.gsc-search-box-tools .gsc-search-box .gsc-input {text-align: center;}
+.gsc-input-box {
+	height:auto !important;
+	margin-left:10px;	
+}
