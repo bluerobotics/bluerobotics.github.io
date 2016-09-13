@@ -50,7 +50,7 @@ The [EagleCAD files](https://github.com/bluerobotics/Bar30-Pressure-Sensor) for 
 
 ## Specification Table
 
-For further information please see the [MS5837-30BA Data Sheet.](http://meas-spec.com/downloads/MS5837-30BA.pdf)
+For further information please see the [MS5837-30BA Data Sheet.](http://www.te.com/usa-en/product-CAT-BLPS0017.html)
 
 |      **Electrical**       |
 | ------------- | --------- |
