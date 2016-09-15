@@ -53,3 +53,37 @@ a:hover {
 	height:auto !important;
 	margin-left:10px;	
 }
+
+@media print {
+	.bs-docs-sidebar {
+		display: none;
+	}
+	.footer {
+		display: none;
+	}
+	table, tr, td, th {
+		border: 1px solid #999;
+		border-top: 1px solid #999 !important;
+		border-bottom: 1px solid #999 !important;
+	}
+	h1, h2, h3, h4, h5 {
+		color: #555 !important;
+		border-bottom: 2px solid #ddd;
+	}
+	.img-responsive, iframe, embed {
+		max-width: 80% !important;
+		max-height: 300px !important;
+	}
+	body, p, blockquote {
+		font-size: 1.1em !important;
+	}
+	.lead {
+		font-size: 2.3em !important;
+	}
+	code, pre {
+		font-size: 0.9em !important;
+	}
+	.content {
+    border-left: none !important;
+	}
+}
