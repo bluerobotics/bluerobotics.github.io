@@ -34,10 +34,6 @@ manual-links:
 
 The _Camera Tilt System_ is a tilting camera mount which works seamlessly with the [Watertight Enclosure for ROV/AUV (4" Series)](https://www.bluerobotics.com/store/watertight-enclosures/wte4-asm-r1/#configuration) and the [Electronics Tray (4" Series)](https://www.bluerobotics.com/store/watertight-enclosures/4-series/electronics-tray-2). The tilting servo is the high-quality digital HS-5055MG servo with metal gears. The camera mounts are compatible with our [Raspberry Pi Camera w/ Wide Angle Lens](https://www.bluerobotics.com/store/electronics/cam-rpi-wide-r1/) and our [Low-Light Analog Camera](https://www.bluerobotics.com/store/electronics/low-light-ntsc-camera/). We have also made the 3D CAD files freely available so that you can modify them to fit your camera or servo! 
 
-## Quick Start 
-
-
-
 # Specifications
 
 [Hitec Product Page - HS-5055mg](http://hitecrcd.com/products/servos/micro-and-mini-servos/digital-micro-and-mini-servos/hs-5055mg-economy-metal-gear-feather-servo/product)
@@ -122,19 +118,19 @@ Here are the printer settings that we used with a Lulzbot Taz 5 3D printer and S
 	
 4. Install the servo arm onto the servo 
 	
-	b. Grab the servo arm shown below from the bag that came in the servo box.
+	a. Grab the servo arm shown below from the bag that came in the servo box.
 
-	<img src="/camtilt/cad/servo-arm.png" class="img-responsive" style="max-width:900px"  />
+	<img src="/camtilt/cad/servo-arm.png" class="img-responsive" style="max-width:500px"  />
 
-	c. Trim off the ends of the servo arm so that only one screw hole remains on both sides.
+	b. Trim off the ends of the servo arm so that only one screw hole remains on both sides.
 
-	<img src="/camtilt/cad/servo-arm-cut.png" class="img-responsive" style="max-width:900px"  />
+	<img src="/camtilt/cad/servo-arm-cut.png" class="img-responsive" style="max-width:500px"  />
 
-	d. Place the servo arm back on the servo horizontally and then rotate it as far clockwise as possible.
+	c. Place the servo arm back on the servo horizontally and then rotate it as far clockwise as possible.
 
 	<img src="/camtilt/cad/servo-arm-install.png" class="img-responsive" style="max-width:900px"  />
 
-	e. If the servo arm is now approximately vertical, reinstall the servo arm screw. If it is not vertical, remove it and place it as near vertical as possible then reinstall the servo arm screw.
+	d. If the servo arm is now approximately vertical, reinstall the servo arm screw. If it is not vertical, remove it and place it as near vertical as possible then reinstall the servo arm screw.
 
 	<img src="/camtilt/cad/servo-arm-cut-installed.png" class="img-responsive" style="max-width:900px"  />
 
@@ -166,19 +162,19 @@ Here are the printer settings that we used with a Lulzbot Taz 5 3D printer and S
 
 4. Install the servo arm onto the servo 
 	
-	b. Grab the servo arm shown below from the bag that came in the servo box.
+	a. Grab the servo arm shown below from the bag that came in the servo box.
 
-	<img src="/camtilt/cad/servo-arm.png" class="img-responsive" style="max-width:900px"  />
+	<img src="/camtilt/cad/servo-arm.png" class="img-responsive" style="max-width:500px"  />
 
-	c. Trim off the ends of the servo arm so that only one screw hole remains on both sides.
+	b. Trim off the ends of the servo arm so that only one screw hole remains on both sides.
 
-	<img src="/camtilt/cad/servo-arm-cut.png" class="img-responsive" style="max-width:900px"  />
+	<img src="/camtilt/cad/servo-arm-cut.png" class="img-responsive" style="max-width:500px"  />
 
-	d. Place the servo arm back on the servo horizontally and then rotate it as far clockwise as possible.
+	c. Place the servo arm back on the servo horizontally and then rotate it as far clockwise as possible.
 
 	<img src="/camtilt/cad/servo-arm-install.png" class="img-responsive" style="max-width:900px"  />
 
-	e. If the servo arm is now approximately vertical, reinstall the servo arm screw. If it is not vertical, remove it and place it as near vertical as possible then reinstall the servo arm screw.
+	d. If the servo arm is now approximately vertical, reinstall the servo arm screw. If it is not vertical, remove it and place it as near vertical as possible then reinstall the servo arm screw.
 
 	<img src="/camtilt/cad/servo-arm-cut-installed.png" class="img-responsive" style="max-width:900px"  />
 
