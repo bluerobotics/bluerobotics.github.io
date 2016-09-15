@@ -28,11 +28,11 @@ manual-links:
 - Electronics Tray: /etray
 ---
 
-Headline Image
+<img src="/camtilt/cad/camtilt-headline-pic.png" class="img-responsive" style="max-width:900px"  />
 
 # Introduction
 
-The _Camera Tilt System_ can mount to the front of the [Electronics Tray](https://www.bluerobotics.com/store/watertight-enclosures/4-series/electronics-tray-2/) and provides a simple up/down tilt mechanism for your camera. It designed to work seamlessly with our [4" Series of watertight enclosures](https://www.bluerobotics.com/store/watertight-enclosures/wte4-asm-r1/), the [4" series dome end cap](https://www.bluerobotics.com/store/watertight-enclosures/wte4-p-end-cap-dome-r1/), and the [4" series electronics tray](#). The camtilt is designed specifically for use with our low light analog camera and raspberry pi camera, but the _Camera Tilt System_ files are all open source so that you can modify them to use a camera or servo that you already have too!  
+The _Camera Tilt System_ is a tilting camera mount which works seamlessly with the [Watertight Enclosure for ROV/AUV (4" Series)](https://www.bluerobotics.com/store/watertight-enclosures/wte4-asm-r1/#configuration) and the [Electronics Tray (4" Series)](https://www.bluerobotics.com/store/watertight-enclosures/4-series/electronics-tray-2). The tilting servo is the high-quality digital HS-5055MG servo with metal gears. The camera mounts are compatible with our [Raspberry Pi Camera w/ Wide Angle Lens](https://www.bluerobotics.com/store/electronics/cam-rpi-wide-r1/) and our [Low-Light Analog Camera](https://www.bluerobotics.com/store/electronics/low-light-ntsc-camera/). We have also made the 3D CAD files freely available so that you can modify them to fit your camera or servo! 
 
 ## Quick Start 
 
@@ -94,60 +94,107 @@ All 3D models are provided in zip archives containing the follow file types:
 
 ## 3D Printer Settings
 
-Here are the printer settings that we used with a Lulzbot Taz 5 and Simplify3D
+Here are the printer settings that we used with a Lulzbot Taz 5 3D printer and Simplify3D slicing software.
 
 [CAMTILT-PRINTER-SETTINGS-R1.fff](cad/CAMTILT-PRINTER-SETTINGS-R1.fff)
 
 # Assembly
 
+## Required tools
+
+- \#000 Phillips Screwdriver (or similar small size)
+- 1.5 mm Hex Driver
+- Wire Cutters
+
 ## Raspberry Pi Camera
 
 1. Attach the servo mount to the front tray of the _Electronics Tray_ using 2 of the M2x8 screws.
 
-2. Install the servo arm onto the servo 
-	
-	a. Remove the servo arm that comes with the servo, keep the screw that was holding the servo arm on in a safe place.
+	<img src="/camtilt/cad/servo-mount-attached.png" class="img-responsive" style="max-width:900px"  />
 
-	b. Grab the servo arm shown below.
+2. Open the servo box and remove the servo arm that comes installed on the servo using a #000 Philips screwdriver. Place the screw that held on that servo arm in a safe place.
+
+	<img src="/camtilt/cad/servo-arm-removal.png" class="img-responsive" style="max-width:900px"  />
+
+3. Install the servo on the servo mount using 2 of the M2x8 screws. 
+
+	<img src="/camtilt/cad/servo-installed-empty.png" class="img-responsive" style="max-width:900px"  />
+	
+4. Install the servo arm onto the servo 
+	
+	b. Grab the servo arm shown below from the bag that came in the servo box.
+
+	<img src="/camtilt/cad/servo-arm.png" class="img-responsive" style="max-width:900px"  />
 
 	c. Trim off the ends of the servo arm so that only one screw hole remains on both sides.
 
-	d. Place the servo arm back on the servo and rotate it as far counterclockwise as possible.
+	<img src="/camtilt/cad/servo-arm-cut.png" class="img-responsive" style="max-width:900px"  />
 
-	e. Remove the servo arm and install it on the servo so that it is as close to perpendicular to the servo body as possible using the small black screw that was holding on the original servo arm.
+	d. Place the servo arm back on the servo horizontally and then rotate it as far clockwise as possible.
 
-3. Install the camera mount onto the servo using the self-tapping screws that came in the servo box. 
+	<img src="/camtilt/cad/servo-arm-install.png" class="img-responsive" style="max-width:900px"  />
 
-4. Trim the threads that stick out of the back of the camera mount. Be sure to wear safety glasses.
+	e. If the servo arm is now approximately vertical, reinstall the servo arm screw. If it is not vertical, remove it and place it as near vertical as possible then reinstall the servo arm screw.
 
-5. Install the servo onto the servo mount using 2 of the M2x8 screws.
+	<img src="/camtilt/cad/servo-arm-cut-installed.png" class="img-responsive" style="max-width:900px"  />
 
-6. Attach the camera to the camera mount.
+5. Install the camera mount onto the servo arm using the self-tapping screws that came in the servo box. Keep the servo arm in the vertical position from the last step and have the orientation match the picture below.
 
+	<img src="/camtilt/cad/pi-cam-mount-installed.png" class="img-responsive" style="max-width:900px"  />
+
+6. Trim the threads that stick out of the back of the camera mount. Be sure to wear safety glasses. Trim the top screw first then rotate the mount so the bottom screw is on top, then trim the second screw.
+
+	<img src="/camtilt/cad/annotated-pi-cam-cutting-screws.png" class="img-responsive" style="max-width:900px"  />
+
+7. Attach the camera to the camera mount using M2x8 screws.
+
+	<img src="/camtilt/cad/pi-cam-installed-back.png" class="img-responsive" style="max-width:900px"  />
 
 ## Low-Light Analog Camera
 
 1. Attach the servo mount to the front tray of the _Electronics Tray_ using 2 of the M2x8 screws.
 
-2. Install the servo arm onto the servo 
-	
-	a. Remove the servo arm that comes with the servo, keep the screw that was holding the servo arm on in a safe place.
+	<img src="/camtilt/cad/servo-mount-attached.png" class="img-responsive" style="max-width:900px"  />
 
-	b. Grab the servo arm shown below.
+2. Open the servo box and remove the servo arm that comes installed on the servo using a #000 Philips screwdriver. Place the screw that held on that servo arm in a safe place.
+
+	<img src="/camtilt/cad/servo-arm-removal.png" class="img-responsive" style="max-width:900px"  />
+
+3. Install the servo on the servo mount using 2 of the M2x8 screws. 
+
+	<img src="/camtilt/cad/servo-installed-empty.png" class="img-responsive" style="max-width:900px"  />
+
+4. Install the servo arm onto the servo 
+	
+	b. Grab the servo arm shown below from the bag that came in the servo box.
+
+	<img src="/camtilt/cad/servo-arm.png" class="img-responsive" style="max-width:900px"  />
 
 	c. Trim off the ends of the servo arm so that only one screw hole remains on both sides.
 
-	d. Place the servo arm back on the servo and rotate it as far counterclockwise as possible.
+	<img src="/camtilt/cad/servo-arm-cut.png" class="img-responsive" style="max-width:900px"  />
 
-	e. Remove the servo arm and install it on the servo so that it is as close to perpendicular to the servo body as possible using the small black screw that was holding on the original servo arm.
+	d. Place the servo arm back on the servo horizontally and then rotate it as far clockwise as possible.
 
-3. Install the camera mount onto the servo using the self-tapping screws that came in the servo box. 
+	<img src="/camtilt/cad/servo-arm-install.png" class="img-responsive" style="max-width:900px"  />
 
-4. Trim the threads that stick out of the back of the camera mount. Be sure to wear safety glasses.
+	e. If the servo arm is now approximately vertical, reinstall the servo arm screw. If it is not vertical, remove it and place it as near vertical as possible then reinstall the servo arm screw.
 
-5. Install the servo onto the servo mount.
+	<img src="/camtilt/cad/servo-arm-cut-installed.png" class="img-responsive" style="max-width:900px"  />
 
-6. Attach the camera to the camera mount.
+5. Install the camera mount onto the servo arm using the self-tapping screws that came in the servo box. Keep the servo arm in the vertical position from the last step and have the orientation match the picture below.
+
+	<img src="/camtilt/cad/analog-cam-mount.png" class="img-responsive" style="max-width:900px"  />
+
+6. Trim the threads that stick out of the back of the camera mount. Be sure to wear safety glasses. Trim the top screw first then rotate the mount so the bottom screw is on top, then trim the second screw.
+
+	<img src="/camtilt/cad/annotated-analog-cam-screw-removal.png" class="img-responsive" style="max-width:900px"  />
+
+7. Attach the camera to the camera mount using M2x8 screws. The screw on the lens holder should be on the top side.
+
+	<img src="/camtilt/cad/analog-cam-back.png" class="img-responsive" style="max-width:900px"  />
+
+	<img src="/camtilt/cad/analog-cam-front.png" class="img-responsive" style="max-width:900px"  />
 
 # Example Code
 
