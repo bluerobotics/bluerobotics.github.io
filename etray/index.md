@@ -27,7 +27,7 @@ manual-links:
 
 # Introduction
 
-The _Electronics Tray_ is a convenient new way to mount your underwater electronics into a 4" watertight enclosure. We designed this tray to make installing and working on your electronics as easy as possible. The _Electronics Tray_ mounts to a 4" Watertight Enclosure O-ring Flange, so you don't need any tools to access your electronics.
+The _Electronics Tray_ is a convenient new way to mount your underwater electronics in a 4" watertight enclosure. We designed this tray to make installing and working on your electronics as easy as possible. The _Electronics Tray_ mounts to a 4" Watertight Enclosure O-ring Flange, so you don't need any tools to access your electronics.
 
 # Features
 
