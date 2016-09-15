@@ -20,7 +20,6 @@ nav:
 - Assembly: assembly
 - - Video Tutorial: video-tutorial
 - - Steps: steps
-- Assembly (Old R1 Style): assembly-old-r1-style
 - Opening Enclosure: opening-enclosure
 - Making Custom End Caps: making-custom-end-caps
 
@@ -258,34 +257,7 @@ The assembly process is simple and straightforward - it will take a few minutes!
 <img src="/assets/images/tutorials/WTE/step-5.png" class="img-responsive" style="max-width:600px" />
 4. Install the flanges onto the tube and replace the vent cap to seal.
 
-# Assembly (Old R1 Style)
 
-The assembly process is slightly different for the first version of the sealing flange, included with BlueROV kits and to beta testers.
-
-**Tools Needed:**
-
-* Silicone sealant
-* Silicone grease
-* 2.5mm Hex Driver
-
-
-
-**Steps:**
-
-<img src="/assets/images/tutorials/wtc-assembly/step-1.jpg" class="img-responsive" style="max-width:600px" />
-1. Apply a thin layer of sealant to the face of the flange.
-
-<img src="/assets/images/tutorials/wtc-assembly/step-2.jpg" class="img-responsive" style="max-width:600px" />
-2. Attach the end-caps to the flanges with 6 socket cap screws. Tighten screws until all air is cleared from the silicone.
-
-<img src="/assets/images/tutorials/wtc-assembly/step-3.jpg" class="img-responsive" style="max-width:600px" />
-3. Lubricate the O-rings with a thin layer of silicone grease and then install into the grooves on the flange.
-NOTE: 2" Series Flange only has 1 radial O-ring.
-
-<img src="/assets/images/tutorials/WTE/step-4.png" class="img-responsive" style="max-width:600px" />
-4. Install the vent and any necessary cable penetrators into the end-cap.  
-<img src="/assets/images/tutorials/WTE/step-5.png" class="img-responsive" style="max-width:600px" />
-5. Install the flanges onto the tube and replace the vent cap to seal.
 
 # Opening Enclosure 
 
