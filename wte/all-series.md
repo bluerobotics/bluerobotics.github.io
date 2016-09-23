@@ -71,7 +71,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | End Cap Thickness                   | 0.24 in       | 6.0 mm        |
 | Aluminum Flange Inner Diameter      | 1.5 in        | 38 mm         |
 | Total Length                        | 12.7 in       | 322 mm        |
-| Radial Seal O-ring (1 used)         | AS568-133, Buna-N             |
+| Radial Seal O-ring (2 used)         | AS568-133, Buna-N             |
 | Face Seal O-ring (1 used)           | AS568-030, Buna-N             |
 | End Cap Screws                      | M2x10 (Stainless Steel 316)   |
 | Inner Mounting Holes                | M3 threading                  |
@@ -100,7 +100,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
 | Assembly Model                       | [WTE2-ASM-R1.zip](http://www.bluerobotics.com/models/WTE2-ASM-R1.zip)                                   |
 | Tube (Standard 11.75", 298mm length) | [WTE2-P-TUBE-12-R1.zip](http://www.bluerobotics.com/models/WTE2-P-TUBE-12-R1.zip)                       |
-| Aluminum O-ring Flange               | [WTE2-M-FLANGE-SEAL-R1.zip](http://www.bluerobotics.com/models/WTE2-M-FLANGE-SEAL-R1.zip)               |
+| Aluminum O-ring Flange               | [WTE2-M-FLANGE-SEAL-R2.zip](http://www.bluerobotics.com/models/WTE2-M-FLANGE-SEAL-R1.zip)               |
 | Plain Solid End Cap			       | [WTE2-P-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE2-P-END-CAP-R1.zip)                       |
 | End Cap with 2 x 10mm Holes          | [WTE2-P-END-CAP-2X10MM-R1.zip](http://www.bluerobotics.com/models/WTE2-P-END-CAP-2X10MM-R1.zip)         |
 
