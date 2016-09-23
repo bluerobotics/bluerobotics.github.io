@@ -100,7 +100,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
 | Assembly Model                       | [WTE2-ASM-R1.zip](http://www.bluerobotics.com/models/WTE2-ASM-R1.zip)                                   |
 | Tube (Standard 11.75", 298mm length) | [WTE2-P-TUBE-12-R1.zip](http://www.bluerobotics.com/models/WTE2-P-TUBE-12-R1.zip)                       |
-| Aluminum O-ring Flange               | [WTE2-M-FLANGE-SEAL-R2.zip](http://www.bluerobotics.com/models/WTE2-M-FLANGE-SEAL-R1.zip)               |
+| Aluminum O-ring Flange               | [WTE2-M-FLANGE-SEAL-R2.zip](http://www.bluerobotics.com/models/WTE2-M-FLANGE-SEAL-R2.zip)               |
 | Plain Solid End Cap			       | [WTE2-P-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE2-P-END-CAP-R1.zip)                       |
 | End Cap with 2 x 10mm Holes          | [WTE2-P-END-CAP-2X10MM-R1.zip](http://www.bluerobotics.com/models/WTE2-P-END-CAP-2X10MM-R1.zip)         |
 
