@@ -94,7 +94,7 @@ Quantity      | Part														| Usage
 1             | Bottom Panel (1/2" thick black HDPE)                       	|  
 2             | Side Panel (3/8" thick black HDPE)                       	|
 2             | Electronics Enclosure Cradle (Black Anodized Aluminum)  	| Mounting the electronics enclosure to the frame
-8 			  | M4x18 Button Head Cap Screw (316 Stainless Steel)           | Mounting the electronics enclosure cradles to the frame        
+8 			  | M4x18 Socket Head Cap Screw (316 Stainless Steel)           | Mounting the electronics enclosure cradles to the frame        
 12            | M5x16 Button Head Cap Screw (316 Stainless Steel)           | Assembling the frame
 7             | 8-16 Thread, 5/8" Long, Thread-Forming Screw                | Mounting the ballast to the frame                         
 7             | 200g Ballast												| 
