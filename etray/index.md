@@ -23,7 +23,7 @@ manual-links:
 - Camera Tilt: /camtilt
 ---
 
-<img src="/etray/cad/electronics-tray-render.png" class="img-responsive" style="max-width:900px" />
+<img src="/etray/cad/electronics-tray-render.PNG" class="img-responsive" style="max-width:900px" />
 
 # Introduction
 
@@ -47,7 +47,7 @@ The _Electronics Tray_ is a convenient new way to mount your underwater electron
 
 ## 2D Drawings
 
-<img src="/etray/cad/ASSEM-ETRAY-X1.png" class="img-responsive" style="max-width:900px" />
+<img src="/etray/cad/ASSEM-ETRAY-X1.PNG" class="img-responsive" style="max-width:900px" />
 
 ## 3D Model
 
@@ -68,30 +68,30 @@ All 3D models are provided in zip archives containing the follow file types:
 ## Diagram of the Tray
 
 <p align="center">
-<img src="/etray/cad/elec-tray-annotated.png" class="img-responsive" style="max-width:900px" />
+<img src="/etray/cad/elec-tray-annotated.PNG" class="img-responsive" style="max-width:900px" />
 </p>
 
 ## Assembling the Electronics Tray
 
 1. Install the four short standoffs in the four inch O-ring flange.
 
-	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC.png" class="img-responsive" style="max-width:900px" />
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC.PNG" class="img-responsive" style="max-width:900px" />
 
 2. Install the rear panel on the short standoffs.
 
-	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-2.png" class="img-responsive" style="max-width:900px" />
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-2.PNG" class="img-responsive" style="max-width:900px" />
 
 3. Install the long standoffs into the rear panel.
 
-	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-3.png" class="img-responsive" style="max-width:900px" />
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-3.PNG" class="img-responsive" style="max-width:900px" />
 
 4. Install the main panel and front panel. 
 
-	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-4.png" class="img-responsive" style="max-width:900px" />
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-4.PNG" class="img-responsive" style="max-width:900px" />
 
 5. Now your Etray is ready for installing your electronics.
 
-	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-5.png" class="img-responsive" style="max-width:900px" />
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-5.PNG" class="img-responsive" style="max-width:900px" />
 
 ## Installing the Terminal Blocks
 
@@ -102,14 +102,14 @@ The _Electronics Tray_ optionally comes with 2 8-Circuit Barrier Blocks and 2 9-
 
 2. Install the 8-Circuit Barrier Blocks onto the main tray.
 
-	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-7.png" class="img-responsive" style="max-width:900px" />
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-7.PNG" class="img-responsive" style="max-width:900px" />
 
 3. Install the standoffs and 9-Circuit Eurostyle Terminal Strip on top of the standoffs.
 
-	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-8.png" class="img-responsive" style="max-width:900px" />
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-8.PNG" class="img-responsive" style="max-width:900px" />
 
 4. Now you are ready to finish installing your electronics!
 
-	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-9.png" class="img-responsive" style="max-width:900px" />
+	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC-9.PNG" class="img-responsive" style="max-width:900px" />
 
 
