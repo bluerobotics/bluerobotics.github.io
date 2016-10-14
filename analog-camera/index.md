@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Low-Light Analog Camera Documentation
-permalink: /analog-camera/
+title: Camera Documentation
+permalink: /camera/
 order: 1
 nav:
 - Introduction: introduction
@@ -20,7 +20,7 @@ nav:
 
 store-links:
 - Low-Light Analog Camera: https://www.bluerobotics.com/store/electronics/low-light-ntsc-camera/
-
+- Raspberry Pi Camera: https://www.bluerobotics.com/store/electronics/cam-rpi-wide-r1/
 ---
 
 <img src="/analog-camera/cam-banner.png" class="img-responsive" style="max-width:900px"  />

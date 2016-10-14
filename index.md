@@ -19,7 +19,7 @@ nav:
 
 # Blue Robotics Documentation
 
-This is our product documentation. Think about it as an online user manual. There are instructions and tutorials for the T100 Thruster and our other products.
+This is our product documentation. Think about it as an online user manual. There are instructions and tutorials for the BlueROV2 and our other products.
 
 We do our best to make this documentation as complete as possible but you can [contribute, point out errors, and make suggestions](#how-to-contribute) to help us improve the documentation.
 
@@ -96,7 +96,7 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/analog-cam-2.png)">
-      <a href="/analog-camera/">Camera <i class="fa fa-chevron-circle-right"></i></a>
+      <a href="/camera/">Camera <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
  </div> 
