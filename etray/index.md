@@ -23,7 +23,7 @@ manual-links:
 - Camera Tilt: /camtilt
 ---
 
-<img src="/etray/cad/electronics-tray-render.PNG" class="img-responsive" style="max-width:900px" />
+<img src="/etray/cad/electronics-tray-render.png" class="img-responsive" style="max-width:900px" />
 
 # Introduction
 
@@ -47,7 +47,7 @@ The _Electronics Tray_ is a convenient new way to mount your underwater electron
 
 ## 2D Drawings
 
-<img src="/etray/cad/ASSEM-ETRAY-X1.PNG" class="img-responsive" style="max-width:900px" />
+<img src="/etray/cad/ASSEM-ETRAY-X1.png" class="img-responsive" style="max-width:900px" />
 
 ## 3D Model
 
@@ -68,7 +68,7 @@ All 3D models are provided in zip archives containing the follow file types:
 ## Diagram of the Tray
 
 <p align="center">
-<img src="/etray/cad/elec-tray-annotated.PNG" class="img-responsive" style="max-width:900px" />
+<img src="/etray/cad/elec-tray-annotated.png" class="img-responsive" style="max-width:900px" />
 </p>
 
 ## Assembling the Electronics Tray
