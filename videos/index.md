@@ -9,7 +9,7 @@ nav:
 - Watertight Enclosures: watertight-enclosures
 ---
 
-#Thrusters
+# Thrusters
 
 <div class="row">
 	<div class="col-sm-6 col-md-6"> 
@@ -47,7 +47,7 @@ nav:
 <br />
 
 
-#Motors
+# Motors
 
 <div class="row">
 	<div class="col-sm-6 col-md-6"> 
@@ -60,7 +60,7 @@ nav:
 
 <br /> 
 
-#Watertight Enclosures
+# Watertight Enclosures
 
 <div class="row">
 	<div class="col-sm-6 col-md-6"> 

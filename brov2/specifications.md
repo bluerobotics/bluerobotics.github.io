@@ -40,6 +40,8 @@ manual-links:
 The _BlueROV2_ is the world's most affordable high-performance ROV. The 6-thruster vectored configuration, coupled with strong static stability, provides a vehicle that is smooth and stable, yet highly maneuverable. The _BlueROV2_ provides the capabilities of a 
 high-end commercial mini-ROV at the price of the most basic commercial ROVs.
 
+<a href="http://bluerobotics.com/downloads/bluerov2.pdf" alt="BlueROV2 Datasheet"><i class="fa fa-download" aria-hidden="true"></i> Download Datasheet</a>
+
 ## Features
 
 - Live Ultra-low Latency Video (with Standard Electronics Package)

@@ -5,6 +5,12 @@ order: 0
 nav:
 - Home: blue-robotics-documentation
 - Product Manuals: product-manuals
+- - ROV: rov
+- - Thrusters and Motors: thrusters-and-motors
+- - Electronics: electronics
+- - Sensors: sensors
+- - Enclosures: enclosures
+- - Other: other
 - Tutorials: tutorials
 - Guides: guides
 - How to Contribute: how-to-contribute
@@ -13,13 +19,15 @@ nav:
 
 # Blue Robotics Documentation
 
-This is our product documentation. Think about it as an online user manual. There are instructions and tutorials for the T100 Thruster and our other products.
+This is our product documentation. Think about it as an online user manual. There are instructions and tutorials for the BlueROV2 and our other products.
 
 We do our best to make this documentation as complete as possible but you can [contribute, point out errors, and make suggestions](#how-to-contribute) to help us improve the documentation.
 
 You can use the menu bar at the top to find the product you are looking for and the navigation bar on the left to help you find what you are looking for on each page.
 
 # Product Manuals
+
+## ROV
 
 <div class="row">
   <div class="col-sm-4 col-md-4"> 
@@ -32,6 +40,11 @@ You can use the menu bar at the top to find the product you are looking for and 
       <a href="/bluerov/">BlueROV <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
+</div> 
+
+## Thrusters and Motors
+
+<div class="row">
   <div class="col-sm-4 col-md-4"> 
   	<div class="tile" style="background-image:url(/assets/images/documentation/thruster-2.png)">
   		<a href="/thrusters/">T100 Thruster <i class="fa fa-chevron-circle-right"></i></a>
@@ -52,6 +65,20 @@ You can use the menu bar at the top to find the product you are looking for and 
   		<a href="/thrusters/motors/m200">M200 Motor <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
+</div>  
+
+## Electronics
+<div class="row">
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/documentation/besc-3-new.png)">
+      <a href="/besc/">Basic ESC <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+ <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/documentation/blueesc-inside.jpg)">
+      <a href="/bluesc/">BlueESC <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>    
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/lumen-1.png)">
       <a href="/lumen/"><em>Lumen</em> Subsea Light <i class="fa fa-chevron-circle-right"></i></a>
@@ -69,34 +96,14 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/analog-cam-2.png)">
-      <a href="/analog-camera/">Analog Camera <i class="fa fa-chevron-circle-right"></i></a>
+      <a href="/camera/">Camera <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
-  <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(/assets/images/documentation/besc-3-new.png)">
-  		<a href="/besc/">Basic ESC <i class="fa fa-chevron-circle-right"></i></a>
-  	</div>
-  </div>
-  <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/assets/images/documentation/blueesc-inside.jpg)">
-      <a href="/bluesc/">BlueESC <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-  <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(/assets/images/documentation/assem-4in.png)">
-  		<a href="/watertight-enclosures/">Watertight Enclosures <i class="fa fa-chevron-circle-right"></i></a>
-  	</div>
-  </div>
-  <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/assets/images/documentation/vent-r2-1.png)">
-      <a href="/vent/">Vent <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-  <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/assets/images/documentation/cable-penetrator-1-r2.png)">
-      <a href="/tutorials/cable-penetrator/">Cable Penetrator <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
+ </div> 
+
+## Sensors
+
+<div class="row">
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/bar30/cad/pressure-sensor-3.png)">
       <a href="/bar30/"><em>Bar30</em> Pressure Sensor <i class="fa fa-chevron-circle-right"></i></a>
@@ -107,6 +114,45 @@ You can use the menu bar at the top to find the product you are looking for and 
       <a href="/celsius/"><em>Celsius</em> Temp Sensor <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
+</div>
+
+## Enclosures
+
+<div class="row">
+  <div class="col-sm-4 col-md-4">
+  	<div class="tile" style="background-image:url(/assets/images/documentation/assem-4in.png)">
+  		<a href="/watertight-enclosures/">Watertight Enclosures <i class="fa fa-chevron-circle-right"></i></a>
+  	</div>
+  </div>
+   <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/documentation/e-tray-1.png)">
+      <a href="/etray/">Electronics Tray <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+   <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/documentation/rpi-cam-tilt-1.png)">
+      <a href="/camtilt/">Cam Tilt System <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/documentation/vent-r2-1.png)">
+      <a href="/vent/">Vent <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+    <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/switch/cad/switch-4.png)">
+      <a href="/switch/">Switch <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/documentation/cable-penetrator-1-r2.png)">
+      <a href="/tutorials/cable-penetrator/">Cable Penetrator <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+</div>
+ 
+## Other  
+<div class="row">
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/foam-1.png)">
       <a href="/float/">Subsea Buoyancy Foam <i class="fa fa-chevron-circle-right"></i></a>
@@ -117,7 +163,7 @@ You can use the menu bar at the top to find the product you are looking for and 
       <a href="/fathom/"><em>Fathom</em> Tether <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
-</div>
+ </div> 
 
 # Tutorials
 

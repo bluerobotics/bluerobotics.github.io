@@ -40,6 +40,8 @@ nav:
 - Cable Installation: installing-the-cables
 - - Penetrator Installation: installing-the-penetrators
 - - End Cap Installation: installing-the-end-cap
+- - Finishing Battery Enclosure: finishing-the-battery-enclosure
+- - Preliminary Vacuum Test: preliminary-vacuum-test
 - - Penetrator Power Wiring: installing-the-power-wires-from-the-penetrators
 - - Penetrator Signal Wiring: installing-the-signal-wires-from-the-penetrators
 - - Electronics Cable Routing: electronics-tray-cable-management
@@ -48,7 +50,6 @@ nav:
 - - Mounting Thrusters: mounting-the-thrusters-to-the-frame
 - - Mounting Lights: mounting-the-lights
 - - Mounting the Tether: mounting-the-tether-to-the-frame
-- - Finishing Battery Enclosure: finishing-the-battery-enclosure
 - - External Cable Management: thruster-and-lumen-cable-management
 - - Installing Fairings: installing-the-fairings-and-buoyancy
 - - Ballast: mounting-ballast-to-the-frame
@@ -82,6 +83,7 @@ The _BlueROV_ kit comes almost ready to dive. The assembly can be completed with
 - Thread-locker such as [Loctite 243](https://www.amazon.com/Loctite-1330799-Resistant-thread-locker-6-milliliter/dp/B004L439FE/ref=sr_1_1?ie=UTF8&qid=1466440165&sr=8-1&keywords=loctite+243+thread-locker)
 - Tweezers (for assistance installing wires into terminal blocks)
 - Isopropyl Alcohol or isopropyl alcohol wipes
+- Vacuum Pump such as [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump)
 
 # What's Included
 
@@ -619,7 +621,90 @@ To reinstall the end cap you will need the following items and tools:
 6. Install the end cap onto the O-ring. Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove. The end cap's orientation when installed should match the image below.
 
 	<img src="/brov2/cad/brov2-endcap-installed-iso.png" class="img-responsive" style="max-width:900px" />
+
+## Finishing the Battery Enclosure
+
+To finish installing the battery enclosure you need the following parts and tools:
+
+- The bag with one black penetrator nut and one O-ring left in it
+- The 4 hole 3 inch enclosure end cap
+- 1 Penetrator wrench
+- XT90 to 3.5 mm bullet connector adapter
+- 1.5 inch piece of heat shrink
+- heat gun, hairdryer, or lighter
+ 
+1. Find the bag that had the penetrator nuts and O-rings in it and grab the remaining red nut and O-ring.
 	
+2. Apply Silicone grease to the O-ring.
+
+3. Install the O-ring onto the battery power cable penetrator.
+	
+4. Install the battery power cable penetrator into the opening in the battery end cap.
+
+	<img src="/brov2/cad/brov2-battery-penetrator.png" class="img-responsive" style="max-width:900px" />
+
+5. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator.
+
+6. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires. You should be able to see the threads in the penetrator through the heat shrink.
+
+	<img src="/brov2/cad/brov2-strain-relief-2.png" class="img-responsive" style="max-width:900px" />
+
+7. Install the XT90 to bullet connector adapter to the battery power wire. 
+
+	<img src="/brov2/cad/brov2-bullet-to-xt90.png" class="img-responsive" style="max-width:900px" />
+
+## Preliminary Vacuum Test (Optional)
+
+This is the best point in the assembly process to perform a vacuum test. Since you have installed all of the penetrators, but have not done any of the wiring, troubleshooting will be as easy as possible. To prepare for the vacuum test you need to purchase a vacuum pump. We recommend [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump).
+
+1. Install the 4 hole 3 inch end cap onto the battery enclosure.
+
+	<img src="/brov2/cad/3-inch-end-cap-installed.png" class="img-responsive" style="max-width:900px">
+
+2. Install the electronics enclosure onto the 14 hole 4 inch end cap.
+
+	<img src="/brov2/cad/4-inch-end-cap-installed.png" class="img-responsive" style="max-width:900px">
+
+3. Assemble the vacuum tee.
+
+	<img src="/brov2/cad/vacuum-tee-assembled.png" class="img-responsive" style="max-width:900px">
+
+Now you are ready to perform the preliminary vacuum test.
+
+1. Test your vacuum pump to ensure that it is not leaking. See our [Testing the Test Setup Tutorial](http://docs.bluerobotics.com/tutorials/vacuum-test-plug/#testing-the-test-setup) for detailed information. 
+
+2. Insert one of the vacuum plugs into the battery enclosure.
+
+	<img src="/brov2/cad/vent-on-3-inch-end-cap.png" class="img-responsive" style="max-width:900px">
+
+3. Insert the other vacuum plug into the electronics enclosure.
+
+	<img src="/brov2/cad/vent-on-4-inch-end-cap.png" class="img-responsive" style="max-width:900px">
+
+4. Pump the vacuum until the gauge reads 10 in. Hg [34 kPa] vacuum.
+
+	<img src="/brov2/cad/vacuum-10-inches.png" class="img-responsive" style="max-width:900px">
+
+5. Let the BlueROV2 and pump sit for 15 minutes.
+
+6. If the gauge reads above 9 in. Hg [31 kPa] after 15 minutes, your seals are acceptable.
+
+	<img src="/brov2/cad/vacuum-9-inches.png" class="img-responsive" style="max-width:900px">
+
+If the gauge reads below 9 in. Hg [31 kPa] vacuum after 15 minutes, you should check the following:
+
+1. Make sure that the M3 screws on the front and back end caps of the battery and electronics enclosure using the M2.5 hex driver. If you are able to tighten one or more, attempt the vacuum test again.
+
+2. Make sure that the penetrators on the battery and electronics enclosure are fully tightened. Check by attempting to loosen by hand. If you are able to tighten one or more, attempt the vacuum test again.
+
+3. Make sure that all of the O-rings are installed in the penetrators. If any are missing, install then attempt the vacuum test again.
+
+4. Check that the face seal O-rings and radial O-rings are installed in the battery and electronics enclosures and in good condition. If you find a damaged or missing O-ring, install and attempt the vacuum test again.
+
+If you are still having trouble holding vacuum, please contact us at <a href="mailto:support@bluerobotics.com">support@bluerobotics.com</a>
+
+To continue assembling the BlueROV2, remove the acrylic tube and dome from the electronics enclosure.
+
 ## Installing the Power Wires from the Penetrators
 
 To install the wires from the penetrators you will need the following parts and tools:
