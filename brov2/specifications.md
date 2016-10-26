@@ -175,7 +175,9 @@ Please look at our [Assembly Tutorial Page](/brov2/assembly) for more detailed a
 
 # Control Software
 
-Please look at our [ArduSub Documentation](http://ardusub.com/introduction/#overview) for more details on the control software.
+If you received your BlueROV2 after October 24, 2016, please look at our [Software Setup Page](/brov2/software-setup/) for more details on setting up your topside computer. 
+
+If you received your BlueROV2 prior to October 24, 2016 please look at our [ArduSub Documentation](http://ardusub.com/introduction/#overview) for more details on the control software.
 
 # Operation Manual
 
