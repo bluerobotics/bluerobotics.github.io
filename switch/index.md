@@ -29,6 +29,7 @@ The <em>Switch</em> is an easy to use, waterproof switch built into a a Blue Rob
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 Always inspect the O-rings before inserting the dial. Any dust, hair, or other particles can cause a leak.
+Always inspect the O-rings before inserting the dial. Any dust, hair, or other particles can cause a leak.
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 Use plastic tools, NOT steel or other hard tools, to remove the O-rings from the aluminum sealing faces. Hard tools can create scrapes that will compromise sealing ability.
@@ -73,7 +74,7 @@ For further information please see the [30-3UL Data Sheet.](http://www.grayhill.
 
 ## 2D Drawing
 
-<img src="/switch/cad/Switch-2view.png" class="img-responsive" style="max-width:900px" />
+<img src="/switch/cad/Switch-2view-a.PNG" class="img-responsive" style="max-width:900px" />
 
 ## 3D Model
 
