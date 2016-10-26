@@ -29,6 +29,7 @@ store-links:
 
 manual-links:
 - Assembly Manual: /brov2/assembly/
+- Software Setup: /brov2/software-setup/
 - Operation Manual: /brov2/operation/
 
 ---
