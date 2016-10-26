@@ -20,7 +20,6 @@ nav:
 - - Advanced Electronics: advanced-electronics-package
 - - Lights: lights
 - What's Not Included: what-you-need-for-operation-that-is-not-included
-
 - Frame Assembly: assembling-the-frame
 - - Battery Enclosure: mounting-the-battery-enclosure-to-the-bottom-panel
 - - Center Panels: assembling-the-center-panels
@@ -53,6 +52,7 @@ nav:
 - - External Cable Management: thruster-and-lumen-cable-management
 - - Installing Fairings: installing-the-fairings-and-buoyancy
 - - Ballast: mounting-ballast-to-the-frame
+- Software Setup: software-setup
 - Operations: operating-the-rov
 
 store-links:
@@ -61,6 +61,7 @@ store-links:
 manual-links:
 - Specifications: /brov2/
 - Operations Manual: /brov2/operation/
+- Software Setup: /brov2/software-setup/
 ---
 
 <img src="/brov2/cad/BlueROV2-Black-Sands-1.png" class="img-responsive" style="max-width:900px" />
@@ -920,6 +921,10 @@ To get the longest battery life and the best driving experience, it is important
 <p align="center">
 <img src="/brov2/cad/ballast-4-lights.PNG" class="img-responsive" style="max-height:500px" />
 </p>
+
+# Software Setup
+
+To set up the software on your topside computer, please see our [Software Setup](/brov2/software-setup/) page.
 
 # Operating the ROV
 
