@@ -13,7 +13,7 @@ nav:
 - Installation: installation
 
 store-links:
-- Switch: https://www.bluerobotics.com/store/electronics/switch-R1/
+- Switch: https://www.bluerobotics.com/store/electronics/switch-10-5a-r1/
 
 manual-links:
 - Vent: /vent
