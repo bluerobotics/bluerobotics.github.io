@@ -375,7 +375,7 @@ Here is a diagram of where the ESC power wires should go for the port and starbo
 	
 ## Installing the Standard Electronics
 
-If you have the Advanced Electronics, please skip to [Installing the Advanced Electronics](/brov2/#installing-the-advanced-electronics)
+If you have the Advanced Electronics, please skip to [Installing the Advanced Electronics](/brov2/assembly/#installing-the-advanced-electronics)
 
 To install the standard electronics, you need the following parts and tools:
 
@@ -398,7 +398,7 @@ To install the standard electronics, you need the following parts and tools:
 
 ## Installing the Advanced Electronics
 
-If you have the Standard Electronics, please skip to [Wiring the Electronics](/brov2/#wiring-the-electronics)
+If you have the Standard Electronics, please skip to [Wiring the Electronics](/brov2/assembly/#wiring-the-electronics)
 
 To install the Advanced Electronics, you need the following parts and tools:
 
