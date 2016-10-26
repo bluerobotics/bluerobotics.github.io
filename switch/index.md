@@ -48,6 +48,8 @@ For further information please see the [30-3UL Data Sheet.](http://www.grayhill.
 | Operating Voltage| Up to 120 volts AC |
 | Operating Current   | Up to 5 A   |
 | Wire Size | 22 AWG |
+| To Turn ON | Clockwise/Red |
+| To Turn OFF | Counter-clockwise/Gray |
 | ------------- | --------- |
 |                **Pressure**                  		 |
 | ------------- | ---------------------------------- |
