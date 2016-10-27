@@ -40,7 +40,7 @@ nav:
 - - Penetrator Installation: installing-the-penetrators
 - - End Cap Installation: installing-the-end-cap
 - - Finishing Battery Enclosure: finishing-the-battery-enclosure
-- - Preliminary Vacuum Test: preliminary-vacuum-test
+- - Preliminary Vacuum Test: preliminary-vacuum-test-optional
 - - Penetrator Power Wiring: installing-the-power-wires-from-the-penetrators
 - - Penetrator Signal Wiring: installing-the-signal-wires-from-the-penetrators
 - - Electronics Cable Routing: electronics-tray-cable-management
@@ -52,6 +52,7 @@ nav:
 - - External Cable Management: thruster-and-lumen-cable-management
 - - Installing Fairings: installing-the-fairings-and-buoyancy
 - - Ballast: mounting-ballast-to-the-frame
+- Topside Setup: topside-setup
 - Software Setup: software-setup
 - Operations: operating-the-rov
 
@@ -922,6 +923,10 @@ To get the longest battery life and the best driving experience, it is important
 <p align="center">
 <img src="/brov2/cad/ballast-4-lights.PNG" class="img-responsive" style="max-height:500px" />
 </p>
+
+# Topside Setup 
+
+<img src="/brov2/cad/topside-wiring.png" class="img-responsive" style="max-height:500px" />
 
 # Software Setup
 
