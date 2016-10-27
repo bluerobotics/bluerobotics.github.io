@@ -16,7 +16,6 @@ nav:
 - - Vacuum Test: vacuum-test
 - - Controller Functions: controller-functions
 - - Dive Modes: dive-modes
-- - Arming and Disarming: arming-and-disarming
 - Pre-Dive Checklists: pre-dive-checklists
 - - Comprehensive Checklist: comprehensive-checklist
 - - Pre-Dive Checklist: pre-dive-checklist
@@ -34,7 +33,7 @@ nav:
 - - Unpowered Recovery: unpowered-recovery
 - Post-Mission Checklist: post-mission-checklist
 - Preventative Maintenance: preventative-maintenance
-- - Every 100 Hours: after-every-ten-dives
+- - Every 100 Hours: every-100-hours-of-operation-or-every-6-months
 
 store-links:
 - BlueROV: https://www.bluerobotics.com/store/rov/bluerov2/
