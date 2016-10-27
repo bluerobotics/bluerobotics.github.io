@@ -5,13 +5,12 @@ order: 0
 permalink: /jekyll-tutorial/
 nav:
 - Introduction: introduction
-- - Sub Menu: sub-menu-example
-- Forking: forking-the-repository
-- Cloning: clone-the-repository
+- Forking the Repository: forking-the-repository
+- Cloning the Repository: cloning-the-repository
 - Make Changes: make-changes
 - View Changes: view-changes
 - Committing and Pushing Changes: committing-and-pushing-changes
-- Pull in New Changes: pull-in-new-changes-from-github
+- Pull in New Changes: pull-in-new-changes
 ---
 
 #Introduction
@@ -22,7 +21,7 @@ If you are interested in contributing to the Blue Robotics' documentation, you c
 
 Visit the [main repository](https://github.com/bluerobotics/bluerobotics.github.io/) on our Github page and click "Fork" at the top right. This is create a copy of the repository in your Github account.
 
-#Clone the Repository
+#Cloning the Repository
 
 In order to work on the documentation, you'll need to create a copy on your own computer. You can either use the [Github Apps](#) or the command line:
 
@@ -62,7 +61,7 @@ Commiting only affects the local repository on your computer. To push to the cha
 git push
 ~~~~~~
 
-#Pull in New Changes from Github
+#Pull in New Changes 
 
 Since others may be working on the documentation and making their own changes, you will need to pull in the most recent changes occasionally. You can do this with:
 

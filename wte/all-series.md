@@ -278,7 +278,7 @@ Opening the enclosure is straightforward.
 
 One of the cool things about the watertight enclosure design is that it's compatible with all sort of end cap sizes and shapes. We've got a few different ones available but we encourage you to design your own to perfectly suit your application.
 
-The CAD files above as long as the DXF drawing file attached below will give you a good starting point for your design. You'll need access to either 3D modeling software like SolidWorks or AutoCAD or 2D drawing software like Adobe Illustrator, Inkscape, and others.
+The CAD files above as well as the DXF drawing file attached below will give you a good starting point for your design. You'll need access to either 3D modeling software like SolidWorks or AutoCAD or 2D drawing software like Adobe Illustrator, Inkscape, and others.
 
 - [WTE2-P-END-CAP-R1.DXF](/wte/dxf/WTE2-P-END-CAP-R1.DXF)
 - [WTE3-P-END-CAP-R1.DXF](/wte/dxf/WTE3-P-END-CAP-R1.DXF)

@@ -20,7 +20,7 @@ nav:
 - - Assigning I<sup>2</sup>C Addresses: assigning-isup2supc-addresses
 - Example Code: example-code
 - - Arduino With Servo Library: arduino-with-servo-library
-- - Arduino With I2C: arduino-with-isup2supc
+- - Arduino With I2C: arduino-with-i2c
 - Advanced: advanced
 - - Firmware Files: firmware-files
 - - Firmware Update and Customization: firmware-update-and-customization

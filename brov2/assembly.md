@@ -40,7 +40,7 @@ nav:
 - - Penetrator Installation: installing-the-penetrators
 - - End Cap Installation: installing-the-end-cap
 - - Finishing Battery Enclosure: finishing-the-battery-enclosure
-- - Preliminary Vacuum Test: preliminary-vacuum-test
+- - Preliminary Vacuum Test: preliminary-vacuum-test-(optional)
 - - Penetrator Power Wiring: installing-the-power-wires-from-the-penetrators
 - - Penetrator Signal Wiring: installing-the-signal-wires-from-the-penetrators
 - - Electronics Cable Routing: electronics-tray-cable-management

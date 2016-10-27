@@ -30,7 +30,7 @@ manual-links:
 
 The *Fathom-X* Tether Interface Boards provide a high-speed, long-distance Ethernet connection to an ROV or other remote platform. They're designed for use with the [Fathom tether](http://bluerobotics.com/store/parts/cables/fathom-tether-nb-4p-26awg-r1/), standard Cat5 cable, or even a single twisted pair of wires. This board uses the [Rak Wireless LX200V20 module](http://bluerobotics.com/store/electronics/lx200v20-module-r1/), which leverages the robust HomePlug AV (IEEE-1901) standard for sending Ethernet through powerlines.
 
-The *Fathom-X* board is also part of the *Advanced ROV Electronics Package* and works well in conjunction with the Raspberry Pi, Pixhawk, and [ArduSub Control Software](www.ardusub.com).
+The *Fathom-X* board is also part of the *Advanced ROV Electronics Package* and works well in conjunction with the Raspberry Pi, Pixhawk, and [ArduSub Control Software](http://ardusub.com/).
 
 ## Features 
 
