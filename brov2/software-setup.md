@@ -7,9 +7,9 @@ nav:
 - Introduction: introduction
 - Install QGroundControl: install-qgroundcontrol
 - Computer Set Up: setting-up-your-computer
-- - Windows Setup: windows
-- - Mac Setup: mac
-- - Linux Setup: Linux
+- - Windows Setup: windows-setup
+- - Mac Setup: mac-setup
+- - Linux Setup: linux-setup
 - Connect Controller: connect-controller-to-qgroundcontrol
 - - Windows: windows
 - - Mac: mac
@@ -53,7 +53,7 @@ Here are the direct links to the most recent daily builds:
 
 If your computer does not have an Ethernet port, you will need a USB to Ethernet adaptor. We recommend using [this one.](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
 
-## Windows
+## Windows Setup
 
 **Internet Sharing**
 
@@ -81,7 +81,7 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 	<img src="/brov2/cad/windows-firewall-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-## Mac
+## Mac Setup
 
 **Network Settings**
 
@@ -105,7 +105,7 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 	<img src="/brov2/cad/mac-sharing-settings-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-## Linux
+## Linux Setup
 
 # Connect Controller to QGroundControl
 
