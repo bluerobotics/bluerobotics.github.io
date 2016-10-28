@@ -161,7 +161,7 @@ Quantity      | Part														| Usage
 
 ## Tools                                                      
 
-Quantity      | Part													| Usages
+Quantity      | Part													| Usage
 ------------- | --------------------------------------------------------| ---------------
 1             | Silicone Grease Tube									| Lubricate O-rings prior to installation 
 1             | O-Ring Pick   											| Remove and install O-rings

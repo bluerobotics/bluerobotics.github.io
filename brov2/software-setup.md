@@ -5,14 +5,12 @@ permalink: /brov2/software-setup/
 order: 1
 nav:
 - Introduction: introduction
-- Required Equipment: required-equipment
 - Install QGroundControl: install-qgroundcontrol
 - Computer Set Up: setting-up-your-computer
 - - Windows Setup: windows
 - - Mac Setup: mac
 - - Linux Setup: Linux
 - Connect Controller: connect-controller-to-qgroundcontrol
-- - XBox Controller: xbox-controller
 - Sensor Calibration: sensor-calibration
 - Joystick Calibration: joystickgamepad-calibration
 - Button Setup: button-setup

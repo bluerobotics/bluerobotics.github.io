@@ -6,7 +6,7 @@ nav:
 - Introduction: introduction
 - - Quick Start: quick-start
 - Specifications: specifications
-- - Diagram: function-diagram
+- - Function Diagram: function-diagram
 - - Specification Table: specification-table
 - - Schematic: schematic
 - Installation: installation
@@ -50,7 +50,7 @@ The *Fathom-X* board is also part of the *Advanced ROV Electronics Package* and 
 
 # Specifications
 
-## Function Diagrams
+## Function Diagram
 
 <a href="/fathom-s/Fathom-X-Diagram.png"><img src="/fathom-x/Fathom-X-Diagram.png" class="img-responsive img-center" style="max-width:800px" alt="Fathom-X Diagram" /></a>
 
@@ -88,9 +88,7 @@ The *Fathom-X* board is also part of the *Advanced ROV Electronics Package* and 
 
 The [EagleCAD files](https://github.com/bluerobotics/fathom-x/) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
 
-[<img src="/fathom-x/fathom-x-schematic.png" class="img-responsive" style="max-width:300px" />](https://github.com/bluerobotics/fathom-x/raw/master/Fathom-X-Schematic.pdf)
-
-[Fathom-X-Schematic.pdf](https://github.com/bluerobotics/fathom-x/raw/master/Fathom-X-Schematic.pdf)
+[<img src="/fathom-x/fathom-x-schematic.PNG" class="img-responsive" style="max-width:300px" />](https://github.com/bluerobotics/fathom-x/raw/master/Fathom-X-Schematic.pdf)
 
 # Installation
 

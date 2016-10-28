@@ -6,7 +6,7 @@ nav:
 - Introduction: introduction
 - - Quick Start: quick-start
 - Specifications: specifications
-- - Diagram: function-diagram
+- - Function Diagrams: function-diagrams
 - - Specification Table: specification-table
 - - Schematic: schematic
 - Installation: installation
