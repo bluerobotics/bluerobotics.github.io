@@ -58,7 +58,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | 8" x 4" x 0.5"             | [FLOAT-8X4X0P5-R1.zip](/float/cad/FLOAT-8X4X0P5-R1.zip) |
 | 12" x 6" x 1"              | [FLOAT-12X6X1-R1.zip](/float/cad/FLOAT-12X6X1-R1.zip)   |
 | 16" x 8" x 1"              | [FLOAT-16X8X1-R1.zip](/float/cad/FLOAT-16X8X1-R1.zip)   |
-| 24" x 8" x 2.5"            | [FLOAT-24X8X0P5-R1.zip](/float/cad/FLOAT-24X8X0P5-R1.zip)|
+| 24" x 8" x 2.5"            | [FLOAT-24X8X2P5-R1.zip](/float/cad/FLOAT-24X8X2P5-R1.zip)|
 
 
 

@@ -6,7 +6,7 @@ nav:
 - Introduction: introduction
 - - Quick Start: quick-start
 - Specifications: specifications
-- - Diagram: function-diagrams
+- - Function Diagram: function-diagram
 - - Specification Table: specification-table
 - - Schematic: schematic
 - Installation: installation
@@ -30,7 +30,7 @@ manual-links:
 
 The *Fathom-X* Tether Interface Boards provide a high-speed, long-distance Ethernet connection to an ROV or other remote platform. They're designed for use with the [Fathom tether](http://bluerobotics.com/store/parts/cables/fathom-tether-nb-4p-26awg-r1/), standard Cat5 cable, or even a single twisted pair of wires. This board uses the [Rak Wireless LX200V20 module](http://bluerobotics.com/store/electronics/lx200v20-module-r1/), which leverages the robust HomePlug AV (IEEE-1901) standard for sending Ethernet through powerlines.
 
-The *Fathom-X* board is also part of the *Advanced ROV Electronics Package* and works well in conjunction with the Raspberry Pi, Pixhawk, and [ArduSub Control Software](www.ardusub.com).
+The *Fathom-X* board is also part of the *Advanced ROV Electronics Package* and works well in conjunction with the Raspberry Pi, Pixhawk, and [ArduSub Control Software](http://ardusub.com/).
 
 ## Features 
 
@@ -50,9 +50,9 @@ The *Fathom-X* board is also part of the *Advanced ROV Electronics Package* and 
 
 # Specifications
 
-## Function Diagrams
+## Function Diagram
 
-<a href="/fathom-x/Fathom-X-Diagram.png"><img src="/fathom-x/Fathom-X-Diagram.png" class="img-responsive img-center" style="max-width:800px" alt="Fathom-X Diagram" /></a>
+<img src="fathom-x-diagram-a.png" class="img-responsive" style="max-width:800px" />
 
 ## Specification Table
 
@@ -89,8 +89,6 @@ The *Fathom-X* board is also part of the *Advanced ROV Electronics Package* and 
 The [EagleCAD files](https://github.com/bluerobotics/fathom-x/) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
 
 [<img src="/fathom-x/fathom-x-schematic.png" class="img-responsive" style="max-width:300px" />](https://github.com/bluerobotics/fathom-x/raw/master/Fathom-X-Schematic.pdf)
-
-[Fathom-X-Schematic.pdf](https://github.com/bluerobotics/fathom-x/raw/master/Fathom-X-Schematic.pdf)
 
 # Installation
 
