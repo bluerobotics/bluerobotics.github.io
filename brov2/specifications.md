@@ -3,6 +3,7 @@ layout: default
 title: BlueROV2
 permalink: /brov2/
 order: 1
+topnavbar: brov2
 nav:
 - Introduction: introduction
 - - Features: features
@@ -19,10 +20,9 @@ nav:
 - - Camera Tilt: camera-tilt
 - - Standard and Advanced Comparison: standard-and-advanced-comparison
 - 3D Model: d-model
-- Assembly-Manual: assembly-manual
+- Assembly Manual: assembly-manual
 - Control Software: control-software
-- Operation-Manual: operation-manual
-
+- Operating Manual: operation-manual
 
 store-links:
 - BlueROV2: https://www.bluerobotics.com/store/rov/bluerov2/
@@ -34,7 +34,7 @@ manual-links:
 
 ---
 
-<img src="/brov2/cad/BlueROV2-Honaunau-6.png" class="img-responsive" style="max-width:900px" />
+<img src="/brov2/cad/BlueROV2-Honaunau-6.png" class="img-responsive img-center" style="max-width:800px" />
 
 # Introduction
 

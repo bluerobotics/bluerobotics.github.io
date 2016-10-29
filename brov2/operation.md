@@ -1,8 +1,9 @@
 ---
 layout: default
-title: BlueROV2 Operation Instructions
+title: BlueROV2 Operating Manual
 permalink: /brov2/operation/
 order: 1
+topnavbar: brov2
 nav:
 - Introduction: introduction
 - - Safety: safety

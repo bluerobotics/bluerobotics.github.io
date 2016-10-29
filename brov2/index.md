@@ -2,6 +2,7 @@
 layout: default
 title: BlueROV2 Assembly Instructions
 order: 1
+topnavbar: brov2
 nav:
 - Introduction: introduction
 - - Safety: safety

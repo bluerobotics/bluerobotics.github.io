@@ -96,11 +96,24 @@ liOpen: false
         </nav>
       </div>
       <div class="col-sm-9 content">
+        {% if page.topnavbar != brov2 %}
+        {% include brov2nav.html %}
+        <br />
+        <br />
+        <hr />
+        <br />
+        {% endif %}
         <span style="float:right"><p><a href="#" onclick="window.print();return false;"><i class="fa fa-print" aria-hidden="true"></i></a></p></span>
         <p class="lead">{{ page.title }}</p>
         <hr />
         <br />
         {{ content }}
+        <br /><br /><br />
+        <hr />
+        <br />
+        {% if page.topnavbar != brov2 %}
+        {% include brov2nav.html %}
+        {% endif %}
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />

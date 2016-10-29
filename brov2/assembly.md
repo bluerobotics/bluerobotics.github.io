@@ -1,8 +1,9 @@
 ---
 layout: default
-title: BlueROV2 Assembly Instructions
+title: BlueROV2 Kit Assembly
 permalink: /brov2/assembly/
 order: 1
+topnavbar: brov2
 nav:
 - Introduction: introduction
 - - Safety: safety
@@ -66,7 +67,7 @@ manual-links:
 
 ---
 
-<img src="/brov2/cad/BlueROV2-Black-Sands-1.png" class="img-responsive" style="max-width:900px" />
+<img src="/brov2/cad/BlueROV2-Black-Sands-1.png" class="img-responsive img-center" style="max-width:800px" />
 
 # Introduction
 

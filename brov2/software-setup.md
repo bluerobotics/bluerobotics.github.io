@@ -3,6 +3,7 @@ layout: default
 title: BlueROV2 Software Setup
 permalink: /brov2/software-setup/
 order: 1
+topnavbar: brov2
 nav:
 - Introduction: introduction
 - Install QGroundControl: install-qgroundcontrol
