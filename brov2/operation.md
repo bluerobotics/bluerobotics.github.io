@@ -48,13 +48,7 @@ manual-links:
 
 # Introduction
 
-<<<<<<< HEAD
 The information on this page is for operating the BlueROV2. In order to operate the BlueROV2, it must be assembled and the software must be set up. If you have not assembled your BlueROV2, please see our [Assembly Manual](/brov2/assembly/). If you have not completed the software setup, please see our [Software Setup](/brov2/software-setup/) page.
-=======
-This page is under construction and will be updated frequently in the next several weeks. !!
-
-The _BlueROV2_ is the most capable, flexible, and affordable ROV on the market. The 6-thruster vectored configuration, coupled with strong static stability, provides a vehicle that is smooth and stable, yet highly maneuverable. The _BlueROV2_ provides the capabilities of a high-end mini-ROV at the price of the most basic commercial ROVs. This page contains information about the batteries, setup, operation, and maintenance of the _BlueROV2_.
->>>>>>> buildfailfix
 
 ## Safety 
 
