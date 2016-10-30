@@ -20,9 +20,7 @@ nav:
 - - Camera Tilt: camera-tilt
 - - Standard and Advanced Comparison: standard-and-advanced-comparison
 - 3D Model: d-model
-- Assembly Manual: assembly-manual
-- Control Software: control-software
-- Operating Manual: operation-manual
+- User Manuals: user-manuals
 
 store-links:
 - BlueROV2: https://www.bluerobotics.com/store/rov/bluerov2/
@@ -170,18 +168,12 @@ The batteries can be changed in about 30 seconds.
 
 These are BIG files since the model is fairly complex. If you just want to check out a 3D view or 3D models of the BlueROV, we recommend [checking out the CAD files on GrabCAD](https://grabcad.com/library/bluerov2-1).
 
-# Assembly Manual
+# User Manuals
 
-Please look at our [Assembly Tutorial Page](/brov2/assembly) for more detailed assembly instructions.
+1. Please look at our [Assembly Manual](/brov2/assembly) for more detailed assembly instructions.
 
-# Control Software
+2. If you **received your BlueROV2 after October 24, 2016**, please look at our [Software Setup Manual](/brov2/software-setup/) for more details on setting up your topside computer. If you **received your BlueROV2 prior to October 24, 2016** please look at our [ArduSub Documentation](http://ardusub.com/introduction/#overview) for more details on the control software.
 
-If you received your BlueROV2 after October 24, 2016, please look at our [Software Setup Page](/brov2/software-setup/) for more details on setting up your topside computer. 
-
-If you received your BlueROV2 prior to October 24, 2016 please look at our [ArduSub Documentation](http://ardusub.com/introduction/#overview) for more details on the control software.
-
-# Operation Manual
-
-Please look at our [_BlueROV2_ Operation Page](/brov2/operation) for a detailed operating manual.
+3. Please look at our [_BlueROV2_ Operating Manual](/brov2/operation) for a detailed operating manual.
 
 
