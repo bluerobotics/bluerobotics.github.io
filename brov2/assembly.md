@@ -5,7 +5,7 @@ permalink: /brov2/assembly/
 order: 1
 topnavbar: brov2
 nav:
-- Introduction: introduction
+- Introduction: assembly-intro
 - - Safety: safety
 - Required Tools: required-tools-not-included
 - What's Included: whats-included
@@ -68,7 +68,7 @@ manual-links:
 
 <img src="/brov2/cad/BlueROV2-Black-Sands-1.png" class="img-responsive img-center" style="max-width:800px" />
 
-# Introduction
+# Assembly Intro
 
 The _BlueROV_ kit comes almost ready to dive. The assembly can be completed with basic hand tools; no soldering or potting is required. We have included a couple of the tools that will be used most often to make assembly and regular use go as smoothly as possible.
 

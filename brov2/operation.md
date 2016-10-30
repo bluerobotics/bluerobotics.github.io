@@ -5,7 +5,7 @@ permalink: /brov2/operation/
 order: 1
 topnavbar: brov2
 nav:
-- Introduction: introduction
+- Introduction: operating-manual-intro
 - - Safety: safety
 - Batteries: batteries
 - - LiPo Safety: lipo-safety
@@ -47,7 +47,7 @@ manual-links:
 
 <img src="/brov2/cad/BR2-banner.png" class="img-responsive img-center" style="max-width:800px" />
 
-# Introduction
+# Operating Manual Intro
 
 The information on this page is for operating the BlueROV2. In order to operate the BlueROV2, it must be assembled and the software must be set up. If you have not assembled your BlueROV2, please see our [Assembly Manual](/brov2/assembly/). If you have not completed the software setup, please see our [Software Setup](/brov2/software-setup/) page.
 
