@@ -20,7 +20,7 @@ nav:
 - Button Setup: button-setup
 - Configure Motor Directions: configure-motor-directions
 - Voltage and Current Measurement Setup: voltage-and-current-measurement-setup
-- Operations Manual: operations-manual 
+- To The First Dive!: to-the-first-dive
 
 
 store-links:
@@ -209,7 +209,7 @@ The default settings for voltage and current measurement are for the [Multistar 
 
 <img src="/brov2/cad/current-monitoring-setup.PNG" class="img-responsive img-center" style="max-width:800px" />
 
-# Operations Manual 
+# To The First Dive! 
 
 Your computer setup is now complete! Please see our [Operations Manual](/brov2/operation/) to finish getting ready for your first dive!
 

@@ -54,8 +54,7 @@ nav:
 - - Installing Fairings: installing-the-fairings-and-buoyancy
 - - Ballast: mounting-ballast-to-the-frame
 - Topside Setup: topside-setup
-- Software Setup: software-setup
-- Operations: operating-the-rov
+- Next Steps: next-steps
 
 store-links:
 - BlueROV: http://bluerobotics.com/store/rov/bluerov2/
@@ -929,14 +928,11 @@ To get the longest battery life and the best driving experience, it is important
 
 <img src="/brov2/cad/topside-wiring.png" class="img-responsive" style="max-height:500px" />
 
-# Software Setup
+# Next Steps
 
-To set up the software on your topside computer, please see our [Software Setup](/brov2/software-setup/) page.
+First, set up the software on your topside computer. Please see our [Software Setup](/brov2/software-setup/) page.
 
-# Operating the ROV
-
-Please refer to the [Operations Manual](/brov2/operation/) for detailed information of setting up the software and completing your first dive.
-	
+Next, refer to the [Operating Manual](/brov2/operation/) to learn how complete your first dive.
 
 
 
