@@ -149,7 +149,7 @@ The batteries can be changed in about 30 seconds.
 ## Camera Tilt
 					   
 | Tilt Range                 | +/- 90 degree camera tilt (180 total range)                                             | 
-| Tilt Servo                 | [Hitec HS-5055MG](https://www.bluerobotics.com/store/servos/hs-5055mg-servo/)           |
+| Tilt Servo                 | Hitec HS-5055MG         |
 
 ## Standard and Advanced Comparison
 
@@ -159,7 +159,7 @@ The batteries can be changed in about 30 seconds.
 | Resolution                 | 700 TVL                                                                               | 1080p                                                                                                          |
 |                            | **Standard Control System**                                            		      | **Advanced Control System**                                                                        | 
 | Tether Board               | [Fathom-S Tether Interface Board](http://docs.bluerobotics.com/fathom-s/) 			     | [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/)                     |
-| Control System  | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/hawk-r1/)         |
+| Control System  | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
 |                            |                                                                                                 | Computer such as the Raspberry Pi 3                                                                           |
 |                            | **Standard Required Topside**                                                             | **Advanced Required Topside**                                                        |
 |                            | Laptop or Tablet                     												      | Laptop or Tablet                                                                                                    |

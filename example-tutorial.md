@@ -10,7 +10,6 @@ nav:
 - Step 2 - Cut Wires: step-2-cut-and-strip-motor-wires
 
 store-links:
-- OpenROV Compatible Kit: http://bluerobotics.com/store/rov/openrov-compatible-kit/
 - T100 Thruster: http://bluerobotics.com/store/thrusters/t100-thruster/
 - M100 Motor: http://bluerobotics.com/store/thrusters/m100-motor/
 
