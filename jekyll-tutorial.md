@@ -45,7 +45,7 @@ jekyll serve
 
 Jekyll will reprocess the files anytime you change anything, so just leave this running. 
 
-You can visit the locally served page at *[http://localhost:4000/](http://localhost:4000/)*.
+You can visit the locally served page at <a href="http://localhost:4000/" data-proofer-ignore>http://localhost:4000/</a>.
 
 # Committing and Pushing Changes
 
