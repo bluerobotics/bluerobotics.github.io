@@ -1,10 +1,11 @@
 ---
 layout: default
-title: BlueROV2 Assembly Instructions
+title: BlueROV2 Kit Assembly
 permalink: /brov2/assembly/
 order: 1
+topnavbar: brov2
 nav:
-- Introduction: introduction
+- Introduction: assembly-intro
 - - Safety: safety
 - Required Tools: required-tools-not-included
 - What's Included: whats-included
@@ -40,7 +41,7 @@ nav:
 - - Penetrator Installation: installing-the-penetrators
 - - End Cap Installation: installing-the-end-cap
 - - Finishing Battery Enclosure: finishing-the-battery-enclosure
-- - Preliminary Vacuum Test: preliminary-vacuum-test-optional
+- - Optional Preliminary Vacuum Test: optional-preliminary-vacuum-test
 - - Penetrator Power Wiring: installing-the-power-wires-from-the-penetrators
 - - Penetrator Signal Wiring: installing-the-signal-wires-from-the-penetrators
 - - Electronics Cable Routing: electronics-tray-cable-management
@@ -53,8 +54,7 @@ nav:
 - - Installing Fairings: installing-the-fairings-and-buoyancy
 - - Ballast: mounting-ballast-to-the-frame
 - Topside Setup: topside-setup
-- Software Setup: software-setup
-- Operations: operating-the-rov
+- Next Steps: next-steps
 
 store-links:
 - BlueROV: http://bluerobotics.com/store/rov/bluerov2/
@@ -66,9 +66,9 @@ manual-links:
 
 ---
 
-<img src="/brov2/cad/BlueROV2-Black-Sands-1.png" class="img-responsive" style="max-width:900px" />
+<img src="/brov2/cad/BlueROV2-Black-Sands-1.png" class="img-responsive img-center" style="max-width:800px" />
 
-# Introduction
+# Assembly Intro
 
 The _BlueROV_ kit comes almost ready to dive. The assembly can be completed with basic hand tools; no soldering or potting is required. We have included a couple of the tools that will be used most often to make assembly and regular use go as smoothly as possible.
 
@@ -162,7 +162,7 @@ Quantity      | Part														| Usage
 
 ## Tools                                                      
 
-Quantity      | Part													| Usages
+Quantity      | Part													| Usage
 ------------- | --------------------------------------------------------| ---------------
 1             | Silicone Grease Tube									| Lubricate O-rings prior to installation 
 1             | O-Ring Pick   											| Remove and install O-rings
@@ -656,7 +656,7 @@ To finish installing the battery enclosure you need the following parts and tool
 
 	<img src="/brov2/cad/brov2-bullet-to-xt90.png" class="img-responsive" style="max-width:900px" />
 
-## Preliminary Vacuum Test (Optional)
+## Optional Preliminary Vacuum Test
 
 This is the best point in the assembly process to perform a vacuum test. Since you have installed all of the penetrators, but have not done any of the wiring, troubleshooting will be as easy as possible. To prepare for the vacuum test you need to purchase a vacuum pump. We recommend [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump).
 
@@ -928,14 +928,11 @@ To get the longest battery life and the best driving experience, it is important
 
 <img src="/brov2/cad/topside-wiring.png" class="img-responsive" style="max-height:500px" />
 
-# Software Setup
+# Next Steps
 
-To set up the software on your topside computer, please see our [Software Setup](/brov2/software-setup/) page.
+First, set up the software on your topside computer. Please see our [Software Setup](/brov2/software-setup/) page.
 
-# Operating the ROV
-
-Please refer to the [Operations Manual](/brov2/operation/) for detailed information of setting up the software and completing your first dive.
-	
+Next, refer to the [Operating Manual](/brov2/operation/) to learn how complete your first dive.
 
 
 

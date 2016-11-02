@@ -15,7 +15,7 @@ nav:
 
 store-links:
 - Electronics Tray:  https://www.bluerobotics.com/store/watertight-enclosures/4-series/electronics-tray-2/
-- Watertight Enclosure for ROV/AUV (4" Series): https://www.bluerobotics.com/store/watertight-enclosures/wte4-asm-r1/#configuration
+- Watertight Enclosure for ROV/AUV (4" Series): https://www.bluerobotics.com/store/watertight-enclosures/wte4-asm-r1/
 - O-Ring Flange (4" Series): https://www.bluerobotics.com/store/watertight-enclosures/wte4-m-flange-seal-r3/
 
 manual-links:
@@ -41,7 +41,7 @@ The _Electronics Tray_ is a convenient new way to mount your underwater electron
 	- 1 [3DR PixHawk autopilot](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) 
 	- 1 [Blue Robotics Tether Board](https://www.bluerobotics.com/product-category/electronics/tether-interface/)
 	- 1 [BeagleBone Black](https://beagleboard.org/black) or [Raspberry Pi 2/3](https://www.bluerobotics.com/store/electronics/rpi3-r1/)
-	- 1 [Blue Robotics Camtilt](https://www.bluerobotics.com/store/uncategorized/camera-tilt-mount/#mount)
+	- 1 [Blue Robotics Camtilt](https://www.bluerobotics.com/store/uncategorized/camera-tilt-mount/)
 	- 2 [8-Circuit Barrier Block](http://www.digikey.com/product-search/en?keywords=wm5765-nd) 
 	- 2 [9-Circuit Eurostyle Terminal Strip](http://www.alliedelec.com/m/d/51da743e94f770c045f4103843fbb9bb.pdf)
 

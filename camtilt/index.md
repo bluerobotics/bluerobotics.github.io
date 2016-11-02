@@ -32,7 +32,7 @@ manual-links:
 
 # Introduction
 
-The _Camera Tilt System_ is a tilting camera mount which works seamlessly with the [Watertight Enclosure for ROV/AUV (4" Series)](https://www.bluerobotics.com/store/watertight-enclosures/wte4-asm-r1/#configuration) and the [Electronics Tray (4" Series)](https://www.bluerobotics.com/store/watertight-enclosures/4-series/electronics-tray-2). The tilting servo is the high-quality digital HS-5055MG servo with metal gears. The camera mounts are compatible with our [Raspberry Pi Camera w/ Wide Angle Lens](https://www.bluerobotics.com/store/electronics/cam-rpi-wide-r1/) and our [Low-Light Analog Camera](https://www.bluerobotics.com/store/electronics/low-light-ntsc-camera/). We have also made the 3D CAD files freely available so that you can modify them to fit your camera or servo! 
+The _Camera Tilt System_ is a tilting camera mount which works seamlessly with the [Watertight Enclosure for ROV/AUV (4" Series)](https://www.bluerobotics.com/store/watertight-enclosures/wte4-asm-r1/) and the [Electronics Tray (4" Series)](https://www.bluerobotics.com/store/watertight-enclosures/4-series/electronics-tray-2). The tilting servo is the high-quality digital HS-5055MG servo with metal gears. The camera mounts are compatible with our [Raspberry Pi Camera w/ Wide Angle Lens](https://www.bluerobotics.com/store/electronics/cam-rpi-wide-r1/) and our [Low-Light Analog Camera](https://www.bluerobotics.com/store/electronics/low-light-ntsc-camera/). We have also made the 3D CAD files freely available so that you can modify them to fit your camera or servo! 
 
 # Specifications
 

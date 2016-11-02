@@ -3,6 +3,7 @@ layout: default
 title: BlueROV2
 permalink: /brov2/
 order: 1
+topnavbar: brov2
 nav:
 - Introduction: introduction
 - - Features: features
@@ -19,10 +20,7 @@ nav:
 - - Camera Tilt: camera-tilt
 - - Standard and Advanced Comparison: standard-and-advanced-comparison
 - 3D Model: d-model
-- Assembly-Manual: assembly-manual
-- Control Software: control-software
-- Operation-Manual: operation-manual
-
+- User Manuals: user-manuals
 
 store-links:
 - BlueROV2: https://www.bluerobotics.com/store/rov/bluerov2/
@@ -34,7 +32,7 @@ manual-links:
 
 ---
 
-<img src="/brov2/cad/BlueROV2-Honaunau-6.png" class="img-responsive" style="max-width:900px" />
+<img src="/brov2/cad/BlueROV2-Honaunau-6.png" class="img-responsive img-center" style="max-width:800px" />
 
 # Introduction
 
@@ -149,7 +147,7 @@ The batteries can be changed in about 30 seconds.
 ## Camera Tilt
 					   
 | Tilt Range                 | +/- 90 degree camera tilt (180 total range)                                             | 
-| Tilt Servo                 | [Hitec HS-5055MG](https://www.bluerobotics.com/store/servos/hs-5055mg-servo/)           |
+| Tilt Servo                 | Hitec HS-5055MG         |
 
 ## Standard and Advanced Comparison
 
@@ -159,7 +157,7 @@ The batteries can be changed in about 30 seconds.
 | Resolution                 | 700 TVL                                                                               | 1080p                                                                                                          |
 |                            | **Standard Control System**                                            		      | **Advanced Control System**                                                                        | 
 | Tether Board               | [Fathom-S Tether Interface Board](http://docs.bluerobotics.com/fathom-s/) 			     | [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/)                     |
-| Control System  | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/hawk-r1/)         |
+| Control System  | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
 |                            |                                                                                                 | Computer such as the Raspberry Pi 3                                                                           |
 |                            | **Standard Required Topside**                                                             | **Advanced Required Topside**                                                        |
 |                            | Laptop or Tablet                     												      | Laptop or Tablet                                                                                                    |
@@ -170,18 +168,12 @@ The batteries can be changed in about 30 seconds.
 
 These are BIG files since the model is fairly complex. If you just want to check out a 3D view or 3D models of the BlueROV, we recommend [checking out the CAD files on GrabCAD](https://grabcad.com/library/bluerov2-1).
 
-# Assembly Manual
+# User Manuals
 
-Please look at our [Assembly Tutorial Page](/brov2/assembly) for more detailed assembly instructions.
+1. Please look at our [Assembly Manual](/brov2/assembly) for more detailed assembly instructions.
 
-# Control Software
+2. If you **received your BlueROV2 after October 24, 2016**, please look at our [Software Setup Manual](/brov2/software-setup/) for more details on setting up your topside computer. If you **received your BlueROV2 prior to October 24, 2016** please look at our [ArduSub Documentation](http://ardusub.com/introduction/#overview) for more details on the control software.
 
-If you received your BlueROV2 after October 24, 2016, please look at our [Software Setup Page](/brov2/software-setup/) for more details on setting up your topside computer. 
-
-If you received your BlueROV2 prior to October 24, 2016 please look at our [ArduSub Documentation](http://ardusub.com/introduction/#overview) for more details on the control software.
-
-# Operation Manual
-
-Please look at our [_BlueROV2_ Operation Page](/brov2/operation) for a detailed operating manual.
+3. Please look at our [_BlueROV2_ Operating Manual](/brov2/operation) for a detailed operating manual.
 
 

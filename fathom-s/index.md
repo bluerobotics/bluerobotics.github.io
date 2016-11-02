@@ -6,7 +6,7 @@ nav:
 - Introduction: introduction
 - - Quick Start: quick-start
 - Specifications: specifications
-- - Diagram: function-diagrams
+- - Function Diagrams: function-diagrams
 - - Specification Table: specification-table
 - - Schematic: schematic
 - Installation: installation
@@ -34,7 +34,7 @@ The <em>Fathom-S</em> Tether Interface Boards provide a video and communication 
 
 The Fathom-S hardware is designed to be used with tether cables that have four twisted pairs, preferably similar to Cat5 cable. The design is based on the tether cable available from Blue Robotics, but will also work with standard Cat5 network cable.
 
-The Fathom-S interface includes [DroneCode Mini compatible](https://wiki.dronecode.org/workgroup/connectors/start) connectors for easy use with the Pixhawk and other autopilot controllers and the [ArduSub Control Software](www.ardusub.com).
+The Fathom-S interface includes [DroneCode Mini compatible](https://wiki.dronecode.org/workgroup/connectors/start) connectors for easy use with the Pixhawk and other autopilot controllers and the [ArduSub Control Software](http://ardusub.com).
 
 ## Features 
 

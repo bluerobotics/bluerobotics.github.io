@@ -3,8 +3,9 @@ layout: default
 title: BlueROV2 Software Setup
 permalink: /brov2/software-setup/
 order: 1
+topnavbar: brov2
 nav:
-- Introduction: introduction
+- Introduction: software-intro
 - Install QGroundControl: install-qgroundcontrol
 - Computer Set Up: setting-up-your-computer
 - - Windows Setup: windows-setup
@@ -19,7 +20,7 @@ nav:
 - Sensor Calibration: sensor-calibration
 - Configure Motor Directions: configure-motor-directions
 - Voltage and Current Measurement Setup: voltage-and-current-measurement-setup
-- Operations Manual: operations-manual 
+- To The First Dive!: to-the-first-dive
 
 store-links:
 - BlueROV: https://www.bluerobotics.com/store/rov/bluerov2/
@@ -32,7 +33,7 @@ manual-links:
 
 <img src="/brov2/cad/ROV-scuba-1.png" class="img-responsive img-center" style="max-width:800px" />
 
-# Introduction
+# Software Intro
 
 These are instructions for the first time that you set up your computer to work with the BlueROV2. If you have not assembled your BlueROV2, please see our [Assembly Manual](/brov2/assembly/) and assemble your BlueROV2 prior to setting up the software. If you received your BlueROV2 prior to October 24, 2016 proceed to [ArduSub.com](http://ardusub.com/initial-setup/#install-qgroundcontrol) for software setup information. The **PixHawks** that shipped **prior to October 24, 2016** were **not flashed with firmware** and require some **QGroundControl parameters to be changed**. 
 
@@ -203,7 +204,7 @@ The default settings for voltage and current measurement are for the [Multistar 
 
 <img src="/brov2/cad/current-monitoring-setup.PNG" class="img-responsive img-center" style="max-width:800px" />
 
-# Operations Manual 
+# To The First Dive! 
 
 Your computer setup is now complete! Please see our [Operations Manual](/brov2/operation/) to finish getting ready for your first dive!
 
