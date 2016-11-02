@@ -10,17 +10,16 @@ nav:
 - - Windows Setup: windows-setup
 - - Mac Setup: mac-setup
 - - Linux Setup: linux-setup
-- Connect Controller: connect-controller-to-qgroundcontrol
+- Connect Joystick: connect-joystick-to-qgroundcontrol
 - - Windows: windows
 - - Mac: mac
 - - Linux: linux
-- Sensor Calibration: sensor-calibration
 - Joystick Calibration: joystickgamepad-calibration
 - Button Setup: button-setup
+- Sensor Calibration: sensor-calibration
 - Configure Motor Directions: configure-motor-directions
 - Voltage and Current Measurement Setup: voltage-and-current-measurement-setup
 - Operations Manual: operations-manual 
-
 
 store-links:
 - BlueROV: https://www.bluerobotics.com/store/rov/bluerov2/
@@ -107,7 +106,7 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 ## Linux Setup
 
-# Connect Controller to QGroundControl
+# Connect Joystick to QGroundControl
 
 ## Windows
 
@@ -130,6 +129,8 @@ Logitech controllers should have the switch on the back set to "X".
 
 **XBox 360 Controller**
 
+**Note: This driver is unstable for wireless XBox 360 controllers in macOS Sierra.**
+
 1. Download the driver [here](https://github.com/360Controller/360Controller/releases/download/v0.16.4/360ControllerInstall_0.16.4.dmg). For more information on this driver, see the [Readme File.](https://github.com/360Controller/360Controller#about)
 2. Install the XBox 360 controller driver.
 2. Plug in the Windows XBox 360 Wireless Receiver for Windows.
@@ -148,22 +149,6 @@ There is currently no support for wireless use.
 Logitech controllers should have the switch on the back set to "X"
 
 ## Linux
-
-
-**XBox One Controller**
-
-
-1. Plug in the wireless dongle into a USB Port
-
-# Sensor Calibration
-
-1. Go to the settings tab in QGroundControl and select the red _Sensors_ tab on the left sidebar.
-2. Choose your autopilot orientation:
-	- `Roll90` for the BlueROV2
-3. Click on the _Accelerometers_ and follow the instructions.
-4. Click on _Compass_ and follow the instructions.
-
-When completed, the _Sensors_ tab will no longer be red.
 
 # Joystick/Gamepad Calibration
 
@@ -185,6 +170,16 @@ The first time you use a new joystick or gamepad in QGroundControl, you will be 
 The default button setup for the BlueROV2 is as shown in the image below:
 
 <img src="/brov2/cad/controller-buttons.png" class="img-responsive img-center" style="max-width:800px" />
+
+# Sensor Calibration
+
+1. Go to the settings tab in QGroundControl and select the red _Sensors_ tab on the left sidebar.
+2. Choose your autopilot orientation:
+	- `Roll90` for the BlueROV2
+3. Click on the _Accelerometers_ and follow the instructions.
+4. Click on _Compass_ and follow the instructions.
+
+When completed, the _Sensors_ tab will no longer be red.
 
 # Configure Motor Directions
 
