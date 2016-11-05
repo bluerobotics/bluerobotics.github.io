@@ -73,7 +73,7 @@ All 3D models are provided in zip archives containing the follow file types:
 
 ## Assembling the Electronics Tray
 
-1. Install the four short standoffs in the four inch O-ring flange.
+1. Install the four short standoffs in the four inch O-ring flange. **Do not overtighten. Finger-tight plus 1/8th of a turn will secure these.**
 
 	<img src="/etray/cad/ASSEM-ETRAY-X1-FOR-DOC.PNG" class="img-responsive" style="max-width:900px" />
 
