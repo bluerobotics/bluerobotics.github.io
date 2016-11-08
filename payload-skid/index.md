@@ -26,7 +26,7 @@ The <em>Payload Skid</em> is a modular frame for the BlueROV2 with mounting poin
 
 ## Usage
 
-Assemble according to the below steps, and the Payload Skid will allow you to mount two additional Lumens, sixteen additional ballast weights, and three additional 3" watertight enclosures or one additional 4" watertight enclosure. Note that you may have to add more than a few ballast weights to get your BlueROV2 back to neutral buoyancy if your additional watertight enclosures are mostly empty!
+Assemble according to the below steps, and the Payload Skid will allow you to mount two additional Lumens, twelve additional ballast weights, and three additional 3" watertight enclosures or one additional 4" watertight enclosure. Note that you may have to add more than a few ballast weights to get your BlueROV2 back to neutral buoyancy if your additional watertight enclosures are mostly empty!
 
 Depending on the enclosure positions, you may also have to balance your BlueROV2 more towards being positively buoyant, rather than neutral. For example, three interally mounted 3" watertight enclosures will partially block the vertical thrusters when surfacing, thus some additional positive buoyancy will make up for this. Mounting the wtertight enclosures on the outside sides of the Payload Skid or only mounting one central watertight enclosure will not alter ROV performance significantly.
 
@@ -43,9 +43,11 @@ Depending on the enclosure positions, you may also have to balance your BlueROV2
 |----------------------|
 
 
-## 2D Drawing
+## 2D Drawings
 
 <img src="/payload-skid/cad/payload-skid-2view.png" class="img-responsive" style="max-width:900px" />
+
+<img src="/payload-skid/cad/rov-payload-dimensions.PNG" class="img-responsive" style="max-width:900px" />
 
 ## 3D Model
 
