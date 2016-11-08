@@ -12,7 +12,7 @@ nav:
 - Assembly: assembly
 
 store-links:
-- Enclosure Vent: https://www.bluerobotics.com/store/vent-r1/
+- Enclosure Vent: https://www.bluerobotics.com/store/watertight-enclosures/vent-asm-r1/
 - Watertight Enclosure - 2" Series: https://www.bluerobotics.com/product-category/2-series/
 - Watertight Enclosure - 3" Series: https://www.bluerobotics.com/product-category/3-series/
 - Watertight Enclosure - 4" Series: https://www.bluerobotics.com/product-category/4-series/
