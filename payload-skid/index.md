@@ -45,9 +45,9 @@ Depending on the enclosure positions, you may also have to balance your BlueROV2
 
 ## 2D Drawings
 
-<img src="/payload-skid/cad/payload-skid-2view.png" class="img-responsive" style="max-width:800px" />
+<img src="/payload-skid/cad/payload-skid-2view.png" class="img-responsive img-center"style="max-width:800px" />
 
-<img src="/payload-skid/cad/rov-payload-dimensions.png" class="img-responsive" style="max-width:800px" />
+<img src="/payload-skid/cad/rov-payload-dimensions.png" class="img-responsive img-center"style="max-width:800px" />
 
 ## 3D Model
 
@@ -66,43 +66,43 @@ All 3D models are provided in zip archives containing the follow file types:
 
 ## Step 1: Attaching the Side Panels
 
-<img src="/payload-skid/cad/payload-step-1.png" class="img-responsive" style="max-width:800px"  />
+<img src="/payload-skid/cad/payload-step-1.png" class="img-responsive img-center"style="max-width:800px"  />
 
 Use four M5x16 screws to attatch the side panels to the bottom panel. Be sure to place the bottom panel counter-bore side down, and align the panels with bnothem lumen mounting holes pointing forward.
 
 ## Step 2: Attaching the Standoffs
 
-<img src="/payload-skid/cad/payload-step-2.png" class="img-responsive" style="max-width:800px"  />
+<img src="/payload-skid/cad/payload-step-2.png" class="img-responsive img-center"style="max-width:800px"  />
 
 Screw the standoffs between the tops of the side panels with four M4x16 screws. Note that these standoffs may be removed once the Payload Skid is mounted to a BlueROV2, but it is recommended to keep them on at all times for structural stability.
 
 ## Step 3: Attaching the Clips 
 
-<img src="/payload-skid/cad/payload-step-3.png" class="img-responsive" style="max-width:800px"  />
+<img src="/payload-skid/cad/payload-step-3.png" class="img-responsive img-center"style="max-width:800px"  />
 
 Place your BlueROV2 on top of the Payload Skid, and use the ROV side mounting holes as guides to attach the mounting clips in the proper orientation, using eight M5x16 screws.
 
 ## Step 4: Attaching the Watertight Enclosure Clamps
 
-<img src="/payload-skid/cad/payload-step-4.png" class="img-responsive" style="max-width:800px"  />
+<img src="/payload-skid/cad/payload-step-4.png" class="img-responsive img-center"style="max-width:800px"  />
 
 Using four M4x14 screws, attach a 3" or 4" watertight enclosure clamp to top of the bottom panel. Using thread-locker is recommended.
 
 ## Step 5: Securing the Watertight Enclosure
 
-<img src="/payload-skid/cad/payload-step-5.png" class="img-responsive" style="max-width:800px"  />
+<img src="/payload-skid/cad/payload-step-5.png" class="img-responsive img-center"style="max-width:800px"  />
 
 Using four M3x12 screws, clamp your 3" or 4" watertight enclosure into place with the other clamp. Install all four screws loosly at first and then slowly tighten them on both sides evenly. Keep the enclosure approximately centered in the clamps. Using thread-locker is recommended. Repeat steps 4 and 5 if you are mounting additonal watertight enclosures to the side panels, note that you will only be able to mount three enclosures on the inside of the Payload Skid if they are all 3" models.
 
 ## Step 6: Installing Additional Lights
 
-<img src="/payload-skid/cad/payload-step-6.png" class="img-responsive" style="max-width:800px"  />
+<img src="/payload-skid/cad/payload-step-6.png" class="img-responsive img-center"style="max-width:800px"  />
 
 Two additional Lumens can be mounted to the front of the payload skid using the provided mounting holes and two M3x12 screws.
 
 ## Step 7: Removing from the ROV
 
-<img src="/payload-skid/cad/payload-skid-2.png" class="img-responsive" style="max-width:600px"  />
+<img src="/payload-skid/cad/payload-skid-2.png" class="img-responsive img-center"style="max-width:600px"  />
 
 The Payload Skid can be separated from the BlueROV2 by removing the four ROV side M5x16 mounting clip screws, and lifting the BlueROV2 off the Payload Skid. The Payload Skid side mounting clip screws can be left in place.
 
