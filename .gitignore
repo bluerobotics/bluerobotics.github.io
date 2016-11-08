@@ -2,3 +2,4 @@
 _layouts/
 _site/
 .sass-cache/
+Gemfile.lock
