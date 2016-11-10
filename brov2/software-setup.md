@@ -194,9 +194,11 @@ The motor directions for the BlueROV2 must be tested prior to use.
 
 2. Arm the BlueROV2 by pressing "Start"
 
-3. Move the left joystick forwards and verify that the thrusters are running the correct way. Air should be blowing out of the four vectored thrusters towards the back of the vehicle.
+3. Move the left joystick forwards and verify that the thrusters are running the correct way. Air should be blowing out of the four vectored thrusters towards the back of the vehicle. If one of the thrusters is blowing air towards the front, go to _Settings_ in QGroundContorl, then go to _Parameters_ and select _MOT_. Select the motor that is blowing air towards the front and switch the motor direction using the dropdown on the right.
 
-4. Move the right joystick forwards and verify that the thrusters are running the correct way. Air should be blowing out of the two vertical thrusters towards the bottom of the vehicle.
+	<img src="/brov2/cad/configure-motor-directions-annotated.PNG" class="img-responsive img-center" style="max-width:800px" />
+
+4. Move the right joystick forwards and verify that the thrusters are running the correct way. Air should be blowing out of the two vertical thrusters towards the bottom of the vehicle. If one of the thrusters is blowing air towards the top, go to _Settings_ in QGroundControl, then go to _Parameters_ and select _MOT_. Select the motor that is blowing air towards the top and switch the motor direction using the dropdown on the right.
 
 # Voltage and Current Measurement Setup 
 
