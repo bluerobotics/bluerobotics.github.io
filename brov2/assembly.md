@@ -721,14 +721,13 @@ To install the <em>SOS</em> Leak Sensor you will need the following parts and to
 
 	<img src="/sos/cad/sos-layout.PNG" class="img-responsive" style="max-width:900px"  />
 
-2. Connect the 3 pin extension cable to the <em>SOS</em> Leak Sensor board and Pixhawk port AUX OUT 6, taking care to plug the cable in the right orientation.
+2. Connect the 3 pin extension cable to the <em>SOS</em> Leak Sensor board and Pixhawk port AUX OUT 6, taking care to plug the cable in the right orientation with ground (black) facing the Pixhawk top.
 
-	<img src="/sos/cad/board-placement.png" class="img-responsive" style="max-width:900px"  />
+	<img src="/sos/cad/board-placement.PNG" class="img-responsive" style="max-width:900px"  />
 
-3. Peel off the backing and stick the blue SOS Leak Sensor probes in strategic locations (like the penentrators, flange seals, etc.) throughout your BlueROV2 electronics watertight enclosure, or secure them with a small zip tie. Clean the mounting areas first with some isoprpyl alcohol to ensure a good bond. We recommend placing the 12" probes at the bottom front and back of the electronics tray, and the 6" ones at the middle bottom of the tray.
-Be sure to place at least one probe at the bottom of the watertight enclosure, where leaking water is likely to collect. Plug the JST-GH ends of the probes into the SOS Leak Sensor board in any combination.
+3. Prep mounting surfaces with some isopropyl alcohol, then peel off the backing and stick the blue SOS Leak Sensor probes in strategic locations (like the penentrators, flange seals, etc.) throughout your BlueROV2 electronics watertight enclosure, or secure them with a small zip tie.  Be sure to place at least one probe at the bottom of the watertight enclosure, where leaking water is likely to collect. Plug the white JST-GH ends of the probes into the SOS Leak Sensor board in any combination.
 
-	<img src="/sos/cad/probe-placement.png" class="img-responsive" style="max-width:900px"  />
+	<img src="/sos/cad/probe-placement.PNG" class="img-responsive" style="max-width:900px"  />
 
 ## Installing the Power Wires from the Penetrators
 

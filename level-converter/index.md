@@ -4,29 +4,28 @@ title: I2C Level Converter Documentation
 order: 1
 nav:
 - Introduction: introduction
-- - Usage: usage
 - Specifications: specifications
 - - Function Diagram: function-diagram
 - - Specification Table: specification-table
 - - Schematic: schematic
+- Usage: usage
+
 
 store-links:
 - I2C Level Converter: https://www.bluerobotics.com/store/electronics/level-converter-r1/
+- Bar30 Pressure Sensor: https://www.bluerobotics.com/store/electronics/bar30-sensor-r1/
+- Celsius Temperature Sensor: https://www.bluerobotics.com/store/electronics/celsius-sensor-r1/
 
 manual-links:
-- Bar30: /bar30
-- Celsius: /celsius
+- Bar30 Pressure Sensor: /bar30
+- Celsius Temperature Sensor: /celsius 
 ---
 
 <img src="/level-converter/cad/banner-converter.PNG" class="img-responsive" style="max-width:900px"  />
 
 # Introduction
 
-The <em>I<sup>2</sup>C Level Converter</em> allows you the run 3.3v logic sensors like the <a href="https://www.bluerobotics.com/store/electronics/bar30-sensor-r1/">Bar30</a> or <a href="https://www.bluerobotics.com/store/electronics/celsius-sensor-r1/">Celsius</a> and other accessories off of a 5v logic device like the Arduino Uno. Attempting to run the Bar30 or Celsius off of a 5v logic device without a level converter will result in improper operation, and ultimately damage the sensor. A selectable solder jumper lets you power your instrument at 3.3v or 5v, independant of the 3.3v logic level. The <em>I<sup>2</sup>C Level Converter</em> has bidirectional capability and can also be used to run 5v logic instruments on 3.3v logic devices, provided that the <em>I<sup>2</sup>C Level Converter</em> is powered by 5v.
-
-## Usage
-
-To use the <em>I<sup>2</sup>C Level Converter</em>, first determine if your 3.3v logic instrument should be powered by 3.3v or 5v. Although they are 3.3v and 5v tolerant, we recommend that the Bar30 and Celsius are powered by 5v for best performance. The solder jumper is set to 5v by default, but it can be switched if necessary. Plug your instrument into one of the input ports (4 pin 0.1" header, JST-GH, DF13) and your 5v device to the host device output port, and your instrument is ready to be used. 
+The <em>I<sup>2</sup>C Level Converter</em> allows you the run 3.3v logic sensors like the <a href="https://www.bluerobotics.com/store/electronics/bar30-sensor-r1/">Bar30</a> or <a href="https://www.bluerobotics.com/store/electronics/celsius-sensor-r1/">Celsius</a> and other accessories off of a 5v logic device like the Arduino Uno. Attempting to run the Bar30 or Celsius off of a 5v logic device without a level converter will result in improper operation, and ultimately damage the sensor. A selectable solder jumper lets you power your instrument at 3.3v or 5v, independant of the 3.3v logic level.
 
 # Specifications
 
@@ -40,6 +39,7 @@ To use the <em>I<sup>2</sup>C Level Converter</em>, first determine if your 3.3v
 |      **Electrical**       |
 | ------------- | --------- |
 | Operating Voltage| 3.3-5v |
+| Maximum Current 3.3v Vout | 150mA |
 | Output Connector | 4 pin 0.1" header |
 | Input Connector | 4 pin 0.1" header, JST-GH, DF13 |
 | ------------- | --------- |
@@ -56,6 +56,14 @@ To use the <em>I<sup>2</sup>C Level Converter</em>, first determine if your 3.3v
 The [EagleCAD files](https://github.com/bluerobotics/I2C-Level-Converter) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
 
 [<img src="/level-converter/cad/level-converter-schematic.JPG" class="img-responsive" style="max-width:300px" />](https://github.com/bluerobotics/I2C-Level-Converter/raw/master/I2C-Level-Converter.pdf)
+
+# Usage
+
+To use the <em>I<sup>2</sup>C Level Converter</em>, first determine if your 3.3v logic instrument should be powered by 3.3v or 5v. Although they are 3.3v and 5v power tolerant, we recommend that the Bar30 and Celsius are powered by 5v for best performance. The solder jumper is set to 5v by default, but it can be switched if necessary. Plug your instrument into one of the input ports (4 pin 0.1" header, JST-GH, DF13) and your 5v device to the host device output port, and your instrument is ready to be used. 
+
+<img src="/level-converter/cad/arduino-setup.PNG" class="img-responsive" style="max-width:800px"  />
+
+
 
 
 
