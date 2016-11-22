@@ -34,7 +34,7 @@ The <em>SOS</em> Leak Sensor can detect water leaking into an improperly sealed 
 
 ## Function Diagram
 
-<img src="/sos/cad/function-diagram.PNG/" class="img-responsive" style="max-width:800px" />
+<img src="/sos/cad/function-diagram.PNG" class="img-responsive" style="max-width:800px"  />
 
 ## Specification Table
 
@@ -73,19 +73,19 @@ The [EagleCAD files](https://github.com/bluerobotics/SOS-Leak-Sensor) for the sc
 
 ### Step 1: Placing the <em>SOS</em> Board
 
-<img src="/sos/cad/sos-layout.PNG" class="img-responsive" style="max-width:800px"  />
+<img src="/sos/cad/sos-layout.png" class="img-responsive" style="max-width:800px"  />
 
 Cut to size and use the included double sided foam tape to secure the <em>SOS</em> Leak Sensor board in a convenient location on your BlueROV2 electronics tray. We like to put it behind the tether interface board or Pixhawk. 
 
 ### Step 2: Running the Cable
 
-<img src="/sos/cad/board-placement.PNG" class="img-responsive" style="max-width:800px"  />
+<img src="/sos/cad/board-placement.png" class="img-responsive" style="max-width:800px"  />
 
 Connect the 3 pin extension cable to the <em>SOS</em> Leak Sensor board and Pixhawk port AUX OUT 6, taking care to plug the cable in the right orientation with ground (black) facing the Pixhawk top.
 
 ### Step 3: Placing the Sensor Probes
 
-<img src="/sos/cad/probe-placement.PNG" class="img-responsive" style="max-width:800px"  />
+<img src="/sos/cad/probe-placement.png" class="img-responsive" style="max-width:800px"  />
 
 Prep mounting surfaces with some isopropyl alcohol, then peel off the backing and stick the blue SOS Leak Sensor probes in strategic locations (like the penentrators, flange seals, etc.) throughout your BlueROV2 electronics watertight enclosure, or secure them with a small zip tie.  Be sure to place at least one probe at the bottom of the watertight enclosure, where leaking water is likely to collect. Plug the white JST-GH ends of the probes into the SOS Leak Sensor board in any combination.
 

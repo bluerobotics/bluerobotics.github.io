@@ -61,7 +61,7 @@ The [EagleCAD files](https://github.com/bluerobotics/I2C-Level-Converter) for th
 
 To use the <em>I<sup>2</sup>C Level Converter</em>, first determine if your 3.3v logic instrument should be powered by 3.3v or 5v. Although they are 3.3v and 5v power tolerant, we recommend that the Bar30 and Celsius are powered by 5v for best performance. The solder jumper is set to 5v by default, but it can be switched if necessary. Plug your instrument into one of the input ports (4 pin 0.1" header, JST-GH, DF13) and your 5v device to the host device output port, and your instrument is ready to be used. 
 
-<img src="/level-converter/cad/arduino-setup.PNG" class="img-responsive" style="max-width:800px"  />
+<img src="/level-converter/cad/arduino-setup.png" class="img-responsive" style="max-width:800px"  />
 
 
 
