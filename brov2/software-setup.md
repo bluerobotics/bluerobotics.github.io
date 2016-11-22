@@ -20,6 +20,7 @@ nav:
 - Sensor Calibration: sensor-calibration
 - Configure Motor Directions: configure-motor-directions
 - Voltage and Current Measurement Setup: voltage-and-current-measurement-setup
+- SOS Leak Sensor Setup: sos-leak-sensor-setup
 - To The First Dive!: to-the-first-dive
 
 store-links:
@@ -205,6 +206,12 @@ The motor directions for the BlueROV2 must be tested prior to use.
 The default settings for voltage and current measurement are for the [Multistar High Capacity 4s 10,000mAh](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844) battery that we recommend. If you select a different battery, you can adjust your voltage and current measurement setup by going to _Settings_ then select _Power_. The only thing that you will need to change is the "Battery capacity", which can changed by simply typing in the size of the battery into the box.
 
 <img src="/brov2/cad/current-monitoring-setup.PNG" class="img-responsive img-center" style="max-width:800px" />
+
+# SOS Leak Sensor Setup
+
+In the Safety tab, select "Pixhawk Aux6" as the leak detector pin, and set the Logic when dry to "Low."
+
+<img src="/sos/cad/sos-software.PNG" class="img-responsive" style="max-width:800px"  />
 
 # To The First Dive! 
 
