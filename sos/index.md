@@ -91,9 +91,17 @@ Prep mounting surfaces with some isopropyl alcohol, then peel off the backing an
 
 # ArduSub Software Setup
 
-<img src="/sos/cad/sos-software.PNG" class="img-responsive" style="max-width:800px"  />
+<img src="/sos/cad/sos-software.png" class="img-responsive" style="max-width:800px"  />
 
 In the Safety tab of the QGroundControl Vehicle Setup page, select "Pixhawk Aux6" as the leak detector pin, and set the Logic when dry to "Low."
+
+Select the Leak Failsafe Action from the dropdown menu:
+
+* Disabled - The leak sensor is disabled.
+
+* Warn Only (Suggested) - QGroundControl will announce an audible warning when a leak is detected.
+
+* Enter Surface Mode - If the ROV is armed when a leak is detected, it will automatically return to the surface. A depth sensor is required for this functionality. Once activated, a surface maneuver can be aborted by switching to a different mode.
 
 # Arduino Example
 
