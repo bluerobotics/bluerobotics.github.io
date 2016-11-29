@@ -18,7 +18,7 @@ nav:
 
 
 store-links:
-- SOS Leak Sensor: https://www.bluerobotics.com/store/electronics/sos-set-r1/
+- SOS Leak Sensor: https://www.bluerobotics.com/store/electronics/sos-leak-sensor/
 
 manual-links:
 - BlueROV2: /brov2

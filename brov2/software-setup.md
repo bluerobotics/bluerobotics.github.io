@@ -211,7 +211,7 @@ The default settings for voltage and current measurement are for the [Multistar 
 
 In the Safety tab, select "Pixhawk Aux6" as the leak detector pin, and set the Logic when dry to "Low."
 
-<img src="/sos/cad/sos-software.PNG" class="img-responsive" style="max-width:800px"  />
+<img src="/sos/cad/sos-software.png" class="img-responsive" style="max-width:800px"  />
 
 # To The First Dive! 
 

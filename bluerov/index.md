@@ -296,7 +296,7 @@ The BlueROV comes with an electronics tray designed to fit the ESCs, a Raspberry
 
 9. The round legs can be snapped on to each end of the tray. You can use glue to secure the legs if desired. 
 
-10. The provided double sided velcro strap is used to secure a battery (not included). We recommend using a 4s (14.8v) lithium polymer battery, either from a local hobby shop or a retailer such as [Hobby King](http://www.hobbyking.com/hobbyking/store/index.asp). You can also use a 3s (11.1v) battery, and the T200 can be safely run with up to a 5s (18.5v) battery.
+10. The provided double sided velcro strap is used to secure a battery (not included). We recommend using a 4s (14.8v) lithium polymer battery, either from a local hobby shop or a retailer such as [Hobby King](https://hobbyking.com/en_us). You can also use a 3s (11.1v) battery, and the T200 can be safely run with up to a 5s (18.5v) battery.
 
 ## Cable Potting
 
