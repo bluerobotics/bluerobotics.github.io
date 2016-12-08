@@ -44,7 +44,7 @@ To connect your computer to the BlueROV2, you need to **download the most recent
 
 Here are the direct links to the most recent daily builds:
 
-- [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe)
+- [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl-installer.exe)
 - [Mac OSX](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.dmg)
 - Linux
 	- [AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.AppImage)
