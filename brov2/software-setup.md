@@ -44,7 +44,7 @@ To connect your computer to the BlueROV2, you need to **download the most recent
 
 Here are the direct links to the most recent daily builds:
 
-- [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe)
+- [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl-installer.exe)
 - [Mac OSX](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.dmg)
 - Linux
 	- [AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.AppImage)
@@ -211,7 +211,7 @@ The default settings for voltage and current measurement are for the [Multistar 
 
 In the Safety tab, select "Pixhawk Aux6" as the leak detector pin, and set the Logic when dry to "Low."
 
-<img src="/sos/cad/sos-software.PNG" class="img-responsive" style="max-width:800px"  />
+<img src="/sos/cad/sos-software.png" class="img-responsive" style="max-width:800px"  />
 
 # To The First Dive! 
 
