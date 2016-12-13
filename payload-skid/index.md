@@ -76,7 +76,7 @@ Depending on the enclosure positions, you may also have to balance your BlueROV2
 
 <img src="/payload-skid/cad/payload-step-1.png" class="img-responsive img-center" style="max-width:800px"  />
 
-Use four M5x16 screws to attatch the side panels to the bottom panel. Be sure to place the bottom panel counter-bore side down, and align the panels with bnothem lumen mounting holes pointing forward.
+Use four M5x16 screws to attatch the side panels to the bottom panel. Be sure to place the bottom panel counter-bore side down, and align the panels with both lumen mounting holes pointing forward.
 
 ## Step 2: Attaching the Standoffs
 
