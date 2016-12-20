@@ -64,7 +64,7 @@ For watertight enclosure design, please check out [Under Pressure](/resources/#u
 
 This calculator uses the [js-quantities library](https://github.com/gentooboontoo/js-quantities) by gentooboontoo for unit conversions.
 
-<script type="text/javascript" src="https://cdn.rawgit.com/gentooboontoo/js-quantities/master/src/quantities.js"></script>
+<script type="text/javascript" src="/calc/quantities.js"></script>
 
 <script type="text/javascript" src="/calc/pressure-depth.js"></script>
 
