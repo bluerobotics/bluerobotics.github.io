@@ -34,7 +34,7 @@ The <em>Fathom-S</em> Tether Interface Boards provide a video and communication 
 
 The Fathom-S hardware is designed to be used with tether cables that have four twisted pairs, preferably similar to Cat5 cable. The design is based on the tether cable available from Blue Robotics, but will also work with standard Cat5 network cable.
 
-The Fathom-S interface includes [DroneCode Mini compatible](https://wiki.dronecode.org/workgroup/connectors/start) connectors for easy use with the Pixhawk and other autopilot controllers and the [ArduSub Control Software](http://ardusub.com).
+The Fathom-S interface includes DroneCode Mini compatible connectors for easy use with the Pixhawk and other autopilot controllers and the [ArduSub Control Software](http://ardusub.com).
 
 ## Features 
 
@@ -46,7 +46,7 @@ The Fathom-S interface includes [DroneCode Mini compatible](https://wiki.droneco
 * Jumpers to enable/disable configuration options
   * Power-on through tether / power always on when batteries connected
   * Power cycle on USB RTS signal for Arduino programming
-* [DroneCode Mini](https://wiki.dronecode.org/workgroup/connectors/start) Compatible JST-GH and DF13 connectors
+* DroneCode Mini Compatible JST-GH and DF13 connectors
 
 ## Quick Start
 
@@ -91,8 +91,8 @@ The Fathom-S interface includes [DroneCode Mini compatible](https://wiki.droneco
 | ------------- | ------------- | ------------- |
 | Operating Temperature | | -20 to +85&deg;C |
 | Storage Temperature | | -40 to +85&deg;C |
-| DF13 UART Pinout | | [DroneCode Mini Standard](https://wiki.dronecode.org/workgroup/connectors/start#telemetry_port) (crossover RX/TX) |
-| JST-GH UART Pinout | | [DroneCode Mini Standard](https://wiki.dronecode.org/workgroup/connectors/start#telemetry_port) (crossover RX/TX) |
+| DF13 UART Pinout | | DroneCode Mini Standard (crossover RX/TX) |
+| JST-GH UART Pinout | | DroneCode Mini Standard (crossover RX/TX) |
 | USB Connector Type | | USB Mini B Female |
 | Dimensions (ROV Board) | | 64 x 46 mm |
 | Screw Hole Spacing (ROV Board) | | 57 x 40 mm |
