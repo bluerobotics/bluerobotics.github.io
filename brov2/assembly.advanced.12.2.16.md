@@ -541,7 +541,7 @@ To install the wires from the penetrators you will need the following parts and 
 
 	<img src="/brov2/cad/port-side-motor-power-wiring.png" class="img-responsive" style="max-width:900px" />
 
-	<img src="brov2/cad/sboard-side-motor-power-wiring.png" class="img-responsive" style="max-width:900px" />	
+	<img src="/brov2/cad/sboard-side-motor-power-wiring.png" class="img-responsive" style="max-width:900px" />	
 	
 
 5. Connect the tether wires to the tether board.
