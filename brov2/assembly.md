@@ -1,10 +1,11 @@
 ---
 layout: default
-title: BlueROV2 Assembly Instructions
+title: BlueROV2 Kit Assembly
 permalink: /brov2/assembly/
 order: 1
+topnavbar: brov2
 nav:
-- Introduction: introduction
+- Introduction: assembly-intro
 - - Safety: safety
 - Required Tools: required-tools-not-included
 - What's Included: whats-included
@@ -20,7 +21,6 @@ nav:
 - - Advanced Electronics: advanced-electronics-package
 - - Lights: lights
 - What's Not Included: what-you-need-for-operation-that-is-not-included
-
 - Frame Assembly: assembling-the-frame
 - - Battery Enclosure: mounting-the-battery-enclosure-to-the-bottom-panel
 - - Center Panels: assembling-the-center-panels
@@ -41,7 +41,8 @@ nav:
 - - Penetrator Installation: installing-the-penetrators
 - - End Cap Installation: installing-the-end-cap
 - - Finishing Battery Enclosure: finishing-the-battery-enclosure
-- - Preliminary Vacuum Test: preliminary-vacuum-test
+- - Optional Preliminary Vacuum Test: optional-preliminary-vacuum-test
+- - Installing the SOS Leak Sensor: installing-the-sos-leak-sensor
 - - Penetrator Power Wiring: installing-the-power-wires-from-the-penetrators
 - - Penetrator Signal Wiring: installing-the-signal-wires-from-the-penetrators
 - - Electronics Cable Routing: electronics-tray-cable-management
@@ -53,19 +54,22 @@ nav:
 - - External Cable Management: thruster-and-lumen-cable-management
 - - Installing Fairings: installing-the-fairings-and-buoyancy
 - - Ballast: mounting-ballast-to-the-frame
-- Operations: operating-the-rov
+- Topside Setup: topside-setup
+- Next Steps: next-steps
 
 store-links:
 - BlueROV: http://bluerobotics.com/store/rov/bluerov2/
 
 manual-links:
+- Software Setup: /brov2/software-setup/
 - Specifications: /brov2/
 - Operations Manual: /brov2/operation/
+
 ---
 
-<img src="/brov2/cad/BlueROV2-Black-Sands-1.png" class="img-responsive" style="max-width:900px" />
+<img src="/brov2/cad/BlueROV2-Black-Sands-1.png" class="img-responsive img-center" style="max-width:800px" />
 
-# Introduction
+# Assembly Intro
 
 The _BlueROV_ kit comes almost ready to dive. The assembly can be completed with basic hand tools; no soldering or potting is required. We have included a couple of the tools that will be used most often to make assembly and regular use go as smoothly as possible.
 
@@ -159,7 +163,7 @@ Quantity      | Part														| Usage
 
 ## Tools                                                      
 
-Quantity      | Part													| Usages
+Quantity      | Part													| Usage
 ------------- | --------------------------------------------------------| ---------------
 1             | Silicone Grease Tube									| Lubricate O-rings prior to installation 
 1             | O-Ring Pick   											| Remove and install O-rings
@@ -373,7 +377,7 @@ Here is a diagram of where the ESC power wires should go for the port and starbo
 	
 ## Installing the Standard Electronics
 
-If you have the Advanced Electronics, please skip to [Installing the Advanced Electronics](/brov2/#installing-the-advanced-electronics)
+If you have the Advanced Electronics, please skip to [Installing the Advanced Electronics](/brov2/assembly/#installing-the-advanced-electronics)
 
 To install the standard electronics, you need the following parts and tools:
 
@@ -396,7 +400,7 @@ To install the standard electronics, you need the following parts and tools:
 
 ## Installing the Advanced Electronics
 
-If you have the Standard Electronics, please skip to [Wiring the Electronics](/brov2/#wiring-the-electronics)
+If you have the Standard Electronics, please skip to [Wiring the Electronics](/brov2/assembly/#wiring-the-electronics)
 
 To install the Advanced Electronics, you need the following parts and tools:
 
@@ -653,7 +657,7 @@ To finish installing the battery enclosure you need the following parts and tool
 
 	<img src="/brov2/cad/brov2-bullet-to-xt90.png" class="img-responsive" style="max-width:900px" />
 
-## Preliminary Vacuum Test (Optional)
+## Optional Preliminary Vacuum Test
 
 This is the best point in the assembly process to perform a vacuum test. Since you have installed all of the penetrators, but have not done any of the wiring, troubleshooting will be as easy as possible. To prepare for the vacuum test you need to purchase a vacuum pump. We recommend [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump).
 
@@ -704,6 +708,26 @@ If the gauge reads below 9 in. Hg [31 kPa] vacuum after 15 minutes, you should c
 If you are still having trouble holding vacuum, please contact us at <a href="mailto:support@bluerobotics.com">support@bluerobotics.com</a>
 
 To continue assembling the BlueROV2, remove the acrylic tube and dome from the electronics enclosure.
+
+## Installing the SOS Leak Sensor
+
+To install the <em>SOS</em> Leak Sensor you will need the following parts and tools:
+
+- Scissors
+- Isopropyl alcohol
+- Cleaning cloth/cotton swab
+
+1. Cut to size and use the included double sided foam tape to secure the <em>SOS</em> Leak Sensor board in a convenient location on your BlueROV2 electronics tray. We like to put it behind the tether interface board or Pixhawk. 
+
+	<img src="/sos/cad/sos-layout.png" class="img-responsive" style="max-width:900px"  />
+
+2. Connect the 3 pin extension cable to the <em>SOS</em> Leak Sensor board and Pixhawk port AUX OUT 6, taking care to plug the cable in the right orientation with ground (black) facing the Pixhawk top.
+
+	<img src="/sos/cad/board-placement.png" class="img-responsive" style="max-width:900px"  />
+
+3. Prep mounting surfaces with some isopropyl alcohol, then peel off the backing and stick the blue SOS Leak Sensor probes in strategic locations (like the penentrators, flange seals, etc.) throughout your BlueROV2 electronics watertight enclosure, or secure them with a small zip tie.  Be sure to place at least one probe at the bottom of the watertight enclosure, where leaking water is likely to collect. Plug the white JST-GH ends of the probes into the SOS Leak Sensor board in any combination.
+
+	<img src="/sos/cad/probe-placement.png" class="img-responsive" style="max-width:900px"  />
 
 ## Installing the Power Wires from the Penetrators
 
@@ -921,10 +945,15 @@ To get the longest battery life and the best driving experience, it is important
 <img src="/brov2/cad/ballast-4-lights.PNG" class="img-responsive" style="max-height:500px" />
 </p>
 
-# Operating the ROV
+# Topside Setup 
 
-Please refer to the [Operations Manual](/brov2/operation/) for detailed information of setting up the software and completing your first dive.
-	
+<img src="/brov2/cad/topside-wiring.png" class="img-responsive" style="max-height:500px" />
+
+# Next Steps
+
+First, set up the software on your topside computer. Please see our [Software Setup](/brov2/software-setup/) page.
+
+Next, refer to the [Operating Manual](/brov2/operation/) to learn how complete your first dive.
 
 
 

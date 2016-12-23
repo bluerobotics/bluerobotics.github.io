@@ -57,9 +57,7 @@ The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at de
 
 The [EagleCAD files](https://github.com/bluerobotics/lumen) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
 
-[<img src="/lumen/cad/Lumen-Schematic.png" class="img-responsive" style="max-width:300px" />](/lumen/cad/lumen-schematic.png)
-
-[Lumen Schematic.png](/lumen/cad/Lumen-Schematic.png)
+[<img src="/lumen/cad/Lumen-Schematic.png" class="img-responsive" style="max-width:300px" />](/lumen/cad/Lumen-Schematic.png)
 
 ## Specification Table
 

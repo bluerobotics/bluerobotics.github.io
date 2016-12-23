@@ -5,15 +5,15 @@ order: 1
 nav:
 - Introduction: introduction
 - - Important Notes: important-notes
-- - Usage: usage
 - Specifications: specifications
 - - Specification Table: specification-table
 - - 2D Drawing: d-drawing
 - - 3D Model: d-model
+- Usage: usage
 - Installation: installation
 
 store-links:
-- Switch: https://www.bluerobotics.com/store/electronics/switch-R1/
+- Switch: https://www.bluerobotics.com/store/electronics/switch-10-5a-r1/
 
 manual-links:
 - Vent: /vent
@@ -32,10 +32,6 @@ Always inspect the O-rings before inserting the dial. Any dust, hair, or other p
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 Use plastic tools, NOT steel or other hard tools, to remove the O-rings from the aluminum sealing faces. Hard tools can create scrapes that will compromise sealing ability.
-
-## Usage
-
-Assemble according to the below assembly steps, and the switch will allow you to turn a circuit on and off inside your watertight enclosure without opening it. When the dial is turned all the way clockwise, or bottomed out, the Switch is ON. Turning the dial counter-clockwise one full turn will turn the Switch OFF. 
 
 # Specifications
 
@@ -73,7 +69,7 @@ For further information please see the [30-3UL Data Sheet.](http://www.grayhill.
 
 ## 2D Drawing
 
-<img src="/switch/cad/Switch-2view.png" class="img-responsive" style="max-width:900px" />
+<img src="/switch/cad/Switch-2view-a.PNG" class="img-responsive" style="max-width:900px" />
 
 ## 3D Model
 
@@ -89,6 +85,10 @@ All 3D models are provided in zip archives containing the follow file types:
 | Switch Dial                | [SWITCH-M-DIAL-10-A-R1.zip](cad/SWITCH-M-DIAL-10-A-R1.zip) |
 | Switch Body                | [SWITCH-M-BOLT-10-25-A-R1.zip](cad/SWITCH-M-BOLT-10-25-A-R1.zip) |
 | Switch Penetrator Nut		 | [PENETRATOR-M-NUT-10-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-NUT-10-A-R2.zip)|																								|
+
+# Usage
+
+Assemble according to the below assembly steps, and the switch will allow you to turn a circuit on and off inside your watertight enclosure without opening it. When the dial is turned all the way clockwise, or bottomed out, the Switch is ON. Turning the dial counter-clockwise one full turn will turn the Switch OFF. 
 
 # Installation
 

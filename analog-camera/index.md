@@ -53,12 +53,11 @@ The <em>Low-Light Analog Camera</em> and the <em>Raspberry Pi Camera Module v2 w
 
 ## Analog Camera CAD Model
 
-coming soon
+| ANALOG-CAMERA-R1 | [ANALOG-CAMERA-R1.zip](/analog-camera/ANALOG-CAMERA-R1.zip) |
 
 # Analog Camera Installation
 
 ## To Fathom-S
-
 
 Plug in the camera connector to the Fathom-S making sure that that the yellow wire connects with `VID`, red with `12V`, and black with `GND`. 
 
@@ -83,8 +82,7 @@ Plug in the camera connector to the Fathom-S making sure that that the yellow wi
 
 ## Raspberry Pi Camera CAD Model
 
-
-coming soon
+| Raspberry Pi Camera | [ASSEM-PI-CAM-R1.zip](/analog-camera/ASSEM-PI-CAM-R1.zip) |
 
 # Raspberry Pi Camera Installation
 

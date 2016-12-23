@@ -3,24 +3,25 @@ layout: default
 title: BlueROV2 Software Setup
 permalink: /brov2/software-setup/
 order: 1
+topnavbar: brov2
 nav:
-- Introduction: introduction
+- Introduction: software-intro
 - Install QGroundControl: install-qgroundcontrol
 - Computer Set Up: setting-up-your-computer
-- - Windows Setup: windows
-- - Mac Setup: mac
-- - Linux Setup: Linux
-- Connect Controller: connect-controller-to-qgroundcontrol
+- - Windows Setup: windows-setup
+- - Mac Setup: mac-setup
+- - Linux Setup: linux-setup
+- Connect Joystick: connect-joystick-to-qgroundcontrol
 - - Windows: windows
 - - Mac: mac
-- - linux: linux
-- Sensor Calibration: sensor-calibration
+- - Linux: linux
 - Joystick Calibration: joystickgamepad-calibration
 - Button Setup: button-setup
+- Sensor Calibration: sensor-calibration
 - Configure Motor Directions: configure-motor-directions
 - Voltage and Current Measurement Setup: voltage-and-current-measurement-setup
-- Operations Manual: operations-manual 
-
+- SOS Leak Sensor Setup: sos-leak-sensor-setup
+- To The First Dive!: to-the-first-dive
 
 store-links:
 - BlueROV: https://www.bluerobotics.com/store/rov/bluerov2/
@@ -33,7 +34,7 @@ manual-links:
 
 <img src="/brov2/cad/ROV-scuba-1.png" class="img-responsive img-center" style="max-width:800px" />
 
-# Introduction
+# Software Intro
 
 These are instructions for the first time that you set up your computer to work with the BlueROV2. If you have not assembled your BlueROV2, please see our [Assembly Manual](/brov2/assembly/) and assemble your BlueROV2 prior to setting up the software. If you received your BlueROV2 prior to October 24, 2016 proceed to [ArduSub.com](http://ardusub.com/initial-setup/#install-qgroundcontrol) for software setup information. The **PixHawks** that shipped **prior to October 24, 2016** were **not flashed with firmware** and require some **QGroundControl parameters to be changed**. 
 
@@ -43,7 +44,7 @@ To connect your computer to the BlueROV2, you need to **download the most recent
 
 Here are the direct links to the most recent daily builds:
 
-- [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe)
+- [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl-installer.exe)
 - [Mac OSX](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.dmg)
 - Linux
 	- [AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.AppImage)
@@ -53,7 +54,7 @@ Here are the direct links to the most recent daily builds:
 
 If your computer does not have an Ethernet port, you will need a USB to Ethernet adaptor. We recommend using [this one.](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
 
-## Windows
+## Windows Setup
 
 **Internet Sharing**
 
@@ -81,7 +82,7 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 	<img src="/brov2/cad/windows-firewall-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-## Mac
+## Mac Setup
 
 **Network Settings**
 
@@ -105,9 +106,9 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 	<img src="/brov2/cad/mac-sharing-settings-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-## Linux
+## Linux Setup
 
-# Connect Controller to QGroundControl
+# Connect Joystick to QGroundControl
 
 ## Windows
 
@@ -130,6 +131,8 @@ Logitech controllers should have the switch on the back set to "X".
 
 **XBox 360 Controller**
 
+**Note: This driver is unstable for wireless XBox 360 controllers in macOS Sierra.**
+
 1. Download the driver [here](https://github.com/360Controller/360Controller/releases/download/v0.16.4/360ControllerInstall_0.16.4.dmg). For more information on this driver, see the [Readme File.](https://github.com/360Controller/360Controller#about)
 2. Install the XBox 360 controller driver.
 2. Plug in the Windows XBox 360 Wireless Receiver for Windows.
@@ -148,22 +151,6 @@ There is currently no support for wireless use.
 Logitech controllers should have the switch on the back set to "X"
 
 ## Linux
-
-
-**XBox One Controller**
-
-
-1. Plug in the wireless dongle into a USB Port
-
-# Sensor Calibration
-
-1. Go to the settings tab in QGroundControl and select the red _Sensors_ tab on the left sidebar.
-2. Choose your autopilot orientation:
-	- `Roll90` for the BlueROV2
-3. Click on the _Accelerometers_ and follow the instructions.
-4. Click on _Compass_ and follow the instructions.
-
-When completed, the _Sensors_ tab will no longer be red.
 
 # Joystick/Gamepad Calibration
 
@@ -186,6 +173,16 @@ The default button setup for the BlueROV2 is as shown in the image below:
 
 <img src="/brov2/cad/controller-buttons.png" class="img-responsive img-center" style="max-width:800px" />
 
+# Sensor Calibration
+
+1. Go to the settings tab in QGroundControl and select the red _Sensors_ tab on the left sidebar.
+2. Choose your autopilot orientation:
+	- `Roll90` for the BlueROV2
+3. Click on the _Accelerometers_ and follow the instructions.
+4. Click on _Compass_ and follow the instructions.
+
+When completed, the _Sensors_ tab will no longer be red.
+
 # Configure Motor Directions
 
 The motor directions for the BlueROV2 must be tested prior to use. 
@@ -198,9 +195,11 @@ The motor directions for the BlueROV2 must be tested prior to use.
 
 2. Arm the BlueROV2 by pressing "Start"
 
-3. Move the left joystick forwards and verify that the thrusters are running the correct way. Air should be blowing out of the four vectored thrusters towards the back of the vehicle.
+3. Move the left joystick forwards and verify that the thrusters are running the correct way. Air should be blowing out of the four vectored thrusters towards the back of the vehicle. If one of the thrusters is blowing air towards the front, go to _Settings_ in QGroundContorl, then go to _Parameters_ and select _MOT_. Select the motor that is blowing air towards the front and switch the motor direction using the dropdown on the right.
 
-4. Move the right joystick forwards and verify that the thrusters are running the correct way. Air should be blowing out of the two vertical thrusters towards the bottom of the vehicle.
+	<img src="/brov2/cad/configure-motor-directions-annotated.png" class="img-responsive img-center" style="max-width:800px" />
+
+4. Move the right joystick forwards and verify that the thrusters are running the correct way. Air should be blowing out of the two vertical thrusters towards the bottom of the vehicle. If one of the thrusters is blowing air towards the top, go to _Settings_ in QGroundControl, then go to _Parameters_ and select _MOT_. Select the motor that is blowing air towards the top and switch the motor direction using the dropdown on the right.
 
 # Voltage and Current Measurement Setup 
 
@@ -208,7 +207,13 @@ The default settings for voltage and current measurement are for the [Multistar 
 
 <img src="/brov2/cad/current-monitoring-setup.PNG" class="img-responsive img-center" style="max-width:800px" />
 
-# Operations Manual 
+# SOS Leak Sensor Setup
+
+In the Safety tab, select "Pixhawk Aux6" as the leak detector pin, and set the Logic when dry to "Low."
+
+<img src="/sos/cad/sos-software.png" class="img-responsive" style="max-width:800px"  />
+
+# To The First Dive! 
 
 Your computer setup is now complete! Please see our [Operations Manual](/brov2/operation/) to finish getting ready for your first dive!
 

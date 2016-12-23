@@ -1,10 +1,11 @@
 ---
 layout: default
-title: BlueROV2 Operation Instructions
+title: BlueROV2 Operating Manual
 permalink: /brov2/operation/
 order: 1
+topnavbar: brov2
 nav:
-- Introduction: introduction
+- Introduction: operating-manual-intro
 - - Safety: safety
 - Batteries: batteries
 - - LiPo Safety: lipo-safety
@@ -14,6 +15,8 @@ nav:
 - - Connecting Batteries: connecting-your-batteries
 - - Topside Setup: setting-up-your-topside-control
 - - Vacuum Test: vacuum-test
+- - Controller Functions: controller-functions
+- - Dive Modes: dive-modes
 - Pre-Dive Checklists: pre-dive-checklists
 - - Comprehensive Checklist: comprehensive-checklist
 - - Pre-Dive Checklist: pre-dive-checklist
@@ -31,7 +34,7 @@ nav:
 - - Unpowered Recovery: unpowered-recovery
 - Post-Mission Checklist: post-mission-checklist
 - Preventative Maintenance: preventative-maintenance
-- - Every 100 Hours: after-every-ten-dives
+- - Every 100 Hours: every-100-hours-of-operation-or-every-6-months 
 
 store-links:
 - BlueROV: https://www.bluerobotics.com/store/rov/bluerov2/
@@ -39,21 +42,18 @@ store-links:
 manual-links:
 - Specifications: /brov2/
 - Assembly Manual: /brov2/assembly/
+- Software Setup: /brov2/software-setup/
 ---
 
-<img src="/brov2/cad/BR2-banner.png" class="img-responsive" style="max-width:900px" />
+<img src="/brov2/cad/BR2-banner.png" class="img-responsive img-center" style="max-width:800px" />
 
-# Introduction
+# Operating Manual Intro
 
-This page is under construction and will be updated frequently in the next several weeks. 
-
-The _BlueROV2_ is the most capable, flexible, and affordable ROV on the market. The 6-thruster vectored configuration, coupled with strong static stability, provides a vehicle that is smooth and stable, yet highly maneuverable. The _BlueROV2_ provides the capabilities of a high-end mini-ROV at the price of the most basic commercial ROVs. This page contains information about the batteries, setup, operation, and maintenance of the _BlueROV2_.
+The information on this page is for operating the BlueROV2. In order to operate the BlueROV2, it must be assembled and the software must be set up. If you have not assembled your BlueROV2, please see our [Assembly Manual](/brov2/assembly/). If you have not completed the software setup, please see our [Software Setup](/brov2/software-setup/) page.
 
 ## Safety 
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with electricity, especially in water, always practice caution. Always ensure that connections are secure and watertight. Keep your body away from spinning motors and propellers.
-
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> LiPo battery warning
 
 # Batteries
 
@@ -88,7 +88,7 @@ To exchange batteries in the _BlueROV2_ use the following procedure:
 
 # Getting Ready for Your First Dive
 
-Before putting your assembled ROV in the water, there are a few things that you need to do. 
+Before putting the BlueROV2 in the water, there are a few things that you need to do. 
 
 Your first dive should be in a body of water that is shallow, still, and clear. We recommend a pool or a test tank. Testing in a more controlled environment will provide a good opportunity to check that the ROV is ballasted correctly. It will also allow you to confirm that your controller is set up correctly and your ROV is behaving how you expect it to. 
 
@@ -98,7 +98,7 @@ To get ready for your first dive, you need to start by connecting a charged batt
 
 ## Setting up Your Topside Control
 
-To set up your topside control follow the instructions on the [ArduSub Initial Setup Page](http://ardusub.com/initial-setup/#wiring-and-connections). 
+To set up your topside control follow the instructions on the [Software Setup](/brov2/software-setup/) page.
 
 ## Vacuum Test 
 
@@ -118,6 +118,30 @@ If the gauge reads below 9 in. Hg [31 kPa] vacuum after 15 minutes, you should c
 2. Make sure the the penetrators on the battery and electronics enclosure are fully tightened. Check by attempting to loosen by hand. If you are able to tighten one or more, attempt the vacuum test again.
 3. Make sure that all of the O-rings are installed in the penetrators. If any are missing, install then attempt the vacuum test again.
 4. Check that the Face seal O-rings and radial O-rings are installed in the battery and electronics enclosures and in good condition. If you find a damaged or missing O-ring, install and attempt the vacuum test again.
+
+## Controller Functions
+
+The BlueROV2 comes with the button setup shown below as a default:
+
+<img src="/brov2/cad/controller-buttons.png" class="img-responsive img-center" style="max-width:800px" />
+
+If you do not like the button settings, you can change the button setup in QGroundControl.
+
+1. Go to _Settings_ then select "Joystick" 
+
+2. Under "Button actions:" QGroundControl shows what all buttons are currently set to control.
+
+3. Press the button that you are interested in changing. The button number will light up.
+
+4. Select what you would like the button to do from the dropdown to the right of the button number.
+
+## Dive Modes
+
+- In **Manual Mode** (Flight Mode 1) the BlueROV2 will only output motor controls based on the pilot input from the joysticks. There is no feedback stabilization, heading holding, or depth holding.
+
+- In **Stabilize Mode** (Flight Mode 2) the BlueROV2 will stabilize roll to level and it will maintain heading when not commanded to turn. The vertical control is left entirely to the pilot.
+
+- In **DepthHold Mode** (Flight Mode 3) the BlueROV2 will hold depth unless you command it to dive/ascend. It will also stabilize roll to level and maintain heading when not commanded to turn.
 
 # Pre-Dive Checklists
 
@@ -186,6 +210,8 @@ This checklist should be done every time the ROV is put into the water, prior to
 - Now you are ready to launch
 
 # Launch
+
+<img src="/brov2/cad/brov2-launch.png" class="img-responsive img-center" style="max-width:800px" />
 
 The _BlueROV2_ can be launched in many conditions. Some conditions require special care.
 

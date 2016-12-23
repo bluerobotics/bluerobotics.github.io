@@ -16,10 +16,13 @@ nav:
 - - Arduino: arduino
 
 store-links:
-- Bar30: https://www.bluerobotics.com/store/electronics/bar30-sensor-r1/
+- Bar30 Pressure Sensor: https://www.bluerobotics.com/store/electronics/bar30-sensor-r1/
+- Celsius Temperature Sensor: https://www.bluerobotics.com/store/electronics/celsius-sensor-r1/
+- I2C Level Converter: https://www.bluerobotics.com/store/electronics/level-converter-r1/
 
 manual-links:
 - Celsius Temperature Sensor: /celsius
+- I2C Level Converter: /level-converter
 ---
 
 <img src="/bar30/cad/pressure-sensor-4.png" class="img-responsive" style="max-width:900px"  />

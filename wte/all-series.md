@@ -139,6 +139,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Plain Solid End Cap			       | [WTE3-P-END-CAP-R1 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-PM-END-CAP-R1.png)
 | End Cap with 4 x 10mm Holes          | [WTE3-P-END-CAP-4X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-PM-END-CAP-4X10MM-R1.png)
 | End Cap with 7 x 10mm Holes          | [WTE3-P-END-CAP-7X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-PM-END-CAP-7X10MM-R1.png)
+| Clamp                     		   | [WTE3-M-CLAMP-R1 Drawing](/wte/cad/WTE3-M-CLAMP-R1.PNG) 
 
 
 ## 3D Models (3" Series)
@@ -159,6 +160,8 @@ All 3D models are provided in zip archives containing the follow file types:
 | Plain Solid End Cap			       | [WTE3-P-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-R1.zip)
 | End Cap with 4 x 10mm Holes          | [WTE3-P-END-CAP-4X10MM-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-4X10MM-R1.zip)
 | End Cap with 7 x 10mm Holes          | [WTE3-P-END-CAP-7X10MM-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-7X10MM-R1.zip)
+| Clamp                     		   | [WTE4-M-CLAMP-R1.zip](/wte/cad/WTE3-M-CLAMP-R1.zip) 
+
 
 # Specifications: 4" Series
 
@@ -197,6 +200,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap with 10 x 10mm Holes         | [WTE4-P-END-CAP-10X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-M-END-CAP-10-10MM-R1.png)  
 | End Cap with 14 x 10mm Holes 		   | [WTE4-M-END-CAP-14X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-M-END-CAP-14X10MM-R1.png) 
 | Dome End Cap                         | [WTE4-P-DOME-R1 Drawing]
+| Clamp                     		   | [WTE4-M-CLAMP-R1 Drawing](/wte/cad/WTE4-M-CLAMP-R1.PNG) 
 
 ## 3D Models (4" Series)
 
@@ -220,7 +224,8 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap with 5 x 10mm Holes          | [WTE4-P-END-CAP-5X10MM-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-5X10MM-R1.zip)    
 | End Cap with 10 x 10mm Holes         | [WTE4-P-END-CAP-10X10MM-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-10X10MM-R1.zip)  
 | End Cap with 14 x 10mm Holes 		   | [WTE4-M-END-CAP-14X10MM-R1.zip](/wte/cad/WTE4-M-END-CAP-14X10MM-R1.zip)
-| Dome End Cap                         | [WTE4-P-DOME-R1.zip](http://www.bluerobotics.com/models/WTE4-P-DOME-R1.zip)  
+| Dome End Cap                         | [WTE4-P-DOME-R1.zip](http://www.bluerobotics.com/models/WTE4-P-DOME-R1.zip) 
+| Clamp                     		   | [WTE4-M-CLAMP-R1.zip](/wte/cad/WTE4-M-CLAMP-R1.zip) 
 
 
 
@@ -278,7 +283,7 @@ Opening the enclosure is straightforward.
 
 One of the cool things about the watertight enclosure design is that it's compatible with all sort of end cap sizes and shapes. We've got a few different ones available but we encourage you to design your own to perfectly suit your application.
 
-The CAD files above as long as the DXF drawing file attached below will give you a good starting point for your design. You'll need access to either 3D modeling software like SolidWorks or AutoCAD or 2D drawing software like Adobe Illustrator, Inkscape, and others.
+The CAD files above as well as the DXF drawing file attached below will give you a good starting point for your design. You'll need access to either 3D modeling software like SolidWorks or AutoCAD or 2D drawing software like Adobe Illustrator, Inkscape, and others.
 
 - [WTE2-P-END-CAP-R1.DXF](/wte/dxf/WTE2-P-END-CAP-R1.DXF)
 - [WTE3-P-END-CAP-R1.DXF](/wte/dxf/WTE3-P-END-CAP-R1.DXF)
