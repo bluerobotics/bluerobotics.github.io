@@ -37,7 +37,6 @@ nav:
 - - Installing the SOS Leak Sensor: installing-the-sos-leak-sensor
 - - Penetrator Power Wiring: installing-the-power-wires-from-the-penetrators
 - - Penetrator Signal Wiring: installing-the-signal-wires-from-the-penetrators
-- - Electronics Cable Routing: electronics-tray-cable-management
 - Final Assembly: final-assembly
 - - Mounting Electronics Enclosure: mounting-the-electronics-enclosure-onto-the-frame
 - - Mounting Thrusters: mounting-the-thrusters-to-the-frame
@@ -83,11 +82,9 @@ The _BlueROV_ kit comes almost ready to dive. The assembly can be completed with
 
 # Required Tools Not Included
 
-- 2.5 or 3mm Flat Head Screwdriver
 - \#2 Phillips Head Screwdriver
 - Wire Cutters or Scissors (for cutting zip ties)
 - Thread-locker such as [Loctite 243](https://www.amazon.com/Loctite-1330799-Resistant-thread-locker-6-milliliter/dp/B004L439FE/ref=sr_1_1?ie=UTF8&qid=1466440165&sr=8-1&keywords=loctite+243+thread-locker)
-- Tweezers (for assistance installing wires into terminal blocks)
 - Isopropyl Alcohol or isopropyl alcohol wipes
 - Vacuum Pump such as [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump)
 
@@ -201,7 +198,6 @@ Quantity      | Part
 
 There are some items necessary for operation that are not included with the kit. 
 
- - Analog screen for the standard BlueROV2. We recommend [this one](https://www.adafruit.com/products/2261).
  - A gamepad controller. We recommend [an Xbox360 Controller](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [a Logitech F310 Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
  - A laptop or a tablet. ArduSub works on Mac, Linux, Windows, iOS, and Android. 
  - A battery for the BlueROV2. We recommend getting 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)   
@@ -541,26 +537,11 @@ To install the wires from the penetrators you will need the following parts and 
 
 	<img src="/brov2/cad/port-side-motor-power-wiring.png" class="img-responsive" style="max-width:900px" />
 
-	<img src="/brov2/cad/sboard-side-motor-power-wiring.png" class="img-responsive" style="max-width:900px" />	
+	<img src="/brov2/cad/sboard-side-motor-power-wiring-2.png" class="img-responsive" style="max-width:900px" />	
 	
-
-5. Connect the tether wires to the tether board.
-
-	Standard
-
-	<img src="/brov2/cad/installed-tether-wires.png" class="img-responsive" style="max-width:900px" />
-
-	Advanced
+5. Connect the tether wires to the Fathom-X Tether Interface Board.
 
 	<img src="/brov2/cad/brov2-advanced-tether-in.png" class="img-responsive" style="max-width:900px" />
-	
-## Electronics Tray Cable Management
-
-Occasionally, you may want to open and close the electronics enclosure, and it is very helpful to have the wires tidy so that they do not get caught up with the acrylic tube. We recommend something like this.
-
-<img src="/brov2/cad/brov2-wire-management-1.png" class="img-responsive" style="max-width:900px" />
-
-<img src="/brov2/cad/brov2-wire-management-2.png" class="img-responsive" style="max-width:900px" />
 
 # Final Assembly
 
@@ -644,39 +625,6 @@ The tether needs to be firmly mounted to the frame to prevent the tether penetra
 4. Attach the thimble to the rear panel as shown
 
 	<img src="/brov2/cad/brov2-thimble-to-frame.png" class="img-responsive" style="max-width:900px" />	
-	
-## Finishing the Battery Enclosure
-
-To finish installing the battery enclosure you need the following parts and tools:
-
-- The bag with one black penetrator nut and one O-ring left in it
-- The 4 hole 3 inch enclosure end cap
-- 1 Penetrator wrench
-- XT90 to 3.5 mm bullet connector adapter
-- 1.5 inch piece of heat shrink
-- heat gun, hairdryer, or lighter
- 
-1. Find the bag that had the penetrator nuts and O-rings in it and grab the remaining red nut and O-ring.
-	
-2. Apply Silicone grease to the O-ring.
-
-3. Install the O-ring onto the battery power cable penetrator.
-	
-4. Install the battery power cable penetrator into the opening in the battery end cap.
-
-	<img src="/brov2/cad/brov2-battery-penetrator.png" class="img-responsive" style="max-width:900px" />
-
-5. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator.
-
-6. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires. You should be able to see the threads in the penetrator through the heat shrink.
-
-	<img src="/brov2/cad/brov2-strain-relief-2.png" class="img-responsive" style="max-width:900px" />
-
-7. Install the XT90 to bullet connector adapter to the battery power wire. 
-
-	<img src="/brov2/cad/brov2-bullet-to-xt90.png" class="img-responsive" style="max-width:900px" />
-
-
 	
 ## Thruster and Lumen Cable Management
 
