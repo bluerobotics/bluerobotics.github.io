@@ -319,12 +319,12 @@ All 3D models are provided in zip archives containing the follow file types:
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
 |               **8" Series Enclosure**                                                                                                          |
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
-| Assembly Model                       | 
-| Aluminum O-ring Flange               |     
-| Acrylic Solid End Cap			       |    
-| Aluminum Solid End Cap               |    
-| End Cap with 5 x 10mm Holes          | 
-| Dome End Cap                         | 
+| Assembly Model                       | [ASSEM-WTE8-R1 Drawing](/wte/cad/ASSEM-WTE8-R1.PNG)
+| Aluminum O-ring Flange               | [WTE8-M-FLANGE-SEAL-R1 Drawing](/wte/cad/WTE8-M-FLANGE-SEAL-R1.PNG)    
+| Acrylic Solid End Cap			       | [WTE8-P-END-CAP-R1 Drawing](/wte/cad/WTE8-P-END-CAP-R1.PNG)   
+| Aluminum Solid End Cap               | [WTE8-M-END-CAP-R1 Drawing](/wte/cad/WTE8-M-END-CAP-R1.PNG)   
+| Aluminum End Cap with 5 x 10mm Holes | [WTE8-M-END-CAP-5-10MM-R1 Drawing](/wte/cad/WTE8-M-END-CAP-5-10MM-R1.PNG)
+| Dome End Cap 						   | [WTE8-P-DOME-R1 Drawing](/wte/cad/WTE8-P-DOME-R1.PNG)
 
 ## 3D Models (8" Series)
 
@@ -339,13 +339,13 @@ All 3D models are provided in zip archives containing the follow file types:
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
 |               **8" Series Enclosure**                                                                                                          |
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
-| Assembly Model                       | 
-| Tube (Standard 11.75", 298mm length) | 
-| Aluminum O-ring Flange               |             
-| Acrylic Solid End Cap			       |      
-| Aluminum Solid End Cap               |       
-| End Cap with 5 x 10mm Holes          |    
-| Dome End Cap                         |  
+| Assembly Model                       | [ASSEM-WTE8-R1.zip](/wte/cad/ASSEM-WTE8-R1.zip)
+| Tube (Standard 11.75", 298mm length) | [WTE8-P-TUBE-R1.zip](/wte/cad/WTE8-P-TUBE-R1.zip)
+| Aluminum O-ring Flange               | [WTE8-M-FLANGE-SEAL-R1.zip](/wte/cad/WTE8-M-FLANGE-SEAL-R1.zip)            
+| Acrylic Solid End Cap			       | [WTE8-P-END-CAP-R1.zip](/wte/cad/WTE8-P-END-CAP-R1.zip)     
+| Aluminum Solid End Cap               | [WTE8-M-END-CAP-R1.zip](/wte/cad/WTE8-M-END-CAP-R1.zip)        
+| End Cap with 5 x 10mm Holes          | [WTE8-M-END-CAP-5-10MM-R1.zip](/wte/cad/WTE8-M-END-CAP-5-10MM-R1.zip)   
+| Dome End Cap                         | [WTE8-P-DOME-R1.zip](/wte/cad/WTE8-P-DOME-R1.zip) 
 
 <br />
 
