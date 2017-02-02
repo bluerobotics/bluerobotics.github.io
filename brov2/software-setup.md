@@ -41,15 +41,7 @@ These are instructions for the first time that you set up your computer to work 
 
 # Install QGroundControl
 
-To connect your computer to the BlueROV2, you need to **download the most recent daily build of QGroundControl.**
-
-Here are the direct links to the most recent daily builds:
-
-- [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl-installer.exe)
-- [Mac OSX](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.dmg)
-- Linux
-	- [AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.AppImage)
-	- [Compressed Archive](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.tar.bz2)
+To connect your computer to the BlueROV2, you need to download and install the latest stable build of [QGroundControl](http://qgroundcontrol.com/downloads/).
 
 # Setting Up Your Computer
 
