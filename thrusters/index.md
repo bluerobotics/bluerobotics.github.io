@@ -64,7 +64,10 @@ Always practice caution when you're working with electricity in water and with t
 ## Important Notes
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Do not operate the thruster for extended periods out of water. The bearings are lubricated by the water and vibration and noise will be greater when dry.
+Do not operate the thruster for extended periods (more than a few seconds) out of water. The bearings are lubricated by the water and vibration and noise will be greater when dry.
+
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
+Do not operate the thruster for extended periods (more than a minute) at full throttle in water. If not allowed to cool periodicially, damage can occur. We recommend our T200 thruster for long period high throttle use cases.
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 The thruster can handle saltwater and sandy environments pretty well, but it does not get along with seaweed. Avoid sucking seaweed into the thruster to avoid damage.
@@ -291,7 +294,7 @@ For all the engineers out there, here's some more info.
 
 ## Test Results
 
-* **Endurance Testing.** [The T100 has been tested for over 2400 hours](https://youtu.be/HBtxAO1sL7k) in virtually continuous operation at half throttle, only being halted shortly for internal inspection every few weeks. Additionally, we have tested the T100 Thruster for up to 300 hours continuous operation at full throttle power.
+* **Endurance Testing.** [The T100 has been tested for over 2400 hours](https://youtu.be/HBtxAO1sL7k) in virtually continuous operation at half throttle, only being halted shortly for internal inspection every few weeks. 
 
 * **Sand and Particulate Testing.** The thrusters handle small particulate matter very well. See [this video](https://www.youtube.com/watch?v=0X0EncNR8l8) of testing the thrusters in heavy sand.
 
