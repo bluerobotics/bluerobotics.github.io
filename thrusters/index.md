@@ -67,7 +67,7 @@ Always practice caution when you're working with electricity in water and with t
 Do not operate the thruster for extended periods (more than a few seconds) out of water. The bearings are lubricated by the water and vibration and noise will be greater when dry.
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Do not operate the thruster for extended periods (more than a minute) at full throttle in water. If not allowed to cool periodicially, damage can occur. We recommend our T200 thruster for long period high throttle use cases.
+Do not operate the thruster for extended periods (more than a minute) at full throttle in water. If not allowed to cool periodically, damage can occur. We recommend our T200 thruster for long period high throttle use cases.
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 The thruster can handle saltwater and sandy environments pretty well, but it does not get along with seaweed. Avoid sucking seaweed into the thruster to avoid damage.
