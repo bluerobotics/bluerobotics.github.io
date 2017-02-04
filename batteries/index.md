@@ -37,13 +37,15 @@ For further information please see the [INR18650-30Q Data Sheet](https://eu.nkon
 | Nominal Voltage | 14.8V |
 | Nominal Capacity | 18.0Ah | 266.4Wh |
 | Cell Configuration | 4S6P |
-| Maximum Continuous Current Draw| 90A | 5C |
-| Maximum Burst Current Draw (10s)| 132A | 7.3C |
+| Maximum Continuous Current Draw*| 90A | 5C |
+| Maximum Burst Current Draw (10s)*| 132A | 7.3C |
 | Maximum Charge Current | 20A | 1.1C |
 | Minimum Safe Voltage | 12V | 3.0V/Cell |
 | Discharge Connector | XT90 |
 | Balance Plug | 5 pin JST-XH |
 | ------------- | --------- |
+
+*Current draw rating dependant on adequate cooling, 60°C safety cutoff. See more information in Discharging section below.
 
 |  **Physical (Typical)**  |
 | ------------- | --------- |
@@ -76,7 +78,7 @@ Although they are encased in metal and are safe enough to be used in everyday de
 * Do not burn or expose to termeratures above 60°C (140°F)
 * Always use a lithium-ion compatible balance charger
 * Do not leave unattended while charging
-* Do not exceed maximum charge (20A) or discharge (90A) rate
+* Do not exceed maximum charge (20A) or discharge (90A*) rate
 
 [Detailed Lithium-ion Safety Information](https://batterybro.com/pages/18650-battery-safety)
 
@@ -92,7 +94,9 @@ We use [this](https://hobbyking.com/en_us/turnigy-reaktor-300w-20a-ac-dc-synchro
 
 # Discharging
 
-Once charged, connect the XT90 discharge plug to your vehicle, and the battery is ready to use. The battery can sustain a constant discharge of up to 90A, and up to 132A in short bursts of a few seconds. Make sure to never short the battery dischage plug or plug it into a circuit that may be shorted.
+Once charged, connect the XT90 discharge plug to your vehicle, and the battery is ready to use. The battery can sustain a constant discharge of up to 90A, and up to 132A in short bursts of a few seconds. Make sure to never short the battery discharge plug or plug it into a circuit that may be shorted.
+
+Note that the maximum safe discharge rating is dependant on adequate cooling to keep the battery below 60°C. If used in an enclosed space without flowing air, constant current draw must be decreased appropriatley to to keep the battery at a  safe temperature. For example, in a BlueROV2 we recommend keeping full throttle thruster bursts at 100% gain to no more than 15 seconds each to keep the battery at a safe temperature and allow it to cool.
 
 <img src="/batteries/cad/BL4-3-crop.PNG" class="img-responsive" style="max-width:500px"  />
 
