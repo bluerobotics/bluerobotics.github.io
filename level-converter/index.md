@@ -25,7 +25,7 @@ manual-links:
 
 # Introduction
 
-The <em>I<sup>2</sup>C Level Converter</em> allows you the run 3.3v logic sensors like the <a href="https://www.bluerobotics.com/store/electronics/bar30-sensor-r1/">Bar30</a> or <a href="https://www.bluerobotics.com/store/electronics/celsius-sensor-r1/">Celsius</a> and other accessories off of a 5v logic device like the Arduino Uno. Attempting to run the Bar30 or Celsius off of a 5v logic device without a level converter will result in improper operation, and ultimately damage the sensor. A selectable solder jumper lets you power your instrument at 3.3v or 5v, independant of the 3.3v logic level.
+The <em>I<sup>2</sup>C Level Converter</em> allows you the run 3.3v logic sensors like the <a href="https://www.bluerobotics.com/store/electronics/bar30-sensor-r1/">Bar30</a> or <a href="https://www.bluerobotics.com/store/electronics/celsius-sensor-r1/">Celsius</a> and other accessories off of a 5v logic device like the Arduino Uno. Attempting to run the Bar30 or Celsius off of a 5v logic device without a level converter will result in improper operation, and ultimately damage the sensor. A selectable solder jumper lets you power your instrument at 3.3v or 5v, independent of the 3.3v logic level.
 
 # Specifications
 

@@ -86,5 +86,7 @@ Plug in the camera connector to the Fathom-S making sure that that the yellow wi
 
 # Raspberry Pi Camera Installation
 
-coming soon 
+There are detailed Raspberry Pi Camera installation instructions on the [Raspberry Pi Learning Resources site](https://www.raspberrypi.org/learning/getting-started-with-picamera/).
+
+
 

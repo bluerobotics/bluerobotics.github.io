@@ -67,7 +67,7 @@ Assemble according to the below steps, and the Payload Skid will allow you to mo
 | 1 x 4" Enclosure (12") | 10-12 | 
 |----------------------|
 
-Depending on the enclosure positions, you may also have to balance your BlueROV2 more towards being positively buoyant, rather than neutral. For example, three interally mounted 3" watertight enclosures will partially block the vertical thrusters when surfacing, thus some additional positive buoyancy will make up for this. Mounting the wtertight enclosures on the outside sides of the Payload Skid or only mounting one central watertight enclosure will not alter ROV performance significantly.
+Depending on the enclosure positions, you may also have to balance your BlueROV2 more towards being positively buoyant, rather than neutral. For example, three internally mounted 3" watertight enclosures will partially block the vertical thrusters when surfacing, thus some additional positive buoyancy will make up for this. Mounting the watertight enclosures on the outside sides of the Payload Skid or only mounting one central watertight enclosure will not alter ROV performance significantly.
 
 
 # Assembly and Installation
@@ -76,7 +76,7 @@ Depending on the enclosure positions, you may also have to balance your BlueROV2
 
 <img src="/payload-skid/cad/payload-step-1.png" class="img-responsive img-center" style="max-width:800px"  />
 
-Use four M5x16 screws to attatch the side panels to the bottom panel. Be sure to place the bottom panel counter-bore side down, and align the panels with both lumen mounting holes pointing forward.
+Use four M5x16 screws to attach the side panels to the bottom panel. Be sure to place the bottom panel counter-bore side down, and align the panels with bottom, lumen mounting holes pointing forward.
 
 ## Step 2: Attaching the Standoffs
 
