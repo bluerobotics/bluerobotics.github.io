@@ -88,7 +88,7 @@ You can use the menu bar at the top to find the product you are looking for and 
     <div class="tile" style="background-image:url(/batteries/cad/BL4-1.png)">
       <a href="/batteries/">Lithium-Ion Battery <i class="fa fa-chevron-circle-right"></i></a>
     </div>
-  </div>       
+  </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/lumen-1.png)">
       <a href="/lumen/"><em>Lumen</em> Subsea Light <i class="fa fa-chevron-circle-right"></i></a>
