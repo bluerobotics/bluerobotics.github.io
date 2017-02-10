@@ -18,7 +18,7 @@ nav:
 
 
 store-links:
-- SOS Leak Sensor: https://www.bluerobotics.com/store/electronics/sos-set-r1/
+- SOS Leak Sensor: https://www.bluerobotics.com/store/electronics/sos-leak-sensor/
 
 manual-links:
 - BlueROV2: /brov2
@@ -28,7 +28,7 @@ manual-links:
 
 # Introduction
 
-The <em>SOS</em> Leak Sensor can detect water leaking into an improperly sealed <a href="https://www.bluerobotics.com/product-category/watertight-enclosures/">Watertight Enclosure</a> quickly and reliably, before any major damage can occur! Though we are confident in the quality of our Watertight Enclosures and a leak is unlikely, the <em>SOS</em> Leak Sensor will give you additional peace of mind that your electronics are safe. A bright red LED gives a clear indication of a leak, as well as a high signal that can be interpreted by a device of your choosing. The <a href="http://ardusub.com/">ArduSub</a> firmware for the Pixhawk supports the <em>SOS</em> Leak Sensor and through QGroundControl will give you an audio and visual warning of a leak. When the <em>SOS</em> Leak Sensor is powered it is operating, and one or more wet probes will make the board LED shine and drive the signal pin high to VCC. The probe which came into contact with water will have a significantly expanded tip, indicating at which location the leak occured.
+The <em>SOS</em> Leak Sensor can detect water leaking into an improperly sealed <a href="https://www.bluerobotics.com/product-category/watertight-enclosures/">Watertight Enclosure</a> quickly and reliably, before any major damage can occur! Though we are confident in the quality of our Watertight Enclosures and a leak is unlikely, the <em>SOS</em> Leak Sensor will give you additional peace of mind that your electronics are safe. A bright red LED gives a clear indication of a leak, as well as a high signal that can be interpreted by a device of your choosing. The <a href="http://ardusub.com/">ArduSub</a> firmware for the Pixhawk supports the <em>SOS</em> Leak Sensor and through QGroundControl will give you an audio and visual warning of a leak. When the <em>SOS</em> Leak Sensor is powered it is operating, and one or more wet probes will make the board LED shine and drive the signal pin high to VCC. The probe which came into contact with water will have a significantly expanded tip, indicating at which location the leak occurred.
 
 # Specifications
 
@@ -91,9 +91,17 @@ Prep mounting surfaces with some isopropyl alcohol, then peel off the backing an
 
 # ArduSub Software Setup
 
-<img src="/sos/cad/sos-software.PNG" class="img-responsive" style="max-width:800px"  />
+<img src="/sos/cad/sos-software.png" class="img-responsive" style="max-width:800px"  />
 
 In the Safety tab of the QGroundControl Vehicle Setup page, select "Pixhawk Aux6" as the leak detector pin, and set the Logic when dry to "Low."
+
+Select the Leak Failsafe Action from the dropdown menu:
+
+* Disabled - The leak sensor is disabled.
+
+* Warn Only (Suggested) - QGroundControl will announce an audible warning when a leak is detected.
+
+* Enter Surface Mode - If the ROV is armed when a leak is detected, it will automatically return to the surface. A depth sensor is required for this functionality. Once activated, a surface maneuver can be aborted by switching to a different mode.
 
 # Arduino Example
 

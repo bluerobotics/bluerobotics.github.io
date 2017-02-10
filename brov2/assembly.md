@@ -56,6 +56,7 @@ nav:
 - - Ballast: mounting-ballast-to-the-frame
 - Topside Setup: topside-setup
 - Next Steps: next-steps
+- Issue Reporting: issue-reporting
 
 store-links:
 - BlueROV: http://bluerobotics.com/store/rov/bluerov2/
@@ -955,7 +956,13 @@ First, set up the software on your topside computer. Please see our [Software Se
 
 Next, refer to the [Operating Manual](/brov2/operation/) to learn how complete your first dive.
 
+# Issue Reporting
 
+We're always trying to make our documentation, instructions, software, and user experience better. If you're having an issue with anything, please report it so that we can address it as soon as possible! Here's where to do that depending on what's wrong:
+
+- **ArduSub Issues:** For anything related to the ArduSub software that runs on the Pixhawk and controls the ROV, reports issues on the [ArduSub Github Issues Page](https://github.com/bluerobotics/ardusub/issues). If you're unsure where your issue should be posted, you can report it here.
+- **QGroundControl Issues:** For anything related to the QGroundControl software, joystick setup, video streaming, etc., please report an issue on the [QGroundControl Github Issues Page](https://github.com/mavlink/qgroundcontrol/issues).
+- **Documentation:** For anything related to the documentation and instructions here, please report an issue on the [Blue Robotics Documentation Github Issues Page](https://github.com/bluerobotics/bluerobotics.github.io/issues).
 
 
 
