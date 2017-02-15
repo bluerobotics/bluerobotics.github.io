@@ -1,6 +1,6 @@
 ---
 layout: default
-title: BlueROV2 Advanced Kit Assembly (Starting December 2, 2016)
+title: BlueROV2 Advanced Kit Assembly
 permalink: /brov2/assembly/advanced/12.2.16
 order: 1
 topnavbar: brov2
@@ -18,13 +18,13 @@ nav:
 - - Tether: tether
 - - Tools: tools
 - - Lights: lights
+- - Leak Sensor: sos-leak-sensor
 - What's Not Included: what-you-need-for-operation-that-is-not-included
 - Frame Assembly: assembling-the-frame
 - - Battery Enclosure: mounting-the-battery-enclosure-to-the-bottom-panel
 - - Center Panels: assembling-the-center-panels
 - - Frame: assembling-the-frame-1
 - Electronics Overview: electronics-enclosure-overview
-- Changing Propellers: changing-the-propellers
 - Electronics Enclosure: partially-disassembling-the-electronics-enclosure
 - Cable Installation: installing-the-cables
 - - Penetrator Installation: installing-the-penetrators
@@ -48,7 +48,7 @@ store-links:
 - BlueROV2: http://bluerobotics.com/store/rov/bluerov2/
 
 manual-links:
-- Archived Assembly: #
+- Archived Assembly: /brov2/assembly/
 - Software Setup: /brov2/software-setup/
 - Specifications: /brov2/
 - Operations Manual: /brov2/operation/
@@ -63,7 +63,7 @@ manual-links:
 
 # Assembly Intro
 
-The _BlueROV2_ kit comes almost ready to dive. The assembly can be completed with basic hand tools; no soldering or potting is required. We have included a couple of the tools that will be used most often to make assembly and regular use go as smoothly as possible.
+The BlueROV2 kit comes almost ready to dive. The assembly can be completed with basic hand tools; no soldering or potting is required. We have included a couple of the tools to make assembly and regular use as easy as possible.
 
 ## Safety 
 
@@ -73,11 +73,11 @@ The _BlueROV2_ kit comes almost ready to dive. The assembly can be completed wit
 
 # Required Tools (Not Included)
 
-- \#2 Phillips Head Screwdriver
-- Wire Cutters or Scissors (for cutting zip ties)
+- \#2 Phillips head screwdriver
+- Wire cutters or scissors (for cutting zip ties)
 - Medium-strength (blue) thread-locker such as [Loctite 243](https://www.amazon.com/Loctite-1330799-Resistant-thread-locker-6-milliliter/dp/B004L439FE/ref=sr_1_1?ie=UTF8&qid=1466440165&sr=8-1&keywords=loctite+243+thread-locker)
-- Isopropyl Alcohol or isopropyl alcohol wipes
-- Vacuum Pump such as [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump)
+- Isopropyl alcohol or isopropyl alcohol wipes
+- Vacuum pump such as [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump)
 - 2 mm flat head screw driver
 
 # What's Included
@@ -86,26 +86,26 @@ The _BlueROV2_ kit comes almost ready to dive. The assembly can be completed wit
 
 Quantity      | Part														| Usage
 ------------- | ------------------------------------------------------------| ----------------------
-2             | Front Center Panel (1/2" thick black HDPE)        			|    
-2             | Rear Center Panel (1/2" thick black HDPE)           		|     	       
-1             | Bottom Panel (1/2" thick black HDPE)                       	|  
-2             | Side Panel (3/8" thick black HDPE)                       	|
-2             | Electronics Enclosure Cradle (Black Anodized Aluminum)  	| Mounting the electronics enclosure to the frame
-8 			  | M4x18 Socket Head Cap Screw (316 Stainless Steel)           | Mounting the electronics enclosure cradles to the frame        
-12            | M5x16 Button Head Cap Screw (316 Stainless Steel)           | Assembling the frame
-7             | 8-16 Thread, 5/8" Long, Thread-Forming Screw                | Mounting the ballast to the frame                         
-7             | 200g Ballast Weights										| 
+2             | Front center panel (1/2" thick black HDPE)        			|    
+2             | Rear center panel (1/2" thick black HDPE)           		|     	       
+1             | Bottom panel (1/2" thick black HDPE)                       	|  
+2             | Side panel (3/8" thick black HDPE)                       	|
+2             | Enclosure Cradle (4" Series) (black anodized aluminum)  	| Mounting the electronics enclosure to the frame
+8 			  | M4x18 socket head cap screw (316 stainless steel)           | Mounting the electronics enclosure cradles to the frame        
+12            | M5x16 button head cap screw (316 stainless steel)           | Assembling the frame
+7             | 8-16 thread, 5/8" long, thread-forming screw                | Mounting the ballast to the frame                         
+7             | 200g ballast weights										| 
 
 ## Electronics Enclosure                                                         
 
 Quantity      | Part																		| Usage
 ------------- | ----------------------------------------------------------------------------| ---------------
-1             | Electronics tray with terminal blocks and ESCs installed                    |                      
-1             | 4" watertight enclosure with optically clear dome (installed)               |            
-1             | 14 hole end cap with 3 blank penetrator, 1 Bar30 pressure sensor, 1 vent, and 1 power cable (installed)	|
-1             | Set of tether board power wires (installed) 								| Provided power to the tether board
-4             | M3x16 Socket Head Cap Screw (316 Stainless Steel)  							| Mounting the electronics enclosure to the electronics enclosure cradle
-1			  | Fathom-X Tether Interface Board (installed)									| Long distance ethernet connection
+1             | Electronics Tray (4" Series)                                                |                      
+1             | Watertight Enclosure for ROV/AUV w/ Dome End Cap installed                | Electronics enclosure          
+1             | Aluminum End Cap with 14 Holes w/ 3 Cable Penetrator Blank, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable (installed)	|
+1             | Set of tether board power wires (installed)								| Provided power to the tether board
+4             | M3x16 socket head cap screw (316 stainless steel)  							| Mounting the electronics enclosure to the electronics enclosure cradle
+1			  | Fathom-X Tether Interface Board installed									| Long distance ethernet connection
 1			  | 3DR PixHawk (installed)														| Autopilot
 1			  | Raspberry Pi 3 (installed)													| Companion computer
 1			  | Raspberry Pi Camera 2 (installed)   										| Camera
@@ -116,61 +116,69 @@ Quantity      | Part																		| Usage
 
 Quantity      | Part																		| Usage
 ------------- | ----------------------------------------------------------------------------| ------------------------
-2             | Battery Enclosure Cradle (Black Anodized Aluminum w/ rubber strip)   		| Mounting the battery enclosure to the frame       
-1             | 3" Watertight Enclosure 8-3/4" Long                             			|
-1             | 3" Blank End Cap (Anodized Aluminum 6061)         							|
-1             | 3" 4 Hole End Cap w/ 2 blank penetrators and 1 vent installed (Anodized Aluminum 6061)  |                                                              
+2             | Enclosure Clamp (3" Series) (black anodized aluminum w/ rubber strip)   	| Mounting the battery enclosure to the frame       
+1             | Watertight Enclosure for ROV/AUV (3" Series)                       			| Battery Enclosure
+1             | Aluminum End Cap (3" Series)    				  							|
+1             | Aluminum End Cap with 4 Holes (3" Series) w/ 2 blank penetrators and 1 vent installed (Anodized Aluminum 6061)  |                                                              
 1             | XT90 to 3.5mm Bullet Connector Adapter										| Adapting power wire connector to battery connector
-4             | M4x14 Socket Head Cap Screw (316 Stainless Steel)   						| Mounting the battery cradle to the frame
-4             | M3x12 Socket Head Cap Screws (316 Stainless Steel)             				| Connecting the battery cradles    
+4             | M4x14 socket head cap screw (316 stainless steel)   						| Mounting the battery cradle to the frame
+4             | M3x12 socket head cap screws (316 stainless steel)             				| Connecting the battery cradles to each other    
 1			  | 1 1/2" long x 3/8" diameter heat shrink										| Battery cable strain relief       
 
 ## Thrusters
 
 Quantity      | Part													| Usage
 ------------- | --------------------------------------------------------|--------------
-3   		  | T200 Thrusters w/ Clockwise Propeller Installed			|
-3 			  | T200 Thrusters w/ Counter-Clockwise Propeller Installed |      
-16            | M3x16 Socket Head Cap Screw (316 Stainless Steel)      	| Mounting thrusters 1, 2, 3, and 4 to the frame
-8 			  | M3x12 Socket Head Cap Screw (316 Stainless Steel)		| Mounting thrusters 5 and 6 to the frame
-30            | 5 1/2" Zip Ties (Nylon)									| Routing the thruster and lumen cables
+3   		  | T200 Thrusters w/ Clockwise Propeller installed			|
+3 			  | T200 Thrusters w/ Counter-Clockwise Propeller installed |      
+16            | M3x16 socket head cap screw (316 stainless steel)      	| Mounting thrusters 1, 2, 3, and 4 to the frame
+8 			  | M3x12 socket head cap screw (316 stainless steel)		| Mounting thrusters 5 and 6 to the frame
+30            | 5 1/2" zip ties (nylon)									| Routing the thruster and lumen cables
 
 ## Fairings
 
 Quantity      | Part																	|
 ------------- | ------------------------------------------------------------------------| ---------------------
-4             | Fairings (Blue Polycarbonate)                    						|
-4             | Buoyancy Foam (R-3318 Urethane Foam)                        			|
-16            | #4 Size, 3/4" Long Pan Head Self Tapping Screw (316 Stainless Steel)    | Mounting the fairings and buoyancy to the frame                               
+4             | BlueROV2 Fairings (Blue Polycarbonate)               					|
+4             | Subsea Buoyancy Foam (R-3318 urethane foam)                        		|
+16            | #4 size, 3/4" long pan head self tapping screw (316 stainless steel)    | Mounting the fairings and buoyancy to the frame                               
 
 ## Tether
 
 Quantity      | Part														| Usage 
 ------------- | ------------------------------------------------------------|--------------
-1             | Fathom Tether w/ installed penetrator (25-300m)           	|
-1             | Fathom Thimble                          					| Mounting the tether to the frame	
+1             | Fathom Tether w/ installed Cable Penetrator for 8mm Cable (25-300m)           	|
+1             | Tether Cable Thimble                       					| Mounting the tether to the frame	
 5             | Heavy Duty Zip Ties											| Mounting the tether to the thimble and frame            
 
 ## Tools                                                      
 
 Quantity      | Part													| Usage
 ------------- | --------------------------------------------------------| ---------------
-1             | Silicone Grease Tube									| Lubricate O-rings prior to installation 
+1             | Silicone Grease - 10g Tube								| Lubricate O-rings prior to installation 
 1             | O-Ring Pick   											| Remove and install O-rings
-1             | 2.5mm Hex Driver										| Install M3 screws 
-1			  | #1 Phillips Head Screwdriver    						| Install the fairing screws 
-1			  | Blue Robotics Penetrator Wrenches                       | Install penetrators
-1			  | 1.5mm Hex Key											| Thruster dissassembly
-1			  | 2mm Hex Key											   	| Change propellers
-1			  | 3mm Hex Key												| Install M4 and M5 screws
+1             | 2.5mm hex driver										| Install M3 screws 
+1			  | #1 Phillips head screwdriver    						| Install the fairing screws 
+1			  | Penetrator Wrench             					        | Install penetrators
+1			  | 1.5mm hex key											| Thruster dissassembly
+1			  | 2mm hex key											   	| Change propellers
+1			  | 3mm hex key												| Install M4 and M5 screws
 
 ## Lights
 
 Quantity      | Part
 ------------- | --------------------------------------------------------
-1-2           | Lumen Subsea Light w/ Mounts (Pair, Pre-Connected) (Optional)      
+1-2           | Lumen Subsea Light w/ Mounts (Pair, Pre-Connected) (Optional)     
 
-<img src="/brov2/cad/brov2-box-open-parts-displayed.png" class="img-responsive" style="max-width:900px" />
+## SOS Leak Sensor
+
+Quantity      | Part
+------------- | ------------------------------------------------------------
+1             | SOS Leak Sensor Probe Host Board (installed)
+2             | 6" Probe (installed)
+2             | 12" Probe (installed)
+
+[picture of BlueROV2 kit as received]
 
 ## What You Need for Operation that is Not Included 
 
@@ -178,7 +186,7 @@ There are some items necessary for operation that are not included with the kit.
 
  - A gamepad controller. We recommend [an Xbox360 Controller](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [a Logitech F310 Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
  - A laptop or a tablet. ArduSub works on Mac, Linux, and Windows.
- - A 12-20V battery with an XT90 plug. We recommend getting 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)   
+ - A 12-20V battery with an XT90 plug. We recommend getting 1 or 2 of our [Lithium-ion Batteries (14.8V, 18Ah)](http://bluerobotics.com/store/rov/bluerov2/battery-li-4s-18ah-r1/)
  - A mini-USB cable.
  - A USB-Ethernet adapter, or an Ethernet patch cable.
  
@@ -188,31 +196,27 @@ There are some items necessary for operation that are not included with the kit.
 
 To mount the battery enclosure to the bottom panel you will need the following parts and tools:
 
-- 2 battery cradles with rubber strips
-- Thread-locker 
-- Bottom panel 
-- Bag with 4 M4x14 socket head cap screws and 4 M3x12 socket head cap screws
-- Battery Enclosure
-- 3 mm allen hex key
-- 2.5 mm allen hex driver
+- 2 x Enclosure Clamp (3" Series)
+- 1 x Thread-locker 
+- 1 x Bottom panel 
+- 1 x Bag with four M4x14 socket head cap screws and four M3x12 socket head cap screws
+- 1 x Watertight Enclosure for ROV/AUV (3" Series)
+- 1 x 3 mm hex key
+- 1 x 2.5 mm hex driver
 
-1. Open the battery enclosure and set the bags inside of it to the side, except for the bag with 4 M4x14 and 4 M3x12 screws in it.
+1. Remove the Aluminum End Cap with 4 Holes (3" Series) to open the Watertight Enclosure for ROV/AUV (3" Series) and set the bags inside of it to the side, except for the bag with four M4x14 and four M3x12 screws in it.
 
-2. Apply one drop of threadlocker to the bottom of each M4x14. 
+2. Apply one drop of threadlocker to the bottom of each M4x14 socket head cap screw. 
 
 	<img src="/brov2/cad/brov2-loctite-applied.png" class="img-responsive" style="max-width:900px" />
 
-3. Attach a battery cradle to the bottom panel with 4 M4x14 socket head cap screws. Be sure that the screw head is in the [counterbore](https://en.wikipedia.org/wiki/Counterbore). The bottom panel is only counterbored on one side. 
+3. Attach one of the Enclosure Clamp (3" Series) to the bottom panel using the four M4x14 socket head cap screws. Be sure that the screw head is in the [counterbore](https://en.wikipedia.org/wiki/Counterbore). The bottom panel is only counterbored on one side. Tighten the screws until you can feel them start to dig into the bottom panel.
 
 	<img src="/brov2/cad/brov-assembly-step1-annotated.png" class="img-responsive" style="max-width:900px" /> 
 
-4. Tighten the screws into the bottom panel until they are flush with the bottom of the bottom panel. 
+4. Apply one drop of thread-locker to each of the 4 M3x12 screws.
 
-	<img src="/brov2/cad/brov2-battery-cradle-screws-flush.png" class="img-responsive" style="max-width:900px" /> 
-
-5. Apply one drop of thread-locker to the end of each of the 4 M3x12 screws.
-
-6. Place the battery enclosure between the two battery cradles and install the 4 M3x12 screws into the cradles to clamp the battery enclosure into place. Note that each of the cradles are tapped on only one side. Install all four screws loosly at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the cradles.
+6. Place the Watertight Enclosure for ROV/AUV (3" Series) between the two Enclosure Clamps (3" Series) and install the four M3x12 screws into the Enclosure Clamps (3" Series). Note that each of the Enclosure Clamps (3" Series) are tapped on only one side. Install all four screws loosly at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the Enclosure Clamps (3" Series).
 
 	<img src="/brov2/cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
 
@@ -224,20 +228,20 @@ To mount the battery enclosure to the bottom panel you will need the following p
 
 To assemble the center panels you will need the following parts and tools:
 
-- 2 Electronics cradles (no rubber strips)
-- 2 front center panels 
-- 2 rear center panels 
-- Thread-locker 
-- The bag with 8 M4x18 socket head cap screws 
-- 3 mm allen hex key 
+- 2 x Enclosure Cradle (4" Series) (no rubber strip)
+- 2 x Front center panels 
+- 2 x Rear center panels 
+- 1 x Thread-locker 
+- 1 x Bag with eight M4x18 socket head cap screws 
+- 1 x 3 mm hex key 
 
-1. Apply one drop of thread-locker to the end of each of the 8 M4x18 screws.
+1. Apply one drop of thread-locker to each of the eight M4x18 screws.
 
-2. Attach one of the electronics enclosure cradles to the rear center panels. 
+2. Attach one of the Enclosure Cradle (4" Series) to the rear center panels. 
 
 	<img src="/brov2//cad/brov-assembly-step3-annotated.png" class="img-responsive" style="max-width:900px" />
 	
-3. Attach the other electronics enclosure cradle to the front center panels.
+3. Attach the other Enclosure Cradle (4" Series) to the front center panels.
 
 	<img src="/brov2//cad/brov-assembly-step4-annotated.png" class="img-responsive" style="max-width:900px" />
 	
@@ -245,31 +249,31 @@ To assemble the center panels you will need the following parts and tools:
 
 To assemble the frame you will need the following parts and tools:
 
-- Thread-locker 
-- The bag with 12 M5x16 button head cap screws 
-- 2 Side Panels
-- The bottom panel with the battery enclosure installed
-- The front center panel assembly
-- The rear center panel assembly
-- 3 mm hex key
+- 1 x Thread-locker 
+- 1 x Bag with 12 M5x16 button head cap screws 
+- 2 x Side panels
+- 1 x Bottom panel with the Watertight Enclosure for ROV/AUV (3" Series) installed
+- 1 x Front center panel assembly
+- 1 x Rear center panel assembly
+- 1 x 3 mm hex key
 	
-1. Apply one drop of thread-locker to the end of the 12 M5x16 screws.
+1. Apply one drop of thread-locker to each of the 12 M5x16 screws.
 	
-2. Install the side panels to the bottom panel; the blank (no holes) end cap on the battery enclosure should be on the same side as the Lumen mounting holes. Take care not to overtighten; turn with the short end of the hex key. 
+2. Install both side panels to the bottom panel using four of the M5x16 screws; the Aluminum End Cap (3" Series) on the Watertight Enclosure for ROV/AUV (3" Series) should be on the same side as the Lumen mounting holes. **It is very important to avoid overtightening these screws.** Tighten these screws using the provided 3mm hex key. Hold the short end of the 3mm hex key while you are tightening the M5x16 screws. Do not tighten beyond the tightness you can achieve holding the short end of the 3mm hex key. 
 
 	<img src="/brov2//cad/brov2-assembly-frame-1.png" class="img-responsive" style="max-width:900px" />
 	
-3. Install the center panel assemblies to the side panels. Take care not to overtighten; turn with the short end of the hex key.
+3. Install the center panel assemblies to the side panels using the remaining eight M5x16 screws. **It is very important to avoid overtightening these screws.** Tighten these screws using the provided 3mm hex key. Hold the short end of the 3mm hex key while you are tightening the M5x16 screws. Do not tighten beyond the tightness you can achieve holding the short end of the 3mm hex key.
 
 	<img src="/brov2//cad/brov2-assembly-frame-2.png" class="img-responsive" style="max-width:900px" />
 	
-Now the ROV should look like the picture below, and it is time to move on to setting up the electronics enclosure.
+Now the BlueROV2 should look like the picture below. 
 
 <img src="/brov2//cad/assembled-frame.png" class="img-responsive" style="max-width:900px" />
 
 # Electronics Enclosure Overview
 
-The pictures below show orientation of the main pieces of hardware in the electronics enclosure. They also point out the names of several of the important parts for assembly that will be discussed in the remaining instrustions
+The images below show orientation of the main pieces of hardware in the electronics enclosure. They also point out the names of several of the important parts for assembly that will be discussed in the remaining instrustions.
 
 <b> <font size="4"> Top View </font> </b> 
 <img src="/brov2//cad/advanced-top-render-1.png" class="img-responsive" style="max-width:900px" />
@@ -283,57 +287,40 @@ The pictures below show orientation of the main pieces of hardware in the electr
 <b> <font size="4"> Front View </font> </b> 
 <img src="/brov2//cad/advanced-front-render-1.png" class="img-responsive" style="max-width:900px" />
 	
-# Changing the Propellers
-
-To change the propellers on three of the thrusters you will need the following items and tools:
-
-- 3 T200 Thrusters (included with ROV)
-- Large (~#3) Phillips Head Screwdriver (not included)
-- 2mm Allen Hex Key (included with ROV)
-
-1. Remove 3 thrusters from their tubes. These will become Thrusters 1, 2, and 5.
-	
-2. Switch the propellers from the clockwise thrusters that come installed to the counter-clockwise thrusters that come along with the thrusters. Please refer to our [Changing the Propeller Tutorial](/tutorials/changing-the-propeller) for detailed instructions.
-
-3. The next few steps will be easier if you keep the clockwise and counter-clockwise thrusters seperated, and for reference the picture below shows clockwise and counter-clockwise propellers installed on thrusters.
-
-	<img src="/brov2/cad/clockwise-counter-clockwise.png" class="img-responsive" style="max-width:900px" />
-
 # Removing the Electronics Enclosure Endcap
 
 The endcap will need to be removed from the electronics enclosure in order to install the cable penetrators. To remove the endcap you will need the following parts and tools:
 
-- Large flat head screw driver (Optional)
-- The electronics enclosure assembly
-- 2.5 mm allen key driver 
+- 1 x Large flat head screw driver (Optional)
+- 1 x The electronics enclosure assembly
+- 1 x 2.5 mm key driver 
 
-1. Remove the vent plug from the electronics enclosure by turning counter-clockwise to unscrew, and then pulling it out of the vent penetrator. Put the vent plug in a safe place.
+1. Remove the Watertight Enclosure for ROV/AUV w/ Dome End Cap installed from the rear O-Ring Flange (4" Series). If this step is difficult, you can place a large flat head screwdriver into the slots on the O-Ring Flange (4" Series), and then twist to get a gap between the acrylic tube and the O-Ring Flange (4" Series). Once you have the gap, you can wedge a screw driver between the end of the acrylic tube and the O-Ring Flange (4" Series).
 
-2. Remove the tube from the rear flange. You can twist a large flat head screwdriver in the slots if it does not pull off easily.
 	<img src="/brov2/cad/electronics-assembly-step1.PNG" class="img-responsive" style="max-width:900px" />
 		
-3. Remove the rear 14 hole end cap by removing the screws using the M2.5 allen driver. Place the M3x12 screws, clips, and face seal O-ring in a safe place. 
+2. Remove the Aluminum End Cap with 14 Holes by removing the six M3x12 screws using the M2.5 hex driver. Place the M3x12 screws, clips (small L-shaped parts), and face seal O-ring in a safe place. 
 
 	<img src="/brov2/cad/electronics-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
 	
-	<img src="/brov2/cad/etray-disassemble.png" class="img-responsive" style="max-width:900px" />
+	[picture of the update electronics tray with the end cap removed]
 	
 # Installing the Cables
 
 ## Installing the Penetrators
 
-To install the penetrators you will need the following items and tools:
+To install the Penetrators you will need the following items and tools:
 
-- The bag with 1 black penetrator nut, 8 red penetrator nuts, and 9 O-rings
-- Silicone grease 
-- 14 hole end cap with blanks, Bar30, vent, and power wire installed 
-- 3 T200 with counter-clockwise thrusters 
-- 3 T200 with clockwise thrusters 
-- 1 set of daisy chained Lumen lights 
-- 1 tether with penetrator installed
-- 1 Penetrator wrench
+- 1 x Bag with one Cable Penetrator Nut (black), eight Cable Penetrator Nut (red), and nine O-rings
+- 1 x Silicone Grease - 10g Tube
+- 1 x Aluminum End Cap with 14 Holes w/ 3 Cable Penetrator Blanks, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable installed
+- 3 x T200 with counter-clockwise thrusters 
+- 3 x T200 with clockwise thrusters 
+- 1 x Set of Lumen lights (optional)
+- 1 x Fathom ROV Tether
+- 1 x Penetrator Wrench
 
-The electronics enclosure end cap ships with 3 blank penetrators, 1 Bar30 pressure sensor, 1 vent, and 1 battery power wire penetrator installed.
+The Aluminum End Cap with 14 Holes comes with 3 Cable Penetrator Blanks, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable installed
 
 <img src="/brov2/cad/end-cap-as-shipped.png" class="img-responsive" style="max-width:900px" />
 
@@ -341,7 +328,7 @@ If you install the remaining penetrators as shown in the diagram below, it will 
 
 <img src="/brov2/cad/end-cap-final.png" class="img-responsive" style="max-width:900px" />
 	
-1. Remove 8 of the O-rings and apply Silicone grease to them. Keep the other O-ring in the bag, you will need it in a minute.
+1. Remove eight of the O-rings and apply silicone grease to them. Keep the other O-ring in the bag, you will need it in a minute.
 
 	<img src="/brov2/cad/grease-o-ring.png" class="img-responsive" style="max-width:900px" />
 
@@ -351,77 +338,73 @@ If you install the remaining penetrators as shown in the diagram below, it will 
 
 4. Install the penetrators to the end cap in the order shown below. Tighten to finger tight, then use the provided wrench to tighten them an additional ~1/16 of a turn. If you can't loosen them with your fingers, they are tight enough. 
 
-	- Thruster 1 (CCW propeller) with red penetrator nut
-	- Thruster 5 (CCW propeller) with red penetrator nut
-	- Thruster 3 (CW propeller) with red penetrator nut
-	- Lumen with red penetrator nut
-	- Thruster 4 (CW propeller) with red penetrator nut
-	- Thruster 6 (CW propeller) with red penetrator nut
-	- Thruster 2 (CCW propeller) with red penetrator nut
-	- Tether with black penetrator nut
+	1. Thruster 1 (CCW propeller) with red penetrator nut
+	2. Thruster 5 (CCW propeller) with red penetrator nut
+	3. Thruster 3 (CW propeller) with red penetrator nut
+	4. Lumen with red penetrator nut
+	5. Thruster 4 (CW propeller) with red penetrator nut
+	6. Thruster 6 (CW propeller) with red penetrator nut
+	7. Thruster 2 (CCW propeller) with red penetrator nut
+	8. Tether with black penetrator nut
 
 ## Installing the End Cap
 
-To reinstall the end cap you will need the following items and tools:
+To reinstall the Aluminum End Cap with 14 Holes you will need the following items and tools:
 
 - The face seal O-ring, the 6 M3x12 screws, and the clips that you removed from the end cap earlier
-- Silicone grease
-- End cap with installed thrusters, lumen, tether, and power cable
-- 2.5 mm allen head hex driver
+- 1 x Silicone Grease - 10g Tube
+- 1 x Aluminum End Cap with 14 Holes with all Cable Penetrators and Blank Penetrators installed
+- 1 x 2.5 mm hex driver
 
-1. Retrieve the face seal O-ring, the 6 M3x12 screws, and the 2 clips that you removed earlier
+1. Clean the O-ring and make sure that it is free of any debris or damage. 
 
-	<img src="/brov2/cad/etray-disassemble.png" class="img-responsive" style="max-width:900px" />
-	
-2. Clean the O-ring and make sure that it is free of any debris or damage. If it appears to be damaged, replace it with the spare 4" face seal O-ring.
+2. Clean the O-Ring Flange (4" Series) and make sure that it is free of any debris or damage.
 
 3. Apply Silicone grease to the O-ring.
 
-4. Install O-ring back onto the flange seal. 
+4. Install O-ring back onto the O-Ring Flange (4" Series). 
 
-5. Reapply one drop of thread-locker to the end of the 6 M3x12 screws.
+5. Apply one drop of thread-locker to each of the M3x12 screws.
 	
-6. Install the end cap onto the O-ring. Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove. The end cap's orientation when installed should match the image below.
+6. Install Aluminum End Cap with 14 Holes with all Cable Penetrators and Blank Penetrators installed onto the O-Ring Flange (4" Series). Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove. The end cap's orientation when installed should match the image below.
 
 	<img src="/brov2/cad/brov2-endcap-installed-iso.png" class="img-responsive" style="max-width:900px" />
 
 ## Finishing the Battery Enclosure
 
-To finish installing the battery enclosure you need the following parts and tools:
+To complete the assembly of the battery enclosure you need the following parts and tools:
 
-- The bag with one red penetrator nut and one O-ring left in it
-- Silicone grease
-- The 4 hole 3 inch enclosure end cap
-- 1 Penetrator wrench
-- XT90 to 3.5 mm bullet connector adapter
-- 1.5 inch piece of heat shrink
-- Heat gun, hairdryer, or lighter
- 
-1. Remove the vent plug from the battery enclosure by turning counter-clockwise to unscrew, and then pulling it out of the vent penetrator. Put the vent plug in a safe place.
+- 1 x Bag with one red penetrator nut and one O-ring left in it
+- 1 x Silicone Grease - 10g Tube
+- 1 x End Cap with 4 Holes (3" Series)
+- 1 x Penetrator wrench
+- 1 x XT90 to 3.5 mm bullet connector adapter
+- 1 x 1.5 inch piece of heat shrink
+- 1 x Heat gun, hairdryer, or lighter
 
-2. Remove the rear flange with the 4 hole endcap from the battery enclosure.
+1. Remove the rear flange with the 4 hole endcap from the battery enclosure.
 
-3. Find the bag that had the penetrator nuts and O-rings in it and retrieve the remaining red nut and O-ring.
+2. Find the bag that had the penetrator nuts and O-rings in it and retrieve the remaining red nut and O-ring.
 	
-4. Apply Silicone grease to the O-ring.
+3. Apply Silicone grease to the O-ring.
 
-5. Install the O-ring onto the battery power cable penetrator.
+4. Install the O-ring onto the battery power cable penetrator.
 	
-6. Install the battery power cable penetrator into the opening in the battery end cap.
+5. Install the battery power cable penetrator into the opening in the battery end cap.
 
 	<img src="/brov2/cad/brov2-battery-penetrator.png" class="img-responsive" style="max-width:900px" />
 
-7. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator.
+6. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator.
 
-8. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires. You should be able to see the threads in the penetrator through the heat shrink.
+7. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires. You should be able to see the threads in the penetrator through the heat shrink.
 
 	<img src="/brov2/cad/brov2-strain-relief-2.png" class="img-responsive" style="max-width:900px" />
 
-9. Install the XT90 to bullet connector adapter to the battery power wire. 
+8. Install the XT90 to bullet connector adapter to the battery power wire. 
 
 	<img src="/brov2/cad/brov2-bullet-to-xt90.png" class="img-responsive" style="max-width:900px" />
 
-10. Reinstall the rear flange and end cap into the battery enclosure, and put the vent plug back into the vent penetrator.
+9. Reinstall the rear flange and end cap into the battery enclosure, and put the vent plug back into the vent penetrator.
 
 ## Optional Preliminary Vacuum Test
 
