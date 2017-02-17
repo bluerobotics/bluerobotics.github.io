@@ -382,55 +382,49 @@ To complete the assembly of the battery enclosure you need the following parts a
 - 1 x 1.5 inch piece of heat shrink
 - 1 x Heat gun, hairdryer, or lighter
 
-1. Remove the rear flange with the 4 hole endcap from the battery enclosure.
-
-2. Find the bag that had the penetrator nuts and O-rings in it and retrieve the remaining red nut and O-ring.
+1. Find the bag that with one red penetrator nut and one O-ring.
 	
-3. Apply Silicone grease to the O-ring.
+2. Apply Silicone grease to the O-ring.
 
-4. Install the O-ring onto the battery power cable penetrator.
+3. Install the O-ring onto the battery power cable penetrator.
 	
-5. Install the battery power cable penetrator into the opening in the battery end cap.
+4. Install the battery power cable penetrator into the opening in the battery end cap.
 
 	<img src="/brov2/cad/brov2-battery-penetrator.png" class="img-responsive" style="max-width:900px" />
 
-6. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator.
+5. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator. 
 
-7. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires. You should be able to see the threads in the penetrator through the heat shrink.
+6. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires. You should be able to see the threads in the penetrator through the heat shrink.
 
 	<img src="/brov2/cad/brov2-strain-relief-2.png" class="img-responsive" style="max-width:900px" />
 
-8. Install the XT90 to bullet connector adapter to the battery power wire. 
+7. Install the XT90 to bullet connector adapter to the battery power wire. 
 
 	<img src="/brov2/cad/brov2-bullet-to-xt90.png" class="img-responsive" style="max-width:900px" />
 
-9. Reinstall the rear flange and end cap into the battery enclosure, and put the vent plug back into the vent penetrator.
+8. If you wish to do the Optional Preliminary Vacuum Test, remove the Vent Plug from the Vent Penetrator Bolt and install the endcap onto the battery enclosure.
 
 ## Optional Preliminary Vacuum Test
 
 This is the best point in the assembly process to perform a vacuum test. Since you have installed all of the penetrators, but have not done any of the wiring, troubleshooting will be as easy as possible. To prepare for the vacuum test you need to purchase a vacuum pump. We recommend [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump).
 
-1. Install the 4 hole 3 inch end cap onto the battery enclosure.
-
-	<img src="/brov2/cad/3-inch-end-cap-installed.png" class="img-responsive" style="max-width:900px">
-
-2. Install the electronics enclosure onto the 14 hole 4 inch end cap.
+1. Install the Watertight Enclosure (4" Series) with installed Dome onto the O-Ring Flange (4" Series) that is attached to the Aluminum End Cap with 14 Holes (4" Series)
 
 	<img src="/brov2/cad/4-inch-end-cap-installed.png" class="img-responsive" style="max-width:900px">
 
-3. Assemble the vacuum tee.
+2. Assemble the vacuum tee.
 
 	<img src="/brov2/cad/vacuum-tee-assembled.png" class="img-responsive" style="max-width:900px">
 
 Now you are ready to perform the preliminary vacuum test.
 
-1. Test your vacuum pump to ensure that it is not leaking. See our [Testing the Test Setup Tutorial](http://docs.bluerobotics.com/tutorials/vacuum-test-plug/#testing-the-test-setup) for detailed information. 
+1. Test your vacuum pump to ensure that it is not leaking. See our [Testing the Test Setup Tutorial](http://docs.bluerobotics.com/tutorials/vacuum-test-plug/#testing-the-test-setup) for detailed instructions. 
 
-2. Insert one of the vacuum plugs into the battery enclosure.
+2. Insert one of the vacuum plugs into the battery enclosure vent penetrator.
 
 	<img src="/brov2/cad/vent-on-3-inch-end-cap.png" class="img-responsive" style="max-width:900px">
 
-3. Insert the other vacuum plug into the electronics enclosure.
+3. Insert the other vacuum plug into the electronics enclosure vent penetrator.
 
 	<img src="/brov2/cad/vent-on-4-inch-end-cap.png" class="img-responsive" style="max-width:900px">
 
@@ -448,7 +442,7 @@ If the gauge reads below 9 in. Hg [31 kPa] vacuum after 15 minutes, you should c
 
 1. Make sure that the M3 screws on the front and back end caps of the battery and electronics enclosure using the M2.5 hex driver. If you are able to tighten one or more, attempt the vacuum test again.
 
-2. Make sure that the penetrators on the battery and electronics enclosure are fully tightened. Check by attempting to loosen by hand. If you are able to tighten one or more, attempt the vacuum test again.
+2. Make sure that the penetrators on the battery and electronics enclosure are fully tightened. Check by attempting to loosen by hand. If you are able to loosen one or more, tighten them then attempt the vacuum test again.
 
 3. Make sure that all of the O-rings are installed in the penetrators. If any are missing, install then attempt the vacuum test again.
 
@@ -462,17 +456,21 @@ To continue assembling the BlueROV2, remove the acrylic tube and dome from the e
 
 To install the wires from the penetrators you will need the following parts and tools:
 
-- Large (~#2) Phillips head screw driver
+- 1 x Large (~#2) Phillips head screw driver
 
 1. Connect the battery power bullet connectors to bullet connectors on XT60 to bullet connector adapter.
 
+[picture]
+
 2. Connect the Lumen power wires to the power terminal block.
 	
+[picture]
+
 ## Installing the Signal Wires from the Penetrators
 	
 To install the wires from the penetrators you will need the following parts and tools:
 
-- Small (~2 mm) flat head screw driver
+-1 x Small (~2 mm) flat head screw driver
 
 1. Connect the Lumen signal wire to the PixHawk channel 7 with the yellow wire oriented toward the bottow of the PixHawk. 
 
@@ -488,7 +486,7 @@ To install the wires from the penetrators you will need the following parts and 
 
 	<img src="/brov2/cad/sboard-side-motor-power-wiring-2.png" class="img-responsive" style="max-width:900px" />	
 	
-4. Connect the tether wires to the Fathom-X Tether Interface Board.
+4. Connect the tether wires to the Fathom-X Tether Interface Board. The other 6 wires can do not need to be connected to anything the operate the ROV. They are for future expansion.
 
 	<img src="/brov2/cad/brov2-advanced-tether-in.png" class="img-responsive" style="max-width:900px" />
 
@@ -496,20 +494,20 @@ To install the wires from the penetrators you will need the following parts and 
 
 ## Mounting the Electronics Enclosure onto the Frame
 
-To mount the electronics enclosure to the frame you need the following parts and tools:
+To mount the Electronics Enclosure to the frame you need the following parts and tools:
 
-- 4" WTE with dome installed
-- Thread-locker
-- Bag with 4 M3x16 screws
-- 2.5 mm hex driver
+- 1 x 4" WTE with dome installed
+- 1 x Thread-locker
+- 1 x Bag with 4 M3x16 screws
+- 1 x 2.5 mm hex driver
 
-1. Reapply silicone grease to the O-rings at the back of the electronics tray, then reinstall tube with dome over the electronics tray.
+1. Apply silicone grease to the two radial O-rings on the O-Ring Flange (4" Series) that is attached to the Electronics Tray then install the Watertight Enclosure (4" Series) with installed Dome End Cap to the O-Ring Flange (4" Series).
 
 	<img src="/brov2/cad/installed-etray-empty-frame.png" class="img-responsive" style="max-width:900px" />
 
-2. Apply one drop of thread-locker to each of the 4 M3x16 screws.
+2. Apply one drop of thread-locker to each of the four M3x16 screws.
 
-3. Mount the electronics enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels (the center panels _without_ the 3 large holes). Install the M3x16 screws through the clips and into the cradles. It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the cradles. This allows to clips to rotate so you can find the cradle hole easily. 
+3. Mount the Electronics Enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels (the center panels _without_ the 3 large holes). Install the M3x16 screws through the clips and into the cradles. It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the cradles. This allows to clips to rotate so you can find the cradle hole easily. 
 
 	<img src="/brov2/cad/clip-installation.PNG" class="img-responsive" style="max-width:900px" />
 
@@ -517,18 +515,20 @@ To mount the electronics enclosure to the frame you need the following parts and
 
 To mount the thrusters to the frame, you need the following parts and tools:
 
-- 2.5 mm hex driver
-- 6 T200 thrusters
-- Bag with 16 M3x16 screws and 8 M3x12 screws in smaller bag
-- The ROV frame
+- 1 x 2.5 mm hex driver
+- 6 x T200 thrusters
+- 1 x Bag with 16 M3x16 screws and 8 M3x12 screws in smaller bag
+- 1 x Assembled ROV frame
 
-Here is a diagram of where the thrusters go, and how they should be oriented. The order of installation matters here. You cannot get the front thrusters on if the rear ones were installed first.
+Here is a diagram of where the thrusters go, and how they should be oriented. The green thrusters should have clockwise propellers and blue thrusters should have clockwise propellers. The order of installation matters here. You cannot get the front thrusters on if the rear ones were installed first.
 
 <p align="center">
 <img src="http://ardusub.com/images/vectored-frame.png" class="img-responsive" style="max-width:900px" />
 </p>
 
-1. Install thrusters 1 and 2 underneath the front center panels, using the M3x16 screws. Tighten the screws so that they indent the frame slightly. It is physically possible to keep turning the screw at this point, but it isn't necessary.
+1. Apply one drop of threadlocker to the 16 M3x16 screws and the 8 M3x12 screws.
+
+1. Install thrusters 1 and 2 underneath the front center panels, using the M3x16 screws. Tighten the screws so that they indent the frame slightly. It is physically possible to keep turning the screw at this point, but it isn't recommended.
 	
 2. Install thrusters 5 and 6, using the M3x12 screws on the side panels. Tighten the screws so that they indent the frame slightly.
 
@@ -538,10 +538,10 @@ Here is a diagram of where the thrusters go, and how they should be oriented. Th
 
 To install the Lumen mounts you will need the following parts and tools:
 
-- The bag with the Lumen mounts, O-rings, and 4 M3x12 socket head cap screws 
-- 2.5mm hex driver 
-- The ROV frame
-- Thread-locker
+- 1 x Bag with the Lumen mounts, O-rings, and four M3x12 socket head cap screws 
+- 1 x 2.5mm hex driver 
+- 1 x BlueROV2 frame
+- 1 x Thread-locker
 
 1. Apply one drop of thread-locker to each of the M3x12 screws.
 
@@ -557,9 +557,9 @@ To install the Lumen mounts you will need the following parts and tools:
 
 The tether needs to be firmly mounted to the frame to prevent the tether penetrator from being loosened through normal use. To do this, you will need the following parts and tools:
 
-- Bag with thimble and 5 large zip ties
-- Tether 
-- ROV frame
+- 1 x Bag with thimble and 5 large zip ties
+- 1 x Fathom Tether 
+- 1 BlueROV2 frame
 
 1. Loop the tether around the plastic thimble at a point about 12 inches (30 cm) away from the tether penetrator.
 	
@@ -585,11 +585,11 @@ The primary goal of Thruster and Lumen cable management is to prevent the wires 
 
 ## Installing the Fairings and Buoyancy
 
-The buoyancy comes preinstalled in the fairings, but make sure it is still in all of the fairings prior to installing the fairings. To install the fairings, you will need the following items:
+The buoyancy comes preinstalled in the fairings, but make sure it is still in all of the fairings prior to installing the fairings. To install the fairings, you will need the following parts and tools:
 
-- 4 Fairings with buoyancy installed (included with the ROV)
-- Bag with 16 self tapping screws (included with the ROV)
-- \#1 Phillips head screwdriver (included with the ROV)
+- 4 x Fairings with buoyancy installed (included with the ROV)
+- 1 x Bag with 16 self tapping screws (included with the ROV)
+- 1 x \#1 Phillips head screwdriver (included with the ROV)
 
 1. Remove the Lumens from their mount.
 
@@ -605,9 +605,9 @@ The buoyancy comes preinstalled in the fairings, but make sure it is still in al
 
 To mount the ballast to the frame you need the following parts and tools:
 
-- 7 200g ballast weights
-- 7 8-16 Thread, 5/8" Long, Thread-Forming Screw   
-- \#2 phillips head screwdriver
+- 7 x 200g ballast weights
+- 7 x 8-16 Thread, 5/8" Long, Thread-Forming Screw   
+- 1 x \#2 phillips head screwdriver
 
 To get the longest battery life and the best driving experience, it is important to have the ROV close to balanced from front to back in water and close to neutrally buoyant. Trimming the ballast may involve a bit of trial and error. The pictures below should provide a good starting point for mounting ballast if you have a stock BlueROV2 with the [recommended battery.](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
 
