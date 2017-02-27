@@ -364,9 +364,9 @@ To reinstall the Aluminum End Cap with 14 Holes you will need the following part
 
 5. Apply one drop of threadlocker to each of the M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 	
-6. Install Aluminum End Cap with 14 Holes with all Cable Penetrators and Blank Penetrators installed onto the O-Ring Flange (4" Series). Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove. The end cap's orientation when installed should match the image below.
+6. Install Aluminum End Cap with 14 Holes with all Cable Penetrators and Blank Penetrators installed onto the O-Ring Flange (4" Series). Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove. The end cap's orientation when installed should match the image below. Make sure that the clips are oriented correctly. One should be just right of the Thruster 3 penetrator, and the other should be just left of the Thruster 4 penetrator. 
 
-	[picture of the end cap installed that makes it clear where the clips should go]
+	<img src="/brov2/cad/end-cap-installed.png" class="img-responsive" style="max-width:900px" />
 
 ## Finishing the Battery Enclosure
 
@@ -456,13 +456,15 @@ To install the wires from the penetrators you will need the following parts and 
 
 1. Connect the battery power bullet connectors to bullet connectors on XT60 to bullet connector adapter. 
 
-	<img src="/brov2/cad/electronics-enclosure-power-connection-1.png" class="img-responsive" style="max-width:900px" />
+	<img src="/brov2/cad/electronics-enclosure-power-connection-11.png" class="img-responsive" style="max-width:900px" />
 
-2. Connect the Lumen power wires to the power terminal block. 
+2. Connect the Lumen power wire (red) to the Power Terminal Block with the other red wires. Use the rear screw terminal that is second from the bottom. To help keep the cable routing neat, bring the cable through the ESC wires and take out most of the slack.
 	
-	<img src="/brov2/cad/lumen-hot.png" class="img-responsive" style="max-width:900px" />
+	<img src="/brov2/cad/lumen-hot-1.png" class="img-responsive" style="max-width:900px" />
 
-	<img src="/brov2/cad/lumen-ground.png" class="img-responsive" style="max-width:900px" />
+3. Connect the Lumen ground wire (black) to the Power Terminal Block with the other black wires. Use the rear screw terminal that is second from the bottom. To help keep the cable routing neat, bring the cable through the ESC wires and take out most of the slack.
+	
+	<img src="/brov2/cad/lumen-ground-12.png" class="img-responsive" style="max-width:900px" />
 
 ## Installing the Signal Wires from the Penetrators
 	
@@ -499,7 +501,7 @@ To route the cables in the Electronics Enclosure so that they will not snag on t
 
 1. On the starboard side (PixHawk side) collect the Bar30 wires and the Lumen signal wire and zip tie them to the long hex standoff slightly forward of the Motor Terminal Block using one zip tie. Make sure that the locking head of the zip tie and the wires are oriented to the inside of the long hex standoff.
 
-	<img src="/brov2/cad/zip-tie-starboard.png" class="img-responsive" style="max-width:900px" />
+	<img src="/brov2/cad/zip-tie-starboard-1.png" class="img-responsive" style="max-width:900px" />
 
 2. On the port side (Fathom-X Tether Interface Board side) collect the Fathom Tether wires and zip tie them to the long hex standoff approximately even with the back of the Fathom-X Tether Interface Board and approximately even with the Motor Terminal Block. Make sure that the locking heads of the zip ties and the wires are oriented to the inside of the long hex standoff. 
 
