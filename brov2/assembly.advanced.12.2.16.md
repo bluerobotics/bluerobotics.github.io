@@ -106,11 +106,11 @@ Quantity      | Part																		| Usage
 1             | Set of tether board power wires (installed)								| Provided power to the tether board
 4             | M3x16 socket head cap screw (316 stainless steel)  							| Mounting the electronics enclosure to the electronics enclosure cradle
 1			  | Fathom-X Tether Interface Board installed									| Long distance ethernet connection
-1			  | 3DR PixHawk (installed)														| Autopilot
+1			  | 3DR Pixhawk (installed)														| Autopilot
 1			  | Raspberry Pi 3 (installed)													| Companion computer
 1			  | Raspberry Pi Camera 2 (installed)   										| Camera
-1			  | PixHawk Power Module (installed) 											| Powers the PixHawk and monitors current and battery voltage
-2             | Universal Battery Elimination Circuit (UBEC) (installed)                    | Powers the Raspberry Pi and PixHawk servo rails         
+1			  | Pixhawk Power Module (installed) 											| Powers the Pixhawk and monitors current and battery voltage
+2             | Universal Battery Elimination Circuit (UBEC) (installed)                    | Powers the Raspberry Pi and Pixhawk servo rails         
 
 ## Battery Enclosure
 
@@ -472,11 +472,11 @@ To install the wires from the penetrators you will need the following parts and 
 
 -1 x Small (~2 mm) flat head screw driver
 
-1. Connect the Lumen signal wire to the PixHawk channel 7 with the yellow wire oriented toward the bottow of the PixHawk. 
+1. Connect the Lumen signal wire to the Pixhawk channel 7 with the yellow wire oriented toward the bottow of the Pixhawk. 
 
 	<img src="/brov2/cad/lumen-signal.png" class="img-responsive" style="max-width:900px" />
 
-2. Connect the Bar30 cable to the I<sup>2</sup>C port on the PixHawk.
+2. Connect the Bar30 cable to the I<sup>2</sup>C port on the Pixhawk.
 
 	<img src="/brov2/cad/brov2-bar30-pixhawk.png" class="img-responsive" style="max-width:900px" />
 
@@ -499,7 +499,7 @@ To route the cables in the Electronics Enclosure so that they will not snag on t
 - 3 x 5 1/2" zip ties
 - 1 x Wire strippers or scissors
 
-1. On the starboard side (PixHawk side) collect the Bar30 wires and the Lumen signal wire and zip tie them to the long hex standoff slightly forward of the Motor Terminal Block using one zip tie. Make sure that the locking head of the zip tie and the wires are oriented to the inside of the long hex standoff.
+1. On the starboard side (Pixhawk side) collect the Bar30 wires and the Lumen signal wire and zip tie them to the long hex standoff slightly forward of the Motor Terminal Block using one zip tie. Make sure that the locking head of the zip tie and the wires are oriented to the inside of the long hex standoff.
 
 	<img src="/brov2/cad/zip-tie-starboard-1.png" class="img-responsive" style="max-width:900px" />
 
