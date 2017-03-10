@@ -253,7 +253,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Aluminum End Cap Thickness          | 0.24 in       | 6 mm         |
 | Aluminum Flange Inner Diameter      | 5.0  in       | 127 mm       |
 | Total Length                        | 12.0 in       | 304.8 mm     |
-| Radial Seal O-ring (2 used)         | AS568-256, Buna-N            |
+| Radial Seal O-ring (2 used)         | AS568-432, Buna-N            |
 | Face Seal O-ring (1 used)           | AS568-162, Buna-N            |
 | End Cap Screws (Acrylic Endcaps)    | M3x16 (Stainless Steel 316)  |
 | End Cap Screws (Aluminum Endcaps)   | M3x12 (Stainless Steel 316)  |
@@ -307,7 +307,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Aluminum End Cap Thickness          | 0.24 in     | 6 mm            |
 | Aluminum Flange Inner Diameter      | 7.0 in      | 177.8 mm        |
 | Total Length                        | 12.0 in     | 304.8 mm        |
-| Radial Seal O-ring (2 used)         | AS568-265, Buna-N             |
+| Radial Seal O-ring (2 used)         | AS568-442, Buna-N             |
 | Face Seal O-ring (1 used)           | AS568-170, Buna-N             |
 | End Cap Screws (Acrylic Endcaps)    | M3x16 (Stainless Steel 316)   |
 | End Cap Screws (Aluminum & Dome Endcaps)    | M3x12 (Stainless Steel 316)   |
