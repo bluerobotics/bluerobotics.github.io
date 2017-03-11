@@ -7,7 +7,7 @@ nav:
 - Introduction: introduction
 - Specifications: specifications
 - - Specification Table: specification-table
-- - 3D Model: d-models
+- - 3D Model: 3d-models
 
 store-links:
 - Subsea Buoyancy Foam: https://www.bluerobotics.com/store/uncategorized/float-r1/

@@ -19,7 +19,7 @@ nav:
 - - Sensors: Sensors
 - - Camera Tilt: camera-tilt
 - - Standard and Advanced Comparison: standard-and-advanced-comparison
-- 3D Model: d-model
+- 3D Model: 3d-model
 - User Manuals: user-manuals
 - Issue Reporting: issue-reporting
 

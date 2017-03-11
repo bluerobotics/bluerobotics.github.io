@@ -9,8 +9,8 @@ nav:
 - - Schematic: schematic
 - - Specification Table: specification-table
 - - DF-13 Pinout: df13-pinout
-- - 2D Drawing: d-drawing
-- - 3D Model: d-model
+- - 2D Drawing: 2d-drawing
+- - 3D Model: 3d-model
 - Installation: installation
 - Example Code: example-code
 - - Arduino: arduino

@@ -7,8 +7,8 @@ nav:
 - - Important Notes: important-notes
 - Specifications: specifications
 - - Specification Table: specification-table
-- - 2D Drawing: d-drawing
-- - 3D Model: d-model
+- - 2D Drawing: 2d-drawing
+- - 3D Model: 3d-model
 - Usage: usage
 - Installation: installation
 

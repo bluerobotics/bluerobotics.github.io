@@ -9,7 +9,7 @@ nav:
 - Specifications: specifications
 - - Diagram: diagram
 - - Specification Table: specification-table
-- - 3D Model: d-model
+- - 3D Model: 3d-model
 - Installation: installation
 - - Thermal Considerations: thermal-considerations
 - - Video Tutorial: video-tutorial
