@@ -12,7 +12,7 @@ nav:
 - - Specification Table: specification-table
 - - Performance Charts: performance-charts
 - - Dimensions: dimensions
-- - 3D Model: d-model
+- - 3D Model: 3d-model
 - Installation: installation
 - - Changing the Propeller: changing-the-propeller
 - - Mounting Options: mounting-options

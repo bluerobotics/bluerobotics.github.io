@@ -12,7 +12,7 @@ nav:
 - - Specification Table: specification-table
 - - Performance Charts: performance-charts
 - - Dimensions: dimensions
-- - 3D Model: d-model
+- - 3D Model: 2d-model
 - Installation: installation
 - - Video Tutorial: video-tutorial
 - - Electrical Connections: electrical-connections

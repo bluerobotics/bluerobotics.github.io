@@ -6,8 +6,8 @@ nav:
 - Introduction: introduction
 - Features: features
 - - Specifications: specifications
-- - 2D Drawings: d-drawings
-- - 3D Model: d-model
+- - 2D Drawings: 2d-drawings
+- - 3D Model: 3d-model
 - Assembly: assembly
 - - Diagram of the Tray: diagram-of-the-tray
 - - Assembling the Tray: assembling-the-electronics-tray

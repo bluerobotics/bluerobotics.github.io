@@ -90,11 +90,11 @@ This calculator finds the buoyancy of an object based on it's volume. It also us
 
 This calculator uses the [js-quantities library](https://github.com/gentooboontoo/js-quantities) by gentooboontoo for unit conversions.
 
-<script type="text/javascript" src="https://cdn.rawgit.com/gentooboontoo/js-quantities/master/src/quantities.js"></script>
-
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/2.0.1/math.min.js"></script>
 
 <script src="https://www.google.com/jsapi"></script>
+
+<script type="text/javascript" src="/calc/quantities.js"></script>
 
 <script type="text/javascript" src="/calc/battery.js"></script>
 

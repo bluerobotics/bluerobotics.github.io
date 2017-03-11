@@ -183,10 +183,11 @@ Quantity      | Part
 There are some items necessary for operation that are not included with the kit. 
 
  - A gamepad controller. We recommend [an Xbox360 Controller](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [a Logitech F310 Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
- - A laptop or a tablet. ArduSub works on Mac, Linux, and Windows.
- - A 12-20V battery with an XT90 plug. We recommend getting 1 or 2 of our [Lithium-ion Batteries (14.8V, 18Ah)](http://bluerobotics.com/store/rov/bluerov2/battery-li-4s-18ah-r1/)
  - A mini-USB cable.
- - A USB-Ethernet adapter, or an Ethernet patch cable.
+ - A USB-Ethernet adapter and an Ethernet patch cable.
+ - A laptop or a tablet. ArduSub and QGroundControl works on Mac, Linux, Windows, iOS, and Android. 
+ - A battery for the BlueROV2. We recommend getting our [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
+ - A battery charger, we use and recommend [this one](https://hobbyking.com/en_us/turnigy-reaktor-300w-20a-ac-dc-synchronous-balance-charger-discharger-us-plug.html).  
  
 # Assembling the Frame
 

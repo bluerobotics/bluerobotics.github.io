@@ -7,16 +7,16 @@ nav:
 - - Important Notes: important-notes
 - Specs (2" Series): specifications-2-series
 - - Specification Table: specification-table-2-series
-- - 2D Drawings: d-drawings-2-series
-- - 3D Models: d-models-2-series
+- - 2D Drawings: 2d-drawings-2-series
+- - 3D Models: 3d-models-2-series
 - Specs (3" Series): specifications-3-series
 - - Specification Table: specification-table-3-series
-- - 2D Drawings: d-drawings-3-series
-- - 3D Models: d-models-3-series
+- - 2D Drawings: 2d-drawings-3-series
+- - 3D Models: 3d-models-3-series
 - Specs (4" Series): specifications-4-series
 - - Specification Table: specification-table-4-series
-- - 2D Drawings: d-drawings-4-series
-- - 3D Models: d-models-4-series
+- - 2D Drawings: 2d-drawings-4-series
+- - 3D Models: 3d-models-4-series
 - Assembly: assembly
 - - Video Tutorial: video-tutorial
 - - Steps: steps
