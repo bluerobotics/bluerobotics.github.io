@@ -381,7 +381,7 @@ Here is a diagram of where the ESC power wires should go for the port and starbo
 	
 ## Installing the Standard Electronics
 
-If you have the Advanced Electronics, please skip to [Installing the Advanced Electronics](/brov2/assembly/#installing-the-advanced-electronics)
+If you have the Advanced Electronics, please skip to [Installing the Advanced Electronics](#installing-the-advanced-electronics)
 
 To install the standard electronics, you need the following parts and tools:
 
@@ -404,7 +404,7 @@ To install the standard electronics, you need the following parts and tools:
 
 ## Installing the Advanced Electronics
 
-If you have the Standard Electronics, please skip to [Wiring the Electronics](/brov2/assembly/#wiring-the-electronics)
+If you have the Standard Electronics, please skip to [Wiring the Electronics](#wiring-the-electronics)
 
 To install the Advanced Electronics, you need the following parts and tools:
 
@@ -472,7 +472,7 @@ To connect the PixHawk Power Module, you need the following parts and tools:
 
 ## Wiring the Standard Electronics
 
-If you have the Advanced Electronics, please continue to [Wiring the Advanced Electronics](/brov2/assembly/#wiring-the-advanced-electronics)
+If you have the Advanced Electronics, please continue to [Wiring the Advanced Electronics](#wiring-the-advanced-electronics)
 
 To complete the wiring of the Standard Electronics kit you need the following items:
 
@@ -487,7 +487,7 @@ To complete the wiring of the Standard Electronics kit you need the following it
 
 ## Wiring the Advanced Electronics
 
-If you have the Standard Electronics, please continue to [Signal Cable Wiring](/brov2/assembly/#signal-cable-wiring)
+If you have the Standard Electronics, please continue to [Signal Cable Wiring](#signal-cable-wiring)
 
 To complete the wiring of the Advanced Electronics you need the following items and tools:
 
