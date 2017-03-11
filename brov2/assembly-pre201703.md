@@ -761,7 +761,7 @@ To install the wires from the penetrators you will need the following parts and 
 
 3. Connect the motor wires to the motor wire terminal block, as shown in the diagrams below
 
-	<img src="/brov2/cad/port-side-motor-power-wiring.png" class="img-responsive" style="max-width:900px" />
+	<img src="/brov2/cad/port-side-motor-power-wiring-1.png" class="img-responsive" style="max-width:900px" />
 	
 	<img src="/brov2/cad/sboard-side-motor-power-wiring-2.png" class="img-responsive" style="max-width:900px" />
 
