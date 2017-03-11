@@ -16,7 +16,7 @@ nav:
 - Specifications: specifications
 - - Specification Table: specification-table
 - - Recommended Electronics and Software: recommended-electronics-and-software
-- - 3D Model: 333d-model
+- - 3D Model: 3d-model
 - Assembly: assembly
 - - Frame: frame-assembly
 - - Watertight Enclosure: watertight-enclosure-assembly

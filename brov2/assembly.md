@@ -25,8 +25,8 @@ nav:
 - - Center Panels: assembling-the-center-panels
 - - Frame: assembling-the-frame-1
 - Electronics Overview: electronics-enclosure-overview
-- - Removing Endcap: removing-the-electronics-enclosure-endcap
 - Cable Installation: installing-the-cables
+- - Removing Endcap: removing-the-electronics-enclosure-endcap
 - - Penetrator Installation: installing-the-penetrators
 - - End Cap Installation: installing-the-end-cap
 - - Finishing Battery Enclosure: finishing-the-battery-enclosure
