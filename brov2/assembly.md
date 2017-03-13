@@ -462,11 +462,11 @@ To install the wires from the penetrators you will need the following parts and 
 
 2. Connect the Lumen power wire (red) to the Power Terminal Block with the other red wires. Use the rear screw terminal that is second from the bottom. To help keep the cable routing neat, bring the cable through the ESC wires and take out most of the slack.
 	
-	<img src="/brov2/cad/lumen-hot-1.png" class="img-responsive" style="max-width:900px" />
+	<img src="/brov2/cad/lumen-hot-grey.png" class="img-responsive" style="max-width:900px" />
 
 3. Connect the Lumen ground wire (black) to the Power Terminal Block with the other black wires. Use the rear screw terminal that is second from the bottom. To help keep the cable routing neat, bring the cable through the ESC wires and take out most of the slack.
 	
-	<img src="/brov2/cad/lumen-ground-12.png" class="img-responsive" style="max-width:900px" />
+	<img src="/brov2/cad/lumen-ground-grey.png" class="img-responsive" style="max-width:900px" />
 
 ## Installing the Signal Wires from the Penetrators
 	
@@ -476,7 +476,7 @@ To install the wires from the penetrators you will need the following parts and 
 
 1. Connect the Lumen signal wire to the Pixhawk channel 7 with the yellow wire oriented toward the bottow of the Pixhawk. 
 
-	<img src="/brov2/cad/lumen-signal.png" class="img-responsive" style="max-width:900px" />
+	<img src="/brov2/cad/lumen-signal-grey.png" class="img-responsive" style="max-width:900px" />
 
 2. Connect the Bar30 cable to the I<sup>2</sup>C port on the Pixhawk.
 
