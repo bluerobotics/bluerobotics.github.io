@@ -282,7 +282,7 @@ To assemble the center panels you will need the following tools and items:
 To assemble the frame you will need the following tools and items:
 
 - Thread-locker 
-- The bag with 12 M5x12 button head cap screws 
+- The bag with 12 M5x16 button head cap screws 
 - 2 Side Panels
 - The bottom panel with the battery enclosure installed
 - The front center panel assembly
