@@ -388,8 +388,6 @@ To complete the assembly of the battery enclosure you need the following parts a
 	
 3. Install the battery power cable penetrator into the opening in the battery end cap.
 
-	<img src="/brov2/cad/brov2-battery-penetrator.png" class="img-responsive" style="max-width:900px" />
-
 4. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator. 
 
 5. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires. You should be able to see the threads in the penetrator through the heat shrink.
@@ -420,21 +418,21 @@ Now you are ready to perform the preliminary vacuum test.
 
 2. Insert one of the vacuum plugs into the battery enclosure vent penetrator.
 
-	<img src="/brov2/cad/vent-on-3-inch-end-cap.png" class="img-responsive" style="max-width:900px">
+	<img src="/brov2/cad/vent-on-3-inch-end-cap-bw.png" class="img-responsive" style="max-width:900px">
 
 3. Insert the other vacuum plug into the electronics enclosure vent penetrator.
 
-	<img src="/brov2/cad/vent-on-4-inch-end-cap.png" class="img-responsive" style="max-width:900px">
+	<img src="/brov2/cad/vent-on-4-inch-end-cap-bw.png" class="img-responsive" style="max-width:900px">
 
 4. Pump the vacuum until the gauge reads 10 in. Hg [34 kPa] vacuum. If you cannot pull a vacuum, try the suggestions following step 6, below.
 
-	<img src="/brov2/cad/vacuum-10-inches.png" class="img-responsive" style="max-width:900px">
+	<img src="/brov2/cad/vacuum-10-inches-bw.png" class="img-responsive" style="max-width:900px">
 
 5. Let the BlueROV2 and pump sit for 15 minutes.
 
 6. If the gauge reads above 9 in. Hg [31 kPa] after 15 minutes, your seals are acceptable.
 
-	<img src="/brov2/cad/vacuum-9-inches.png" class="img-responsive" style="max-width:900px">
+	<img src="/brov2/cad/vacuum-9-inches-bw.png" class="img-responsive" style="max-width:900px">
 
 If the gauge reads below 9 in. Hg [31 kPa] vacuum after 15 minutes, you should check the following:
 
@@ -458,7 +456,7 @@ To install the wires from the penetrators you will need the following parts and 
 
 1. Connect the battery power bullet connectors to bullet connectors on XT60 to bullet connector adapter. 
 
-	<img src="/brov2/cad/electronics-enclosure-power-connection-11.png" class="img-responsive" style="max-width:900px" />
+	<img src="/brov2/cad/electronics-enclosure-power-connection-bw.png" class="img-responsive" style="max-width:900px" />
 
 2. Connect the Lumen power wire (red) to the Power Terminal Block with the other red wires. Use the rear screw terminal that is second from the bottom. To help keep the cable routing neat, bring the cable through the ESC wires and take out most of the slack.
 	
@@ -480,7 +478,7 @@ To install the wires from the penetrators you will need the following parts and 
 
 2. Connect the Bar30 cable to the I<sup>2</sup>C port on the Pixhawk.
 
-	<img src="/brov2/cad/brov2-bar30-pixhawk.png" class="img-responsive" style="max-width:900px" />
+	<img src="/brov2/cad/brov2-bar30-pixhawk-1.png" class="img-responsive" style="max-width:900px" />
 
 3. Connect the motor wires to the motor wire terminal block, as shown in the diagrams below.
 
@@ -490,7 +488,7 @@ To install the wires from the penetrators you will need the following parts and 
 	
 4. Connect the tether wires to the Fathom-X Tether Interface Board. The other 6 wires can do not need to be connected to anything the operate the ROV. They are for future expansion.
 
-	<img src="/brov2/cad/brov2-advanced-tether-in.png" class="img-responsive" style="max-width:900px" />
+	<img src="/brov2/cad/tether-signal-in-bw.png" class="img-responsive" style="max-width:900px" />
 
 5. Remove the lens cap from the camera.
 
@@ -503,11 +501,11 @@ To route the cables in the Electronics Enclosure so that they will not snag on t
 
 1. On the starboard side (Pixhawk side) collect the Bar30 wires and the Lumen signal wire and zip tie them to the long hex standoff slightly forward of the Motor Terminal Block using one zip tie. Make sure that the locking head of the zip tie and the wires are oriented to the inside of the long hex standoff.
 
-	<img src="/brov2/cad/zip-tie-starboard-1.png" class="img-responsive" style="max-width:900px" />
+	<img src="/brov2/cad/zip-tie-starboard-bw.png" class="img-responsive" style="max-width:900px" />
 
 2. On the port side (Fathom-X Tether Interface Board side) collect the Fathom Tether wires and zip tie them to the long hex standoff approximately even with the back of the Fathom-X Tether Interface Board and approximately even with the Motor Terminal Block. Make sure that the locking heads of the zip ties and the wires are oriented to the inside of the long hex standoff. 
 
-	<img src="/brov2/cad/zip-tie-port.png" class="img-responsive" style="max-width:900px" />
+	<img src="/brov2/cad/zip-tie-port-bw.png" class="img-responsive" style="max-width:900px" />
 
 # Final Assembly
 
