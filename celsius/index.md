@@ -7,10 +7,10 @@ nav:
 - - Quick Start: quick-start
 - Specifications: specifications
 - - Schematic: schematic
-- - 2D Drawing: d-drawing
+- - 2D Drawing: 2d-drawing
 - - Specification Table: specification-table
 - - DF-13 Pinout: df-13-pinout
-- - 3D Model: d-model
+- - 3D Model: 3d-model
 - Installation: installation
 - Example Code: example-code
 - - Arduino: arduino

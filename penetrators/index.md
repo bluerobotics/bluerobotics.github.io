@@ -7,7 +7,7 @@ nav:
 - Introduction: introduction
 - Specifications: specifications 
 - - Specification Table: specification-table
-- - 3D Models: d-models
+- - 3D Models: 3d-models
 - Installation: installation
 - - Video Tutorial: video-tutorial
 - - Step 1 - Stripping the Jacket: step-1-stripping-the-jacket

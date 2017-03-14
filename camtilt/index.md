@@ -7,9 +7,9 @@ nav:
 - - Quick Start 
 - Specifications: specifications
 - - Specification Table: specification-table
-- - 2D Drawings: d-drawings
-- - 3D Model: d-model
-- - 3D Printer Settings: d-printer-settings
+- - 2D Drawings: 2d-drawings
+- - 3D Model: 3d-model
+- - 3D Printer Settings: 3d-printer-settings
 - Assembly: assembly
 - - Raspberry Pi Camera: raspberry-pi-camera
 - - Low-Light Analog Camera: low-light-analog-camera

@@ -6,8 +6,8 @@ nav:
 - Introduction: introduction
 - Specifications: specifications
 - - Specification Table: specification-table
-- - 2D Drawings: d-drawings
-- - 3D Model: d-model
+- - 2D Drawings: 2d-drawings
+- - 3D Model: 3d-model
 - Usage: usage
 - Assembly and Installation: assembly-and-installation
 

@@ -10,14 +10,14 @@ nav:
 - Specifications: specifications
 - - Diagram: diagram
 - - Specification Table: specification-table
-- - 3D Model: d-model
+- - 3D Model: 3d-model
 - Operation: operation
 - - LED Indicator Lights: led-indicator-lights
-- I<sup>2</sup>C Protocol: isup2supc-protocol
+- I<sup>2</sup>C Protocol: i2c-protocol
 - - Throttle Command: throttle-command
 - - Data Request: data-request
 - - Data Conversion: data-conversion
-- - Assigning I<sup>2</sup>C Addresses: assigning-isup2supc-addresses
+- - Assigning I<sup>2</sup>C Addresses: assigning-i2c-addresses
 - Example Code: example-code
 - - Arduino With Servo Library: arduino-with-servo-library
 - - Arduino With I2C: arduino-with-i2c

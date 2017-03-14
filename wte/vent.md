@@ -8,7 +8,7 @@ nav:
 - - Important Notes: important-notes
 - Specifications: watertight-enclosure-specifications
 - - Specification Table: specification-table
-- - 3D Model: d-models
+- - 3D Model: 3d-models
 - Assembly: assembly
 
 store-links:

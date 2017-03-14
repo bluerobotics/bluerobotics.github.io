@@ -9,8 +9,8 @@ nav:
 - Specifications: specifications
 - - Schematic: schematic
 - - Specification Table: specification-table
-- - 2D Drawings: d-drawings
-- - 3D Model: d-model
+- - 2D Drawings: 2d-drawings
+- - 3D Model: 3d-model
 - Installation: installation
 - - Using the Center Hole: using-the-center-hole
 - - Using the Threaded Outside Holes: using-the-threaded-outside-holes
