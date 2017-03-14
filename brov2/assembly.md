@@ -305,8 +305,6 @@ The endcap will need to be removed from the electronics enclosure in order to in
 2. Remove the Aluminum End Cap with 14 Holes by removing the six M3x12 screws using the M2.5 hex driver. Place the M3x12 screws, clips (small L-shaped parts), and face seal O-ring in a safe place. 
 
 	<img src="/brov2/cad/electronics-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
-	
-	[picture of the update electronics tray with the end cap removed]
 
 ## Installing the Penetrators
 
