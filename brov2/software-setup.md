@@ -49,7 +49,7 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 ## Windows Setup
 
-**Internet Sharing**
+**Network Settings**
 
 1. Go to _Control Panel_ > _Network and Sharing Center_ and then choose "Change adapter settings".
 
@@ -100,6 +100,29 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 	<img src="/brov2/cad/mac-sharing-settings-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
 ## Linux Setup
+
+**Network Settings**
+
+1. Click the Network Icon in the toolbar at the top of the screen, and click "Edit Connections..."
+
+	<img src="/brov2/cad/linuxsetup/LinuxStep1.png" class="img-responsive img-center" style="max-width:800px" />
+
+2. Click "Add"
+
+	<img src="/brov2/cad/linuxsetup/LinuxStep2.png" class="img-responsive img-center" style="max-width:800px" />
+
+3. Select "Ethernet" for the connection type and click "Create..."
+
+	<img src="/brov2/cad/linuxsetup/LinuxStep3.png" class="img-responsive img-center" style="max-width:800px" />
+
+4. From the "Device MAC Address" dropdown, select the ethernet interface you want to use. If you are using the built in ethernet card on your computer, there will be only one choice. If you are using a USB to Ethernet adapter, find out which interface corresponds to the adapter by looking at the options before and after plugging the adapter into the computer.
+
+	<img src="/brov2/cad/linuxsetup/LinuxStep4.png" class="img-responsive img-center" style="max-width:800px" />
+
+5. Click the "IPv4 Settings" tab, and from the "Method" dropdown menu, select "Manual". Click "Add", and enter 192.168.2.1 for the Address, 255.255.255.0 for the Netmask and 0.0.0.0 for the Gateway. Click "Save..." to complete the setup.
+
+	<img src="/brov2/cad/linuxsetup/LinuxStep5.png" class="img-responsive img-center" style="max-width:800px" />
+
 
 # Connect Joystick to QGroundControl
 

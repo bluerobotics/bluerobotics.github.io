@@ -256,6 +256,7 @@ To assemble the frame you will need the following parts and tools:
 - 1 x Front center panel assembly
 - 1 x Rear center panel assembly
 - 1 x 3 mm hex key
+
 	
 1. Apply one drop of threadlocker to each of the 12 M5x16 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 	
