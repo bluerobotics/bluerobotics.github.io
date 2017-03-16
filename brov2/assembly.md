@@ -471,7 +471,7 @@ To install the wires from the penetrators you will need the following parts and 
 
 - 1 x Small (~2 mm) flat head screw driver
 
-1. Connect the Lumen signal wire to the Pixhawk channel 7 with the yellow wire oriented toward the bottow of the Pixhawk. 
+1. Connect the Lumen signal wire to the Pixhawk channel 7 with the yellow wire oriented toward the bottom of the Pixhawk. 
 
 	<img src="/brov2/cad/lumen-signal-grey.png" class="img-responsive" style="max-width:900px" />
 
@@ -539,7 +539,7 @@ To mount the thrusters to the frame, you need the following parts and tools:
 
 Note: If you received your BlueROV prior to March 14th, 2017 you will need to install the Counter-Clockwise Propellers. See [the archived instructions](/brov2/assembly-pre201703/#changing-the-propellers) for details
 
-Here is a diagram of where the thrusters go, and how they should be oriented. The green thrusters should have clockwise propellers and blue thrusters should have clockwise propellers. The order of installation matters here. You cannot get the front thrusters on if the rear ones were installed first.
+Here is a diagram of where the thrusters go, and how they should be oriented. The green thrusters should have clockwise propellers and blue thrusters should have counter-clockwise propellers. The order of installation matters here. You cannot get the front thrusters on if the rear ones were installed first.
 
 <p align="center">
 <img src="http://ardusub.com/images/vectored-frame.png" class="img-responsive" style="max-width:900px" />
