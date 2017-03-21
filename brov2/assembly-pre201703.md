@@ -815,7 +815,7 @@ To mount the thrusters to the frame, you need the following parts and tools:
 - Bag with 16 M3x16 screws and 8 M3x12 screws in smaller bag
 - The ROV frame
 
-Here is a diagram of where the thrusters go. The order of installation does matter here. You cannot get the front thrusters on if the rear ones were installed first.
+Here is a diagram of where the thrusters go, and how they should be oriented. The green thrusters should have counter-clockwise propellers and blue thrusters should have clockwise propellers. The order of installation matters here. You cannot get the front thrusters on if the rear ones were installed first.
 
 <p align="center">
 <img src="http://ardusub.com/images/vectored-frame.png" class="img-responsive" style="max-width:900px" />
