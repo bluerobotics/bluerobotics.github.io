@@ -199,7 +199,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap with 5 x 10mm Holes          | [WTE4-P-END-CAP-5X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-P-END-CAP-5-10MM-R1.png)  
 | End Cap with 10 x 10mm Holes         | [WTE4-P-END-CAP-10X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-M-END-CAP-10-10MM-R1.png)  
 | End Cap with 14 x 10mm Holes 		   | [WTE4-M-END-CAP-14X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-M-END-CAP-14X10MM-R1.png) 
-| Dome End Cap                         | [WTE4-P-DOME-R2 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-P-DOME-R2.png)
+| Dome End Cap                         | [WTE4-P-DOME-R2 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-P-DOME-R2.PNG)
 | Clamp                     		   | [WTE4-M-CLAMP-R1 Drawing](/wte/cad/WTE4-M-CLAMP-R1.PNG) 
 
 ## 3D Models (4" Series)
