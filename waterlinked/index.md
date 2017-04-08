@@ -4,12 +4,12 @@ title: Water Linked Underwater GPS Documentation
 order: 1
 nav:
 - Introduction: introduction
-- Specifications: specifications
-- - Specification Table: specification-table
-- - 2D Drawing: 2d-drawing
-- - 3D Model: 3d-model
-- Usage: usage
-- Installation: installation
+#- Specifications: specifications
+#- - Specification Table: specification-table
+#- - 2D Drawing: 2d-drawing
+#- - 3D Model: 3d-model
+#- Usage: usage
+#- Installation: installation
 
 store-links:
 - Switch: http://www.bluerobotics.com/store/electronics/underwater-gps/aps-wl-11001/
