@@ -50,7 +50,7 @@ For maximum efficiency, the T100 should be run at 12V, and the T200 at 16V.  A 1
 
 ## Capacity
 
-The capacity of a LiPo, or any, battery is in milliamp hours (mAh) or amp hours (Ah) and determines how much energy a battery stores. For example, a 5Ah battery would approximately be able to run a 5 amp device for 1 hour, or a 1 amp device for 5 hours.
+The capacity of a LiPo, or any battery, is in milliamp hours (mAh) or amp hours (Ah) and determines how much energy a battery stores. For example, a 5Ah battery would approximately be able to run a 5 amp device for 1 hour, or a 1 amp device for 5 hours.
 
 ## Discharge Rate
 
