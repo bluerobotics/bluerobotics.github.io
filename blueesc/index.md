@@ -252,7 +252,7 @@ The RPM is sent as *pulses since last read*, which is the number of commutation 
 
 $$
 \begin{align*}
-RPS_{ESC} = \frac{RPS_{raw}}{N_{poles} \Delta t} 
+RPS_{ESC} = \frac{RPS_{raw}}{0.5 N_{poles} \Delta t} 
 \end{align*}
 $$
 
