@@ -34,6 +34,8 @@ The Basic ESC is a simple speed controller. It is the [AfroESC 30A](#) pre-progr
 
 You are welcome to purchase the ESCs directly and reprogram them yourself. We offer them as a convenience to help you get started quickly. We also do quality control to ensure that every ESC operates correctly. 
 
+Note that the BasicESC no longer includes a BEC, and may only include a signal and ground wire.
+
 ## Safety 
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with electricity, especially in water, always practice caution. Always ensure that connections are secure and watertight. Keep your body away from spinning motors and propellers.
@@ -42,7 +44,7 @@ You are welcome to purchase the ESCs directly and reprogram them yourself. We of
 
 1. Connect the three motor wires to the motor. The order of connections does not matter, however, switching any two wires will change the direction of the motor. The output phases A, B, and C are completely interchangeable
 2. Connect the red power wire and black ground wire to a power source like a battery. You will hear a few beeps from the ESC.
-3. Connect the signal cable to your signal source like an RC radio receiver or microcontroller board. The yellow wire is the signal wire. The red wire is the battery eliminator circuit (BEC) output, which supplies 5V at 500mA to power a control system. The brown wire is ground.
+3. Connect the signal cable to your signal source like an RC radio receiver or microcontroller board. The yellow wire is the signal wire. The red wire is the battery eliminator circuit (BEC) output, which supplies 5V at 500mA to power a control system (no longer included). The brown wire is ground.
 4. Send a stopped signal (1500 microseconds) for a few seconds to initialize the ESC. You will hear a long tone.
 
 # Specifications
