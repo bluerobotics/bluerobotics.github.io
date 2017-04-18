@@ -140,6 +140,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap with 4 x 10mm Holes          | [WTE3-P-END-CAP-4X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-PM-END-CAP-4X10MM-R1.png)
 | End Cap with 7 x 10mm Holes          | [WTE3-P-END-CAP-7X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-PM-END-CAP-7X10MM-R1.png)
 | Clamp                     		   | [WTE3-M-CLAMP-R1 Drawing](/wte/cad/WTE3-M-CLAMP-R1.PNG) 
+| Aluminum Tube                        | [WTE3-M-TUBE-SHORT-R1 Drawing](/wte/cad/WTE3-M-TUBE-SHORT-R1.PNG)
 
 
 ## 3D Models (3" Series)
@@ -155,7 +156,8 @@ All 3D models are provided in zip archives containing the follow file types:
 |               **3" Series Enclosure**                                                                                                          |
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
 | Assembly Model                       | [WTE3-ASM-R1.zip](http://www.bluerobotics.com/models/WTE3-ASM-R1.zip)
-| Tube (Standard 11.75", 298mm length) | [WTE3-P-TUBE-R1.zip](http://www.bluerobotics.com/models/WTE3-P-TUBE-R1.zip)
+| Acrylic Tube (Standard 11.75", 298mm length) | [WTE3-P-TUBE-R1.zip](http://www.bluerobotics.com/models/WTE3-P-TUBE-R1.zip)
+| Aluminum Tube (Standard 8.75", 222mm length) | [WTE3-M-TUBE-SHORT-R1.zip](/wte/cad/WTE3-M-TUBE-SHORT-R1.zip)
 | Aluminum O-ring Flange               | [WTE3-M-FLANGE-SEAL-R1.zip](http://www.bluerobotics.com/models/WTE3-M-FLANGE-SEAL-R1.zip)
 | Plain Solid End Cap			       | [WTE3-P-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-R1.zip)
 | End Cap with 4 x 10mm Holes          | [WTE3-P-END-CAP-4X10MM-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-4X10MM-R1.zip)
@@ -201,6 +203,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap with 14 x 10mm Holes 		   | [WTE4-M-END-CAP-14X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-M-END-CAP-14X10MM-R1.png) 
 | Dome End Cap                         | [WTE4-P-DOME-R2 Drawing](/assets/images/WTE/drawings/WTE4/WTE4-P-DOME-R2.PNG)
 | Clamp                     		   | [WTE4-M-CLAMP-R1 Drawing](/wte/cad/WTE4-M-CLAMP-R1.PNG) 
+| Aluminum Tube 					   | [WTE4-M-TUBE-X3A Drawing](/wte/cad/WTE4-M-TUBE-X3A.PNG)
 
 ## 3D Models (4" Series)
 
@@ -216,7 +219,8 @@ All 3D models are provided in zip archives containing the follow file types:
 |               **4" Series Enclosure**                                                                                                          |
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
 | Assembly Model                       | [WTE4-ASM-R2.zip](http://www.bluerobotics.com/models/WTE4-ASM-R2.zip)
-| Tube (Standard 11.75", 298mm length) | [WTE4-P-TUBE-12-R1.zip](http://www.bluerobotics.com/models/WTE4-P-TUBE-12-R1.zip)
+| Acrylic Tube (Standard 11.75", 298mm length) | [WTE4-P-TUBE-12-R1.zip](http://www.bluerobotics.com/models/WTE4-P-TUBE-12-R1.zip)
+| Aluminum Tube (Standard 11.75", 298 mm length) | [WTE4-M-TUBE-X3A.zip](/wte/cad/WTE4-M-TUBE-X3A.zip)
 | Aluminum O-ring Flange               | [WTE4-M-FLANGE-SEAL-R2.zip](http://www.bluerobotics.com/models/WTE4-M-FLANGE-SEAL-R2.zip)            
 | Plain Solid End Cap			       | [WTE4-P-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-R1.zip)      
 | Aluminum Solid End Cap               | [WTE4-M-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE4-M-END-CAP-R1.zip)        
