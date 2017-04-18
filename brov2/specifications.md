@@ -68,7 +68,7 @@ There are some items necessary for operation that are not included with the kit.
 
  - Analog screen for the Standard _BlueROV2_. We recommend [this one](https://www.adafruit.com/products/2261).
  - A gamepad controller. We recommend [this XBox360 Controller](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [this Logitech Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
- - A laptop or a tablet. ArduSub works on Mac, Linux, Windows, iOS, and Android devices.
+ - A laptop or a Windows tablet. QGroundControl works on Mac, Windows, and Linux.
  - A battery for the BlueROV2. We recommend getting our [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
  - A battery charger, we use and recommend [this one](https://hobbyking.com/en_us/turnigy-reaktor-300w-20a-ac-dc-synchronous-balance-charger-discharger-us-plug.html).  
 
@@ -162,7 +162,7 @@ The batteries can be changed in about 30 seconds.
 | Control System  | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
 |                            |                                                                                                 | Computer such as the Raspberry Pi 3                                                                           |
 |                            | **Standard Required Topside**                                                             | **Advanced Required Topside**                                                        |
-|                            | Laptop or Tablet                     												      | Laptop or Tablet                                                                                                    |
+|                            | Laptop or Windows Tablet                     												      | Laptop or Windows Tablet                                                                                                    |
  | |Gamepad Controller such as [Xbox](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [Logitech](http://gaming.logitech.com/en-us/product/f310-gamepad)   | Gamepad Controller  such as [Xbox](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [Logitech](http://gaming.logitech.com/en-us/product/f310-gamepad)                                                          |
 |                            | [Analog video screen with RCA Input](https://www.adafruit.com/products/2261)                                                                    |                                                                                                                    |
 
