@@ -225,7 +225,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
 | Assembly Model                       | [WTE4-ASM-R2.zip](http://www.bluerobotics.com/models/WTE4-ASM-R2.zip)
 | Acrylic Tube (Standard 11.75", 298mm length) | [WTE4-P-TUBE-12-R1.zip](http://www.bluerobotics.com/models/WTE4-P-TUBE-12-R1.zip)
-| Aluminum Tube (Standard 11.75", 298 mm length) | [WTE4-M-TUBE-12-R1.zip](/wte/cad/WTE4-M-TUBE-R1.zip)
+| Aluminum Tube (Standard 11.75", 298 mm length) | [WTE4-M-TUBE-12-R1.zip](/wte/cad/WTE4-M-TUBE-12-R1.zip)
 | Aluminum O-ring Flange               | [WTE4-M-FLANGE-SEAL-R2.zip](http://www.bluerobotics.com/models/WTE4-M-FLANGE-SEAL-R2.zip)            
 | Plain Solid End Cap			       | [WTE4-P-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-R1.zip)      
 | Aluminum Solid End Cap               | [WTE4-M-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE4-M-END-CAP-R1.zip)        
