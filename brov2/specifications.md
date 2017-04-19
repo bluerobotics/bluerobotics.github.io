@@ -58,9 +58,9 @@ high-end commercial mini-ROV at the price of the most basic commercial ROVs.
 
 The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected build time is 4-8 hours to operation depending on experience.
 
-Here is the [Bill of Material](/brov2/assembly/#whats-included) for the each _BlueROV2_ kit.
+Here is the [Bill of Materials](/brov2/assembly/#whats-included) for the _BlueROV2_ kit.
 
-The Standard and Advanced options have a couple of differences shown [here](/brov2/#standard-and-advanced-comparison)
+The Standard and Advanced options have a couple of differences shown [here](/brov2/#standard-and-advanced-comparison).
 
 ## What's Not Included
 
