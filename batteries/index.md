@@ -24,7 +24,7 @@ manual-links:
 
 # Introduction
 
-The Blue Robotics <em>Lithium-ion Battery (14.8V, 18Ah)</em> is a high capacity custom battery pack made from high quality 18650 lithium-ion cells designed for use in the [BlueROV2](https://www.bluerobotics.com/store/rov/bluerov2/). This 4S (14.8V) battery has a nominal capacity of 18.0Ah, plenty for up to 4 hours of continuous moderate to heavy use on the BlueROV2. The lithium-ion cells the battery is comprised of have excellent performance characteristics, as well as a high tolerance for accidental mishandling. The battery is is both CE (Conformité Européenne) approved and ROHS compliant.
+The Blue Robotics <em>Lithium-ion Battery (14.8V, 18Ah)</em> is a high capacity custom battery pack made from high quality 18650 lithium-ion cells designed for use in the [BlueROV2](https://www.bluerobotics.com/store/rov/bluerov2/). This 4S (14.8V) battery has a nominal capacity of 18.0Ah, plenty for up to 4 hours of continuous moderate to heavy use on the BlueROV2. The lithium-ion cells the battery is comprised of have excellent performance characteristics, as well as a high tolerance for accidental mishandling. The battery is CE (Conformité Européenne) approved, ROHS compliant, and UN38.3 certified. Certificates can be provided upon request.
 
 # Specifications (Li-ion 18Ah)
 
