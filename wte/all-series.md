@@ -15,8 +15,16 @@ nav:
 - - 3D Models: 3d-models-3-series
 - Specs (4" Series): specifications-4-series
 - - Specification Table: specification-table-4-series
-- - 2D Drawings: 2d-drawings-4-series
-- - 3D Models: 3d-models-4-series
+- - 2D Drawings: d-drawings-4-series
+- - 3D Models: d-models-4-series
+- Specs (6" Series): specifications-6-series
+- - Specification Table: specification-table-6-series
+- - 2D Drawings: d-drawings-6-series
+- - 3D Models: d-models-6-series
+- Specs (8" Series): specifications-8-series
+- - Specification Table: specification-table-8-series
+- - 2D Drawings: d-drawings-8-series
+- - 3D Drawings: d-models-6-series
 - Assembly: assembly
 - - Video Tutorial: video-tutorial
 - - Steps: steps
@@ -27,6 +35,8 @@ store-links:
 - Watertight Enclosure - 2" Series: https://www.bluerobotics.com/product-category/2-series/
 - Watertight Enclosure - 3" Series: https://www.bluerobotics.com/product-category/3-series/
 - Watertight Enclosure - 4" Series: https://www.bluerobotics.com/product-category/4-series/
+- Watertight Enclosure - 6" Series: https://www.bluerobotics.com/product-category/6-series/
+- Watertight Enclosure - 8" Series: https://www.bluerobotics.com/product-category/8-series/
 
 manual-links:
 - Enclosure Vent: /vent/
@@ -236,8 +246,115 @@ All 3D models are provided in zip archives containing the follow file types:
 | Dome End Cap                         | [WTE4-P-DOME-R1.zip](/wte/cad/WTE4-P-DOME-R2.zip) 
 | Clamp                     		   | [WTE4-M-CLAMP-R1.zip](/wte/cad/WTE4-M-CLAMP-R1.zip) 
 
+# Specifications: 6" Series
+
+## Specification Table (6" Series)
+
+| ----------------------------------- | ----------------------------- |
+|                          **6" Series Enclosure**                    |
+| ----------------------------------- | ----------------------------- |
+| Maximum Tested Depth (Saltwater)    | 210 ft        | 65 m         |
+| Maximum Pressure                    | 91.1 psi      | 637.6 kPa    |
+| Tube Inner Diameter                 | 6.0 in        | 152.4 mm     |
+| Tube Outer Diameter                 | 6.5 in        | 165.1 mm     |
+| Tube Thickness                      | 0.25 in       | 6.4 mm       |
+| Acrylic End Cap thickness 		  | 0.5 in        | 12.7 mm      |
+| Aluminum End Cap Thickness          | 0.24 in       | 6 mm         |
+| Aluminum Flange Inner Diameter      | 5.0  in       | 127 mm       |
+| Total Length                        | 12.0 in       | 304.8 mm     |
+| Radial Seal O-ring (2 used)         | AS568-432, Buna-N            |
+| Face Seal O-ring (1 used)           | AS568-162, Buna-N            |
+| End Cap Screws (Acrylic Endcaps)    | M3x16 (Stainless Steel 316)  |
+| End Cap Screws (Aluminum Endcaps)   | M3x12 (Stainless Steel 316)  |
+| Inner Mounting Holes                | M3 threading                 |
+
+## 2D Drawings (6" Series)
+
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+|               **6" Series Enclosure**                                                                                                          |
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+| Assembly Model                       | [ASSEM-WTE6-R1 Drawing](/wte/cad/ASSEM-WTE6-R1.PNG)
+| Aluminum O-ring Flange               | [WTE6-M-FLANGE-SEAL-R1 Drawing](/wte/cad/WTE6-M-FLANGE-SEAL-R1.PNG)    
+| Acrylic Solid End Cap			       | [WTE6-P-END-CAP-R1 Drawing](/wte/cad/WTE6-P-END-CAP-R1.PNG)   
+| Aluminum Solid End Cap               | [WTE6-M-END-CAP-R1 Drawing](/wte/cad/WTE6-M-END-CAP-R1.PNG)   
+| Aluminum End Cap with 5 x 10mm Holes | [WTE6-M-END-CAP-5-10MM-R1 Drawing](/wte/cad/WTE6-M-END-CAP-5-10MM-R1.PNG)
 
 
+## 3D Models (6" Series)
+
+
+All 3D models are provided in zip archives containing the follow file types:
+
+- SolidWorks Part (.sldprt)
+- IGES (.igs) 
+- STEP (.step)
+- STL (.stl)
+
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+|               **6" Series Enclosure**                                                                                                          |
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+| Assembly Model                       | [ASSEM-WTE6-R1.zip](/wte/cad/ASSEM-WTE6-R1.zip)
+| Tube (Standard 11.75", 298mm length) | [WTE6-P-TUBE-R1.zip](/wte/cad/WTE6-P-TUBE-R1.zip)
+| Aluminum O-ring Flange               | [WTE6-M-FLANGE-SEAL-R1.zip](/wte/cad/WTE6-M-FLANGE-SEAL-R1.zip)            
+| Acrylic Solid End Cap			       | [WTE6-P-END-CAP-R1.zip](/wte/cad/WTE6-P-END-CAP-R1.zip)     
+| Aluminum Solid End Cap               | [WTE6-M-END-CAP-R1.zip](/wte/cad/WTE6-M-END-CAP-R1.zip)        
+| End Cap with 5 x 10mm Holes          | [WTE6-M-END-CAP-5-10MM-R1.zip](/wte/cad/WTE6-M-END-CAP-5-10MM-R1.zip)   
+
+# Specifications: 8" Series
+
+## Specification Table (8" Series)
+
+| ----------------------------------- | ----------------------------- |
+|                          **8" Series Enclosure**                    |
+| ----------------------------------- | ----------------------------- |
+| Maximum Tested Depth (Saltwater)    | 130 ft      | 40 m            |
+| Maximum Pressure                    | 56.4 psi    | 392.4 kPa       |
+| Tube Inner Diameter                 | 8.0 in      | 203.2 mm        |
+| Tube Outer Diameter                 | 8.5 in      | 215.9 mm        |
+| Tube Thickness                      | 0.25 in     | 6.35 mm         |
+| Acrylic End Cap Thickness           | 0.5 in      | 12.7 mm         |
+| Aluminum End Cap Thickness          | 0.24 in     | 6 mm            |
+| Aluminum Flange Inner Diameter      | 7.0 in      | 177.8 mm        |
+| Total Length                        | 12.0 in     | 304.8 mm        |
+| Radial Seal O-ring (2 used)         | AS568-442, Buna-N             |
+| Face Seal O-ring (1 used)           | AS568-170, Buna-N             |
+| End Cap Screws (Acrylic Endcaps)    | M3x16 (Stainless Steel 316)   |
+| End Cap Screws (Aluminum & Dome Endcaps)    | M3x12 (Stainless Steel 316)   |
+| Inner Mounting Holes                | M3 threading                  |
+
+
+## 2D Drawings (8" Series)
+
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+|               **8" Series Enclosure**                                                                                                          |
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+| Assembly Model                       | [ASSEM-WTE8-R1 Drawing](/wte/cad/ASSEM-WTE8-R1.PNG)
+| Aluminum O-ring Flange               | [WTE8-M-FLANGE-SEAL-R1 Drawing](/wte/cad/WTE8-M-FLANGE-SEAL-R1.PNG)    
+| Acrylic Solid End Cap			       | [WTE8-P-END-CAP-R1 Drawing](/wte/cad/WTE8-P-END-CAP-R1.PNG)   
+| Aluminum Solid End Cap               | [WTE8-M-END-CAP-R1 Drawing](/wte/cad/WTE8-M-END-CAP-R1.PNG)   
+| Aluminum End Cap with 5 x 10mm Holes | [WTE8-M-END-CAP-5-10MM-R1 Drawing](/wte/cad/WTE8-M-END-CAP-5-10MM-R1.PNG)
+| Dome End Cap 						   | [WTE8-P-DOME-R1 Drawing](/wte/cad/WTE8-P-DOME-R1.PNG)
+
+## 3D Models (8" Series)
+
+
+All 3D models are provided in zip archives containing the follow file types:
+
+- SolidWorks Part (.sldprt)
+- IGES (.igs) 
+- STEP (.step)
+- STL (.stl)
+
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+|               **8" Series Enclosure**                                                                                                          |
+| -----------------------------------------------------------------------------------------------------------------------------------------------|
+| Assembly Model                       | [ASSEM-WTE8-R1.zip](/wte/cad/ASSEM-WTE8-R1.zip)
+| Tube (Standard 11.75", 298mm length) | [WTE8-P-TUBE-R1.zip](/wte/cad/WTE8-P-TUBE-R1.zip)
+| Aluminum O-ring Flange               | [WTE8-M-FLANGE-SEAL-R1.zip](/wte/cad/WTE8-M-FLANGE-SEAL-R1.zip)            
+| Acrylic Solid End Cap			       | [WTE8-P-END-CAP-R1.zip](/wte/cad/WTE8-P-END-CAP-R1.zip)     
+| Aluminum Solid End Cap               | [WTE8-M-END-CAP-R1.zip](/wte/cad/WTE8-M-END-CAP-R1.zip)        
+| End Cap with 5 x 10mm Holes          | [WTE8-M-END-CAP-5-10MM-R1.zip](/wte/cad/WTE8-M-END-CAP-5-10MM-R1.zip)   
+| Dome End Cap                         | [WTE8-P-DOME-R1.zip](/wte/cad/WTE8-P-DOME-R1.zip) 
 
 <br />
 
