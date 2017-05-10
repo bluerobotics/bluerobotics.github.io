@@ -154,12 +154,12 @@ The batteries can be changed in about 30 seconds.
 ## Standard and Advanced Comparison
 
 |                            |**Standard Camera**                                                                    | **Advanced Camera**                                                                                                |
-| Field of View (Underwater) | 110 degrees (horizontal)                                                              | TBD                                                                                                                |
+| Field of View (Underwater) | 110 degrees (horizontal)                                                              | 110 degrees (horizontal)                                                              |
 | Light Sensitivity          | 0.0003 [lux](https://en.wikipedia.org/wiki/Lux#Illuminance)                           | TBD                                                                                                                |
 | Resolution                 | 700 TVL                                                                               | 1080p                                                                                                          |
 |                            | **Standard Control System**                                            		      | **Advanced Control System**                                                                        | 
 | Tether Board               | [Fathom-S Tether Interface Board](http://docs.bluerobotics.com/fathom-s/) 			     | [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/)                     |
-| Control System  | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) | Autopilot Controller such as the [3DR PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
+| Control System  | Autopilot Controller such as the [M Robotics PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) | Autopilot Controller such as the [M Robotics PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
 |                            |                                                                                                 | Computer such as the Raspberry Pi 3                                                                           |
 |                            | **Standard Required Topside**                                                             | **Advanced Required Topside**                                                        |
 |                            | Laptop or Windows Tablet                     												      | Laptop or Windows Tablet                                                                                                    |
