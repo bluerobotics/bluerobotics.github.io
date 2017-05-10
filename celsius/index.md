@@ -126,7 +126,7 @@ Install the Celsius Temperature Sensor into an endcap and tighten by hand or wit
 
 This example uses the [TSYS01 Arduino Library](https://github.com/bluerobotics/BlueRobotics_TSYS01_Library) with the connected sensor. The example reads the sensor and prints the resulting values to the serial terminal.
 
-Please remember to use a logic level converter, such as [this one](https://www.sparkfun.com/products/12009), to convert Arduino 5V levels to 3.3V!
+Please remember to use a logic level converter, such as [this one](http://bluerobotics.com/store/electronics/level-converter-r1/), to convert Arduino 5V levels to 3.3V!
 
 If you've never used Arduino before, we suggest checking out [some tutorials](https://www.arduino.cc/en/Tutorial/HomePage)!
 
