@@ -57,7 +57,7 @@ The [EagleCAD files](https://github.com/bluerobotics/Celsius-Temperature-Sensor)
 
 ## Specification Table
 
-For further information please see the [TSYS01 Data Sheet](http://meas-spec.com/downloads/TSYS01_Digital_Temperature_Sensor.pdf).
+For further information please see the [TSYS01 Data Sheet](http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FTSYS01%7FA%7Fpdf%7FEnglish%7FENG_DS_TSYS01_A.pdf%7FG-NICO-018).
 
 |      **Electrical**       |
 | ------------- | --------- |
