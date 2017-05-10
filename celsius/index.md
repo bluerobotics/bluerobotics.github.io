@@ -116,7 +116,7 @@ All 3D models are provided in zip archives containing the follow file types:
 
 Use a small amount of silicone grease on the O-ring for lubrication and place it in the groove of the Celsius Temperature Sensor. 
 
-##Step 2: Installation
+## Step 2: Installation
 
 Install the Celsius Temperature Sensor into an endcap and tighten by hand or with a wrench.
 
