@@ -35,12 +35,20 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 ## Specification Table
 
 | ----------------------- | ----------------------------- |
-|               **Subsea Buoyancy Foam**                  |
+|               **R-3312 Subsea Buoyancy Foam**           |
 | ----------------------- | ----------------------------- |
 | Density                 | 12 lb/ft<sup>3</sup> | 192 kg/m<sup>3</sup> |
 | Specific Gravity        | 0.19                          |
 | Tested Depth (Uncoated) | 300 ft        | 91 m          |
 | Tested Depth (Coated)   | 600 ft        | 182 m         |
+
+| ----------------------- | ----------------------------- |
+|               **R-3318 Subsea Buoyancy Foam**           |
+| ----------------------- | ----------------------------- |
+| Density                 | 18 lb/ft<sup>3</sup> | 288 kg/m<sup>3</sup> |
+| Specific Gravity        | 0.29                          |
+| Tested Depth (Uncoated) | 800 ft        | 244 m          |
+| Tested Depth (Coated)   | 1600 ft       | 488 m         |
 
 ## 3D Models
 
@@ -50,7 +58,6 @@ All 3D models are provided in zip archives containing the follow file types:
 - IGES (.igs) 
 - STEP (.step)
 - STL (.stl)
-
 
 
 | Size                       | Zip File                                                |
