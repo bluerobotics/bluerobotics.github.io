@@ -109,7 +109,7 @@ Quantity      | Part																		| Usage
 1             | Set of tether board power wires (installed)								| Provided power to the tether board
 4             | M3x16 socket head cap screw (316 stainless steel)  							| Mounting the electronics enclosure to the electronics enclosure cradle
 1			  | Fathom-X Tether Interface Board installed									| Long distance ethernet connection
-1			  | 3DR Pixhawk (installed)														| Autopilot
+1			  | M Robotics Pixhawk (installed)														| Autopilot
 1			  | Raspberry Pi 3 (installed)													| Companion computer
 1			  | Raspberry Pi Camera 2 (installed)   										| Camera
 1			  | Pixhawk Power Module (installed) 											| Powers the Pixhawk and monitors current and battery voltage
