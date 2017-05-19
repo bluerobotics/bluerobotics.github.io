@@ -8,7 +8,7 @@ nav:
 - Introduction: software-intro
 - Install QGroundControl: install-qgroundcontrol
 - Computer Set Up: setting-up-your-computer
-- - Windows Setup: windows-setup
+- - Windows 10 Setup: windows-10-setup
 - - Mac Setup: mac-setup
 - - Linux Setup: linux-setup
 - Connect Joystick: connect-joystick-to-qgroundcontrol
@@ -47,7 +47,7 @@ To connect your computer to the BlueROV2, you need to download and install the l
 
 If your computer does not have an Ethernet port, you will need a USB to Ethernet adaptor. We recommend using [this one.](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
 
-## Windows Setup
+## Windows 10 Setup
 
 **Network Settings**
 

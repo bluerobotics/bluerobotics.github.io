@@ -186,7 +186,7 @@ Quantity      | Part
 There are some items necessary for operation that are not included with the kit. 
 
  - A gamepad controller. We recommend [an Xbox360 Controller](https://www.amazon.com/Microsoft-Wired-Controller-Windows-Console/dp/B004QRKWLA?th=1) or [a Logitech F310 Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
- - A laptop or a Windows tablet. QGroundControl works on Mac, Windows, and Linux.
+ - A laptop or a Windows 10 tablet. QGroundControl works on Mac, Windows 10, and Linux.
  - A battery for the BlueROV2. We recommend getting our [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
  - A 4S capable LiPo/Li-Ion balance battery charger. We use and recommend [this one](https://hobbyking.com/en_us/turnigy-reaktor-300w-20a-ac-dc-synchronous-balance-charger-discharger-us-plug.html).
  
@@ -646,7 +646,7 @@ To get your topside ready to connect to the BlueROV2 you will need the following
 
 - 1 x Fathom-X Tether Interface Board
 - 1 x 2 mm flat head screw driver
-- 1 x Computer (Mac, Windows, Linux)
+- 1 x Computer (Mac, Windows 10, Linux)
 - 1 x Ethernet cable 
 - 1 x USB to Ethernet adapter (if your computer does not have an Ethernet Port)
 - 1 x Mini-USB cable
