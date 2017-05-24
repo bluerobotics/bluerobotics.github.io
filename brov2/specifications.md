@@ -76,8 +76,8 @@ There are some items necessary for operation that are not included with the kit.
 
  - [Assembly Instructions](/brov2/assembly/)
  - [Bill of Materials](/brov2/assembly/#whats-included)
- - [Initial ArduSub Set-up](http://ardusub.com/initial-setup/)
- - [ArduSub Operation](#)
+ - [Initial Software Setup](/brov2/software-setup)
+ - [Operating Manual](/brov2/operation)
 
 # Specifications
 
