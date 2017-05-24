@@ -41,7 +41,11 @@ These are instructions for the first time that you set up your computer to work 
 
 # Install QGroundControl
 
-To connect your computer to the BlueROV2, you need to download and install the latest stable build of [QGroundControl](https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html).
+To connect your computer to the BlueROV2, you need to download and install QGroundControl from one of the following links:
+
+- [Windows](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl-installer.exe)
+- [Mac](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.dmg)
+- [Linux](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.AppImage)
 
 # Setting Up Your Computer
 
@@ -168,20 +172,25 @@ Logitech controllers should have the switch on the back set to "X"
 
 ## Linux
 
+All required drivers come pre-loaded on Ubuntu 14.04 and 16.04, no setup necessary!
+
+**Logitech GamePad (F710 and F310)**
+
+Logitech controllers should have the switch on the back set to "X"
+
 # Joystick/Gamepad Calibration
 
-The first time you use a new joystick or gamepad in QGroundControl, you will be asked to calibrate it. This allows QGroundControl to detect which axis is which and what the range of each axis is.
+Some joysticks require calibration before you can enable them for use with QGroundControl. If your joystick requires calibration, the *Joystick* tab on the *Vehicle Settings* page will be red, and you should follow these steps to calibrate your joystick. If your joystick does not require calibration, the *Joystick* tab will not be red, and you can skip this step!
 
-**Important Note:** The Calibration process is a little confusing. This will be fixed in upcoming versions of QGroundControl, but for now, you must follow this process.
+1. Go to the *Vehicle Settings* page in QGroundControl, then click on the red *Joystick* tab in the sidebar on the left.
 
-1. Click "Calibrate" on the joystick page, then click "Next".
+2. Ensure the 'TX Mode' selection is set to 3.
+
+3. Click "Calibrate", then click "Next".
  
-2. **We want to calibrate the joysticks in the opposite way that QGroundControl asks us to.** When asked to move each axis, move the following sticks:
+4. Follow the step-by-step instructions, move the sticks as indicated in the diagram in QGroundControl.
 
-	- Throttle: Right stick up/down
-	- Yaw: Right stick right/left
-	- Roll: Left stick right/left
-	- Pitch: Left stick up/down
+When completed, the *Joystick* tab will no longer be red, and the *Enabled* checkbox on the Joystick page should be checked.
 
 # Button Setup
 
@@ -189,11 +198,12 @@ The default button setup for the BlueROV2 is as shown in the image below:
 
 <img src="/brov2/cad/controller-buttons.png" class="img-responsive img-center" style="max-width:800px" />
 
+The button functions may be reconfigured in the *Joystick* tab on the *Vehicle Settings* page.
+
 # Sensor Calibration
 
-1. Go to the settings tab in QGroundControl and select the red _Sensors_ tab on the left sidebar.
-2. Choose your autopilot orientation:
-	- `Roll90` for the BlueROV2
+1. Go to the *Vehicle Settings* page in QGroundControl and select the red _Sensors_ tab in the sidebar on the left.
+2. Choose `Roll90` for the *Autopilot Orientation* selection.
 3. Click on the _Accelerometers_ and follow the instructions.
 4. Click on _Compass_ and follow the instructions.
 
@@ -209,13 +219,13 @@ The motor directions for the BlueROV2 must be tested prior to use.
 
 1. Set the flight mode to "Manual".
 
-2. Arm the BlueROV2 by pressing "Start"
+2. Arm the BlueROV2 by pressing "Start".
 
-3. Move the left joystick forwards and verify that the thrusters are running the correct way. Air should be blowing out of the four vectored thrusters towards the back of the vehicle. If one of the thrusters is blowing air towards the front, go to _Settings_ in QGroundContorl, then go to _Parameters_ and select _MOT_. Select the motor that is blowing air towards the front and switch the motor direction using the dropdown on the right.
+3. Move the left-hand joystick forwards and verify that the thrusters are running the correct way. Air should be blowing out of the four vectored thrusters towards the back of the vehicle. If one of the thrusters is blowing air towards the front, go to _Settings_ in QGroundContorl, then go to _Parameters_ and select _MOT_. Select the motor that is blowing air towards the front and switch the motor direction using the dropdown on the right.
 
 	<img src="/brov2/cad/configure-motor-directions-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-4. Move the right joystick forwards and verify that the thrusters are running the correct way. Air should be blowing out of the two vertical thrusters towards the bottom of the vehicle. If one of the thrusters is blowing air towards the top, go to _Settings_ in QGroundControl, then go to _Parameters_ and select _MOT_. Select the motor that is blowing air towards the top and switch the motor direction using the dropdown on the right.
+4. Move the right-hand joystick forwards and verify that the thrusters are running the correct way. Air should be blowing out of the two vertical thrusters towards the bottom of the vehicle. If one of the thrusters is blowing air towards the top, go to _Settings_ in QGroundControl, then go to _Parameters_ and select _MOT_. Select the motor that is blowing air towards the top and switch the motor direction using the dropdown on the right.
 
 # Voltage and Current Measurement Setup 
 
