@@ -25,6 +25,14 @@ manual-links:
 - Operations Manual: /brov2/operation/
 ---
 
+<script>
+$(document).ready(function(){
+	$('#windowsDiv').collapse({toggle: false});
+	$('#macDiv').collapse({toggle: false});
+	$('#linuxDiv').collapse({toggle: false});
+});
+</script>
+
 <img src="/brov2/cad/ROV-scuba-1.png" class="img-responsive img-center" style="max-width:800px" />
 
 # Software Intro
@@ -35,9 +43,9 @@ These are instructions for the first time that you set up your computer to work 
 
 Select your operating system below to begin the installation and network configuration:
 
-- <a href="#windowsDiv" data-toggle="collapse" onclick="{ $('#macDiv').collapse('hide'); $('#linuxDiv').collapse('hide'); }">Windows</a>
-- <a href="#macDiv" data-toggle="collapse" onclick="{ $('#linuxDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); }">Mac</a>
-- <a href="#linuxDiv" data-toggle="collapse" onclick="{ $('#macDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); }">Linux</a>
+- <a href="#installation" onclick="{ $('#windowsDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#linuxDiv').collapse('hide'); }">Windows</a>
+- <a href="#installation" onclick="{ $('#macDiv').collapse('show'); $('#linuxDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); }">Mac</a>
+- <a href="#installation" onclick="{ $('#linuxDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); }">Linux</a>
 
 <div id="windowsDiv" class="collapse" markdown="1">
 
