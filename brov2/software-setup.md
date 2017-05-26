@@ -43,9 +43,9 @@ These are instructions for the first time that you set up your computer to work 
 
 Select your operating system below to begin the installation and network configuration:
 
-- <a href="#installation" onclick="{ $('#windowsDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#linuxDiv').collapse('hide'); }">Windows</a>
-- <a href="#installation" onclick="{ $('#macDiv').collapse('show'); $('#linuxDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); }">Mac</a>
-- <a href="#installation" onclick="{ $('#linuxDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); }">Linux</a>
+- <a href="#installation" onclick="{ $('#windowsDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#linuxDiv').collapse('hide'); $('#commonDiv').collapse('show'); }">Windows</a>
+- <a href="#installation" onclick="{ $('#macDiv').collapse('show'); $('#linuxDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); }">Mac</a>
+- <a href="#installation" onclick="{ $('#linuxDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); }">Linux</a>
 
 <div id="windowsDiv" class="collapse" markdown="1">
 
@@ -209,6 +209,7 @@ All required drivers for wired Xbox 360 controllers and Logitech F310 controller
 
 Logitech controllers should have the switch on the back set to "X"
 </div>
+<div id="commonDiv" class="collapse" markdown="1">
 
 # Joystick/Gamepad Calibration
 
@@ -274,6 +275,8 @@ In the Safety tab, select "Pixhawk Aux6" as the leak detector pin, and set the L
 # To The First Dive! 
 
 Your computer setup is now complete! Please see our [Operations Manual](/brov2/operation/) to finish getting ready for your first dive!
+
+</div>
 
 # Issue Reporting
 
