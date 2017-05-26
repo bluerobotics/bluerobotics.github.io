@@ -106,9 +106,9 @@ These are instructions for the first time that you set up your computer to work 
 
 Select your operating system below to begin the installation and network configuration:
 
-- <a href="#software-introduction" onclick="{ $('#windowsDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#linuxDiv').collapse('hide'); $('#commonDiv').collapse('show'); showBlacklistElements(''); }">Windows</a>
-- <a href="#software-introduction" onclick="{ $('#macDiv').collapse('show'); $('#linuxDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); showBlacklistElements('-1'); }">Mac</a>
-- <a href="##software-introduction" onclick="{ $('#linuxDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); showBlacklistElements('-2'); }">Linux</a>
+<a class="btn btn-default" href="#software-introduction" onclick="{ $('#windowsDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#linuxDiv').collapse('hide'); $('#commonDiv').collapse('show'); showBlacklistElements(''); }">Windows</a>
+<a class="btn btn-default" href="#software-introduction" onclick="{ $('#macDiv').collapse('show'); $('#linuxDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); showBlacklistElements('-1'); }">Mac</a>
+<a class="btn btn-default" href="#software-introduction" onclick="{ $('#linuxDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); showBlacklistElements('-2'); }">Linux</a>
 
 <div id="windowsDiv" class="collapse" markdown="1">
 
