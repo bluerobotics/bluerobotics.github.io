@@ -5,8 +5,10 @@ permalink: /brov2/software-setup/
 order: 1
 topnavbar: brov2
 nav:
-- Introduction: software-intro
-- Installation: installation
+- Introduction: software-introduction
+- Install QGroundControl: install-qgroundcontrol
+- Network Setup: network-setup
+- Joystick Setup: joystick-setup
 - Joystick Calibration: joystickgamepad-calibration
 - Button Setup: button-setup
 - Sensor Calibration: sensor-calibration
@@ -35,29 +37,25 @@ $(document).ready(function(){
 
 <img src="/brov2/cad/ROV-scuba-1.png" class="img-responsive img-center" style="max-width:800px" />
 
-# Software Intro
+# Software Introduction
 
 These are instructions for the first time that you set up your computer to work with the BlueROV2. If you have not assembled your BlueROV2, please see our [Assembly Manual](/brov2/assembly/) and assemble your BlueROV2 prior to setting up the software.
 
-# Installation
-
 Select your operating system below to begin the installation and network configuration:
 
-- <a href="#installation" onclick="{ $('#windowsDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#linuxDiv').collapse('hide'); $('#commonDiv').collapse('show'); }">Windows</a>
-- <a href="#installation" onclick="{ $('#macDiv').collapse('show'); $('#linuxDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); }">Mac</a>
-- <a href="#installation" onclick="{ $('#linuxDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); }">Linux</a>
+- <a href="#software-introduction" onclick="{ $('#windowsDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#linuxDiv').collapse('hide'); $('#commonDiv').collapse('show'); }">Windows</a>
+- <a href="#software-introduction" onclick="{ $('#macDiv').collapse('show'); $('#linuxDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); }">Mac</a>
+- <a href="##software-introduction" onclick="{ $('#linuxDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); }">Linux</a>
 
 <div id="windowsDiv" class="collapse" markdown="1">
 
-# Windows 10 Setup
-
-## Install QGroundControl
+# Install QGroundControl
 
 To connect your computer to the BlueROV2, you need to download and install QGroundControl:
 
 - [Windows](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl-installer.exe)
 
-## Network Configuration
+# Network Configuration
 
 If your computer does not have an Ethernet port, you will need a USB to Ethernet adaptor. We recommend using [this one.](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
 
@@ -87,7 +85,7 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 	<img src="/brov2/cad/windows-firewall-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-## Joystick Setup
+# Joystick Setup
 
 **XBox 360 Controller** 
 
@@ -107,15 +105,13 @@ Logitech controllers should have the switch on the back set to "X".
 
 <div id="macDiv" class="collapse" markdown="1">
 
-# Mac OSX Setup
-
-## Install QGroundControl
+# Install QGroundControl
 
 To connect your computer to the BlueROV2, you need to download and install QGroundControl:
 
 - [Mac](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.dmg)
 
-## Network Configuration
+# Network Configuration
 
 If your computer does not have an Ethernet port, you will need a USB to Ethernet adaptor. We recommend using [this one.](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
 
@@ -141,7 +137,7 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 	<img src="/brov2/cad/mac-sharing-settings-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-## Joystick Setup
+# Joystick Setup
 
 **XBox 360 Controller**
 
@@ -167,15 +163,13 @@ Logitech controllers should have the switch on the back set to "X"
 
 <div id="linuxDiv" class="collapse" markdown="1">
 
-# Linux Setup
-
-## Install QGroundControl
+# Install QGroundControl
 
 To connect your computer to the BlueROV2, you need to download and install QGroundControl:
 
 - [Linux](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.AppImage)
 
-## Network Configuration
+# Network Configuration
 
 If your computer does not have an Ethernet port, you will need a USB to Ethernet adaptor. We recommend using [this one.](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
 
@@ -201,7 +195,7 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 	<img src="/brov2/cad/linuxsetup/LinuxStep5.png" class="img-responsive img-center" style="max-width:800px" />
 
-## Joystick Setup
+# Joystick Setup
 
 All required drivers for wired Xbox 360 controllers and Logitech F310 controllers come pre-loaded on Ubuntu 14.04 and 16.04, no setup necessary!
 
