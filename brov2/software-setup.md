@@ -6,15 +6,7 @@ order: 1
 topnavbar: brov2
 nav:
 - Introduction: software-intro
-- Install QGroundControl: install-qgroundcontrol
-- Computer Set Up: setting-up-your-computer
-- - Windows 10 Setup: windows-10-setup
-- - Mac Setup: mac-setup
-- - Linux Setup: linux-setup
-- Connect Joystick: connect-joystick-to-qgroundcontrol
-- - Windows: windows
-- - Mac: mac
-- - Linux: linux
+- Installation: installation
 - Joystick Calibration: joystickgamepad-calibration
 - Button Setup: button-setup
 - Sensor Calibration: sensor-calibration
@@ -39,19 +31,27 @@ manual-links:
 
 These are instructions for the first time that you set up your computer to work with the BlueROV2. If you have not assembled your BlueROV2, please see our [Assembly Manual](/brov2/assembly/) and assemble your BlueROV2 prior to setting up the software.
 
-# Install QGroundControl
+# Installation
 
-To connect your computer to the BlueROV2, you need to download and install QGroundControl from one of the following links:
+Select your operating system below to begin the installation and network configuration:
+
+- <a href="#windowsDiv" data-toggle="collapse" onclick="{ $('#macDiv').collapse('hide'); $('#linuxDiv').collapse('hide'); }">Windows</a>
+- <a href="#macDiv" data-toggle="collapse" onclick="{ $('#linuxDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); }">Mac</a>
+- <a href="#linuxDiv" data-toggle="collapse" onclick="{ $('#macDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); }">Linux</a>
+
+<div id="windowsDiv" class="collapse" markdown="1">
+
+# Windows 10 Setup
+
+## Install QGroundControl
+
+To connect your computer to the BlueROV2, you need to download and install QGroundControl:
 
 - [Windows](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl-installer.exe)
-- [Mac](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.dmg)
-- [Linux](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.AppImage)
 
-# Setting Up Your Computer
+## Network Configuration
 
 If your computer does not have an Ethernet port, you will need a USB to Ethernet adaptor. We recommend using [this one.](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
-
-## Windows 10 Setup
 
 **Network Settings**
 
@@ -79,7 +79,37 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 	<img src="/brov2/cad/windows-firewall-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-## Mac Setup
+## Joystick Setup
+
+**XBox 360 Controller** 
+
+- Plug and Play
+
+**XBox One Controller** 
+
+- Wired: Plug and Play 
+- Wireless: 
+	1. Plug in [Microsoft XBox Wireless Adapter for Windows](https://www.amazon.com/Microsoft-Xbox-Wireless-Adapter-Windows-one/dp/B00ZB7W4QU).
+	2. Turn on the controller, then press the Wireless Enrollment button on the top of the controller and on the wireless adapter.
+
+**Logitech GamePad (F710 and F310)**
+
+Logitech controllers should have the switch on the back set to "X".
+</div>
+
+<div id="macDiv" class="collapse" markdown="1">
+
+# Mac OSX Setup
+
+## Install QGroundControl
+
+To connect your computer to the BlueROV2, you need to download and install QGroundControl:
+
+- [Mac](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.dmg)
+
+## Network Configuration
+
+If your computer does not have an Ethernet port, you will need a USB to Ethernet adaptor. We recommend using [this one.](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
 
 **Network Settings**
 
@@ -103,7 +133,43 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 	<img src="/brov2/cad/mac-sharing-settings-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-## Linux Setup
+## Joystick Setup
+
+**XBox 360 Controller**
+
+**Note: This driver is unstable for wireless XBox 360 controllers in macOS Sierra.**
+
+1. Download the driver [here](https://github.com/360Controller/360Controller/releases/download/v0.16.4/360ControllerInstall_0.16.4.dmg). For more information on this driver, see the [Readme File.](https://github.com/360Controller/360Controller#about)
+2. Install the XBox 360 controller driver.
+2. Plug in the Windows XBox 360 Wireless Receiver for Windows.
+3. Turn on the XBox 360 Controller.
+
+**XBox One Controller**
+There is currently no support for wireless use.
+
+1. Download the driver [here](https://github.com/360Controller/360Controller/releases/download/v0.16.4/360ControllerInstall_0.16.4.dmg). For more information on this driver, see the [Readme File.](https://github.com/360Controller/360Controller#about)
+2. Install the XBox 360 controller driver.
+2. Plug in the XBox One Controller directly to the computer using a micro USB cable.
+3. Turn on the XBox One Controller.
+
+**Logitech GamePad (F710 and F310)**
+
+Logitech controllers should have the switch on the back set to "X"
+</div>
+
+<div id="linuxDiv" class="collapse" markdown="1">
+
+# Linux Setup
+
+## Install QGroundControl
+
+To connect your computer to the BlueROV2, you need to download and install QGroundControl:
+
+- [Linux](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.AppImage)
+
+## Network Configuration
+
+If your computer does not have an Ethernet port, you will need a USB to Ethernet adaptor. We recommend using [this one.](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
 
 **Network Settings**
 
@@ -127,56 +193,14 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 	<img src="/brov2/cad/linuxsetup/LinuxStep5.png" class="img-responsive img-center" style="max-width:800px" />
 
+## Joystick Setup
 
-# Connect Joystick to QGroundControl
-
-## Windows
-
-**XBox 360 Controller** 
-
-- Plug and Play
-
-**XBox One Controller** 
-
-- Wired: Plug and Play 
-- Wireless: 
-	1. Plug in [Microsoft XBox Wireless Adapter for Windows](https://www.amazon.com/Microsoft-Xbox-Wireless-Adapter-Windows-one/dp/B00ZB7W4QU).
-	2. Turn on the controller, then press the Wireless Enrollment button on the top of the controller and on the wireless adapter.
-
-**Logitech GamePad (F710 and F310)**
-
-Logitech controllers should have the switch on the back set to "X".
-
-## Mac
-
-**XBox 360 Controller**
-
-**Note: This driver is unstable for wireless XBox 360 controllers in macOS Sierra.**
-
-1. Download the driver [here](https://github.com/360Controller/360Controller/releases/download/v0.16.4/360ControllerInstall_0.16.4.dmg). For more information on this driver, see the [Readme File.](https://github.com/360Controller/360Controller#about)
-2. Install the XBox 360 controller driver.
-2. Plug in the Windows XBox 360 Wireless Receiver for Windows.
-3. Turn on the XBox 360 Controller.
-
-**XBox One Controller**
-There is currently no support for wireless use.
-
-1. Download the driver [here](https://github.com/360Controller/360Controller/releases/download/v0.16.4/360ControllerInstall_0.16.4.dmg). For more information on this driver, see the [Readme File.](https://github.com/360Controller/360Controller#about)
-2. Install the XBox 360 controller driver.
-2. Plug in the XBox One Controller directly to the computer using a micro USB cable.
-3. Turn on the XBox One Controller.
+All required drivers for wired Xbox 360 controllers and Logitech F310 controllers come pre-loaded on Ubuntu 14.04 and 16.04, no setup necessary!
 
 **Logitech GamePad (F710 and F310)**
 
 Logitech controllers should have the switch on the back set to "X"
-
-## Linux
-
-All required drivers come pre-loaded on Ubuntu 14.04 and 16.04, no setup necessary!
-
-**Logitech GamePad (F710 and F310)**
-
-Logitech controllers should have the switch on the back set to "X"
+</div>
 
 # Joystick/Gamepad Calibration
 
