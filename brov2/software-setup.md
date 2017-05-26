@@ -28,11 +28,74 @@ manual-links:
 ---
 
 <script>
+	var blacklistElements = []
+	var osSpecificElements = []
+	var osSpecific = ['install-qgroundcontrol',
+		'network-setup',
+		'joystick-setup']
+		
 $(document).ready(function(){
+	// initialize collapse state
 	$('#windowsDiv').collapse({toggle: false});
 	$('#macDiv').collapse({toggle: false});
 	$('#linuxDiv').collapse({toggle: false});
+	
+	// We don't show these sidebar-nav items until the user selects an OS
+	var blacklist = ['Install QGroundControl',
+	'Network Setup',
+	'Joystick Setup',
+	'Joystick Calibration',
+	'Button Setup',
+	'Sensor Calibration',
+	'Configure Motor Directions',
+	'Voltage and Current Measurement Setup',
+	'SOS Leak Sensor Setup',
+	'To The First Dive!']
+	
+	var sidebar = document.getElementById('sidebar');
+	var children = sidebar.getElementsByTagName("a");
+
+	for (var i = 0; i < children.length; i++) {
+		var child = children[i];
+		blacklist.forEach(function(item) {
+			if (child.innerHTML == item) {
+				blacklistElements.push(child);
+			}
+		});
+		
+		osSpecific.forEach(function(item) {
+			if (child.href.split('#')[1] == item) {
+				console.log('match', child);
+				// Careful!, indices not guaranteed for modification step later on
+				osSpecificElements.push(child);
+			}
+		});
+	}
+	
+	// Hide these guys
+	for (var i = 0; i < blacklistElements.length; i++) {
+		var element = blacklistElements[i];
+		element.style.display = "none";
+	}	
 });
+
+function showBlacklistElements(os) {
+	
+	// Edit sidebar-nav links for headings repeated in each OS section
+	for (var i = 0; i < osSpecificElements.length; i++) {
+		var element = osSpecificElements[i];
+		
+		// Careful!, indices might not actually line up correctly
+		element.href = "#" + osSpecific[i] + os;
+	}
+	
+	// Show navigation options after OS selection
+	for (var i = 0; i < blacklistElements.length; i++) {
+		var element = blacklistElements[i];
+		
+		element.style.display = "block";
+	}
+}
 </script>
 
 <img src="/brov2/cad/ROV-scuba-1.png" class="img-responsive img-center" style="max-width:800px" />
@@ -43,9 +106,9 @@ These are instructions for the first time that you set up your computer to work 
 
 Select your operating system below to begin the installation and network configuration:
 
-- <a href="#software-introduction" onclick="{ $('#windowsDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#linuxDiv').collapse('hide'); $('#commonDiv').collapse('show'); }">Windows</a>
-- <a href="#software-introduction" onclick="{ $('#macDiv').collapse('show'); $('#linuxDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); }">Mac</a>
-- <a href="##software-introduction" onclick="{ $('#linuxDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); }">Linux</a>
+- <a href="#software-introduction" onclick="{ $('#windowsDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#linuxDiv').collapse('hide'); $('#commonDiv').collapse('show'); showBlacklistElements(''); }">Windows</a>
+- <a href="#software-introduction" onclick="{ $('#macDiv').collapse('show'); $('#linuxDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); showBlacklistElements('-1'); }">Mac</a>
+- <a href="##software-introduction" onclick="{ $('#linuxDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); showBlacklistElements('-2'); }">Linux</a>
 
 <div id="windowsDiv" class="collapse" markdown="1">
 
@@ -55,7 +118,7 @@ To connect your computer to the BlueROV2, you need to download and install QGrou
 
 - [Windows](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl-installer.exe)
 
-# Network Configuration
+# Network Setup
 
 If your computer does not have an Ethernet port, you will need a USB to Ethernet adaptor. We recommend using [this one.](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
 
@@ -111,7 +174,7 @@ To connect your computer to the BlueROV2, you need to download and install QGrou
 
 - [Mac](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.dmg)
 
-# Network Configuration
+# Network Setup
 
 If your computer does not have an Ethernet port, you will need a USB to Ethernet adaptor. We recommend using [this one.](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
 
@@ -169,7 +232,7 @@ To connect your computer to the BlueROV2, you need to download and install QGrou
 
 - [Linux](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.AppImage)
 
-# Network Configuration
+# Network Setup
 
 If your computer does not have an Ethernet port, you will need a USB to Ethernet adaptor. We recommend using [this one.](https://www.amazon.com/Cable-Matters-Ethernet-Network-Adapter/dp/B00ET4KHJ2)
 
