@@ -124,7 +124,7 @@ If the gauge reads below 9 in. Hg [31 kPa] vacuum after 15 minutes, you should c
 
 The BlueROV2 comes with the button setup shown below as a default:
 
-<img src="/brov2/cad/controller-buttons.png" class="img-responsive img-center" style="max-width:800px" />
+<img src="/brov2/cad/joystick-defaults.png" class="img-responsive img-center" style="max-width:800px" />
 
 If you do not like the button settings, you can change the button setup in QGroundControl.
 

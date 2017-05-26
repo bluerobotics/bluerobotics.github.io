@@ -196,7 +196,7 @@ When completed, the *Joystick* tab will no longer be red, and the *Enabled* chec
 
 The default button setup for the BlueROV2 is as shown in the image below:
 
-<img src="/brov2/cad/controller-buttons.png" class="img-responsive img-center" style="max-width:800px" />
+<img src="/brov2/cad/joystick-defaults.png" class="img-responsive img-center" style="max-width:800px" />
 
 The button functions may be reconfigured in the *Joystick* tab on the *Vehicle Settings* page.
 
