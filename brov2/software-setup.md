@@ -37,7 +37,7 @@ manual-links:
 
 # Software Intro
 
-These are instructions for the first time that you set up your computer to work with the BlueROV2. If you have not assembled your BlueROV2, please see our [Assembly Manual](/brov2/assembly/) and assemble your BlueROV2 prior to setting up the software. If you received your BlueROV2 prior to October 24, 2016 proceed to [ArduSub.com](http://ardusub.com/initial-setup/#install-qgroundcontrol) for software setup information. The **PixHawks** that shipped **prior to October 24, 2016** were **not flashed with firmware** and require some **QGroundControl parameters to be changed**. 
+These are instructions for the first time that you set up your computer to work with the BlueROV2. If you have not assembled your BlueROV2, please see our [Assembly Manual](/brov2/assembly/) and assemble your BlueROV2 prior to setting up the software.
 
 # Install QGroundControl
 
