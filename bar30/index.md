@@ -54,7 +54,7 @@ The [EagleCAD files](https://github.com/bluerobotics/Bar30-Pressure-Sensor) for 
 
 ## Specification Table
 
-For further information please see the [MS5837-30BA Data Sheet.](http://www.te.com/usa-en/product-CAT-BLPS0017.html)
+For further information please see the [MS5837-30BA Data Sheet.](http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5837-30BA%7FB1%7Fpdf%7FEnglish%7FENG_DS_MS5837-30BA_B1.pdf%7FCAT-BLPS0017)
 
 |      **Electrical**       |
 | ------------- | --------- |
@@ -139,7 +139,7 @@ Install the Bar30 Pressure Sensor into an endcap and tighten by hand or with a w
 
 This example uses the [BlueRobotics MS5837 Library](https://github.com/bluerobotics/BlueRobotics_MS5837_Library) with the connected sensor. The example reads the sensor and prints the resulting values to the serial terminal.
 
-Please remember to use a logic level converter, such as [this one](https://www.sparkfun.com/products/12009), to convert Arduino 5V levels to 3.3V!
+Please remember to use a logic level converter, such as [this one](http://bluerobotics.com/store/electronics/level-converter-r1/), to convert Arduino 5V levels to 3.3V!
 
 If you've never used Arduino before, we suggest checking out [some tutorials!](https://www.arduino.cc/en/Tutorial/HomePage)
 

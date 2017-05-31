@@ -124,7 +124,7 @@ If the gauge reads below 9 in. Hg [31 kPa] vacuum after 15 minutes, you should c
 
 The BlueROV2 comes with the button setup shown below as a default:
 
-<img src="/brov2/cad/controller-buttons.png" class="img-responsive img-center" style="max-width:800px" />
+<img src="/brov2/cad/joystick-defaults.png" class="img-responsive img-center" style="max-width:800px" />
 
 If you do not like the button settings, you can change the button setup in QGroundControl.
 
@@ -138,11 +138,11 @@ If you do not like the button settings, you can change the button setup in QGrou
 
 ## Dive Modes
 
-- In **Manual Mode** (Flight Mode 1) the BlueROV2 will only output motor controls based on the pilot input from the joysticks. There is no feedback stabilization, heading holding, or depth holding.
+- In **Manual Mode** the BlueROV2 will only output motor controls based on the pilot input from the joysticks. There is no feedback stabilization, heading holding, or depth holding.
 
-- In **Stabilize Mode** (Flight Mode 2) the BlueROV2 will stabilize roll to level and it will maintain heading when not commanded to turn. The vertical control is left entirely to the pilot.
+- In **Stabilize Mode** the BlueROV2 will stabilize roll to level and it will maintain heading when not commanded to turn. The vertical control is left entirely to the pilot.
 
-- In **DepthHold Mode** (Flight Mode 3) the BlueROV2 will hold depth unless you command it to dive/ascend. It will also stabilize roll to level and maintain heading when not commanded to turn.
+- In **Depth Hold Mode** the BlueROV2 will hold depth unless you command it to dive/ascend. It will also stabilize roll to level and maintain heading when not commanded to turn.
 
 # Pre-Dive Checklists
 

@@ -30,7 +30,7 @@ manual-links:
 
 # Introduction
 
-The Basic ESC is a simple speed controller. It is the [AfroESC 30A](#) pre-programmed with custom firmware that allows forward and backward operation. The firmware is open source and available in [our branch of the tgy project](http://github.com/bluerobotics/tgy).
+The Basic ESC is a simple speed controller. It is the AfroESC 30A pre-programmed with custom firmware that allows forward and backward operation. The firmware is open source and available in [our branch of the tgy project](http://github.com/bluerobotics/tgy).
 
 You are welcome to purchase the ESCs directly and reprogram them yourself. We offer them as a convenience to help you get started quickly. We also do quality control to ensure that every ESC operates correctly. 
 

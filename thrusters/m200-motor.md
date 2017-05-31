@@ -139,12 +139,6 @@ The motor has a solder pads to connect to three wires. These three pads must be 
 
 The three solder pads are always connected to the same motor phases, so connecting in a consistent fashion will result in all motors rotating in the same direction.
 
-### Connecting the BlueESC
-
-Normally the BlueESC sold pre-installed on the T100 and T200 Thrusters, however it can be purchased separately for use with the M100 and other motors. Connecting the BlueESC is very similar to connecting the basic ESC. 
-
-Solder the three wires from the BlueESC to the pads on the M200. Check out the [BlueESC Manual](/bluesc/) for information on cable connections and operation.
-
 ## Sealing Connections
 
 We recommend using the following compounds to seal the soldered wire connections on the M200 Motor.

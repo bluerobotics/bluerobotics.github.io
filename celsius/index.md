@@ -57,7 +57,7 @@ The [EagleCAD files](https://github.com/bluerobotics/Celsius-Temperature-Sensor)
 
 ## Specification Table
 
-For further information please see the [TSYS01 Data Sheet](http://meas-spec.com/downloads/TSYS01_Digital_Temperature_Sensor.pdf).
+For further information please see the [TSYS01 Data Sheet](http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FTSYS01%7FA%7Fpdf%7FEnglish%7FENG_DS_TSYS01_A.pdf%7FG-NICO-018).
 
 |      **Electrical**       |
 | ------------- | --------- |
@@ -116,7 +116,7 @@ All 3D models are provided in zip archives containing the follow file types:
 
 Use a small amount of silicone grease on the O-ring for lubrication and place it in the groove of the Celsius Temperature Sensor. 
 
-##Step 2: Installation
+## Step 2: Installation
 
 Install the Celsius Temperature Sensor into an endcap and tighten by hand or with a wrench.
 
@@ -126,7 +126,7 @@ Install the Celsius Temperature Sensor into an endcap and tighten by hand or wit
 
 This example uses the [TSYS01 Arduino Library](https://github.com/bluerobotics/BlueRobotics_TSYS01_Library) with the connected sensor. The example reads the sensor and prints the resulting values to the serial terminal.
 
-Please remember to use a logic level converter, such as [this one](https://www.sparkfun.com/products/12009), to convert Arduino 5V levels to 3.3V!
+Please remember to use a logic level converter, such as [this one](http://bluerobotics.com/store/electronics/level-converter-r1/), to convert Arduino 5V levels to 3.3V!
 
 If you've never used Arduino before, we suggest checking out [some tutorials](https://www.arduino.cc/en/Tutorial/HomePage)!
 

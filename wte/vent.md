@@ -44,8 +44,8 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | ----------------------------------- | ----------------------------- |
 |                          **Enclosure Vent**                         |
 | ----------------------------------- | ----------------------------- |
-| Maximum Tested Depth (Saltwater)    | 660 ft        | 200 m         |
-| Maximum Pressure                    | 290 psi       | 2000 kPa      |
+| Maximum Tested Depth (Saltwater)    | 3280 ft       | 1000 m        |
+| Maximum Pressure                    | 1420 psi      | 9790 kPa      |
 | Bolt Hole Diameter                  | 0.4 in        | 10 mm         |
 | Outer Diameter                      | 0.71 in       | 18 mm         |
 | Maximum Wall Thickness              | 0.75 in       | 19 mm         |

@@ -79,6 +79,7 @@ Although they are encased in metal and are safe enough to be used in everyday de
 * Always use a lithium-ion compatible balance charger
 * Do not leave unattended while charging
 * Do not exceed maximum charge (20A) or discharge (90A*) rate
+* Do not pick up by discharge leads, always handle by gripping battery body.
 
 [Detailed Lithium-ion Safety Information](https://batterybro.com/pages/18650-battery-safety)
 
