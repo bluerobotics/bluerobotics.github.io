@@ -70,7 +70,7 @@ There are some items necessary for operation that are not included with the kit.
  - A gamepad controller. We recommend [this XBox360 Controller](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [this Logitech Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
  - A laptop or a Windows 10 tablet. QGroundControl works on Mac, Windows 10, and Linux.
  - A battery for the BlueROV2. We recommend getting our [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
- - A battery charger, we use and recommend [this one](https://hobbyking.com/en_us/turnigy-reaktor-300w-20a-ac-dc-synchronous-balance-charger-discharger-us-plug.html).  
+ - A battery charger, such as our [Lithium Battery Charger](http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/).  
 
 ## Resources
 
@@ -116,8 +116,8 @@ There are some items necessary for operation that are not included with the kit.
 
 ## Battery
 
-| Battery Life (Normal Use)              | ~1 hour w/ [10Ah battery](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844) ($60 each) |
-| Battery Life (Light Use)               | ~4 hours w/ [10Ah battery](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844) ($60 each) |
+| Battery Life (Normal Use)              | ~3 hours w/ [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) |
+| Battery Life (Light Use)               | ~5 hours w/ [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) |
 
 The batteries can be changed in about 30 seconds.
 
