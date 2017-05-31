@@ -15,9 +15,11 @@ nav:
 
 store-links:
 - Lithium-ion Battery (14.8V, 18Ah): https://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/
+- Lithium Battery Charger: http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/
 
 manual-links:
 - BlueROV2: /brov2
+- Lithium Battery Charger: /charger
 ---
 
 <img src="/batteries/cad/BL4-1-crop.PNG" class="img-responsive" style="max-width:900px"  />
@@ -90,7 +92,7 @@ Always use a lithium-ion compatible balance charger when charging, attempting to
 
 This battery can be safely charged at up to 20A, which will bring it back up to full charge in about one hour. However, we recommend charging at 10-15A (about two hours) at most regularily, in order to maximize capacity and lifespan. We recommend balancing the battery at every charge to keep all cells at the same level of charge, but this can aso be done every few cycles if quick charging is a priority.
 
-We use [this](https://hobbyking.com/en_us/turnigy-reaktor-300w-20a-ac-dc-synchronous-balance-charger-discharger-us-plug.html) charger for all our battery needs, and recommend it. 
+Our [Lithium Battery Charger](http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/) is recommended for use with this battery. 
 
 # Discharging
 
