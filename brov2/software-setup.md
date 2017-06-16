@@ -204,8 +204,6 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 **XBox 360 Controller**
 
-**Note: This driver is unstable for wireless XBox 360 controllers in macOS Sierra.**
-
 1. Download the driver [here](https://github.com/360Controller/360Controller/releases/download/v0.16.4/360ControllerInstall_0.16.4.dmg). For more information on this driver, see the [Readme File.](https://github.com/360Controller/360Controller#about)
 2. Install the XBox 360 controller driver.
 2. Plug in the Windows XBox 360 Wireless Receiver for Windows.
