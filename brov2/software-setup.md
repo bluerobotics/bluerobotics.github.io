@@ -204,7 +204,7 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 **XBox 360 Controller**
 
-1. Download the driver [here](https://github.com/360Controller/360Controller/releases/download/v0.16.4/360ControllerInstall_0.16.4.dmg). For more information on this driver, see the [Readme File.](https://github.com/360Controller/360Controller#about)
+1. Download the driver [here](https://github.com/360Controller/360Controller/releases/download/v0.16.5/360ControllerInstall_0.16.5.dmg). For more information on this driver, see the [Readme File.](https://github.com/360Controller/360Controller#about)
 2. Install the XBox 360 controller driver.
 2. Plug in the Windows XBox 360 Wireless Receiver for Windows.
 3. Turn on the XBox 360 Controller.
@@ -212,7 +212,7 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 **XBox One Controller**
 There is currently no support for wireless use.
 
-1. Download the driver [here](https://github.com/360Controller/360Controller/releases/download/v0.16.4/360ControllerInstall_0.16.4.dmg). For more information on this driver, see the [Readme File.](https://github.com/360Controller/360Controller#about)
+1. Download the driver [here](https://github.com/360Controller/360Controller/releases/download/v0.16.5/360ControllerInstall_0.16.5.dmg). For more information on this driver, see the [Readme File.](https://github.com/360Controller/360Controller#about)
 2. Install the XBox 360 controller driver.
 2. Plug in the XBox One Controller directly to the computer using a micro USB cable.
 3. Turn on the XBox One Controller.
