@@ -11,5 +11,5 @@ github_username:  bluerobotics
 
 # Build settings
 markdown: kramdown
-plugins:
-	- jekyll-sitemap
+plugins_dir:
+  - jekyll-sitemap
