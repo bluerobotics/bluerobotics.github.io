@@ -13,7 +13,7 @@ nav:
 This calculator determines the water depth to reach or given pressure or the pressure at a given depth. You can enter the depth or pressure input with most common units and it will be converted automatically. This calculator *does not* add air pressure at the surface - the results are relative to the surface pressure.
 
 <div class="well">
-<form>
+<form onsubmit="return false;">
 <div class="form-group has-feedback" id="depthInputGroup">
 	<label for="depthInput">Input Pressure or Depth</label>
 	<input type="text" class="form-control" id="depthInput" placeholder="100 m" onkeyup="checkValidDepth()" aria-describedby="inputSuccess2Status" value="100 m" />
