@@ -44,18 +44,18 @@ high-end commercial mini-ROV at the price of the most basic commercial ROVs.
 
 ## Features
 
-- Live 1080p HD Video (with Advanced Electronics Package, 200 ms latency)
-- Highly Maneuverable Vectored Thruster Configuration
-- Stable and Optimized for Inspection- and Research-class Missions
-- Easy to Use, Cross-platform User Interface
-- Highly Expandable with Three Free Cable Penetrators
-- Standard 100m Depth Rating and Up to 300m Tether Available
-- 6 T200 Thrusters and Basic ESCs for the Best Thrust-to-Weight Ratio in its Class
-- Battery powered With Quick-Swappable Batteries for Long Missions
+- Live 1080p HD video
+- Highly maneuverable vectored thruster configuration
+- Stable and optimized for inspection- and research-class missions
+- Easy to use, cross-platform user interface
+- Highly expandable with three free cable penetrators
+- Standard 100m depth rating and up to 300m tether available
+- 6 T200 Thrusters and Basic ESCs for the best thrust-to-weight ratio in its class
+- Battery powered with quick-swappable batteries for long missions
 
 ## What's Included
 
-The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected build time is 2-4 hours to operation depending on experience.
+The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected build time is 1.5-3 hours to operation depending on experience.
 
 Here is the [Bill of Materials](/brov2/assembly/#whats-included) for the _BlueROV2_ kit.
 
@@ -119,7 +119,7 @@ The batteries can be changed in about 30 seconds.
 
 ## Lights
 
-| Brightness       | 2 x 1500 lumens each with dimming control                  |
+| Brightness       | 1500 lumens each with dimming control                  |
 | Light Beam Angle | 135 degrees, with adjustable tilt                    |
 
 ## Tether
