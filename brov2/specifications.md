@@ -18,7 +18,7 @@ nav:
 - - Tether: tether
 - - Sensors: Sensors
 - - Camera Tilt: camera-tilt
-- - Standard and Advanced Comparison: standard-and-advanced-comparison
+- - Camera: camera
 - 3D Model: 3d-model
 - User Manuals: user-manuals
 - Issue Reporting: issue-reporting
@@ -44,7 +44,6 @@ high-end commercial mini-ROV at the price of the most basic commercial ROVs.
 
 ## Features
 
-- Live Ultra-low Latency Video (with Standard Electronics Package)
 - Live 1080p HD Video (with Advanced Electronics Package, 200 ms latency)
 - Highly Maneuverable Vectored Thruster Configuration
 - Stable and Optimized for Inspection- and Research-class Missions
@@ -56,20 +55,17 @@ high-end commercial mini-ROV at the price of the most basic commercial ROVs.
 
 ## What's Included
 
-The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected build time is 4-8 hours to operation depending on experience.
+The kit arrives almost-ready-to-dive with pre-built subassemblies. The expected build time is 2-4 hours to operation depending on experience.
 
 Here is the [Bill of Materials](/brov2/assembly/#whats-included) for the _BlueROV2_ kit.
-
-The Standard and Advanced options have a couple of differences shown [here](/brov2/#standard-and-advanced-comparison).
 
 ## What's Not Included
 
 There are some items necessary for operation that are not included with the kit. 
 
- - Analog screen for the Standard _BlueROV2_. We recommend [this one](https://www.adafruit.com/products/2261).
  - A gamepad controller. We recommend [this XBox360 Controller](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [this Logitech Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
  - A laptop or a Windows 10 tablet. QGroundControl works on Mac, Windows 10, and Linux.
- - A battery for the BlueROV2. We recommend getting our [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
+ - A battery for the BlueROV2. We recommend getting our [18Ah Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
  - A battery charger, such as our [Lithium Battery Charger](http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/).  
 
 ## Resources
@@ -151,20 +147,17 @@ The batteries can be changed in about 30 seconds.
 | Tilt Range                 | +/- 90 degree camera tilt (180 total range)                                             | 
 | Tilt Servo                 | Hitec HS-5055MG         |
 
-## Standard and Advanced Comparison
+## Camera
 
-|                            |**Standard Camera**                                                                    | **Advanced Camera**                                                                                                |
-| Field of View (Underwater) | 110 degrees (horizontal)                                                              | 110 degrees (horizontal)                                                              |
-| Light Sensitivity          | 0.0003 [lux](https://en.wikipedia.org/wiki/Lux#Illuminance)                           | TBD                                                                                                                |
-| Resolution                 | 700 TVL                                                                               | 1080p                                                                                                          |
-|                            | **Standard Control System**                                            		      | **Advanced Control System**                                                                        | 
-| Tether Board               | [Fathom-S Tether Interface Board](http://docs.bluerobotics.com/fathom-s/) 			     | [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/)                     |
-| Control System  | Autopilot Controller such as the [M Robotics PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) | Autopilot Controller such as the [M Robotics PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
-|                            |                                                                                                 | Computer such as the Raspberry Pi 3                                                                           |
-|                            | **Standard Required Topside**                                                             | **Advanced Required Topside**                                                        |
-|                            | Laptop or Windows 10 Tablet                     												      | Laptop or Windows 10 Tablet                                                                                                    |
- | |Gamepad Controller such as [Xbox](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [Logitech](http://gaming.logitech.com/en-us/product/f310-gamepad)   | Gamepad Controller  such as [Xbox](http://www.xbox.com/en-US/xbox-360/accessories/controllers/wired-controller) or [Logitech](http://gaming.logitech.com/en-us/product/f310-gamepad)                                                          |
-|                            | [Analog video screen with RCA Input](https://www.adafruit.com/products/2261)                                                                    |                                                                                                                    |
+| Field of View (Underwater) | 110 degrees (horizontal)                                                              |                                                      
+| Light Sensitivity          | 0.01[lux](https://en.wikipedia.org/wiki/Lux#Illuminance)                              |
+| Resolution                 | 1080p                                                                                 |
+
+## Control System
+
+| Tether Interface Board              	| [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/)                |
+| Control System 						| [M Robotics PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
+
 
 # 3D Model
 
