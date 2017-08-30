@@ -57,7 +57,7 @@ All 3D models are provided in zip archives containing the follow file types:
 |               **Cable Penetrators**                                                                                                            |
 | -----------------------------------------------------------------------------------------------------------------------------------------------|
 | Cable Penetrator Bolt for 6mm Cable  | [PENETRATOR-M-BOLT-10-25-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-BOLT-10-25-A-R2.zip)
-| Cable Penetrator Bolt for 8mm Cable  | [PENETRATOR-M-BOLT-10-25-8MM-X1B.zip](/cad/PENETRATOR-M-BOLT-10-25-8MM-X1B.zip)
+| Cable Penetrator Bolt for 8mm Cable  | [PENETRATOR-M-BOLT-10-25-8MM-X1B.zip](/penetrators/cad/PENETRATOR-M-BOLT-10-25-8MM-X1B.zip)
 | Cable Penetrator Bolt (Blank)        | [PENETRATOR-M-BOLT-BLANK-10-25-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-BOLT-BLANK-10-25-R2.zip)
 | Cable Penetrator Nut                 | [PENETRATOR-M-NUT-10-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-NUT-10-A-R2.zip)
 
