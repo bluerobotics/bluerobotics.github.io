@@ -26,7 +26,7 @@ manual-links:
 - I2C Level Converter: /level-converter
 ---
 
-<img src="/bar100/cad/BAR100-4.png" class="img-responsive" style="max-width:900px"  />
+<img src="/bar100/cad/BAR100-5.png" class="img-responsive" style="max-width:900px"  />
 
 # Introduction
 
