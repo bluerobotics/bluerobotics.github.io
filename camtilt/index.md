@@ -47,7 +47,7 @@ The _Camera Tilt System_ is a tilting camera mount which works seamlessly with t
 | **Control Signal**       | Standard 3-5V Pulse Width Control          |
 |                          | 1500 &mu;s - neutral (+/- 1&mu;s deadband) |
 |                          | 1100 &mu;s - 45&deg; counter-clockwise     |
-|                          | 1900 &mu;s - 45&deg; clowckwise            |
+|                          | 1900 &mu;s - 45&deg; clockwise            |
 | **Speed**                | 0.20 sec/60&deg; at 4.8V                   |
 |                          | 0.17 sec/60&deg; at 6.0V                   |
 | **Torque**               | 18.05 oz/in @ 4.8V | 1.3 kg/cm @ 4.8V      |
