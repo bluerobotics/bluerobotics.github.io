@@ -16,7 +16,7 @@ nav:
 - - Raspberry Pi Camera 2D Drawings: raspberry-pi-camera-2d-drawings
 - - Raspberry Pi Camera CAD Model: raspberry-pi-camera-cad-model
 - Raspberry Pi Camera Installation: raspberry-pi-camera-installation
-- Low-Light HD USB Camera Specifications: alow-light-hd-usb-camera-specifications
+- Low-Light HD USB Camera Specifications: low-light-hd-usb-camera-specifications
 - - Low-Light HD USB Camera Specification Table: low-light-hd-usb-camera-specification-table
 - - Low-Light HD USB Camera 2D Drawings: low-light-hd-usb-camera-2d-drawings
 - - Low-Light HD USB Camera CAD Model: low-light-hd-usb-camera-cad-model
