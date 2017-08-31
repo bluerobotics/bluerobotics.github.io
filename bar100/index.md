@@ -97,7 +97,7 @@ For further information please see the [Keller 7LD Data Sheet.](http://www.kelle
 
 ## 2D Drawing
 
-<img src="/assets/images/BAR100-2view.png" class="img-responsive" style="max-width:900px" />
+<img src="/assets/images/BAR100-2view.PNG" class="img-responsive" style="max-width:900px" />
 
 ## 3D Model
 
