@@ -87,6 +87,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Servo Mount                          | [CAMTILT-SERVO-MOUNT-R2.zip](cad/CAMTILT-SERVO-MOUNT-R2.zip)            |
 | Analog Camera Mount   	           | [CAMTILT-ANALOG-MOUNT-R2.zip](cad/CAMTILT-ANALOG-MOUNT-R2.zip)	      |
 | Wide Angle Raspberry Pi Camera Mount | [CAMTILT-RASPI2-CAMERA-MOUNT-R1.zip](cad/CAMTILT-RASPI2-CAMERA-MOUNT-R1.zip) |
+| Low Light HD USB Camera Mount | [CAMTILT-LOW-LIGHT-HD-USB-R1.zip](cad/CAMTILT-LOW-LIGHT-HD-USB-R1.zip) |
 
 ## 3D Printer Settings
 
