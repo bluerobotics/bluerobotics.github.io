@@ -4,7 +4,6 @@ title: Water Linked Underwater GPS / BlueROV2 Integration Kit Documentation
 order: 1
 nav:
 - Introduction: introduction
-- - Function Diagram: function-diagram
 - Specifications: specifications
 - - Specification Table: specification-table
 - Installation: installation
@@ -25,16 +24,6 @@ manual-links:
 
 Coming soon!
 
-## Function Diagram
-
-### Internal Wiring Diagram
-
-<img src="/waterlinked/wlik-box-diagram.png" class="img-responsive img-center" style="max-width:600px" />
-
-### Connections From Box to Topside Fathom-X to ROV
-
-<img src="/waterlinked/wlik-setup-diagram.png" class="img-responsive img-center" style="max-width:600px" />
-
 # Specifications
 
 ## Specification Table
@@ -54,6 +43,12 @@ Coming soon!
 | 1 | Fathom-X Tether Interface Board |
 
 ## Inside WL Box
+
+Inside the Water Linked box, we'll be adding a Fathom-X tether interface board and a few cables to make integration seamless. This Fathom-X board will be *in addition* to the Fathom-X board that is already used on the ROV topside. The two boards are connected in parallel to the same twisted pair, putting the ROV, topside computer, and Water Linked box on the same computer network.
+
+Here's a diagram of what we'll be connecting inside the box:
+
+<img src="/waterlinked/wlik-box-diagram.png" class="img-responsive img-center" style="max-width:600px" />
 
 1. Remove the backing from the red 3M VHB tape on the back of the Fathom-X mount. 
 <img src="/waterlinked/wlik-installation-1.jpg" class="img-responsive img-center" style="max-width:500px" />
@@ -82,4 +77,24 @@ Coming soon!
 9. Add a zip tie to the wiring harness to keep all wires tidy.
 <img src="/waterlinked/wlik-installation-10.jpg" class="img-responsive img-center" style="max-width:600px" />
 
+Nice job! You're done with modifications to the Water Linked box. Up next, we'll show you how to connect the box to your ROV.
+
 ## To ROV
+
+The connections made near the topside Fathom-X interface and topside computer will connect the ROV, Topside Computer, and Water Linked systems to each other. Here's a high level diagram of what that will look like:
+
+<img src="/waterlinked/wlik-setup-diagram.png" class="img-responsive img-center" style="max-width:600px" />
+
+These connections are made on a terminal block with a few provided wires. Note that this isn't the nicest solution in the world, and we plan to have a more polished solution in the future. Below is a diagram of how the components are connected together along with step by step connection instructions.
+
+<img src="/waterlinked/wlik-temp-topside-1.jpg" class="img-responsive img-center" style="max-width:600px" />
+
+1. Connect the red and black wires to the topside Fathom-X board. White and blue heatshrink is used to show the functional connection to the other twisted pairs.
+
+2. Connect the tether blue/white and green/white pairs to the terminal block, matching the existing blue/white and green/white pairs. 
+
+3. Plug the wires from the black Integration Kit cable into the header connectors, matching colors.
+
+<img src="/waterlinked/wlik-temp-topside-2.jpg" class="img-responsive img-center" style="max-width:600px" />
+
+**Note:** We strongly recommend mounting the Fathom-X and terminal block in a protective box or case. The wiring here is fairly fragile and easy to damage. Blue Robotics is working on a much better solution to this that will be available in the future.
