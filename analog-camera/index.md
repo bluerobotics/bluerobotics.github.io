@@ -117,7 +117,7 @@ There are detailed Raspberry Pi Camera installation instructions on the [Raspber
 
 ## Low-Light HD USB Camera CAD Model
 
-| ANALOG-CAMERA-R1 | [ANALOG-CAMERA-R1.zip](/analog-camera/LOW-LIGHT-HD-USB-CAMERA-R1.zip) |
+| LOW-LIGHT-HD-USB-CAMERA-R1 | [LOW-LIGHT-HD-USB-CAMERA-R1.zip](/analog-camera/LOW-LIGHT-HD-USB-CAMERA-R1.zip) |
 
 # Low-Light HD USB Camera Installation
 
