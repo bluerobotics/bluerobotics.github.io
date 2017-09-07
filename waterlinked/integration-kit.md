@@ -12,7 +12,8 @@ nav:
 - - To ROV: to-rov
 
 store-links:
-- Switch: http://www.bluerobotics.com/store/electronics/underwater-gps/aps-wl-11001/
+- WL Underwater GPS: http://www.bluerobotics.com/store/electronics/underwater-gps/aps-wl-11001/
+- WL Integration Kit: http://www.bluerobotics.com/store/electronics/underwater-gps/aps-wl-brov2-kit-r1/
 
 manual-links:
 - Water Linked Underwater GPS: /waterlinked
@@ -22,7 +23,11 @@ manual-links:
 
 # Introduction
 
-Coming soon!
+The Water Linked Underwater GPS is designed with a generic connection interface so that it can be used in a wide variety of applications, but in its stock configuration, it can be difficult to integrate with the BlueROV2. The *Water Linked Underwater GPS / BlueROV2 Integration Kit* provides a few components to make a seamless connection between the BlueROV2 system and the Water Linked system.
+
+To install the kit on a Water Linked system, you first add a Fathom-X tether interface board to the box so that it can join the BlueROV2's network without an Ethernet switch. We also swap the Ethernet bulkhead on the box for an 8-pin connector that provides a single cable connection between the BlueROV2 topside electronics and the box.
+
+The integration kit requires some minor assembly and instructions are below!
 
 # Specifications
 
