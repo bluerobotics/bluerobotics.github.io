@@ -6,7 +6,7 @@ nav:
 - Introduction: introduction
 - User Manual: user-manual
 - Integration Kit: integration-kit
-- Using with the BlueROV2: with-the-bluerov2
+- Using with the BlueROV2: using-with-the-bluerov2
 - - Installation: installation
 - - Software Setup: software-setup
 - - Operational Setup: operational-setup
