@@ -28,7 +28,7 @@ manual-links:
 The Water Linked Underwater GPS provides global position of an underwater locator device using acoustic positioning and traditional GPS. On the BlueROV2 or other underwater vehicles it is a huge asset that allows position tracking for navigation, inspection, and mapping.
 
 <i class="fa fa-star fa-fw fa-1x text-default blue"></i>
-This manual only covers usage of the Underwater GPS with the BlueROV2. For general info and other applications, please visit [Water Linked's website](waterlinked.com) and the official [User Manual](#user-manual).
+This manual only covers usage of the Underwater GPS with the BlueROV2. For general info and other applications, please visit [Water Linked's website](http://www.waterlinked.com) and the official [User Manual](#user-manual).
 
 # User Manual
 
