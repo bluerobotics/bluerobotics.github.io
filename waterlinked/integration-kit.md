@@ -2,6 +2,8 @@
 layout: default
 title: Water Linked Underwater GPS / BlueROV2 Integration Kit Documentation
 order: 1
+permalink: /waterlinked/integration-kit/
+topnavbar: waterlinked
 nav:
 - Introduction: introduction
 - Specifications: specifications

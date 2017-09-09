@@ -2,6 +2,7 @@
 layout: default
 title: Water Linked Underwater GPS Documentation
 order: 1
+topnavbar: waterlinked
 nav:
 - Introduction: introduction
 - User Manual: user-manual
@@ -34,6 +35,8 @@ This manual only covers usage of the Underwater GPS with the BlueROV2. For gener
 Please download the primary User Manual from Water Linked here: [Water Linked Underwater GPS Manual](http://waterlinked.com/wp-content/uploads/2017/08/W-DN-17002-2_Underwater_GPS_User_Manual.pdf).
 
 # Integration Kit
+
+<img src="http://www.bluerobotics.com/wp-content/uploads/2017/09/wlik-product-3.png" class="img-responsive img-center" style="max-width:500px;" />
 
 For use with the BlueROV2, we highly recommend the [Water Linked Underwater GPS / BlueROV2 Integration Kit](http://www.bluerobotics.com/store/electronics/underwater-gps/aps-wl-brov2-kit-r1/) to get started smoothly.
 

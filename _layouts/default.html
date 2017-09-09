@@ -96,8 +96,15 @@ liOpen: false
         </nav>
       </div>
       <div class="col-sm-9 content">
-        {% if page.topnavbar != brov2 %}
+        {% if page.topnavbar == "brov2" %}
         {% include brov2nav.html %}
+        <br />
+        <br />
+        <hr />
+        <br />
+        {% endif %}
+        {% if page.topnavbar == "waterlinked" %}
+        {% include waterlinkednav.html %}
         <br />
         <br />
         <hr />
