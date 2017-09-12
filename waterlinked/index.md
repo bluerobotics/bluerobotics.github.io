@@ -68,7 +68,12 @@ Here's our recommended installation instructions.
 
 Power on the ROV and Waterlinked system, and connect your computer. Start QGroundControl. Navigate to [192.168.2.2:2770/waterlinked](192.168.2.2:2770/waterlinked) in your browser, and click the 'Start Water Linked Driver' button. This will need to be performed each time the ROV is powered on. If you do not see a webpage at this address, please perform a software update according to the instructions here.
 
-If everything is operating correctly, you should now find an ROV position on the map in QGroundControl.
+<img src="/waterlinked/wlik-companion-driver.png" class="img-responsive img-center" style="max-width:650px;" />
+
+If everything is operating correctly, you should now find an ROV position on the map in QGroundControl. The ROV position is indicated by a BlueROV image. The position of the surface vessel or Water Linked Master Electronics box is indicated by a red arrow (not yet implemented). The small 'H' icon indicates the 'home position', the location of the ROV's first GPS lock.
+
+<img src="/waterlinked/wlik-qgc-display.png" class="img-responsive img-center" style="max-width:650px;" />
+
 
 ## Operational Setup
 
