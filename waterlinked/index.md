@@ -44,7 +44,7 @@ Please visit the [setup manual for the integration kit](/waterlinked/integration
 
 # Using with the BlueROV2
 
-The following instructions assume that you have [installed and set up](/waterlinked/integration-kit/) the [Integation Kit](http://www.bluerobotics.com/store/electronics/underwater-gps/aps-wl-brov2-kit-r1/).
+The following instructions assume that you have [installed and set up](/waterlinked/integration-kit) the [Integration Kit](http://www.bluerobotics.com/store/electronics/underwater-gps/aps-wl-brov2-kit-r1/).
 
 ## Installation
 
