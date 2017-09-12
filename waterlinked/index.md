@@ -66,7 +66,9 @@ Here's our recommended installation instructions.
 
 ## Software Setup
 
-To be completed.
+Power on the ROV and Waterlinked system, and connect your computer. Start QGroundControl. Navigate to [192.168.2.2:2770/waterlinked](192.168.2.2:2770/waterlinked) in your browser, and click the 'Start Water Linked Driver' button. This will need to be performed each time the ROV is powered on. If you do not see a webpage at this address, please perform a software update according to the instructions here.
+
+If everything is operating correctly, you should now find an ROV position on the map in QGroundControl.
 
 ## Operational Setup
 
