@@ -109,7 +109,7 @@ Quantity      | Part																		| Usage
 1             | Set of tether board power wires (installed)								| Provided power to the tether board
 4             | M3x16 socket head cap screw (316 stainless steel)  							| Mounting the electronics enclosure to the electronics enclosure cradle
 1			  | Fathom-X Tether Interface Board installed									| Long distance ethernet connection
-1			  | M Robotics Pixhawk (installed)														| Autopilot
+1			  | 3DR Pixhawk (installed)														| Autopilot
 1			  | Raspberry Pi 3 (installed)													| Companion computer
 1			  | Raspberry Pi Camera 2 (installed)   										| Camera
 1			  | Pixhawk Power Module (installed) 											| Powers the Pixhawk and monitors current and battery voltage
@@ -186,9 +186,9 @@ Quantity      | Part
 There are some items necessary for operation that are not included with the kit. 
 
  - A gamepad controller. We recommend [an Xbox360 Controller](https://www.amazon.com/Microsoft-Wired-Controller-Windows-Console/dp/B004QRKWLA?th=1) or [a Logitech F310 Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
- - A laptop or a Windows 10 tablet. QGroundControl works on Mac, Windows 10, and Linux.
+ - A laptop or a Windows tablet. QGroundControl works on Mac, Windows, and Linux.
  - A battery for the BlueROV2. We recommend getting our [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
- - A 4S capable LiPo/Li-Ion balance battery charger. We use and recommend [this one](http://bluerobotics.com/store/electronics/batteries/lithium-battery-charger/).
+ - A 4S capable LiPo/Li-Ion balance battery charger. We use and recommend [this one](https://hobbyking.com/en_us/turnigy-reaktor-300w-20a-ac-dc-synchronous-balance-charger-discharger-us-plug.html).
  
 # Assembling the Frame
 
@@ -527,6 +527,8 @@ To mount the Electronics Enclosure to the frame you need the following parts and
 
 ## Mounting the Thrusters to the Frame
 
+If you ordered your BlueROV2 prior to September 13, 2017, see the [archived thruster mounting instructions here](/brov2/assembly-pre201703/#mounting-the-thrusters-to-the-frame). Once you have mounted the thrusters, please return to these instructions to continue with [mounting the lights](/brov2/assembly/#mounting-the-lights).
+
 To mount the thrusters to the frame, you need the following parts and tools:
 
 - 1 x 2.5 mm hex driver
@@ -535,7 +537,19 @@ To mount the thrusters to the frame, you need the following parts and tools:
 - 1 x Bag with 16 M3x16 screws and 8 M3x12 screws in smaller bag
 - 1 x Assembled ROV frame
 
-Note: If you received your BlueROV prior to March 14th, 2017 you will need to install the Counter-Clockwise Propellers. See [the archived instructions](/brov2/assembly-pre201703/#changing-the-propellers) for details
+Note: If you received your BlueROV prior to March 14th, 2017 you will need to install the Counter-Clockwise Propellers. See [the archived instructions](/brov2/assembly-pre201703/#changing-the-propellers) for details.
+
+The horizontal thrusters have two mounting options. One is at a 45° angle to forward, and the other is at a 30° angle to forward. The thrusters mounted at 45° will give you equal thrust in all directions. Mounting the thrusters at 30° will give you 25% more forward thrust in exchange for 25% less thrust in strafing. To mount the thrusters at 45° use the holes shown in the picture below. The hole with the asterisk is the hole that should be closest to the nose cone on the thruster.
+
+<img src="/brov2/cad/45deg-thruster-mounting.png" class="img-responsive" style="max-width:900px" />
+
+To mount the thrusters at 30° use the holes shown in the pictures below. The hole with the asterisk is the hole that should be closest to the nose cone on the thruster.
+
+<img src="/brov2/cad/30deg-thruster-mounting.png" class="img-responsive" style="max-width:900px" />
+
+For the sake of clarity, the hole with the asterisk on the thruster shown below is the hole that is closest to the nose cone.
+
+<img src="/brov2/cad/thruster-mounting.png" class="img-responsive" style="max-width:900px" />
 
 Here is a diagram of where the thrusters go, and how they should be oriented. The green thrusters should have counter-clockwise propellers and blue thrusters should have clockwise propellers. The order of installation matters here. You cannot get the front thrusters on if the rear ones were installed first.
 
@@ -646,7 +660,7 @@ To get your topside ready to connect to the BlueROV2 you will need the following
 
 - 1 x Fathom-X Tether Interface Board
 - 1 x 2 mm flat head screw driver
-- 1 x Computer (Mac, Windows 10, Linux)
+- 1 x Computer (Mac, Windows, Linux)
 - 1 x Ethernet cable 
 - 1 x USB to Ethernet adapter (if your computer does not have an Ethernet Port)
 - 1 x Mini-USB cable
