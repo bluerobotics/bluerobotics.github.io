@@ -74,6 +74,7 @@ If everything is operating correctly, you should now find an ROV position on the
 
 <img src="/waterlinked/wlik-qgc-display.png" class="img-responsive img-center" style="max-width:650px;" />
 
+To configure the Water Linked Underwater GPS system, navigate to [192.168.2.94/#/configuration](http://192.168.2.94/#/configuration) in your browser. At the current Water Linked software revision, only static GPS positioning (manual entry) for the Master Electronics box is supported. Please refer to the [Water Linked Underwater GPS User Manual](http://waterlinked.com/wp-content/uploads/2017/08/W-DN-17002-2_Underwater_GPS_User_Manual.pdf) for further information on configuration.
 
 ## Operational Setup
 
