@@ -68,9 +68,11 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | ----------------------------------- | ----------------------------- |
 |                          **2" Series Enclosure**                    |
 | ----------------------------------- | ----------------------------- |
-| Maximum Depth Rating                | 330 ft        | 100 m         |
-| Maximum Tested Depth (to failure)   | 660 ft        | 200 m         |
-| [Failure Depth](https://youtu.be/1rX_jH3785I) (for 12" length)      | 660 ft        | 200 m         |
+| Maximum Depth Rating (acrylic)      | 330 ft        | 100 m         |
+| Maximum Tested Depth (acrylic) (failure)      | 660 ft        | 200 m         |
+| Maximum Depth Rating (aluminum)     | 3280 ft       | 1000 m        |
+| Maximum Tested Depth (aluminum)     | 3280 ft       | 1000 m        |
+| [Failure Depth](https://youtu.be/1rX_jH3785I) (for 12" length acrylic)      | 660 ft        | 200 m         |
 | Maximum External Pressure Rating    | 146 psi       | 1000 kPa      |
 | Weight in Air (12" Length)          | 1.1 lb        | 500 g         |
 | Weight in Water (Freshwater)        | -0.72 lb      | -326 g        |
