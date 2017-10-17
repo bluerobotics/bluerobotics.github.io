@@ -103,7 +103,7 @@ To set up your topside control follow the instructions on the [Software Setup](/
 
 ## Vacuum Test 
 
-To perform a vacuum test on the _BlueROV2_, you need a vacuum pump. If you do not own one, we recommend [this pump.](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump) It is important to do a vacuum test prior to putting the _BlueROV2_ in the water for the first time. It is also important to perform a vacuum test after changing anything that could compromise a seal, such as changing out a penetrator or an O-ring.
+To perform a vacuum test on the _BlueROV2_, you need a vacuum pump. If you do not own one, we recommend [this pump.](http://www.bluerobotics.com/store/tools/hand-operated-vacuum-pump/) It is important to do a vacuum test prior to putting the _BlueROV2_ in the water for the first time. It is also important to perform a vacuum test after changing anything that could compromise a seal, such as changing out a penetrator or an O-ring.
 
 The vacuum test can be performed using the following procedure:
 

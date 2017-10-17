@@ -80,7 +80,7 @@ The BlueROV2 kit comes almost ready to dive. The assembly can be completed with 
 - Wire cutters or scissors (for cutting zip ties)
 - Medium-strength (blue) threadlocker such as [Loctite 243](https://www.amazon.com/Loctite-1330799-Resistant-thread-locker-6-milliliter/dp/B004L439FE/ref=sr_1_1?ie=UTF8&qid=1466440165&sr=8-1&keywords=loctite+243+thread-locker)
 - Isopropyl alcohol or isopropyl alcohol wipes
-- Vacuum pump such as [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump)
+- Vacuum pump such as [this one](http://www.bluerobotics.com/store/tools/hand-operated-vacuum-pump/)
 - 2 mm flat head screw driver
 
 # What's Included
