@@ -39,25 +39,26 @@ The Subsea LED Indicator is a simple LED light with high pressure capability! It
 |      **Electrical**       |
 | ------------- | --------- |
 | **Item** | **Value** |
-| Supply Voltage (V<sub>in</sub>) | 2 - 20 volts |
+| Supply Voltage (V<sub>in</sub>) | 3 - 20 volts (DC) |
+| Max Current | TBD mA |
 | ------------- | --------- |
 |   **Light**    |
 |--------------|--------------|
-| Maximum Brightness | x lumens |
+| Maximum Brightness | TBD mcd |
 |  **Cable and Connectors**  |
-| Cable Length | xx m | xx in |
+| Cable Length | 180 mm | 7 in |
 | Connectors | Single 0.1" Male Header Pins |
 | Wires | Black - Ground |
 | | White/Red/Green/Blue - Power |
 |  **Physical**  |
 | ------------|-------------------------|
-| Pressure Rating | xxx m | xxx ft |
+| Pressure Rating | TBD m | TBD ft |
 | Mounting Hole Diameter | 10 mm | 0.40 in |
 |----------------------|
 
 ## 2D Drawings
 
-To be completed.
+<img src="INDICATOR10-DWG-R1.png" class="img-responsive" style="max-width:900px"  />
 
 ## 3D Model
 
@@ -71,6 +72,7 @@ All 3D models are provided in zip archives containing the follow file types:
 |		**Lumen Light**																			|
 | --------------------------------------------------------------------------------------------- |
 | Indicator Assembly      | [INDICATOR10-ASM-R1.zip](INDICATOR10-ASM-R1.zip)    |
+| Cable Penetrator Nut    | [PENETRATOR-NUT-10-A-R2.zip](/models/PENETRATOR-M-NUT-10-A-R2.zip) |
 
 # Installation
 
