@@ -190,16 +190,6 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 	<img src="/brov2/cad/mac-network-settings-annotated.png" class="img-responsive img-center" style="max-width:800px" />
 
-**Sharing Settings**
-
-1. Go to _Sharing_ and select "Internet Sharing". 
-
-2. Select "Wi-Fi" from the "Share your connection from" dropdown.
-
-3. Select "USB 10/100 LAN" (if using the recommended Ethernet USB adaptor) or your Ethernet port or adapter from the "To computers using" menu.
-
-	<img src="/brov2/cad/mac-sharing-settings-annotated.png" class="img-responsive img-center" style="max-width:800px" />
-
 # Joystick Setup
 
 **XBox 360 Controller**
