@@ -73,10 +73,16 @@ You can use the menu bar at the top to find the product you are looking for and 
 </div>  
 
 ## Electronics
+
 <div class="row">
   <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/bescr3/cad/BESC30-R3-3.png)">
+      <a href="/bescr3/">Basic ESC (New) <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/besc-3-new.png)">
-      <a href="/besc/">Basic ESC <i class="fa fa-chevron-circle-right"></i></a>
+      <a href="/besc/">Basic ESC (Old) <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
  <div class="col-sm-4 col-md-4">
