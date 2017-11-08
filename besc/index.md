@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Basic ESC Documentation
+title: Basic ESC Documentation (Old)
 order: 1
 nav:
 - Introduction: introduction
@@ -29,6 +29,8 @@ manual-links:
 <img src="/assets/images/documentation/besc-side.png" class="img-responsive" style="max-width:600px" />
 
 # Introduction
+
+NOTE: This is the old version of the BasicESC, the documentation for new R3 version is located [here](http://docs.bluerobotics.com/bescr3/).
 
 The Basic ESC is a simple speed controller. It is the AfroESC 30A pre-programmed with custom firmware that allows forward and backward operation. The firmware is open source and available in [our branch of the tgy project](http://github.com/bluerobotics/tgy).
 
@@ -158,7 +160,7 @@ make afro_nfet.hex
 
 ### Firmware Flashing
 
-The ESC includes a bootloader that allows flashing through the PWM signal wire using a programming like the [Turnigy USB Linker](http://www.hobbyking.com/hobbyking/store/__10628__turnigy_usb_linker_for_aquastar_super_brain.html) or the [AfroESC Programmer](http://www.hobbyking.com/hobbyking/store/__39437__afro_esc_usb_programming_tool.html). 
+The ESC includes a bootloader that allows flashing through the PWM signal wire using a programming tool like the [Turnigy USB Linker](http://www.hobbyking.com/hobbyking/store/__10628__turnigy_usb_linker_for_aquastar_super_brain.html) or the [AfroESC Programmer](http://www.hobbyking.com/hobbyking/store/__39437__afro_esc_usb_programming_tool.html). 
 
 ~~~ bash
 avrdude -c stk500v2 -b 9600 -P [programmer port] -p m8 -U flash:w:afro_nfet_besc30_r1.hex:i
