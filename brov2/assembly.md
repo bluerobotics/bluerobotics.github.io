@@ -80,7 +80,6 @@ The BlueROV2 kit comes almost ready to dive. The assembly can be completed with 
 - Wire cutters or scissors (for cutting zip ties)
 - Medium-strength (blue) threadlocker such as [Loctite 243](https://www.amazon.com/Loctite-1330799-Resistant-thread-locker-6-milliliter/dp/B004L439FE/ref=sr_1_1?ie=UTF8&qid=1466440165&sr=8-1&keywords=loctite+243+thread-locker)
 - Isopropyl alcohol or isopropyl alcohol wipes
-- Vacuum pump such as [this one](http://www.bluerobotics.com/store/tools/hand-operated-vacuum-pump/)
 - 2 mm flat head screw driver
 
 # What's Included
@@ -166,6 +165,7 @@ Quantity      | Part													| Usage
 1			  | 1.5 mm hex key											| Thruster dissassembly
 1			  | 2 mm hex key											   	| Change propellers
 1			  | 3 mm hex key												| Install M4 and M5 screws
+1			  | Hand Operated Vacuum Pump 								| Test seals
 
 ## Lights
 
@@ -401,7 +401,7 @@ To complete the assembly of the battery enclosure you need the following parts a
 
 ## Optional Preliminary Vacuum Test
 
-This is the best point in the assembly process to perform a vacuum test. Since you have installed all of the penetrators, but have not done any of the wiring, troubleshooting will be as easy as possible. To prepare for the vacuum test you need to purchase a vacuum pump. We recommend [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump).
+This is the best point in the assembly process to perform a vacuum test. Since you have installed all of the penetrators, but have not done any of the wiring, troubleshooting will be as easy as possible. 
 
 1. Install the Watertight Enclosure (4" Series) with installed Dome onto the O-Ring Flange (4" Series) that is attached to the Aluminum End Cap with 14 Holes (4" Series)
 
