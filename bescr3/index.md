@@ -139,7 +139,7 @@ Detailed documentation for BlHeli_S operation and settings can be downloaded her
 
 ## Firmware Update and Customization
 
-The Basic ESC uses version 16.6 of the [BLHeli_S firmware](https://github.com/bitdump/BLHeli/tree/master/BLHeli_S%20SiLabs) which is open source and editable. There are many parameters that can be changed to alter the performance of the speed controller by flashing the ESC through the PWM signal wire using a programming tool like the [Turnigy USB Linker](http://www.hobbyking.com/hobbyking/store/__10628__turnigy_usb_linker_for_aquastar_super_brain.html), or the [AfroESC Programmer](http://www.hobbyking.com/hobbyking/store/__39437__afro_esc_usb_programming_tool.html), or an Arduino. The [BLHeliSuite](https://blhelisuite.wordpress.com/) software can be used for accessing the ESC firmware and configuring it.
+The Basic ESC uses version 16.6 of the [BLHeli_S firmware](https://github.com/bitdump/BLHeli/tree/master/BLHeli_S%20SiLabs) which is open source and editable. There are many parameters that can be changed to alter the performance of the speed controller by flashing the ESC through the PWM signal wire using a programming tool like the [Turnigy USB Linker](http://www.hobbyking.com/hobbyking/store/__10628__turnigy_usb_linker_for_aquastar_super_brain.html), the [AfroESC Programmer](http://www.hobbyking.com/hobbyking/store/__39437__afro_esc_usb_programming_tool.html), or an Arduino. The [BLHeliSuite](https://blhelisuite.wordpress.com/) software can be used for accessing the ESC firmware and configuring it.
 
 The Basic ESC uses an SiLabs microcontroller and is Oneshot 125 compatible. 
 
