@@ -79,10 +79,10 @@ This new version of the Basic ESC is based on the BLHeli_S ESC design, providing
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [BESC30-R3.sldprt](cad/BESC30-R3.sldprt) |
-| STEP (.step)               | [BESC30-R3.step](cad/BESC30-R3.step)   |
-| IGES (.igs)                | [BESC30-R3.igs](cad/BESC30-R3.igs) |
-| STL (.stl)                 | [BESC30-R3.stl](cad/BESC30-R3.stl) |
+| SolidWorks Part (.sldprt)  | [BESC30-R3.sldprt](cad/BESC30-R3.SLDPRT) |
+| STEP (.step)               | [BESC30-R3.step](cad/BESC30-R3.STEP)   |
+| IGES (.igs)                | [BESC30-R3.igs](cad/BESC30-R3.IGS) |
+| STL (.stl)                 | [BESC30-R3.stl](cad/BESC30-R3.STL) |
 
 # Installation
 
@@ -141,5 +141,5 @@ Detailed documentation for BlHeli_S operation and settings can be downloaded her
 
 The Basic ESC uses version 16.6 of the [BLHeli_S firmware](https://github.com/bitdump/BLHeli/tree/master/BLHeli_S%20SiLabs) which is open source and editable. There are many parameters that can be changed to alter the performance of the speed controller by flashing the ESC through the PWM signal wire using a programming tool like the [Turnigy USB Linker](http://www.hobbyking.com/hobbyking/store/__10628__turnigy_usb_linker_for_aquastar_super_brain.html), the [AfroESC Programmer](http://www.hobbyking.com/hobbyking/store/__39437__afro_esc_usb_programming_tool.html), or an Arduino. The [BLHeliSuite](https://blhelisuite.wordpress.com/) software can be used for accessing the ESC firmware and configuring it.
 
-The Basic ESC uses an SiLabs microcontroller and is Oneshot 125 compatible. 
+The Basic ESC uses an SiLabs microcontroller and is Oneshot 125 capable. 
 
