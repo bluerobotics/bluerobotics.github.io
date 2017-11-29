@@ -280,6 +280,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Acrylic Solid End Cap			       | [WTE6-P-END-CAP-R1 Drawing](/wte/cad/WTE6-P-END-CAP-R1.PNG)   
 | Aluminum Solid End Cap               | [WTE6-M-END-CAP-R1 Drawing](/wte/cad/WTE6-M-END-CAP-R1.PNG)   
 | Aluminum End Cap with 5 x 10mm Holes | [WTE6-M-END-CAP-5-10MM-R1 Drawing](/wte/cad/WTE6-M-END-CAP-5-10MM-R1.PNG)
+| Aluminum End Cap with 15 x 10mm Holes| [WTE6-M-END-CAP-15-10MM-R1 Drawing](/wte/cad/WTE6-M-END-CAP-15-10MM-R1.PNG)
 
 
 ## 3D Models (6" Series)
@@ -300,7 +301,8 @@ All 3D models are provided in zip archives containing the follow file types:
 | Aluminum O-ring Flange               | [WTE6-M-FLANGE-SEAL-R1.zip](/wte/cad/WTE6-M-FLANGE-SEAL-R1.zip)            
 | Acrylic Solid End Cap			       | [WTE6-P-END-CAP-R1.zip](/wte/cad/WTE6-P-END-CAP-R1.zip)     
 | Aluminum Solid End Cap               | [WTE6-M-END-CAP-R1.zip](/wte/cad/WTE6-M-END-CAP-R1.zip)        
-| End Cap with 5 x 10mm Holes          | [WTE6-M-END-CAP-5-10MM-R1.zip](/wte/cad/WTE6-M-END-CAP-5-10MM-R1.zip)   
+| End Cap with 5 x 10mm Holes          | [WTE6-M-END-CAP-5-10MM-R1.zip](/wte/cad/WTE6-M-END-CAP-5-10MM-R1.zip) 
+| End Cap with 15 x 10mm holes         | [WTE6-M-END-CAP-15-10MM-R1.zip](/wte/cad/WTE6-M-END-CAP-15-10MM-R1.zip)  
 
 # Specifications: 8" Series
 
@@ -335,6 +337,9 @@ All 3D models are provided in zip archives containing the follow file types:
 | Acrylic Solid End Cap			       | [WTE8-P-END-CAP-R1 Drawing](/wte/cad/WTE8-P-END-CAP-R1.PNG)   
 | Aluminum Solid End Cap               | [WTE8-M-END-CAP-R1 Drawing](/wte/cad/WTE8-M-END-CAP-R1.PNG)   
 | Aluminum End Cap with 5 x 10mm Holes | [WTE8-M-END-CAP-5-10MM-R1 Drawing](/wte/cad/WTE8-M-END-CAP-5-10MM-R1.PNG)
+| Aluminum End Cap with 15 x 10mm Holes| [WTE8-M-END-CAP-15-10MM-R1 Drawing](/wte/cad/WTE8-M-END-CAP-15-10MM-R1.PNG)
+| Aluminum End Cap with 25 x 10mm Holes| [WTE8-M-END-CAP-25-10MM-R1 Drawing](/wte/cad/WTE8-M-END-CAP-25-10MM-R1.PNG)
+| Dome End Cap 						   | [WTE8-P-DOME-R1 Drawing](/wte/cad/WTE8-P-DOME-R1.PNG)
 
 ## 3D Models (8" Series)
 
@@ -355,6 +360,9 @@ All 3D models are provided in zip archives containing the follow file types:
 | Acrylic Solid End Cap			       | [WTE8-P-END-CAP-R1.zip](/wte/cad/WTE8-P-END-CAP-R1.zip)     
 | Aluminum Solid End Cap               | [WTE8-M-END-CAP-R1.zip](/wte/cad/WTE8-M-END-CAP-R1.zip)        
 | End Cap with 5 x 10mm Holes          | [WTE8-M-END-CAP-5-10MM-R1.zip](/wte/cad/WTE8-M-END-CAP-5-10MM-R1.zip)   
+| End Cap with 15 x 10mm Holes         | [WTE8-M-END-CAP-15-10MM-R1.zip](/wte/cad/WTE8-M-END-CAP-15-10MM-R1.zip)    
+| End Cap with 25 x 10mm Holes         | [WTE8-M-END-CAP-25-10MM-R1.zip](/wte/cad/WTE8-M-END-CAP-25-10MM-R1.zip) 
+| Dome End Cap                         | [WTE8-P-DOME-R1.zip](/wte/cad/WTE8-P-DOME-R1.zip) 
 
 <br />
 
