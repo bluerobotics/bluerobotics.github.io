@@ -28,7 +28,7 @@ manual-links:
 
 # Introduction
 
-NOTE: This is the new version of the BasicESC, the documentation for old version is located [here](http://docs.bluerobotics.com/besc/).
+NOTE: This is the new version of the Basic ESC, the documentation for old version is located [here](http://docs.bluerobotics.com/besc/).
 
 This new version of the Basic ESC is based on the BLHeli_S ESC design, providing an upgrade with newer technology, additional features, and improved performance. The Basic ESC is a simple brushless sensorless speed controller pre-programmed with custom firmware that allows forward and backward operation. The BLHeli_S firmware is open source and available [on Github](https://github.com/bitdump/BLHeli/tree/master/BLHeli_S%20SiLabs).
 
@@ -79,10 +79,10 @@ This new version of the Basic ESC is based on the BLHeli_S ESC design, providing
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [BESC30-R3.sldprt](cad/BESC30-R3.sldprt) |
-| STEP (.step)               | [BESC30-R3.step](cad/BESC30-R3.step)   |
-| IGES (.igs)                | [BESC30-R3.igs](cad/BESC30-R3.igs) |
-| STL (.stl)                 | [BESC30-R3.stl](cad/BESC30-R3.stl) |
+| SolidWorks Part (.sldprt)  | [BESC30-R3.sldprt](cad/BESC30-R3.SLDPRT) |
+| STEP (.step)               | [BESC30-R3.step](cad/BESC30-R3.STEP)   |
+| IGES (.igs)                | [BESC30-R3.igs](cad/BESC30-R3.IGS) |
+| STL (.stl)                 | [BESC30-R3.stl](cad/BESC30-R3.STL) |
 
 # Installation
 
@@ -130,7 +130,7 @@ void loop() {
 
 The firmware configuration settings file for BLHeliSuite can be downloaded here: 
 
-[BR BasicESC BLHEli_S](cad/BLHeli_BR Basic ESC - R_H_15 - Rev. 16.6 - Multi_170921.ini)
+[BR Basic ESC BLHEli_S](cad/BLHeli_BR Basic ESC - R_H_15 - Rev. 16.6 - Multi_170921.ini)
 
 Detailed documentation for BlHeli_S operation and settings can be downloaded here:
 
@@ -139,7 +139,7 @@ Detailed documentation for BlHeli_S operation and settings can be downloaded her
 
 ## Firmware Update and Customization
 
-The Basic ESC uses version 16.6 of the [BLHeli_S firmware](https://github.com/bitdump/BLHeli/tree/master/BLHeli_S%20SiLabs) which is open source and editable. There are many parameters that can be changed to alter the performance of the speed controller by flashing the ESC through the PWM signal wire using a programming tool like the [Turnigy USB Linker](http://www.hobbyking.com/hobbyking/store/__10628__turnigy_usb_linker_for_aquastar_super_brain.html), or the [AfroESC Programmer](http://www.hobbyking.com/hobbyking/store/__39437__afro_esc_usb_programming_tool.html), or an Arduino. The [BLHeliSuite](https://blhelisuite.wordpress.com/) software can be used for accessing the ESC firmware and configuring it.
+The Basic ESC uses version 16.6 of the [BLHeli_S firmware](https://github.com/bitdump/BLHeli/tree/master/BLHeli_S%20SiLabs) which is open source and editable. There are many parameters that can be changed to alter the performance of the speed controller by flashing the ESC through the PWM signal wire using a programming tool like the [Turnigy USB Linker](http://www.hobbyking.com/hobbyking/store/__10628__turnigy_usb_linker_for_aquastar_super_brain.html), the [AfroESC Programmer](http://www.hobbyking.com/hobbyking/store/__39437__afro_esc_usb_programming_tool.html), or an Arduino. The [BLHeliSuite](https://blhelisuite.wordpress.com/) software can be used for accessing the ESC firmware and configuring it.
 
-The BasicESC uses an SiLabs microcontroller and is Oneshot 125 compatible. 
+The Basic ESC uses an SiLabs microcontroller and is Oneshot 125 capable. 
 
