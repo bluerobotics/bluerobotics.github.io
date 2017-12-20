@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fathom Slim Tether
-permalink: fathom-slim
+permalink: /fathom-slim/
 order: 1
 nav:
 - Introduction: introduction
