@@ -17,8 +17,8 @@ store-links:
 - Loctite Marine Epoxy: https://www.bluerobotics.com/store/tools/loctite-marine-epoxy/
 
 manual-links:
-- Fathom Tether: /fathom
-- BlueROV2: /brov2
+- Fathom Tether: /fathom/
+- BlueROV2: /brov2/
 
 ---
 
