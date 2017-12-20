@@ -46,7 +46,7 @@ This tether is ideal for travel, deep dives, and long distance dives where size 
 | ------------- | --------- |
 | **Item** | **Value** |
 | Tether Diameter | 4.0 mm | 0.16 in |
-| Weight | 0.043 kg/m | 0.0287 lbs/ft |
+| Weight | 0.012 kg/m | 0.00805 lbs/ft |
 | Buoyancy in Freshwater | Neutral |
 | Buoyancy in Saltwater | Slightly Positive |
 | Wire Gauge   | 26 AWG |
@@ -59,6 +59,7 @@ This tether is ideal for travel, deep dives, and long distance dives where size 
 |      **Electrical**       |
 | ------------- | --------- |
 | **Item** | **Value** |
+| DC Resistance @ 20&deg;C| 0.0445 &Omega; / ft | 0.146 &Omega; / m |
 | Voltage Rating (Twisted Pair) | 300 VDC |
 |      **Twisted Pairs**    |
 |---|---|---------------------|
