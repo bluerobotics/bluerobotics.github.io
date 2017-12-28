@@ -183,8 +183,8 @@ All 3D models are provided in zip archives containing the follow file types:
 | Plain Solid End Cap			       | [WTE3-P-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-R1.zip)
 | End Cap with 4 x 10mm Holes          | [WTE3-P-END-CAP-4X10MM-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-4X10MM-R1.zip)
 | End Cap with 7 x 10mm Holes          | [WTE3-P-END-CAP-7X10MM-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-7X10MM-R1.zip)
-| Clamp                     		   | [WTE4-M-CLAMP-R1.zip](/wte/cad/WTE3-M-CLAMP-R1.zip) 
-| Dome End Cap                         | [WTE2-ASM-DOME-R1.zip](/wte/cad/WTE2-ASM-DOME-R1.zip)                                                   |
+| Clamp                     		   | [WTE3-M-CLAMP-R1.zip](/wte/cad/WTE3-M-CLAMP-R1.zip) 
+| Dome End Cap                         | [WTE3-ASM-DOME-R1.zip](/wte/cad/WTE3-ASM-DOME-R1.zip)                                                   |
 
 
 # Specifications: 4" Series
