@@ -70,8 +70,10 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | ----------------------------------- | ----------------------------- |
 | Maximum Depth Rating (Acrylic Tube)      | 330 ft        | 100 m         |
 | Maximum Depth Rating (Aluminum Tube)     | 3280 ft       | 1000 m        |
+| Maximum Depth Rating (Dome)              | 3280 ft       | 1000 m        |
 | Maximum Tested Depth (Acrylic Tube) (failure)      | 660 ft        | 200 m         |
 | Maximum Tested Depth (Aluminum Tube)     | 3280 ft       | 1000 m        |
+| Maximum Tested Depth (Dome)         | 3280 ft       | 1000 m        |
 | [Failure Depth](https://youtu.be/1rX_jH3785I) (for 12" length acrylic)      | 660 ft        | 200 m         |
 | Maximum External Pressure Rating    | 146 psi       | 1000 kPa      |
 | Weight in Air (12" Length)          | 1.1 lb        | 500 g         |
@@ -97,6 +99,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | Aluminum O-ring Flange               | [WTE2-M-FLANGE-SEAL-R2 Drawing](/assets/images/WTE/drawings/WTE2/WTE2-M-FLANGE-SEAL-R2.png)               |
 | Plain Solid End Cap			       | [WTE2-P-END-CAP-R1 Drawing](/assets/images/WTE/drawings/WTE2/WTE2-SIMPLE-END-CAP-R1.png)                       |
 | End Cap with 2 x 10mm Holes          | [WTE2-P-END-CAP-2X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE2/WTE2-P-END-CAP-2-2X10MM-R1.png)         |
+| Dome End Cap                         | [WTE2-ASM-DOME-R1 Drawing](/wte/cad/WTE2-ASM-DOME-R1.PNG)                                               |
 
 ## 3D Models (2" Series)
 
@@ -115,6 +118,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Aluminum O-ring Flange               | [WTE2-M-FLANGE-SEAL-R2.zip](http://www.bluerobotics.com/models/WTE2-M-FLANGE-SEAL-R2.zip)               |
 | Plain Solid End Cap			       | [WTE2-P-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE2-P-END-CAP-R1.zip)                       |
 | End Cap with 2 x 10mm Holes          | [WTE2-P-END-CAP-2X10MM-R1.zip](http://www.bluerobotics.com/models/WTE2-P-END-CAP-2X10MM-R1.zip)         |
+| Dome End Cap                         | [WTE2-ASM-DOME-R1.zip](/wte/cad/WTE2-ASM-DOME-R1.zip)                                                   |
 
 
 # Specifications: 3" Series
@@ -128,8 +132,10 @@ All 3D models are provided in zip archives containing the follow file types:
 | ----------------------------------- | ----------------------------- |
 | Maximum Depth Rating (Acrylic Tube) | 500 ft        | 150 m         |
 | Maximum Depth Rating (Aluminum Tube) | 1640 ft      | 500 m         |
+| Maximum Depth Rating (Dome)         | 1640 ft      | 500 m         |
 | Maximum Tested Depth (Acrylic Tube) | 660 ft        | 200 m         |
 | Maximum Tested Depth (Aluminum Tube) | 2460 ft      | 750 m         |
+| Maximum Tested Depth (Dome)         | 3280 ft      | 1000 m         |
 | Failure Depth                       | TBD                           |
 | Maximum External Pressure Rating    | 215 psi       | 1500 kPa      |
 | Tube Inner Diameter                 | 3 in          | 76.2 mm       |
@@ -155,6 +161,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap with 7 x 10mm Holes          | [WTE3-P-END-CAP-7X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-PM-END-CAP-7X10MM-R1.png)
 | Clamp                     		   | [WTE3-M-CLAMP-R1 Drawing](/wte/cad/WTE3-M-CLAMP-R1.PNG) 
 | Aluminum Tube                        | [WTE3-M-TUBE-8P75-R1 Drawing](/wte/cad/WTE3-M-TUBE-8P75-R1.PNG)
+| Dome End Cap                         | [WTE3-ASM-DOME-R1 Drawing](/wte/cad/WTE3-ASM-DOME-R1.PNG)                                               |
 
 
 ## 3D Models (3" Series)
@@ -177,6 +184,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | End Cap with 4 x 10mm Holes          | [WTE3-P-END-CAP-4X10MM-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-4X10MM-R1.zip)
 | End Cap with 7 x 10mm Holes          | [WTE3-P-END-CAP-7X10MM-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-7X10MM-R1.zip)
 | Clamp                     		   | [WTE4-M-CLAMP-R1.zip](/wte/cad/WTE3-M-CLAMP-R1.zip) 
+| Dome End Cap                         | [WTE2-ASM-DOME-R1.zip](/wte/cad/WTE2-ASM-DOME-R1.zip)                                                   |
 
 
 # Specifications: 4" Series
