@@ -79,10 +79,10 @@ This new version of the Basic ESC is based on the BLHeli_S ESC design, providing
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [BESC30-R3.sldprt](/bescr3/cad/BESC30-R3.sldprt) |
-| STEP (.step)               | [BESC30-R3.step](/bescr3/cad/BESC30-R3.step)   |
-| IGES (.igs)                | [BESC30-R3.igs](/bescr3/cad/BESC30-R3.igs) |
-| STL (.stl)                 | [BESC30-R3.stl](/bescr3/cad/BESC30-R3.stl) |
+| SolidWorks Part (.sldprt)  | [BESC30-R3.sldprt](/bescr3/cad/BESC30-R3.SLDPRT) |
+| STEP (.step)               | [BESC30-R3.step](/bescr3/cad/BESC30-R3.STEP)   |
+| IGES (.igs)                | [BESC30-R3.igs](/bescr3/cad/BESC30-R3.IGS) |
+| STL (.stl)                 | [BESC30-R3.stl](/bescr3/cad/BESC30-R3.STL) |
 
 # Installation
 
