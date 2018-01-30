@@ -120,7 +120,12 @@ You can use the menu bar at the top to find the product you are looking for and 
       <a href="/camera/">Camera <i class="fa fa-chevron-circle-right"></i></a>
     </div>
 	</div>
-    <div class="col-sm-4 col-md-4">
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/commander/commander-1.png)">
+      <a href="/commander/">Thruster Commander <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/switch/cad/switch-4.png)">
       <a href="/switch/">Switch <i class="fa fa-chevron-circle-right"></i></a>
     </div>
@@ -145,12 +150,11 @@ You can use the menu bar at the top to find the product you are looking for and 
       <a href="/celsius/"><em>Celsius</em> Temp Sensor <i class="fa fa-chevron-circle-right"></i></a>
     </div>
  	</div>
-    <div class="col-sm-4 col-md-4">
+  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/level-converter/cad/level-converter-1.png)">
       <a href="/level-converter/">I<sup>2</sup>C Level Converter <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-		</div>
-    <div class="col-sm-4 col-md-4">
+  </div>
+  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/sos/cad/sos-5-a.png)">
       <a href="/sos/"><em>SOS</em> Leak Sensor <i class="fa fa-chevron-circle-right"></i></a>
     </div>
