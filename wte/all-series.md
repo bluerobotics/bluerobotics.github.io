@@ -142,7 +142,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Tube Outer Diameter                 | 3.5 in        | 88.9 mm       |
 | Tube Thickness                      | 0.25 in       | 6.3 mm        |
 | End Cap Thickness                   | 0.47 in       | 12.0 mm       |
-| Aluminum Flange Inner Diameter      | 3.5 in        | 89 mm         |
+| Aluminum Flange Inner Diameter      | 2.5 in        | 63.5 mm         |
 | Total Length                        | 12.93 in      | 329 mm        |
 | Radial Seal O-ring (2 used)         | AS568-230, Buna-N             |
 | Face Seal O-ring (1 used)           | AS568-148, Buna-N             |
