@@ -42,7 +42,7 @@ The <em>BlueROV2 Heavy Retrofit Kit</em> is a modular frame extension for the Bl
 
 <img src="/brov2-heavy/cad/brov2-heavy-2view.png" class="img-responsive img-center" style="max-width:800px" />
 
-<img src="/payload-skid/cad/rov-payload-dimensions.png" class="img-responsive img-center" style="max-width:800px" />
+<img src="/brov2-heavy/cad/rov-heavy-dimensions.png" class="img-responsive img-center" style="max-width:800px" />
 
 ## 3D Model
 
