@@ -74,11 +74,57 @@ To ensure your ROV is completely powered off, please remove the battery complete
 
 <img src="/brov2-heavy/cad/heavy-step-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
-Screw the standoffs between the tops of the side panels with four M4x16 screws. Note that these standoffs may be removed once the Payload Skid is mounted to a BlueROV2, but it is recommended to keep them on at all times for structural stability.
+Remove the 4” Electronics enclosure from the ROV by removing the M3x16 that mount the enclosure to the ROV cradle.
 
-## Step 3: Remove Fairings and Buoyancy Block
+## Step 3: Remove Fairings and Buoyancy Blocks
 
 <img src="/brov2-heavy/cad/heavy-step-3.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
-Place your BlueROV2 on top of the Payload Skid, and use the ROV side mounting holes as guides to attach the mounting clips in the proper orientation, using eight M5x16 screws.
+Remove the fairings and buoyancy blocks by removing the self-tapping screws that hold the fairings to the frame.
 
+## Step 4: Optional, but highly recommended: Number Thrusters with Masking Tape
+
+<img src="/brov2-heavy/cad/heavy-step-4.png" class="img-responsive img-center" style="max-width:800px"  />
+
+## Step 5: Unmount Thrusters 5 and 6 
+
+<img src="/brov2-heavy/cad/heavy-step-5.png" class="img-responsive img-center" style="max-width:800px"  />
+
+## Step 6: Remove Zipties 
+
+<img src="/brov2-heavy/cad/heavy-step-6.png" class="img-responsive img-center" style="max-width:800px"  />
+
+## Step 7: Remove 4” Endcap
+
+<img src="/brov2-heavy/cad/heavy-step-7.png" class="img-responsive img-center" style="max-width:600px"  />
+
+## Step 8: Remove Two Blank Penetrators
+
+## Step 9: Install Thrusters 7 and 8 into Empty Penetrator Holes
+
+## Step 10: Reinstall 4” Endcap
+
+## Step 11: Install Thrusters 5,6,7 and 8 onto Frame
+
+## Step 12: Install Port and Starboard Thruster Guards
+Note: thruster guards have a fwd/aft
+
+## Step 13: Install New Euro Terminal Blocks
+
+## Step 14: Attach Thruster Wires to New Euro Terminal Blocks
+
+## Step 15: Attach ESC Wires to New Euro Terminal Block
+
+## Step 16: Plug ESC Signal Wires into Pixhawk
+
+## Step 17: Plug ESC Power Wires into Power Terminal Block
+
+## Step 18: Reinstall 4” Watertight Enclosure onto ROV
+
+## Step 19: Reinstall Original Fairing Blocks onto ROV
+
+## Step 20: Place new Buoyancy Blocks onto Frame
+
+## Step 21: Install New Middle Fairing Covers
+
+## Step 22: Cable Management
