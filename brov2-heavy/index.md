@@ -42,7 +42,7 @@ The <em>BlueROV2 Heavy Retrofit Kit</em> is a modular frame extension for the Bl
 
 <img src="/brov2-heavy/cad/brov2-heavy-2view.png" class="img-responsive img-center" style="max-width:800px" />
 
-<img src="/brov2-heavy/cad/rov-heavy-dimensions.png" class="img-responsive img-center" style="max-width:800px" />
+
 
 ## 3D Model
 
@@ -63,3 +63,22 @@ Assemble according to the below steps, and the Heavy Retrofit Kit will allow you
 
 
 # Assembly and Installation
+
+## Step 1: Remove Battery from BlueROV2
+
+<img src="/brov2-heavy/cad/heavy-step-1.png" class="img-responsive img-center" style="max-width:800px"  />
+
+To ensure your ROV is completely powered off, please remove the battery completely from the 3” enclosure and place to the side.
+
+## Step 2: Remove Electronics Enclosure from BlueROV2 Cradle
+
+<img src="/brov2-heavy/cad/heavy-step-2.png" class="img-responsive img-center" style="max-width:800px"  />
+
+Screw the standoffs between the tops of the side panels with four M4x16 screws. Note that these standoffs may be removed once the Payload Skid is mounted to a BlueROV2, but it is recommended to keep them on at all times for structural stability.
+
+## Step 3: Remove Fairings and Buoyancy Block
+
+<img src="/ brov2-heavy /cad/ heavy-step-3.png" class="img-responsive img-center" style="max-width:800px"  />
+
+Place your BlueROV2 on top of the Payload Skid, and use the ROV side mounting holes as guides to attach the mounting clips in the proper orientation, using eight M5x16 screws.
+
