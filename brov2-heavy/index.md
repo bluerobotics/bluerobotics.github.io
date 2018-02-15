@@ -76,7 +76,12 @@ Assemble according to the below steps, and the Heavy Retrofit Kit will allow you
 
 To partially disassemble your BlueROV2, you will need the following tools:
 
--	1 x 3 mm hex key
+- 1 x 2.5 mm hex driver
+- 1x #1 Phillips head screwdriver
+- 1x Wire cutters or scissors
+- 1x Penetrator wrench
+- Optional: 1x Roll of masking tape and marker
+
 
 1.	To ensure your ROV is completely powered off, please remove the battery completely from the 3” enclosure and place to the side.
 
@@ -116,6 +121,17 @@ To partially disassemble your BlueROV2, you will need the following tools:
 
 ## Install New Thrusters
 
+To Install the new thrusters, you will need the following parts and tools:
+
+-	1 x T200 with counter-clockwise propeller
+-	1 x T200 with clockwise propeller
+-	1 x Bag with 8 M3x12 screws
+-	8 x M3x12 screws you had set aside from removing Thrusters 5 and 6
+-	1 x Silicone Grease – 10g Tube
+-	1 x Threadlocker
+-	1 x Penetrator wrench
+-	1 x 2.5 mm hex driver
+
 1.	Install Thrusters 7 and 8 into the respective empty penetrator holes. Tighten to finger tight, then use the provided wrench to tighten them an additional ~1/16 of a turn. If you can’t loosen them with your fingers, they are tight enough.
 
     - Thruster 7 (CW propeller) with red penetrator nut.
@@ -139,15 +155,30 @@ To partially disassemble your BlueROV2, you will need the following tools:
 
 ## Install New Thruster Guards
 
+To install the new thruster guards, you will need the following parts and tools:
+
+-	1 Bag of 12 M4x16mm screws
+-	1 Bag of #4x3/8” Thread forming screws
+-	8 x Heavy Guard Mounting Brackets
+-	2 x Heavy Guards
+-	1x #1 Phillips head screwdriver
+
+
 Install the thruster guards using the M4x16 screws, #4x3/8” screws and aluminum mounting brackets. The thruster guards only install in one direction with the shorter leading edge of the guard oriented towards the front end of the vehicle.
 
 ## Install New Electronics
 
+To install the new electronics, you will need the following parts and tools:
+
+-	2 x Basic ESC
+-	2 x 3 Pole Euro Terminal Block
+-	1 x Small (~2 mm) flat head screw driver
+-	1 x Large (~#2) Phillips head screw driver
 1.	Slide the new 3 pole Euro terminal blocks into their mounting location on top of the 9 pole Euro terminal blocks and one of the poles is between the aluminum standoff.
 
-2.	Connect the motor power wires from the thrusters 7 and 8 to the motor terminal blocks as shown, using your 2.5 or 3 mm flat head screw driver.
+2.	Connect the motor power wires from the thrusters 7 and 8 to the motor terminal blocks as shown, using your 2 mm flat head screw driver.
 
-3.	Connect the motor power wires from the new ESCs to the motor terminal blocks as shown, using your 2.5 or 3 mm flat head screw driver.
+3.	Connect the motor power wires from the new ESCs to the motor terminal blocks as shown, using your 2 mm flat head screw driver.
 
 4.	Plug ESC Signal Wires into Pixhawk with the following steps:
 
@@ -160,7 +191,18 @@ Install the thruster guards using the M4x16 screws, #4x3/8” screws and aluminu
 
 ## Reassemble BlueROV2
 
-1.	Reinstall 4” Watertight Enclosure onto ROV with the following steps
+To reassembly your BlueROV2, you will need the following parts and tools:
+
+-	- 4 x M3x16 screws that were placed off to the side during disassembly
+-	16 x Fairing screws that were placed off to the side during disassembly
+-	4 x Fairings with buoyancy installed that were placed off to the side during disassembly
+-	1 x Silicone Grease – 10g Tube
+-	1 x Threadlocker
+-	1 x 2.5 mm hex driver
+-	1x #1 Phillips head screwdriver
+
+
+1.	Reinstall 4” Watertight Enclosure onto ROV with the following steps:
 
     - Apply silicone grease to the two radial O-rings on the O-Ring Flange (4” Series) that is attached to the Electronics Tray then install the Watertight Enclosure (4” Series) with installed Dome End Cap to the O-Ring Flange (4” Series).
 
@@ -175,6 +217,13 @@ Install the thruster guards using the M4x16 screws, #4x3/8” screws and aluminu
 <img src="/brov2-heavy/cad/heavy-step-3.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Install New Buoyancy Blocks and Fairings
+
+To install the new buoyancy blocks and fairings, you will need the following parts and tools:
+
+-	2 x Heavy additional buoyancy blocks
+-	2 x Heavy fairings
+-	1 x Bag of 4 fairing screws
+-	1x #1 Phillips head screwdriver
 
 1.	Place the new round Heavy buoyancy blocks into the open space where Thrusters 5 and 6 used to be. Ensure the flat sides of the blocks are parallel to the sides of the ROV.
 
