@@ -91,10 +91,10 @@ To partially disassemble your BlueROV2, you will need the following tools:
 
 4.	Optional: In order to ensure thruster mounting is not mixed up, it is recommended to apply short strips of masking tape to the outside of the thruster ducts and labeling them 5,6,7 and 8 respectively according to the thruster diagrams.
 
-  1.	Thruster 5 (CCW propeller) with red penetrator nut.
-  2.	Thruster 6 (CW propeller) with red penetrator nut.
-  3.	Thruster 7 (CW propeller) with red penetrator nut.
-  4.	Thruster 8 (CCW propeller) with red penetrator nut.
+    1.	Thruster 5 (CCW propeller) with red penetrator nut.
+    2.	Thruster 6 (CW propeller) with red penetrator nut.
+    3.	Thruster 7 (CW propeller) with red penetrator nut.
+    4.	Thruster 8 (CCW propeller) with red penetrator nut.
 
 <img src="/brov2-heavy/cad/heavy-step-4-A.png" class="img-responsive img-center" style="max-width:800px"  />
 <img src="/brov2-heavy/cad/heavy-step-4-B.png" class="img-responsive img-center" style="max-width:800px"  />
