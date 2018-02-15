@@ -19,6 +19,7 @@ nav:
 - - Tools: tools
 - - Lights: lights
 - - Leak Sensor: sos-leak-sensor
+- - Desiccant: desiccant
 - What's Not Included: what-you-need-for-operation-that-is-not-included
 - Frame Assembly: assembling-the-frame
 - - Battery Enclosure: mounting-the-battery-enclosure-to-the-bottom-panel
@@ -35,6 +36,7 @@ nav:
 - - Penetrator Signal Wiring: installing-the-signal-wires-from-the-penetrators
 - - Cable Routing: cable-routing
 - Final Assembly: final-assembly
+- - Desiccant: adding-desiccant-to-the-electronics-enclosure
 - - Mounting Electronics Enclosure: mounting-the-electronics-enclosure-onto-the-frame
 - - Mounting Thrusters: mounting-the-thrusters-to-the-frame
 - - Mounting Lights: mounting-the-lights
@@ -80,6 +82,7 @@ The BlueROV2 kit comes almost ready to dive. The assembly can be completed with 
 - Wire cutters or scissors (for cutting zip ties)
 - Medium-strength (blue) threadlocker such as [Loctite 243](https://www.amazon.com/Loctite-1330799-Resistant-thread-locker-6-milliliter/dp/B004L439FE/ref=sr_1_1?ie=UTF8&qid=1466440165&sr=8-1&keywords=loctite+243+thread-locker)
 - Isopropyl alcohol or isopropyl alcohol wipes
+- Vacuum pump such as [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump)
 - 2 mm flat head screw driver
 
 # What's Included
@@ -109,6 +112,7 @@ Quantity      | Part																		| Usage
 4             | M3x16 socket head cap screw (316 stainless steel)  							| Mounting the electronics enclosure to the electronics enclosure cradle
 1			  | Fathom-X Tether Interface Board installed									| Long distance ethernet connection
 1			  | 3DR Pixhawk (installed)														| Autopilot
+1             | I<sup>2</sup>C Splitter with cable											| Allows for up to 4 I<sup>2</sup>C devices
 1			  | Raspberry Pi 3 (installed)													| Companion computer
 1			  | Raspberry Pi Camera 2 (installed)   										| Camera
 1			  | Pixhawk Power Module (installed) 											| Powers the Pixhawk and monitors current and battery voltage
@@ -163,9 +167,9 @@ Quantity      | Part													| Usage
 1			  | #1 Phillips head screwdriver    						| Install the fairing screws 
 1			  | Penetrator Wrench             					        | Install penetrators
 1			  | 1.5 mm hex key											| Thruster dissassembly
-1			  | 2 mm hex key											   	| Change propellers
-1			  | 3 mm hex key												| Install M4 and M5 screws
-1			  | Hand Operated Vacuum Pump 								| Test seals
+1			  | 2 mm hex key											| Change propellers
+1			  | 3 mm hex key									     	| Install M4 and M5 screws
+1			  | MicroSD to SD Adapter 									| 
 
 ## Lights
 
@@ -180,6 +184,25 @@ Quantity      | Part
 1             | SOS Leak Sensor Probe Host Board (installed)
 2             | 6" Probe (installed)
 2             | 12" Probe (installed)
+20            | Replacement SOS Probe Tips
+1 			  | Test Cable
+
+
+## Desiccant (Added to all ROVs ordered after February 14, 2018)
+
+Quantity      | Part
+------------- | ------------------------------------------------------------
+1             | 150 gram container of Moisture Indicating Silica Gel Desiccant
+3			  | Desiccant Bags
+
+## Spares (Added to all ROVs ordered after February 14, 2018)
+
+Quantity      | Part                      | Usage
+------------- | ------------------------- | -----------------
+1             | Cable Penetrator Blank    | Fill the hole for Lumen Penetrator if you aren't using Lumens
+2			  | 013 O-ring                | Extra penetrator O-rings
+1             | Cable Penetrator Nut      | Used with Cable Penetrator Blank if you aren't using Lumens
+
 
 ## What You Need for Operation that is Not Included 
 
@@ -401,7 +424,7 @@ To complete the assembly of the battery enclosure you need the following parts a
 
 ## Optional Preliminary Vacuum Test
 
-This is the best point in the assembly process to perform a vacuum test. Since you have installed all of the penetrators, but have not done any of the wiring, troubleshooting will be as easy as possible. 
+This is the best point in the assembly process to perform a vacuum test. Since you have installed all of the penetrators, but have not done any of the wiring, troubleshooting will be as easy as possible. To prepare for the vacuum test you need to purchase a vacuum pump. We recommend [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump).
 
 1. Install the Watertight Enclosure (4" Series) with installed Dome onto the O-Ring Flange (4" Series) that is attached to the Aluminum End Cap with 14 Holes (4" Series)
 
@@ -506,7 +529,22 @@ To route the cables in the Electronics Enclosure so that they will not snag on t
 
 	<img src="/brov2/cad/zip-tie-port-bw.png" class="img-responsive" style="max-width:900px" />
 
+
 # Final Assembly
+
+## Adding Desiccant to the Electronics Enclosure
+
+If you ordered your BlueROV2 prior to February 14, 2018 you will need to order [Moisture Indicating Silica Gel Desiccant](https://bluerobotics.com/store/tools/desiccant-r1/) in order to complete this step. This step is optional, but it will improve the usability of the BlueROV2, especially if you are planning on operating your ROV in humid environments with cold water.
+
+The desiccant will absorb humidity that is inside of the Electronics Enclosure to prevent the dome from fogging up during dives. It will turn pink as it absorbs humidity.
+
+1. Fill one of the Desiccant Bags with Moisture Indicating Silica Gel Desiccant and close the draw string. Make sure that you close the lid of the Moisture indicating Silica Gel Desiccant after you have filled the bag. It will become saturated in about a day if left open to air. 
+
+<img src="https://bluerobotics.com/wp-content/uploads/2016/12/bag-2-1.png" class="img-responsive" style="max-width:900px" />
+
+2. Install the desiccant bag near the Fathom-X Tether Interface. This step will have to be combined with installing the Watertight Enclosure (4" Series) over the Electronics Tray since the bag will be "floating" inside of the enclosure
+
+[Pictures Coming Soon]
 
 ## Mounting the Electronics Enclosure onto the Frame
 
@@ -517,7 +555,7 @@ To mount the Electronics Enclosure to the frame you need the following parts and
 - 1 x Bag with four M3x16 screws
 - 1 x 2.5 mm hex driver
 
-1. Apply silicone grease to the two radial O-rings on the O-Ring Flange (4" Series) that is attached to the Electronics Tray then install the Watertight Enclosure (4" Series) with installed Dome End Cap to the O-Ring Flange (4" Series).
+1. Apply silicone grease to the two radial O-rings on the O-Ring Flange (4" Series) that is attached to the Electronics Tray then install the Watertight Enclosure (4" Series) with installed Dome End Cap to the O-Ring Flange (4" Series). 
 
 2. Apply one drop of threadlocker to each of the four M3x16 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 
@@ -539,7 +577,7 @@ To mount the thrusters to the frame, you need the following parts and tools:
 
 Note: If you received your BlueROV prior to March 14th, 2017 you will need to install the Counter-Clockwise Propellers. See [the archived instructions](/brov2/assembly-pre201703/#changing-the-propellers) for details.
 
-The horizontal thrusters have two mounting options. One is at a 45° angle to forward, and the other is at a 30° angle to forward. The thrusters mounted at 45° will give you equal thrust in all directions. Mounting the thrusters at 30° will give you 22% more forward thrust in exchange for 22% less thrust in strafing. To mount the thrusters at 45° use the holes shown in the picture below. The hole with the asterisk is the hole that should be closest to the nose cone on the thruster.
+The horizontal thrusters have two mounting options. One is at a 45° angle to forward, and the other is at a 30° angle to forward. The thrusters mounted at 45° will give you equal thrust in all directions. Mounting the thrusters at 30° will give you 25% more forward thrust in exchange for 25% less thrust in strafing. To mount the thrusters at 45° use the holes shown in the picture below. The hole with the asterisk is the hole that should be closest to the nose cone on the thruster.
 
 <img src="/brov2/cad/45deg-thruster-mounting.png" class="img-responsive" style="max-width:900px" />
 
