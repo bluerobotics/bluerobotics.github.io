@@ -188,7 +188,9 @@ Quantity      | Part
 1 			  | Test Cable
 
 
-## Desiccant (Added to all ROVs ordered after February 14, 2018)
+## Desiccant 
+
+(Added to all ROVs ordered after February 14, 2018)
 
 Quantity      | Part
 ------------- | ------------------------------------------------------------
