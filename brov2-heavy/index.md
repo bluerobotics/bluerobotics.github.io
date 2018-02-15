@@ -91,10 +91,10 @@ To partially disassemble your BlueROV2, you will need the following tools:
 
 4.	Optional: In order to ensure thruster mounting is not mixed up, it is recommended to apply short strips of masking tape to the outside of the thruster ducts and labeling them 5,6,7 and 8 respectively according to the thruster diagrams.
 
-1.	Thruster 5 (CCW propeller) with red penetrator nut.
-2.	Thruster 6 (CW propeller) with red penetrator nut.
-3.	Thruster 7 (CW propeller) with red penetrator nut.
-4.	Thruster 8 (CCW propeller) with red penetrator nut.
+  1.	Thruster 5 (CCW propeller) with red penetrator nut.
+  2.	Thruster 6 (CW propeller) with red penetrator nut.
+  3.	Thruster 7 (CW propeller) with red penetrator nut.
+  4.	Thruster 8 (CCW propeller) with red penetrator nut.
 
 <img src="/brov2-heavy/cad/heavy-step-4-A.png" class="img-responsive img-center" style="max-width:800px"  />
 <img src="/brov2-heavy/cad/heavy-step-4-B.png" class="img-responsive img-center" style="max-width:800px"  />
@@ -115,24 +115,25 @@ To partially disassemble your BlueROV2, you will need the following tools:
 8.	Remove the two blank penetrators as pictured from the 4” End Cap with the penetrator wrench that came with the BlueROV2 kit.
 
 ## Install New Thrusters
+
 1.	Install Thrusters 7 and 8 into the respective empty penetrator holes. Tighten to finger tight, then use the provided wrench to tighten them an additional ~1/16 of a turn. If you can’t loosen them with your fingers, they are tight enough.
 
-1.	Thruster 7 (CW propeller) with red penetrator nut.
-2.	Thruster 8 (CCW propeller) with red penetrator nut.
+  1.	Thruster 7 (CW propeller) with red penetrator nut.
+  2.	Thruster 8 (CCW propeller) with red penetrator nut.
 
 2.	Reinstall the 4” Aluminum End Cap with the following steps:
 
-1.	Clean the O-ring and make sure that it is free of any debris or damage.
+  1.	Clean the O-ring and make sure that it is free of any debris or damage.
 
-2.	Clean the O-Ring Flange (4” Series) and make sure that the O-ring groove is free of any debris or damage.
+  2.	Clean the O-Ring Flange (4” Series) and make sure that the O-ring groove is free of any debris or damage.
 
-3.	Apply Silicone grease to the O-ring.
+  3.	Apply Silicone grease to the O-ring.
 
-4.	Install face seal O-ring onto the O-Ring Flange (4” Series).
+  4.	Install face seal O-ring onto the O-Ring Flange (4” Series).
 
-5.	Apply one drop of threadlocker to each of the M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
+  5.	Apply one drop of threadlocker to each of the M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 
-6.	Install Aluminum End Cap with 14 Holes with all Cable Penetrators and Blank Penetrators installed onto the O-Ring Flange (4” Series). Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove. The end cap’s orientation when installed should match the image below. Make sure that the clips are oriented correctly. One should be just right of the Thruster 3 penetrator, and the other should be just left of the Thruster 4 penetrator.
+  6.	Install Aluminum End Cap with 14 Holes with all Cable Penetrators and Blank Penetrators installed onto the O-Ring Flange (4” Series). Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove. The end cap’s orientation when installed should match the image below. Make sure that the clips are oriented correctly. One should be just right of the Thruster 3 penetrator, and the other should be just left of the Thruster 4 penetrator.
 
 3.	Install thrusters 5, 6, 7 and 8, using the M3x12 screws on the outside of the side panels. Tighten the screws so that they indent the frame slightly.
 
