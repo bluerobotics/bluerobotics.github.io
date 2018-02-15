@@ -192,7 +192,7 @@ To install the new electronics, you will need the following parts and tools:
 
 To reassembly your BlueROV2, you will need the following parts and tools:
 
--	- 4 x M3x16 screws that were placed off to the side during disassembly
+-	4 x M3x16 screws that were placed off to the side during disassembly
 -	16 x Fairing screws that were placed off to the side during disassembly
 -	4 x Fairings with buoyancy installed that were placed off to the side during disassembly
 -	1 x Silicone Grease – 10g Tube
