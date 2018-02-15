@@ -118,28 +118,28 @@ To partially disassemble your BlueROV2, you will need the following tools:
 
 1.	Install Thrusters 7 and 8 into the respective empty penetrator holes. Tighten to finger tight, then use the provided wrench to tighten them an additional ~1/16 of a turn. If you can’t loosen them with your fingers, they are tight enough.
 
-  1.	Thruster 7 (CW propeller) with red penetrator nut.
-  2.	Thruster 8 (CCW propeller) with red penetrator nut.
+    - Thruster 7 (CW propeller) with red penetrator nut.
+    - Thruster 8 (CCW propeller) with red penetrator nut.
 
 2.	Reinstall the 4” Aluminum End Cap with the following steps:
 
-  1.	Clean the O-ring and make sure that it is free of any debris or damage.
+    - Clean the O-ring and make sure that it is free of any debris or damage.
 
-  2.	Clean the O-Ring Flange (4” Series) and make sure that the O-ring groove is free of any debris or damage.
+    - Clean the O-Ring Flange (4” Series) and make sure that the O-ring groove is free of any debris or damage.
 
-  3.	Apply Silicone grease to the O-ring.
+    - Apply Silicone grease to the O-ring.
 
-  4.	Install face seal O-ring onto the O-Ring Flange (4” Series).
+    - Install face seal O-ring onto the O-Ring Flange (4” Series).
 
-  5.	Apply one drop of threadlocker to each of the M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
+    - Apply one drop of threadlocker to each of the M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 
-  6.	Install Aluminum End Cap with 14 Holes with all Cable Penetrators and Blank Penetrators installed onto the O-Ring Flange (4” Series). Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove. The end cap’s orientation when installed should match the image below. Make sure that the clips are oriented correctly. One should be just right of the Thruster 3 penetrator, and the other should be just left of the Thruster 4 penetrator.
+    - Install Aluminum End Cap with 14 Holes with all Cable Penetrators and Blank Penetrators installed onto the O-Ring Flange (4” Series). Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove. The end cap’s orientation when installed should match the image below. Make sure that the clips are oriented correctly. One should be just right of the Thruster 3 penetrator, and the other should be just left of the Thruster 4 penetrator.
 
 3.	Install thrusters 5, 6, 7 and 8, using the M3x12 screws on the outside of the side panels. Tighten the screws so that they indent the frame slightly.
 
 ## Install New Thruster Guards
 
-1.	Install the thruster guards using the M4x16 screws, #4x3/8” screws and aluminum mounting brackets. The thruster guards only install in one direction with the shorter leading edge of the guard oriented towards the front end of the vehicle.
+Install the thruster guards using the M4x16 screws, #4x3/8” screws and aluminum mounting brackets. The thruster guards only install in one direction with the shorter leading edge of the guard oriented towards the front end of the vehicle.
 
 ## Install New Electronics
 
@@ -151,10 +151,10 @@ To partially disassemble your BlueROV2, you will need the following tools:
 
 4.	Plug ESC Signal Wires into Pixhawk with the following steps:
 
-1.	Unplug the Lumen light signal wire from the Pixhawk Channel 7 port and replug it into Aux Channel 1 with the yellow wire oriented toward the bottom of the Pixhawk. 
-2.	Unplug the camera tilt servo from Pixhawk Channel 8 and replug it into Aux Channel 2 with the yellow signal wire oriented toward the bottom of the Pixhawk.
-3.	Plug the servo signal wire for Thruster 7 into Channel 7 on the Pixhawk with the white signal wire oriented toward the bottom of the Pixhawk.
-4.	Plug the servo signal wire for Thruster 8 into Channel 8 on the Pixhawk with the white signal wire oriented toward the bottom of the Pixhawk.
+    - Unplug the Lumen light signal wire from the Pixhawk Channel 7 port and replug it into Aux Channel 1 with the yellow wire oriented toward the bottom of the Pixhawk. 
+    - Unplug the camera tilt servo from Pixhawk Channel 8 and replug it into Aux Channel 2 with the yellow signal wire oriented toward the bottom of the Pixhawk.
+    - Plug the servo signal wire for Thruster 7 into Channel 7 on the Pixhawk with the white signal wire oriented toward the bottom of the Pixhawk.
+    - Plug the servo signal wire for Thruster 8 into Channel 8 on the Pixhawk with the white signal wire oriented toward the bottom of the Pixhawk.
 
 5.	Connect the ESC Power Wires into open screw terminals on the respective positive and negative terminal blocks.
 
@@ -162,11 +162,11 @@ To partially disassemble your BlueROV2, you will need the following tools:
 
 1.	Reinstall 4” Watertight Enclosure onto ROV with the following steps
 
-1.	Apply silicone grease to the two radial O-rings on the O-Ring Flange (4” Series) that is attached to the Electronics Tray then install the Watertight Enclosure (4” Series) with installed Dome End Cap to the O-Ring Flange (4” Series).
+    - Apply silicone grease to the two radial O-rings on the O-Ring Flange (4” Series) that is attached to the Electronics Tray then install the Watertight Enclosure (4” Series) with installed Dome End Cap to the O-Ring Flange (4” Series).
 
-2.	Apply one drop of threadlocker to each of the four M3x16 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
+    - Apply one drop of threadlocker to each of the four M3x16 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 
-3.	Mount the Electronics Enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels (the center panels without the 3 large holes). Install the M3x16 screws through the clips and into the Enclosure Cradle (4” Series). It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the Enclosure Cradle (4” Series). This allows to clips to rotate so you can find the threaded hole in the Enclosure Cradle (4” Series) easily.
+    - Mount the Electronics Enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels (the center panels without the 3 large holes). Install the M3x16 screws through the clips and into the Enclosure Cradle (4” Series). It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the Enclosure Cradle (4” Series). This allows to clips to rotate so you can find the threaded hole in the Enclosure Cradle (4” Series) easily.
 
 <img src="/brov2-heavy/cad/heavy-step-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
