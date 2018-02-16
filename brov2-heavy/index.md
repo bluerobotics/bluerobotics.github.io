@@ -111,6 +111,8 @@ To partially disassemble your BlueROV2, you will need the following tools:
 6.	Remove the 4” Electronics enclosure from the ROV by removing the M3x16 screws that mount the enclosure to the ROV cradle.
 <img src="/brov2-heavy/cad/heavy-step-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
+7. remove vent cap and Enclosure cylinder
+
 7.	Remove the Aluminum End Cap with 14 Holes by removing the six M3x12 screws using the M2.5 hex driver. Place the M3x12 screws, clips (small L-shaped parts), and face seal O-ring in a safe place.
 
 <img src="/brov2-heavy/cad/heavy-step-7.png" class="img-responsive img-center" style="max-width:600px"  />
