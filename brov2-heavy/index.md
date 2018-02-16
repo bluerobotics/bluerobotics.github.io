@@ -153,19 +153,6 @@ To Install the new thrusters, you will need the following parts and tools:
 
 3.	Install thrusters 5, 6, 7 and 8, using the M3x12 screws on the outside of the side panels. Tighten the screws so that they indent the frame slightly.
 
-## Install New Thruster Guards
-
-To install the new thruster guards, you will need the following parts and tools:
-
--	1 Bag of 12 M4x16mm screws
--	1 Bag of #4x3/8” Thread forming screws
--	8 x Heavy Guard Mounting Brackets
--	2 x Heavy Guards
--	1x #1 Phillips head screwdriver
-
-
-Install the thruster guards using the M4x16 screws, #4x3/8” screws and aluminum mounting brackets. The thruster guards only install in one direction with the shorter leading edge of the guard oriented towards the front end of the vehicle.
-
 ## Install New Electronics
 
 To install the new electronics, you will need the following parts and tools:
@@ -188,6 +175,19 @@ To install the new electronics, you will need the following parts and tools:
     - Plug the servo signal wire for Thruster 8 into Channel 8 on the Pixhawk with the white signal wire oriented toward the bottom of the Pixhawk.
 
 5.	Connect the ESC Power Wires into open screw terminals on the respective positive and negative terminal blocks.
+
+## Install New Thruster Guards
+
+To install the new thruster guards, you will need the following parts and tools:
+
+-	1 Bag of 12 M4x16mm screws
+-	1 Bag of #4x3/8” Thread forming screws
+-	8 x Heavy Guard Mounting Brackets
+-	2 x Heavy Guards
+-	1x #1 Phillips head screwdriver
+
+
+Install the thruster guards using the M4x16 screws, #4x3/8” screws and aluminum mounting brackets. The thruster guards only install in one direction with the shorter leading edge of the guard oriented towards the front end of the vehicle.
 
 ## Reassemble BlueROV2
 
