@@ -87,14 +87,11 @@ To partially disassemble your BlueROV2, you will need the following tools:
 
 <img src="/brov2-heavy/cad/heavy-disassembly-step-1.png" class="img-responsive img-center" style="max-width:800px"  />
 
-2.	Remove the 4” Electronics enclosure from the ROV by removing the M3x16 screws that mount the enclosure to the ROV cradle.
-<img src="/brov2-heavy/cad/heavy-step-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
-
-3.	Remove the fairings and buoyancy blocks by removing the self-tapping screws that hold the fairings to the frame.
+2.	Remove the fairings and buoyancy blocks by removing the self-tapping screws that hold the fairings to the frame.
 
 <img src="/brov2-heavy/cad/heavy-step-3.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
-4.	Optional: In order to ensure thruster mounting is not mixed up, it is recommended to apply short strips of masking tape to the outside of the thruster ducts and labeling them 5,6,7 and 8 respectively according to the thruster diagrams.
+3.	Optional: In order to ensure thruster mounting is not mixed up, it is recommended to apply short strips of masking tape to the outside of the thruster ducts and labeling them 5,6,7 and 8 respectively according to the thruster diagrams.
 
     - Thruster 5 (CCW propeller) with red penetrator nut.
     - Thruster 6 (CW propeller) with red penetrator nut.
@@ -103,14 +100,16 @@ To partially disassemble your BlueROV2, you will need the following tools:
 
 <img src="/brov2-heavy/cad/heavy-step-4-A.png" class="img-responsive img-center" style="max-width:800px"  /><img src="/brov2-heavy/cad/heavy-step-4-B.png" class="img-responsive img-center" style="max-width:800px"  />
 
-5.	Remove the M3x12 screws holding Thrusters 5 and 6 to the side panels and place the screws to the side. 
+4.	Remove the M3x12 screws holding Thrusters 5 and 6 to the side panels and place the screws to the side. 
 
 <img src="/brov2-heavy/cad/heavy-step-5.png" class="img-responsive img-center" style="max-width:800px"  />
 
-6.	Cut and remove any zipties holding the motor wires for Thrusters 5 and 6 to the frame. 
+5.	Cut and remove any zipties holding the motor wires for Thrusters 5 and 6 to the frame. 
  
 <img src="/brov2-heavy/cad/heavy-step-6.png" class="img-responsive img-center" style="max-width:800px"  />
 
+6.	Remove the 4” Electronics enclosure from the ROV by removing the M3x16 screws that mount the enclosure to the ROV cradle.
+<img src="/brov2-heavy/cad/heavy-step-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
 7.	Remove the Aluminum End Cap with 14 Holes by removing the six M3x12 screws using the M2.5 hex driver. Place the M3x12 screws, clips (small L-shaped parts), and face seal O-ring in a safe place.
 
