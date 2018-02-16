@@ -10,8 +10,10 @@ nav:
 - - Quick Start: quick-start
 - - Modes of Operation: modes-of-operation
 - - Powering Thruster Commander: powering-thruster-commander
+- - Connecting the Battery and ESCs: connecting-the-battery-and-escs
 - - Mounting Thruster Commander: mounting-thruster-commander
 - - Enabling Output/Deadman Switch: deadman-switchenabling-output
+- - Modifying or Replacing Potentiometers: modifying-or-replacing-potentiometers
 - Operation: operation
 - - ESC Initialization: esc-initialization
 - - Controlling Motors: controlling-motors
@@ -104,6 +106,28 @@ Note that not all ESCs with such three-wire PWM input cables have built-in BECs.
 
 If none of your ESCs have BECs, you will need to supply either 7-28 VDC power via the POWER connector or 5 VDC regulated power from an external regulator/BEC.  Our Basic ESCs do not have built-in BECs and are not able to power the _Thruster Commander_; they will require the use of the 7-28 VDC power input.
 
+## Connecting the Battery and ESCs
+
+A 6-pole barrier block and jumpers are provided for connecting power between the _Thruster Commander_, ESCs, and the provided XT90 connector/your power source of choice.  The six poles of the barrier block can be connected as shown into two sets of three with the provided jumpers; one set for power (red) and one for ground (black).
+
+<table class="img-center">
+    <tr>
+        <td style="vertical-align:middle">
+            <img src="CMDR-Barrier-Block-Wiring.png"
+                class="img-responsive img-center" style="max-width:400px"/>
+        </td>
+        <td style="vertical-align:middle">
+            <img src="CMDR-WIRING.JPG"
+                class="img-responsive img-center" style="max-width:300px"/>
+        </td>
+    </tr>
+</table>
+
+The spade connectors from the XT90 connector/power source can be connected beneath two of the jumpers (the spade connectors are too wide to fit on top); this helps to limit the distance the current to the ESCs must flow through the jumpers and barrier blocks.  The _Thruster Commander_ power cable and ESCs can then be connected along the other side of the barrier block.  Note that the _Thruster Commander_ power cable should be omitted if the _Commander_ is being powered via a BEC ([see above](#powering-thruster-commander)).
+
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
+The _Thruster Commander_, ESCs, and batteries do not contain reverse-polarity or short-circuit protections.  Double-check your wiring before applying power for the first time.
+
 ## Mounting _Thruster Commander_
 
 Two M3x0.5 holes spaced 31.75 mm (1.25") apart on the back of each _Thruster Commander_ provide a solid way to mount it on your project.  Alternatively the _Thruster Commander_ can be mounted with double-sided tape.  However you mount the _Thruster Commander_, make sure it is in a location where it will stay dry, because the _Thruster Commander_ and its accessories are **not waterproof**.
@@ -118,6 +142,12 @@ A deadman switch can be added by replacing this jumper with any normally-open (N
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 If you are using the _Thruster Commander_ on a vehicle, we highly recommend that you install a deadman switch to prevent it from running off without you.
+
+## Modifying or Replacing Potentiometers
+
+The potentiometers included with the _Thruster Commander_ are standard 10 k&Omega; potentiometers with center detents.  These can be replaced with any potentiometers with a resistance of 10 k&Omega; or less.  We recommend those with center detents to make it easier to set the motors to neutral.  To fit the knobs, replacement potentiometers should have 6 mm diameter shafts with flats for a set screw.
+
+Should different-length cables for the potentiometers be necessary, the wires may be lengthened or shortened as desired.  However they should not be run directly alongside wires carrying power for motors, as they may interfere with the potentiometers' analog outputs (i.e. sharing a tether).
 
 # Operation
 
