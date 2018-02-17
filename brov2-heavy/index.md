@@ -191,7 +191,7 @@ Install the thruster guards using the M4x16 screws, #4x3/8” screws and aluminu
 
 ## Reassemble BlueROV2
 
-To reassembly your BlueROV2, you will need the following parts and tools:
+To reassemble your BlueROV2, you will need the following parts and tools:
 
 -	4 x M3x16 screws that were placed off to the side during disassembly
 -	16 x Fairing screws that were placed off to the side during disassembly
@@ -212,9 +212,11 @@ To reassembly your BlueROV2, you will need the following parts and tools:
 
 <img src="/brov2-heavy/cad/heavy-step-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
-2.	 Reinstall Original Fairing Blocks onto ROV by installing the screws through the center panels and into the fairings.
+## Cable Management
 
-<img src="/brov2-heavy/cad/heavy-step-3.PNG" class="img-responsive img-center" style="max-width:800px"  />
+To clean up the thruster and lumen wires, you will need the bag of 30 zip ties and your scissors/wire cutters.
+
+The primary goal of Thruster and Lumen cable management is to prevent the wires from getting cut by the propellers. Make sure to check that no wire can reach a propeller after you have finished routing the cables. Below are some examples of what the cable routing should look like.
 
 ## Install New Buoyancy Blocks and Fairings
 
@@ -225,14 +227,14 @@ To install the new buoyancy blocks and fairings, you will need the following par
 -	1 x Bag of 4 fairing screws
 -	1x #1 Phillips head screwdriver
 
-1.	Place the new round Heavy buoyancy blocks into the open space where Thrusters 5 and 6 used to be. Ensure the flat sides of the blocks are parallel to the sides of the ROV.
+1.	 Reinstall Original Fairing Blocks onto ROV by installing the screws through the center panels and into the fairings.
 
-2.	Place the new plastic Heavy fairings on top of the buoyancy blocks and secure them to the old fairing blocks using the included self-tapping fairing screws.
+<img src="/brov2-heavy/cad/heavy-step-3.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
-## Cable Management
+2.	Place the new round Heavy buoyancy blocks into the open space where Thrusters 5 and 6 used to be. Ensure the flat sides of the blocks are parallel to the sides of the ROV.
 
-To clean up the thruster and lumen wires, you will need the bag of 30 zip ties and your scissors/wire cutters.
+3.	Place the new plastic Heavy fairings on top of the buoyancy blocks and secure them to the old fairing blocks using the included self-tapping fairing screws.
 
-The primary goal of Thruster and Lumen cable management is to prevent the wires from getting cut by the propellers. Make sure to check that no wire can reach a propeller after you have finished routing the cables. Below are some examples of what the cable routing should look like.
+
 
 # Software Setup
