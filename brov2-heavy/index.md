@@ -245,8 +245,9 @@ To install the new buoyancy blocks and fairings, you will need the following par
 
 To mount the ballast to the frame you need the following parts and tools:
 
-- 7 x 200g ballast weights
-- 7 x 8-16 Thread, 5/8” Long, Thread-Forming Screw
+- 7 x 200g ballast weights (from original BlueROV2 Kit)
+- 3 x 200g ballast weights (from Heavy Retrofit Kit)
+- 10 x 8-16 Thread, 5/8” Long, Thread-Forming Screw
 - 1 x #2 phillips head screwdriver
 
 To get the longest battery life and the best driving experience, it is important to have the ROV close to balanced from front to back in water and close to neutrally buoyant. The Heavy Retrofit kit adds a bit of weight and more buoyancy to the ROV, so it will need to be retrimmed based on your operating conditions. Trimming the ballast may involve a bit of trial and error. The pictures below should provide a good starting point for mounting additonal ballast.
