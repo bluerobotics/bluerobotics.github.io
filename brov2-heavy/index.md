@@ -16,7 +16,8 @@ nav:
 - - Install New Electronics: install-new-electronics
 - - Reassemble BlueROV2: reassemble-bluerov2
 - - Install New Buoyancy Blocks and Fairings: new-buoyancy
-- - Cable Management: cable management
+- - Cable Management: cable-management
+- - Mounting Additonal Ballast to the Frame: add-ballast
 - Software Setup: software-setup
 
 store-links:
@@ -69,7 +70,6 @@ All 3D models are provided in zip archives containing the follow file types:
 
 Assemble according to the below steps, and the Heavy Retrofit Kit will allow you to have full six degree-of-freedom control, active roll and pitch stability, and additional lifting capability.
 
-
 # Assembly and Installation
 
 ## BlueROV2 Partial Disassembly
@@ -81,7 +81,6 @@ To partially disassemble your BlueROV2, you will need the following tools:
 - 1x Wire cutters or scissors
 - 1x Penetrator wrench
 - Optional: 1x Roll of masking tape and marker
-
 
 1.	To ensure your ROV is completely powered off, please remove the battery completely from the 3” enclosure and place to the side.
 
@@ -111,13 +110,13 @@ To partially disassemble your BlueROV2, you will need the following tools:
 6.	Remove the 4” Electronics enclosure from the ROV by removing the M3x16 screws that mount the enclosure to the ROV cradle.
 <img src="/brov2-heavy/cad/heavy-step-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
-7. remove vent cap and Enclosure cylinder
+8.  Remove the Vent Plug from the Vent Penetrator Bolt on the electronics enclosure.
 
-7.	Remove the Aluminum End Cap with 14 Holes by removing the six M3x12 screws using the M2.5 hex driver. Place the M3x12 screws, clips (small L-shaped parts), and face seal O-ring in a safe place.
+9.	Remove the Aluminum End Cap with 14 Holes by removing the six M3x12 screws using the M2.5 hex driver. Place the M3x12 screws, clips (small L-shaped parts), and face seal O-ring in a safe place.
 
 <img src="/brov2-heavy/cad/heavy-step-7.png" class="img-responsive img-center" style="max-width:600px"  />
 
-8.	Remove the two blank penetrators as pictured from the 4” End Cap with the penetrator wrench that came with the BlueROV2 kit.
+10.	Remove the two blank penetrators as pictured from the 4” End Cap with the penetrator wrench that came with the BlueROV2 kit.
 
 ## Install New Thrusters
 
@@ -184,23 +183,27 @@ To install the new thruster guards, you will need the following parts and tools:
 -	1 Bag of #4x3/8” Thread forming screws
 -	8 x Heavy Guard Mounting Brackets
 -	2 x Heavy Guards
+-	1 x Threadlocker
 -	1x #1 Phillips head screwdriver
 
+1. Apply one drop of threadlocker to each of the M4x16mm screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 
-Install the thruster guards using the M4x16 screws, #4x3/8” screws and aluminum mounting brackets. The thruster guards only install in one direction with the shorter leading edge of the guard oriented towards the front end of the vehicle.
+2. Install 4 of the thruster guard mounting brackets on the outside of the frame using 4 M4x16 screws as shown below.
+
+3. Place the new thruster guards on the brackets you had previously installed and make sure the holes align. The thruster guards only install in one direction with the shorter leading edge of the guard oriented towards the front end of the vehicle. Secure the guards to the brackets using 4 M4x16 screws.
+
+4. Install four more thruster guard mounting brackets (two on each side) in the holes near the middle of the ROV using one M4x16 screw and one #4x3/8” thread forming screw per bracket.
+
+4. Tighten all the screws evenly until they are tight enough to properly secure the thruster guard to the frame and there is no excess freedom of movement.
 
 ## Reassemble BlueROV2
 
 To reassemble your BlueROV2, you will need the following parts and tools:
 
 -	4 x M3x16 screws that were placed off to the side during disassembly
--	16 x Fairing screws that were placed off to the side during disassembly
--	4 x Fairings with buoyancy installed that were placed off to the side during disassembly
 -	1 x Silicone Grease – 10g Tube
 -	1 x Threadlocker
 -	1 x 2.5 mm hex driver
--	1x #1 Phillips head screwdriver
-
 
 1.	Reinstall 4” Watertight Enclosure onto ROV with the following steps:
 
@@ -222,10 +225,13 @@ The primary goal of Thruster and Lumen cable management is to prevent the wires 
 
 To install the new buoyancy blocks and fairings, you will need the following parts and tools:
 
+-	16 x Fairing screws that were placed off to the side during disassembly
+-	4 x Fairings with buoyancy installed that were placed off to the side during disassembly
 -	2 x Heavy additional buoyancy blocks
 -	2 x Heavy fairings
 -	1 x Bag of 4 fairing screws
 -	1x #1 Phillips head screwdriver
+-   1x #2 Phillips head screwdriver
 
 1.	 Reinstall Original Fairing Blocks onto ROV by installing the screws through the center panels and into the fairings.
 
@@ -235,6 +241,14 @@ To install the new buoyancy blocks and fairings, you will need the following par
 
 3.	Place the new plastic Heavy fairings on top of the buoyancy blocks and secure them to the old fairing blocks using the included self-tapping fairing screws.
 
+## Mounting Additonal Ballast to the Frame
 
+To mount the ballast to the frame you need the following parts and tools:
+
+- 7 x 200g ballast weights
+- 7 x 8-16 Thread, 5/8” Long, Thread-Forming Screw
+- 1 x #2 phillips head screwdriver
+
+To get the longest battery life and the best driving experience, it is important to have the ROV close to balanced from front to back in water and close to neutrally buoyant. The Heavy Retrofit kit adds a bit of weight and more buoyancy to the ROV, so it will need to be retrimmed based on your operating conditions. Trimming the ballast may involve a bit of trial and error. The pictures below should provide a good starting point for mounting additonal ballast.
 
 # Software Setup
