@@ -39,10 +39,10 @@ The <em>BlueROV2 Heavy Retrofit Kit</em> is a modular frame extension for the Bl
 
 |  **Physical**  |
 | ------------- | --------- |
-| Length | xxx mm | xx in |
-| Width | xxx mm | xx in |
-| Height | xxx mm | xx in |
-| Weight (in air) | xxxxg | xx lbs |
+| Length | 457 mm | 18 in |
+| Width | 571 mm | 22.5 in |
+| Height | 254 mm | 10 in |
+| Weight (in air with ballast) | 11.5kg | 26 lbs |
 |----------------------|
 
 
