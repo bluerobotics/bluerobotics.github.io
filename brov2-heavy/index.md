@@ -19,6 +19,9 @@ nav:
 - - Cable Management: cable-management
 - - Mounting Additonal Ballast to the Frame: add-ballast
 - Software Setup: software-setup
+- - Load New Parameters: load-new-parameters
+- - Configure Motor Directions: configure-motor-direcitons
+- - Roll and Pitch Input: roll-and-pitch-input
 
 store-links:
 - Heavy Retrofit Kit: https://www.bluerobotics.com/store/rov/brov2-heavy-kit/
@@ -253,3 +256,45 @@ To mount the ballast to the frame you need the following parts and tools:
 To get the longest battery life and the best driving experience, it is important to have the ROV close to balanced from front to back in water and close to neutrally buoyant. The Heavy Retrofit kit adds a bit of weight and more buoyancy to the ROV, so it will need to be retrimmed based on your operating conditions. Trimming the ballast may involve a bit of trial and error. The pictures below should provide a good starting point for mounting additonal ballast.
 
 # Software Setup
+
+Finally, before operating your ROV, we need to update the software configuration. Begin by powering on your ROV, connect it to your computer, and open QGroundControl.
+
+## Load new parameters
+
+- Download [this]() parameter file
+- Go to the _Parameters_ tab of the _Vehicle Setup_ menu (click the gears icon)
+- Click the _Tools_ menu in the upper right hand corner
+- Click 'Load parameters from file', and select the parameter file downloaded in the first step, then click 'Ok'
+
+<img src="/brov2-heavy/cad/parameter-setup.png" class="img-responsive img-center" style="max-width:800px"  />
+
+## Configure motor directions
+
+The motor directions for the BlueROV2 must be tested prior to use. 
+
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>Be sure to keep all body parts and clothing clear of thrusters while the BlueROV2 is armed.
+
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>**Do not** run thrusters for longer than 30 seconds in air.
+
+1. Set the flight mode to "Manual".
+
+2. Arm the BlueROV2 by pressing "Start".
+
+4. Move the right-hand joystick forwards and verify that the thrusters are running the correct way. Air should be blowing out of the vertical thrusters towards the bottom of the vehicle. If one of the thrusters is blowing air towards the top, go to _Settings_ in QGroundControl, then go to _Parameters_ and select _MOT_. Select the motor that is blowing air towards the top and switch the motor direction using the dropdown on the right.
+
+	<img src="/brov2/cad/configure-motor-directions-annotated.png" class="img-responsive img-center" style="max-width:800px" />
+
+## Roll and pitch input
+
+There are currently two methods available for roll and pitch input.
+
+- Using the joystick button functions for _trim_roll_ and _trim_pitch_
+
+	Push the buttons once, or hold them down to adjust the roll and pitch angle of the vehicle
+	
+- Using the joystick button function _roll_pitch_toggle_
+
+	Push the button to toggle the function of one joystick between controlling forward/lateral input and controlling roll/pitch input
+	
+These functions can be assigned to buttons on the joystick in the _Joystick_ tab of the _Vehicle Setup_ menu. The roll and pitch inputs are cleared when switching to MANUAL mode. They are NOT cleared when disarmed.
+
