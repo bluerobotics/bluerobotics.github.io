@@ -5,7 +5,6 @@ permalink: /brov2/assembly/
 order: 1
 topnavbar: brov2
 nav:
-- Archived Instructions: archived-assembly-instructions
 - Introduction: assembly-intro
 - - Safety: safety
 - Required Tools: required-tools-not-included
@@ -62,15 +61,9 @@ manual-links:
 
 <img src="/brov2/cad/BlueROV2-Black-Sands-1.png" class="img-responsive img-center" style="max-width:800px" />
 
-# Archived Assembly Instructions
-
-These are the most recent assembly instructions. Depending on the age of your kit, you may wish to refer to an older version:
-
-- [Assembly Instructions for Kits Shipped Prior to March 2017](/brov2/assembly-pre201703/)
-
 # Assembly Intro
 
-The BlueROV2 kit comes almost ready to dive. The assembly can be completed with basic hand tools; no soldering or potting is required. We have included a couple of the tools to make assembly and regular use as easy as possible.
+The BlueROV2 kit comes almost ready to dive. This document includes instruction for integrating the Heavy Add-On Kit to your initial build. The assembly can be completed with basic hand tools; no soldering or potting is required. We have included a couple of the tools to make assembly and regular use as easy as possible.
 
 ## Safety 
 
@@ -225,6 +218,7 @@ Quantity      | Part                      | Usage
 4             | Fairing Screws (T200 Nozzle Screws)          | Attaching new Heavy Fairings to Original Fairings
 30            | 5.5" Zip Ties       | Cable Management
 3             | Ballast Weight (200g, 7 oz)      | 
+3             | 8-16 thread, 5/8" long, thread-forming screw                | Mounting the ballast to the frame 
 
 
 ## What You Need for Operation that is Not Included 
@@ -351,6 +345,8 @@ The endcap will need to be removed from the electronics enclosure in order to in
 2. Remove the Aluminum End Cap with 14 Holes by removing the six M3x12 screws using the M2.5 hex driver. Place the M3x12 screws, clips (small L-shaped parts), and face seal O-ring in a safe place. 
 
 	<img src="/brov2/cad/electronics-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
+	
+3.	Remove the two blank penetrators as pictured from the 4” End Cap with the penetrator wrench that came with the BlueROV2 kit.
 
 ## Installing the Penetrators
 
@@ -358,22 +354,22 @@ To install the Penetrators you will need the following parts and tools:
 
 - 1 x Bag with one Cable Penetrator Nut (black), eight Cable Penetrator Nut (red), and nine O-rings
 - 1 x Silicone Grease - 10g Tube
-- 1 x Aluminum End Cap with 14 Holes w/ 3 Cable Penetrator Blanks, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable installed
-- 3 x T200 with counter-clockwise thrusters 
-- 3 x T200 with clockwise thrusters 
+- 1 x Aluminum End Cap with 14 Holes w/ 1 Cable Penetrator Blanks, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable installed
+- 4 x T200 with counter-clockwise thrusters 
+- 4 x T200 with clockwise thrusters 
 - 1 x Set of Lumen lights (optional)
 - 1 x Fathom ROV Tether
 - 1 x Penetrator Wrench
 
-The Aluminum End Cap with 14 Holes comes with 3 Cable Penetrator Blanks, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable installed.
+The Aluminum End Cap with 14 Holes comes with 1 Cable Penetrator Blanks, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable installed.
 
-<img src="/brov2/cad/end-cap-as-shipped.png" class="img-responsive" style="max-width:900px" />
+<img src="/brov2-heavy/cad/end-cap-as-modified.png" class="img-responsive" style="max-width:900px" />
 
 If you install the remaining penetrators as shown in the diagram below, it will keep everything neat and organized.
 
-<img src="/brov2/cad/end-cap-final.png" class="img-responsive" style="max-width:900px" />
+<img src="/brov2-heavy/cad/end-cap-final.png" class="img-responsive" style="max-width:900px" />
 	
-1. Remove eight of the O-rings and apply silicone grease to them. Keep the other O-ring in the bag, you will need it in a minute.
+1. Remove ten of the O-rings and apply silicone grease to them. Keep the other O-ring in the bag, you will need it in a minute.
 
 	<img src="/brov2/cad/grease-o-ring.png" class="img-responsive" style="max-width:900px" />
 
@@ -383,14 +379,16 @@ If you install the remaining penetrators as shown in the diagram below, it will 
 
 4. Install the penetrators to the end cap in the order shown below. Tighten to finger tight, then use the provided wrench to tighten them an additional ~1/16 of a turn. If you can't loosen them with your fingers, they are tight enough. 
 
-	1. Thruster 1 (CCW propeller) with red penetrator nut
-	2. Thruster 5 (CCW propeller) with red penetrator nut
-	3. Thruster 3 (CW propeller) with red penetrator nut
-	4. Lumen with red penetrator nut
-	5. Thruster 4 (CW propeller) with red penetrator nut
-	6. Thruster 6 (CW propeller) with red penetrator nut
-	7. Thruster 2 (CCW propeller) with red penetrator nut
-	8. Tether with black penetrator nut
+	1. Thruster 7 (CW propeller) with red penetrator nut.
+	2. Thruster 8 (CCW propeller) with red penetrator nut.
+	3. Thruster 1 (CCW propeller) with red penetrator nut
+	4. Thruster 5 (CCW propeller) with red penetrator nut
+	5. Thruster 3 (CW propeller) with red penetrator nut
+ 	6. Lumen with red penetrator nut
+	7. Thruster 4 (CW propeller) with red penetrator nut
+	8. Thruster 6 (CW propeller) with red penetrator nut
+	9. Thruster 2 (CCW propeller) with red penetrator nut
+	10. Tether with black penetrator nut
 
 ## Installing the End Cap
 
@@ -531,11 +529,24 @@ To install the wires from the penetrators you will need the following parts and 
 
 	<img src="/brov2/cad/sboard-side-motor-power-wiring.png" class="img-responsive" style="max-width:900px" />	
 	
-4. Connect the tether wires to the Fathom-X Tether Interface Board. The other 6 wires can do not need to be connected to anything the operate the ROV. They are for future expansion.
+4.	Slide the new 3 pole Euro terminal blocks into their mounting location on top of the 9 pole Euro terminal blocks and one of the poles is between the aluminum standoff.
+
+5.	Connect the motor power wires from the thrusters 7 and 8 to the motor terminal blocks as shown, using your 2 mm flat head screw driver.
+
+6.	Connect the motor power wires from the new ESCs to the motor terminal blocks as shown, using your 2 mm flat head screw driver.
+
+7.	Plug ESC Signal Wires into Pixhawk with the following steps:
+
+    - Unplug the Lumen light signal wire from the Pixhawk Channel 7 port and replug it into Aux Channel 1 with the yellow wire oriented toward the bottom of the Pixhawk. 
+    - Unplug the camera tilt servo from Pixhawk Channel 8 and replug it into Aux Channel 2 with the yellow signal wire oriented toward the bottom of the Pixhawk.
+    - Plug the servo signal wire for Thruster 7 into Channel 7 on the Pixhawk with the white signal wire oriented toward the bottom of the Pixhawk.
+    - Plug the servo signal wire for Thruster 8 into Channel 8 on the Pixhawk with the white signal wire oriented toward the bottom of the Pixhawk.
+
+8.	Connect the ESC Power Wires into open screw terminals on the respective positive and negative terminal blocks.
+	
+9. Connect the tether wires to the Fathom-X Tether Interface Board. The other 6 wires can do not need to be connected to anything the operate the ROV. They are for future expansion.
 
 	<img src="/brov2/cad/tether-signal-in-bw.png" class="img-responsive" style="max-width:900px" />
-
-If you received your BlueROV2 prior to March 14th, 2017 you will need to [install the SOS Leak sensor using the archived instructions.](/brov2/assembly-pre201703/#installing-the-sos-leak-sensor)
 
 ## Cable Routing
 
@@ -588,8 +599,6 @@ To mount the Electronics Enclosure to the frame you need the following parts and
 
 ## Mounting the Thrusters to the Frame
 
-If you ordered your BlueROV2 prior to September 13, 2017, see the [archived thruster mounting instructions here](/brov2/assembly-pre201703/#mounting-the-thrusters-to-the-frame). Once you have mounted the thrusters, please return to these instructions to continue with [mounting the lights](/brov2/assembly/#mounting-the-lights).
-
 To mount the thrusters to the frame, you need the following parts and tools:
 
 - 1 x 2.5 mm hex driver
@@ -597,8 +606,6 @@ To mount the thrusters to the frame, you need the following parts and tools:
 - 3 x T200 Thruster with Counter-Clockwise Propeller installed
 - 1 x Bag with 16 M3x16 screws and 8 M3x12 screws in smaller bag
 - 1 x Assembled ROV frame
-
-Note: If you received your BlueROV prior to March 14th, 2017 you will need to install the Counter-Clockwise Propellers. See [the archived instructions](/brov2/assembly-pre201703/#changing-the-propellers) for details.
 
 The horizontal thrusters have two mounting options. One is at a 45° angle to forward, and the other is at a 30° angle to forward. The thrusters mounted at 45° will give you equal thrust in all directions. Mounting the thrusters at 30° will give you 25% more forward thrust in exchange for 25% less thrust in strafing. To mount the thrusters at 45° use the holes shown in the picture below. The hole with the asterisk is the hole that should be closest to the nose cone on the thruster.
 
@@ -615,16 +622,37 @@ For the sake of clarity, the hole with the asterisk on the thruster shown below 
 Here is a diagram of where the thrusters go, and how they should be oriented. The green thrusters should have counter-clockwise propellers and blue thrusters should have clockwise propellers. The order of installation matters here. You cannot get the front thrusters on if the rear ones were installed first.
 
 <p align="center">
-<img src="http://ardusub.com/images/vectored-frame.png" class="img-responsive" style="max-width:900px" />
+<img src="https://www.ardusub.com/images/vectored6dof-frame.png" class="img-responsive" style="max-width:900px" />
 </p>
 
 1. Apply one drop of threadlocker to the 16 M3x16 screws and the 8 M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 
 1. Install thrusters 1 and 2 underneath the front center panels, using the M3x16 screws. Tighten the screws so that they indent the frame slightly. It is physically possible to keep turning the screw at this point, but it isn't recommended.
 	
-2. Install thrusters 5 and 6, using the M3x12 screws on the side panels. Tighten the screws so that they indent the frame slightly.
+3.	Install thrusters 5, 6, 7 and 8, using the M3x12 screws on the outside of the side panels. Tighten the screws so that they indent the frame slightly.
 
 3. Install thrusters 3 and 4 underneath the rear center panels, using the M3x16 screws. Tighten the screws so that they indent the frame slightly.
+
+## Install New Thruster Guards
+
+To install the new thruster guards, you will need the following parts and tools:
+
+-	1 Bag of 12 M4x16mm screws
+-	1 Bag of #4x3/8” Thread forming screws
+-	8 x Heavy Guard Mounting Brackets
+-	2 x Heavy Guards
+-	1 x Threadlocker
+-	1x #1 Phillips head screwdriver
+
+1. Apply one drop of threadlocker to each of the M4x16mm screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
+
+2. Install 4 of the thruster guard mounting brackets on the outside of the frame using 4 M4x16 screws as shown below.
+
+3. Place the new thruster guards on the brackets you had previously installed and make sure the holes align. The thruster guards only install in one direction with the shorter leading edge of the guard oriented towards the front end of the vehicle. Secure the guards to the brackets using 4 M4x16 screws.
+
+4. Install four more thruster guard mounting brackets (two on each side) in the holes near the middle of the ROV using one M4x16 screw and one #4x3/8” thread forming screw per bracket.
+
+4. Tighten all the screws evenly until they are tight enough to properly secure the thruster guard to the frame and there is no excess freedom of movement.
 
 ## Mounting the Lights
 
@@ -681,6 +709,9 @@ The buoyancy comes preinstalled in the fairings, but make sure it is still in al
 
 - 4 x Fairings with buoyancy installed 
 - 1 x Bag with 16 self tapping screws 
+- 2 x Heavy additional buoyancy blocks
+- 2 x Heavy fairings
+- 1 x Bag of 4 fairing screws
 - 1 x \#1 Phillips head screwdriver 
 
 1. Remove the Lumens from their mount. You only need to remove the lower two Lumens from their mount if you have four.
@@ -691,7 +722,11 @@ The buoyancy comes preinstalled in the fairings, but make sure it is still in al
 	
 	<img src="/brov2/cad/fairing-install-cad.PNG" class="img-responsive" style="max-width:900px" />
 	
-3. Reinstall the Lumens.
+3.	Place the new round Heavy buoyancy blocks into the open space where Thrusters 5 and 6 used to be. Ensure the flat sides of the blocks are parallel to the sides of the ROV.
+
+4.	Place the new plastic Heavy fairings on top of the buoyancy blocks and secure them to the old fairing blocks using the included self-tapping fairing screws.
+	
+5. Reinstall the Lumens.
 
 	<img src="/brov2/cad/BlueROV2-front-angle.png" class="img-responsive" style="max-width:900px" />
 
@@ -699,11 +734,11 @@ The buoyancy comes preinstalled in the fairings, but make sure it is still in al
 
 To mount the ballast to the frame you need the following parts and tools:
 
-- 7 x 200g ballast weights
-- 7 x 8-16 Thread, 5/8" Long, Thread-Forming Screw   
-- 1 x \#2 phillips head screwdriver
+- 10 x 200g ballast weights
+- 10 x 8-16 Thread, 5/8" Long, Thread-Forming Screw   
+- 1 x \#2 Phillips head screwdriver
 
-To get the longest battery life and the best driving experience, it is important to have the ROV close to balanced from front to back in water and close to neutrally buoyant. Trimming the ballast may involve a bit of trial and error. The pictures below should provide a good starting point for mounting ballast if you have a stock BlueROV2 with the [recommended battery.](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
+To get the longest battery life and the best driving experience, it is important to have the ROV close to balanced from front to back in water and close to neutrally buoyant. Trimming the ballast may involve a bit of trial and error. The pictures below should provide a good starting point for mounting ballast if you have a stock BlueROV2 with the [recommended battery.](https://bluerobotics.com/store/rov/bluerov2/battery-li-4s-18ah-r1/)
 
 <b> <font size="4"> BlueROV2 with 2 <i> Lumen </i> Lights </font> </b> 
 <p align="center">
