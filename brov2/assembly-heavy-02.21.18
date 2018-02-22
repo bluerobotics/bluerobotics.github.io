@@ -39,6 +39,7 @@ nav:
 - - Desiccant: adding-desiccant-to-the-electronics-enclosure
 - - Mounting Electronics Enclosure: mounting-the-electronics-enclosure-onto-the-frame
 - - Mounting Thrusters: mounting-the-thrusters-to-the-frame
+- - Install New Thruster Guards: thruster-guards
 - - Mounting Lights: mounting-the-lights
 - - Mounting the Tether: mounting-the-tether-to-the-frame
 - - External Cable Management: thruster-and-lumen-cable-management
@@ -200,7 +201,7 @@ Quantity      | Part                      | Usage
 2			  | 013 O-ring                | Extra penetrator O-rings
 1             | Cable Penetrator Nut      | Used with Cable Penetrator Blank if you aren't using Lumens
 
-## Heavy Variant Add-on Kit
+## Heavy Variant Add-On Kit
 
 Quantity      | Part                      | Usage
 ------------- | ------------------------- | -----------------
