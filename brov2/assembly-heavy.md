@@ -139,7 +139,7 @@ Quantity      | Part													| Usage
 
 ## Fairings
 
-Quantity      | Part																	|
+Quantity      | Part															
 ------------- | ------------------------------------------------------------------------| ---------------------
 4             | BlueROV2 Fairings (blue polycarbonate)               					|
 4             | Subsea Buoyancy Foam (R-3318 urethane foam)                        		|
