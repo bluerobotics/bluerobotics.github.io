@@ -9,14 +9,14 @@ nav:
 - - 2D Drawings: 2d-drawings
 - - 3D Model: 3d-model
 - Assembly and Installation: assembly-and-installation
-- - BlueROV2 Partial Disassembly: bluerov2-partial-disassembly
+- - Partial Disassembly: bluerov2-partial-disassembly
 - - Install New Thrusters: install-new-thrusters
 - - Install New Thruster Guards: install-new-thruster-guards
 - - Install New Electronics: install-new-electronics
 - - Reassemble BlueROV2: reassemble-bluerov2
-- - Install New Buoyancy Blocks and Fairings: new-buoyancy
+- - Install New Buoyancy Blocks: new-buoyancy
 - - Cable Management: cable-management
-- - Mounting Additonal Ballast to the Frame: add-ballast
+- - Mounting Additonal Ballast: add-ballast
 - Software Setup: software-setup
 - - Load New Parameters: load-new-parameters
 - - Configure Motor Directions: configure-motor-direcitons
