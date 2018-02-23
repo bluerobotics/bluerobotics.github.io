@@ -89,7 +89,7 @@ To partially disassemble your BlueROV2, you will need the following tools:
     - Thruster 6 (CW propeller) with red penetrator nut.
     - Thruster 7 (CW propeller) with red penetrator nut.
     - Thruster 8 (CCW propeller) with red penetrator nut.    
-<img src="/brov2-heavy/cad/frame-numberings.jpg" class="img-responsive img-center" style="max-width:800px"  /><img src="/brov2-heavy/cad/heavy-step-4-B.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/frame-numberings.jpg" class="img-responsive img-center" style="max-width:800px"  />
 <img src="/brov2-heavy/cad/heavy-tutorial-2.jpg" class="img-responsive img-center" style="max-width:800px"  />
 4.	Remove the M3x12 screws holding Thrusters 5 and 6 to the side panels and place the screws to the side.
 <img src="/brov2-heavy/cad/heavy-tutorial-3.jpg" class="img-responsive img-center" style="max-width:800px"  />
