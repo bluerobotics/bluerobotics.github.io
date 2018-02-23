@@ -128,7 +128,7 @@ To Install the new thrusters, you will need the following parts and tools:
     
 <img src="/brov2-heavy/cad/end-cap-final-added.png" class="img-responsive img-center" style="max-width:800px"  />
     
-<img src="/brov2-heavy/cad/heavy-tutorial-7.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-7.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 2.	Reinstall the 4” Aluminum End Cap with the following steps:
 
@@ -146,7 +146,7 @@ To Install the new thrusters, you will need the following parts and tools:
 
 3.	Install thrusters 5, 6, 7 and 8, using the M3x12 screws on the outside of the side panels. Tighten the screws so that they indent the frame slightly.
 
-<img src="/brov2-heavy/cad/heavy-tutorial-9.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-9.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Install New Electronics
 
@@ -159,11 +159,11 @@ To install the new electronics, you will need the following parts and tools:
 
 1.	Slide the new 3 pole Euro terminal blocks into their mounting location on top of the 9 pole Euro terminal blocks and one of the poles is between the aluminum standoff.
 
-<img src="/brov2-heavy/cad/heavy-tutorial-10.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-10.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 2.	Connect the motor power wires from the thrusters 7 and 8 to the motor terminal blocks as shown, using your 2 mm flat head screw driver.
 
-<img src="/brov2-heavy/cad/heavy-tutorial-11.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-11.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 3.	Connect the motor power wires from the new ESCs to the motor terminal blocks as shown above, using your 2 mm flat head screw driver.
 
@@ -176,11 +176,11 @@ To install the new electronics, you will need the following parts and tools:
 
 5.	Connect the ESC Power Wires into open screw terminals on the respective positive and negative terminal blocks.
 
-<img src="/brov2-heavy/cad/heavy-tutorial-12.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-12.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 6. Secure the ESCs to the tray using one ziptie each and lightly wrapping them around the other ESC motor power wires.
 
-<img src="/brov2-heavy/cad/heavy-tutorial-13.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-13.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 
 ## Install New Thruster Guards
@@ -200,7 +200,7 @@ To install the new thruster guards, you will need the following parts and tools:
 
 3. Place the new thruster guards on the brackets you had previously installed and make sure the holes align. The thruster guards only install in one direction with the shorter leading edge of the guard oriented towards the front end of the vehicle. Secure the guards to the brackets using 4 M4x16 screws.
 
-<img src="/brov2-heavy/cad/heavy-tutorial-15.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-15.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 4. Install four more thruster guard mounting brackets (two on each side) in the holes near the middle of the ROV using one M4x16 screw and one #4x3/8” thread forming screw per bracket.
 
@@ -223,7 +223,7 @@ To reassemble your BlueROV2, you will need the following parts and tools:
 
     - Mount the Electronics Enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels (the center panels without the 3 large holes). Install the M3x16 screws through the clips and into the Enclosure Cradle (4” Series). It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the Enclosure Cradle (4” Series). This allows to clips to rotate so you can find the threaded hole in the Enclosure Cradle (4” Series) easily.
 
-<img src="/brov2-heavy/cad/heavy-step-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-step-2.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Cable Management
 
@@ -231,7 +231,7 @@ To clean up the thruster and lumen wires, you will need the bag of 30 zip ties a
 
 The primary goal of Thruster and Lumen cable management is to prevent the wires from getting cut by the propellers. Make sure to check that no wire can reach a propeller after you have finished routing the cables. Below are some examples of what the cable routing should look like.
 
-<img src="/brov2-heavy/cad/heavy-tutorial-20.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-20.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Install New Buoyancy Blocks and Fairings
 
@@ -251,15 +251,15 @@ To install the new buoyancy blocks and fairings, you will need the following par
 
 2.	Place the new round Heavy buoyancy blocks into the open space where Thrusters 5 and 6 used to be. Ensure the flat sides of the blocks are parallel to the sides of the ROV.
 
-<img src="/brov2-heavy/cad/heavy-tutorial-16.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-16.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 3.	Place the new plastic Heavy fairings on top of the buoyancy blocks and secure them to the old fairing blocks using the included self-tapping fairing screws.
 
-<img src="/brov2-heavy/cad/heavy-tutorial-18.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-18.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
-<img src="/brov2-heavy/cad/heavy-tutorial-17.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-17.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
-<img src="/brov2-heavy/cad/heavy-tutorial-21.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-21.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Mounting Additonal Ballast to the Frame
 
