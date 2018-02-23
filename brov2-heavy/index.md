@@ -31,7 +31,7 @@ manual-links:
 - T200: /thrusters/t200
 ---
 
-<img src="/brov2-heavy/cad/heavy-tutorial-21.jpg" class="img-responsive img-center" style="max-width:600px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-21.jpg" class="img-responsive img-center" style="max-width:400px"  />
 
 # Introduction
 
