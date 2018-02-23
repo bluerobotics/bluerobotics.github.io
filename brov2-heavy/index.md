@@ -87,7 +87,7 @@ To partially disassemble your BlueROV2, you will need the following tools:
 
 1.	To ensure your ROV is completely powered off, please remove the battery completely from the 3” enclosure and place to the side.
 
-<img src="/brov2-heavy/cad/heavy-disassembly-step-1.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-1.png" class="img-responsive img-center" style="max-width:800px"  />
 
 2.	Remove the fairings and buoyancy blocks by removing the self-tapping screws that hold the fairings to the frame.
 
@@ -99,25 +99,29 @@ To partially disassemble your BlueROV2, you will need the following tools:
     - Thruster 6 (CW propeller) with red penetrator nut.
     - Thruster 7 (CW propeller) with red penetrator nut.
     - Thruster 8 (CCW propeller) with red penetrator nut.
-
+    
 <img src="/brov2-heavy/cad/heavy-step-4-A.png" class="img-responsive img-center" style="max-width:800px"  /><img src="/brov2-heavy/cad/heavy-step-4-B.png" class="img-responsive img-center" style="max-width:800px"  />
+
+<img src="/brov2-heavy/cad/heavy-tutorial-2.png" class="img-responsive img-center" style="max-width:800px"  />
+
 
 4.	Remove the M3x12 screws holding Thrusters 5 and 6 to the side panels and place the screws to the side. 
 
-<img src="/brov2-heavy/cad/heavy-step-5.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-3.png" class="img-responsive img-center" style="max-width:800px"  />
 
 5.	Cut and remove any zipties holding the motor wires for Thrusters 5 and 6 to the frame. 
  
-<img src="/brov2-heavy/cad/heavy-step-6.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-4.png" class="img-responsive img-center" style="max-width:800px"  />
 
 6.	Remove the 4” Electronics enclosure from the ROV by removing the M3x16 screws that mount the enclosure to the ROV cradle.
-<img src="/brov2-heavy/cad/heavy-step-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
+
+<img src="/brov2-heavy/cad/heavy-tutorial-5.png" class="img-responsive img-center" style="max-width:800px"  />
 
 8.  Remove the Vent Plug from the Vent Penetrator Bolt on the electronics enclosure.
 
-9.	Remove the Aluminum End Cap with 14 Holes by removing the six M3x12 screws using the M2.5 hex driver. Place the M3x12 screws, clips (small L-shaped parts), and face seal O-ring in a safe place.
+9.	Remove the Aluminum End Cap with 14 Holes by removing the six M3x12 screws using the M2.5 hex driver. Place the M3x12 screws, clips (small L-shaped parts) in a safe place.
 
-<img src="/brov2-heavy/cad/heavy-step-7.png" class="img-responsive img-center" style="max-width:600px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-6.png" class="img-responsive img-center" style="max-width:800px"  />
 
 10.	Remove the two blank penetrators as pictured from the 4” End Cap with the penetrator wrench that came with the BlueROV2 kit.
 
@@ -138,6 +142,8 @@ To Install the new thrusters, you will need the following parts and tools:
 
     - Thruster 7 (CW propeller) with red penetrator nut.
     - Thruster 8 (CCW propeller) with red penetrator nut.
+    
+<img src="/brov2-heavy/cad/heavy-tutorial-7.png" class="img-responsive img-center" style="max-width:800px"  />
 
 2.	Reinstall the 4” Aluminum End Cap with the following steps:
 
@@ -154,6 +160,9 @@ To Install the new thrusters, you will need the following parts and tools:
     - Install Aluminum End Cap with 14 Holes with all Cable Penetrators and Blank Penetrators installed onto the O-Ring Flange (4” Series). Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove. The end cap’s orientation when installed should match the image below. Make sure that the clips are oriented correctly. One should be just right of the Thruster 3 penetrator, and the other should be just left of the Thruster 4 penetrator.
 
 3.	Install thrusters 5, 6, 7 and 8, using the M3x12 screws on the outside of the side panels. Tighten the screws so that they indent the frame slightly.
+
+<img src="/brov2-heavy/cad/heavy-tutorial-9.png" class="img-responsive img-center" style="max-width:800px"  />
+
 
 ## Install New Electronics
 
