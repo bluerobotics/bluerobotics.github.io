@@ -125,6 +125,8 @@ To partially disassemble your BlueROV2, you will need the following tools:
 
 10.	Remove the two blank penetrators as pictured from the 4” End Cap with the penetrator wrench that came with the BlueROV2 kit.
 
+<img src="/brov2-heavy/cad/end-cap-final-removed.png" class="img-responsive img-center" style="max-width:800px"  />
+
 ## Install New Thrusters
 
 To Install the new thrusters, you will need the following parts and tools:
@@ -142,6 +144,8 @@ To Install the new thrusters, you will need the following parts and tools:
 
     - Thruster 7 (CW propeller) with red penetrator nut.
     - Thruster 8 (CCW propeller) with red penetrator nut.
+    
+<img src="/brov2-heavy/cad/end-cap-final-added.png" class="img-responsive img-center" style="max-width:800px"  />
     
 <img src="/brov2-heavy/cad/heavy-tutorial-7.png" class="img-responsive img-center" style="max-width:800px"  />
 
