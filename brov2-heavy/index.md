@@ -8,7 +8,6 @@ nav:
 - - Specification Table: specification-table
 - - 2D Drawings: 2d-drawings
 - - 3D Model: 3d-model
-- Usage: usage
 - Assembly and Installation: assembly-and-installation
 - - BlueROV2 Partial Disassembly: bluerov2-partial-disassembly
 - - Install New Thrusters: install-new-thrusters
@@ -69,10 +68,6 @@ All 3D models are provided in zip archives containing the follow file types:
 | --------------------------------------------------------------------------------------------- |
 | Heavy Retrofit Kit and Parts  | [BROV2-HEAVY-KIT-R1.zip](cad/BROV2-HEAVY-KIT-R1.zip) |
 
-# Usage
-
-Assemble according to the below steps, and the Heavy Retrofit Kit will allow you to have full six degree-of-freedom control, active roll and pitch stability, and additional lifting capability.
-
 # Assembly and Installation
 
 ## BlueROV2 Partial Disassembly
@@ -106,7 +101,7 @@ To partially disassemble your BlueROV2, you will need the following tools:
 8.	Remove the Aluminum End Cap with 14 Holes by removing the six M3x12 screws using the M2.5 hex driver. Place the M3x12 screws, clips (small L-shaped parts) in a safe place.
 <img src="/brov2-heavy/cad/heavy-tutorial-6.jpg" class="img-responsive img-center" style="max-width:800px"  />
 9.	Remove the two blank penetrators as pictured from the 4” End Cap with the penetrator wrench that came with the BlueROV2 kit.
-<img src="/brov2-heavy/cad/end-cap-final-removed.jpg" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/end-cap-remove.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Install New Thrusters
 
@@ -126,7 +121,7 @@ To Install the new thrusters, you will need the following parts and tools:
     - Thruster 7 (CW propeller) with red penetrator nut.
     - Thruster 8 (CCW propeller) with red penetrator nut.
     
-<img src="/brov2-heavy/cad/end-cap-final-added.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/end-cap-new-thrusters.jpg" class="img-responsive img-center" style="max-width:800px"  />
     
 <img src="/brov2-heavy/cad/heavy-tutorial-7.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
