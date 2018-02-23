@@ -97,7 +97,7 @@ To partially disassemble your BlueROV2, you will need the following tools:
 <img src="/brov2-heavy/cad/heavy-tutorial-4.jpg" class="img-responsive img-center" style="max-width:800px"  />
 6.	Remove the 4” Electronics enclosure from the ROV by removing the M3x16 screws that mount the enclosure to the ROV cradle.
 <img src="/brov2-heavy/cad/heavy-tutorial-5.jpg" class="img-responsive img-center" style="max-width:800px"  />
-7.  Remove the Vent Plug from the Vent Penetrator Bolt on the electronics enclosure.
+7. 	Remove the Vent Plug from the Vent Penetrator Bolt on the electronics enclosure.
 8.	Remove the Aluminum End Cap with 14 Holes by removing the six M3x12 screws using the M2.5 hex driver. Place the M3x12 screws, clips (small L-shaped parts) in a safe place.
 <img src="/brov2-heavy/cad/heavy-tutorial-6.jpg" class="img-responsive img-center" style="max-width:800px"  />
 9.	Remove the two blank penetrators as pictured from the 4” End Cap with the penetrator wrench that came with the BlueROV2 kit.
@@ -117,28 +117,17 @@ To Install the new thrusters, you will need the following parts and tools:
 -	1 x 2.5 mm hex driver
 
 1.	Install Thrusters 7 and 8 into the respective empty penetrator holes. Tighten to finger tight, then use the provided wrench to tighten them an additional ~1/16 of a turn. If you can’t loosen them with your fingers, they are tight enough.
-
     - Thruster 7 (CW propeller) with red penetrator nut.
-    - Thruster 8 (CCW propeller) with red penetrator nut.
-    
-<img src="/brov2-heavy/cad/end-cap-new-thrusters.jpg" class="img-responsive img-center" style="max-width:800px"  />
-    
+    - Thruster 8 (CCW propeller) with red penetrator nut.    
+<img src="/brov2-heavy/cad/end-cap-new-thrusters.jpg" class="img-responsive img-center" style="max-width:800px"  />    
 <img src="/brov2-heavy/cad/heavy-tutorial-7.jpg" class="img-responsive img-center" style="max-width:800px"  />
-
 2.	Reinstall the 4” Aluminum End Cap with the following steps:
-
     - Clean the O-ring and make sure that it is free of any debris or damage.
-
     - Clean the O-Ring Flange (4” Series) and make sure that the O-ring groove is free of any debris or damage.
-
     - Apply Silicone grease to the O-ring.
-
     - Install face seal O-ring onto the O-Ring Flange (4” Series).
-
     - Apply one drop of threadlocker to each of the M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
-
     - Install Aluminum End Cap with 14 Holes with all Cable Penetrators and Blank Penetrators installed onto the O-Ring Flange (4” Series). Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove. The end cap’s orientation when installed should match the image below. Make sure that the clips are oriented correctly. One should be just right of the Thruster 3 penetrator, and the other should be just left of the Thruster 4 penetrator.
-
 3.	Install thrusters 5, 6, 7 and 8, using the M3x12 screws on the outside of the side panels. Tighten the screws so that they indent the frame slightly.
 
 <img src="/brov2-heavy/cad/heavy-tutorial-9.jpg" class="img-responsive img-center" style="max-width:800px"  />
@@ -153,28 +142,18 @@ To install the new electronics, you will need the following parts and tools:
 -	1 x Large (~#2) Phillips head screw driver
 
 1.	Slide the new 3 pole Euro terminal blocks into their mounting location on top of the 9 pole Euro terminal blocks and one of the poles is between the aluminum standoff.
-
 <img src="/brov2-heavy/cad/heavy-tutorial-10.jpg" class="img-responsive img-center" style="max-width:800px"  />
-
 2.	Connect the motor power wires from the thrusters 7 and 8 to the motor terminal blocks as shown, using your 2 mm flat head screw driver.
-
 <img src="/brov2-heavy/cad/heavy-tutorial-11.jpg" class="img-responsive img-center" style="max-width:800px"  />
-
 3.	Connect the motor power wires from the new ESCs to the motor terminal blocks as shown above, using your 2 mm flat head screw driver.
-
 4.	Plug ESC Signal Wires into Pixhawk with the following steps:
-
     - Unplug the Lumen light signal wire from the Pixhawk Channel 7 port and replug it into Aux Channel 1 with the yellow wire oriented toward the bottom of the Pixhawk. 
     - Unplug the camera tilt servo from Pixhawk Channel 8 and replug it into Aux Channel 2 with the yellow signal wire oriented toward the bottom of the Pixhawk.
     - Plug the servo signal wire for Thruster 7 into Channel 7 on the Pixhawk with the white signal wire oriented toward the bottom of the Pixhawk.
     - Plug the servo signal wire for Thruster 8 into Channel 8 on the Pixhawk with the white signal wire oriented toward the bottom of the Pixhawk.
-
 5.	Connect the ESC Power Wires into open screw terminals on the respective positive and negative terminal blocks.
-
 <img src="/brov2-heavy/cad/heavy-tutorial-12.jpg" class="img-responsive img-center" style="max-width:800px"  />
-
 6. Secure the ESCs to the tray using one ziptie each and lightly wrapping them around the other ESC motor power wires.
-
 <img src="/brov2-heavy/cad/heavy-tutorial-13.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 
@@ -190,15 +169,10 @@ To install the new thruster guards, you will need the following parts and tools:
 -	1x #1 Phillips head screwdriver
 
 1. Apply one drop of threadlocker to each of the M4x16mm screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
-
 2. Install 4 of the thruster guard mounting brackets on the outside of the frame using 4 M4x16 screws as shown below.
-
 3. Place the new thruster guards on the brackets you had previously installed and make sure the holes align. The thruster guards only install in one direction with the shorter leading edge of the guard oriented towards the front end of the vehicle. Secure the guards to the brackets using 4 M4x16 screws.
-
 <img src="/brov2-heavy/cad/heavy-tutorial-15.jpg" class="img-responsive img-center" style="max-width:800px"  />
-
 4. Install four more thruster guard mounting brackets (two on each side) in the holes near the middle of the ROV using one M4x16 screw and one #4x3/8” thread forming screw per bracket.
-
 4. Tighten all the screws evenly until they are tight enough to properly secure the thruster guard to the frame and there is no excess freedom of movement.
 
 ## Reassemble BlueROV2
@@ -211,14 +185,10 @@ To reassemble your BlueROV2, you will need the following parts and tools:
 -	1 x 2.5 mm hex driver
 
 1.	Reinstall 4” Watertight Enclosure onto ROV with the following steps:
-
     - Apply silicone grease to the two radial O-rings on the O-Ring Flange (4” Series) that is attached to the Electronics Tray then install the Watertight Enclosure (4” Series) with installed Dome End Cap to the O-Ring Flange (4” Series).
-
     - Apply one drop of threadlocker to each of the four M3x16 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
-
     - Mount the Electronics Enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels (the center panels without the 3 large holes). Install the M3x16 screws through the clips and into the Enclosure Cradle (4” Series). It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the Enclosure Cradle (4” Series). This allows to clips to rotate so you can find the threaded hole in the Enclosure Cradle (4” Series) easily.
-
-<img src="/brov2-heavy/cad/heavy-step-2.jpg" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/heavy-step-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Cable Management
 
@@ -241,19 +211,12 @@ To install the new buoyancy blocks and fairings, you will need the following par
 -   1x #2 Phillips head screwdriver
 
 1.	 Reinstall Original Fairing Blocks onto ROV by installing the screws through the center panels and into the fairings.
-
 <img src="/brov2-heavy/cad/heavy-step-3.PNG" class="img-responsive img-center" style="max-width:800px"  />
-
 2.	Place the new round Heavy buoyancy blocks into the open space where Thrusters 5 and 6 used to be. Ensure the flat sides of the blocks are parallel to the sides of the ROV.
-
 <img src="/brov2-heavy/cad/heavy-tutorial-16.jpg" class="img-responsive img-center" style="max-width:800px"  />
-
 3.	Place the new plastic Heavy fairings on top of the buoyancy blocks and secure them to the old fairing blocks using the included self-tapping fairing screws.
-
 <img src="/brov2-heavy/cad/heavy-tutorial-18.jpg" class="img-responsive img-center" style="max-width:800px"  />
-
 <img src="/brov2-heavy/cad/heavy-tutorial-17.jpg" class="img-responsive img-center" style="max-width:800px"  />
-
 <img src="/brov2-heavy/cad/heavy-tutorial-21.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Mounting Additonal Ballast to the Frame
