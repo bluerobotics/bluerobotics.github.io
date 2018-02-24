@@ -114,7 +114,7 @@ void setup() {
 	servo.attach(servoPin);
 
 	servo.writeMicroseconds(1500); // send "stop" signal to ESC.
-	delay(1000); // delay to allow the ESC to recognize the stopped signal
+	delay(3000); // delay to allow the ESC to recognize the stopped signal
 }
 
 void loop() {
