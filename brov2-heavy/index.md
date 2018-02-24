@@ -171,7 +171,7 @@ To install the new thruster guards, you will need the following parts and tools:
 
 1. Apply one drop of threadlocker to each of the M4x16mm screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 2. Install 4 of the thruster guard mounting brackets on the outside of the frame using 4 M4x16 screws as shown below.
-3. Place the new thruster guards on the brackets you had previously installed and make sure the holes align. The thruster guards only install in one direction with the shorter leading edge of the guard oriented towards the front end of the vehicle. Secure the guards to the brackets using 4 M4x16 screws.
+3. Place the new thruster guards on the brackets you had previously installed and make sure the holes align. The thruster guards only install in one direction with the shorter leading edge of the guard oriented towards the front end of the vehicle. If you have Lumen lights mounted in the top mounts, make sure to arrange the wire so it is inside the guard, near the thruster duct. Secure the guards to the brackets using 4 M4x16 screws.
 <img src="/brov2-heavy/cad/heavy-tutorial-15.jpg" class="img-responsive img-center" style="max-width:800px"  />
 4. Install four more thruster guard mounting brackets (two on each side) in the holes near the middle of the ROV using one M4x16 screw and one #4x3/8” thread forming screw per bracket.
 <img src="/brov2-heavy/cad/heavy-tutorial-22.jpg" class="img-responsive img-center" style="max-width:800px"  />
