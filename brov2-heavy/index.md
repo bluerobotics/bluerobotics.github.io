@@ -14,9 +14,9 @@ nav:
 - - Install New Thruster Guards: install-new-thruster-guards
 - - Install New Electronics: install-new-electronics
 - - Reassemble BlueROV2: reassemble-bluerov2
-- - Install New Buoyancy Blocks: new-buoyancy
 - - Cable Management: cable-management
-- - Mounting Additonal Ballast: add-ballast
+- - Install New Buoyancy Blocks: install-new-buoyancy-blocks-and-fairings
+- - Mounting Additonal Ballast: mounting-additonal-ballast-to-the-frame
 - Software Setup: software-setup
 - - Load New Parameters: load-new-parameters
 - - Configure Motor Directions: configure-motor-direcitons
