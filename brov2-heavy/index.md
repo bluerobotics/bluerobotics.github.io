@@ -144,8 +144,9 @@ To install the new electronics, you will need the following parts and tools:
 1.	Slide the new 3 pole Euro terminal blocks into their mounting location on top of the 9 pole Euro terminal blocks and one of the poles is between the aluminum standoff.
 <img src="/brov2-heavy/cad/heavy-tutorial-10.jpg" class="img-responsive img-center" style="max-width:800px"  />
 2.	Connect the motor power wires from the thrusters 7 and 8 to the motor terminal blocks as shown, using your 2 mm flat head screw driver.
+<img src="/brov2-heavy/cad/heavy-tutorial-23.jpg" class="img-responsive img-center" style="max-width:800px"  />
+3.	Connect the motor power wires from the new ESCs to the motor terminal blocks as shown below, using your 2 mm flat head screw driver.
 <img src="/brov2-heavy/cad/heavy-tutorial-11.jpg" class="img-responsive img-center" style="max-width:800px"  />
-3.	Connect the motor power wires from the new ESCs to the motor terminal blocks as shown above, using your 2 mm flat head screw driver.
 4.	Plug ESC Signal Wires into Pixhawk with the following steps:
     - Unplug the Lumen light signal wire from the Pixhawk Channel 7 port and replug it into Aux Channel 1 with the yellow wire oriented toward the bottom of the Pixhawk. 
     - Unplug the camera tilt servo from Pixhawk Channel 8 and replug it into Aux Channel 2 with the yellow signal wire oriented toward the bottom of the Pixhawk.
@@ -173,7 +174,8 @@ To install the new thruster guards, you will need the following parts and tools:
 3. Place the new thruster guards on the brackets you had previously installed and make sure the holes align. The thruster guards only install in one direction with the shorter leading edge of the guard oriented towards the front end of the vehicle. Secure the guards to the brackets using 4 M4x16 screws.
 <img src="/brov2-heavy/cad/heavy-tutorial-15.jpg" class="img-responsive img-center" style="max-width:800px"  />
 4. Install four more thruster guard mounting brackets (two on each side) in the holes near the middle of the ROV using one M4x16 screw and one #4x3/8” thread forming screw per bracket.
-4. Tighten all the screws evenly until they are tight enough to properly secure the thruster guard to the frame and there is no excess freedom of movement.
+<img src="/brov2-heavy/cad/heavy-tutorial-22.jpg" class="img-responsive img-center" style="max-width:800px"  />
+5. Tighten all the screws evenly until they are tight enough to properly secure the thruster guard to the frame and there is no excess freedom of movement.
 
 ## Reassemble BlueROV2
 
