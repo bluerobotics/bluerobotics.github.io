@@ -30,11 +30,11 @@ manual-links:
 - T200: /thrusters/t200
 ---
 
-<img src="/brov2-heavy/cad/heavy-tutorial-21.jpg" class="img-responsive img-center" style="max-width:200px"  />
+<img src="/brov2-heavy/cad/heavy-tutorial-21.jpg" class="img-responsive img-center" style="max-width:350px"  />
 
 # Introduction
 
-The <em>BlueROV2 Heavy Retrofit Kit</em> is a modular frame extension for the BlueROV2 with which includes two additional thrusters, ESCs, buoyancy foam and fairings. The Heavy Retrofit Kit provides some powerful new capabilities: six degree-of-freedom control, active roll and pitch stability, and additional lifting capability.
+The <em>BlueROV2 Heavy Retrofit Kit</em> is an add-on for the [BlueROV2](/brov2) that includes two additional thrusters, Basic ESCs, additional buoyancy foam, and fairings. The Heavy Retrofit Kit provides some powerful new capabilities: six degree-of-freedom control, active roll and pitch stability, and additional lifting capability.
 
 # Specifications
 
@@ -53,11 +53,11 @@ The <em>BlueROV2 Heavy Retrofit Kit</em> is a modular frame extension for the Bl
 
 <img src="/brov2-heavy/cad/ASSEM-BROV2-HEAVY-X1B.PNG" class="img-responsive img-center" style="max-width:800px" />
 
-
-
 ## 3D Model
 
-These are BIG files since the model is fairly complex. If you just want to check out a 3D view or 3D models of the BlueROV2 with the Heavy Kit installed, we recommend checking out the CAD files on GrabCAD. [COMING SOON]
+These are BIG files since the model is fairly complex. If you just want to check out a 3D view or 3D models of the BlueROV2 with the Heavy Kit installed, we recommend checking out the CAD files on GrabCAD. 
+
+[COMING SOON]
 
 # Assembly and Installation
 
