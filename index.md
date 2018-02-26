@@ -34,15 +34,20 @@ You can use the menu bar at the top to find the product you are looking for and 
     <div class="tile" style="background-image:url(/brov2/cad/BlueROV2-front-angle-small.png)">
       <a href="/brov2/">BlueROV2 <i class="fa fa-chevron-circle-right"></i></a>
     </div>
-	  </div>
-  <div class="col-sm-4 col-md-4">
+    </div>
+    <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/brov2-heavy/cad/heavy-tutorial-21.jpg)">
+    <a href="/brov2-heavy/">BlueROV2 Heavy Kit <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+    <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/payload-skid/cad/payload-skid-w-4in-tube.png)">
-      <a href="/payload-skid/">Payload Skid <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/payload-skid/">Payload Skid <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/kit-2.png)">
-      <a href="/bluerov/">BlueROV <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/bluerov/">BlueROV <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
 </div> 
@@ -82,55 +87,55 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/besc-3-new.png)">
-      <a href="/besc/">Basic ESC (Old) <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/besc/">Basic ESC (Old) <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
- <div class="col-sm-4 col-md-4">
+  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/blueesc-inside.jpg)">
-      <a href="/bluesc/">BlueESC <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/bluesc/">BlueESC <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
-   <div class="col-sm-4 col-md-4">
+  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/batteries/cad/BL4-1.png)">
-      <a href="/batteries/">Lithium-Ion Battery <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/batteries/">Lithium-Ion Battery <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
-     <div class="col-sm-4 col-md-4">
+  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/charger/cad/charger-5-2.png)">
-      <a href="/charger/">Lithium Battery Charger <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/charger/">Lithium Battery Charger <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/lumen-1.png)">
-      <a href="/lumen/"><em>Lumen</em> Subsea Light <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/lumen/"><em>Lumen</em> Subsea Light <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/fathom-s/fathom-s-thumb.png)">
-      <a href="/fathom-s/">Fathom-S Interface <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/fathom-s/">Fathom-S Interface <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/fathom-x/fathom-x-thumb.png)">
-      <a href="/fathom-x/">Fathom-X Interface <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/fathom-x/">Fathom-X Interface <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/analog-cam-2.png)">
-      <a href="/camera/">Camera <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/camera/">Camera <i class="fa fa-chevron-circle-right"></i></a>
     </div>
-	</div>
-  <div class="col-sm-4 col-md-4">
+    </div>
+    <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/commander/commander-1.png)">
-      <a href="/commander/">Thruster Commander <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/commander/">Thruster Commander <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/switch/cad/switch-4.png)">
-      <a href="/switch/">Switch <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/switch/">Switch <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
- </div> 
+</div> 
 
 ## Sensors
 
@@ -142,24 +147,24 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/bar100/cad/bar100-3.png)">
-      <a href="/bar100/"><em>Bar100</em> Pressure Sensor <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/bar100/"><em>Bar100</em> Pressure Sensor <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/celsius/cad/temp-sensor-6.png)">
-      <a href="/celsius/"><em>Celsius</em> Temp Sensor <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/celsius/"><em>Celsius</em> Temp Sensor <i class="fa fa-chevron-circle-right"></i></a>
     </div>
- 	</div>
+  </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/level-converter/cad/level-converter-1.png)">
-      <a href="/level-converter/">I<sup>2</sup>C Level Converter <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/level-converter/">I<sup>2</sup>C Level Converter <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/sos/cad/sos-5-a.png)">
-      <a href="/sos/"><em>SOS</em> Leak Sensor <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/sos/"><em>SOS</em> Leak Sensor <i class="fa fa-chevron-circle-right"></i></a>
     </div>
- </div>
+  </div>
 </div>
 
 ## Enclosures
@@ -170,28 +175,28 @@ You can use the menu bar at the top to find the product you are looking for and 
   		<a href="/watertight-enclosures/">Watertight Enclosures <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
-   <div class="col-sm-4 col-md-4">
+  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/e-tray-1.png)">
-      <a href="/etray/">Electronics Tray <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/etray/">Electronics Tray <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/rpi-cam-tilt-1.png)">
-      <a href="/camtilt/">Cam Tilt System <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/camtilt/">Cam Tilt System <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/vent-r2-1.png)">
-      <a href="/vent/">Vent <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/vent/">Vent <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/cable-penetrator-1-r2.png)">
-      <a href="/tutorials/cable-penetrator/">Cable Penetrator <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/tutorials/cable-penetrator/">Cable Penetrator <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
 </div>
- 
+
 ## Other  
 <div class="row">
   <div class="col-sm-4 col-md-4">
@@ -201,10 +206,10 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/Tether-wound.png)">
-      <a href="/fathom/"><em>Fathom</em> Tether <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/fathom/"><em>Fathom</em> Tether <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
- </div> 
+</div> 
 
 # Tutorials
 
@@ -216,12 +221,12 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/tutorials/cable-penetrator/step-5.png)">
-      <a href="/tutorials/cable-penetrator/#installation">Cable Penetrator <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/tutorials/cable-penetrator/#installation">Cable Penetrator <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/tutorials/changing-a-propeller/propeller-3.png)">
-      <a href="/tutorials/changing-the-propeller/">Changing the Propeller <i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/tutorials/changing-the-propeller/">Changing the Propeller <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
 </div>
