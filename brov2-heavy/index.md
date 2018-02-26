@@ -2,6 +2,7 @@
 layout: default
 title: BlueROV2 Heavy Retrofit Documentation
 order: 1
+topnavbar: brov2
 nav:
 - Introduction: introduction
 - Specifications: specifications

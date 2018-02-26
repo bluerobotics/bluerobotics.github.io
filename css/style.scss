@@ -14,6 +14,25 @@ a:hover {
 	border-left: 2px solid #eee;
 }
 
+.btn-secondary {
+	color: #fff!important;
+    background-color: #999;
+    border: 1px solid #999;
+    font-weight: 600;
+    background-image: none;
+    text-shadow: none;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.btn-secondary:hover, 
+.btn-secondary:focus {
+	color: #fff;
+	background-color: #666;
+	border: 1px solid #666;
+	font-weight: 600;
+}
+
 .tile {
 	position: relative;
 	height: 200px;
