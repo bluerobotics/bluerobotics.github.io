@@ -57,7 +57,7 @@ The <em>BlueROV2 Heavy Retrofit Kit</em> is a modular frame extension for the Bl
 
 ## 3D Model
 
-These are BIG files since the model is fairly complex. If you just want to check out a 3D view or 3D models of the BlueROV, we recommend checking out the CAD files on GrabCAD. [COMING SOON]
+These are BIG files since the model is fairly complex. If you just want to check out a 3D view or 3D models of the BlueROV2 with the Heavy Kit installed, we recommend checking out the CAD files on GrabCAD. [COMING SOON]
 
 # Assembly and Installation
 
