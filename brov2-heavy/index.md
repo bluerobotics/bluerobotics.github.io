@@ -263,7 +263,7 @@ There are currently two methods available for roll and pitch input.
 	Push the buttons once, or hold them down to adjust the roll and pitch angle of the vehicle	
 <img src="/brov2-heavy/cad/joystick-defaults.png" class="img-responsive img-center" style="max-width:800px"  />
 	
-- Using the joystick button function _roll_pitch_toggle_ This is an advanced function, to setup this function, please reference the [ArduSub Button Setup page] (https://www.ardusub.com/getting-started/initial-setup.html#button-setup) (This function is very developmental, use with caution)
+- Using the joystick button function _roll_pitch_toggle_ This is an advanced function, to setup this function, please reference the [ArduSub Button Setup page](https://www.ardusub.com/getting-started/initial-setup.html#button-setup) (This function is very developmental, use with caution)
 
 	Push the button to toggle the function of one joystick between controlling forward/lateral input and controlling roll/pitch input
 <img src="/brov2-heavy/cad/joystick-stick-mode.png" class="img-responsive img-center" style="max-width:800px"  />
