@@ -44,7 +44,7 @@ The <em>BlueROV2 Heavy Retrofit Kit</em> is an add-on for the [BlueROV2](/brov2)
 |  **Physical**  |
 | ------------- | --------- |
 | Length | 457 mm | 18 in |
-| Width | 571 mm | 22.5 in |
+| Width | 575 mm | 22.5 in |
 | Height | 254 mm | 10 in |
 | Weight (in air with ballast) | 11.5kg | 26 lbs |
 |----------------------|
@@ -260,11 +260,13 @@ There are currently two methods available for roll and pitch input.
 
 - Using the joystick button functions for _trim_roll_ and _trim_pitch_
 
-	Push the buttons once, or hold them down to adjust the roll and pitch angle of the vehicle
+	Push the buttons once, or hold them down to adjust the roll and pitch angle of the vehicle	
+<img src="/brov2-heavy/cad/joystick-defaults.png" class="img-responsive img-center" style="max-width:800px"  />
 	
-- Using the joystick button function _roll_pitch_toggle_
+- Using the joystick button function _roll_pitch_toggle_ (This function is very developmental, use with caution)
 
 	Push the button to toggle the function of one joystick between controlling forward/lateral input and controlling roll/pitch input
+<img src="/brov2-heavy/cad/joystick-stick-mode.jpg" class="img-responsive img-center" style="max-width:800px"  />
 	
 These functions can be assigned to buttons on the joystick in the _Joystick_ tab of the _Vehicle Setup_ menu. The roll and pitch inputs are cleared when switching to MANUAL mode. They are NOT cleared when disarmed.
 
