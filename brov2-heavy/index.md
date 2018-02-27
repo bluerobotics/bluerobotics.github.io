@@ -266,7 +266,7 @@ There are currently two methods available for roll and pitch input.
 - Using the joystick button function _roll_pitch_toggle_ (This function is very developmental, use with caution)
 
 	Push the button to toggle the function of one joystick between controlling forward/lateral input and controlling roll/pitch input
-<img src="/brov2-heavy/cad/joystick-stick-mode.jpg" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/joystick-stick-mode.png" class="img-responsive img-center" style="max-width:800px"  />
 	
 These functions can be assigned to buttons on the joystick in the _Joystick_ tab of the _Vehicle Setup_ menu. The roll and pitch inputs are cleared when switching to MANUAL mode. They are NOT cleared when disarmed.
 
