@@ -153,10 +153,36 @@ Potentiometers can be hot-swapped.  However it is advised that this only be done
 
 # Troubleshooting
 
-**Two short blinks**
+<table>
+    <tr>
+        <th colspan="2">
+            Two short blinks
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <img src="CMDR-LED-NO-POTS-SMALL.gif" class="img-responsive
+                img-center" style="max-width:120px"/>
+        </td>
+        <td>
+            Not enough potentiometers are plugged in.  The <a href="#modes-of-operation">Modes of Operation table</a> shows all valid combinations of potentiometer connections.
+        </td>
+    </tr>
+</table>
 
-Not enough potentiometers are plugged in.  The [Modes of Operation table](#modes-of-operation) shows all valid combinations of potentiometer connections.
-
-**One long blink**
-
-Switch is not pressed/connected, or is not correctly connected.  The SWITCH signal (center) pin must be connected to ground (GND pin) by a switch or jumper for the motors to turn.
+<table>
+    <tr>
+        <th colspan="2">
+            One long blink
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <img src="CMDR-LED-DISABLED-SMALL.gif" class="img-responsive
+                img-center" style="max-width:120px"/>
+        </td>
+        <td>
+            Switch is not pressed/connected, or is not correctly connected.  The SWITCH signal (center) pin must be connected to ground (GND pin) by a switch or jumper for the motors to turn.
+        </td>
+    </tr>
+</table>
