@@ -231,7 +231,7 @@ Finally, before operating your ROV, we need to update the software configuration
 
 ## Load new parameters
 
-- Download [this]() parameter file
+- Download <a href="https://raw.githubusercontent.com/ArduPilot/ardupilot/master/Tools/Frame_params/Sub/bluerov2-heavy-3_5_2.params" download target="_blank">this</a> parameter file
 - Go to the _Parameters_ tab of the _Vehicle Setup_ menu (click the gears icon)
 - Click the _Tools_ menu in the upper right hand corner
 - Click 'Load parameters from file', and select the parameter file downloaded in the first step, then click 'Ok'
