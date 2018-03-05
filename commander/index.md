@@ -99,7 +99,12 @@ Most ESCs require a neutral input signal to [complete their initialization](#esc
 
 ## Powering _Thruster Commander_
 
-The _Thruster Commander_ can be powered in one of two ways: 7-28 VDC or regulated 5 VDC.  7-28 VDC power can be supplied via the POWER connector in the top left corner of the board.  This can be connected directly to any 7-28 VDC power supply, including the batteries powering your motors. 5 VDC regulated power is available from some ESCs with built-in battery eliminator circuits (BECs) which can power the _Thruster Commander_ via the PWM cable, eliminating the need for the 7-28 VDC power intput.  These ESCs will have a third, red wire on their PWM input cables which carries the 5 VDC supply.
+The _Thruster Commander_ can be powered in one of two ways: 7-28 VDC or regulated 5 VDC.  7-28 VDC power can be supplied via the POWER connector in the top left corner of the board.  This can be connected directly to any 7-28 VDC power supply, including the batteries powering your motors.
+
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
+Make sure the ESCs and motors you are using can handle the voltage you are providing; the _Thruster Commander_ can handle up to 28 volts, but our thrusters cannot: see our [thruster documentation](/thrusters) for more details.
+
+5 VDC regulated power is available from some ESCs with built-in battery eliminator circuits (BECs) which can power the _Thruster Commander_ via the PWM cable, eliminating the need for the 7-28 VDC power input.  These ESCs will have a third, red wire on their PWM input cables which carries the 5 VDC supply.
 
 <i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
 Note that not all ESCs with such three-wire PWM input cables have built-in BECs.
