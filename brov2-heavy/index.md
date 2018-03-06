@@ -235,6 +235,7 @@ Finally, before operating your ROV, we need to update the software configuration
 - Go to the _Parameters_ tab of the _Vehicle Setup_ menu (click the gears icon)
 - Click the _Tools_ menu in the upper right hand corner
 - Click 'Load parameters from file', and select the parameter file downloaded in the first step, then click 'Ok'
+- Wait a few seconds for the parameters to finish loading, then reboot the autopilot. To reboot, click the _Tools_ menu again, then select 'Reboot Vehicle'.
 
 <img src="/brov2-heavy/cad/parameter-setup.png" class="img-responsive img-center" style="max-width:800px"  />
 
