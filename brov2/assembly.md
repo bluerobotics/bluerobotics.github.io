@@ -114,7 +114,7 @@ Quantity      | Part																		| Usage
 1			  | 3DR Pixhawk (installed)														| Autopilot
 1             | I<sup>2</sup>C Splitter with cable											| Allows for up to 4 I<sup>2</sup>C devices
 1			  | Raspberry Pi 3 (installed)													| Companion computer
-1			  | Raspberry Pi Camera 2 (installed)   										| Camera
+1			  | Low-Light HD USB Camera (installed)   										| Camera
 1			  | Pixhawk Power Module (installed) 											| Powers the Pixhawk and monitors current and battery voltage
 2             | Universal Battery Elimination Circuit (UBEC) (installed)                    | Powers the Raspberry Pi and Pixhawk servo rails         
 
