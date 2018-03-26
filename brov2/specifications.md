@@ -63,7 +63,7 @@ Here is the [Bill of Materials](/brov2/assembly/#whats-included) for the _BlueRO
 
 There are some items necessary for operation that are not included with the kit. 
 
- - A gamepad controller. We recommend [this XBox360 Controller](https://www.microsoft.com/en-us/store/d/xbox-360-controller-for-windows-wired/8n83fnnt0xgn) or [this Logitech Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
+ - A gamepad controller. We recommend [this XBox One Controller](https://www.microsoft.com/en-us/store/d/xbox-wireless-controller/8vcw8gln9vrf/ljvk?cid=msft_web_collection&activetab=pivot%3atechspecstab) or [this Logitech Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
  - A laptop or a Windows 10 tablet. QGroundControl works on Mac, Windows 10, and Linux.
  - A battery for the BlueROV2. We recommend getting our [18Ah Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
  - A battery charger, such as our [Lithium Battery Charger](http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/).  
