@@ -26,6 +26,7 @@ nav:
 - - Center Panels: assembling-the-center-panels
 - - Frame: assembling-the-frame-1
 - Electronics Overview: electronics-enclosure-overview
+- - Connection diagrams: connection-diagrams
 - Cable Installation: installing-the-cables
 - - Removing Endcap: removing-the-electronics-enclosure-endcap
 - - Penetrator Installation: installing-the-penetrators
@@ -312,6 +313,14 @@ The images below show orientation of the main pieces of hardware in the electron
 
 <b> <font size="4"> Front View </font> </b> 
 <img src="/brov2//cad/advanced-front-render-1.png" class="img-responsive" style="max-width:900px" />
+
+## Connection diagrams
+
+These diagrams outline all of the electrical connections between components in the ROV. There is a different diagram for each version of the ROV that Blue Robotics has produced.
+
+- [BlueROV2 with red-wire (BEC) ESCs](/brov2/cad/connections/BlueROV2_bec.pdf) (Pre-2018)
+- [BlueROV2 with no-red-wire ESCs](/brov2/cad/connections/BlueROV2_no_bec.pdf) (2018 and later)
+- [BlueROV2 Heavy](/brov2/cad/connections/BlueROV2_heavy.pdf)
 
 # Installing the Cables 
 
