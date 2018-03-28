@@ -97,7 +97,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | -------------------------------------------------------|-------------------------------|
 |                                 **Physical**                                           |
 | ---------------------------------------------------------------------------------------|
-| Length (without BlueESC)                               | 102 mm        | 4.0 in        |
+| Length                                                 | 102 mm        | 4.0 in        |
 | Diameter                                               | 100 mm        | 3.9 in        |
 | Weight in Air (with 1m cable)                          | 0.65 lb       | 295 g         |
 | Weight in Water (with 1m cable)                        | 0.26 lb       | 120 g         |
@@ -208,6 +208,8 @@ The thruster requires a brushless electronic speed controller (ESC). Check out o
   		<a href="/besc/">Basic ESC <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
  </div>
+</div>
+
 
 
 **Important:**
