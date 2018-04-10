@@ -26,6 +26,7 @@ nav:
 - - Center Panels: assembling-the-center-panels
 - - Frame: assembling-the-frame-1
 - Electronics Overview: electronics-enclosure-overview
+- - Connection diagrams: connection-diagrams
 - Cable Installation: installing-the-cables
 - - Removing Endcap: removing-the-electronics-enclosure-endcap
 - - Penetrator Installation: installing-the-penetrators
@@ -82,7 +83,6 @@ The BlueROV2 kit comes almost ready to dive. The assembly can be completed with 
 - Wire cutters or scissors (for cutting zip ties)
 - Medium-strength (blue) threadlocker such as [Loctite 243](https://www.amazon.com/Loctite-1330799-Resistant-thread-locker-6-milliliter/dp/B004L439FE/ref=sr_1_1?ie=UTF8&qid=1466440165&sr=8-1&keywords=loctite+243+thread-locker)
 - Isopropyl alcohol or isopropyl alcohol wipes
-- Vacuum pump such as [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump)
 - 2 mm flat head screw driver
 
 # What's Included
@@ -114,7 +114,7 @@ Quantity      | Part																		| Usage
 1			  | 3DR Pixhawk (installed)														| Autopilot
 1             | I<sup>2</sup>C Splitter with cable											| Allows for up to 4 I<sup>2</sup>C devices
 1			  | Raspberry Pi 3 (installed)													| Companion computer
-1			  | Raspberry Pi Camera 2 (installed)   										| Camera
+1			  | Low-Light HD USB Camera (installed)   										| Camera
 1			  | Pixhawk Power Module (installed) 											| Powers the Pixhawk and monitors current and battery voltage
 2             | Universal Battery Elimination Circuit (UBEC) (installed)                    | Powers the Raspberry Pi and Pixhawk servo rails         
 
@@ -170,6 +170,7 @@ Quantity      | Part													| Usage
 1			  | 2 mm hex key											| Change propellers
 1			  | 3 mm hex key									     	| Install M4 and M5 screws
 1			  | MicroSD to SD Adapter 									| 
+1			  | Hand Operated Vacuum Pump (Included as of January 2018)					| Pressure test WTEs
 
 ## Lights
 
@@ -313,6 +314,14 @@ The images below show orientation of the main pieces of hardware in the electron
 <b> <font size="4"> Front View </font> </b> 
 <img src="/brov2//cad/advanced-front-render-1.png" class="img-responsive" style="max-width:900px" />
 
+## Connection diagrams
+
+These diagrams outline all of the electrical connections between components in the ROV. There is a different diagram for each version of the ROV that Blue Robotics has produced.
+
+- [BlueROV2 with red-wire (BEC) ESCs](/brov2/cad/connections/BlueROV2_bec.pdf) (Pre-2018)
+- [BlueROV2 with no-red-wire ESCs](/brov2/cad/connections/BlueROV2_no_bec.pdf) (2018 and later)
+- [BlueROV2 Heavy](/brov2/cad/connections/BlueROV2_heavy.pdf)
+
 # Installing the Cables 
 
 ## Removing the Electronics Enclosure Endcap
@@ -426,7 +435,7 @@ To complete the assembly of the battery enclosure you need the following parts a
 
 ## Optional Preliminary Vacuum Test
 
-This is the best point in the assembly process to perform a vacuum test. Since you have installed all of the penetrators, but have not done any of the wiring, troubleshooting will be as easy as possible. To prepare for the vacuum test you need to purchase a vacuum pump. We recommend [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump).
+This is the best point in the assembly process to perform a vacuum test. Since you have installed all of the penetrators, but have not done any of the wiring, troubleshooting will be as easy as possible. You will need to use the vacuum pump that comes with the kit.
 
 1. Install the Watertight Enclosure (4" Series) with installed Dome onto the O-Ring Flange (4" Series) that is attached to the Aluminum End Cap with 14 Holes (4" Series)
 

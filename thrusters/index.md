@@ -37,7 +37,7 @@ manual-links:
 - T200 Thruster: /thrusters/t200/
 - M100 Motor: /thrusters/motors/
 - Basic ESC: /besc/
-- BlueESC: /bluesc/
+
 
 tutorial-links:
 - Thruster Assembly/Disassembly: /tutorials/disassembly-assembly/
@@ -97,13 +97,10 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | -------------------------------------------------------|-------------------------------|
 |                                 **Physical**                                           |
 | ---------------------------------------------------------------------------------------|
-| Length (without BlueESC)                               | 102 mm        | 4.0 in        |
-| Length (with BlueESC)                                  | 113 mm        | 4.45 in       |
+| Length                                                 | 102 mm        | 4.0 in        |
 | Diameter                                               | 100 mm        | 3.9 in        |
-| Weight in Air (with 1m cable)(without BlueESC)         | 0.65 lb       | 295 g         |
-| Weight in Air (with 1m cable)(with BlueESC)            | 0.84 lb       | 378 g         |
-| Weight in Water (with 1m cable)(without BlueESC)       | 0.26 lb       | 120 g         |
-| Weight in Water (with 1m cable)(with BlueESC)          | 0.37 lb       | 167 g         |
+| Weight in Air (with 1m cable)                          | 0.65 lb       | 295 g         |
+| Weight in Water (with 1m cable)                        | 0.26 lb       | 120 g         |
 | Propeller Diameter                                     | 76 mm         | 3.0 in        |
 | Mounting Hole Threads                                  | M3 x 0.5                      |
 | Mounting Hole Spacing                                  | 19 mm         | 0.75 in       |
@@ -122,17 +119,13 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 
 ## Dimensions
 
-### T100 Thruster (without BlueESC)
+### T100 Thruster
 
 <img src="/assets/images/T100-Plain-Drawing.PNG" class="img-responsive" style="max-width:800px" />
 
-### T100 Thruster with BlueESC
-
-<img src="/assets/images/T100-BlueESC-Drawing.PNG" class="img-responsive" style="max-width:800px" />
-
 ## 3D Model
 
-### T100 Thruster (without BlueESC)
+### T100 Thruster
 
 | File Type                  | Link                          |
 | -------------------------- | ----------------------------- |
@@ -141,16 +134,6 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | IGES (.igs)                | [T100-THRUSTER-R1.IGS](/thrusters/cad/T100-THRUSTER-R1.IGS) |
 | STL (.stl)                 | [T100-THRUSTER-R1.STL](/thrusters/cad/T100-THRUSTER-R1.STL) |
 | All Formats in a Zip File (.zip)   | [T100-THRUSTER-R1.zip](/thrusters/cad/T100-THRUSTER-R1.zip) |
-
-### T100 Thruster with BlueESC
-
-| File Type                  | Link                          |
-| -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [T100-THRUSTER-BLUEESC-R1.SLDPRT](/thrusters/cad/T100-THRUSTER-BLUEESC-R1.SLDPRT) |
-| STEP (.step)               | [T100-THRUSTER-BLUEESC-R1.STEP](/thrusters/cad/T100-THRUSTER-BLUEESC-R1.STEP)   |
-| IGES (.igs)                | [T100-THRUSTER-BLUEESC-R1.IGS](/thrusters/cad/T100-THRUSTER-BLUEESC-R1.IGS) |
-| STL (.stl)                 | [T100-THRUSTER-BLUEESC-R1.STL](/thrusters/cad/T100-THRUSTER-BLUEESC-R1.STL) |
-| All Formats in a Zip File (.zip)   | [T100-THRUSTER-BLUEESC-R1.zip](/thrusters/cad/T100-THRUSTER-BLUEESC-R1.zip) |
 
 ### Mounting Bracket
 
@@ -203,10 +186,6 @@ The thruster has a cable containing three wires. These three wires must be conne
 
 The three wires in the cable (green, white, blue) are always connected to the same motor phases, so connecting the colors in a consistent fashion will result in all motors rotating in the same direction.
 
-### Connecting the BlueESC
-
-The BlueESC must be pre-installed on the T100 Thruster. 
-
 ## How to Cut and Strip the Cable
 
 The thruster comes with a tough urethane-jacketed cable. This is great for use underwater, but it can be a little difficult to remove the jacket from the wires if you want to cut the cable to a shorter length. During production, we use a thermal wire strippers, but the jacket can also be removed with a razor blade or hobby knife. Check out the cable stripping tutorial with pictures here:
@@ -221,20 +200,16 @@ The thruster comes with a tough urethane-jacketed cable. This is great for use u
 
 # Operation
 
-The thruster requires a brushless electronic speed controller (ESC). If you are using the BlueRobotics BasicESC or BlueESC, please see the appropriate product page for instructions.
+The thruster requires a brushless electronic speed controller (ESC). Check out our Basic ESC page for more information.
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
   	<div class="tile" style="background-image:url(/assets/images/documentation/besc-3-new.png)">
   		<a href="/besc/">Basic ESC <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
-  </div>
-  <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(/assets/images/documentation/blueesc-inside.jpg)">
-  		<a href="/bluesc/">BlueESC <i class="fa fa-chevron-circle-right"></i></a>
-  	</div>
-  </div>
+ </div>
 </div>
+
 
 
 **Important:**
