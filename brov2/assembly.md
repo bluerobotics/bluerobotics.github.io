@@ -608,9 +608,7 @@ Here is a diagram of where the thrusters go, and how they should be oriented. Th
 <img src="http://ardusub.com/images/vectored-frame.png" class="img-responsive" style="max-width:900px" />
 </p>
 
-1. Apply one drop of threadlocker to the 16 M3x16 screws and the 8 M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
-
-1. Install thrusters 1 and 2 underneath the front center panels, using the M3x16 screws. Tighten the screws so that they indent the frame slightly. It is physically possible to keep turning the screw at this point, but it isn't recommended.
+1. Install thrusters 1 and 2 underneath the front center panels, using the M3x16 screws. Tighten the screws so that they indent the frame slightly. It is physically possible to keep turning the screw at this point, but it isn't recommended. DO NOT use threadlocker unless you have threadlocker rated for use with polycarbonate
 	
 2. Install thrusters 5 and 6, using the M3x12 screws on the side panels. Tighten the screws so that they indent the frame slightly.
 
