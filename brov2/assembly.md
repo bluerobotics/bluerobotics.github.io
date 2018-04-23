@@ -77,6 +77,8 @@ The BlueROV2 kit comes almost ready to dive. The assembly can be completed with 
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with silicone grease and threadlocker, take care to minimize skin contact. Wear protective nitrile or PVC gloves when handling.
 
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> Only apply threadlocker to screws contacting metal or the HDPE frame. Most threadlockers are not chemically compatible with with polycarbonate, and will damage the thrusters, fairings, and dome flange if used here. Refer to the documentation and chemical compatibilty notes of your threadlocker of choice for more information.
+
 # Required Tools (Not Included)
 
 - \#2 Phillips head screwdriver 
