@@ -49,8 +49,8 @@ For further information please see the [30-3UL Data Sheet.](http://www.grayhill.
 | ------------- | --------- |
 |                **Pressure**                  		 |
 | ------------- | ---------------------------------- |
-| Maximum Tested Depth (Saltwater) | 660 ft | 200 m | 
-| Maximum Pressure | 290psi | 2000 kPa |
+| Maximum Tested Depth (Saltwater) | 3,280 ft | 1000 m | 
+| Maximum Pressure | 1430 psi | 9,810 kPa |
 | ---------------- | ------------------------------- |
 |  **Physical**  |
 | Overall Length | 56 mm | 2.2 in |
