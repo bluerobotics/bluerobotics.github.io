@@ -141,6 +141,11 @@ You can use the menu bar at the top to find the product you are looking for and 
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/bar02/bar-02-1.jpg)">
+      <a href="/bar02/"><em>Bar02</em> Pressure Sensor <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/bar30/cad/pressure-sensor-3.png)">
       <a href="/bar30/"><em>Bar30</em> Pressure Sensor <i class="fa fa-chevron-circle-right"></i></a>
     </div>
