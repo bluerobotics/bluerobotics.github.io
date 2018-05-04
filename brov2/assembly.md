@@ -350,7 +350,7 @@ The endcap will need to be removed from the electronics enclosure in order to in
 To install the Penetrators you will need the following parts and tools:
 
 - 1 x Cable Penetrator Nut (Black for Standadrd Tether/Red for Slim Tether), and O-ring from one end of the Tether
-- 6 x Cable Penetrator Nut (red), and O-ring from bag inside each Thruster canniser package
+- 6 x Cable Penetrator Nut (red), and O-ring from bag inside each Thruster tube packages
 - (Optional if no Lumens) 1 x Cable Penetrator Nut (red) and O-ring from spares bag
 - 1 x Silicone Grease - 10g Tube
 - 1 x Aluminum End Cap with 14 Holes w/ 3 Cable Penetrator Blanks, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable installed
