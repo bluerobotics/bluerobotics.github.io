@@ -138,7 +138,7 @@ You can use the menu bar at the top to find the product you are looking for and 
 
 <div class="col-sm-4 col-md-4">
 <div class="tile" style="background-image:url(/assets/images/documentation/Explorer-Kit-S1.jpg)">
-    <a href="/waterlinked/">Underwater GPS<i class="fa fa-chevron-circle-right"></i></a>
+    <a href="/waterlinked/">Underwater GPS <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
 
