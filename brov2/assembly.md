@@ -131,14 +131,17 @@ Quantity      | Part																		| Usage
 1             | XT90 to 3.5 mm bullet connector adapter										| Adapting power wire connector to battery connector
 4             | M4x14 socket head cap screw (316 stainless steel)   						| Mounting the battery cradle to the frame
 4             | M3x12 socket head cap screws (316 stainless steel)             				| Connecting the battery cradles to each other    
-1			  | 1 1/2" long x 3/8" diameter heat shrink										| Battery cable strain relief       
+1			  | 1 1/2" long x 3/8" diameter heat shrink										| Battery cable strain relief 
+2			  | 1 1/2" long x 3/8" diameter heat shrink										| Battery cable strain relief       
 
 ## Thrusters
 
 Quantity      | Part													| Usage
 ------------- | --------------------------------------------------------|--------------
-3   		  | T200 Thrusters w/ Clockwise Propeller installed			|
-3 			  | T200 Thrusters w/ Counter-Clockwise Propeller installed |      
+3   	      | T200 Thrusters w/ Clockwise Propeller installed			|
+3 	      | T200 Thrusters w/ Counter-Clockwise Propeller installed |   
+6             | Cable Penetrator Nut      | Penetrator nuts for Thrusters (Located in packaging with Thrusters)
+6	      | 013 O-ring                | Penetrator O-rings for Thrusters (Located in packaging with Thrusters)
 16            | M3x16 socket head cap screw (316 stainless steel)      	| Mounting thrusters 1, 2, 3, and 4 to the frame
 8 			  | M3x12 socket head cap screw (316 stainless steel)		| Mounting thrusters 5 and 6 to the frame
 30            | 5 1/2" zip ties (nylon)									| Routing the thruster and lumen cables
@@ -204,9 +207,9 @@ Quantity      | Part
 
 Quantity      | Part                      | Usage
 ------------- | ------------------------- | -----------------
-1             | Cable Penetrator Blank    | Fill the hole for Lumen Penetrator if you aren't using Lumens
-2			  | 013 O-ring                | Extra penetrator O-rings
-1             | Cable Penetrator Nut      | Used with Cable Penetrator Blank if you aren't using Lumens
+2             | Cable Penetrator Blank    | Fill the hole for Lumen Penetrator if you aren't using Lumens
+2	      | 013 O-ring                | Extra penetrator O-rings
+2             | Cable Penetrator Nut      | 1x Used for Battery Cable in Battery Enclosure / 1x Used with Cable Penetrator Blank if you aren't using Lumens
 
 
 ## What You Need for Operation that is Not Included 
@@ -244,7 +247,7 @@ To mount the battery enclosure to the bottom panel you will need the following p
 
 4. Apply one drop of threadlocker to each of the 4 M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 
-6. Place the Watertight Enclosure for ROV/AUV (3" Series) between the two Enclosure Clamps (3" Series) and install the four M3x12 screws into the Enclosure Clamps (3" Series). Note that each of the Enclosure Clamps (3" Series) are tapped on only one side. Install all four screws loosly at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the Enclosure Clamps (3" Series).
+6. Place the Watertight Enclosure for ROV/AUV (3" Series) between the two Enclosure Clamps (3" Series). The Enclosure Clamps have tapped holes on one side and untapped holes on the other. Install the four M3x12 screws into the Enclosure Clamps (3" Series) so that the screws pass through the untapped holes on the first clamp and are secured into the tapped holes on the alternate clamp. Install all four screws loosly at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the Enclosure Clamps (3" Series).
 
 	<img src="/brov2/cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
 
@@ -346,7 +349,9 @@ The endcap will need to be removed from the electronics enclosure in order to in
 
 To install the Penetrators you will need the following parts and tools:
 
-- 1 x Bag with one Cable Penetrator Nut (black), eight Cable Penetrator Nut (red), and nine O-rings
+- 1 x Cable Penetrator Nut (Black for Standadrd Tether/Red for Slim Tether), and O-ring from one end of the Tether
+- 6 x Cable Penetrator Nut (red), and O-ring from bag inside each Thruster tube packages
+- (Optional if no Lumens) 1 x Cable Penetrator Nut (red) and O-ring from spares bag
 - 1 x Silicone Grease - 10g Tube
 - 1 x Aluminum End Cap with 14 Holes w/ 3 Cable Penetrator Blanks, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable installed
 - 3 x T200 with counter-clockwise thrusters 
@@ -367,7 +372,7 @@ If you install the remaining penetrators as shown in the diagram below, it will 
 
 	<img src="/brov2/cad/grease-o-ring.png" class="img-responsive" style="max-width:900px" />
 
-2. Wipe the exterior surface of the electronics enclosure endcap clean, and make sure it is free of any particles in the areas where the penetrator O-rings will sit.
+2. Wipe the exterior surface of the electronics enclosure endcap clean with isopropyl alcohol or isopropyl alcohol wipes, and make sure it is free of any particles in the areas where the penetrator O-rings will sit.
 
 3. Install the O-rings onto all of the thruster penetrators, the lumen penetrator, and the tether penetrator. 
 
@@ -376,11 +381,11 @@ If you install the remaining penetrators as shown in the diagram below, it will 
 	1. Thruster 1 (CCW propeller) with red penetrator nut
 	2. Thruster 5 (CCW propeller) with red penetrator nut
 	3. Thruster 3 (CW propeller) with red penetrator nut
-	4. Lumen with red penetrator nut
+	4. Lumen with red penetrator nut (or Blank Penetrator (red) if not installing Lumens)
 	5. Thruster 4 (CW propeller) with red penetrator nut
 	6. Thruster 6 (CW propeller) with red penetrator nut
 	7. Thruster 2 (CCW propeller) with red penetrator nut
-	8. Tether with black penetrator nut
+	8. Tether with black penetrator nut (standard Tether) or red penetrator nut (Slim Tether)
 
 ## Installing the End Cap
 
@@ -409,7 +414,7 @@ To reinstall the Aluminum End Cap with 14 Holes you will need the following part
 
 To complete the assembly of the battery enclosure you need the following parts and tools:
 
-- 1 x Bag with one red penetrator nut and one O-ring left in it
+- 1 x Bag with one Cable Penetrator Nut (Red) and one O-ring left in it
 - 1 x Silicone Grease - 10g Tube
 - 1 x End Cap with 4 Holes (3" Series)
 - 1 x Penetrator wrench
@@ -423,17 +428,19 @@ To complete the assembly of the battery enclosure you need the following parts a
 	
 3. Install the battery power cable penetrator into the opening in the battery end cap.
 
-4. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator. 
+4. Install one Cable Penetrator Nut (Red) on to the battery power cable penetrator and tighten with penetrator wrench.
 
-5. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires. You should be able to see the threads in the penetrator through the heat shrink.
+5. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator. 
+
+6. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires. You should be able to see the threads in the penetrator through the heat shrink.
 
 	<img src="/brov2/cad/brov2-strain-relief-2.png" class="img-responsive" style="max-width:900px" />
 
-6. Install the XT90 to bullet connector adapter to the battery power wire. 
+7. Install the XT90 to bullet connector adapter to the battery power wire. 
 
 	<img src="/brov2/cad/brov2-bullet-to-xt90.png" class="img-responsive" style="max-width:900px" />
 
-7. If you wish to do the Optional Preliminary Vacuum Test, remove the Vent Plug from the Vent Penetrator Bolt and install the endcap onto the battery enclosure. You will also need to remove the Vent Plug for the Vent Penetrator Bolt on the electronics enclosure.
+8. If you wish to do the Optional Preliminary Vacuum Test, remove the Vent Plug from the Vent Penetrator Bolt and install the endcap onto the battery enclosure. You will also need to remove the Vent Plug for the Vent Penetrator Bolt on the electronics enclosure.
 
 ## Optional Preliminary Vacuum Test
 
