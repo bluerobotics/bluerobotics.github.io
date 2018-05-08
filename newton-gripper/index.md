@@ -49,13 +49,11 @@ The [EagleCAD files](https://github.com/bluerobotics/newton-gripper) for the sch
 
 ## Specification Table
 
-For further information please see the [Cree XLamp MK-R LED Data Sheet](http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampMKR.pdf). The specific LED model used is MKRAWT-00-0000-0B00H4051.
 
 |      **Electrical**       |
 | ------------- | --------- |
 | **Item** | **Value** |
 | Supply Voltage (V<sub>in</sub>) | 7 - 48 volts |
-| Full Brightness Supply Voltage (V<sub>in</sub>) | 10 - 48 volts |
 | PWM Logic Voltage  | 3 - 48 volts |
 | Peak Current   | 15 / V<sub>in</sub> amps  |
 | ------------- | --------- |
@@ -85,7 +83,7 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 | Weight in Water (w/ 1m cable) | 32 g    |  1.1 oz   |
 |----------------------|
 
-[1] Pressure rating is based on design and a conservative safety factor until testing is completed.
+[1] Pressure rating is based on design and a conservative safety factor.
 
 ## 2D Drawings
 
@@ -113,100 +111,113 @@ All 3D models are provided in zip archives containing the follow file types:
 
 # Installation
 
-The _Newton Gripper_ can be installed using the accompanying mount.
+The _Newton Gripper_ can be easily installed onto a BlueROV2 using the accompanying mount.
 
-## Mounting to a BlueROV2
+## Removing a Blank Penetrator
 
-The center hole is best used when you can't tighten a screw into the two threaded holes. Use a flat head screw to fit in the countersink in the mount.
+To remove a blank penetrator from your BlueROV2, you will need the following tools:
 
-1. Drill one hole between 3.1mm and 3.3mm in diameter on the part that you wish to mount the light.
+- 1 x 2.5 mm hex driver
+- 1x #1 Phillips head screwdriver
+- 1x Penetrator wrench
 
-	<img src="/lumen/cad/lumen-tutorial-11.png" class="img-responsive" style="max-width:600px" />
+1.	To ensure your ROV is completely powered off, please remove the battery completely from the 3” enclosure and place to the side.
 
-2. Install an M3x0.5 flat-head screw in the mount. We recommend using 316 stainless steel screws.
+<img src="/newton-gripper/cad/gripper-tutorial-1.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
-	<img src="/lumen/cad/lumen-tutorial-12.png" class="img-responsive" style="max-width:600px" />
+2.	Remove the fairings and buoyancy blocks by removing the self-tapping screws that hold the fairings to the frame.
 
-3. Fasten the screw to your vehicle with a nut or threaded hole. You can loosen and retighten to adjust the angle of the light.
+<img src="/newton-gripper/cad/gripper-tutorial-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
-4. Use 133 O-ring (included) to attach the _Lumen_ Light to the _Lumen_ Mount.
+3.	Remove the 4” Electronics enclosure from the ROV by removing the M3x16 screws that mount the enclosure to the ROV cradle.
 
-	<img src="/lumen/cad/lumen-tutorial-14.png" class="img-responsive" style="max-width:600px" />
+4. 	Remove the Vent Plug from the Vent Penetrator Bolt on the electronics enclosure. Remove the 4" Tube and forward dome assembly from the rear end cap.
+
+5.	Remove the blank penetrator as pictured from the 4” End Cap with the penetrator wrench that came with the BlueROV2 kit.
+
+<img src="/newton-gripper/cad/end-cap-remove.jpg" class="img-responsive img-center" style="max-width:800px"  />
+
+## Install Newton Gripper Penetrator
+
+To install the Newton Gripper into the end cap, you will need the following parts and tools:
+
+-	1 x Newton Gripper assembly
+-	1 x Penetrator Nut (Red)
+-   1 x Penetrator O-ring
+-	1 x Silicone Grease – 10g Tube
+-   1 x Isopropyl Alcohol Wipe
+-	1 x Penetrator wrench
+
+1.	Wipe the exterior surface of the electronics enclosure endcap clean with isopropyl alcohol or isopropyl alcohol wipes, and make sure it is free of any particles in the areas where the penetrator O-ring will sit.
+2.	Remove the O-ring from the bag and apply silicone grease to it.
+3.	Install the O-ring onto the Gripper cable penetrator.
+4.  Install the Gripper cable penetrator on to the end cap in the hole your previously removed the blank penetrator from. Tighten to finger tight, then use the provided wrench to tighten it an additional ~1/16 of a turn. If you can’t loosen it with your fingers, it are tight enough.
 
 ## Wiring Connections
 
-The two threaded holes are best used when you have access to install a screw that tightens into the holes. This applies to most ROVs. Note that the threaded holes have the same size and spacing as the thruster mounting holes so you can use a thruster mounting bracket or hole pattern.
+To install the Newton Gripper wires into your BlueROV2, you will need the following tool:
 
-1. Drill two holes between 3.1mm and 3.3mm in diameter 19mm apart on the part you wish to mount the light.
+-	1 x Large (~#2) Phillips head screw driver
 
-	<img src="/lumen/cad/lumen-tutorial-10.png" class="img-responsive" style="max-width:600px" />
+1.  Plug the Gripper Signal Wire (Yellow) into Aux Channel 3 (or other free AUX Channel) with the yellow wire oriented toward the bottom of the Pixhawk.
+2.  Connect the power wires (red and black wires) into open screw terminals on the respective positive and negative terminal blocks.
 
-2. Install two M3x0.5 screws through the holes that you just drilled. We recommend 316 stainless steel screws and they should be roughly 1.5 - 3.0mm longer than the thickness of the part that you are mounting to.
+## Reassemble BlueROV2 Electronics Enclosure
 
-	<img src="/lumen/cad/lumen-tutorial-13.png" class="img-responsive" style="max-width:600px" />
+To reassemble your BlueROV2 electronics Enclosure, you will need the following parts and tools:
 
-3. Tighten the screws into the _Lumen_ mount. 
+-	4 x M3x16 screws that were placed off to the side during disassembly
+-	1 x Silicone Grease – 10g Tube
+-	1 x Threadlocker
+-	1 x 2.5 mm hex driver
 
-4. Use 133 O-ring (included) to attach the _Lumen_ Light to the _Lumen_ Mount.
+1.	Reinstall 4” Watertight Enclosure onto ROV with the following steps:
+    - Apply silicone grease to the two radial O-rings on the O-Ring Flange (4” Series) that is attached to the Electronics Tray then install the Watertight Enclosure (4” Series) with installed Dome End Cap to the O-Ring Flange (4” Series).
+    - Apply one drop of threadlocker to each of the four M3x16 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
+    - Mount the Electronics Enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels (the center panels without the 3 large holes). Install the M3x16 screws through the clips and into the Enclosure Cradle (4” Series). It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the Enclosure Cradle (4” Series). This allows to clips to rotate so you can find the threaded hole in the Enclosure Cradle (4” Series) easily.
+<img src="/brov2-heavy/cad/heavy-step-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
-	<img src="/lumen/cad/lumen-tutorial-14.png" class="img-responsive" style="max-width:600px" />
+## Mounting the Newton Gripper to the BlueROV2 Frame
+
+To mount the Newton Gripper to the BlueROV2 Frame, you will need the following parts and tools:
+
+1. Remove the rear end cap from the 3" battery enclosure.
+2. Remove the bottom frame panel from the BlueROV2 by removing the four M5x16 Screws.
+3. Remove the 3" battery enclosure by removing the M4x14 Screws from the bottom of the frame.
+4. Align the provided template onto the bottom side ()
+
+## Cable Management
+
+To clean up the external Newton Gripper cable, you will need the bag of xx zip ties and your scissors/wire cutters.
+
+The primary goal of Thruster and Lumen cable management is to prevent the wires from getting cut by the propellers. Make sure to check that no wire can reach a propeller after you have finished routing the cables. Below are some examples of what the cable routing should look like.
+
+<img src="/brov2-heavy/cad/heavy-tutorial-20.jpg" class="img-responsive img-center" style="max-width:800px"  />
+
+## Reinstall Buoyancy Blocks and Fairings
+
+To install the new buoyancy blocks and fairings, you will need the following parts and tools:
+
+-	16 x Fairing screws that were placed off to the side during disassembly
+-	4 x Fairings with buoyancy installed that were placed off to the side during disassembly
+-	2 x Heavy additional buoyancy blocks
+-	2 x Heavy fairings
+-	1 x Bag of 4 fairing screws
+-	1x #1 Phillips head screwdriver
+-   1x #2 Phillips head screwdriver
+
+1.	 Reinstall Original Fairing Blocks onto ROV by installing the screws through the center panels and into the fairings.
+<img src="/brov2-heavy/cad/heavy-step-3.PNG" class="img-responsive img-center" style="max-width:800px"  />
+
+## Adjusting Ballast on the Frame
+
+To adjust the amount or position of ballast on the frame you need the following parts and tools:
+
+- 7 x 200g ballast weights (from original BlueROV2 Kit)
+- 10 x 8-16 Thread, 5/8” Long, Thread-Forming Screw
+- 1 x #2 phillips head screwdriver
+
+To get the longest battery life and the best driving experience, it is important to have the ROV close to balanced from front to back in water and close to neutrally buoyant. The Newton Gripper adds a bit of weight and more buoyancy to the ROV, so it will need to be retrimmed based on your operating conditions. Trimming the ballast may involve a bit of trial and error.
 
 ## Setup in QGroundControl
-
-The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_chain_%28electrical_engineering%29) using the following procedure:
-
-1. Measure the distance between where you want to mount the two lights, as you plan on routing the cable between them, then cut cable to length from one _Lumen_ Light. We recommend leaving several inches excess.
-
-2. [Strip approximately 50 mm of jacket](http://docs.bluerobotics.com/tutorials/cable-stripping/) from the wire you just cut, then strip and tin 2-4mm of conductor insulation from each conductor.
-
-	<img src="/lumen/cad/lumen-wire-annotated.png" class="img-responsive" style="max-width:700px" />
-	
-3. Twist the wires together and install into the blue penetrator. 
-
-	<img src="/lumen/cad/lumen-tutorial-16.png" class="img-responsive" style="max-width:700px" />
-		
-4. Apply marine epoxy to the conductor jackets when the cable jacket is approximately even with the top of the penetrator.
-
-	<img src="/lumen/cad/lumen-tutorial-1.png" class="img-responsive" style="max-width:700px" />
-
-5. Insert the cable the rest of the way into the penetrator, and twist back and forth to maximize the area the epoxy covers.
-
-	<img src="/lumen/cad/lumen-tutorial-2.png" class="img-responsive" style="max-width:700px" />
-	_This is what the top should look like_
-	
-	<img src="/lumen/cad/lumen-tutorial-3.png" class="img-responsive" style="max-width:700px" />
-	_This is what the bottom should look like_
-
-6. Set cable flat on a sturdy surface and allow the marine epoxy approximately 2 hours to dry.
-	
-7. Fill the penetrator hole with the epoxy. Move the cable from side to side within the hole to ensure the epoxy is filling any gaps. Use a vice or other method to hold the penetrator upright while the epoxy cures.
-
-	<img src="/lumen/cad/lumen-tutorial-4.png" class="img-responsive" style="max-width:700px" />
-
-8. Allow 24 hours for the marine epoxy to fully cure
-	
-9. Remove blank penetrator from the flange cap of the _Lumen_ that you have not been working on.	
-
-	<img src="/lumen/cad/lumen-tutorial-5.png" class="img-responsive" style="max-width:700px" />
-	
-10. Remove the aluminum flange cap from the back of the _Lumen_ that you just removed the blank penetrator from.
-
-	<img src="/lumen/cad/lumen-tutorial-6.png" class="img-responsive" style="max-width:700px" />
-	
-11. Apply a thin coating of silicone grease to a 010 O-ring (included), install O-ring on penetrator, and then tighten the penetrator to the flange cap where the blank penetrator used to be. Tighten using a wrench to ensure the penetrator is tight.
-
-	<img src="/lumen/cad/lumen-tutorial-15.png" class="img-responsive" style="max-width:700px" />
-
-12. Solder the wires to "daisy chain pads" on the _Lumen_ Light PCB.
-	- Black: GND
-	- Red: VIN
-	- Yellow: PWM
-
-	<img src="/lumen/cad/Lumen-soldering.png" class="img-responsive" style="max-width:700px" />	
-	
-13. Reinstall aluminum flange cap on the light, and that's it!
-
-	<img src="/lumen/cad/lumen-tutorial-9.png" class="img-responsive" style="max-width:700px" />	
-
-
 
