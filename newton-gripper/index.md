@@ -131,6 +131,8 @@ To remove a blank penetrator from your BlueROV2, you will need the following too
 
 3.	Remove the 4” Electronics enclosure from the ROV by removing the M3x16 screws that mount the enclosure to the ROV cradle.
 
+<img src="/newton-gripper/cad/clip-installation.PNG" class="img-responsive img-center" style="max-width:800px"  />
+
 4. 	Remove the Vent Plug from the Vent Penetrator Bolt on the electronics enclosure. Remove the 4" Tube and forward dome assembly from the rear end cap.
 
 5.	Remove the blank penetrator as pictured from the 4” End Cap with the penetrator wrench that came with the BlueROV2 kit.
@@ -150,8 +152,10 @@ To install the Newton Gripper into the end cap, you will need the following part
 
 1.	Wipe the exterior surface of the electronics enclosure endcap clean with isopropyl alcohol or isopropyl alcohol wipes, and make sure it is free of any particles in the areas where the penetrator O-ring will sit.
 2.	Remove the O-ring from the bag and apply silicone grease to it.
+<img src="/newton-gripper/cad/grease-o-ring.PNG" class="img-responsive img-center" style="max-width:800px"  />
 3.	Install the O-ring onto the Gripper cable penetrator.
 4.  Install the Gripper cable penetrator on to the end cap in the hole your previously removed the blank penetrator from. Tighten to finger tight, then use the provided wrench to tighten it an additional ~1/16 of a turn. If you can’t loosen it with your fingers, it are tight enough.
+<img src="/newton-gripper/cad/end-cap-remove.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Wiring Connections
 
@@ -175,7 +179,8 @@ To reassemble your BlueROV2 electronics Enclosure, you will need the following p
     - Apply silicone grease to the two radial O-rings on the O-Ring Flange (4” Series) that is attached to the Electronics Tray then install the Watertight Enclosure (4” Series) with installed Dome End Cap to the O-Ring Flange (4” Series).
     - Apply one drop of threadlocker to each of the four M3x16 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
     - Mount the Electronics Enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels (the center panels without the 3 large holes). Install the M3x16 screws through the clips and into the Enclosure Cradle (4” Series). It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the Enclosure Cradle (4” Series). This allows to clips to rotate so you can find the threaded hole in the Enclosure Cradle (4” Series) easily.
-<img src="/brov2-heavy/cad/heavy-step-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
+
+<img src="/newton-gripper/cad/clip-installation.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Mounting the Newton Gripper to the BlueROV2 Frame
 
@@ -184,15 +189,16 @@ To mount the Newton Gripper to the BlueROV2 Frame, you will need the following p
 1. Remove the rear end cap from the 3" battery enclosure.
 2. Remove the bottom frame panel from the BlueROV2 by removing the four M5x16 Screws.
 3. Remove the 3" battery enclosure by removing the M4x14 Screws from the bottom of the frame.
-4. Align the provided template onto the bottom side ()
+<img src="/newton-gripper/cad/gripper-tutorial-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
+4. Align the provided template onto the bottom side (with the counterbore holes) and tape in place ???
+5. With a hand powered drill and XXmm drill bit, drill straight holes in the indicated poisition markings. 
+6. 
 
 ## Cable Management
 
 To clean up the external Newton Gripper cable, you will need the bag of xx zip ties and your scissors/wire cutters.
 
-The primary goal of Thruster and Lumen cable management is to prevent the wires from getting cut by the propellers. Make sure to check that no wire can reach a propeller after you have finished routing the cables. Below are some examples of what the cable routing should look like.
-
-<img src="/brov2-heavy/cad/heavy-tutorial-20.jpg" class="img-responsive img-center" style="max-width:800px"  />
+The primary goal of cable management is to prevent the wires from getting cut by the propellers. Make sure to check that no wire can reach a propeller after you have finished routing the Newton Gripper cable. Below are some examples of what the cable routing should look like.
 
 ## Reinstall Buoyancy Blocks and Fairings
 
@@ -200,14 +206,11 @@ To install the new buoyancy blocks and fairings, you will need the following par
 
 -	16 x Fairing screws that were placed off to the side during disassembly
 -	4 x Fairings with buoyancy installed that were placed off to the side during disassembly
--	2 x Heavy additional buoyancy blocks
--	2 x Heavy fairings
--	1 x Bag of 4 fairing screws
 -	1x #1 Phillips head screwdriver
--   1x #2 Phillips head screwdriver
 
 1.	 Reinstall Original Fairing Blocks onto ROV by installing the screws through the center panels and into the fairings.
-<img src="/brov2-heavy/cad/heavy-step-3.PNG" class="img-responsive img-center" style="max-width:800px"  />
+
+<img src="/newton-gripper/cad/gripper-tutorial-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Adjusting Ballast on the Frame
 
@@ -217,7 +220,7 @@ To adjust the amount or position of ballast on the frame you need the following 
 - 10 x 8-16 Thread, 5/8” Long, Thread-Forming Screw
 - 1 x #2 phillips head screwdriver
 
-To get the longest battery life and the best driving experience, it is important to have the ROV close to balanced from front to back in water and close to neutrally buoyant. The Newton Gripper adds a bit of weight and more buoyancy to the ROV, so it will need to be retrimmed based on your operating conditions. Trimming the ballast may involve a bit of trial and error.
+To get the longest battery life and the best driving experience, it is important to have the ROV close to balanced from front to back in water and close to neutrally buoyant. The Newton Gripper adds a bit of weight to the ROV, so it will need to be retrimmed based on your operating conditions. Trimming the ballast may involve a bit of trial and error.
 
 ## Setup in QGroundControl
 
