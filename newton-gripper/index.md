@@ -146,6 +146,7 @@ To install the Newton Gripper into the end cap, you will need the following part
 2.	Remove the O-ring from the bag and apply silicone grease to it.
 <img src="/newton-gripper/cad/grease-o-ring.png" class="img-responsive img-center" style="max-width:800px"  />
 3.	Install the O-ring onto the Gripper cable penetrator.
+
 4.  Install the Gripper cable penetrator on to the end cap in the hole your previously removed the blank penetrator from. Tighten to finger tight, then use the provided wrench to tighten it an additional ~1/16 of a turn. If you can’t loosen it with your fingers, it is tight enough.
 <img src="/newton-gripper/cad/end-cap-remove.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
