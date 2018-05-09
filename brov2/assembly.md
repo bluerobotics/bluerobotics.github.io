@@ -216,10 +216,12 @@ Quantity      | Part                      | Usage
 
 There are some items necessary for operation that are not included with the kit. 
 
- - A gamepad controller. We recommend [an Xbox360 Controller](https://www.amazon.com/Microsoft-Wired-Controller-Windows-Console/dp/B004QRKWLA?th=1) or [a Logitech F310 Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
- - A laptop or a Windows tablet. QGroundControl works on Mac, Windows, and Linux.
- - A battery for the BlueROV2. We recommend getting our [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
- - A 4S capable LiPo/Li-Ion balance battery charger. We use and recommend [this one](https://hobbyking.com/en_us/turnigy-reaktor-300w-20a-ac-dc-synchronous-balance-charger-discharger-us-plug.html).
+ - A gamepad controller. We recommend [this XBox One Controller](https://www.microsoft.com/en-us/store/d/xbox-wireless-controller/8vcw8gln9vrf/ljvk?cid=msft_web_collection&activetab=pivot%3atechspecstab) or [this Logitech Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
+ - A laptop or a Windows 10 tablet. QGroundControl works on Mac, Windows 10, and Linux.
+ - A battery for the BlueROV2. We recommend getting our [18Ah Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
+ - A battery charger, such as our [Lithium Battery Charger](http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/).  
+ - A USB Cable - A-Male to Mini-B (any length) such as [this one] (https://www.amazon.com/AmazonBasics-USB-2-0-Cable-Male/dp/B00NH13S44/ref=sr_1_3?s=electronics&ie=UTF8&qid=1525883524&sr=1-3&keywords=mini+usb+cable)
+ - An Ethernet Patch Cable (any length) such as [this one]. (https://www.amazon.com/AmazonBasics-Network-Ethernet-Patch-Cable/dp/B013PUMQYY/ref=sr_1_1_sspa?ie=UTF8&qid=1525883675&sr=8-1-spons&keywords=ethernet+cable+3ft&psc=1)
  
 # Assembling the Frame
 
