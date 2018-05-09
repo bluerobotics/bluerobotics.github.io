@@ -416,7 +416,7 @@ To reinstall the Aluminum End Cap with 14 Holes you will need the following part
 
 To complete the assembly of the battery enclosure you need the following parts and tools:
 
-- 1 x Bag with one Cable Penetrator Nut (Red) and one O-ring left in it
+- 1 x Bag labeled "Extra Blank Penetrators [2]"
 - 1 x Silicone Grease - 10g Tube
 - 1 x End Cap with 4 Holes (3" Series)
 - 1 x Penetrator wrench
