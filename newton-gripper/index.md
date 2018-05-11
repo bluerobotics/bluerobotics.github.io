@@ -22,7 +22,7 @@ manual-links:
 - BlueROV2: /brov2
 ---
 
-<img src="/newton-gripper/cad/newton-gripper.png" class="img-responsive" style="max-width:900px"  />
+<img src="/newton-gripper/cad/newton-gripper.png" class="img-responsive" style="max-width:600px"  />
 
 # Introduction
 
