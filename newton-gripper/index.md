@@ -11,9 +11,16 @@ nav:
 - - 2D Drawings: 2d-drawings
 - - 3D Model: 3d-model
 - Installation: installation
-- - Mounting to a BlueROV2: mounting-to-a-bluerov2
+- - Removing a Penetrator: removing-a-blank-penetrator
+- - Install Gripper Penetrator: install-newton-gripper-penetrator
 - - Wiring Connections: wiring-connections
+- - Reassemble Electronics Enclosure: reassemble-bluerov2-electronics-enclosure
+- - Mounting the Newton Gripper: mounting-the-newton-gripper-to-the-bluerov2-frame
+- - Cable Management: cable-management
+- - Reinstall Buoyancy Blocks and Fairings: reinstall-buoyancy-blocks-and-fairings
+- - Adjusting Ballast: adjusting-ballast-on-the-frame
 - - Setup in QGC: setup-in-qgroundcontrol
+
 
 store-links:
 - Newton Gripper:  https://www.bluerobotics.com/store/-/newton-gripper-r1/
@@ -172,12 +179,10 @@ To reassemble your BlueROV2 electronics Enclosure, you will need the following p
 
 -	4 x M3x16 screws that were placed off to the side during disassembly
 -	1 x Silicone Grease – 10g Tube
--	1 x Threadlocker
 -	1 x 2.5 mm hex driver
 
 1.	Reinstall 4” Watertight Enclosure onto ROV with the following steps:
     - Apply silicone grease to the two radial O-rings on the O-Ring Flange (4” Series) that is attached to the Electronics Tray then install the Watertight Enclosure (4” Series) with installed Dome End Cap to the O-Ring Flange (4” Series).
-    - Apply one drop of threadlocker to each of the four M3x16 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
     - Mount the Electronics Enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels (the center panels without the 3 large holes). Install the M3x16 screws through the clips and into the Enclosure Cradle (4” Series). It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the Enclosure Cradle (4” Series). This allows to clips to rotate so you can find the threaded hole in the Enclosure Cradle (4” Series) easily.
 
 <img src="/newton-gripper/cad/clip-installation.PNG" class="img-responsive img-center" style="max-width:800px"  />
@@ -190,9 +195,13 @@ To mount the Newton Gripper to the BlueROV2 Frame, you will need the following p
 2. Remove the bottom frame panel from the BlueROV2 by removing the four M5x16 Screws.
 3. Remove the 3" battery enclosure by removing the M4x14 Screws from the bottom of the frame.
 <img src="/newton-gripper/cad/gripper-remove-battery-enclosure.png" class="img-responsive img-center" style="max-width:800px"  />
-4. Align the provided template onto the bottom side (with the counterbore holes) and tape in place ???
+4. Align the provided template onto the bottom side (with the counterbore holes) and tape in place.
 5. With a hand powered drill and XXmm drill bit, drill straight holes in the indicated poisition markings. 
-6. 
+6. Re-attach the 3" battery enclosure to the frame with the M4x14 Screws.
+7. Re-attach the bottom frame panel to the BlueROV2 with the four M5x16 Screws.
+8. Place the Gripper assembly into the Mount half with the holes for mounting onto the frame.
+9. Slide the other Mount half onto the gripper assembly and insert the Thumbscrew into the mount hole.
+10. Coming from the aft end of the BlueROV2, weave the Gripper assembly into its mounting location and secure with the included M5x16 Screws.
 
 ## Cable Management
 
