@@ -202,6 +202,7 @@ To mount the Newton Gripper to the BlueROV2 Frame, you will need the following p
 8. Place the Gripper assembly into the Mount half with the holes for mounting onto the frame.
 9. Slide the other Mount half onto the gripper assembly and insert the Thumbscrew into the mount hole.
 10. Coming from the aft end of the BlueROV2, weave the Gripper assembly into its mounting location and secure with the included M5x16 Screws.
+11. 
 
 ## Cable Management
 
