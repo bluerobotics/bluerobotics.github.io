@@ -122,21 +122,14 @@ To remove a blank penetrator from your BlueROV2, you will need the following too
 - 1x Penetrator wrench
 
 1.	To ensure your ROV is completely powered off, please remove the battery completely from the 3” enclosure and place to the side.
-
 <img src="/newton-gripper/cad/gripper-tutorial-1.jpg" class="img-responsive img-center" style="max-width:800px"  />
-
 2.	Remove the fairings and buoyancy blocks by removing the self-tapping screws that hold the fairings to the frame.
-
 <img src="/newton-gripper/cad/gripper-tutorial-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
-
 3.	Remove the 4” Electronics enclosure from the ROV by removing the M3x16 screws that mount the enclosure to the ROV cradle.
-
 <img src="/newton-gripper/cad/clip-installation.PNG" class="img-responsive img-center" style="max-width:800px"  />
-
 4. 	Remove the Vent Plug from the Vent Penetrator Bolt on the electronics enclosure. Remove the 4" Tube and forward dome assembly from the rear end cap.
-
+<img src="/newton-gripper/cad/gripper-tutorial-remove-vent.jpg" class="img-responsive img-center" style="max-width:800px"  />
 5.	Remove the blank penetrator as pictured from the 4” End Cap with the penetrator wrench that came with the BlueROV2 kit.
-
 <img src="/newton-gripper/cad/end-cap-remove.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Install Newton Gripper Penetrator
@@ -156,6 +149,7 @@ To install the Newton Gripper into the end cap, you will need the following part
 3.	Install the O-ring onto the Gripper cable penetrator.
 4.  Install the Gripper cable penetrator on to the end cap in the hole your previously removed the blank penetrator from. Tighten to finger tight, then use the provided wrench to tighten it an additional ~1/16 of a turn. If you can’t loosen it with your fingers, it are tight enough.
 <img src="/newton-gripper/cad/end-cap-gripper.jpg" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/newton-gripper/cad/gripper-tutorial-add-gripper-penetrator.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Wiring Connections
 
@@ -164,7 +158,9 @@ To install the Newton Gripper wires into your BlueROV2, you will need the follow
 -	1 x Large (~#2) Phillips head screw driver
 
 1.  Plug the Gripper Signal Wire (Yellow) into Aux Channel 3 (or other free AUX Channel) with the yellow wire oriented toward the bottom of the Pixhawk.
+<img src="/newton-gripper/cad/gripper-tutorial-signal-wire.jpg" class="img-responsive img-center" style="max-width:800px"  />
 2.  Connect the power wires (red and black wires) into open screw terminals on the respective positive and negative terminal blocks.
+<img src="/newton-gripper/cad/gripper-tutorial-power-connection.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Reassemble BlueROV2 Electronics Enclosure
 
@@ -186,6 +182,7 @@ To mount the Newton Gripper to the BlueROV2 Frame, you will need the following p
 
 1. Remove the rear end cap from the 3" battery enclosure.
 2. Remove the bottom frame panel from the BlueROV2 by removing the four M5x16 Screws.
+<img src="/newton-gripper/cad/gripper-tutorial-remove-frame-bottom.jpg" class="img-responsive img-center" style="max-width:800px"  />
 3. Remove the 3" battery enclosure by removing the M4x14 Screws from the bottom of the frame.
 <img src="/newton-gripper/cad/gripper-remove-battery-enclosure.png" class="img-responsive img-center" style="max-width:800px"  />
 4. Align the provided template onto the bottom side (with the counterbore holes) and tape in place.
@@ -193,9 +190,12 @@ To mount the Newton Gripper to the BlueROV2 Frame, you will need the following p
 6. Re-attach the 3" battery enclosure to the frame with the M4x14 Screws.
 7. Re-attach the bottom frame panel to the BlueROV2 with the four M5x16 Screws.
 8. Place the Gripper assembly into the Mount half with the holes for mounting onto the frame.
+<img src="/newton-gripper/cad/gripper-tutorial-mount-half.jpg" class="img-responsive img-center" style="max-width:800px"  />
 9. Slide the other Mount half onto the gripper assembly and insert the Thumbscrew into the mount hole.
+<img src="/newton-gripper/cad/gripper-tutorial-mount-full.jpg" class="img-responsive img-center" style="max-width:800px"  />
 10. Coming from the aft end of the BlueROV2, weave the Gripper assembly into its mounting location and secure with the included M5x16 Screws.
-11. 
+<img src="/newton-gripper/cad/gripper-tutorial-weave.jpg" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/newton-gripper/cad/gripper-tutorial-attach.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Cable Management
 
