@@ -6,7 +6,6 @@ nav:
 - Introduction: introduction
 - - Quick Start (Open/Close): quick-start-open-and-close-with-pwm-signal-source
 - Specifications: specifications
-- - Schematic: schematic
 - - Specification Table: specification-table
 - - 2D Drawings: 2d-drawings
 - - 3D Model: 3d-model
@@ -29,30 +28,24 @@ manual-links:
 - BlueROV2: /brov2
 ---
 
-<img src="/newton-gripper/cad/newton-gripper.png" class="img-responsive" style="max-width:900px"  />
+<img src="/newton-gripper/cad/newton-gripper.png" class="img-responsive img-center" style="max-width:400px"  />
 
 # Introduction
 
-The _Newton Gripper_ is a sealed single function manipulator which can operate at depths of up to 975 meters. The *Newton Gripper* can be smoothly opened or closed with a servo PWM signal to provide the *BlueROV2* and other subsea vehicles with the ability to interact with the subsea environment to retrieve objects, attach recovery lines, or free a snagged tether.
+The _Newton Gripper_ is a sealed single function manipulator which can operate at depths of up to 300 meters. The *Newton Gripper* can be smoothly opened or closed with a servo PWM signal to provide the *BlueROV2* and other subsea vehicles with the ability to interact with the subsea environment to retrieve objects, attach recovery lines, or free a snagged tether.
 
 ## Quick Start (Open and Close with PWM signal source)
 
 1. Connect the signal wire to the appropriate microcontroller pin
-  - Yellow: PWM (3-48 volts)
+  - Yellow: PWM (3-5 volts)
 
 2. Connect the power wires to a power source
-  - Red: +10-48 volts
+  - Red: +9-18 volts
   - Black: Ground
 
 3. Provide a servo PWM pulse from 1100 &mu;s () to 1900 &mu;s () 
 
 # Specifications
-
-## Schematic
-
-The [EagleCAD files](https://github.com/bluerobotics/newton-gripper) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
-
-[<img src="/newton-gripper/cad/newton-gripper-schematic.png" class="img-responsive" style="max-width:300px" />](/newton-gripper/cad/newton-gripper-schematic.png)
 
 ## Specification Table
 
@@ -60,16 +53,16 @@ The [EagleCAD files](https://github.com/bluerobotics/newton-gripper) for the sch
 |      **Electrical**       |
 | ------------- | --------- |
 | **Item** | **Value** |
-| Supply Voltage (V<sub>in</sub>) | 7 - 48 volts |
-| PWM Logic Voltage  | 3 - 48 volts |
-| Peak Current   | 15 / V<sub>in</sub> amps  |
+| Supply Voltage (V<sub>in</sub>) | 9 - 18 volts |
+| PWM Logic Voltage  | 3 - 5 volts |
+| Peak Current   | 6 / V<sub>in</sub> amps  |
 | ------------- | --------- |
 |   **Mechanical**    |
 |--------------|--------------|
 | Linear Force | xxxN |
 | Max Lift Weight | xxKg |
 | Travel | xxmm | 
-| Jaw Opening | xxmm |
+| Jaw Opening | 70mm | 2.75 in
 |  **Cable**  |
 | Cable Diameter | 3.8 mm | 0.15 in |
 | Cable Length | 1 m | 39 in |
@@ -81,7 +74,7 @@ The [EagleCAD files](https://github.com/bluerobotics/newton-gripper) for the sch
 | | Yellow - Signal |
 |  **Physical**  |
 | ------------|-------------------------|
-| Pressure Rating<sup>1</sup> | 975 m | xxx ft |
+| Pressure Rating<sup>1</sup> | 300 m | 328 ft |
 | Overall Length | 64.8 mm | 2.55 in |
 | Overall Diameter   | 32 mm | 1.26 in |
 | Bracket Mounting Hole Spacing | xx mm | 0.75 in |
