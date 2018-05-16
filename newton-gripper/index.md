@@ -227,3 +227,17 @@ To get the longest battery life and the best driving experience, it is important
 
 ## Setup in QGroundControl
 
+The _Newton Gripper_ can be controlled via the following button functions:
+- *servo_X_max_momentary* (open while pressed),
+- *servo_X_min_momentary* (close while pressed),
+- *servo_X_max* (open fully), and
+- *servo_X_min* (close fully),
+
+where *X* is the Aux Channel to which the gripper is connected.  For example, a _Newton Gripper_ plugged into Aux Channel 3 can be opened and closed with the *servo_3_max_momentary* and *servo_3_min_momentary* button functions, respectively.
+
+<img src="/newton-gripper/cad/jsbutton-selection.png" class="img-responsive img-center" style="max-width:800px" />
+
+<i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
+Note that these button functions only exist for Aux Channels 1~3.  Should your _Newton Gripper_ be connected to any other output channel, you will be unable to control it with joystick buttons.
+
+<img src="/newton-gripper/cad/joystick-gripper.png" class="img-responsive img-center" style="max-width:800px" />
