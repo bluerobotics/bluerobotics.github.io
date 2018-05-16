@@ -241,3 +241,22 @@ where *X* is the Aux Channel to which the gripper is connected.  For example, a 
 Note that these button functions only exist for Aux Channels 1~3.  Should your _Newton Gripper_ be connected to any other output channel, you will be unable to control it with joystick buttons.
 
 <img src="/newton-gripper/cad/joystick-gripper.png" class="img-responsive img-center" style="max-width:800px" />
+
+| Button | Function              | Shift Function  |
+|:------:|:---------------------:|:---------------:|
+| 0      | Disabled              | Disabled        |
+| 1      | mode_manual           | Disabled        |
+| 2      | mode_depth_hold       | Disabled        |
+| 3      | mode_stabilize        | Disabled        |
+| 4      | disarm                | Disabled        |
+| 5      | shift                 | Disabled        |
+| 6      | arm                   | Disabled        |
+| 7      | mount_center          | Disabled        |
+| 8      | input_hold_set        | Disabled        |
+| 9      | servo_3_min_momentary | mount_tilt_down |
+| 10     | servo_3_max_momentary | mount_tilt_up   |
+| 11     | gain_inc              | trim_pitch_dec  |
+| 12     | gain_dec              | trim_pitch_inc  |
+| 13     | lights1_dimmer        | trim_roll_dec   |
+| 14     | lights1_brighter      | trim_roll_inc   |
+| 15     | Disabled              | Disabled        |
