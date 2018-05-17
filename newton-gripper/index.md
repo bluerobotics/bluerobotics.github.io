@@ -43,7 +43,9 @@ The _Newton Gripper_ is a sealed single function manipulator which can operate a
   - Red: +9-18 volts
   - Black: Ground
 
-3. Provide a servo PWM pulse from 1100 &mu;s () to 1900 &mu;s () 
+3. Provide a servo PWM pulse at 1500 &mu;s () for no movement.
+ Provide a servo PWM pulse greater than 1530 &mu;s () to open gripper.
+ Provide a servo PWM pulse less than 1470 &mu;s () to close gripper.
 
 # Specifications
 
@@ -54,18 +56,22 @@ The _Newton Gripper_ is a sealed single function manipulator which can operate a
 | ------------- | --------- |
 | **Item** | **Value** |
 | Supply Voltage (V<sub>in</sub>) | 9 - 18 volts |
-| PWM Logic Voltage  | 3 - 5 volts |
+| PWM Logic Voltage  | 3 - x volts |
+| PWM Neutral Signal | 1500ms |
+| PWM Open Signal | >1530ms-1900ms |
+| PWM Close Signal | <1470ms-1100ms |
 | Peak Current   | 6 / V<sub>in</sub> amps  |
 | ------------- | --------- |
 |   **Mechanical**    |
 |--------------|--------------|
-| Linear Force | xxxN |
-| Max Lift Weight | xxKg |
-| Travel | xxmm | 
-| Jaw Opening | 70mm | 2.75 in
+| Linear Force (at tip) | 97N | 22lbf |
+| Linear Force (in middle) | 124N | 28lbf |
+| Travel | 15mm | 0.59in
+| Jaw Opening | 70mm | 2.75 in |
+| Open/Close Speed | 1.6 secs
 |  **Cable**  |
 | Cable Diameter | 3.8 mm | 0.15 in |
-| Cable Length | 1 m | 39 in |
+| Cable Length | 635mm | 25 in |
 | Cable Jacket | Black Urethane |
 | Conductor Insulation | Acid-Etched FEP |
 | Conductor Gauge | 20 AWG |
@@ -74,13 +80,13 @@ The _Newton Gripper_ is a sealed single function manipulator which can operate a
 | | Yellow - Signal |
 |  **Physical**  |
 | ------------|-------------------------|
-| Pressure Rating<sup>1</sup> | 300 m | 328 ft |
-| Overall Length | 64.8 mm | 2.55 in |
-| Overall Diameter   | 32 mm | 1.26 in |
-| Bracket Mounting Hole Spacing | xx mm | 0.75 in |
-| Bracket Screw Size | M3 |
-| Weight in Air (w/ 1m cable) | 82 g    |   2.9 oz    |
-| Weight in Water (w/ 1m cable) | 32 g    |  1.1 oz   |
+| Pressure Rating<sup>1</sup> | 300 m | 984 ft |
+| Overall Length (Closed) | 294 mm | 11.57 in |
+| Overall Length (Open) | 300 mm | 11.81 in |
+| Overall Diameter   | 35 mm | 1.38 in |
+| Bracket Mounting Hole Spacing | 16 mm | 0.63 in |
+| Bracket Screw Size | M5 |
+| Weight in Air (w/ cable) | xx g    |   xx oz    |
 |----------------------|
 
 [1] Pressure rating is based on design and a conservative safety factor.
