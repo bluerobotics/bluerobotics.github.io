@@ -186,11 +186,11 @@ To reassemble your BlueROV2 electronics Enclosure, you will need the following p
 
 To mount the Newton Gripper to the BlueROV2 Frame, you will need the following parts and tools:
 
-1 x Newton Gripper Mount Drilling Template, included with kit or available [here](cad/NEWTON-GRIPPER-MOUNT-DRILLING-TEMPLATE-R1.pdf) (8.5 x 11" Piece of paper)
-1 x 5.50mm drill bit
-1 x Battery Powered Hand Drill
-2 x M5x16 Button Head Screws
-1 x 3 mm hex driver
+-  1 x Newton Gripper Mount Drilling Template, included with kit or available [here](cad/NEWTON-GRIPPER-MOUNT-DRILLING-TEMPLATE-R1.pdf) (8.5 x 11" Piece of paper)
+-  1 x 5.50mm drill bit
+-  1 x Battery Powered Hand Drill
+-  2 x M5x16 Button Head Screws
+-  1 x 3 mm hex driver
 
 1. Remove the rear end cap from the 3" battery enclosure.
 2. Remove the bottom frame panel from the BlueROV2 by removing the four M5x16 Screws.
@@ -198,6 +198,7 @@ To mount the Newton Gripper to the BlueROV2 Frame, you will need the following p
 3. Remove the 3" battery enclosure by removing the M4x14 Screws from the bottom of the frame.
 <img src="/newton-gripper/cad/gripper-remove-battery-enclosure.png" class="img-responsive img-center" style="max-width:800px"  />
 4. Cut out and align align one of the the provided templates onto the bottom side (with the counterbore holes) and tape in place. You have the option of mounting the gripper to the right or left side of the vehicle.
+<img src="/newton-gripper/cad/gripper-tutorial-template-mounted.jpg" class="img-responsive img-center" style="max-width:800px"  />
 5. With a hand powered drill and 5.50mm drill bit, drill straight holes in the indicated position markings. 
 6. Re-attach the 3" battery enclosure to the frame with the M4x14 Screws.
 7. Re-attach the bottom frame panel to the BlueROV2 with the four M5x16 Screws.
