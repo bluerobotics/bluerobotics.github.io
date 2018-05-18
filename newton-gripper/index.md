@@ -43,9 +43,9 @@ The _Newton Gripper_ is a sealed single function manipulator which can operate a
   - Red: +9-18 volts
   - Black: Ground
 
-3. Provide a servo PWM pulse at 1500 &mu;s () for no movement.
- Provide a servo PWM pulse greater than 1530 &mu;s () to open gripper.
- Provide a servo PWM pulse less than 1470 &mu;s () to close gripper.
+3. Provide a servo PWM pulse at 1500 &mu;s for no movement.
+ Provide a servo PWM pulse greater than 1530 &mu;s to open gripper.
+ Provide a servo PWM pulse less than 1470 &mu;s to close gripper.
 
 # Specifications
 
@@ -57,9 +57,9 @@ The _Newton Gripper_ is a sealed single function manipulator which can operate a
 | **Item** | **Value** |
 | Supply Voltage (V<sub>in</sub>) | 9 - 18 volts |
 | PWM Logic Voltage  | 3 - x volts |
-| PWM Neutral Signal | 1500ms |
-| PWM Open Signal | >1530ms-1900ms |
-| PWM Close Signal | <1470ms-1100ms |
+| PWM Neutral Signal | 1500 &mu;s |
+| PWM Open Signal | >1530 &mu;s-1900 &mu;s |
+| PWM Close Signal | <1470 &mu;s-1100 &mu;s |
 | Peak Current   | 6 / V<sub>in</sub> amps  |
 | ------------- | --------- |
 |   **Mechanical**    |
@@ -86,7 +86,7 @@ The _Newton Gripper_ is a sealed single function manipulator which can operate a
 | Overall Diameter   | 35 mm | 1.38 in |
 | Bracket Mounting Hole Spacing | 16 mm | 0.63 in |
 | Bracket Screw Size | M5 |
-| Weight in Air (w/ cable) | xx g    |   xx oz    |
+| Weight in Air (w/ cable) | 616 g    |   21.9 oz    |
 |----------------------|
 
 [1] Pressure rating is based on design and a conservative safety factor.
@@ -218,7 +218,6 @@ To install the new buoyancy blocks and fairings, you will need the following par
 -	1x #1 Phillips head screwdriver
 
 1.	 Reinstall Original Fairing Blocks onto ROV by installing the screws through the center panels and into the fairings.
-
 <img src="/newton-gripper/cad/gripper-tutorial-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Adjusting Ballast on the Frame
@@ -239,7 +238,7 @@ The _Newton Gripper_ can be controlled via the following button functions:
 - *servo_X_max* (open fully), and
 - *servo_X_min* (close fully),
 
-where *X* is the Aux Channel to which the gripper is connected.  For example, a _Newton Gripper_ plugged into Aux Channel 3 can be opened and closed with the *servo_3_max_momentary* and *servo_3_min_momentary* button functions, respectively.
+Where *X* is the Aux Channel to which the gripper is connected.  For example, a _Newton Gripper_ plugged into Aux Channel 3 can be opened and closed with the *servo_3_max_momentary* and *servo_3_min_momentary* button functions, respectively.
 
 <img src="/newton-gripper/cad/jsbutton-selection.png" class="img-responsive img-center" style="max-width:800px" />
 
@@ -247,6 +246,8 @@ where *X* is the Aux Channel to which the gripper is connected.  For example, a 
 Note that these button functions only exist for Aux Channels 1~3.  Should your _Newton Gripper_ be connected to any other output channel, you will be unable to control it with joystick buttons.
 
 <img src="/newton-gripper/cad/joystick-gripper.png" class="img-responsive img-center" style="max-width:800px" />
+
+You may set-up your controller buttons however you like, however the limited number of buttons means that you will have to shift the button controls around. Our preference is to assign the Gripper open and close functions to the bumper buttons so the operator still has full movement control on the joystics. We then moved the camera tilt to being on Shift->Bumper button pushes as illustrated below in the button assignment table for a Logitech F310.
 
 | Button | Function              | Shift Function  |
 |:------:|:---------------------:|:---------------:|
