@@ -14,7 +14,7 @@ nav:
 
 
 store-links:
-- Lithium-ion Battery (14.8V, 18Ah): https://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/
+- Lithium-ion Battery (14.8V, 18Ah): https://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r2-rp/
 - Lithium Battery Charger: http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/
 
 manual-links:
@@ -22,7 +22,7 @@ manual-links:
 - Lithium Battery Charger: /charger
 ---
 
-<img src="/batteries/cad/BL4-1-crop.PNG" class="img-responsive" style="max-width:900px"  />
+<img src="/batteries/cad/BL4-1-2-crop.PNG" class="img-responsive" style="max-width:900px"  />
 
 # Introduction
 
@@ -45,6 +45,10 @@ For further information please see the [INR18650-30Q Data Sheet](https://eu.nkon
 | Minimum Safe Voltage | 12V | 3.0V/Cell |
 | Discharge Connector | XT90 |
 | Balance Plug | 5 pin JST-XH |
+| Thermistor Plug | 2 pin JST-XH |
+| Thermistor Type | NTC, β = 3435K |
+| Thermistor Resistance | R<sub>25</sub> = 10kΩ, ±1% (at 25°C) |
+| Thermistor Working Temperature | -40-110°C | -40-230°F |
 | ------------- | --------- |
 
 *Current draw rating dependant on adequate cooling, 60°C safety cutoff. See more information in Discharging section below.
@@ -85,7 +89,7 @@ Although they are encased in metal and are safe enough to be used in everyday de
 
 [Detailed Lithium-ion Safety Information](https://batterybro.com/pages/18650-battery-safety)
 
-<img src="/batteries/cad/BL4-2-crop.PNG" class="img-responsive" style="max-width:900px"  />
+<img src="/batteries/cad/BL4-2-2-crop.PNG" class="img-responsive" style="max-width:900px"  />
 
 # Charging
 
@@ -101,7 +105,9 @@ Once charged, connect the XT90 discharge plug to your vehicle, and the battery i
 
 Note that the maximum safe discharge rating is dependant on adequate cooling to keep the battery below 60°C. If used in an enclosed space without flowing air, constant current draw must be decreased appropriatley to to keep the battery at a  safe temperature. For example, in a BlueROV2 we recommend keeping full throttle thruster bursts at 100% gain to no more than 15 seconds each to keep the battery at a safe temperature and allow it to cool.
 
-<img src="/batteries/cad/BL4-3-crop.PNG" class="img-responsive" style="max-width:500px"  />
+Temperature can be monitored on the R2 version of the battery with the integrated 3435K negative temperature coefficient (NTC) thermistor, which has a resistance of 10kΩ at 25°C.
+
+<img src="/batteries/cad/BL4-3-2-crop.PNG" class="img-responsive" style="max-width:500px"  />
 
 # Storage
 

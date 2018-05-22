@@ -102,7 +102,7 @@ This example uses the Arduino Servo library to control the speed controller. Thi
 
 If you've never used Arduino before, we suggest checking out [some tutorials!](https://www.arduino.cc/en/Tutorial/HomePage)
 
-**Note:** If you power the Arduino before powering the ESC, then the ESC will miss the initialization step and won't start. Power them up at the same time, power the ESC first, or press "reset" on the Arduino after applying power to the ESC.
+**Note:** If you power the Arduino before powering the ESC, then the ESC will miss the initialization step and won't start. Power them up at the same time, power the ESC first, or press "reset" on the Arduino after applying power to the ESC. You may need to adjust the neutral signal delay time as well, depending on your setup.
 
 ~~~~~~~~~~ cpp
 #include <Servo.h>
@@ -114,7 +114,7 @@ void setup() {
 	servo.attach(servoPin);
 
 	servo.writeMicroseconds(1500); // send "stop" signal to ESC.
-	delay(3000); // delay to allow the ESC to recognize the stopped signal
+	delay(7000); // delay to allow the ESC to recognize the stopped signal
 }
 
 void loop() {

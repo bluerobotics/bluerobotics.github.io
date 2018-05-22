@@ -10,8 +10,10 @@ nav:
 - - Quick Start: quick-start
 - - Modes of Operation: modes-of-operation
 - - Powering Thruster Commander: powering-thruster-commander
+- - Connecting the Battery and ESCs: connecting-the-battery-and-escs
 - - Mounting Thruster Commander: mounting-thruster-commander
 - - Enabling Output/Deadman Switch: deadman-switchenabling-output
+- - Modifying or Replacing Potentiometers: modifying-or-replacing-potentiometers
 - Operation: operation
 - - ESC Initialization: esc-initialization
 - - Controlling Motors: controlling-motors
@@ -97,12 +99,39 @@ Most ESCs require a neutral input signal to [complete their initialization](#esc
 
 ## Powering _Thruster Commander_
 
-The _Thruster Commander_ can be powered in one of two ways: 7-28 VDC or regulated 5 VDC.  7-28 VDC power can be supplied via the POWER connector in the top left corner of the board.  This can be connected directly to any 7-28 VDC power supply, including the batteries powering your motors. 5 VDC regulated power is available from some ESCs with built-in battery eliminator circuits (BECs) which can power the _Thruster Commander_ via the PWM cable, eliminating the need for the 7-28 VDC power intput.  These ESCs will have a third, red wire on their PWM input cables which carries the 5 VDC supply.
+The _Thruster Commander_ can be powered in one of two ways: 7-28 VDC or regulated 5 VDC.  7-28 VDC power can be supplied via the POWER connector in the top left corner of the board.  This can be connected directly to any 7-28 VDC power supply, including the batteries powering your motors.
+
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
+Make sure the ESCs and motors you are using can handle the voltage you are providing; the _Thruster Commander_ can handle up to 28 volts, but our thrusters cannot: see our [thruster documentation](/thrusters) for more details.
+
+5 VDC regulated power is available from some ESCs with built-in battery eliminator circuits (BECs) which can power the _Thruster Commander_ via the PWM cable, eliminating the need for the 7-28 VDC power input.  These ESCs will have a third, red wire on their PWM input cables which carries the 5 VDC supply.
 
 <i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
 Note that not all ESCs with such three-wire PWM input cables have built-in BECs.
 
 If none of your ESCs have BECs, you will need to supply either 7-28 VDC power via the POWER connector or 5 VDC regulated power from an external regulator/BEC.  Our Basic ESCs do not have built-in BECs and are not able to power the _Thruster Commander_; they will require the use of the 7-28 VDC power input.
+
+## Connecting the Battery and ESCs
+
+A 6-pole barrier block and jumpers are provided for connecting power between the _Thruster Commander_, ESCs, and the provided XT90 connector/your power source of choice.  The six poles of the barrier block can be connected as shown into two sets of three with the provided jumpers; one set for power (red) and one for ground (black).
+
+<table class="img-center">
+    <tr>
+        <td style="vertical-align:middle">
+            <img src="CMDR-Barrier-Block-Wiring.png"
+                class="img-responsive img-center" style="max-width:400px"/>
+        </td>
+        <td style="vertical-align:middle">
+            <img src="CMDR-WIRING.JPG"
+                class="img-responsive img-center" style="max-width:300px"/>
+        </td>
+    </tr>
+</table>
+
+The spade connectors from the XT90 connector/power source can be connected beneath two of the jumpers (the spade connectors are too wide to fit on top); this helps to limit the distance the current to the ESCs must flow through the jumpers and barrier blocks.  The _Thruster Commander_ power cable and ESCs can then be connected along the other side of the barrier block.  Note that the _Thruster Commander_ power cable should be omitted if the _Commander_ is being powered via a BEC ([see above](#powering-thruster-commander)).
+
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
+The _Thruster Commander_, ESCs, and batteries do not contain reverse-polarity or short-circuit protections.  Double-check your wiring before applying power for the first time.
 
 ## Mounting _Thruster Commander_
 
@@ -118,6 +147,12 @@ A deadman switch can be added by replacing this jumper with any normally-open (N
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 If you are using the _Thruster Commander_ on a vehicle, we highly recommend that you install a deadman switch to prevent it from running off without you.
+
+## Modifying or Replacing Potentiometers
+
+The potentiometers included with the _Thruster Commander_ are standard 10 k&Omega; potentiometers with center detents.  These can be replaced with any potentiometers with a resistance of 10 k&Omega; or less.  We recommend those with center detents to make it easier to set the motors to neutral.  To fit the knobs, replacement potentiometers should have 6 mm diameter shafts with flats for a set screw.
+
+Should different-length cables for the potentiometers be necessary, the wires may be lengthened or shortened as desired.  However they should not be run directly alongside wires carrying power for motors, as they may interfere with the potentiometers' analog outputs (i.e. sharing a tether).
 
 # Operation
 
@@ -153,10 +188,36 @@ Potentiometers can be hot-swapped.  However it is advised that this only be done
 
 # Troubleshooting
 
-**Two short blinks**
+<table>
+    <tr>
+        <th colspan="2">
+            Two short blinks
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <img src="CMDR-LED-NO-POTS-SMALL.gif" class="img-responsive
+                img-center" style="max-width:120px"/>
+        </td>
+        <td>
+            Not enough potentiometers are plugged in.  The <a href="#modes-of-operation">Modes of Operation table</a> shows all valid combinations of potentiometer connections.
+        </td>
+    </tr>
+</table>
 
-Not enough potentiometers are plugged in.  The [Modes of Operation table](#modes-of-operation) shows all valid combinations of potentiometer connections.
-
-**One long blink**
-
-Switch is not pressed/connected, or is not correctly connected.  The SWITCH signal (center) pin must be connected to ground (GND pin) by a switch or jumper for the motors to turn.
+<table>
+    <tr>
+        <th colspan="2">
+            One long blink
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <img src="CMDR-LED-DISABLED-SMALL.gif" class="img-responsive
+                img-center" style="max-width:120px"/>
+        </td>
+        <td>
+            Switch is not pressed/connected, or is not correctly connected.  The SWITCH signal (center) pin must be connected to ground (GND pin) by a switch or jumper for the motors to turn.
+        </td>
+    </tr>
+</table>

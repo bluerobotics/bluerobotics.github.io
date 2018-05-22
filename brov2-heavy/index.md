@@ -231,12 +231,12 @@ Finally, before operating your ROV, we need to update the software configuration
 
 ## Load new parameters
 
-- Download [this]() parameter file
-- Go to the _Parameters_ tab of the _Vehicle Setup_ menu (click the gears icon)
-- Click the _Tools_ menu in the upper right hand corner
-- Click 'Load parameters from file', and select the parameter file downloaded in the first step, then click 'Ok'
+- Go to the _Frame_ tab of the _Vehicle Setup_ page (click the gears icon)
+- Click 'Load Vehicle Defaults'
+- Click BlueROV2 Heavy. A green bar will move across the top of the screen indicating the progress of loading the parameters; this is usually pretty quick
+- **Reboot the vehicle**
 
-<img src="/brov2-heavy/cad/parameter-setup.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/brov2-heavy/cad/qgc-heavy-parameter-setup.png" class="img-responsive img-center" style="max-width:800px"  />
 
 ## Configure motor directions
 

@@ -35,6 +35,7 @@ nav:
 - Post-Mission Checklist: post-mission-checklist
 - Preventative Maintenance: preventative-maintenance
 - - Every 100 Hours: every-100-hours-of-operation-or-every-6-months 
+- Connection Diagrams: connection-diagrams
 - Issue Reporting: issue-reporting
 
 store-links:
@@ -289,11 +290,22 @@ If the ROV loses power or connection to QGroundControl while diving, you should 
 
 # Preventative Maintenance
 
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
+Only clean the dome and acrylic tubes with acrylic specific cleaner or plain water. Solvents, alchohol and other cleaners will craze and damage the material.
+
 ## Every 100 Hours of Operation or Every 6 Months 
 
 - Replace _Lumen_ mount O-rings. 
 - Replace radial battery cap O-rings on the side that you open and close when swapping batteries.
 - Replace vent plug O-rings.
+
+# Connection diagrams
+
+These diagrams outline all of the electrical connections between components in the ROV. There is a different diagram for each version of the ROV that Blue Robotics has produced.
+
+- [BlueROV2 with red-wire (BEC) ESCs](/brov2/cad/connections/BlueROV2_bec.pdf) (Pre-2018)
+- [BlueROV2 with no-red-wire ESCs](/brov2/cad/connections/BlueROV2_no_bec.pdf) (2018 and later)
+- [BlueROV2 Heavy](/brov2/cad/connections/BlueROV2_heavy.pdf)
 
 # Issue Reporting
 

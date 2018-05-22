@@ -54,10 +54,13 @@ Blue Robotics offers a series of watertight enclosures for use on ROVs, AUVs, an
 Always inspect the O-rings before operation in water and especially when replacing the end-caps, aluminum flanges, or penetrators. Any dust, hair, or other particles can cause a leak.
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Use plastic tools, NOT steel or other hard tools, to remove the O-rings from the aluminum sealing flange. Hard tools can create scrapes that will compromise sealing ability.
+Use plastic tools, NOT steel or other hard tools, to remove the O-rings from the aluminum sealing flange. Hard tools can create scrapes that will compromise sealing ability. 
 
-<!--<i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
-A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.-->  
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
+Most threadlockers are not chemically compatible with with polycarbonate, and will damage the dome flange if used excessively on the screws. Refer to the documentation and chemical compatibilty notes of your threadlocker of choice for more information.
+
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
+Only clean the dome and acrylic tubes with acrylic specific cleaner or plain water. Solvents, alchohol and other cleaners will craze and damage the material.
 
 # Specifications: (2" Series)
 

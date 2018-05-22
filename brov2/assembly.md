@@ -26,6 +26,7 @@ nav:
 - - Center Panels: assembling-the-center-panels
 - - Frame: assembling-the-frame-1
 - Electronics Overview: electronics-enclosure-overview
+- - Connection diagrams: connection-diagrams
 - Cable Installation: installing-the-cables
 - - Removing Endcap: removing-the-electronics-enclosure-endcap
 - - Penetrator Installation: installing-the-penetrators
@@ -76,13 +77,14 @@ The BlueROV2 kit comes almost ready to dive. The assembly can be completed with 
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with silicone grease and threadlocker, take care to minimize skin contact. Wear protective nitrile or PVC gloves when handling.
 
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> Only apply threadlocker to screws contacting metal or the HDPE frame. Most threadlockers are not chemically compatible with with polycarbonate, and will damage the thrusters, fairings, and dome flange if used here. Refer to the documentation and chemical compatibilty notes of your threadlocker of choice for more information.
+
 # Required Tools (Not Included)
 
 - \#2 Phillips head screwdriver 
 - Wire cutters or scissors (for cutting zip ties)
 - Medium-strength (blue) threadlocker such as [Loctite 243](https://www.amazon.com/Loctite-1330799-Resistant-thread-locker-6-milliliter/dp/B004L439FE/ref=sr_1_1?ie=UTF8&qid=1466440165&sr=8-1&keywords=loctite+243+thread-locker)
 - Isopropyl alcohol or isopropyl alcohol wipes
-- Vacuum pump such as [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump)
 - 2 mm flat head screw driver
 
 # What's Included
@@ -114,7 +116,7 @@ Quantity      | Part																		| Usage
 1			  | 3DR Pixhawk (installed)														| Autopilot
 1             | I<sup>2</sup>C Splitter with cable											| Allows for up to 4 I<sup>2</sup>C devices
 1			  | Raspberry Pi 3 (installed)													| Companion computer
-1			  | Raspberry Pi Camera 2 (installed)   										| Camera
+1			  | Low-Light HD USB Camera (installed)   										| Camera
 1			  | Pixhawk Power Module (installed) 											| Powers the Pixhawk and monitors current and battery voltage
 2             | Universal Battery Elimination Circuit (UBEC) (installed)                    | Powers the Raspberry Pi and Pixhawk servo rails         
 
@@ -129,14 +131,17 @@ Quantity      | Part																		| Usage
 1             | XT90 to 3.5 mm bullet connector adapter										| Adapting power wire connector to battery connector
 4             | M4x14 socket head cap screw (316 stainless steel)   						| Mounting the battery cradle to the frame
 4             | M3x12 socket head cap screws (316 stainless steel)             				| Connecting the battery cradles to each other    
-1			  | 1 1/2" long x 3/8" diameter heat shrink										| Battery cable strain relief       
+1			  | 1 1/2" long x 3/8" diameter heat shrink										| Battery cable strain relief 
+2			  | 1 1/2" long x 3/8" diameter heat shrink										| Battery cable strain relief       
 
 ## Thrusters
 
 Quantity      | Part													| Usage
 ------------- | --------------------------------------------------------|--------------
-3   		  | T200 Thrusters w/ Clockwise Propeller installed			|
-3 			  | T200 Thrusters w/ Counter-Clockwise Propeller installed |      
+3   	      | T200 Thrusters w/ Clockwise Propeller installed			|
+3 	      | T200 Thrusters w/ Counter-Clockwise Propeller installed |   
+6             | Cable Penetrator Nut      | Penetrator nuts for Thrusters (Located in packaging with Thrusters)
+6	      | 013 O-ring                | Penetrator O-rings for Thrusters (Located in packaging with Thrusters)
 16            | M3x16 socket head cap screw (316 stainless steel)      	| Mounting thrusters 1, 2, 3, and 4 to the frame
 8 			  | M3x12 socket head cap screw (316 stainless steel)		| Mounting thrusters 5 and 6 to the frame
 30            | 5 1/2" zip ties (nylon)									| Routing the thruster and lumen cables
@@ -170,6 +175,7 @@ Quantity      | Part													| Usage
 1			  | 2 mm hex key											| Change propellers
 1			  | 3 mm hex key									     	| Install M4 and M5 screws
 1			  | MicroSD to SD Adapter 									| 
+1			  | Hand Operated Vacuum Pump (Included as of January 2018)					| Pressure test WTEs
 
 ## Lights
 
@@ -201,19 +207,21 @@ Quantity      | Part
 
 Quantity      | Part                      | Usage
 ------------- | ------------------------- | -----------------
-1             | Cable Penetrator Blank    | Fill the hole for Lumen Penetrator if you aren't using Lumens
-2			  | 013 O-ring                | Extra penetrator O-rings
-1             | Cable Penetrator Nut      | Used with Cable Penetrator Blank if you aren't using Lumens
+2             | Cable Penetrator Blank    | Fill the hole for Lumen Penetrator if you aren't using Lumens
+2	      | 013 O-ring                | Extra penetrator O-rings
+2             | Cable Penetrator Nut      | 1x Used for Battery Cable in Battery Enclosure / 1x Used with Cable Penetrator Blank if you aren't using Lumens
 
 
 ## What You Need for Operation that is Not Included 
 
 There are some items necessary for operation that are not included with the kit. 
 
- - A gamepad controller. We recommend [an Xbox360 Controller](https://www.amazon.com/Microsoft-Wired-Controller-Windows-Console/dp/B004QRKWLA?th=1) or [a Logitech F310 Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
- - A laptop or a Windows tablet. QGroundControl works on Mac, Windows, and Linux.
- - A battery for the BlueROV2. We recommend getting our [18AH Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
- - A 4S capable LiPo/Li-Ion balance battery charger. We use and recommend [this one](https://hobbyking.com/en_us/turnigy-reaktor-300w-20a-ac-dc-synchronous-balance-charger-discharger-us-plug.html).
+ - A gamepad controller. We recommend [this XBox One Controller](https://www.microsoft.com/en-us/store/d/xbox-wireless-controller/8vcw8gln9vrf/ljvk?cid=msft_web_collection&activetab=pivot%3atechspecstab) or [this Logitech Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
+ - A laptop or a Windows 10 tablet. QGroundControl works on Mac, Windows 10, and Linux.
+ - A battery for the BlueROV2. We recommend getting our [18Ah Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
+ - A battery charger, such as our [Lithium Battery Charger](http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/).  
+ - A USB Cable - A-Male to Mini-B (any length) such as [this one](https://www.amazon.com/AmazonBasics-USB-2-0-Cable-Male/dp/B00NH13S44/ref=sr_1_3?s=electronics&ie=UTF8&qid=1525883524&sr=1-3&keywords=mini+usb+cable)
+ - An Ethernet Patch Cable (any length) such as [this one](https://www.amazon.com/AmazonBasics-Network-Ethernet-Patch-Cable/dp/B013PUMQYY/ref=sr_1_1_sspa?ie=UTF8&qid=1525883675&sr=8-1-spons&keywords=ethernet+cable+3ft&psc=1)
  
 # Assembling the Frame
 
@@ -241,7 +249,7 @@ To mount the battery enclosure to the bottom panel you will need the following p
 
 4. Apply one drop of threadlocker to each of the 4 M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 
-6. Place the Watertight Enclosure for ROV/AUV (3" Series) between the two Enclosure Clamps (3" Series) and install the four M3x12 screws into the Enclosure Clamps (3" Series). Note that each of the Enclosure Clamps (3" Series) are tapped on only one side. Install all four screws loosly at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the Enclosure Clamps (3" Series).
+6. Place the Watertight Enclosure for ROV/AUV (3" Series) between the two Enclosure Clamps (3" Series). The Enclosure Clamps have tapped holes on one side and untapped holes on the other. Install the four M3x12 screws into the Enclosure Clamps (3" Series) so that the screws pass through the untapped holes on the first clamp and are secured into the tapped holes on the alternate clamp. Install all four screws loosly at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the Enclosure Clamps (3" Series).
 
 	<img src="/brov2/cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
 
@@ -313,6 +321,14 @@ The images below show orientation of the main pieces of hardware in the electron
 <b> <font size="4"> Front View </font> </b> 
 <img src="/brov2//cad/advanced-front-render-1.png" class="img-responsive" style="max-width:900px" />
 
+## Connection diagrams
+
+These diagrams outline all of the electrical connections between components in the ROV. There is a different diagram for each version of the ROV that Blue Robotics has produced.
+
+- [BlueROV2 with red-wire (BEC) ESCs](/brov2/cad/connections/BlueROV2_bec.pdf) (Pre-2018)
+- [BlueROV2 with no-red-wire ESCs](/brov2/cad/connections/BlueROV2_no_bec.pdf) (2018 and later)
+- [BlueROV2 Heavy](/brov2/cad/connections/BlueROV2_heavy.pdf)
+
 # Installing the Cables 
 
 ## Removing the Electronics Enclosure Endcap
@@ -335,7 +351,9 @@ The endcap will need to be removed from the electronics enclosure in order to in
 
 To install the Penetrators you will need the following parts and tools:
 
-- 1 x Bag with one Cable Penetrator Nut (black), eight Cable Penetrator Nut (red), and nine O-rings
+- 1 x Cable Penetrator Nut (Black for Standadrd Tether/Red for Slim Tether), and O-ring from one end of the Tether
+- 6 x Cable Penetrator Nut (red), and O-ring from bag inside each Thruster tube packages
+- (Optional if no Lumens) 1 x Cable Penetrator Nut (red) and O-ring from spares bag
 - 1 x Silicone Grease - 10g Tube
 - 1 x Aluminum End Cap with 14 Holes w/ 3 Cable Penetrator Blanks, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable installed
 - 3 x T200 with counter-clockwise thrusters 
@@ -356,7 +374,7 @@ If you install the remaining penetrators as shown in the diagram below, it will 
 
 	<img src="/brov2/cad/grease-o-ring.png" class="img-responsive" style="max-width:900px" />
 
-2. Wipe the exterior surface of the electronics enclosure endcap clean, and make sure it is free of any particles in the areas where the penetrator O-rings will sit.
+2. Wipe the exterior surface of the electronics enclosure endcap clean with isopropyl alcohol or isopropyl alcohol wipes, and make sure it is free of any particles in the areas where the penetrator O-rings will sit.
 
 3. Install the O-rings onto all of the thruster penetrators, the lumen penetrator, and the tether penetrator. 
 
@@ -365,11 +383,11 @@ If you install the remaining penetrators as shown in the diagram below, it will 
 	1. Thruster 1 (CCW propeller) with red penetrator nut
 	2. Thruster 5 (CCW propeller) with red penetrator nut
 	3. Thruster 3 (CW propeller) with red penetrator nut
-	4. Lumen with red penetrator nut
+	4. Lumen with red penetrator nut (or Blank Penetrator (red) if not installing Lumens)
 	5. Thruster 4 (CW propeller) with red penetrator nut
 	6. Thruster 6 (CW propeller) with red penetrator nut
 	7. Thruster 2 (CCW propeller) with red penetrator nut
-	8. Tether with black penetrator nut
+	8. Tether with black penetrator nut (standard Tether) or red penetrator nut (Slim Tether)
 
 ## Installing the End Cap
 
@@ -398,7 +416,7 @@ To reinstall the Aluminum End Cap with 14 Holes you will need the following part
 
 To complete the assembly of the battery enclosure you need the following parts and tools:
 
-- 1 x Bag with one red penetrator nut and one O-ring left in it
+- 1 x Bag labeled "Extra Blank Penetrators [2]"
 - 1 x Silicone Grease - 10g Tube
 - 1 x End Cap with 4 Holes (3" Series)
 - 1 x Penetrator wrench
@@ -412,21 +430,23 @@ To complete the assembly of the battery enclosure you need the following parts a
 	
 3. Install the battery power cable penetrator into the opening in the battery end cap.
 
-4. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator. 
+4. Install one Cable Penetrator Nut (Red) on to the battery power cable penetrator and tighten with penetrator wrench.
 
-5. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires. You should be able to see the threads in the penetrator through the heat shrink.
+5. Place the 1.5 inch long piece of black heat shrink over the end of the battery power cable penetrator. 
+
+6. Apply heat to the heat shrink using your heat gun, hairdryer, or lighter until the heat shrink is firmly attached to the penetrator and snug to the two wires. You should be able to see the threads in the penetrator through the heat shrink.
 
 	<img src="/brov2/cad/brov2-strain-relief-2.png" class="img-responsive" style="max-width:900px" />
 
-6. Install the XT90 to bullet connector adapter to the battery power wire. 
+7. Install the XT90 to bullet connector adapter to the battery power wire. 
 
 	<img src="/brov2/cad/brov2-bullet-to-xt90.png" class="img-responsive" style="max-width:900px" />
 
-7. If you wish to do the Optional Preliminary Vacuum Test, remove the Vent Plug from the Vent Penetrator Bolt and install the endcap onto the battery enclosure. You will also need to remove the Vent Plug for the Vent Penetrator Bolt on the electronics enclosure.
+8. If you wish to do the Optional Preliminary Vacuum Test, remove the Vent Plug from the Vent Penetrator Bolt and install the endcap onto the battery enclosure. You will also need to remove the Vent Plug for the Vent Penetrator Bolt on the electronics enclosure.
 
 ## Optional Preliminary Vacuum Test
 
-This is the best point in the assembly process to perform a vacuum test. Since you have installed all of the penetrators, but have not done any of the wiring, troubleshooting will be as easy as possible. To prepare for the vacuum test you need to purchase a vacuum pump. We recommend [this one](https://www.amazon.com/HFS-Brake-Bleeder-Vacuum-Tuner/dp/B00NP60URE/ref=sr_1_10?ie=UTF8&qid=1470775016&sr=8-10&keywords=vacuum+pump).
+This is the best point in the assembly process to perform a vacuum test. Since you have installed all of the penetrators, but have not done any of the wiring, troubleshooting will be as easy as possible. You will need to use the vacuum pump that comes with the kit.
 
 1. Install the Watertight Enclosure (4" Series) with installed Dome onto the O-Ring Flange (4" Series) that is attached to the Aluminum End Cap with 14 Holes (4" Series)
 
@@ -597,9 +617,7 @@ Here is a diagram of where the thrusters go, and how they should be oriented. Th
 <img src="http://ardusub.com/images/vectored-frame.png" class="img-responsive" style="max-width:900px" />
 </p>
 
-1. Apply one drop of threadlocker to the 16 M3x16 screws and the 8 M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
-
-1. Install thrusters 1 and 2 underneath the front center panels, using the M3x16 screws. Tighten the screws so that they indent the frame slightly. It is physically possible to keep turning the screw at this point, but it isn't recommended.
+1. Install thrusters 1 and 2 underneath the front center panels, using the M3x16 screws. Tighten the screws so that they indent the frame slightly. It is physically possible to keep turning the screw at this point, but it isn't recommended. DO NOT use threadlocker unless you have threadlocker rated for use with polycarbonate
 	
 2. Install thrusters 5 and 6, using the M3x12 screws on the side panels. Tighten the screws so that they indent the frame slightly.
 

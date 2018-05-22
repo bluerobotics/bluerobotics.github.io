@@ -289,21 +289,19 @@ When completed, the _Sensors_ tab will no longer be red.
 
 # Configure Motor Directions
 
-The motor directions for the BlueROV2 must be tested prior to use. 
+The motor directions for the BlueROV2 must be configured prior to operation.
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>Be sure to keep all body parts and clothing clear of thrusters while the BlueROV2 is armed.
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>**Do not** run thrusters for longer than 30 seconds in air.
 
-1. Set the flight mode to "Manual".
+1. Go to the *Vehicle Settings* page in QGroundControl and select the _Motors_ tab in the sidebar on the left.
+1. Read and understand the instructions on the setup page
+1. Arm the BlueROV2 by clicking the switch on the page
+1. One at a time, move each slider, and make sure that the motor that spins is pushing air in the correct direction. If a motor is spinning in the wrong direction, click the corresponding checkbox under the 'Reverse Motor Direction' section to correct the motor rotation.
+1. When you are finished with the setup, disarm the ROV by clicking the switch
 
-2. Arm the BlueROV2 by pressing "Start".
-
-3. Move the left-hand joystick forwards and verify that the thrusters are running the correct way. Air should be blowing out of the four vectored thrusters towards the back of the vehicle. If one of the thrusters is blowing air towards the front, go to _Settings_ in QGroundContorl, then go to _Parameters_ and select _MOT_. Select the motor that is blowing air towards the front and switch the motor direction using the dropdown on the right.
-
-	<img src="/brov2/cad/configure-motor-directions-annotated.png" class="img-responsive img-center" style="max-width:800px" />
-
-4. Move the right-hand joystick forwards and verify that the thrusters are running the correct way. Air should be blowing out of the two vertical thrusters towards the bottom of the vehicle. If one of the thrusters is blowing air towards the top, go to _Settings_ in QGroundControl, then go to _Parameters_ and select _MOT_. Select the motor that is blowing air towards the top and switch the motor direction using the dropdown on the right.
+    <img src="/brov2/cad/qgc-motor-setup.png" class="img-responsive img-center" style="max-width:800px" />
 
 # Voltage and Current Measurement Setup 
 
