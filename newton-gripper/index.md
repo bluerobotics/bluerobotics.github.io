@@ -34,10 +34,13 @@ manual-links:
 
 The _Newton Gripper_ is a sealed single function manipulator which can operate at depths of up to 300 meters. The *Newton Gripper* can be smoothly opened or closed with a servo PWM signal to provide the *BlueROV2* and other subsea vehicles with the ability to interact with the subsea environment to retrieve objects, attach recovery lines, or free a snagged tether.
 
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
+**Keep fingers and other body parts away from the gripper when operating!** It's strong and has the potential to do some damage. Notify other crew members to do the same.
+
 ## Quick Start (Open and Close with PWM signal source)
 
-1. Connect the signal wire to the appropriate microcontroller pin
-  - Yellow: PWM (3-5 volts)
+1. Connect the signal wire to a signal source such as the Pixhawk on the BlueROV2 or a 3.3v microcontroller.
+  - Yellow: PWM (3.3 volts only)
 
 2. Connect the power wires to a power source
   - Red: +9-18 volts
@@ -56,19 +59,19 @@ The _Newton Gripper_ is a sealed single function manipulator which can operate a
 | ------------- | --------- |
 | **Item** | **Value** |
 | Supply Voltage (V<sub>in</sub>) | 9 - 18 volts |
-| PWM Logic Voltage  | 3 - x volts |
+| PWM Logic Voltage  | 3.3 volts |
 | PWM Neutral Signal | 1500 &mu;s |
 | PWM Open Signal | >1530 &mu;s-1900 &mu;s |
 | PWM Close Signal | <1470 &mu;s-1100 &mu;s |
-| Peak Current   | 6 / V<sub>in</sub> amps  |
+| Peak Current   | 6 amps  |
 | ------------- | --------- |
 |   **Mechanical**    |
 |--------------|--------------|
-| Linear Force (at tip) | 97N | 22lbf |
-| Linear Force (in middle) | 124N | 28lbf |
-| Travel | 15mm | 0.59in
+| Grip Force (at tip) | 97N | 22lbf |
+| Grip Force (in middle) | 124N | 28lbf |
+| Linear Piston Travel | 15mm | 0.59in
 | Jaw Opening | 70mm | 2.75 in |
-| Open/Close Speed | 1.6 secs
+| Time to Open/Close | 1.6 secs |
 |  **Cable**  |
 | Cable Diameter | 3.8 mm | 0.15 in |
 | Cable Length | 635mm | 25 in |
@@ -83,9 +86,9 @@ The _Newton Gripper_ is a sealed single function manipulator which can operate a
 | Pressure Rating<sup>1</sup> | 300 m | 984 ft |
 | Overall Length (Closed) | 294 mm | 11.57 in |
 | Overall Length (Open) | 300 mm | 11.81 in |
-| Overall Diameter   | 35 mm | 1.38 in |
+| Body Primary Diameter | 35 mm | 1.38 in |
 | Bracket Mounting Hole Spacing | 16 mm | 0.63 in |
-| Bracket Screw Size | M5 |
+| Bracket Screw Size | M5x0.4 |
 | Weight in Air (w/ cable) | 616 g    |   21.9 oz    |
 |----------------------|
 
@@ -124,16 +127,16 @@ The _Newton Gripper_ can be easily installed onto a BlueROV2 using the accompany
 To remove a blank penetrator from your BlueROV2, you will need the following tools:
 
 - 1 x 2.5 mm hex driver
-- 1x #1 Phillips head screwdriver
-- 1x Penetrator wrench
+- 1 x #1 Phillips head screwdriver
+- 1 x Penetrator wrench
 
 1.	To ensure your ROV is completely powered off, please remove the battery completely from the 3” enclosure and place to the side.
 <img src="/newton-gripper/cad/gripper-tutorial-1.jpg" class="img-responsive img-center" style="max-width:800px"  />
 2.	Remove the fairings and buoyancy blocks by removing the self-tapping screws that hold the fairings to the frame.
 <img src="/newton-gripper/cad/gripper-tutorial-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
-3.	Remove the 4” Electronics enclosure from the ROV by removing the M3x16 screws that mount the enclosure to the ROV cradle.
+3.	Remove the 4” electronics enclosure from the ROV by removing the M3x16 screws that mount the enclosure to the ROV cradle.
 <img src="/newton-gripper/cad/clip-installation.PNG" class="img-responsive img-center" style="max-width:800px"  />
-4. 	Remove the Vent Plug from the Vent Penetrator Bolt on the electronics enclosure. Remove the 4" Tube and forward dome assembly from the rear end cap.
+4. 	Remove the Vent Plug from the Vent Penetrator Bolt on the electronics enclosure. Remove the 4" tube and forward dome assembly from the rear end cap.
 <img src="/newton-gripper/cad/gripper-tutorial-remove-vent.JPG" class="img-responsive img-center" style="max-width:800px"  />
 5.	Remove the blank penetrator as pictured from the 4” End Cap with the penetrator wrench that came with the BlueROV2 kit.
 <img src="/newton-gripper/cad/end-cap-remove.jpg" class="img-responsive img-center" style="max-width:800px"  />
@@ -153,7 +156,7 @@ To install the Newton Gripper into the end cap, you will need the following part
 2.	Remove the O-ring from the bag and apply silicone grease to it.
 <img src="/newton-gripper/cad/grease-o-ring.png" class="img-responsive img-center" style="max-width:800px"  />
 3.	Install the O-ring onto the Gripper cable penetrator.
-4.  Install the Gripper cable penetrator on to the end cap in the hole your previously removed the blank penetrator from. Tighten to finger tight, then use the provided wrench to tighten it an additional ~1/16 of a turn. If you can’t loosen it with your fingers, it are tight enough.
+4.  Install the Gripper cable penetrator on to the end cap in the hole you previously removed the blank penetrator from. Tighten to finger tight, then use the provided wrench to tighten it an additional ~1/16 of a turn. If you can’t loosen it with your fingers, it is tight enough.
 <img src="/newton-gripper/cad/end-cap-gripper.jpg" class="img-responsive img-center" style="max-width:800px"  />
 <img src="/newton-gripper/cad/gripper-tutorial-add-gripper-penetrator.JPG" class="img-responsive img-center" style="max-width:800px"  />
 
@@ -187,8 +190,8 @@ To reassemble your BlueROV2 electronics Enclosure, you will need the following p
 To mount the Newton Gripper to the BlueROV2 Frame, you will need the following parts and tools:
 
 -  1 x Newton Gripper Mount Drilling Template, included with kit or available [here](cad/NEWTON-GRIPPER-MOUNT-DRILLING-TEMPLATE-R1.pdf) (8.5 x 11" Piece of paper)
--  1 x 5.50mm (or 7/32") drill bit
--  1 x Battery Powered Hand Drill
+-  1 x 5.50mm (or 7/32") drill bit (not included)
+-  1 x Battery Powered Hand Drill (not included)
 -  2 x M5x16 Button Head Screws
 -  1 x 3 mm hex driver
 
@@ -197,7 +200,7 @@ To mount the Newton Gripper to the BlueROV2 Frame, you will need the following p
 <img src="/newton-gripper/cad/gripper-tutorial-remove-frame-bottom.JPG" class="img-responsive img-center" style="max-width:800px"  />
 3. Remove the 3" battery enclosure by removing the M4x14 Screws from the bottom of the frame.
 <img src="/newton-gripper/cad/gripper-remove-battery-enclosure.png" class="img-responsive img-center" style="max-width:800px"  />
-4. Cut out and align align one of the the provided templates onto the bottom side (with the counterbore holes) and tape in place. You have the option of mounting the gripper to the right or left side of the vehicle.
+4. Cut out and align one of the the provided templates onto the bottom side (with the counterbore holes) and tape in place. You have the option of mounting the gripper to the right or left side of the vehicle.
 <img src="/newton-gripper/cad/gripper-tutorial-template-mounted.jpg" class="img-responsive img-center" style="max-width:800px"  />
 5. With a hand powered drill and 5.50mm drill bit, drill straight holes in the indicated position markings. 
 6. Re-attach the 3" battery enclosure to the frame with the M4x14 Screws.
@@ -242,12 +245,11 @@ To get the longest battery life and the best driving experience, it is important
 ## Setup in QGroundControl
 
 The _Newton Gripper_ can be controlled via the following button functions:
-- *servo_X_max_momentary* (open while pressed),
-- *servo_X_min_momentary* (close while pressed),
-- *servo_X_max* (open fully), and
-- *servo_X_min* (close fully),
 
-Where *X* is the Aux Channel to which the gripper is connected.  For example, a _Newton Gripper_ plugged into Aux Channel 3 can be opened and closed with the *servo_3_max_momentary* and *servo_3_min_momentary* button functions, respectively.
+- *servo_X_max_momentary* (open while pressed)
+- *servo_X_min_momentary* (close while pressed)
+
+where *X* is the Aux Channel to which the gripper is connected.  For example, a _Newton Gripper_ plugged into Aux Channel 3 can be opened and closed with the *servo_3_max_momentary* and *servo_3_min_momentary* button functions, respectively.
 
 <img src="/newton-gripper/cad/jsbutton-selection.png" class="img-responsive img-center" style="max-width:800px" />
 
@@ -256,7 +258,7 @@ Note that these button functions only exist for Aux Channels 1~3.  Should your _
 
 <img src="/newton-gripper/cad/joystick-gripper.png" class="img-responsive img-center" style="max-width:800px" />
 
-You may set-up your controller buttons however you like, however the limited number of buttons means that you will have to shift the button controls around. Our preference is to assign the Gripper open and close functions to the bumper buttons so the operator still has full movement control on the joystics. We then moved the camera tilt to being on Shift->Bumper button pushes as illustrated below in the button assignment table for a Logitech F310.
+You may set-up your controller buttons however you like, however the limited number of buttons means that you will have to shift the button controls around. Our preference is to assign the Gripper open and close functions to the bumper buttons so the operator still has full movement control on the joysticks. We then moved the camera tilt to being on Shift->Bumper button pushes as illustrated below in the button assignment table for a Logitech F310.
 
 | Button | Function              | Shift Function  |
 |:------:|:---------------------:|:---------------:|
@@ -269,10 +271,14 @@ You may set-up your controller buttons however you like, however the limited num
 | 6      | arm                   | Disabled        |
 | 7      | mount_center          | Disabled        |
 | 8      | input_hold_set        | Disabled        |
-| 9      | servo_3_min_momentary | mount_tilt_down |
-| 10     | servo_3_max_momentary | mount_tilt_up   |
+| 9      | **servo_3_min_momentary** | **mount_tilt_down** |
+| 10     | **servo_3_max_momentary** | **mount_tilt_up**   |
 | 11     | gain_inc              | trim_pitch_dec  |
 | 12     | gain_dec              | trim_pitch_inc  |
 | 13     | lights1_dimmer        | trim_roll_dec   |
 | 14     | lights1_brighter      | trim_roll_inc   |
 | 15     | Disabled              | Disabled        |
+
+# Final Test
+
+That's it! Once powered up you should be able to control the gripper with the joystick buttons. The ROV *does not* need to be armed for the gripper to be active. 
