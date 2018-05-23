@@ -32,7 +32,7 @@ This manual only covers usage of the Underwater GPS with the BlueROV2. For gener
 
 # User Manual
 
-Please download the primary User Manual from Water Linked here: [Water Linked Underwater GPS Manual](http://waterlinked.com/wp-content/uploads/2017/08/W-DN-17002-2_Underwater_GPS_User_Manual.pdf).
+Please download the primary User Manual from Water Linked here: [Water Linked Underwater GPS Manual](https://waterlinked.com/usermanual).
 
 # Integration Kit
 
@@ -74,11 +74,11 @@ If everything is operating correctly, you should now find an ROV position on the
 
 <img src="/waterlinked/wlik-qgc-display.png" class="img-responsive img-center" style="max-width:650px;" />
 
-To configure the Water Linked Underwater GPS system, navigate to [192.168.2.94/#/configuration](http://192.168.2.94/#/configuration) in your browser. Please refer to the [Water Linked Underwater GPS User Manual](http://waterlinked.com/wp-content/uploads/2017/08/W-DN-17002-2_Underwater_GPS_User_Manual.pdf) for further information on configuration.
+To configure the Water Linked Underwater GPS system, navigate to [192.168.2.94/#/configuration](http://192.168.2.94/#/configuration) in your browser. Please refer to the [Water Linked Underwater GPS User Manual](https://waterlinked.com/usermanual) for further information on configuration.
 
 ### Software Update
 
-Water Linked's latest software revision is 1.2.1 (2 October 2017). The update file can be downloaded [here](https://drive.google.com/file/d/0B4dKhR-1V6subDVHYTRtX1d3Z1E/view?usp=sharing). The update process is documented on page 17 of the [User Manual](http://waterlinked.com/wp-content/uploads/2017/08/W-DN-17002-2_Underwater_GPS_User_Manual.pdf). The Underwater GPS system displays its current software version at [192.168.2.94/#/about](http://192.168.2.94/#/about).
+Water Linked's latest software revision is 1.4.0 (12 December 2017). The update file can be downloaded [here](https://update.waterlinked.com). The update process is documented on page 17 of the [User Manual](https://waterlinked.com/usermanual). The Underwater GPS system displays its current software version at [192.168.2.94/#/about](http://192.168.2.94/#/about).
 
 ## Operational Setup
 
