@@ -66,7 +66,7 @@ Here's our recommended installation instructions.
 
 ## Software Setup
 
-Power on the ROV and Waterlinked system, and connect your computer. Start QGroundControl. Navigate to [192.168.2.2:2770/waterlinked](192.168.2.2:2770/waterlinked) in your browser, and click the 'Start Water Linked Driver' button. This will need to be performed each time the ROV is powered on. If you do not see a webpage at this address, please perform a software update according to the instructions [here](discuss.bluerobotics.com/t/software-updates-september-14-2017/1491).
+Power on the ROV and Waterlinked system, and connect your computer. Start QGroundControl. Navigate to [http://192.168.2.2:2770/waterlinked](http://192.168.2.2:2770/waterlinked) in your browser, and click the 'Start Water Linked Driver' button. This will need to be performed each time the ROV is powered on. If you do not see a webpage at this address, please perform a software update according to the instructions [here](http://discuss.bluerobotics.com/t/software-updates-september-14-2017/1491).
 
 <img src="/waterlinked/wlik-companion-driver.png" class="img-responsive img-center" style="max-width:650px;" />
 
@@ -74,7 +74,7 @@ If everything is operating correctly, you should now find an ROV position on the
 
 <img src="/waterlinked/wlik-qgc-display.png" class="img-responsive img-center" style="max-width:650px;" />
 
-To configure the Water Linked Underwater GPS system, navigate to [192.168.2.94/#/configuration](http://192.168.2.94/#/configuration) in your browser. Please refer to the [Water Linked Underwater GPS User Manual](https://waterlinked.com/usermanual) for further information on configuration.
+To configure the Water Linked Underwater GPS system, navigate to [http://192.168.2.94/](http://192.168.2.94/) in your browser and click on the 'Configuration' menu item. Please refer to the [Water Linked Underwater GPS User Manual](https://waterlinked.com/usermanual) for further information on configuration.
 
 ### Software Update
 
