@@ -5,12 +5,12 @@ order: 0
 nav:
 - Home: blue-robotics-documentation
 - Product Manuals: product-manuals
-- - ROV: rov
-- - Thrusters and Motors: thrusters-and-motors
-- - Electronics: electronics
-- - Sensors: sensors
-- - Enclosures: enclosures
-- - Other: other
+- - BlueROV2: bluerov2
+- - Thrusters, Actuators, Motors: thrusters-actuators-and-motors
+- - Sensors and Cameras: sensors-and-cameras
+- - Comm, Control, and Power: communication-control-and-power
+- - Cables and Penetrators: cables-and-penetrators
+- - Enclosures, Buoyancy, Ballast: enclosures-buoyancy-and-ballast
 - Tutorials: tutorials
 - Guides: guides
 - How to Contribute: how-to-contribute
@@ -27,7 +27,7 @@ You can use the menu bar at the top to find the product you are looking for and 
 
 # Product Manuals
 
-## ROV
+## BlueROV2
 
 <div class="row">
   <div class="col-sm-4 col-md-4"> 
@@ -41,23 +41,13 @@ You can use the menu bar at the top to find the product you are looking for and 
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/newton-gripper/cad/gripper-1.jpg)">
-    <a href="/newton-gripper/">Newton Gripper <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/payload-skid/cad/payload-skid-w-4in-tube.png)">
     <a href="/payload-skid/">Payload Skid <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
-  <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/assets/images/documentation/kit-2.png)">
-    <a href="/bluerov/">BlueROV <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
 </div> 
 
-## Thrusters and Motors
+## Thrusters, Actuators, and Motors
 
 <div class="row">
   <div class="col-sm-4 col-md-4"> 
@@ -80,34 +70,14 @@ You can use the menu bar at the top to find the product you are looking for and 
   		<a href="/thrusters/motors/m200">M200 Motor <i class="fa fa-chevron-circle-right"></i></a>
   	</div>
   </div>
-</div>  
-
-## Electronics
-
-<div class="row">
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/bescr3/cad/BESC30-R3-3.png)">
-      <a href="/bescr3/">Basic ESC (New) <i class="fa fa-chevron-circle-right"></i></a>
+      <a href="/bescr3/">Basic ESC<i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/assets/images/documentation/besc-3-new.png)">
-    <a href="/besc/">Basic ESC (Old) <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-  <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/assets/images/documentation/blueesc-inside.jpg)">
-    <a href="/bluesc/">BlueESC <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-  <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/batteries/cad/BL4-1-2.png)">
-    <a href="/batteries/">Lithium-Ion Battery <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-  <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/charger/cad/charger-5-2.png)">
-    <a href="/charger/">Lithium Battery Charger <i class="fa fa-chevron-circle-right"></i></a>
+    <div class="tile" style="background-image:url(/newton-gripper/cad/gripper-1.jpg)">
+    <a href="/newton-gripper/">Newton Gripper <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
@@ -116,40 +86,13 @@ You can use the menu bar at the top to find the product you are looking for and 
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/fathom-s/fathom-s-thumb.png)">
-    <a href="/fathom-s/">Fathom-S Interface <i class="fa fa-chevron-circle-right"></i></a>
+    <div class="tile" style="background-image:url()">
+    <a href="/indicator/">Indicator LED <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
-  <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/fathom-x/fathom-x-thumb.png)">
-    <a href="/fathom-x/">Fathom-X Interface <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-  <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/assets/images/documentation/analog-cam-2.png)">
-    <a href="/camera/">Camera <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-    </div>
-    <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/commander/commander-1.png)">
-    <a href="/commander/">Thruster Commander <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-  <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/switch/cad/switch-4.png)">
-    <a href="/switch/">Switch <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
+</div>  
 
-<div class="col-sm-4 col-md-4">
-<div class="tile" style="background-image:url(/assets/images/documentation/Explorer-Kit-S1.jpg)">
-    <a href="/waterlinked/">Underwater GPS <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-
-</div> 
-
-## Sensors
+## Sensors and Cameras
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
@@ -173,18 +116,78 @@ You can use the menu bar at the top to find the product you are looking for and 
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/sos/cad/sos-5-a.png)">
+    <a href="/sos/"><em>SOS</em> Leak Sensor <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/documentation/analog-cam-2.png)">
+    <a href="/camera/">Camera <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/documentation/Explorer-Kit-S1.jpg)">
+    <a href="/waterlinked/">Underwater GPS <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+</div>
+
+## Communication, Control, and Power
+
+<div class="row">
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/fathom-x/fathom-x-thumb.png)">
+    <a href="/fathom-x/">Fathom-X Interface <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/fathom-s/fathom-s-thumb.png)">
+    <a href="/fathom-s/">Fathom-S Interface <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/level-converter/cad/level-converter-1.png)">
     <a href="/level-converter/">I<sup>2</sup>C Level Converter <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/sos/cad/sos-5-a.png)">
-    <a href="/sos/"><em>SOS</em> Leak Sensor <i class="fa fa-chevron-circle-right"></i></a>
+    <div class="tile" style="background-image:url(/batteries/cad/BL4-1-2.png)">
+    <a href="/batteries/">Lithium-Ion Battery <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/charger/cad/charger-5-2.png)">
+    <a href="/charger/">Lithium Battery Charger <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>  
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/switch/cad/switch-4.png)">
+    <a href="/switch/">Switch <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/commander/commander-1.png)">
+    <a href="/commander/">Thruster Commander <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+</div> 
+
+## Cables and Penetrators
+
+<div class="row">
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/documentation/Tether-wound.png)">
+    <a href="/fathom/"><em>Fathom</em> Tether <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/documentation/cable-penetrator-1-r2.png)">
+    <a href="/tutorials/cable-penetrator/">Cable Penetrator <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
 </div>
 
-## Enclosures
+## Enclosures, Buoyancy, and Ballast
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
@@ -208,25 +211,11 @@ You can use the menu bar at the top to find the product you are looking for and 
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/assets/images/documentation/cable-penetrator-1-r2.png)">
-    <a href="/tutorials/cable-penetrator/">Cable Penetrator <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-</div>
-
-## Other  
-<div class="row">
-  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/foam-1.png)">
       <a href="/float/">Subsea Buoyancy Foam <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
-  <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/assets/images/documentation/Tether-wound.png)">
-    <a href="/fathom/"><em>Fathom</em> Tether <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-</div> 
+</div>
 
 # Tutorials
 
@@ -261,16 +250,6 @@ You can use the menu bar at the top to find the product you are looking for and 
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/tutorials/vacuum-test-plug/step-4.png">
       <a href="/tutorials/vacuum-test-plug/">Using the Vacuum Plug <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-</div>
-
-# Guides
-
-<div class="row">
-  <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/assets/images/documentation/battery-1.png)">
-      <a href="/battery/">Battery Selection <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
 </div>
