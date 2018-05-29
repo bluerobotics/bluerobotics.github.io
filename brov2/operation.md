@@ -36,6 +36,7 @@ nav:
 - Preventative Maintenance: preventative-maintenance
 - - Every 100 Hours: every-100-hours-of-operation-or-every-6-months 
 - Connection Diagrams: connection-diagrams
+- Advanced Information: advanced-information
 - Issue Reporting: issue-reporting
 
 store-links:
@@ -306,6 +307,10 @@ These diagrams outline all of the electrical connections between components in t
 - [BlueROV2 with red-wire (BEC) ESCs](/brov2/cad/connections/BlueROV2_bec.pdf) (Pre-2018)
 - [BlueROV2 with no-red-wire ESCs](/brov2/cad/connections/BlueROV2_no_bec.pdf) (2018 and later)
 - [BlueROV2 Heavy](/brov2/cad/connections/BlueROV2_heavy.pdf)
+
+# Advanced Information
+
+The BlueROV2 is not designed to do just one thing, it is designed to be very flexible and adaptable to suit many applications. As such, there are flexible and advanced configuration options that are directly accessible to the end user. To learn more about the software and hardware that drives the BlueROV2, please visit [ardusub.com](ardusub.com). There are also available a wide range of developer resources, and a strong marine hacking community at [discuss.bluerobotics.com](discuss.bluerobotics.com).
 
 # Issue Reporting
 
