@@ -8,6 +8,7 @@ nav:
 - Introduction: software-introduction
 - Install QGroundControl: install-qgroundcontrol
 - Network Setup: network-setup
+- Update Software: update-software
 - Joystick Setup: joystick-setup
 - Joystick Calibration: joystickgamepad-calibration
 - Button Setup: button-setup
@@ -43,6 +44,7 @@ $(document).ready(function(){
 	// We don't show these sidebar-nav items until the user selects an OS
 	var blacklist = ['Install QGroundControl',
 	'Network Setup',
+	'Update Software',
 	'Joystick Setup',
 	'Joystick Calibration',
 	'Button Setup',
@@ -255,6 +257,30 @@ All required drivers for wired Xbox 360 controllers and Logitech F310 controller
 Logitech controllers should have the switch on the back set to "X"
 </div>
 <div id="commonDiv" class="collapse" markdown="1">
+
+# Update Software
+
+There are two computers installed on the BlueROV2: a Pixhawk autopilot, and a Raspberry Pi 'companion' computer. Before proceeding, we will check that the software on both computers is up to date, and update the software if necessary.
+
+## Companion
+
+Companion is the software that runs on the Raspberry Pi. To perform a companion software update:
+
+- Plug a _fully charged_ battery into the ROV and connect the tether to your computer.
+- Navigate to [192.168.2.2:2770/network](http://192.168.2.2:2770/network) in your browser and ensure that the ROV has access to a WiFi network. If you do not see a webpage at this address, you need to perform the update according to the instructions [here](http://discuss.bluerobotics.com/t/software-updates/1128).
+- Navigate to [192.168.2.2:2770/system](http://192.168.2.2:2770/system). Click the button that says 'Update companion'. If you do not see this button, then the companion software is up to date.
+- The update process will take between 5 and 20 minutes depending on the Internet connection speed. Wait for the update process to complete.
+- When it completes, refresh your browser. The companion version should be updated, and the update available message should no longer appear.
+- If the update fails (usually due to a loss of internet connectivity), you will be warned that the ROV will reboot and to leave the battery plugged in. At this point, once you are able to refresh the webpage, it is safe to either power down the ROV or attempt the update again.
+
+## ArduSub
+
+ArduSub is the software that runs on the Pixhawk autopilot. To perform an ArduSub software update:
+
+- Navigate to [192.168.2.2:2770/network](http://192.168.2.2:2770/network) and ensure that the ROV has an internet connection
+- Navigate to [192.168.2.2:2770/system](http://192.168.2.2:2770/system). Click the button under the 'Pixhawk Firmware Update' section that says 'Stable'.
+- Wait for the update process to complete, and you are finished!
+
 
 # Joystick/Gamepad Calibration
 
