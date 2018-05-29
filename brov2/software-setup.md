@@ -8,8 +8,8 @@ nav:
 - Introduction: software-introduction
 - Install QGroundControl: install-qgroundcontrol
 - Network Setup: network-setup
-- Update Software: update-software
 - Joystick Setup: joystick-setup
+- Update Software: update-software
 - Joystick Calibration: joystickgamepad-calibration
 - Button Setup: button-setup
 - Sensor Calibration: sensor-calibration
