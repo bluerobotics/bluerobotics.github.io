@@ -229,7 +229,7 @@ To get the longest battery life and the best driving experience, it is important
 
 Finally, before operating your ROV, we need to update the software configuration. Begin by powering on your ROV, connect it to your computer, and open QGroundControl.
 
-## Load new parameters
+## Load New Parameters
 
 - Go to the _Frame_ tab of the _Vehicle Setup_ page (click the gears icon)
 - Click 'Load Vehicle Defaults'
@@ -238,7 +238,7 @@ Finally, before operating your ROV, we need to update the software configuration
 
 <img src="/brov2-heavy/cad/qgc-heavy-parameter-setup.png" class="img-responsive img-center" style="max-width:800px"  />
 
-## Configure motor directions
+## Configure Motor Directions
 
 The motor directions for the BlueROV2 must be configured prior to operation.
 
@@ -254,7 +254,7 @@ The motor directions for the BlueROV2 must be configured prior to operation.
 
     <img src="/brov2/cad/qgc-motor-setup.png" class="img-responsive img-center" style="max-width:800px" />
 
-## Roll and pitch input
+## Roll and Pitch Input
 
 There are currently two methods available for roll and pitch input. 
 
