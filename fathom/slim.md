@@ -59,7 +59,7 @@ This tether is ideal for travel, deep dives, and long distance dives where size 
 |      **Electrical**       |
 | ------------- | --------- |
 | **Item** | **Value** |
-| DC Resistance @ 20&deg;C| 0.0445 &Omega; / ft | 0.146 &Omega; / m |
+| DC Resistance @ 20&deg;C| 0.0386 &Omega; / ft | 0.127 &Omega; / m |
 | Voltage Rating (Twisted Pair) | 300 VDC |
 |      **Twisted Pairs**    |
 |---|---|---------------------|
