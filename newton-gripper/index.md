@@ -189,7 +189,7 @@ To reassemble your BlueROV2 electronics Enclosure, you will need the following p
 
 To mount the Newton Gripper to the BlueROV2 Frame, you will need the following parts and tools:
 
--  1 x Newton Gripper Mount Drilling Template, included with kit or available [here](cad/NEWTON-GRIPPER-MOUNT-DRILLING-TEMPLATE-R1.pdf) (8.5 x 11" Piece of paper)
+-  1 x Newton Gripper Mount Drilling Template, included with kit or available [here](cad/NEWTON-GRIPPER-W-MOUNT-DRILLING-TEMPLATE-UNIVERSAL-R1.PDF) (8.5 x 11" or A4 Piece of paper, print setting "Actual")
 -  1 x 5.50mm (or 7/32") drill bit (not included)
 -  1 x Battery Powered Hand Drill (not included)
 -  2 x M5x16 Button Head Screws
