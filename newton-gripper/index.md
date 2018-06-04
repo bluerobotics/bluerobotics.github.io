@@ -115,8 +115,8 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**Newton Gripper**																		|
 | --------------------------------------------------------------------------------------------- |
-| Newton Gripper Assembly   | [Assem-NEWTON-GRIPPER-R1.zip](cad/NEWTON-GRIPPER-ASM-R1.zip)      |
-| Newton Gripper Mount 	    | [NEWTON-GRIPPER-MOUNT.zip](cad/NEWTON-GRIPPER-MOUNT-R1.zip) 		|
+| Newton Gripper Assembly   | [NEWTON-GRIPPER-ASM-R3-PUBLIC.zip](cad/NEWTON-GRIPPER-ASM-R3-PUBLIC.zip)      |
+| Newton Gripper Mount 	    | [NEWTON-MOUNT-ASM-R1-PUBLIC.zip](cad/NEWTON-MOUNT-ASM-R1-PUBLIC.zip) 		|
 
 # Installation
 
