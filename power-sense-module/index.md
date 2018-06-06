@@ -44,11 +44,11 @@ The <em>XX</em> Power Sense Module  provides analog current and voltage sensing 
 | Input Connector | XT60 Connector |
 | ------------- | --------- |
 
-|  **Physical**  |
+|  **Physical (Board Dimensions)**  |
 | ------------- | --------- |
-| Length | xx mm | xx in |
-| Width | xx mm | xx in |
-| Height (without header pins) | xx mm| xx in |
+| Length | 16 mm | 0.63 in |
+| Width | 19 mm | 0.75 in |
+| Height (without header pins) | 7 mm| 0.28 in |
 |----------------------|
 
 |  **Power Pin Out**  |
