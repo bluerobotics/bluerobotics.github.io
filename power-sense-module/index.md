@@ -105,7 +105,7 @@ Connect the 6-position JST-GH to DF13 cable (GH plug side) into the the JST-GH s
 
 # ArduSub Software Setup
 
-<img src="/power-sense-module/cad/.png" class="img-responsive" style="max-width:800px"  />
+<img src="/power-sense-module/cad/PSM-Ardusub-Highlighted.jpg" class="img-responsive" style="max-width:800px"  />
 
 In the Parameters tab of the QGroundControl Vehicle Setup page, select "BATT" and enter the following values:
 
