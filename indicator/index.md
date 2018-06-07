@@ -72,7 +72,7 @@ All 3D models are provided in zip archives containing the follow file types:
 |		**Lumen Light**																			|
 | --------------------------------------------------------------------------------------------- |
 | Indicator Assembly      | [INDICATOR10-ASM-R1.zip](INDICATOR10-ASM-R1.zip)    |
-| Cable Penetrator Nut    | [PENETRATOR-NUT-10-A-R2.zip](/models/PENETRATOR-M-NUT-10-A-R2.zip) |
+| Cable Penetrator Nut    | PENETRATOR-NUT-10-A-R2.zip [Coming Soon] 
 
 # Installation
 
