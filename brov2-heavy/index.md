@@ -6,7 +6,7 @@ topnavbar: brov2
 nav:
 - Introduction: introduction
 - Specifications: specifications
-- - Specification Table: specification-table
+- - Specification Table: specification-table-bluerov2-with-new-heavy-retrofit-kit
 - - 2D Drawings: 2d-drawings
 - - 3D Model: 3d-model
 - Assembly and Installation: assembly-and-installation
