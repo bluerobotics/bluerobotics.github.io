@@ -296,7 +296,7 @@ If the ROV loses power or connection to QGroundControl while diving, you should 
 
 - If you camera tilt or lights do not work when the appropriate buttons are pushed, please re-load the BlueROV2 default parameters by navigating to the _Frame_ tab of the _Vehicle Setup_ page and selecting _Load Vehicle Default Parameters_ and then either Blue Robotics Blue ROV2 or Blue Robotics BlueROV2 Heavy depending on your hardware configuration. Wait for the green loading bar to finish writing the parameters.
 
-<img src="brov2/cad/BlueROV2-Default-Parameters.jpg" class="img-responsive img-center" style="max-width:800px" />
+<img src="/brov2/cad/BlueROV2-Default-Parameters.jpg" class="img-responsive img-center" style="max-width:800px" />
 
 # Preventative Maintenance
 
