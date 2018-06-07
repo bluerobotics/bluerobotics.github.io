@@ -20,7 +20,7 @@ nav:
 - - Mounting Additonal Ballast: mounting-additonal-ballast-to-the-frame
 - Software Setup: software-setup
 - - Load New Parameters: load-new-parameters
-- - Configure Motor Directions: configure-motor-direcitons
+- - Configure Motor Directions: configure-motor-directions
 - - Roll and Pitch Input: roll-and-pitch-input
 
 store-links:
