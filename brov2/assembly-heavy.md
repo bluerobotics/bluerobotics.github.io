@@ -366,9 +366,9 @@ The Aluminum End Cap with 14 Holes comes with 1 Cable Penetrator Blanks, 1 Bar30
 
 [//]: # (<img src="/brov2-heavy/cad/end-cap-as-modified.png" class="img-responsive" style="max-width:900px" />)
 
-If you install the remaining penetrators as shown in the diagram below, it will keep everything neat and organized.
+If you install the remaining penetrators as shown in the diagram below, it will keep everything neat and organized. (Image Coming soon)
 
-<img src="/brov2-heavy/cad/end-cap-final.png" class="img-responsive" style="max-width:900px" />
+[//]: # (<img src="/brov2-heavy/cad/end-cap-final.png" class="img-responsive" style="max-width:900px" />)
 	
 1. Remove ten of the O-rings and apply silicone grease to them. Keep the other O-ring in the bag, you will need it in a minute.
 
