@@ -32,7 +32,7 @@ This tether is ideal for travel, deep dives, and long distance dives where size 
  
 # Quick Start 
 
-1. Prepare the ends of your tether for use as shown in the [installation tutorial](#installation).
+1. Prepare the ends of your tether for use as shown in the installation tutorial [Coming soon].
 
 2. Be sure to tin the ends of the conductors prior to installing the tether into your vehicle.
 
