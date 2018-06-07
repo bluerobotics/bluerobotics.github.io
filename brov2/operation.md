@@ -179,6 +179,7 @@ This checklist is more thorough than the [Pre-Dive Checklist](#pre-dive-checklis
 - Visually check that all screws holding the dome and front battery end cap are installed and look tight.
 - Visually check the radial seals on the electronics and battery enclosure.
 - Put the ROV on the ground and make sure that people are clear of the thrusters.
+- Check to make sure the camera tilt function and lights work. If they do not, please see the Troubleshooting section.
 - Put the ROV in manual mode.
 - Arm the ROV.
 - Press the forward/reverse stick forward to check that the vectored thrusters are spinning freely.
@@ -288,6 +289,14 @@ If the ROV loses power or connection to QGroundControl while diving, you should 
 
 - Rinse down with fresh water
 - If you were operating in a sandy environment or seaweed, clean sand and seaweed from the thrusters.
+
+# Troubleshooting
+
+## Re-Load BlueROV2 Default Parameters
+
+- If you camera tilt or lights do not work when the appropriate buttons are pushed, please re-load the BlueROV2 default parameters by navigating to the _Frame_ tab of the _Vehicle Setup_ page and selecting _Load Vehicle Default Parameters_ and then either Blue Robotics Blue ROV2 or Blue Robotics BlueROV2 Heavy depending on your hardware configuration. Wait for the green loading bar to finish writing the parameters.
+
+<img src="brov2/cad/BlueROV2-Default-Parameters.jpg" class="img-responsive img-center" style="max-width:800px" />
 
 # Preventative Maintenance
 
