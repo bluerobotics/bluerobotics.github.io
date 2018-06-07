@@ -33,6 +33,7 @@ nav:
 - - Powered Recovery: powered-recovery
 - - Unpowered Recovery: unpowered-recovery
 - Post-Mission Checklist: post-mission-checklist
+- Troubleshooting: troubleshooting
 - Preventative Maintenance: preventative-maintenance
 - - Every 100 Hours: every-100-hours-of-operation-or-every-6-months 
 - Connection Diagrams: connection-diagrams
@@ -179,7 +180,7 @@ This checklist is more thorough than the [Pre-Dive Checklist](#pre-dive-checklis
 - Visually check that all screws holding the dome and front battery end cap are installed and look tight.
 - Visually check the radial seals on the electronics and battery enclosure.
 - Put the ROV on the ground and make sure that people are clear of the thrusters.
-- Check to make sure the camera tilt function and lights work. If they do not, please see the Troubleshooting section.
+- Check to make sure the camera tilt function and lights work. If they do not, please see the [Troubleshooting](#troubleshooting) section.
 - Put the ROV in manual mode.
 - Arm the ROV.
 - Press the forward/reverse stick forward to check that the vectored thrusters are spinning freely.
@@ -206,6 +207,7 @@ This checklist should be done every time the ROV is put into the water, prior to
 - Visually check that all screws holding the dome and front battery end cap are installed and look tight.
 - Visually check the radial seals on the electronics and battery enclosure.
 - Put the ROV on the ground and make sure that people are clear of the thrusters.
+- Check to make sure the camera tilt function and lights work. If they do not, please see the [Troubleshooting](#troubleshooting) section.
 - Put the ROV in manual mode.
 - Arm the ROV.
 - Press the forward/reverse stick forward to check that the vectored thrusters are spinning freely. Do not run the thrusters for more than 30 seconds in air.
