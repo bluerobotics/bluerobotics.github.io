@@ -259,7 +259,7 @@ This is usually an issue with the proper commands being sent to the ESC. Please 
 
 **The motor does not start but the propeller tries to move.**
 
-This can be caused by a disconnected motor wire or a short between motor wires. Check that all three motor wires are connected and not shorting. To do this, check resistance of each phase pair in the thruster. Each thruster wire phases pair (Blue/green. blue/white, green/white) should have the same resistance within 0.1-0.2ohms or so. If no connection is read or one pair has significantly higher resistance, your thruster has a fault. Please e-mail [support@bluerobotics.com](support@bluerobotics.com) if this fault is found.
+This can be caused by a disconnected motor wire or a short between motor wires. Check that all three motor wires are connected and not shorting. To do this, check resistance of each phase pair in the thruster. Each thruster wire phases pair (Blue/green. blue/white, green/white) should have the same resistance within 0.1-0.2ohms or so. If no connection is read or one pair has significantly higher resistance, your thruster has a fault. Please e-mail [support@bluerobotics.com](mailto:support@bluerobotics.com) if this fault is found.
 
 **The motor is jammed when turned by hand.**
 
