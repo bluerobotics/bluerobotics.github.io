@@ -19,7 +19,7 @@ nav:
 - - Lights: lights
 - - Leak Sensor: sos-leak-sensor
 - - Desiccant: desiccant
-- - Heavy Variant Add-On Kit: heavy-kit
+- - Heavy Variant Add-On Kit: heavy-variant-add-on-kit
 - What's Not Included: what-you-need-for-operation-that-is-not-included
 - Frame Assembly: assembling-the-frame
 - - Battery Enclosure: mounting-the-battery-enclosure-to-the-bottom-panel
