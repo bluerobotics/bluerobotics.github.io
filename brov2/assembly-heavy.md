@@ -39,7 +39,7 @@ nav:
 - - Desiccant: adding-desiccant-to-the-electronics-enclosure
 - - Mounting Electronics Enclosure: mounting-the-electronics-enclosure-onto-the-frame
 - - Mounting Thrusters: mounting-the-thrusters-to-the-frame
-- - Install New Thruster Guards: thruster-guards
+- - Install New Thruster Guards: install-new-thruster-guards
 - - Mounting Lights: mounting-the-lights
 - - Mounting the Tether: mounting-the-tether-to-the-frame
 - - External Cable Management: thruster-and-lumen-cable-management
