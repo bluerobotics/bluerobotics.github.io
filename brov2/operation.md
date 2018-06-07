@@ -310,7 +310,7 @@ These diagrams outline all of the electrical connections between components in t
 
 # Advanced Information
 
-The BlueROV2 is not designed to do just one thing, it is designed to be very flexible and adaptable to suit many applications. As such, there are flexible and advanced configuration options that are directly accessible to the end user. To learn more about the software and hardware that drives the BlueROV2, please visit [ardusub.com](ardusub.com). There are also available a wide range of developer resources, and a strong marine hacking community at [discuss.bluerobotics.com](discuss.bluerobotics.com).
+The BlueROV2 is not designed to do just one thing, it is designed to be very flexible and adaptable to suit many applications. As such, there are flexible and advanced configuration options that are directly accessible to the end user. To learn more about the software and hardware that drives the BlueROV2, please visit [ardusub.com](https://www.ardusub.com/). There are also available a wide range of developer resources, and a strong marine hacking community at [discuss.bluerobotics.com](https://discuss.bluerobotics.com).
 
 # Issue Reporting
 
