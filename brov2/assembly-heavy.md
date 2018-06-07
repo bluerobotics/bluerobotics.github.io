@@ -362,9 +362,9 @@ To install the Penetrators you will need the following parts and tools:
 - 1 x Fathom ROV Tether
 - 1 x Penetrator Wrench
 
-The Aluminum End Cap with 14 Holes comes with 1 Cable Penetrator Blanks, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable installed.
+The Aluminum End Cap with 14 Holes comes with 1 Cable Penetrator Blanks, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable installed. (Image Coming soon)
 
-<img src="/brov2-heavy/cad/end-cap-as-modified.png" class="img-responsive" style="max-width:900px" />
+[//]: # (<img src="/brov2-heavy/cad/end-cap-as-modified.png" class="img-responsive" style="max-width:900px" />)
 
 If you install the remaining penetrators as shown in the diagram below, it will keep everything neat and organized.
 
