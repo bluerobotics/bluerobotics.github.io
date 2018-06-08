@@ -152,6 +152,22 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 # Joystick Setup
 
+**Intial Setup for XBox Controllers on Windows**
+
+For using the shift button functionality of XBox Controllers on Windows:
+
+1. Go to Start -> Settings
+2. Open the Gaming settings
+
+	<img src="/brov2/cad/windowssetup/settings.png" class="img-responsive img-center" style="max-width:800px" />
+
+3. Go to Game Bar tab from the left navigation panel
+4. Uncheck the 'Open Game bar using this button on a controller' option
+
+	<img src="/brov2/cad/windowssetup/gamebar.png" class="img-responsive img-center" style="max-width:800px" />
+
+This will enable the XBox home button on the controller to be used as the Shift button for ROV controls.
+
 **XBox 360 Controller** 
 
 - Plug and Play
