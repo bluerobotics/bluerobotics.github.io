@@ -21,11 +21,11 @@ manual-links:
 - BlueROV2: /brov2
 ---
 
-<img src="/power-sense-module/cad/power-sense-module-banner.PNG" class="img-responsive" style="max-width:900px"  />
+<img src="/power-sense-module/cad/PSM-Banner.JPG" class="img-responsive" style="max-width:900px"  />
 
 # Introduction
 
-The <em>XX</em> Power Sense Module  provides analog current and voltage sensing to your Pixhawk autopilot mounted either on your BlueROV2 or custom marine robotics project. The <a href="http://ardusub.com/">ArduSub</a> firmware for the Pixhawk supports the <em>xx</em> Power Sense Module and through QGroundControl will give you visual indications of battery level and current consumption. Unlike standard power modules for the Pixhawk, the <em>xx</em> Power Sense Module will NOT provide power, only sensing abilities. 
+The <em>Power Sense Module</em> provides analog current and voltage sensing to your Pixhawk autopilot mounted either on your BlueROV2 or custom marine robotics project. The <a href="http://ardusub.com/">ArduSub</a> firmware for the Pixhawk supports the <em>Power Sense Module</em> and through QGroundControl will give you visual indications of battery level and current consumption. Unlike standard power modules for the Pixhawk, the <em>Power Sense Module</em> will NOT provide power, only sensing abilities. 
 
 # Specifications
 
@@ -101,7 +101,7 @@ Connect the yellow XT60 from the Power Sense Board to the XT60 power input comin
 
 <img src="/power-sense-module/cad/.png" class="img-responsive" style="max-width:800px"  />
 
-Connect the 6-position JST-GH to DF13 cable (GH plug side) into the the JST-GH socket on your Power Sense Module. Connect the JST-GH to DF13 cable (DF13 plug side) into the DF13 POWER socket on your Pixhawk.
+Connect the 6-position JST-GH to DF13 cable (GH plug side) into the the JST-GH socket on your <em>Power Sense Module</em>. Connect the JST-GH to DF13 cable (DF13 plug side) into the DF13 POWER socket on your Pixhawk.
 
 # ArduSub Software Setup
 
