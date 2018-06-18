@@ -83,7 +83,7 @@ The [EagleCAD files](https://github.com/bluerobotics/power-sense-module) for the
 
 <img src="/power-sense-module/cad/.png" class="img-responsive" style="max-width:800px"  />
 
-Disconnect the old Power Module spade connections (Positive and Negative) on the BlueROV2 terminal blocks. Disconnect the yellow XT60 connector. Depending on when you purchased your ROV, you may have a secondary XT60 connection that can also be disconnected. Disconnect the DF13 cabe plug from the POWER port on your Pixhawk.
+Disconnect the old Power Module spade connections (Positive and Negative) on the BlueROV2 terminal blocks. Disconnect the yellow XT60 connector. Depending on when you purchased your ROV, you may have a secondary XT60 connection that can also be disconnected. Disconnect the DF13 cable plug from the POWER port on your Pixhawk.
 
 ### Step 2: Connect the power spades
 
