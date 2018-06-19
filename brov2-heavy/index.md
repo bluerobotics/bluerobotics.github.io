@@ -159,7 +159,7 @@ To install the new thruster guards, you will need the following parts and tools:
 -	8 x Heavy Guard Mounting Brackets
 -	2 x Heavy Guards
 -	1 x Threadlocker
--	1x #1 Phillips head screwdriver
+-	1 x #1 Phillips head screwdriver
 
 1. Apply one drop of threadlocker to each of the M4x16mm screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 2. Install 4 of the thruster guard mounting brackets on the outside of the frame using 4 M4x16 screws as shown below.
@@ -202,8 +202,8 @@ To install the new buoyancy blocks and fairings, you will need the following par
 -	2 x Heavy additional buoyancy blocks
 -	2 x Heavy fairings
 -	1 x Bag of 4 fairing screws
--	1x #1 Phillips head screwdriver
--   1x #2 Phillips head screwdriver
+-	1 x #1 Phillips head screwdriver
+-   1 x #2 Phillips head screwdriver
 
 1.	 Reinstall Original Fairing Blocks onto ROV by installing the screws through the center panels and into the fairings.
 <img src="/brov2-heavy/cad/heavy-step-3.PNG" class="img-responsive img-center" style="max-width:800px"  />
@@ -214,20 +214,20 @@ To install the new buoyancy blocks and fairings, you will need the following par
 <img src="/brov2-heavy/cad/heavy-tutorial-17.jpg" class="img-responsive img-center" style="max-width:800px"  />
 <img src="/brov2-heavy/cad/heavy-tutorial-21.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
-## Mounting Additonal Ballast to the Frame
+## Mounting Additional Ballast to the Frame
 
 To mount the ballast to the frame you need the following parts and tools:
 
 - 7 x 200g ballast weights (from original BlueROV2 Kit)
 - 3 x 200g ballast weights (from Heavy Retrofit Kit)
-- 10 x 8-16 Thread, 5/8” Long, Thread-Forming Screw
-- 1 x #2 phillips head screwdriver
+- 10 x 8-16 Thread, 5/8” Long, Thread-Forming Screws
+- 1 x #2 Phillips head screwdriver
 
 To get the longest battery life and the best driving experience, it is important to have the ROV close to balanced from front to back in water and close to neutrally buoyant. The Heavy Retrofit kit adds a bit of weight and more buoyancy to the ROV, so it will need to be retrimmed based on your operating conditions. Trimming the ballast may involve a bit of trial and error. The pictures below should provide a good starting point for mounting additonal ballast.
 
 # Software Setup
 
-Finally, before operating your ROV, we need to update the software configuration. Begin by powering on your ROV, connect it to your computer, and open QGroundControl.
+Finally, before operating your ROV, we need to update the software configuration. Begin by powering on your ROV, connecting it to your computer, and opening QGroundControl.
 
 ## Load New Parameters
 
@@ -267,7 +267,7 @@ Push the buttons once, or hold them down to adjust the roll and pitch angle of t
 	
 2. Using the joystick button function _roll_pitch_toggle_ 
 
-This is an advanced function, to setup this function, please reference the [ArduSub Button Setup page](https://www.ardusub.com/getting-started/initial-setup.html#button-setup) (This function is very developmental, use with caution)
+This is an advanced function. To setup this function, please reference the [ArduSub Button Setup page](https://www.ardusub.com/getting-started/initial-setup.html#button-setup) (This function is very developmental, use with caution)
 
 Push the button to toggle the function of one joystick between controlling forward/lateral input and controlling roll/pitch input
 <img src="/brov2-heavy/cad/joystick-stick-mode.png" class="img-responsive img-center" style="max-width:800px"  />
