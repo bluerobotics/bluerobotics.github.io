@@ -59,7 +59,7 @@ All 3D models are provided in zip archives containing the follow file types:
 
 # Usage
 
-Assemble according to the below steps, and the Payload Skid will allow you to mount two additional Lumens, twelve additional ballast weights, and three additional 3" watertight enclosures or one additional 4" watertight enclosure. Note that you may have to add more than a few ballast weights to get your BlueROV2 back to neutral buoyancy if your additional watertight enclosures are mostly empty! The chart below suggests the approximate number of additional 200g ballast weights you will need to add to to achieve this, they can be mounted in any combination on the BlueROV2 or Payload Skid as necessary. 
+Assemble according to the below steps, and the Payload Skid will allow you to mount two additional Lumens, twelve additional ballast weights, and three additional 3" watertight enclosures or one additional 4" watertight enclosure. Note that you may have to add more than a few ballast weights to get your BlueROV2 back to neutral buoyancy if your additional watertight enclosures are mostly empty! The chart below suggests the approximate number of additional 200g ballast weights you will need to add to achieve this. They can be mounted in any combination on the BlueROV2 or Payload Skid as necessary. 
 
 |  **Suggested Additional Ballast Weights**  |
 | ------------- | --------- |
@@ -101,7 +101,7 @@ Using four M4x14 screws, attach a 3" or 4" watertight enclosure clamp to top of 
 
 <img src="/payload-skid/cad/payload-step-5.png" class="img-responsive img-center" style="max-width:800px"  />
 
-Using four M3x12 screws, clamp your 3" or 4" watertight enclosure into place with the other clamp. Install all four screws loosly at first and then slowly tighten them on both sides evenly. Keep the enclosure approximately centered in the clamps. Using thread-locker is recommended. Repeat steps 4 and 5 if you are mounting additonal watertight enclosures to the side panels, note that you will only be able to mount three enclosures on the inside of the Payload Skid if they are all 3" models.
+Using four M3x12 screws, clamp your 3" or 4" watertight enclosure into place with the other clamp. Install all four screws loosely at first and then slowly tighten them on both sides evenly. Keep the enclosure approximately centered in the clamps. Using thread-locker is recommended. Repeat steps 4 and 5 if you are mounting additonal watertight enclosures to the side panels, note that you will only be able to mount three enclosures on the inside of the Payload Skid if they are all 3" models.
 
 ## Step 6: Installing Additional Lights
 
