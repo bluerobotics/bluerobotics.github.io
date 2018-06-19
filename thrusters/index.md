@@ -84,9 +84,9 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 |----------------------------------------------------------------------------------------|
 |                                 **Performance**                                        |
 | -------------------------------------------------------|-------------------------------|
-| Maximum Forward Thrust                                 | 2.36 kgf      | 5.2 lbf       |
-| Maximum Reverse Thrust                                 | 1.85 kgf      | 4.1 lbf       |
-| Minimum Thrust                                         | 0.01 kgf      | 0.02 lbf      |
+| Maximum Forward Thrust                                 | 2.36 kg<sub>f</sub>      | 5.2 lb<sub>f</sub>       |
+| Maximum Reverse Thrust                                 | 1.85 kg<sub>f</sub>      | 4.1 lb<sub>f</sub>       |
+| Minimum Thrust                                         | 0.01 kg<sub>f</sub>      | 0.02 lb<sub>f</sub>      |
 | Rotational Speed                                       | 300-4200 rev/min              |
 | -------------------------------------------------------|-------------------------------| 
 |                                 **Electrical**                                         |
