@@ -152,7 +152,7 @@ The batteries can be changed in about 30 seconds.
 ## Camera
 
 | Field of View (Underwater) | 110 degrees (horizontal)                                                              |                                                      
-| Light Sensitivity          | 0.01[lux](https://en.wikipedia.org/wiki/Lux#Illuminance)                              |
+| Light Sensitivity          | 0.01 [lux](https://en.wikipedia.org/wiki/Lux#Illuminance)                              |
 | Resolution                 | 1080p                                                                                 |
 
 ## Control System
