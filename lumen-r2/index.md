@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lumen Light
+title: Lumen Light R2
 order: 1
 nav:
 - Introduction: introduction
@@ -12,25 +12,24 @@ nav:
 - - 2D Drawings: 2d-drawings
 - - 3D Model: 3d-model
 - Installation: installation
-- - Using the Center Hole: using-the-center-hole
-- - Using the Threaded Outside Holes: using-the-threaded-outside-holes
+- - Using the Threaded Outside Holes: using-the-threaded-holes
 - Daisy Chain Connection: daisy-chain-connection
 - Example Code: example-code
 - - Arduino: arduino
 
 store-links:
-- Lumen:  https://www.bluerobotics.com/store/electronics/lumen-light-r1/
+- Lumen:  https://www.bluerobotics.com/store/electronics/lumen-light-r2/
 
 manual-links:
 - Thrusters: /thrusters
 - BlueROV: /bluerov
 ---
 
-<img src="/lumen/cad/lumen-r2-1-1.png" class="img-responsive" style="max-width:900px"  />
+<img src="/lumen-r2/cad/lumen-r2-banner.png" class="img-responsive" style="max-width:900px"  />
 
 # Introduction
 
-The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at depths of up to 300 meters. The *Lumen* Light can be smoothly dimmed with a servo PWM signal or simply turned on/off with a switch. Up to six lights can be daisy-chained together and controlled with a single signal, requiring only one penetration into a watertight enclosure.
+The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at depths of up to 975 meters. The *Lumen* Light can be smoothly dimmed with a servo PWM signal or simply turned on/off with a switch. Up to six lights can be daisy-chained together and controlled with a single signal, requiring only one penetration into a watertight enclosure.
 
 ## Quick Start (on/off with no PWM signal source)
 
@@ -86,28 +85,24 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 | | Yellow - Signal |
 |  **Physical**  |
 | ------------|-------------------------|
-| Pressure Rating<sup>1</sup> | 300 m | 985 ft |
-| Overall Length | 64.8 mm | 2.55 in |
-| Overall Diameter   | 32 mm | 1.26 in |
+| Pressure Rating<sup>1</sup> | 975 m | 3198 ft |
+| Overall Length | xx mm | xx in |
+| Overall Diameter   | xx mm | xx in |
 | Bracket Mounting Hole Spacing | 19 mm | 0.75 in |
 | Bracket Screw Size | M3 |
-| Weight in Air (w/ 1m cable) | 82 g    |   2.9 oz    |
-| Weight in Water (w/ 1m cable) | 32 g    |  1.1 oz   |
+| Weight in Air (w/ 1m cable) | xx g    |   xx oz    |
+| Weight in Water (w/ 1m cable) | xx g    |  xx oz   |
 | Maximum Temperature when Run in Air | 55&deg; C | 130&deg; F
 | Beam Angle | 135 degrees in water |
 |----------------------|
 
-[1] Pressure rating is based on design and a conservative safety factor until testing is completed.
+[1] Pressure rating is based on design and a conservative safety factor.
 
 ## 2D Drawings
 
 ### Lumen Light Assembly
 
-<img src="/lumen/cad/Assem-LUMEN-LIGHT-R1-2D.png" class="img-responsive" style="max-width:900px" />
-
-### Lumen Light Mount
-
-<img src="/lumen/cad/lumen-mount.png" class="img-responsive" style="max-width:900px" />
+<img src="/lumen-r2/cad/Assem-LUMEN-LIGHT-R2-2D.png" class="img-responsive" style="max-width:900px" />
 
 ## 3D Model
 
@@ -120,32 +115,13 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**Lumen Light**																			|
 | --------------------------------------------------------------------------------------------- |
-| Lumen Light Assembly      | [Assem-LUMEN-LIGHT-R1.zip](cad/Assem-LUMEN-LIGHT-R1.zip)    |
-| Lumen Light Mount 	    | [LUMEN-M-MOUNT.zip](cad/LUMEN-M-MOUNT-X1.zip) 				    |
+| Lumen Light R2 Assembly      | [Assem-LUMEN-LIGHT-R2.zip](cad/Assem-LUMEN-LIGHT-R2.zip)    |
 
 # Installation
 
-The _Lumen_ Light can be installed two different ways using the _Lumen_ Mount.
+The _Lumen_ Light can be easily installed using the included threaded M3 mounting holes.
 
-## Using the Center Hole
-
-The center hole is best used when you can't tighten a screw into the two threaded holes. Use a flat head screw to fit in the countersink in the mount.
-
-1. Drill one hole between 3.1mm and 3.3mm in diameter on the part that you wish to mount the light.
-
-	<img src="/lumen/cad/lumen-tutorial-11.png" class="img-responsive" style="max-width:600px" />
-
-2. Install an M3x0.5 flat-head screw in the mount. We recommend using 316 stainless steel screws.
-
-	<img src="/lumen/cad/lumen-tutorial-12.png" class="img-responsive" style="max-width:600px" />
-
-3. Fasten the screw to your vehicle with a nut or threaded hole. You can loosen and retighten to adjust the angle of the light.
-
-4. Use 133 O-ring (included) to attach the _Lumen_ Light to the _Lumen_ Mount.
-
-	<img src="/lumen/cad/lumen-tutorial-14.png" class="img-responsive" style="max-width:600px" />
-
-## Using the Threaded Outside Holes
+## Using the Threaded Holes
 
 The two threaded holes are best used when you have access to install a screw that tightens into the holes. This applies to most ROVs. Note that the threaded holes have the same size and spacing as the thruster mounting holes so you can use a thruster mounting bracket or hole pattern.
 
