@@ -101,7 +101,7 @@ Using four M4x14 screws, attach a 3" or 4" watertight enclosure clamp to top of 
 
 <img src="/payload-skid/cad/payload-step-5.png" class="img-responsive img-center" style="max-width:800px"  />
 
-Using four M3x12 screws, clamp your 3" or 4" watertight enclosure into place with the other clamp. Install all four screws loosely at first and then slowly tighten them on both sides evenly. Keep the enclosure approximately centered in the clamps. Using thread-locker is recommended. Repeat steps 4 and 5 if you are mounting additonal watertight enclosures to the side panels, note that you will only be able to mount three enclosures on the inside of the Payload Skid if they are all 3" models.
+Using four M3x12 screws, clamp your 3" or 4" watertight enclosure into place with the other clamp. Install all four screws loosely at first and then slowly tighten them on both sides evenly. Keep the enclosure approximately centered in the clamps. Using thread-locker is recommended. Repeat steps 4 and 5 if you are mounting additional watertight enclosures to the side panels, note that you will only be able to mount three enclosures on the inside of the Payload Skid if they are all 3" models.
 
 ## Step 6: Installing Additional Lights
 

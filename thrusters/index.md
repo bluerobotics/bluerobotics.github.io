@@ -72,7 +72,7 @@ Do not operate the thruster for extended periods (more than a minute) at full th
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 The thruster can handle saltwater and sandy environments pretty well, but it does not get along with seaweed. Avoid sucking seaweed into the thruster to avoid damage.
 
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> Most threadlockers are not chemically compatible with with polycarbonate, and will damage the thrusters if used on any of the screws. Refer to the documentation and chemical compatibilty notes of your threadlocker of choice for more information.
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> Most threadlockers are not chemically compatible with with polycarbonate, and will damage the thrusters if used on any of the screws. Refer to the documentation and chemical compatibility notes of your threadlocker of choice for more information.
 
 <i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
 A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.
@@ -225,7 +225,7 @@ The thruster uses solid plastic bushings and due to the tolerances of the bushin
 
 # Care and Maintenance
 
-The T100 Thruster does not require much maintenence.
+The T100 Thruster does not require much maintenance.
 
 ## Normal Care
 

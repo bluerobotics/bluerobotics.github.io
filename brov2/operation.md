@@ -292,7 +292,7 @@ If the ROV loses power or connection to QGroundControl while diving, you should 
 # Preventative Maintenance
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Only clean the dome and acrylic tubes with acrylic specific cleaner or plain water. Solvents, alchohol and other cleaners will craze and damage the material.
+Only clean the dome and acrylic tubes with acrylic specific cleaner or plain water. Solvents, alcohol and other cleaners will craze and damage the material.
 
 ## Every 100 Hours of Operation or Every 6 Months 
 

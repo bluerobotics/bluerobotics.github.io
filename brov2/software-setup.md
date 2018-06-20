@@ -152,7 +152,7 @@ If your computer does not have an Ethernet port, you will need a USB to Ethernet
 
 # Joystick Setup
 
-**Intial Setup for XBox Controllers on Windows**
+**Initial Setup for XBox Controllers on Windows**
 
 For using the shift button functionality of XBox Controllers on Windows:
 

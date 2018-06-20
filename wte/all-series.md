@@ -57,10 +57,10 @@ Always inspect the O-rings before operation in water and especially when replaci
 Use plastic tools, NOT steel or other hard tools, to remove the O-rings from the aluminum sealing flange. Hard tools can create scrapes that will compromise sealing ability. 
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Most threadlockers are not chemically compatible with with polycarbonate, and will damage the dome flange if used excessively on the screws. Refer to the documentation and chemical compatibilty notes of your threadlocker of choice for more information.
+Most threadlockers are not chemically compatible with with polycarbonate, and will damage the dome flange if used excessively on the screws. Refer to the documentation and chemical compatibility notes of your threadlocker of choice for more information.
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Only clean the dome and acrylic tubes with acrylic specific cleaner or plain water. Solvents, alchohol and other cleaners will craze and damage the material.
+Only clean the dome and acrylic tubes with acrylic specific cleaner or plain water. Solvents, alcohol and other cleaners will craze and damage the material.
 
 # Specifications: (2" Series)
 
@@ -201,8 +201,8 @@ All 3D models are provided in zip archives containing the follow file types:
 | ----------------------------------- | ----------------------------- |
 | Maximum Depth Rating (Acrylic Tube) | 330 ft        | 100 m         |
 | Maximum Depth Rating (Aluminum Tube)| 1300 ft       | 400 m         |
-| Maxium Tested Depth (Acrylic Tube)  | 500 ft        | 150 m         |
-| Maxium Tested Depth (Aluminum Tube) | 2000 ft       | 610 m         |
+| Maximum Tested Depth (Acrylic Tube)  | 500 ft        | 150 m         |
+| Maximum Tested Depth (Aluminum Tube) | 2000 ft       | 610 m         |
 | Maximum Pressure                    | 146 psi       | 1000 kPa      |
 | Tube Inner Diameter                 | 4 in          | 101.6 mm      |
 | Tube Outer Diameter                 | 4.5 in        | 114.3 mm      |
