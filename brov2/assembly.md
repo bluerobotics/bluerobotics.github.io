@@ -77,7 +77,7 @@ The BlueROV2 kit comes almost ready to dive. The assembly can be completed with 
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with silicone grease and threadlocker, take care to minimize skin contact. Wear protective nitrile or PVC gloves when handling.
 
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> Only apply threadlocker to screws contacting metal or the HDPE frame. Most threadlockers are not chemically compatible with with polycarbonate, and will damage the thrusters, fairings, and dome flange if used here. Refer to the documentation and chemical compatibilty notes of your threadlocker of choice for more information.
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> Only apply threadlocker to screws contacting metal or the HDPE frame. Most threadlockers are not chemically compatible with with polycarbonate, and will damage the thrusters, fairings, and dome flange if used here. Refer to the documentation and chemical compatibility notes of your threadlocker of choice for more information.
 
 # Required Tools (Not Included)
 
@@ -249,7 +249,7 @@ To mount the battery enclosure to the bottom panel you will need the following p
 
 4. Apply one drop of threadlocker to each of the 4 M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 
-6. Place the Watertight Enclosure for ROV/AUV (3" Series) between the two Enclosure Clamps (3" Series). The Enclosure Clamps have tapped holes on one side and untapped holes on the other. Install the four M3x12 screws into the Enclosure Clamps (3" Series) so that the screws pass through the untapped holes on the first clamp and are secured into the tapped holes on the alternate clamp. Install all four screws loosly at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the Enclosure Clamps (3" Series).
+6. Place the Watertight Enclosure for ROV/AUV (3" Series) between the two Enclosure Clamps (3" Series). The Enclosure Clamps have tapped holes on one side and untapped holes on the other. Install the four M3x12 screws into the Enclosure Clamps (3" Series) so that the screws pass through the untapped holes on the first clamp and are secured into the tapped holes on the alternate clamp. Install all four screws loosely at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the Enclosure Clamps (3" Series).
 
 	<img src="/brov2/cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
 
@@ -652,7 +652,7 @@ The tether needs to be firmly mounted to the frame to prevent the tether penetra
 
 1. Loop the tether around the plastic thimble at a point about 12 inches (30 cm) away from the tether penetrator.
 	
-2. Firmly attach 3 of the zip ties, alternating directions as they are installed, around the tether right where it enters and exits the thimble. Hold the tether firmly in place agaisnt the thimble until it is secured.
+2. Firmly attach 3 of the zip ties, alternating directions as they are installed, around the tether right where it enters and exits the thimble. Hold the tether firmly in place against the thimble until it is secured.
 
 	<img src="/fathom/cad/tether-tutorial-a1.png" class="img-responsive" style="max-width:900px" />	
 	

@@ -144,7 +144,7 @@ The three solder pads are always connected to the same motor phases, so connecti
 We recommend using the following compounds to seal the soldered wire connections on the M100 Motor.
 
 * **Loctite Marine Epoxy** works well at great depths and is very thick so that it can be applied in one coat.
-* **MG Chemicals 4229** is a rubberized coating that can be used at shallow depths (less than 100ft) and is removeable if required.
+* **MG Chemicals 4229** is a rubberized coating that can be used at shallow depths (less than 100ft) and is removable if required.
 
 # Operation
 
