@@ -160,6 +160,9 @@ The batteries can be changed in about 30 seconds.
 | Tether Interface Board              	| [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/)                |
 | Control System 						| [M Robotics PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
 
+# 2D Drawing
+
+<img src="/brov2/cad/2d-drawing-BROV2.png" class="img-responsive img-center" style="max-width:400px" />
 
 # 3D Model
 
