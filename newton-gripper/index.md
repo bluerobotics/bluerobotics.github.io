@@ -98,7 +98,7 @@ The _Newton Gripper_ is a sealed, single function manipulator which can operate 
 
 ### Newton Gripper Assembly
 
-[COMING SOON]
+<img src="/newton-gripper/cad/2d-drawing-gripper.png" class="img-responsive img-center" style="max-width:600px"  />
 
 ### Newton Gripper Mount
 
