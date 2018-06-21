@@ -12,6 +12,7 @@ nav:
 - - Specification Table: specification-table
 - - Performance Charts: performance-charts
 - - Dimensions: dimensions
+- - 2D Drawing: 2d-drawing
 - - 3D Model: 3d-model
 - Installation: installation
 - - Video Tutorial: video-tutorial
@@ -110,7 +111,9 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 
 ## Dimensions
 
-<!--<img src="/assets/images/m100-three-view-1.png" class="img-responsive" style="max-width:800px" />-->
+## 2D Drawing
+
+<img src="/thrusters/cad/2d-drawing-M200.png" class="img-responsive img-center" style="max-width:400px" />
 
 ## 3D Model
 
