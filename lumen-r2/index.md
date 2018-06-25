@@ -52,12 +52,6 @@ The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at de
 
 # Specifications
 
-## Schematic
-
-The [EagleCAD files](https://github.com/bluerobotics/lumen) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
-
-[<img src="/lumen/cad/Lumen-Schematic.png" class="img-responsive" style="max-width:300px" />](/lumen/cad/Lumen-Schematic.png)
-
 ## Specification Table
 
 For further information please see the [Cree XLamp MK-R LED Data Sheet](http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampMKR.pdf). The specific LED model used is MKRAWT-00-0000-0B00H4051.
@@ -102,7 +96,7 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 
 ### Lumen Light Assembly
 
-<img src="/lumen-r2/cad/Assem-LUMEN-LIGHT-R2-2D.png" class="img-responsive" style="max-width:900px" />
+<img src="/lumen-r2/cad/2D-drawing-lumen-r2.png" class="img-responsive" style="max-width:900px" />
 
 ## 3D Model
 
@@ -115,7 +109,7 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**Lumen Light**																			|
 | --------------------------------------------------------------------------------------------- |
-| Lumen Light R2 Assembly      | [Assem-LUMEN-LIGHT-R2.zip](cad/Assem-LUMEN-LIGHT-R2.zip)    |
+| Lumen Light R2 Assembly      | [LUMEN-ASM-LIGHT-R2.zip](cad/LUMEN-ASM-LIGHT-R2.zip)    |
 
 # Installation
 
