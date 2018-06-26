@@ -52,7 +52,7 @@ The <em>BlueROV2 Heavy Retrofit Kit</em> is an add-on for the [BlueROV2](/brov2)
 
 ## 2D Drawings
 
-<img src="/brov2-heavy/cad/2d-drawing-Heavy-2018.png" class="img-responsive img-center" style="max-width:800px" />
+<img src="/brov2-heavy/cad/2d-drawing-heavy-2018.png" class="img-responsive img-center" style="max-width:800px" />
 
 ## 3D Model
 
