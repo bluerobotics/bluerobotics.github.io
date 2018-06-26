@@ -113,7 +113,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 
 ## 2D Drawing
 
-<img src="/thrusters/cad/2d-drawing-M200.png" class="img-responsive img-center" style="max-width:400px" />
+<img src="/thrusters/cad/2d-drawing-m200.png" class="img-responsive img-center" style="max-width:400px" />
 
 ## 3D Model
 
