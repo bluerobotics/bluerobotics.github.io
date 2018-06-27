@@ -22,7 +22,7 @@ nav:
 
 
 store-links:
-- Newton Gripper:  https://www.bluerobotics.com/store/-/newton-gripper-r1/
+- Newton Gripper:  https://www.bluerobotics.com/store/rov/bluerov2/newton-gripper-asm-r1-rp/
 
 manual-links:
 - BlueROV2: /brov2
