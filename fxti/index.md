@@ -40,9 +40,7 @@ The <em>FXTI</em> is a semi-rugged protective case for the Fathom-X board and in
 
 ## 2D Drawings
 
-<img src="/payload-skid/cad/payload-skid-2view.png" class="img-responsive img-center" style="max-width:800px" />
-
-<img src="/payload-skid/cad/rov-payload-dimensions.png" class="img-responsive img-center" style="max-width:800px" />
+<img src="/fxti/cad/fxti.png" class="img-responsive img-center" style="max-width:800px" />
 
 ## 3D Model
 
@@ -55,7 +53,7 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**Payload Skid**																						|
 | --------------------------------------------------------------------------------------------- |
-| Payload Skid and Parts  | [BROV-PAYLOAD-SKID-R1.zip](cad/BROV-PAYLOAD-SKID-R1.zip) |
+| FXTI Assembly  | [FXTI-ASM-FXTI-R1.zip](cad/FXTI-ASM-FXTI-R1.zip) |
 
 # Usage
 
