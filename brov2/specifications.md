@@ -95,7 +95,7 @@ There are some items necessary for operation that are not included with the kit.
 | Construction                           | HDPE frame, aluminum flanges/end cap, and acrylic tubes |
 | Main Tube (Electronics Enclosure)      | [Blue Robotics 4 inch series w/ aluminum end caps](http://docs.bluerobotics.com/watertight-enclosures/#specifications-4-series)        |
 | Battery Tube                           | [Blue Robotics 3 inch series w/ aluminum end caps](http://docs.bluerobotics.com/watertight-enclosures/#specifications-3-series)        |
-| Buoyancy Foam                          | [R-3318 Urethane Foam](https://www.bluerobotics.com/store/parts/float-r1/) rated to 210 meters                |
+| Buoyancy Foam                          | [R-3318 Urethane Foam](https://www.bluerobotics.com/store/buoyancy-ballast/float-r3318-r1/) rated to 244 meters                |
 | Ballast Weight                         | 6 x [200 g coated lead weights](https://www.bluerobotics.com/store/parts/ballast-200g-r1/)                             |
 | Battery Connector						 | XT90                                                    |
 
