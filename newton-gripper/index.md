@@ -90,6 +90,7 @@ The _Newton Gripper_ is a sealed, single function manipulator which can operate 
 | Bracket Mounting Hole Spacing | 16 mm | 0.63 in |
 | Bracket Screw Size | M5x0.4 |
 | Weight in Air (w/ cable) | 616 g    |   21.9 oz    |
+| Weight in Water (w cable) | 260 g | 9.2 oz |
 |----------------------|
 
 [1] Pressure rating is based on design and a conservative safety factor.
