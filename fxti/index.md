@@ -40,7 +40,7 @@ The <em>FXTI</em> is a semi-rugged protective case for the Fathom-X board and in
 
 ## 2D Drawings
 
-<img src="/fxti/cad/fxti.png" class="img-responsive img-center" style="max-width:800px" />
+<img src="/fxti/cad/FXTI.png" class="img-responsive img-center" style="max-width:800px" />
 
 ## 3D Model
 
