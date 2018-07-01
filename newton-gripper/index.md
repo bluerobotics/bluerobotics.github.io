@@ -244,6 +244,8 @@ To get the longest battery life and the best driving experience, it is important
 
 ## Setup in QGroundControl
 
+The following servo settings are available on ArduSub 3.5.3 and QGroundControl v3.2.4-BlueRobotics-Rev6 or newer. If your software is out of date, please conduct a software update by following the instructions on the [BlueROV2 Software Setup](http://docs.bluerobotics.com/brov2/software-setup/) page. 
+
 The _Newton Gripper_ can be controlled via the following button functions:
 
 - *servo_X_max_momentary* (open while pressed)
