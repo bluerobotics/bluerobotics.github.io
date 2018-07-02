@@ -163,7 +163,7 @@ The batteries can be changed in about 30 seconds.
 
 # 2D Drawing
 
-<img src="/brov2/cad/2d-drawing-brov2-2018.png" class="img-responsive img-center" style="max-width:400px" />
+<img src="/brov2/cad/2d-drawing-brov2-2018.png" class="img-responsive img-center" />
 
 # 3D Model
 
