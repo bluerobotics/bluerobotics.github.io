@@ -9,6 +9,7 @@ nav:
 - Specifications: specifications
 - - Diagram: diagram
 - - Specification Table: specification-table
+- - 2D Drawings: 2d-drawings
 - - 3D Model: 3d-model
 - Installation: installation
 - - Thermal Considerations: thermal-considerations
@@ -74,6 +75,12 @@ This new version of the Basic ESC is based on the BLHeli_S ESC design, providing
 | Max forward   | 1900 microseconds             |
 | Max reverse   | 1100 microseconds             |
 | Signal Deadband| +/- 25 microseconds (centered around 1500 microseconds) |
+
+## 2D Drawings
+
+### Basic ESC Board
+
+<img src="/bescr3/cad/BESC-R3.png" class="img-responsive" style="max-width:900px" />
 
 ## 3D Model
 
