@@ -77,7 +77,7 @@ All 3D models are provided in zip archives containing the follow file types:
 - STEP (.step)
 - STL (.stl)
 
-|		**Newton Gripper**																		|
+|		**SOS Sensor Board**																		|
 | --------------------------------------------------------------------------------------------- |
 | SOS Board   | [SOS-ASM-LEAK-SENSOR-R1.zip](cad/SOS-ASM-LEAK-SENSOR-R1.zip)      |
 
