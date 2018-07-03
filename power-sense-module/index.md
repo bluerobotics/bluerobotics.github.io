@@ -5,9 +5,9 @@ order: 1
 nav:
 - Introduction: introduction
 - Specifications: specifications
-- - Function Diagram: function-diagram
 - - Specification Table: specification-table
-- - Schematic: schematic
+- - 2D Drawings: 2d-drawings
+- - 3D Model: 3d-model
 - Installation: installation
 - - General: general
 - - On the BlueROV2: on-the-bluerov2
@@ -28,10 +28,6 @@ manual-links:
 The <em>Power Sense Module</em> provides analog current and voltage sensing to your Pixhawk autopilot mounted either on your BlueROV2 or custom marine robotics project. The <a href="http://ardusub.com/">ArduSub</a> firmware for the Pixhawk supports the <em>Power Sense Module</em> and through QGroundControl will give you visual indications of battery level and current consumption. Unlike standard power modules for the Pixhawk, the <em>Power Sense Module</em> will NOT provide power, only sensing abilities. 
 
 # Specifications
-
-## Function Diagram
-
-<img src="/power-sense-module/cad/function-diagram.PNG" class="img-responsive" style="max-width:800px"  />
 
 ## Specification Table
 
@@ -62,11 +58,24 @@ The <em>Power Sense Module</em> provides analog current and voltage sensing to y
 | 6 (blk) | GND | GND |
 |----------------------|
 
-## Schematic
+## 2D Drawings
 
-The [EagleCAD files](https://github.com/bluerobotics/power-sense-module) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
+### Power Sense Module Board
 
-[<img src="/power-sense-module/cad/power-sense-module-schematic.JPG" class="img-responsive" style="max-width:300px" />](https://github.com/bluerobotics/power-sense-module/raw/master/power-sense-module.pdf)
+<img src="/power-sense-module/cad/PSM.png" class="img-responsive" style="max-width:900px" />
+
+## 3D Model
+
+All 3D models are provided in zip archives containing the follow file types:
+
+- SolidWorks Part (.sldprt)
+- IGES (.igs) 
+- STEP (.step)
+- STL (.stl)
+
+|		**Power Sense Module**																			|
+| --------------------------------------------------------------------------------------------- |
+| Power Sense Module Board      | [PSM-ASM-PSM-R1.zip](cad/PSM-ASM-PSM-R1.zip)    |
 
 # Installation
 
