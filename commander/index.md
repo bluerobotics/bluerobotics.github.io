@@ -18,6 +18,9 @@ nav:
 - - ESC Initialization: esc-initialization
 - - Controlling Motors: controlling-motors
 - Troubleshooting: troubleshooting
+- Specifications: specifications
+- - 2D Drawings: 2d-drawings
+- - 3D Model: 3d-model
 
 store-links:
 - Thruster Commander:  https://www.bluerobotics.com/store/electronics/cmdr-r1-rp/
@@ -221,3 +224,24 @@ Potentiometers can be hot-swapped.  However it is advised that this only be done
         </td>
     </tr>
 </table>
+# Specifications
+
+## 2D Drawings
+
+### Thruster Commander Board
+
+[COMING SOON]
+
+## 3D Model
+
+All 3D models are provided in zip archives containing the follow file types:
+
+- SolidWorks Part (.sldprt)
+- IGES (.igs) 
+- STEP (.step)
+- STL (.stl)
+
+|		**Thruster Commander**																		|
+| --------------------------------------------------------------------------------------------- |
+| Thruster Commander Potentiometer   | [CMDR-ASM-POTENTIOMETER-R1.zip](cad/CMDR-ASM-POTENTIOMETER-R1.zip)      |
+| Thruster Commander Board   | [CMDR-ASM-THRUSTER-COMMANDER-R1.zip](cad/CMDR-ASM-THRUSTER-COMMANDER-R1.zip)      |
