@@ -106,7 +106,7 @@ All 3D models are provided in zip archives containing the follow file types:
 - STEP (.step)
 - STL (.stl)
 
-|		**SOS Sensor Board**																		|
+|		**Fathom-X Board**																		|
 | --------------------------------------------------------------------------------------------- |
 | Fathom-X Board   | [FATHOMX-ASM-FATHOM-X-R1.zip](cad/FATHOMX-ASM-FATHOM-X-R1.zip)      |
 
