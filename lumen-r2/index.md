@@ -29,7 +29,7 @@ manual-links:
 
 # Introduction
 
-The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at depths of up to 975 meters. The *Lumen* Light can be smoothly dimmed with a servo PWM signal or simply turned on/off with a switch. Up to six lights can be daisy-chained together and controlled with a single signal, requiring only one penetration into a watertight enclosure.
+The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at depths of up to 950 meters. The *Lumen* Light can be smoothly dimmed with a servo PWM signal or simply turned on/off with a switch. Up to six lights can be daisy-chained together and controlled with a single signal, requiring only one penetration into a watertight enclosure.
 
 ## Quick Start (on/off with no PWM signal source)
 
@@ -79,12 +79,12 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 | | Yellow - Signal |
 |  **Physical**  |
 | ------------|-------------------------|
-| Pressure Rating<sup>1</sup> | 975 m | 3198 ft |
-| Overall Length | xx mm | xx in |
-| Overall Diameter   | xx mm | xx in |
+| Pressure Rating<sup>1</sup> | 950 m | 3117 ft |
+| Overall Length | 68.9 mm | 2.71 in |
+| Overall Diameter   | 37 mm | 1.46 in |
 | Bracket Mounting Hole Spacing | 19 mm | 0.75 in |
 | Bracket Screw Size | M3 |
-| Weight in Air (w/ 1m cable) | xx g    |   xx oz    |
+| Weight in Air (w/ 1m cable) | 102g g    |   3.60 oz    |
 | Weight in Water (w/ 1m cable) | xx g    |  xx oz   |
 | Maximum Temperature when Run in Air | 55&deg; C | 130&deg; F
 | Beam Angle | 135 degrees in water |
@@ -136,58 +136,7 @@ The two threaded holes are best used when you have access to install a screw tha
 
 The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_chain_%28electrical_engineering%29) using the following procedure:
 
-1. Measure the distance between where you want to mount the two lights, as you plan on routing the cable between them, then cut cable to length from one _Lumen_ Light. We recommend leaving several inches excess.
-
-2. [Strip approximately 50 mm of jacket](http://docs.bluerobotics.com/tutorials/cable-stripping/) from the wire you just cut, then strip and tin 2-4mm of conductor insulation from each conductor.
-
-	<img src="/lumen/cad/lumen-wire-annotated.png" class="img-responsive" style="max-width:700px" />
-	
-3. Twist the wires together and install into the blue penetrator. 
-
-	<img src="/lumen/cad/lumen-tutorial-16.png" class="img-responsive" style="max-width:700px" />
-		
-4. Apply marine epoxy to the conductor jackets when the cable jacket is approximately even with the top of the penetrator.
-
-	<img src="/lumen/cad/lumen-tutorial-1.png" class="img-responsive" style="max-width:700px" />
-
-5. Insert the cable the rest of the way into the penetrator, and twist back and forth to maximize the area the epoxy covers.
-
-	<img src="/lumen/cad/lumen-tutorial-2.png" class="img-responsive" style="max-width:700px" />
-	_This is what the top should look like_
-	
-	<img src="/lumen/cad/lumen-tutorial-3.png" class="img-responsive" style="max-width:700px" />
-	_This is what the bottom should look like_
-
-6. Set cable flat on a sturdy surface and allow the marine epoxy approximately 2 hours to dry.
-	
-7. Fill the penetrator hole with the epoxy. Move the cable from side to side within the hole to ensure the epoxy is filling any gaps. Use a vice or other method to hold the penetrator upright while the epoxy cures.
-
-	<img src="/lumen/cad/lumen-tutorial-4.png" class="img-responsive" style="max-width:700px" />
-
-8. Allow 24 hours for the marine epoxy to fully cure
-	
-9. Remove blank penetrator from the flange cap of the _Lumen_ that you have not been working on.	
-
-	<img src="/lumen/cad/lumen-tutorial-5.png" class="img-responsive" style="max-width:700px" />
-	
-10. Remove the aluminum flange cap from the back of the _Lumen_ that you just removed the blank penetrator from.
-
-	<img src="/lumen/cad/lumen-tutorial-6.png" class="img-responsive" style="max-width:700px" />
-	
-11. Apply a thin coating of silicone grease to a 010 O-ring (included), install O-ring on penetrator, and then tighten the penetrator to the flange cap where the blank penetrator used to be. Tighten using a wrench to ensure the penetrator is tight.
-
-	<img src="/lumen/cad/lumen-tutorial-15.png" class="img-responsive" style="max-width:700px" />
-
-12. Solder the wires to "daisy chain pads" on the _Lumen_ Light PCB.
-	- Black: GND
-	- Red: VIN
-	- Yellow: PWM
-
-	<img src="/lumen/cad/Lumen-soldering.png" class="img-responsive" style="max-width:700px" />	
-	
-13. Reinstall aluminum flange cap on the light, and that's it!
-
-	<img src="/lumen/cad/lumen-tutorial-9.png" class="img-responsive" style="max-width:700px" />	
+[New Instructions COMING SOON]	
 
 # Example Code
 
