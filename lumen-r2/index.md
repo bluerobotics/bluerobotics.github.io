@@ -127,11 +127,11 @@ The two threaded holes are best used when you have access to install a screw tha
 
 2. Install two M3x0.5 screws through the holes that you just drilled. We recommend 316 stainless steel screws and they should be roughly 1.5 - 3.0mm longer than the thickness of the part that you are mounting to.
 
-	<img src="/lumen-2/cad/Lumen-R2-tutorial-screws.jpg" class="img-responsive" style="max-width:600px" />
+	<img src="/lumen-r2/cad/Lumen-R2-tutorial-screws.jpg" class="img-responsive" style="max-width:600px" />
 
 3. Attach the _Lumen_ onto the screws and tighten. 
 
-	<img src="/lumen-2/cad/Lumen-R2-tutorial-mounted.jpg" class="img-responsive" style="max-width:600px" />
+	<img src="/lumen-r2/cad/Lumen-R2-tutorial-mounted.jpg" class="img-responsive" style="max-width:600px" />
 
 
 # Daisy Chain Connection
