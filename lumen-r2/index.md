@@ -25,11 +25,13 @@ manual-links:
 - BlueROV: /bluerov
 ---
 
-<img src="/lumen-r2/cad/lumen-r2-banner.png" class="img-responsive" style="max-width:900px"  />
+<img src="/lumen-r2/cad/Lumen-R2-Banner.JPG" class="img-responsive" style="max-width:600px"  />
 
 # Introduction
 
 The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at depths of up to 950 meters. The *Lumen* Light can be smoothly dimmed with a servo PWM signal or simply turned on/off with a switch. Up to six lights can be daisy-chained together and controlled with a single signal, requiring only one penetration into a watertight enclosure.
+
+This Doc is for the R2 version of the _Lumen_. The Doc for the retired R1 version can be found [here](http://docs.bluerobotics.com/lumen/).
 
 ## Quick Start (on/off with no PWM signal source)
 
@@ -85,7 +87,7 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 | Bracket Mounting Hole Spacing | 19 mm | 0.75 in |
 | Bracket Screw Size | M3 |
 | Weight in Air (w/ 1m cable) | 102g g    |   3.60 oz    |
-| Weight in Water (w/ 1m cable) | xx g    |  xx oz   |
+| Weight in Water (w/ 1m cable) | 53 g    |  1.87 oz   |
 | Maximum Temperature when Run in Air | 55&deg; C | 130&deg; F
 | Beam Angle | 135 degrees in water |
 |----------------------|
@@ -136,7 +138,7 @@ The two threaded holes are best used when you have access to install a screw tha
 
 The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_chain_%28electrical_engineering%29) using the following procedure:
 
-[New Instructions COMING SOON]	
+[Due to differences in internal wire connections, New Instructions COMING SOON]	
 
 # Example Code
 
