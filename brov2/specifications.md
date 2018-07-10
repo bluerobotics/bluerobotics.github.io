@@ -19,6 +19,7 @@ nav:
 - - Sensors: Sensors
 - - Camera Tilt: camera-tilt
 - - Camera: camera
+- 2D Drawing: 2d-drawing
 - 3D Model: 3d-model
 - User Manuals: user-manuals
 - Issue Reporting: issue-reporting
@@ -65,7 +66,7 @@ There are some items necessary for operation that are not included with the kit.
 
  - A gamepad controller. We recommend [this XBox One Controller](https://www.microsoft.com/en-us/store/d/xbox-wireless-controller/8vcw8gln9vrf/ljvk?cid=msft_web_collection&activetab=pivot%3atechspecstab) or [this Logitech Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
  - A laptop or a Windows 10 tablet. QGroundControl works on Mac, Windows 10, and Linux.
- - A battery for the BlueROV2. We recommend getting our [18Ah Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
+ - A battery for the BlueROV2. We recommend getting our [18Ah Lithium-ion Battery](https://www.bluerobotics.com/store/rov/bluerov2/battery-li-4s-18ah-r2-rp/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
  - A battery charger, such as our [Lithium Battery Charger](http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/).  
  - A USB Cable - A-Male to Mini-B (any length) such as [this one](https://www.amazon.com/AmazonBasics-USB-2-0-Cable-Male/dp/B00NH13S44/ref=sr_1_3?s=electronics&ie=UTF8&qid=1525883524&sr=1-3&keywords=mini+usb+cable)
  - An Ethernet Patch Cable (any length) such as [this one](https://www.amazon.com/AmazonBasics-Network-Ethernet-Patch-Cable/dp/B013PUMQYY/ref=sr_1_1_sspa?ie=UTF8&qid=1525883675&sr=8-1-spons&keywords=ethernet+cable+3ft&psc=1)
@@ -94,7 +95,7 @@ There are some items necessary for operation that are not included with the kit.
 | Construction                           | HDPE frame, aluminum flanges/end cap, and acrylic tubes |
 | Main Tube (Electronics Enclosure)      | [Blue Robotics 4 inch series w/ aluminum end caps](http://docs.bluerobotics.com/watertight-enclosures/#specifications-4-series)        |
 | Battery Tube                           | [Blue Robotics 3 inch series w/ aluminum end caps](http://docs.bluerobotics.com/watertight-enclosures/#specifications-3-series)        |
-| Buoyancy Foam                          | [R-3318 Urethane Foam](https://www.bluerobotics.com/store/parts/float-r1/) rated to 210 meters                |
+| Buoyancy Foam                          | [R-3318 Urethane Foam](https://www.bluerobotics.com/store/buoyancy-ballast/float-r3318-r1/) rated to 244 meters                |
 | Ballast Weight                         | 6 x [200 g coated lead weights](https://www.bluerobotics.com/store/parts/ballast-200g-r1/)                             |
 | Battery Connector						 | XT90                                                    |
 
@@ -152,7 +153,7 @@ The batteries can be changed in about 30 seconds.
 ## Camera
 
 | Field of View (Underwater) | 110 degrees (horizontal)                                                              |                                                      
-| Light Sensitivity          | 0.01[lux](https://en.wikipedia.org/wiki/Lux#Illuminance)                              |
+| Light Sensitivity          | 0.01 [lux](https://en.wikipedia.org/wiki/Lux#Illuminance)                              |
 | Resolution                 | 1080p                                                                                 |
 
 ## Control System
@@ -160,6 +161,9 @@ The batteries can be changed in about 30 seconds.
 | Tether Interface Board              	| [Fathom-X Tether Interface Board](http://docs.bluerobotics.com/fathom-x/)                |
 | Control System 						| [M Robotics PixHawk](https://www.bluerobotics.com/store/electronics/pixhawk-r1/)         |
 
+# 2D Drawing
+
+<img src="/brov2/cad/2d-drawing-brov2-2018.png" class="img-responsive img-center" />
 
 # 3D Model
 

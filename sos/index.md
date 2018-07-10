@@ -8,6 +8,8 @@ nav:
 - - Function Diagram: function-diagram
 - - Specification Table: specification-table
 - - Schematic: schematic
+- - 2D Drawings: 2d-drawings
+- - 3D Model: 3d-model
 - Installation: installation
 - - General: general
 - - On the BlueROV2: on-the-bluerov2
@@ -59,6 +61,26 @@ The <em>SOS</em> Leak Sensor can detect water leaking into an improperly sealed 
 The [EagleCAD files](https://github.com/bluerobotics/SOS-Leak-Sensor) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
 
 [<img src="/sos/cad/sos-schematic.JPG" class="img-responsive" style="max-width:300px" />](https://github.com/bluerobotics/SOS-Leak-Sensor/raw/master/SOS-Leak-Sensor.pdf)
+
+## 2D Drawings
+
+### SOS Board
+
+<img src="/sos/cad/SOS.png" class="img-responsive img-center" />
+
+## 3D Model
+
+All 3D models are provided in zip archives containing the follow file types:
+
+- SolidWorks Part (.sldprt)
+- IGES (.igs) 
+- STEP (.step)
+- STL (.stl)
+
+|		**SOS Sensor Board**																		|
+| --------------------------------------------------------------------------------------------- |
+| SOS Board   | [SOS-ASM-LEAK-SENSOR-R1.zip](cad/SOS-ASM-LEAK-SENSOR-R1.zip)      |
+
 
 # Installation
 

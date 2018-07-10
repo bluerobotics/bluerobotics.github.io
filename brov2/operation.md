@@ -33,9 +33,15 @@ nav:
 - - Powered Recovery: powered-recovery
 - - Unpowered Recovery: unpowered-recovery
 - Post-Mission Checklist: post-mission-checklist
+- Troubleshooting: troubleshooting
 - Preventative Maintenance: preventative-maintenance
 - - Every 100 Hours: every-100-hours-of-operation-or-every-6-months 
 - Connection Diagrams: connection-diagrams
+- Updating Software: updating-software
+- - QGroundControl: qgroundcontrol
+- - Companion: companion
+- - ArduSub: ardusub
+- Advanced Information: advanced-information
 - Issue Reporting: issue-reporting
 
 store-links:
@@ -104,7 +110,7 @@ To set up your topside control follow the instructions on the [Software Setup](/
 
 ## Vacuum Test 
 
-To perform a vacuum test on the _BlueROV2_, you need a vacuum pump. If you do not own one, we recommend [this pump.](http://www.bluerobotics.com/store/tools/hand-operated-vacuum-pump/) It is important to do a vacuum test prior to putting the _BlueROV2_ in the water for the first time. It is also important to perform a vacuum test after changing anything that could compromise a seal, such as changing out a penetrator or an O-ring.
+To perform a vacuum test on the _BlueROV2_, you need the vacuum pump that came with your kit. It is important to do a vacuum test prior to putting the _BlueROV2_ in the water for the first time. It is also important to perform a vacuum test after changing anything that could compromise a seal, such as changing out a penetrator or an O-ring.
 
 The vacuum test can be performed using the following procedure:
 
@@ -178,6 +184,7 @@ This checklist is more thorough than the [Pre-Dive Checklist](#pre-dive-checklis
 - Visually check that all screws holding the dome and front battery end cap are installed and look tight.
 - Visually check the radial seals on the electronics and battery enclosure.
 - Put the ROV on the ground and make sure that people are clear of the thrusters.
+- Check to make sure the camera tilt function and lights work. If they do not, please see the [Troubleshooting](#troubleshooting) section.
 - Put the ROV in manual mode.
 - Arm the ROV.
 - Press the forward/reverse stick forward to check that the vectored thrusters are spinning freely.
@@ -204,6 +211,7 @@ This checklist should be done every time the ROV is put into the water, prior to
 - Visually check that all screws holding the dome and front battery end cap are installed and look tight.
 - Visually check the radial seals on the electronics and battery enclosure.
 - Put the ROV on the ground and make sure that people are clear of the thrusters.
+- Check to make sure the camera tilt function and lights work. If they do not, please see the [Troubleshooting](#troubleshooting) section.
 - Put the ROV in manual mode.
 - Arm the ROV.
 - Press the forward/reverse stick forward to check that the vectored thrusters are spinning freely. Do not run the thrusters for more than 30 seconds in air.
@@ -288,10 +296,20 @@ If the ROV loses power or connection to QGroundControl while diving, you should 
 - Rinse down with fresh water
 - If you were operating in a sandy environment or seaweed, clean sand and seaweed from the thrusters.
 
+# Troubleshooting
+
+## Re-Load BlueROV2 Default Parameters
+
+- If your camera tilt or lights do not work when the appropriate buttons are pushed, please re-load the BlueROV2 default parameters.
+- Navigate to the _Frame_ tab of the _Vehicle Setup_ page and select _Load Vehicle Default Parameters_ and then either _Blue Robotics Blue ROV2_ or _Blue Robotics BlueROV2 Heavy_ depending on your hardware configuration. 
+- Wait for the green loading bar to finish writing the parameters.
+
+<img src="/brov2/cad/BlueROV2-Default-Parameters.jpg" class="img-responsive img-center" style="max-width:800px" />
+
 # Preventative Maintenance
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Only clean the dome and acrylic tubes with acrylic specific cleaner or plain water. Solvents, alchohol and other cleaners will craze and damage the material.
+Only clean the dome and acrylic tubes with acrylic specific cleaner or plain water. Solvents, alcohol and other cleaners will craze and damage the material.
 
 ## Every 100 Hours of Operation or Every 6 Months 
 
@@ -306,6 +324,42 @@ These diagrams outline all of the electrical connections between components in t
 - [BlueROV2 with red-wire (BEC) ESCs](/brov2/cad/connections/BlueROV2_bec.pdf) (Pre-2018)
 - [BlueROV2 with no-red-wire ESCs](/brov2/cad/connections/BlueROV2_no_bec.pdf) (2018 and later)
 - [BlueROV2 Heavy](/brov2/cad/connections/BlueROV2_heavy.pdf)
+
+# Updating Software
+
+## QGroundControl
+
+QGroundControl software release notes are [here](https://raw.githubusercontent.com/bluerobotics/qgroundcontrol/3.2.4/BlueRobotics-Revision-Notes.txt). To update QGroundControl, simply download and install the latest stable version of QGC (BlueRobotics flavor) from one of the links below:
+
+[Windows](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl-installer.exe)
+
+[Mac](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.dmg)
+
+[Linux](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.AppImage)
+
+## Companion
+
+Companion software release notes are [here](https://raw.githubusercontent.com/bluerobotics/companion/master/release-notes.txt). To perform a companion update update:
+
+- Plug a _fully charged_ battery into the ROV and connect the tether to your computer.
+- Navigate to [192.168.2.2:2770/network](http://192.168.2.2:2770/network) in your browser and ensure that the ROV has access to a WiFi network. If you do not see a webpage at this address, you need to perform the update according to the instructions [here](http://discuss.bluerobotics.com/t/software-updates/1128).
+- Navigate to [192.168.2.2:2770/system](http://192.168.2.2:2770/system). Click the button that says 'Update companion'. If you do not see this button, then the companion software is up to date.
+- The update process will take between 5 and 20 minutes depending on the Internet connection speed. Wait for the update process to complete.
+- When it completes, refresh your browser. The companion version should be updated, and the update available message should no longer appear.
+- If the update fails (usually due to a loss of internet connectivity), you will be warned that the ROV will reboot and to leave the battery plugged in. At this point, once you are able to refresh the webpage, it is safe to either power down the ROV or attempt the update again.
+
+## ArduSub
+
+ArduSub software release notes are [here](https://raw.githubusercontent.com/ArduPilot/ardupilot/master/ArduSub/ReleaseNotes.txt). The autopilot installed on a vehicle can be updated via the companion computer web interface:
+
+- Power on your ROV and connect it to your computer
+- Navigate to [192.168.2.2:2770/network](http://192.168.2.2:2770/network) and ensure that the ROV has an internet connection
+- Navigate to [192.168.2.2:2770/system](http://192.168.2.2:2770/system). Click the button under the 'Pixhawk Firmware Update' section that says 'Stable'.
+- Wait for the update process to complete, and you are finished!
+
+# Advanced Information
+
+The BlueROV2 is not designed to do just one thing, it is designed to be very flexible and adaptable to suit many applications. As such, there are flexible and advanced configuration options that are directly accessible to the end user. To learn more about the software and hardware that drives the BlueROV2, please visit [ardusub.com](https://www.ardusub.com/). There are also available a wide range of developer resources, and a strong marine hacking community at [discuss.bluerobotics.com](https://discuss.bluerobotics.com).
 
 # Issue Reporting
 

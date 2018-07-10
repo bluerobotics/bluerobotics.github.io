@@ -12,7 +12,6 @@ nav:
 - - Cables and Penetrators: cables-and-penetrators
 - - Enclosures, Buoyancy, Ballast: enclosures-buoyancy-and-ballast
 - Tutorials: tutorials
-- Guides: guides
 - How to Contribute: how-to-contribute
 - License: license
 ---

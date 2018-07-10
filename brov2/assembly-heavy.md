@@ -19,7 +19,7 @@ nav:
 - - Lights: lights
 - - Leak Sensor: sos-leak-sensor
 - - Desiccant: desiccant
-- - Heavy Variant Add-On Kit: heavy-kit
+- - Heavy Variant Add-On Kit: heavy-variant-add-on-kit
 - What's Not Included: what-you-need-for-operation-that-is-not-included
 - Frame Assembly: assembling-the-frame
 - - Battery Enclosure: mounting-the-battery-enclosure-to-the-bottom-panel
@@ -39,7 +39,7 @@ nav:
 - - Desiccant: adding-desiccant-to-the-electronics-enclosure
 - - Mounting Electronics Enclosure: mounting-the-electronics-enclosure-onto-the-frame
 - - Mounting Thrusters: mounting-the-thrusters-to-the-frame
-- - Install New Thruster Guards: thruster-guards
+- - Install New Thruster Guards: install-new-thruster-guards
 - - Mounting Lights: mounting-the-lights
 - - Mounting the Tether: mounting-the-tether-to-the-frame
 - - External Cable Management: thruster-and-lumen-cable-management
@@ -208,8 +208,8 @@ Quantity      | Part                      | Usage
 2             | Heavy Fairing   		  | Retains Heavy Buoyancy Blocks
 2             | Heavy Guard   		  | Protects outer Thrusters from damage
 8	      | Heavy Guard Mounting Bracket                | Allows Heavy Guard to be attached to ROV frame
-2             | Heavy Additonal Buoyancy Block      | Increases buoyancy to offset additonal ROV weight
-2             | Basic ESC-R3   		  | Addional ESCs to drive the extra Thrusters
+2             | Heavy Additional Buoyancy Block      | Increases buoyancy to offset additional ROV weight
+2             | Basic ESC-R3   		  | Additional ESCs to drive the extra Thrusters
 1             | T200 Thruster w/ Clockwise Propeller installed   		  | 
 1             | T200 Thrusters w/ Counter-Clockwise Propeller installed            |
 8	      | M3x12 socket head cap screw (316 stainless steel)      | Installing Thrusters 7 and 8 to Frame
@@ -257,7 +257,7 @@ To mount the battery enclosure to the bottom panel you will need the following p
 
 4. Apply one drop of threadlocker to each of the 4 M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 
-6. Place the Watertight Enclosure for ROV/AUV (3" Series) between the two Enclosure Clamps (3" Series) and install the four M3x12 screws into the Enclosure Clamps (3" Series). Note that each of the Enclosure Clamps (3" Series) are tapped on only one side. Install all four screws loosly at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the Enclosure Clamps (3" Series).
+6. Place the Watertight Enclosure for ROV/AUV (3" Series) between the two Enclosure Clamps (3" Series) and install the four M3x12 screws into the Enclosure Clamps (3" Series). Note that each of the Enclosure Clamps (3" Series) are tapped on only one side. Install all four screws loosely at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the Enclosure Clamps (3" Series).
 
 	<img src="/brov2/cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
 
@@ -362,13 +362,13 @@ To install the Penetrators you will need the following parts and tools:
 - 1 x Fathom ROV Tether
 - 1 x Penetrator Wrench
 
-The Aluminum End Cap with 14 Holes comes with 1 Cable Penetrator Blanks, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable installed.
+The Aluminum End Cap with 14 Holes comes with 1 Cable Penetrator Blanks, 1 Bar30 Pressure Sensor, 1 Enclosure Vent and Plug, and 1 power cable installed. (Image Coming soon)
 
-<img src="/brov2-heavy/cad/end-cap-as-modified.png" class="img-responsive" style="max-width:900px" />
+[//]: # (<img src="/brov2-heavy/cad/end-cap-as-modified.png" class="img-responsive" style="max-width:900px" />)
 
-If you install the remaining penetrators as shown in the diagram below, it will keep everything neat and organized.
+If you install the remaining penetrators as shown in the diagram below, it will keep everything neat and organized. (Image Coming soon)
 
-<img src="/brov2-heavy/cad/end-cap-final.png" class="img-responsive" style="max-width:900px" />
+[//]: # (<img src="/brov2-heavy/cad/end-cap-final.png" class="img-responsive" style="max-width:900px" />)
 	
 1. Remove ten of the O-rings and apply silicone grease to them. Keep the other O-ring in the bag, you will need it in a minute.
 
@@ -684,7 +684,7 @@ The tether needs to be firmly mounted to the frame to prevent the tether penetra
 
 1. Loop the tether around the plastic thimble at a point about 12 inches (30 cm) away from the tether penetrator.
 	
-2. Firmly attach 3 of the zip ties, alternating directions as they are installed, around the tether right where it enters and exits the thimble. Hold the tether firmly in place agaisnt the thimble until it is secured.
+2. Firmly attach 3 of the zip ties, alternating directions as they are installed, around the tether right where it enters and exits the thimble. Hold the tether firmly in place against the thimble until it is secured.
 
 	<img src="/fathom/cad/tether-tutorial-a1.png" class="img-responsive" style="max-width:900px" />	
 	
