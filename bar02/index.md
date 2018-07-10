@@ -117,7 +117,7 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**Bar02/Bar30 Pressure Sensor**																						|
 | --------------------------------------------------------------------------------------------- |
-| Bar02/Bar30 Pressure Sensor    | [BAR30-PRESSURE-SENSOR-R1.zip](cad/BAR30-PRESSURE-SENSOR-R1.zip) |
+| Bar02/Bar30 Pressure Sensor    | [BAR30-PRESSURE-SENSOR-R1.zip](/bar30/cad/BAR30-PRESSURE-SENSOR-R1.zip) |
 | Bar02/Bar30 Penetrator Nut		 | [PENETRATOR-M-NUT-10-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-NUT-10-A-R2.zip)|
 
 # Installation

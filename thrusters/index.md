@@ -72,7 +72,7 @@ Do not operate the thruster for extended periods (more than a minute) at full th
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 The thruster can handle saltwater and sandy environments pretty well, but it does not get along with seaweed. Avoid sucking seaweed into the thruster to avoid damage.
 
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> Most threadlockers are not chemically compatible with with polycarbonate, and will damage the thrusters if used on any of the screws. Refer to the documentation and chemical compatibilty notes of your threadlocker of choice for more information.
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> Most threadlockers are not chemically compatible with with polycarbonate, and will damage the thrusters if used on any of the screws. Refer to the documentation and chemical compatibility notes of your threadlocker of choice for more information.
 
 <i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
 A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.
@@ -84,9 +84,9 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 |----------------------------------------------------------------------------------------|
 |                                 **Performance**                                        |
 | -------------------------------------------------------|-------------------------------|
-| Maximum Forward Thrust                                 | 2.36 kgf      | 5.2 lbf       |
-| Maximum Reverse Thrust                                 | 1.85 kgf      | 4.1 lbf       |
-| Minimum Thrust                                         | 0.01 kgf      | 0.02 lbf      |
+| Maximum Forward Thrust                                 | 2.36 kg<sub>f</sub>      | 5.2 lb<sub>f</sub>       |
+| Maximum Reverse Thrust                                 | 1.85 kg<sub>f</sub>      | 4.1 lb<sub>f</sub>       |
+| Minimum Thrust                                         | 0.01 kg<sub>f</sub>      | 0.02 lb<sub>f</sub>      |
 | Rotational Speed                                       | 300-4200 rev/min              |
 | -------------------------------------------------------|-------------------------------| 
 |                                 **Electrical**                                         |
@@ -225,7 +225,7 @@ The thruster uses solid plastic bushings and due to the tolerances of the bushin
 
 # Care and Maintenance
 
-The T100 Thruster does not require much maintenence.
+The T100 Thruster does not require much maintenance.
 
 ## Normal Care
 
@@ -259,7 +259,7 @@ This is usually an issue with the proper commands being sent to the ESC. Please 
 
 **The motor does not start but the propeller tries to move.**
 
-This can be caused by a disconnected motor wire or a short between motor wires. Check that all three motor wires are connected and not shorting.
+This can be caused by a disconnected motor wire or a short between motor wires. Check that all three motor wires are connected and not shorting. To do this, check resistance of each phase pair in the thruster. Each thruster wire phases pair (Blue/green. blue/white, green/white) should have the same resistance within 0.1-0.2ohms or so. If no connection is read or one pair has significantly higher resistance, your thruster has a fault. Please e-mail [support@bluerobotics.com](mailto:support@bluerobotics.com) if this fault is found.
 
 **The motor is jammed when turned by hand.**
 

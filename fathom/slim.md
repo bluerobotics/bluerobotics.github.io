@@ -32,11 +32,11 @@ This tether is ideal for travel, deep dives, and long distance dives where size 
  
 # Quick Start 
 
-1. Prepare the ends of your tether for use as shown in the [installation tutorial](#installation).
+1. Prepare the ends of your tether for use as shown in the installation tutorial [Coming soon].
 
 2. Be sure to tin the ends of the conductors prior to installing the tether into your vehicle.
 
-3. Firmly attach the tether to your vehicle by following the [strain relief tutorial](#strain-relief) or some other method that prevents the tether from pulling directly on the tether penetrator. The tether can twist the penetrator loose if you do not provide strain relief.
+3. Firmly attach the tether to your vehicle by following the strain relief tutorial [Coming soon] or some other method that prevents the tether from pulling directly on the tether penetrator. The tether can twist the penetrator loose if you do not provide strain relief.
  
 # Specifications
 

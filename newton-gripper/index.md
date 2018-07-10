@@ -22,7 +22,7 @@ nav:
 
 
 store-links:
-- Newton Gripper:  https://www.bluerobotics.com/store/-/newton-gripper-r1/
+- Newton Gripper:  https://www.bluerobotics.com/store/rov/bluerov2/newton-gripper-asm-r1-rp/
 
 manual-links:
 - BlueROV2: /brov2
@@ -32,7 +32,7 @@ manual-links:
 
 # Introduction
 
-The _Newton Gripper_ is a sealed single function manipulator which can operate at depths of up to 300 meters. The *Newton Gripper* can be smoothly opened or closed with a servo PWM signal to provide the *BlueROV2* and other subsea vehicles with the ability to interact with the subsea environment to retrieve objects, attach recovery lines, or free a snagged tether.
+The _Newton Gripper_ is a sealed, single function manipulator which can operate at depths of up to 300 meters. The *Newton Gripper* can be smoothly opened or closed with a servo PWM signal to provide the *BlueROV2* and other subsea vehicles with the ability to interact with the subsea environment to retrieve objects, attach recovery lines, or free a snagged tether.
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 **Keep fingers and other body parts away from the gripper when operating!** It's strong and has the potential to do some damage. Notify other crew members to do the same.
@@ -67,14 +67,14 @@ The _Newton Gripper_ is a sealed single function manipulator which can operate a
 | ------------- | --------- |
 |   **Mechanical**    |
 |--------------|--------------|
-| Grip Force (at tip) | 97N | 22lbf |
-| Grip Force (in middle) | 124N | 28lbf |
+| Grip Force (at tip) | 97N | 22lb<sup>f</sup> |
+| Grip Force (in middle) | 124N | 28lb<sup>f</sup> |
 | Linear Piston Travel | 15mm | 0.59in
 | Jaw Opening | 70mm | 2.75 in |
 | Time to Open/Close | 1.6 secs |
 |  **Cable**  |
 | Cable Diameter | 3.8 mm | 0.15 in |
-| Cable Length | 635mm | 25 in |
+| Cable Length | 635 mm | 25 in |
 | Cable Jacket | Black Urethane |
 | Conductor Insulation | Acid-Etched FEP |
 | Conductor Gauge | 20 AWG |
@@ -90,6 +90,7 @@ The _Newton Gripper_ is a sealed single function manipulator which can operate a
 | Bracket Mounting Hole Spacing | 16 mm | 0.63 in |
 | Bracket Screw Size | M5x0.4 |
 | Weight in Air (w/ cable) | 616 g    |   21.9 oz    |
+| Weight in Water (w cable) | 260 g | 9.2 oz |
 |----------------------|
 
 [1] Pressure rating is based on design and a conservative safety factor.
@@ -98,11 +99,11 @@ The _Newton Gripper_ is a sealed single function manipulator which can operate a
 
 ### Newton Gripper Assembly
 
-[COMING SOON]
+<img src="/newton-gripper/cad/2d-drawing-newton-gripper.png" class="img-responsive img-center" />
 
 ### Newton Gripper Mount
 
-[COMING SOON]
+<img src="/newton-gripper/cad/2d-drawing-newton-gripper-mount.png" class="img-responsive img-center" />
 
 ## 3D Model
 
@@ -115,8 +116,8 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**Newton Gripper**																		|
 | --------------------------------------------------------------------------------------------- |
-| Newton Gripper Assembly   | [Assem-NEWTON-GRIPPER-R1.zip](cad/NEWTON-GRIPPER-ASM-R1.zip)      |
-| Newton Gripper Mount 	    | [NEWTON-GRIPPER-MOUNT.zip](cad/NEWTON-GRIPPER-MOUNT-R1.zip) 		|
+| Newton Gripper Assembly   | [NEWTON-GRIPPER-ASM-R3-PUBLIC.zip](cad/NEWTON-GRIPPER-ASM-R3-PUBLIC.zip)      |
+| Newton Gripper Mount 	    | [NEWTON-MOUNT-ASM-R1-PUBLIC.zip](cad/NEWTON-MOUNT-ASM-R1-PUBLIC.zip) 		|
 
 # Installation
 
@@ -189,7 +190,7 @@ To reassemble your BlueROV2 electronics Enclosure, you will need the following p
 
 To mount the Newton Gripper to the BlueROV2 Frame, you will need the following parts and tools:
 
--  1 x Newton Gripper Mount Drilling Template, included with kit or available [here](cad/NEWTON-GRIPPER-MOUNT-DRILLING-TEMPLATE-R1.pdf) (8.5 x 11" Piece of paper)
+-  1 x Newton Gripper Mount Drilling Template, included with kit or available [here](cad/NEWTON-GRIPPER-W-MOUNT-DRILLING-TEMPLATE-UNIVERSAL-R1.PDF) (8.5 x 11" or A4 Piece of paper, print setting "Actual")
 -  1 x 5.50mm (or 7/32") drill bit (not included)
 -  1 x Battery Powered Hand Drill (not included)
 -  2 x M5x16 Button Head Screws
@@ -217,7 +218,7 @@ To mount the Newton Gripper to the BlueROV2 Frame, you will need the following p
 
 To clean up the external Newton Gripper cable, you will need the bag of 5 zip ties and your scissors/wire cutters.
 
-The primary goal of cable management is to prevent the wires from getting cut by the propellers. Make sure to check that no wire can reach a propeller after you have finished routing the Newton Gripper cable. Below are some examples of what the cable routing should look like.
+The primary goal of cable management is to prevent the wires from getting cut by the propellers. Make sure to check that no wires can reach the propellers after you have finished routing the Newton Gripper cable. Below is an example of what the cable routing should look like.
 
 <img src="/newton-gripper/cad/gripper-tutorial-cable-routing.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
@@ -227,7 +228,7 @@ To install the new buoyancy blocks and fairings, you will need the following par
 
 -	16 x Fairing screws that were placed off to the side during disassembly
 -	4 x Fairings with buoyancy installed that were placed off to the side during disassembly
--	1x #1 Phillips head screwdriver
+-	1 x #1 Phillips head screwdriver
 
 1.	 Reinstall Original Fairing Blocks onto ROV by installing the screws through the center panels and into the fairings.
 <img src="/newton-gripper/cad/gripper-tutorial-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
@@ -236,9 +237,9 @@ To install the new buoyancy blocks and fairings, you will need the following par
 
 To adjust the amount or position of ballast on the frame you need the following parts and tools:
 
-- 7 x 200g ballast weights (from original BlueROV2 Kit)
-- 10 x 8-16 Thread, 5/8” Long, Thread-Forming Screw
-- 1 x #2 phillips head screwdriver
+- 7 x 200g Ballast weights (from original BlueROV2 Kit)
+- 10 x 8-16 Thread, 5/8” Long, Thread-Forming Screws
+- 1 x #2 Phillips head screwdriver
 
 To get the longest battery life and the best driving experience, it is important to have the ROV close to balanced from front to back in water and close to neutrally buoyant. The Newton Gripper adds a bit of weight to the ROV, so it will need to be retrimmed based on your operating conditions. Trimming the ballast may involve a bit of trial and error.
 

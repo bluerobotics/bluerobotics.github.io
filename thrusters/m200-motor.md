@@ -12,6 +12,7 @@ nav:
 - - Specification Table: specification-table
 - - Performance Charts: performance-charts
 - - Dimensions: dimensions
+- - 2D Drawing: 2d-drawing
 - - 3D Model: 3d-model
 - Installation: installation
 - - Video Tutorial: video-tutorial
@@ -110,7 +111,9 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 
 ## Dimensions
 
-<!--<img src="/assets/images/m100-three-view-1.png" class="img-responsive" style="max-width:800px" />-->
+## 2D Drawing
+
+<img src="/thrusters/cad/2d-drawing-m200.png" class="img-responsive img-center" />
 
 ## 3D Model
 
@@ -144,7 +147,7 @@ The three solder pads are always connected to the same motor phases, so connecti
 We recommend using the following compounds to seal the soldered wire connections on the M200 Motor.
 
 * **Loctite Marine Epoxy** works well at great depths and is very thick so that it can be applied in one coat.
-* **MG Chemicals 4229** is a rubberized coating that can be used at shallow depths (less than 100ft) and is removeable if required.
+* **MG Chemicals 4229** is a rubberized coating that can be used at shallow depths (less than 100ft) and is removable if required.
 
 # Operation
 
@@ -205,7 +208,7 @@ This is usually an issue with the proper commands being sent to the ESC. Please 
 
 **The motor does not start but the propeller tries to move.**
 
-This can be caused by a disconnected motor wire or a short between motor wires.Check that all three motor wires are connected and not shorting.
+This can be caused by a disconnected motor wire or a short between motor wires. Check that all three motor wires are connected and not shorting. To do this, check resistance of each phase pair in the thruster. Each thruster wire phases pair (Blue/green. blue/white, green/white) should have the same resistance within 0.1-0.2ohms or so. If no connection is read or one pair has significantly higher resistance, your thruster has a fault. Please e-mail [support@bluerobotics.com](mailto:support@bluerobotics.com) if this fault is found.
 
 **The motor is jammed when turned by hand.**
 

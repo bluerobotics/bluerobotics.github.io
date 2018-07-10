@@ -284,13 +284,13 @@ The BlueROV comes with an electronics tray designed to fit the ESCs, a Raspberry
 4. Next, attach the ESCs using the provided zip ties. The ESC should be arranged with the "BlueRobotics" logo facing toward the tray which will expose the warm parts of the ESC to air to enable cooling. Three ESCs are attached on top and three on bottom. Label the ESCs 1-6 before mounting in order to keep track of which will be controlling which motor. We suggest the above configuration to allow for the most direct wire routing.
 <img src="/assets/images/tutorials/bluerov-manual/BR-8.png" class="img-responsive" style="max-width:600px" />
 
-5. First loosly attatch 2 ESCs to the top and bottom of the electronics tray, leaving enough slack in the zip tie to be able to adjust the positions of the ESCs.
+5. First loosely attach 2 ESCs to the top and bottom of the electronics tray, leaving enough slack in the zip tie to be able to adjust the positions of the ESCs.
 <img src="/assets/images/tutorials/bluerov-manual/BR-9.png" class="img-responsive" style="max-width:600px" />
 
-6. Cut and strip the power input wires of the ESCs to an appropriate length to attatch them to the terminal block, negative wires on the left side and positive on the right. We use crimped spade connectors at the ends of the wires, but just the bare wires will work fine as well. If you need additional clearance to route or bend a wire, the clear heat shrink on the ESC can be cut back a bit to give a little extra room.
+6. Cut and strip the power input wires of the ESCs to an appropriate length to attach them to the terminal block, negative wires on the left side and positive on the right. We use crimped spade connectors at the ends of the wires, but just the bare wires will work fine as well. If you need additional clearance to route or bend a wire, the clear heat shrink on the ESC can be cut back a bit to give a little extra room.
 <img src="/assets/images/tutorials/bluerov-manual/BR-13.png" class="img-responsive" style="max-width:600px" />
 
-7. Repeat for the 4 additional ESCs. Take your time in laying out the cables, and be sure that they will reach the terminal block before cutting. Attatch a battery lead with the connector of your choice to the terminal block, and route the cable below to the battery area.
+7. Repeat for the 4 additional ESCs. Take your time in laying out the cables, and be sure that they will reach the terminal block before cutting. Attach a battery lead with the connector of your choice to the terminal block, and route the cable below to the battery area.
 
 8. We recommend attaching the Raspberry Pi and camera now as well. Hardware is not provided.
 

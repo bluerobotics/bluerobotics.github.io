@@ -57,10 +57,10 @@ Always inspect the O-rings before operation in water and especially when replaci
 Use plastic tools, NOT steel or other hard tools, to remove the O-rings from the aluminum sealing flange. Hard tools can create scrapes that will compromise sealing ability. 
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Most threadlockers are not chemically compatible with with polycarbonate, and will damage the dome flange if used excessively on the screws. Refer to the documentation and chemical compatibilty notes of your threadlocker of choice for more information.
+Most threadlockers are not chemically compatible with with polycarbonate, and will damage the dome flange if used excessively on the screws. Refer to the documentation and chemical compatibility notes of your threadlocker of choice for more information.
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Only clean the dome and acrylic tubes with acrylic specific cleaner or plain water. Solvents, alchohol and other cleaners will craze and damage the material.
+Only clean the dome and acrylic tubes with acrylic specific cleaner or plain water. Solvents, alcohol and other cleaners will craze and damage the material.
 
 # Specifications: (2" Series)
 
@@ -201,8 +201,8 @@ All 3D models are provided in zip archives containing the follow file types:
 | ----------------------------------- | ----------------------------- |
 | Maximum Depth Rating (Acrylic Tube) | 330 ft        | 100 m         |
 | Maximum Depth Rating (Aluminum Tube)| 1300 ft       | 400 m         |
-| Maxium Tested Depth (Acrylic Tube)  | 500 ft        | 150 m         |
-| Maxium Tested Depth (Aluminum Tube) | 2000 ft       | 610 m         |
+| Maximum Tested Depth (Acrylic Tube)  | 500 ft        | 150 m         |
+| Maximum Tested Depth (Aluminum Tube) | 2000 ft       | 610 m         |
 | Maximum Pressure                    | 146 psi       | 1000 kPa      |
 | Tube Inner Diameter                 | 4 in          | 101.6 mm      |
 | Tube Outer Diameter                 | 4.5 in        | 114.3 mm      |
@@ -250,7 +250,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Acrylic Tube (Standard 11.75", 298mm length) | [WTE4-P-TUBE-12-R1.zip](http://www.bluerobotics.com/models/WTE4-P-TUBE-12-R1.zip)
 | Aluminum Tube (Standard 11.75", 298 mm length) | [WTE4-M-TUBE-12-R1.zip](/wte/cad/WTE4-M-TUBE-12-R1.zip)
 | Aluminum O-ring Flange               | [WTE4-M-FLANGE-SEAL-R2.zip](http://www.bluerobotics.com/models/WTE4-M-FLANGE-SEAL-R2.zip)            
-| Plain Solid End Cap			       | [WTE4-P-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-R1.zip)      
+| Plain Solid End Cap			       | [WTE4-P-END-CAP-R1.zip (Coming Soon)]      
 | Aluminum Solid End Cap               | [WTE4-M-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE4-M-END-CAP-R1.zip)        
 | Aluminum End Cap with 10 x 10mm Holes| [WTE4-M-END-CAP-10X10MM-R1.zip](http://www.bluerobotics.com/models/WTE4-M-END-CAP-10X10MM-R1.zip)   
 | End Cap with 5 x 10mm Holes          | [WTE4-P-END-CAP-5X10MM-R1.zip](http://www.bluerobotics.com/models/WTE4-P-END-CAP-5X10MM-R1.zip)    

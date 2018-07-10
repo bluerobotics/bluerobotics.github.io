@@ -9,12 +9,13 @@ nav:
 - - Function Diagram: function-diagram
 - - Specification Table: specification-table
 - - Schematic: schematic
+- - 2D Drawings: 2d-drawings
+- - 3D Model: 3d-model
 - Installation: installation
 - - Normal: normal-scenario
 - - With Fathom-S: with-fathom-s
 
 store-links:
-- Fathom-X: https://www.bluerobotics.com/store/electronics/fathom-x-r1/
 - Fathom-X: https://www.bluerobotics.com/store/electronics/fathom-x-r1/
 - Fathom Tether: https://www.bluerobotics.com/store/parts/cables/fathom-tether-nb-4p-26awg-r1/
 
@@ -89,6 +90,25 @@ The *Fathom-X* board is also part of the *Advanced ROV Electronics Package* and 
 The [EagleCAD files](https://github.com/bluerobotics/fathom-x/) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
 
 [<img src="/fathom-x/fathom-x-schematic.png" class="img-responsive" style="max-width:300px" />](https://github.com/bluerobotics/fathom-x/raw/master/Fathom-X-Schematic.pdf)
+
+## 2D Drawings
+
+### Fathom-X Board
+
+<img src="/fathom-x/cad/FATHOM-X.png" class="img-responsive img-center" />
+
+## 3D Model
+
+All 3D models are provided in zip archives containing the follow file types:
+
+- SolidWorks Part (.sldprt)
+- IGES (.igs) 
+- STEP (.step)
+- STL (.stl)
+
+|		**Fathom-X Board**																		|
+| --------------------------------------------------------------------------------------------- |
+| Fathom-X Board   | [FATHOMX-ASM-FATHOM-X-R1.zip](cad/FATHOMX-ASM-FATHOM-X-R1.zip)      |
 
 # Installation
 

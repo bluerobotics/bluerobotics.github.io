@@ -69,6 +69,7 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 | Supply Voltage (V<sub>in</sub>) | 7 - 48 volts |
 | Full Brightness Supply Voltage (V<sub>in</sub>) | 10 - 48 volts |
 | PWM Logic Voltage  | 3 - 48 volts |
+| PWM Frequency  | 50 - 200 Hz |
 | Peak Current   | 15 / V<sub>in</sub> amps  |
 | ------------- | --------- |
 |   **Light**    |

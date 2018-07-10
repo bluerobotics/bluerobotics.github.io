@@ -9,6 +9,7 @@ nav:
 - Specifications: specifications
 - - Diagram: diagram
 - - Specification Table: specification-table
+- - 2D Drawings: 2d-drawings
 - - 3D Model: 3d-model
 - Installation: installation
 - - Thermal Considerations: thermal-considerations
@@ -38,10 +39,10 @@ This new version of the Basic ESC is based on the BLHeli_S ESC design, providing
 
 ## Quick Start
 
-1. Connect the three motor wires to the motor. The order of connections does not matter, however, switching any two wires will change the direction of the motor. The output phases A, B, and C are completely interchangeable
+1. Connect the three motor wires to the motor. The order of connections does not matter; however, switching any two wires will change the direction of the motor. The output phases A, B, and C are completely interchangeable
 2. Connect the red power wire and black ground wire to a power source like a battery. You will hear three beeps in rising pitch from the motor indicating all three phases are connected. 
-3. Connect the signal cable to your signal source like an RC radio receiver or microcontroller board. The white wire is the signal wire. 
-4. Send a stopped signal (1500 microseconds) for a few seconds to initialize the ESC. You will hear two tones indicating initialization, and then you can send a signal from 1100-1900µs to operate the thruster.
+3. Connect the signal cable to your signal source like a RC radio receiver or microcontroller board. The white wire is the signal wire. 
+4. Send a stopped signal (1500 microseconds) for a few seconds to initialize the ESC. You will hear two tones indicating initialization, and then you can send a signal from 1100-1900 µs to operate the thruster.
 
 # Specifications
 
@@ -61,7 +62,7 @@ This new version of the Basic ESC is based on the BLHeli_S ESC design, providing
 | Length        | 35 mm         | 1.38 in       |
 | Width         | 17.1 mm       | 0.67 in     |
 | Height        | 5.5 mm        | 0.22 in      |
-| Weight        | 16.3g         | 0.036lb
+| Weight        | 16.3 g         | 0.036 lb
 | Power Connectors | Spade terminals for No. 6 screw    |
 | Motor Connectors | Tinned wire ends           |
 | Signal Connector | 3-pin servo connector (0.1" pitch) (ground, blank, signal) |
@@ -74,6 +75,12 @@ This new version of the Basic ESC is based on the BLHeli_S ESC design, providing
 | Max forward   | 1900 microseconds             |
 | Max reverse   | 1100 microseconds             |
 | Signal Deadband| +/- 25 microseconds (centered around 1500 microseconds) |
+
+## 2D Drawings
+
+### Basic ESC Board
+
+<img src="/bescr3/cad/BESC-R3.png" class="img-responsive" style="max-width:900px" />
 
 ## 3D Model
 

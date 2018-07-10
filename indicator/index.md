@@ -24,7 +24,7 @@ manual-links:
 
 # Introduction
 
-The Subsea LED Indicator is a simple LED light with high pressure capability! It comes in a penetrator form factor for easy installation on any of our Watertight Enclosures and it comes in four colors: white, blue, green, and red! It operates on 3-20v and each light draws up to 30mA when used at 20v. A built in resistor makes it easy to use without any additional parts.
+The Subsea LED Indicator is a simple LED light with high pressure capability! It comes in a penetrator form factor for easy installation on any of our Watertight Enclosures and it comes in four colors: white, blue, green, and red! It operates on 3-20v and each light draws up to 30mA when used at 20v. A built-in resistor makes it easy to use without any additional parts.
 
 ## Quick Start
 
@@ -72,7 +72,7 @@ All 3D models are provided in zip archives containing the follow file types:
 |		**Lumen Light**																			|
 | --------------------------------------------------------------------------------------------- |
 | Indicator Assembly      | [INDICATOR10-ASM-R1.zip](INDICATOR10-ASM-R1.zip)    |
-| Cable Penetrator Nut    | [PENETRATOR-NUT-10-A-R2.zip](/models/PENETRATOR-M-NUT-10-A-R2.zip) |
+| Cable Penetrator Nut    | PENETRATOR-NUT-10-A-R2.zip [Coming Soon] 
 
 # Installation
 

@@ -77,7 +77,7 @@ The BlueROV2 kit comes almost ready to dive. The assembly can be completed with 
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> When working with silicone grease and threadlocker, take care to minimize skin contact. Wear protective nitrile or PVC gloves when handling.
 
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> Only apply threadlocker to screws contacting metal or the HDPE frame. Most threadlockers are not chemically compatible with with polycarbonate, and will damage the thrusters, fairings, and dome flange if used here. Refer to the documentation and chemical compatibilty notes of your threadlocker of choice for more information.
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> Only apply threadlocker to screws contacting metal or the HDPE frame. Most threadlockers are not chemically compatible with with polycarbonate, and will damage the thrusters, fairings, and dome flange if used here. Refer to the documentation and chemical compatibility notes of your threadlocker of choice for more information.
 
 # Required Tools (Not Included)
 
@@ -218,7 +218,7 @@ There are some items necessary for operation that are not included with the kit.
 
  - A gamepad controller. We recommend [this XBox One Controller](https://www.microsoft.com/en-us/store/d/xbox-wireless-controller/8vcw8gln9vrf/ljvk?cid=msft_web_collection&activetab=pivot%3atechspecstab) or [this Logitech Gamepad](http://gaming.logitech.com/en-us/product/f310-gamepad).
  - A laptop or a Windows 10 tablet. QGroundControl works on Mac, Windows 10, and Linux.
- - A battery for the BlueROV2. We recommend getting our [18Ah Lithium-ion Battery](http://www.bluerobotics.com/store/electronics/batteries/battery-li-4s-18ah-r1/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
+ - A battery for the BlueROV2. We recommend getting our [18Ah Lithium-ion Battery](https://www.bluerobotics.com/store/rov/bluerov2/battery-li-4s-18ah-r2-rp/) or 2 or 3 of [these](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=56844)
  - A battery charger, such as our [Lithium Battery Charger](http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/).  
  - A USB Cable - A-Male to Mini-B (any length) such as [this one](https://www.amazon.com/AmazonBasics-USB-2-0-Cable-Male/dp/B00NH13S44/ref=sr_1_3?s=electronics&ie=UTF8&qid=1525883524&sr=1-3&keywords=mini+usb+cable)
  - An Ethernet Patch Cable (any length) such as [this one](https://www.amazon.com/AmazonBasics-Network-Ethernet-Patch-Cable/dp/B013PUMQYY/ref=sr_1_1_sspa?ie=UTF8&qid=1525883675&sr=8-1-spons&keywords=ethernet+cable+3ft&psc=1)
@@ -249,7 +249,7 @@ To mount the battery enclosure to the bottom panel you will need the following p
 
 4. Apply one drop of threadlocker to each of the 4 M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 
-6. Place the Watertight Enclosure for ROV/AUV (3" Series) between the two Enclosure Clamps (3" Series). The Enclosure Clamps have tapped holes on one side and untapped holes on the other. Install the four M3x12 screws into the Enclosure Clamps (3" Series) so that the screws pass through the untapped holes on the first clamp and are secured into the tapped holes on the alternate clamp. Install all four screws loosly at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the Enclosure Clamps (3" Series).
+6. Place the Watertight Enclosure for ROV/AUV (3" Series) between the two Enclosure Clamps (3" Series). The Enclosure Clamps have tapped holes on one side and untapped holes on the other. Install the four M3x12 screws into the Enclosure Clamps (3" Series) so that the screws pass through the untapped holes on the first clamp and are secured into the tapped holes on the alternate clamp. Install all four screws loosely at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the Enclosure Clamps (3" Series).
 
 	<img src="/brov2/cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
 
@@ -652,7 +652,7 @@ The tether needs to be firmly mounted to the frame to prevent the tether penetra
 
 1. Loop the tether around the plastic thimble at a point about 12 inches (30 cm) away from the tether penetrator.
 	
-2. Firmly attach 3 of the zip ties, alternating directions as they are installed, around the tether right where it enters and exits the thimble. Hold the tether firmly in place agaisnt the thimble until it is secured.
+2. Firmly attach 3 of the zip ties, alternating directions as they are installed, around the tether right where it enters and exits the thimble. Hold the tether firmly in place against the thimble until it is secured.
 
 	<img src="/fathom/cad/tether-tutorial-a1.png" class="img-responsive" style="max-width:900px" />	
 	
