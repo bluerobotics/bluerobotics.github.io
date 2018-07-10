@@ -3,7 +3,6 @@ layout: default
 title: Lumen Light R2
 order: 1
 nav:
-- Archived Pages: -archived-_lumen_-pages
 - Introduction: introduction
 - - Quick Start (On/off): quick-start-onoff-with-no-pwm-signal-source
 - - Quick Start (Dimming): quick-start-dimming-with-pwm-signal
@@ -28,14 +27,10 @@ manual-links:
 
 <img src="/lumen-r2/cad/Lumen-R2-Banner.JPG" class="img-responsive img-center" style="max-width:600px"  />
 
-# Archived _Lumen_ Pages
+# Introduction
 
 <i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
-This page is the most recent _Lumen_ documentation page. If you have an older _Lumen_ Light, you may wish to refer to an archived documentation page:
-
- - [_Lumen_ Light R1 (Retired July 2018)](http://docs.bluerobotics.com/lumen/)
-
-# Introduction
+This page is the most recent _Lumen_ documentation page. If you have an older _Lumen_ Light, you may wish to refer to the archived documentation page: [_Lumen_ Light R1 (Retired July 2018)](http://docs.bluerobotics.com/lumen/).
 
 The _Lumen_ Light is a sealed LED light which can supply up to 1500 lumens at depths of up to 950 meters. The *Lumen* Light can be smoothly dimmed with a servo PWM signal or simply turned on/off with a switch. Up to six lights can be daisy-chained together and controlled with a single signal, requiring only one penetration into a watertight enclosure.
 
@@ -77,10 +72,10 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 | Maximum Brightness | 1,500 lumens |
 | Color Temperature | 6,200 kelvin | 
 |  **Cable**  |
-| Cable Diameter | 4.31 mm | 0.17 in |
+| Cable Diameter | 4.3 mm | 0.17 in |
 | Cable Length | 1 m | 39 in |
 | Cable Jacket | Black Urethane |
-| Conductor Insulation | Acid-Etched FEP |
+| Conductor Insulation | Polypropylene |
 | Conductor Gauge | 22 AWG |
 | Wires | Black - Ground |
 | | Red - Power |
@@ -104,7 +99,7 @@ For further information please see the [Cree XLamp MK-R LED Data Sheet](http://w
 
 ### Lumen Light Assembly
 
-<img src="/lumen-r2/cad/2D-drawing-lumen-r2.png" class="img-responsive img-center" style="max-width:600px" />
+<img src="/lumen-r2/cad/2D-drawing-lumen-r2.png" class="img-responsive img-center" style="max-width:800px" />
 
 ## 3D Model
 
@@ -135,7 +130,7 @@ The two threaded holes are best used when you have access to install a screw tha
 
 	<img src="/lumen-r2/cad/Lumen-R2-tutorial-screws.jpg" class="img-responsive img-center" style="max-width:600px" />
 
-3.  Attach the _Lumen_ onto the screws and tighten until hand tight. Do not over-tighten.
+3.  Attach the _Lumen_ onto the screws and tighten until hand tight. Be careful to avoid over-tightening and stripping the threads.
 	<img src="/lumen-r2/cad/Lumen-R2-tutorial-mounted.jpg" class="img-responsive img-center" style="max-width:600px" />
 
 
