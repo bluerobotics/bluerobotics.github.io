@@ -144,7 +144,7 @@ The two threaded holes are best used when you have access to install a screw tha
 The _Lumen_ Light can be [daisy chained](https://en.wikipedia.org/wiki/Daisy_chain_%28electrical_engineering%29) using the following procedure:
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Use caution if you disassemble and reassemble your _Lumen_ Light. The black screws are made of aluminum and will break if over-torqued. We recommend using a torgue qrench and applying no more than 20lbs of force when reassembling.
+Use caution if you disassemble and reassemble your _Lumen_ Light. The black screws are made of aluminum and will break if over-torqued. We recommend using a torque wrench and applying no more than 20lbs of force when reassembling.
 
 [Due to differences in internal wire connections, New Instructions COMING SOON]	
 
