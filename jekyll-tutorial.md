@@ -55,7 +55,7 @@ Once you are happy with your changes, you can commit them to the repository:
 git commit -am "Comment about changes made."
 ~~~~~~
 
-Commiting only affects the local repository on your computer. To push to the changes to Github and publish to the web:
+Committing only affects the local repository on your computer. To push to the changes to Github and publish to the web:
 
 ~~~~ bash
 git push

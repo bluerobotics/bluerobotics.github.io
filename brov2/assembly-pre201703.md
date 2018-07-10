@@ -250,7 +250,7 @@ To mount the battery enclosure to the bottom panel you will need the following p
 
 5. Apply one drop of thread-locker to the end of each of the 4 M3x12 screws.
 
-6. Grab the battery enclosure and the other battery cradle and install the 4 M3x12 screws into the cradle to clamp the battery enclosure into place. Install all four screws loosly at first and then slowly tighten them on both sides evenly.
+6. Grab the battery enclosure and the other battery cradle and install the 4 M3x12 screws into the cradle to clamp the battery enclosure into place. Install all four screws loosely at first and then slowly tighten them on both sides evenly.
 Keep the battery enclosure approximately centered in the cradles.
 
 	<img src="/brov2/cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
@@ -522,7 +522,7 @@ To complete the signal cable wiring you need the following items:
 
 1. Remove and cut the 5V line (middle wire) on 5 of the ESC signal wires. 3DR [recommends only connecting one ESC +5V output](https://pixhawk.org/users/actuators/pwm_escs_and_servos)
 
-	i. Seperate the three wires coming into the connector plug to about 2 inches away from the plug.
+	i. Separate the three wires coming into the connector plug to about 2 inches away from the plug.
 		
 	ii. Remove the center pin from the plug by lifting up on the plastic with a small flat head screw driver.
 	
@@ -561,7 +561,7 @@ To change the propellers on three of the thrusters you will need the following i
 	
 2. Switch the propellers from the clockwise thrusters that come installed to the counter-clockwise thrusters that come along with the thrusters. Please refer to our [Changing the Propeller Tutorial](/tutorials/changing-the-propeller) for detailed instructions.
 
-3. The next few steps will be easier if you keep the clockwise and counter-clockwise thrusters seperated, and for reference the picture below shows clockwise and counter-clockwise propellers installed on thrusters.
+3. The next few steps will be easier if you keep the clockwise and counter-clockwise thrusters separated, and for reference the picture below shows clockwise and counter-clockwise propellers installed on thrusters.
 
 	<img src="/brov2/cad/clockwise-counter-clockwise.png" class="img-responsive" style="max-width:900px" />
 	

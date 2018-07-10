@@ -51,7 +51,7 @@ For further information please see the [INR18650-30Q Data Sheet](https://eu.nkon
 | Thermistor Working Temperature | -40-110°C | -40-230°F |
 | ------------- | --------- |
 
-*Current draw rating dependant on adequate cooling, 60°C safety cutoff. See more information in Discharging section below.
+*Current draw rating dependent on adequate cooling, 60°C safety cutoff. See more information in Discharging section below.
 
 |  **Physical (Typical)**  |
 | ------------- | --------- |
@@ -95,7 +95,7 @@ Although they are encased in metal and are safe enough to be used in everyday de
 
 Always use a lithium-ion compatible balance charger when charging, attempting to use another type of charger will damage the battery. Make sure to keep it away from flammable materials and monitor the battery as it charges, discontinue charging if it becomes hot or changes in appearance.
 
-This battery can be safely charged at up to 20A, which will bring it back up to full charge in about one hour. However, we recommend charging at 10-15A (about two hours) at most regularily, in order to maximize capacity and lifespan. We recommend balancing the battery at every charge to keep all cells at the same level of charge, but this can aso be done every few cycles if quick charging is a priority.
+This battery can be safely charged at up to 20A, which will bring it back up to full charge in about one hour. However, we recommend charging at 10-15A (about two hours) at most regularly, in order to maximize capacity and lifespan. We recommend balancing the battery at every charge to keep all cells at the same level of charge, but this can aso be done every few cycles if quick charging is a priority.
 
 Our [Lithium Battery Charger](http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/) is recommended for use with this battery. 
 
@@ -103,7 +103,7 @@ Our [Lithium Battery Charger](http://www.bluerobotics.com/store/electronics/batt
 
 Once charged, connect the XT90 discharge plug to your vehicle, and the battery is ready to use. The battery can sustain a constant discharge of up to 90A, and up to 132A in short bursts of a few seconds. Make sure to never short the battery discharge plug or plug it into a circuit that may be shorted.
 
-Note that the maximum safe discharge rating is dependant on adequate cooling to keep the battery below 60°C. If used in an enclosed space without flowing air, constant current draw must be decreased appropriatley to to keep the battery at a  safe temperature. For example, in a BlueROV2 we recommend keeping full throttle thruster bursts at 100% gain to no more than 15 seconds each to keep the battery at a safe temperature and allow it to cool.
+Note that the maximum safe discharge rating is dependent on adequate cooling to keep the battery below 60°C. If used in an enclosed space without flowing air, constant current draw must be decreased appropriatley to to keep the battery at a  safe temperature. For example, in a BlueROV2 we recommend keeping full throttle thruster bursts at 100% gain to no more than 15 seconds each to keep the battery at a safe temperature and allow it to cool.
 
 Temperature can be monitored on the R2 version of the battery with the integrated 3435K negative temperature coefficient (NTC) thermistor, which has a resistance of 10kΩ at 25°C.
 
