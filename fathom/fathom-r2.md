@@ -89,7 +89,7 @@ The Fathom Tether R2 has a poly urethane outer jacket for better flexibility and
 
 ## Section View
 
-<img src="/fathom/cad/Tether-Cross-Section.png" class="img-responsive" style="max-width:900px"  />
+<img src="/fathom/cad/Tether-R2-Cross-Section.jpg" class="img-responsive" style="max-width:900px"  />
 
 A datasheet for the polyethylene jacket material is available here: [DF4960 Polyethylene Foam](DF4960.pdf).
 
