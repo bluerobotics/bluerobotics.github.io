@@ -60,21 +60,21 @@ All 3D models are provided in zip archives containing the follow file types:
 
 # Installation
 
-## Step 1: Attaching the Fathom Tether connector
+## Attaching the Fathom Tether connector
 
 <img src="/fxti/cad/.png" class="img-responsive img-center" style="max-width:800px"  />
 
 Insert the Binder connector from your Fathom Tether (or Spool extension cable) onto the connector bulkhead recepticle. Rotate the connector head clockwise until the connector locks in place and the GREEN LOCK symbol is in the 12 o'clock position.
 
-## Step 2: Attaching the USB Cable
+## Attaching the USB Cable
 
 <img src="/fxti/cad/.png" class="img-responsive img-center" style="max-width:800px"  />
 
 Insert the USB Type-B connector end of the included cable into the Type-B recepticle on the oposite face of the FXTI. Connect the USB Type-A connector into a USB port on your topside computer. 
 
-## Step 3: Configuring Network Settings
+## Configuring Network Settings
 
-<img src="/fxti/cad/Software-setup-page.png" class="img-responsive img-center" style="max-width:600px"  />
+<img src="/fxti/cad/Software-setup-page.png" class="img-responsive img-center" style="max-width:400px"  />
 
 Follow the "Network Setup" instructions on the [BlueROV2 Software Setup page](http://docs.bluerobotics.com/brov2/software-setup/) for establishing a connection with your BlueROV2 to QGroundControl
 
