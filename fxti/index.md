@@ -74,7 +74,7 @@ Insert the USB Type-B connector end of the included cable into the Type-B recept
 
 ## Step 3: Configuring Network Settings
 
-<img src="/fxti/cad/Software-setup-page.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/fxti/cad/Software-setup-page.png" class="img-responsive img-center" style="max-width:600px"  />
 
 Follow the "Network Setup" instructions on the [BlueROV2 Software Setup page](http://docs.bluerobotics.com/brov2/software-setup/) for establishing a connection with your BlueROV2 to QGroundControl
 
