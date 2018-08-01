@@ -11,7 +11,7 @@ nav:
 - - 3D Model: 3d-model
 - Usage: usage
 - Installation: installation
-- Integration Example: integration-example
+- Integration Example: integration-examples
 
 store-links:
 - FXTI: https://www.bluerobotics.com/store/rov/fxti-r1-rp/
@@ -60,6 +60,8 @@ All 3D models are provided in zip archives containing the follow file types:
 
 # Usage
 
+_FXTI_ has a USB-B connection on one side and a Binder 770 connector on the other. The USB connection provides power to the box and is internally connected to a USB to Ethernet adapter that is connected to a Fathom-X tether interface board. The interface board is connected to the Binder 770 connector for a clean connection to the tether.
+
 # Installation
 
 ## Attaching the Fathom Tether connector
@@ -91,7 +93,7 @@ _FXTI_ is highly expandable allowing for reconfiguring connections within the bo
 
 Below is one example  of how _FXTI_ can be used to neatly connect the Water Linked Underwater GPS / BlueROV2 Integration Kit and omit the earlier connections to a terminal block. 
 
-<img src="/fxti/cad/FXTI-WL-Integration.jpg" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/fxti/cad/FXTI-WL-Integration.jpg" class="img-responsive img-center" style="max-width:600px"  />
 
 More examples will be coming to illustrate connecting other accessories by BlueRobotics or other manufacturers.
 
