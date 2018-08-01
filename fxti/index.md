@@ -24,7 +24,7 @@ manual-links:
 
 # Introduction
 
-The <em>FXTI</em> is a semi-rugged protective case for the Fathom-X board and interface to a connectorized Fathom Tether (Standard or Slim). FXTI inclues an ethernet to USB converter in the case, so the only connection going from the FXTI to the topside computer is a USB cable. FXTI also includes two auxiliary port locations making integration with the _Water Linked Underwater GPS Developer Kit_ or other accessories easier.
+The <em>FXTI</em> is a semi-rugged protective case for the Fathom-X board and interface to a connectorized Fathom Tether (Standard or Slim). _FXTI_ inclues an ethernet to USB converter in the case, so the only connection going from the _FXTI_ to the topside computer is a USB cable. _FXTI_ also includes two auxiliary port locations making integration with the _Water Linked Underwater GPS Developer Kit_ or other accessories easier.
 
 # Specifications
 
