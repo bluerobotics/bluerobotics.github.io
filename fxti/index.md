@@ -37,7 +37,7 @@ The <em>FXTI</em> is a semi-rugged protective case for the Fathom-X board and in
 | Height | 67.8 mm | 2.67 in |
 | Weight (without USB cable) | 462 g | 1.02 lbs |
 | Tether Connection | Binder 770 Bulkhead, solder pins |
-| Computer Connection | USB Type-B Female Bulkhead Recepticle |
+| Computer Connection | USB Type-B Female Bulkhead Receptacle |
 |----------------------|
 
 
