@@ -11,7 +11,7 @@ nav:
 - - 3D Model: 3d-model
 - Usage: usage
 - Installation: installation
-- Integration Example: integration-examples
+- Integration Examples: integration-examples
 
 store-links:
 - FXTI: https://www.bluerobotics.com/store/rov/fxti-r1-rp/
@@ -20,7 +20,7 @@ manual-links:
 - BlueROV2: /brov2/assembly/
 ---
 
-<img src="/fxti/cad/banner-fxti.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/fxti/cad/FXTI-Banner.JPG" class="img-responsive img-center" style="max-width:600px"  />
 
 # Introduction
 
