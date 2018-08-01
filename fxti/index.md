@@ -62,7 +62,8 @@ All 3D models are provided in zip archives containing the follow file types:
 
 ## Attaching the Fathom Tether connector
 
-<img src="/fxti/cad/.png" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/fxti/cad/FXTI-Tether-Insert.jpg" class="img-responsive img-center" style="max-width:800px"  />
+<img src="/fxti/cad/FXTI-Tether-Locked.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
 Insert the Binder connector from your Fathom Tether (or Spool extension cable) onto the connector bulkhead recepticle. Rotate the connector head clockwise until the connector locks in place and the GREEN LOCK symbol is in the 12 o'clock position.
 
@@ -81,4 +82,6 @@ Follow the "Network Setup" instructions on the [BlueROV2 Software Setup page](ht
 # Integration Example
 
 ## Water Linked Underwater GPS / BlueROV2 Integration Kit
+
+<img src="/fxti/cad/FXTI-WL-Integration.jpg" class="img-responsive img-center" style="max-width:800px"  />
 
