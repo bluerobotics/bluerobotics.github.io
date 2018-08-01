@@ -20,7 +20,7 @@ manual-links:
 - BlueROV2: /brov2/assembly/
 ---
 
-<img src="/fxti/cad/FXTI-Banner.JPG" class="img-responsive img-center" style="max-width:600px"  />
+<img src="/fxti/cad/FXTI-Banner.JPG" class="img-responsive img-center" style="max-width:400px"  />
 
 # Introduction
 
