@@ -30,7 +30,7 @@ manual-links:
 
 ---
 
-<img src="/fathom/cad/spool.png" class="img-responsive" style="max-width:900px"  />
+<img src="/fathom/cad/Fathom-R2-Banner.jpg" class="img-responsive img-center" style="max-width:800px"  />
 	
 # Introduction
 
@@ -90,7 +90,7 @@ The Fathom Tether R2 has a polyurethane outer jacket for better flexibility and 
 
 ## Section View
 
-<img src="/fathom/cad/CAB-NBPUF-4UTP-26AWG-R2-PUBLIC.PNG" class="img-responsive" style="max-width:600px"  />
+<img src="/fathom/cad/CAB-NBPUF-4UTP-26AWG-R2-PUBLIC.PNG" class="img-responsive img-center" style="max-width:600px"  />
 
 # Installation
 
