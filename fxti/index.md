@@ -10,7 +10,6 @@ nav:
 - - 2D Drawings: 2d-drawings
 - - 3D Model: 3d-model
 - Usage: usage
-- Installation: installation
 - Integration Examples: integration-examples
 
 store-links:
@@ -36,8 +35,11 @@ The <em>Fathom-X Tether Interface (FXTI)</em> is a semi-rugged protective case f
 | Width | 119 mm | 4.69 in |
 | Height | 67.8 mm | 2.67 in |
 | Weight (without USB cable) | 462 g | 1.02 lbs |
+| Enclosure Material | Anodized Aluminum |
 | Tether Connection | Binder 770 Bulkhead, solder pins |
 | Computer Connection | USB Type-B Female Bulkhead Receptacle |
+| USB Cable Length | 0.91 m | 3 ft |
+| Communication | USB 2.0, Ethernet 10/100 |
 |----------------------|
 
 
@@ -59,10 +61,6 @@ All 3D models are provided in zip archives containing the follow file types:
 | FXTI Assembly  | [FXTI-ASM-FXTI-R1.zip](cad/FXTI-ASM-FXTI-R1.zip) |
 
 # Usage
-
-_FXTI_ has a USB-B connection on one side and a Binder 770 connector on the other. The USB connection provides power to the box and is internally connected to a USB-to-Ethernet adapter that is connected to a Fathom-X tether interface board. The interface board is connected to the Binder 770 connector for a clean connection to the tether.
-
-# Installation
 
 ## Attaching the Fathom Tether connector
 

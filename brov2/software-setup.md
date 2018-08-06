@@ -36,7 +36,7 @@ manual-links:
 		
 $(document).ready(function(){
 	// initialize collapse state
-	$('#windowsDiv').collapse({toggle: false});
+	$('#windowsDiv').collapse({toggle: true});
 	$('#macDiv').collapse({toggle: false});
 	$('#linuxDiv').collapse({toggle: false});
 	
