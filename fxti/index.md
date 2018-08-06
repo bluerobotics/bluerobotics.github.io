@@ -24,7 +24,7 @@ manual-links:
 
 # Introduction
 
-The <em>FXTI</em> is a semi-rugged protective case for the Fathom-X board and interface to a connectorized Fathom Tether (Standard or Slim). _FXTI_ inclues an ethernet to USB converter in the case, so the only connection going from the _FXTI_ to the topside computer is a USB cable. _FXTI_ also includes two auxiliary port locations making integration with the _Water Linked Underwater GPS Developer Kit_ or other accessories easier.
+The <em>Fathom-X Tether Interface (FXTI)</em> is a semi-rugged protective case for the Fathom-X board and interface to a connectorized Fathom Tether (Standard or Slim). _FXTI_ inclues a USB-to-Ethernet adapter in the case, so the only connection going from the _FXTI_ to the topside computer is a USB cable. _FXTI_ also includes two auxiliary port locations making integration with the _Water Linked Underwater GPS Developer Kit_ or other accessories easier.
 
 # Specifications
 
@@ -60,14 +60,20 @@ All 3D models are provided in zip archives containing the follow file types:
 
 # Usage
 
-_FXTI_ has a USB-B connection on one side and a Binder 770 connector on the other. The USB connection provides power to the box and is internally connected to a USB to Ethernet adapter that is connected to a Fathom-X tether interface board. The interface board is connected to the Binder 770 connector for a clean connection to the tether.
+_FXTI_ has a USB-B connection on one side and a Binder 770 connector on the other. The USB connection provides power to the box and is internally connected to a USB-to-Ethernet adapter that is connected to a Fathom-X tether interface board. The interface board is connected to the Binder 770 connector for a clean connection to the tether.
 
 # Installation
 
 ## Attaching the Fathom Tether connector
 
-<img src="/fxti/cad/FXTI-Tether-Insert.jpg" class="img-responsive img-center" style="max-width:600px"  />
-<img src="/fxti/cad/FXTI-Tether-Locked.jpg" class="img-responsive img-center" style="max-width:600px"  />
+<div class="row">
+	<div class="col-sm-6">
+		<img src="/fxti/cad/FXTI-Tether-Insert.jpg" class="img-responsive img-center" style="max-width:300px"  />
+	</div>
+	<div class="col-sm-6">
+		<img src="/fxti/cad/FXTI-Tether-Locked.jpg" class="img-responsive img-center" style="max-width:300px"  />
+	</div>
+</div>
 
 Insert the Binder connector from your _Fathom Tether_ (or _Spool_ extension cable) onto the connector bulkhead recepticle. Rotate the connector head clockwise until the connector locks in place and the GREEN LOCK symbol is in the 12 o'clock position.
 
@@ -87,7 +93,7 @@ Follow the "Network Setup" instructions on the [BlueROV2 Software Setup page](ht
 
 _FXTI_ is highly expandable allowing for reconfiguring connections within the box so that you can quickly use an extra twisted pair from the tether for the Water Linked Analog Locator or any RS485 device.
 
-[Pololu Robotics and Electronics](https://www.pololu.com/category/70/crimp-connector-housings) carries the 3 position 0.1" (2.54mm) Crimp Connector Housings and female crimp pins that may be used for connecting your own devices to the spare tether terminations.
+[Pololu](https://www.pololu.com/category/70/crimp-connector-housings) carries the 3 position 0.1" (2.54mm) Crimp Connector Housings and female crimp pins that may be used for connecting your own devices to the spare tether terminations.
 
 ## Water Linked Underwater GPS / BlueROV2 Integration Kit
 
