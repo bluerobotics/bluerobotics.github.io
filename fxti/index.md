@@ -17,7 +17,7 @@ store-links:
 - FXTI: https://www.bluerobotics.com/store/rov/fxti-asm-r1-rp/
 - Fathom ROV Tether R2: https://www.bluerobotics.com/store/cables/fathom-tether-nb-4p-26awg-r2/
 - Fathom Spool: https://www.bluerobotics.com/store/rov/bluerov2/tms-asm-spool-r1-rp/
-- Binder 770: https://www.bluerobotics.com/store/connectors/misc-elec-binder-770-plug-r1/
+- Binder 770 Plug: https://www.bluerobotics.com/store/connectors/misc-elec-binder-770-plug-r1/
 
 manual-links:
 - BlueROV2: /brov2/assembly/
@@ -32,7 +32,7 @@ manual-links:
 
 The _Fathom-X Tether Interface (or FXTI)_ is a simple and expandable topside enclosure to interface with the BlueROV2 and other devices that use HomePlug communication technology. The _FXTI_ has a USB-B connection on one side and a Binder 770 connector on the other. The USB connection provides power to the box and is internally connected to a USB to Ethernet adapter that is connected to a [_Fathom-X_](/fathom-x/) tether interface board.
 
-_FXTI_ has been designed for easy integration with the [_Fathom ROV Tether_](/fathom-r2/) and [Fathom Spool](/spool/).
+_FXTI_ has been designed for easy integration with the [_Fathom ROV Tether_](/fathom-r2/) and [_Fathom Spool_](/spool/).
 
 
 # Specifications
