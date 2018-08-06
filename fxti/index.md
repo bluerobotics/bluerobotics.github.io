@@ -73,7 +73,7 @@ Insert the Binder connector from your _Fathom Tether_ (or _Spool_ extension cabl
 
 ## Attaching the USB Cable
 
-<img src="/fxti/cad/.png" class="img-responsive img-center" style="max-width:600px"  />
+<img src="/fxti/cad/FXTI-USB.png" class="img-responsive img-center" style="max-width:600px"  />
 
 Insert the USB Type-B connector end of the included cable into the Type-B recepticle on the oposite face of the _FXTI_. Connect the USB Type-A connector into a USB port on your topside computer. Once connected, the indicator lights on the top of the box should illuminate showing the “Power” and “Link” status.
 
