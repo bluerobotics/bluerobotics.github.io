@@ -46,7 +46,7 @@ _FXTI_ has been designed for easy integration with the [_Fathom ROV Tether_](/fa
 | Height | 67.8 mm | 2.67 in |
 | Weight (without USB cable) | 462 g | 1.02 lbs |
 | Enclosure Material | Anodized Aluminum |
-| Tether Connection | Binder 770 Bulkhead, solder pins |
+| Tether Connection | Binder 770 Bulkhead |
 | Computer Connection | USB Type-B Female Bulkhead Receptacle |
 | USB Cable Length | 0.91 m | 3 ft |
 | Communication | USB 2.0, Ethernet 10/100 |
@@ -66,7 +66,7 @@ All 3D models are provided in zip archives containing the follow file types:
 - STEP (.step)
 - STL (.stl)
 
-|		**Payload Skid**																						|
+|		**Fathom-X Tether Interface**																						|
 | --------------------------------------------------------------------------------------------- |
 | FXTI Assembly  | [FXTI-ASM-FXTI-R1.zip](cad/FXTI-ASM-FXTI-R1.zip) |
 
@@ -83,7 +83,7 @@ All 3D models are provided in zip archives containing the follow file types:
 	</div>
 </div>
 
-Insert the Binder connector from your _Fathom ROV Tether_ (or _Spool_ extension cable) onto the connector bulkhead recepticle. Rotate the connector head clockwise until the connector locks in place and the GREEN LOCK symbol is in the 12 o'clock position.
+Insert the Binder connector from your _Fathom ROV Tether_ (or _Spool_ extension cable) onto the connector bulkhead recepticle so the WHITE ARROW on the plug aligns with the white line. Rotate the connector head clockwise until the connector locks in place and the GREEN LOCK symbol is in the 12 o'clock position.
 
 ## Attaching the USB Cable
 
