@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Fathom-X Tether Interface (FXTI) Documentation
+permalink: /fxti/
 order: 1
 topnavbar: brov2
 nav:
@@ -13,17 +14,26 @@ nav:
 - Integration Examples: integration-examples
 
 store-links:
-- FXTI: https://www.bluerobotics.com/store/rov/fxti-r1-rp/
+- FXTI: https://www.bluerobotics.com/store/rov/fxti-asm-r1-rp/
+- Fathom ROV Tether R2: https://www.bluerobotics.com/store/cables/fathom-tether-nb-4p-26awg-r2/
+- Fathom Spool: https://www.bluerobotics.com/store/rov/bluerov2/tms-asm-spool-r1-rp/
+- Binder 770: https://www.bluerobotics.com/store/connectors/misc-elec-binder-770-plug-r1/
 
 manual-links:
 - BlueROV2: /brov2/assembly/
+- Fathom ROV Tether R2: /fathom-r2/
+- Fathom Spool: /spool/
+- Binder 770 Plug: /binder770/
 ---
 
 <img src="/fxti/cad/FXTI-Banner.JPG" class="img-responsive img-center" style="max-width:400px"  />
 
 # Introduction
 
-The <em>Fathom-X Tether Interface (FXTI)</em> is a semi-rugged protective case for the Fathom-X board and interface to a connectorized Fathom Tether (Standard or Slim). _FXTI_ inclues a USB-to-Ethernet adapter in the case, so the only connection going from the _FXTI_ to the topside computer is a USB cable. _FXTI_ also includes two auxiliary port locations making integration with the _Water Linked Underwater GPS Developer Kit_ or other accessories easier.
+The _Fathom-X Tether Interface (or FXTI)_ is a simple and expandable topside enclosure to interface with the BlueROV2 and other devices that use HomePlug communication technology. The _FXTI_ has a USB-B connection on one side and a Binder 770 connector on the other. The USB connection provides power to the box and is internally connected to a USB to Ethernet adapter that is connected to a [_Fathom-X_](/fathom-x/) tether interface board.
+
+_FXTI_ has been designed for easy integration with the [_Fathom ROV Tether_](/fathom-r2/) and [Fathom Spool](/spool/).
+
 
 # Specifications
 
@@ -73,7 +83,7 @@ All 3D models are provided in zip archives containing the follow file types:
 	</div>
 </div>
 
-Insert the Binder connector from your _Fathom Tether_ (or _Spool_ extension cable) onto the connector bulkhead recepticle. Rotate the connector head clockwise until the connector locks in place and the GREEN LOCK symbol is in the 12 o'clock position.
+Insert the Binder connector from your _Fathom ROV Tether_ (or _Spool_ extension cable) onto the connector bulkhead recepticle. Rotate the connector head clockwise until the connector locks in place and the GREEN LOCK symbol is in the 12 o'clock position.
 
 ## Attaching the USB Cable
 
