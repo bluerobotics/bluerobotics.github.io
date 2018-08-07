@@ -175,8 +175,8 @@ You can use the menu bar at the top to find the product you are looking for and 
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/assets/images/documentation/Tether-wound.png)">
-    <a href="/fathom/"><em>Fathom</em> Tether <i class="fa fa-chevron-circle-right"></i></a>
+    <div class="tile" style="background-image:url(/fathom/cad/fathom-r2-thumbnail.png)">
+    <a href="/fathom-r2/"><em>Fathom</em> ROV Tether <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
