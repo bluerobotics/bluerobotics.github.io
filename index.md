@@ -12,7 +12,6 @@ nav:
 - - Enclosures: enclosures
 - - Other: other
 - Tutorials: tutorials
-- Guides: guides
 - How to Contribute: how-to-contribute
 - License: license
 ---
@@ -35,6 +34,11 @@ You can use the menu bar at the top to find the product you are looking for and 
       <a href="/brov2/">BlueROV2 <i class="fa fa-chevron-circle-right"></i></a>
     </div>
 	  </div>
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/spool/cad/IMG_1083_banner.png)">
+      <a href="/spool/"><em>Fathom</em> Spool <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/payload-skid/cad/payload-skid-w-4in-tube.png)">
       <a href="/payload-skid/">Payload Skid <i class="fa fa-chevron-circle-right"></i></a>
@@ -189,6 +193,12 @@ You can use the menu bar at the top to find the product you are looking for and 
       <a href="/float/">Subsea Buoyancy Foam <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
+  <div class="row">
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/binder770/cad/IMG_1361_banner.JPG)">
+      <a href="/binder770/">Binder 770 <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/Tether-wound.png)">
       <a href="/fathom/"><em>Fathom</em> Tether <i class="fa fa-chevron-circle-right"></i></a>
@@ -229,16 +239,6 @@ You can use the menu bar at the top to find the product you are looking for and 
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/tutorials/vacuum-test-plug/step-4.png">
       <a href="/tutorials/vacuum-test-plug/">Using the Vacuum Plug <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-</div>
-
-# Guides
-
-<div class="row">
-  <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/assets/images/documentation/battery-1.png)">
-      <a href="/battery/">Battery Selection <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
 </div>
