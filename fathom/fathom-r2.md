@@ -33,7 +33,7 @@ manual-links:
 
 ---
 
-<img src="/fathom/cad/fathom-r2-banner.png" class="img-responsive img-center" style="max-width:400px"  />
+<img src="/fathom/cad/fathom-r2-banner.jpg" class="img-responsive img-center" style="max-width:400px"  />
 	
 # Introduction
 
