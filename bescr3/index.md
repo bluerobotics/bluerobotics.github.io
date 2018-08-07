@@ -39,10 +39,17 @@ This new version of the Basic ESC is based on the BLHeli_S ESC design, providing
 
 ## Quick Start
 
+<<<<<<< HEAD
 1. Connect the three motor wires to the motor. The order of connections does not matter; however, switching any two wires will change the direction of the motor. The output phases A, B, and C are completely interchangeable
 2. Connect the red power wire and black ground wire to a power source like a battery. You will hear three beeps in rising pitch from the motor indicating all three phases are connected. 
 3. Connect the signal cable to your signal source like a RC radio receiver or microcontroller board. The white wire is the signal wire. 
 4. Send a stopped signal (1500 microseconds) for a few seconds to initialize the ESC. You will hear two tones indicating initialization, and then you can send a signal from 1100-1900 µs to operate the thruster.
+=======
+1. Connect the three motor wires to the motor. The order of connections does not matter, however, switching any two wires will change the direction of the motor. The output phases A, B, and C are completely interchangeable
+2. Connect the red power wire and black ground wire to a power source like a battery. You will hear three beeps in rising pitch from the motor indicating all three phases are connected. 
+3. Connect the signal cable to your signal source like an RC radio receiver or microcontroller board. The white wire is the signal wire. 
+4. Send a stopped signal (1500 microseconds) for a few seconds to initialize the ESC. You will hear two tones indicating initialization, and then you can send a signal from 1100-1900µs to operate the thruster.
+>>>>>>> origin/spool
 
 # Specifications
 
@@ -121,6 +128,7 @@ void setup() {
 	servo.attach(servoPin);
 
 	servo.writeMicroseconds(1500); // send "stop" signal to ESC.
+
 	delay(7000); // delay to allow the ESC to recognize the stopped signal
 }
 

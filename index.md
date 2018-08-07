@@ -40,6 +40,11 @@ You can use the menu bar at the top to find the product you are looking for and 
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/spool/cad/IMG_1083_banner.png)">
+      <a href="/spool/"><em>Fathom</em> Spool <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/payload-skid/cad/payload-skid-w-4in-tube.png)">
     <a href="/payload-skid/">Payload Skid <i class="fa fa-chevron-circle-right"></i></a>
     </div>
@@ -96,12 +101,26 @@ You can use the menu bar at the top to find the product you are looking for and 
   </div>
 </div>  
 
+<<<<<<< HEAD
 ## Sensors and Cameras
 
 <div class="row">
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/bar02/bar-02-1.jpg)">
       <a href="/bar02/"><em>Bar02</em> Pressure Sensor <i class="fa fa-chevron-circle-right"></i></a>
+=======
+## Electronics
+
+<div class="row">
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/bescr3/cad/BESC30-R3-3.png)">
+      <a href="/bescr3/">Basic ESC (New) <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/assets/images/documentation/besc-3-new.png)">
+      <a href="/besc/">Basic ESC (Old) <i class="fa fa-chevron-circle-right"></i></a>
+>>>>>>> origin/spool
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
@@ -187,6 +206,11 @@ You can use the menu bar at the top to find the product you are looking for and 
   <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/cable-penetrator-1-r2.png)">
     <a href="/tutorials/cable-penetrator/">Cable Penetrator <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/binder770/cad/IMG_1361_banner.JPG)">
+      <a href="/binder770/">Binder 770 <i class="fa fa-chevron-circle-right"></i></a>
     </div>
   </div>
 </div>
