@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Power Sense Module
+permalink: /power-sense-module/
 order: 1
 nav:
 - Introduction: introduction
@@ -34,8 +35,8 @@ The <em>Power Sense Module</em> provides analog current and voltage sensing to y
 
 |      **Electrical**       |
 | ------------- | --------- |
-| Max Voltage Input| 16.8V (4S) ??? |
-| Max Current Sensing| 90A ??? |
+| Max Voltage Input| 25.2V (6S) ??? |
+| Max Current Sensing| 150A |
 | Output Connector | Non-Insulated Spades (S5-3.5SNB) |
 | Input Connector | XT60 Connector |
 | ------------- | --------- |
