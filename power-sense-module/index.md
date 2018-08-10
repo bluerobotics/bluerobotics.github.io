@@ -83,7 +83,7 @@ All 3D models are provided in zip archives containing the follow file types:
 ## General
 
 
-1. Connect the wires with the attached spades to your power distribution board. Ensure the spades do not touch to avoid shorting out your system
+1. Connect the wires with the attached spades to your power distribution board. Ensure the spades do not touch to avoid shorting out your system.
 2. Connect the XT60 to your battery or power supply.
 3. Connect the 6-position JST-GH to DF13 cable (GH plug side) into the the JST-GH socket on your Power Sense Module.
 4. Connect the 6-position JST-GH to DF13 cable (DF13 plug side) into the DF13 POWER socket on your Pixhawk. 
