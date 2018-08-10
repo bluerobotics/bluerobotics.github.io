@@ -35,7 +35,7 @@ The <em>Power Sense Module</em> provides analog current and voltage sensing to y
 
 |      **Electrical**       |
 | ------------- | --------- |
-| Max Voltage Input| 25.2V (6S) ??? |
+| Max Voltage Input| 25.2V (6S) |
 | Max Current Sensing| 150A |
 | Output Connector | Non-Insulated Spades (S5-3.5SNB) |
 | Input Connector | XT60 Connector |
@@ -82,8 +82,9 @@ All 3D models are provided in zip archives containing the follow file types:
 
 ## General
 
-1. Connect the XT60 to your battery or power supply.
-2. Connect the wires with the attached spades to your power distribution board. Ensure the spades do not touch to avoid shorting out your system
+
+1. Connect the wires with the attached spades to your power distribution board. Ensure the spades do not touch to avoid shorting out your system
+2. Connect the XT60 to your battery or power supply.
 3. Connect the 6-position JST-GH to DF13 cable (GH plug side) into the the JST-GH socket on your Power Sense Module.
 4. Connect the 6-position JST-GH to DF13 cable (DF13 plug side) into the DF13 POWER socket on your Pixhawk. 
 
@@ -91,25 +92,25 @@ All 3D models are provided in zip archives containing the follow file types:
 
 ### Step 1: Remove old Power Module
 
-<img src="/power-sense-module/cad/.png" class="img-responsive" style="max-width:800px"  />
+<img src="/power-sense-module/cad/PSM-Old-Removed.jpg" class="img-responsive" style="max-width:800px"  />
 
 Disconnect the old Power Module spade connections (Positive and Negative) on the BlueROV2 terminal blocks. Disconnect the yellow XT60 connector. Depending on when you purchased your ROV, you may have a secondary XT60 connection that can also be disconnected. Disconnect the DF13 cable plug from the POWER port on your Pixhawk.
 
 ### Step 2: Connect the power spades
 
-<img src="/power-sense-module/cad/.png" class="img-responsive" style="max-width:800px"  />
+<img src="/power-sense-module/cad/PSM-Power.jpg" class="img-responsive" style="max-width:800px"  />
 
 Connect the positive and negative power wire spades into their respective terminal blocks.
 
 ### Step 3: Connect the XT60
 
-<img src="/power-sense-module/cad/.png" class="img-responsive" style="max-width:800px"  />
+<img src="/power-sense-module/cad/PSM-XT60.jpg" class="img-responsive" style="max-width:800px"  />
 
 Connect the yellow XT60 from the Power Sense Board to the XT60 power input coming from the endcap.
 
 ### Step 3: Connect the JST-GH to DF13 cable
 
-<img src="/power-sense-module/cad/.png" class="img-responsive" style="max-width:800px"  />
+<img src="/power-sense-module/cad/PSM-Pixhawk.jpg" class="img-responsive" style="max-width:800px"  />
 
 Connect the 6-position JST-GH to DF13 cable (GH plug side) into the the JST-GH socket on your <em>Power Sense Module</em>. Connect the JST-GH to DF13 cable (DF13 plug side) into the DF13 POWER socket on your Pixhawk.
 
