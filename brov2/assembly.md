@@ -19,7 +19,9 @@ nav:
 - - Tools: tools
 - - Lights: lights
 - - Leak Sensor: sos-leak-sensor
+- - FXTI: fathom-x-tether-interface
 - - Desiccant: desiccant
+- - Spares: spares
 - What's Not Included: what-you-need-for-operation-that-is-not-included
 - Frame Assembly: assembling-the-frame
 - - Battery Enclosure: mounting-the-battery-enclosure-to-the-bottom-panel
@@ -113,11 +115,12 @@ Quantity      | Part																		| Usage
 1             | Set of tether board power wires (installed)								| Provided power to the tether board
 4             | M3x16 socket head cap screw (316 stainless steel)  							| Mounting the electronics enclosure to the electronics enclosure cradle
 1			  | Fathom-X Tether Interface Board installed									| Long distance ethernet connection
-1			  | 3DR Pixhawk (installed)														| Autopilot
+1			  | Pixhawk 1 (installed)														| Autopilot
 1             | I<sup>2</sup>C Splitter with cable											| Allows for up to 4 I<sup>2</sup>C devices
 1			  | Raspberry Pi 3 (installed)													| Companion computer
 1			  | Low-Light HD USB Camera (installed)   										| Camera
-1			  | Pixhawk Power Module (installed) 											| Powers the Pixhawk and monitors current and battery voltage
+1			  | Pixhawk Power Module (installed prior to August 15, 2018) 	| Powers the Pixhawk and monitors current and battery voltage
+1			  | [Blue Robotics Power Sense Module](http://docs.bluerobotics.com/power-sense-module/ (installed after August 15, 2018) 	| Monitors current and battery voltage
 2             | Universal Battery Elimination Circuit (UBEC) (installed)                    | Powers the Raspberry Pi and Pixhawk servo rails         
 
 ## Battery Enclosure
@@ -193,6 +196,14 @@ Quantity      | Part
 20            | Replacement SOS Probe Tips
 1 			  | Test Cable
 
+## Fathom-X Tether Interface
+
+(Added to all ROVs ordered after August 7, 2018)
+
+Quantity      | Part
+------------- | ------------------------------------------------------------
+1             | Fathom-X Tether Interface (FXTI)
+1	      | 3 ft (1m) USB-A to USB-B cable
 
 ## Desiccant 
 
@@ -203,7 +214,9 @@ Quantity      | Part
 1             | 150 gram container of Moisture Indicating Silica Gel Desiccant
 3			  | Desiccant Bags
 
-## Spares (Added to all ROVs ordered after February 14, 2018)
+## Spares 
+
+(Added to all ROVs ordered after February 14, 2018)
 
 Quantity      | Part                      | Usage
 ------------- | ------------------------- | -----------------
@@ -220,9 +233,7 @@ There are some items necessary for operation that are not included with the kit.
  - A laptop or a Windows 10 tablet. QGroundControl works on Mac, Windows 10, and Linux.
  - A battery for the BlueROV2. We recommend getting our [18Ah Lithium-ion Battery](https://www.bluerobotics.com/store/rov/bluerov2/battery-li-4s-18ah-r2-rp/) or 2 or 3 of [these](https://hobbyking.com/en_us/multistar-high-capacity-10000mah-4s-12c-multi-rotor-lipo-pack-w-xt90.html)
  - A battery charger, such as our [Lithium Battery Charger](http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/).  
- - A USB Cable - A-Male to Mini-B (any length) such as [this one](https://www.amazon.com/AmazonBasics-USB-2-0-Cable-Male/dp/B00NH13S44/ref=sr_1_3?s=electronics&ie=UTF8&qid=1525883524&sr=1-3&keywords=mini+usb+cable)
- - An Ethernet Patch Cable (any length) such as [this one](https://www.amazon.com/AmazonBasics-Network-Ethernet-Patch-Cable/dp/B013PUMQYY/ref=sr_1_1_sspa?ie=UTF8&qid=1525883675&sr=8-1-spons&keywords=ethernet+cable+3ft&psc=1)
- 
+  
 # Assembling the Frame
 
 ## Mounting the Battery Enclosure to the Bottom Panel
@@ -714,7 +725,11 @@ To get the longest battery life and the best driving experience, it is important
 
 # Topside Setup 
 
-To get your topside ready to connect to the BlueROV2 you will need the following parts and tools:
+If you ordered your BlueROV2 on or after August 7th, 2018, your kit will include a _Fathom-X Tether Interface (FXTI)_. Please refer to the [_FXTI_ documentation](http://docs.bluerobotics.com/fxti/#usage) for connection instructions.
+
+<img src="/fxti/cad/FXTI-Banner.JPG" class="img-responsive img-center" style="max-width:400px"  />
+
+If you ordered your BlueROV2 prior to August 7th, 2018, you will need the following parts and tools:
 
 - 1 x Fathom-X Tether Interface Board
 - 1 x 2 mm flat head screw driver
