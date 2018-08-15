@@ -120,7 +120,7 @@ Quantity      | Part																		| Usage
 1			  | Raspberry Pi 3 (installed)													| Companion computer
 1			  | Low-Light HD USB Camera (installed)   										| Camera
 1			  | Pixhawk Power Module (installed prior to August 15, 2018) 	| Powers the Pixhawk and monitors current and battery voltage
-1			  | [Blue Robotics Power Sense Module](http://docs.bluerobotics.com/power-sense-module/) (installed after August 15, 2018) 	| Monitors current and battery voltage
+1			  | Blue Robotics Power Sense Module (installed after August 15, 2018) 	| Monitors current and battery voltage
 2             | Universal Battery Elimination Circuit (UBEC) (installed)                    | Powers the Raspberry Pi and Pixhawk servo rails         
 
 ## Battery Enclosure
