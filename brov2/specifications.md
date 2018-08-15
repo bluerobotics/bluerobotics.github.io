@@ -68,8 +68,6 @@ There are some items necessary for operation that are not included with the kit.
  - A laptop or a Windows 10 tablet. QGroundControl works on Mac, Windows 10, and Linux.
  - A battery for the BlueROV2. We recommend getting our [18Ah Lithium-ion Battery](https://www.bluerobotics.com/store/rov/bluerov2/battery-li-4s-18ah-r2-rp/) or 2 or 3 of [these](https://hobbyking.com/en_us/multistar-high-capacity-10000mah-4s-12c-multi-rotor-lipo-pack-w-xt90.html)
  - A battery charger, such as our [Lithium Battery Charger](http://www.bluerobotics.com/store/electronics/batteries/lithium-battery-charger/).  
- - A USB Cable - A-Male to Mini-B (any length) such as [this one](https://www.amazon.com/AmazonBasics-USB-2-0-Cable-Male/dp/B00NH13S44/ref=sr_1_3?s=electronics&ie=UTF8&qid=1525883524&sr=1-3&keywords=mini+usb+cable)
- - An Ethernet Patch Cable (any length) such as [this one](https://www.amazon.com/AmazonBasics-Network-Ethernet-Patch-Cable/dp/B013PUMQYY/ref=sr_1_1_sspa?ie=UTF8&qid=1525883675&sr=8-1-spons&keywords=ethernet+cable+3ft&psc=1)
 
 ## Resources
 
