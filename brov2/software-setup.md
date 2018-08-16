@@ -37,7 +37,7 @@ manual-links:
 		
 $(document).ready(function(){
 	// initialize collapse state
-	$('#windowsDiv').collapse({toggle: true});
+	$('#windowsDiv').collapse({toggle: false});
 	$('#macDiv').collapse({toggle: false});
 	$('#linuxDiv').collapse({toggle: false});
 	
@@ -98,6 +98,32 @@ function showBlacklistElements(os) {
 		element.style.display = "block";
 	}
 }
+
+function showWindows() {
+	$('#windowsDiv').collapse('show'); 
+	$('#macDiv').collapse('hide'); 
+	$('#linuxDiv').collapse('hide'); 
+	$('#commonDiv').collapse('show'); 
+	showBlacklistElements('');
+}
+function showMac() {
+	$('#macDiv').collapse('show'); 
+	$('#linuxDiv').collapse('hide'); 
+	$('#windowsDiv').collapse('hide'); 
+	$('#commonDiv').collapse('show'); 
+	showBlacklistElements('-1');
+}
+function showLinux() {
+	$('#linuxDiv').collapse('show'); 
+	$('#macDiv').collapse('hide'); 
+	$('#windowsDiv').collapse('hide'); 
+	$('#commonDiv').collapse('show'); 
+	showBlacklistElements('-2');
+}
+
+$( document ).ready(function() {
+    showWindows();
+});
 </script>
 
 <img src="/brov2/cad/ROV-scuba-1.png" class="img-responsive img-center" style="max-width:800px" />
@@ -108,9 +134,9 @@ These are instructions for the first time that you set up your computer to work 
 
 Select your operating system below to begin the installation and network configuration:
 
-<a class="btn btn-default" href="#software-introduction" onclick="{ $('#windowsDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#linuxDiv').collapse('hide'); $('#commonDiv').collapse('show'); showBlacklistElements(''); }">Windows</a>
-<a class="btn btn-default" href="#software-introduction" onclick="{ $('#macDiv').collapse('show'); $('#linuxDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); showBlacklistElements('-1'); }">Mac</a>
-<a class="btn btn-default" href="#software-introduction" onclick="{ $('#linuxDiv').collapse('show'); $('#macDiv').collapse('hide'); $('#windowsDiv').collapse('hide'); $('#commonDiv').collapse('show'); showBlacklistElements('-2'); }">Linux</a>
+<a class="btn btn-default" href="#software-introduction" onclick="showWindows()">Windows</a>
+<a class="btn btn-default" href="#software-introduction" onclick="showMac()">Mac</a>
+<a class="btn btn-default" href="#software-introduction" onclick="showLinux()">Linux</a>
 
 <div id="windowsDiv" class="collapse" markdown="1">
 
