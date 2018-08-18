@@ -275,7 +275,7 @@ Use the aluminum thumbscrew to attach the crank to the crank hub to complete you
 
 # Mounting the Tether
 
-A Binder 770 connector is required on the topside end of your tether to enable use with the <em>Fathom</em> Spool. If your tether does not have a Binder 770 connector installed, refer to the [Binder 770 Installation Tutorial](/tutorials/binder770). 
+A Binder 770 connector is required on the topside end of your tether to enable use with the <em>Fathom</em> Spool. If your tether does not have a Binder 770 connector installed, refer to the [Binder 770 Installation Tutorial](/binder770/). 
 
 ## Step 1: Preparing the Connector
 
