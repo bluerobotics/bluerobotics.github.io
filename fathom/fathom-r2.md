@@ -25,10 +25,10 @@ store-links:
 
 manual-links:
 - BlueROV2: /brov2/
-- FXTI: /FXTI/
+- FXTI: /fxti/
 - Fathom Spool: /spool/
 - Binder 770 Plug: /binder770/
-- Cable Penetrator: /cable-penetrator/
+- Cable Penetrator: /tutorials/cable-penetrator/
 - Fathom-X: /fathom-x/
 
 ---
@@ -49,7 +49,7 @@ The _Fathom_ Tether has a polyurethane outer jacket for better flexibility and a
 
 [Pololu](https://www.pololu.com/category/70/crimp-connector-housings) carries the 3 position 0.1” (2.54mm) Crimp Connector Housings and male crimp pins that may be used for connecting your own devices to the spare tether terminations.
  
-# Quick Start (ROV-Ready Fathom Tether)
+# Quick Start
 
 1. Install the tether on your BlueROV2 or enclosure by lubricating the penetrator O-ring, tightening the nut with a penetrator wrench, and plugging the blue (-) / blue-white (+) twisted pair into the Fathom-X tether interface.
 
