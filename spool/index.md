@@ -112,7 +112,7 @@ The <em>Fathom Spool</em> kit comes flat packed and requires about one hour of a
 
 ## What's Included
 
-###Standard
+### Standard
 
 Quantity      | Part														| Usage
 ------------- | ------------------------------------------------------------| ----------------------
@@ -140,7 +140,7 @@ Quantity      | Part														| Usage
 14            | M4x20 button head cap screw	(316 stainless steel)           | Frame construction
 4             | M4x10 button head cap screw (316 stainless steel)           | Foot bumper mounting
 
-###Large
+### Large
 
 Quantity      | Part														| Usage
 ------------- | ------------------------------------------------------------| ----------------------
