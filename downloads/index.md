@@ -29,3 +29,7 @@ Firmware for other platforms can be downloaded from [firmware.ardupilot.org](htt
 This is a fully configured image for the Raspberry Pi 3 computer to be used as a *companion computer* for the Pixhawk autopilot running ArduSub. See [here](https://www.ardusub.com/getting-started/installation.html#raspberry-pi) for instructions on how to flash the image to the SD card.
 
 <i class="fa fa-download" aria-hidden="true"></i> [Latest Ardusub-Raspbian Image](https://s3.amazonaws.com/downloads.bluerobotics.com/Pi/stable/ardusub-raspbian.img.zip)
+
+## Parameter Files
+
+**[BlueROV2 heavy configuration default parameters](brov2-heavy-3_5_2.params)**
