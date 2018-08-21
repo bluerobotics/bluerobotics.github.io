@@ -195,6 +195,7 @@ To mount the Newton Gripper to the BlueROV2 Frame, you will need the following p
 -  1 x Battery Powered Hand Drill (not included)
 -  2 x M5x16 Button Head Screws
 -  1 x 3 mm hex driver
+-  1 x Bottle of Threadlocker
 
 1. Remove the rear end cap from the 3" battery enclosure.
 2. Remove the bottom frame panel from the BlueROV2 by removing the four M5x16 Screws.
@@ -210,7 +211,7 @@ To mount the Newton Gripper to the BlueROV2 Frame, you will need the following p
 <img src="/newton-gripper/cad/gripper-tutorial-mount-half.jpg" class="img-responsive img-center" style="max-width:800px"  />
 9. Slide the other Mount half onto the gripper assembly and insert the Thumbscrew into the mount hole.
 <img src="/newton-gripper/cad/gripper-tutorial-mount-full.jpg" class="img-responsive img-center" style="max-width:800px"  />
-10. Coming from the aft end of the BlueROV2, weave the Gripper assembly into its mounting location and secure with the included M5x16 Screws.
+10. Coming from the aft end of the BlueROV2, weave the Gripper assembly into its mounting location, apply a drop of threadlocker to the included M5x16 Screwsand secure to the frame.
 <img src="/newton-gripper/cad/gripper-tutorial-weave2.jpg" class="img-responsive img-center" style="max-width:800px"  />
 <img src="/newton-gripper/cad/gripper-tutorial-attach.JPG" class="img-responsive img-center" style="max-width:800px"  />
 
