@@ -92,7 +92,7 @@ All 3D models are provided in zip archives containing the follow file types:
 
 ## Introduction
 
-The <em>Fathom Spool</em> kit comes flat packed and requires about one hour of assembly time. The assembly can be completed with basic hand tools; no soldering or potting is required. **All machine threaded screws must have thread locker applied during assembly.**
+The <em>Fathom Spool</em> kit comes flat packed and requires about one hour of assembly time. The assembly can be completed with basic hand tools; no soldering or potting is required. **Unless otherwise indicated, all machine threaded screws must have thread locker applied during assembly.**
 
 ## Safety 
 
@@ -221,6 +221,8 @@ Using four threadlocked M5x12 screws and a 3.0 mm hex driver, secure the crank a
 
 ## Step 6: Adding the Tether Securing Clips
 
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> DO NOT use threadlocker for this step.
+
 <img src="/spool/cad/spool-step6-alt.png" class="img-responsive img-center" style="max-width:800px"  />
 
 For the standard version, use three #8-1/4" self tapping screws and a #2 Phillips head driver to secure three nylon clamps the inside face of the flange where the plug is located. The clamps should be mounted next to each other in the second from outermost holes.
@@ -261,15 +263,19 @@ Screw two 1/4"-20 nylon thumbscrews all the way down into the threaded holes in 
 
 ## Step 11: Assembling the Crank
 
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> DO NOT use threadlocker for this step.
+
 <img src="/spool/cad/spool-step11.png" class="img-responsive img-center" style="max-width:800px"  />
 
-Use two M4x20 screws and a 2.5 mm hex driver to secure the crank handle to the crank arm. The crank arm can curve to either direction according to aesthetic preference. Threadlock is unnecessary here.
+Use two M4x20 screws and a 2.5 mm hex driver to secure the crank handle to the crank arm. The crank arm can curve to either direction according to aesthetic preference. DO NOT use threadlocker.
 
 ## Step 12: Attaching the Crank
 
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> DO NOT use threadlocker for this step.
+
 <img src="/spool/cad/spool-step12.png" class="img-responsive img-center" style="max-width:800px"  />
 
-Use the aluminum thumbscrew to attach the crank to the crank hub to complete your <em>Fathom Spool</em>. No threadlock is needed.
+Use the aluminum thumbscrew to attach the crank to the crank hub to complete your <em>Fathom Spool</em>. No threadlock is needed, the thumbscrew is designed to be removeable.
 
 <img src="/spool/cad/IMG_1078.png" class="img-responsive img-center" style="max-width:600px" />
 
