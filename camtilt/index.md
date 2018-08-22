@@ -135,7 +135,7 @@ Here are the printer settings that we used with a Lulzbot Taz 5 3D printer and S
 	<div class="col-sm-6">
 		<img src="/camtilt/cad/HD-cam-dome-rotated.jpg" class="img-responsive img-center" style="max-width:300px"  />
 	</div>
-</div>
+        </div>
 
 	b. If the camera mount is now approximately vertical, reinstall the servo arm screw. If it is not vertical, remove it and place it as near vertical as possible then reinstall the servo arm screw.
 
