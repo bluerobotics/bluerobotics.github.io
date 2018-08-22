@@ -11,13 +11,15 @@ nav:
 - - 3D Model: 3d-model
 - - 3D Printer Settings: 3d-printer-settings
 - Assembly: assembly
+- - Low-Light HD USB Camera: low-light-hd-usb-camera
 - - Raspberry Pi Camera: raspberry-pi-camera
 - - Low-Light Analog Camera: low-light-analog-camera
 - Example Code: example-code
 - - Arduino: arduino
 
 store-links:
-- Camera Tilt System:  https://www.bluerobotics.com/store/watertight-enclosures/4-series/camera-tilt-mount/
+- Camera Tilt System:  https://bluerobotics.com/store/watertight-enclosures/4-series/camera-tilt-mount/#mount
+- Low-Light HD USB Camera: https://bluerobotics.com/store/electronics/cam-usb-low-light-r1/
 - Low-Light Analog Camera: https://www.bluerobotics.com/store/electronics/low-light-ntsc-camera/
 - Raspberry Pi Camera w/ Wide Angle Lens: https://www.bluerobotics.com/store/electronics/cam-rpi-wide-r1/
 - Electronics Tray: https://www.bluerobotics.com/store/watertight-enclosures/4-series/electronics-tray-2/
@@ -28,11 +30,11 @@ manual-links:
 - Electronics Tray: /etray
 ---
 
-<img src="/camtilt/cad/camtilt-headline-pic.png" class="img-responsive img-center" style="max-width:600px"  />
+<img src="/camtilt/cad/camtilt-headline-pic3.png" class="img-responsive img-center" style="max-width:600px"  />
 
 # Introduction
 
-The _Camera Tilt System_ is a tilting camera mount which works seamlessly with the [Watertight Enclosure for ROV/AUV (4" Series)](https://www.bluerobotics.com/store/watertight-enclosures/wte4-asm-r1/) and the [Electronics Tray (4" Series)](https://www.bluerobotics.com/store/watertight-enclosures/4-series/electronics-tray-2). The tilting servo is the high-quality digital HS-5055MG servo with metal gears. The camera mounts are compatible with our [Raspberry Pi Camera w/ Wide Angle Lens](https://www.bluerobotics.com/store/electronics/cam-rpi-wide-r1/) and our [Low-Light Analog Camera](https://www.bluerobotics.com/store/electronics/low-light-ntsc-camera/). We have also made the 3D CAD files freely available so that you can modify them to fit your camera or servo! 
+The _Camera Tilt System_ is a tilting camera mount which works seamlessly with the [Watertight Enclosure for ROV/AUV (4" Series)](https://www.bluerobotics.com/store/watertight-enclosures/wte4-asm-r1/) and the [Electronics Tray (4" Series)](https://www.bluerobotics.com/store/watertight-enclosures/4-series/electronics-tray-2). The tilting servo is the high-quality digital HS-5055MG servo with metal gears. The camera mounts are compatible with our [Low-Light HD USB Camera](https://bluerobotics.com/store/electronics/cam-usb-low-light-r1/), [Raspberry Pi Camera w/ Wide Angle Lens](https://www.bluerobotics.com/store/electronics/cam-rpi-wide-r1/), and our [Low-Light Analog Camera](https://www.bluerobotics.com/store/electronics/low-light-ntsc-camera/). We have also made the 3D CAD files freely available so that you can modify them to fit your camera or servo! 
 
 # Specifications
 
@@ -65,6 +67,10 @@ The _Camera Tilt System_ is a tilting camera mount which works seamlessly with t
 
 <img src="/camtilt/cad/CAMTILT-SERVO-MOUNT-R1.png" class="img-responsive img-center" style="max-width:600px"  />
 
+### HD USB Camera Mount
+
+[COMING SOON]
+
 ### Analog Camera Mount
 
 <img src="/camtilt/cad/CAMTILT-ANALOG-MOUNT-R1.png" class="img-responsive img-center" style="max-width:600px"  />
@@ -85,7 +91,7 @@ All 3D models are provided in zip archives containing the follow file types:
 |		**Camtilt 3D Files**															                      |
 | ----------------------------------------------------------------------------------------------------------- |
 | Servo Mount                          | [CAMTILT-SERVO-MOUNT-R3.zip](cad/CAMTILT-P-SERVO-MOUNT-R3.zip)       |
-| Servo - HS-5055MG                    | [HS-5055MG Servo](cad/HS-5055MG.zip)
+| Servo - HS-5055MG                    | [HS-5055MG Servo](cad/HS-5055MG.zip) |
 | Analog Camera Mount   	           | [CAMTILT-ANALOG-MOUNT-R2.zip](cad/CAMTILT-ANALOG-MOUNT-R2.zip)	      |
 | Wide Angle Raspberry Pi Camera Mount | [CAMTILT-RASPI2-CAMERA-MOUNT-R1.zip](cad/CAMTILT-RASPI2-CAMERA-MOUNT-R1.zip) |
 | Low Light HD USB Camera Mount | [CAMTILT-LOW-LIGHT-HD-USB-R7.zip](cad/CAMTILT-P-LOW-LIGHT-HD-USB-R7.zip) |
@@ -103,6 +109,39 @@ Here are the printer settings that we used with a Lulzbot Taz 5 3D printer and S
 - \#000 Phillips Screwdriver (or similar small size)
 - 1.5 mm Hex Driver
 - Wire Cutters
+
+## Low-Light HD USB Camera
+
+1. Attach the servo mount to the front tray of the _Electronics Tray_ using 2 of the M2x8 screws.
+
+	<img src="/camtilt/cad/HD-cam-base.jpg" class="img-responsive img-center" style="max-width:600px"  />
+
+2. Open the servo box and remove the servo arm that comes installed on the servo using a #000 Philips screwdriver. Place the screw that held on that servo arm in a safe place.
+
+	<img src="/camtilt/cad/servo-arm-removal.png" class="img-responsive img-center" style="max-width:600px"  />
+
+3. Install the servo on the servo mount using 2 of the M2x8 screws. 
+
+	<img src="/camtilt/cad/HD-cam-servo-mounted.jpg" class="img-responsive img-center" style="max-width:600px"  />
+	
+4. Install the camera mount onto the servo 
+	
+	a. Place the servo arm back on the servo horizontally and then rotate it as far counter-clockwise as possible.
+
+	<div class="row">
+	<div class="col-sm-6">
+		<img src="/camtilt/cad/HD-cam-dome-mounted.jpg" class="img-responsive img-center" style="max-width:300px"  />
+	</div>
+	<div class="col-sm-6">
+		<img src="/camtilt/cad/HD-cam-dome-rotated.jpg" class="img-responsive img-center" style="max-width:300px"  />
+	</div>
+</div>
+
+	b. If the camera mount is now approximately vertical, reinstall the servo arm screw. If it is not vertical, remove it and place it as near vertical as possible then reinstall the servo arm screw.
+
+5. Attach the camera to the camera mount using four M2x8 screws.
+
+	<img src="/camtilt/cad/HD-cam-camera-secured.jpg" class="img-responsive img-center" style="max-width:600px"  />
 
 ## Raspberry Pi Camera
 
