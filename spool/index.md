@@ -76,7 +76,7 @@ Assemble the <em>Fathom Spool</em> according to the following steps, and you can
 
 ## 3D Model
 
-All 3D models are provided in zip archives containing the follow file types:
+All 3D models are available on GrabCAD in the following file types:
 
 - SolidWorks Part (.sldprt)
 - IGES (.igs) 
@@ -85,8 +85,8 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**Fathom Spool**																						|
 | --------------------------------------------------------------------------------------------- |
-| Fathom Spool (Standard) | [TMS-ASM-SPOOL-M-R1.zip](cad/TMS-ASM-SPOOL-M-R1.zip) |
-| Fathom Spool (Large) | [TMS-ASM-SPOOL-L-R1.zip](cad/TMS-ASM-SPOOL-L-R1.zip) |
+| [Fathom Spool (Standard)] (https://grabcad.com/library/blue-robotics-fathom-spool-standard-1) |
+| [Fathom Spool (Large)] (https://grabcad.com/library/blue-robotics-fathom-spool-large-1)|
 
 # Assembly
 
