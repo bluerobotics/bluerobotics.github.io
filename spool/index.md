@@ -85,8 +85,8 @@ All 3D models are available on GrabCAD in the following file types:
 
 |		**Fathom Spool**																						|
 | --------------------------------------------------------------------------------------------- |
-| [Fathom Spool (Standard)] (https://grabcad.com/library/blue-robotics-fathom-spool-standard-1) |
-| [Fathom Spool (Large)] (https://grabcad.com/library/blue-robotics-fathom-spool-large-1)|
+| [Fathom Spool (Standard)](https://grabcad.com/library/blue-robotics-fathom-spool-standard-1) |
+| [Fathom Spool (Large)](https://grabcad.com/library/blue-robotics-fathom-spool-large-1)|
 
 # Assembly
 
