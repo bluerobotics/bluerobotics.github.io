@@ -65,7 +65,7 @@ The _Camera Tilt System_ is a tilting camera mount which works seamlessly with t
 
 ### Servo Mount
 
-<img src="/camtilt/cad/CAMTILT-SERVO-MOUNT-R1.png" class="img-responsive img-center" style="max-width:600px"  />
+<img src="/camtilt/cad/CAMTILT-P-SERVO-MOUNT-R3.png" class="img-responsive img-center" style="max-width:600px"  />
 
 ### HD USB Camera Mount
 
