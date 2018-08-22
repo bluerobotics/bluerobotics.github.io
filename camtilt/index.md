@@ -69,7 +69,7 @@ The _Camera Tilt System_ is a tilting camera mount which works seamlessly with t
 
 ### HD USB Camera Mount
 
-[COMING SOON]
+<img src="/camtilt/cad/CAMTILT-P-LOW-LIGHT-HD-USB-R7.png" class="img-responsive img-center" style="max-width:600px"  />
 
 ### Analog Camera Mount
 
