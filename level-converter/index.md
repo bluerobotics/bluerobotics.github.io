@@ -61,7 +61,7 @@ The [EagleCAD files](https://github.com/bluerobotics/I2C-Level-Converter) for th
 
 ## 2D Drawings
 
-<img src="/level-converter/I2C.png" class="img-responsive img-center" />
+<img src="/level-converter/cad/I2C.png" class="img-responsive img-center" />
 
 ## 3D Model
 
@@ -74,7 +74,7 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**I<sup>2</sup>C Level Converter**																		|
 | --------------------------------------------------------------------------------------------- |
-| <em>I<sup>2</sup>C Level Converter</em>  | [LEVEL-CONVERTER-ASM-I2C-LEVEL-CONVERTER-R1.zip](level-converter/LEVEL-CONVERTER-ASM-I2C-LEVEL-CONVERTER-R1.zip)      |
+| <em>I<sup>2</sup>C Level Converter</em>  | [LEVEL-CONVERTER-ASM-I2C-LEVEL-CONVERTER-R1.zip](level-converter/cad/LEVEL-CONVERTER-ASM-I2C-LEVEL-CONVERTER-R1.zip)      |
 
 # Usage
 
