@@ -115,11 +115,11 @@ The [EagleCAD files](https://github.com/bluerobotics/fathom-s/) for the schemati
 
 ### Fathom-S ROV Board
 
-<img src="/fathom-s/cad/FATHOM-S-ROV.png" class="img-responsive img-center" />
+<img src="/fathom-s/FATHOM-S-ROV.png" class="img-responsive img-center" />
 
 ### Fathom-S Topside Board
 
-<img src="/fathom-s/cad/FATHOM-S-TOPSIDE.png" class="img-responsive img-center" />
+<img src="/fathom-s/FATHOM-S-TOPSIDE.png" class="img-responsive img-center" />
 
 ## 3D Model
 
@@ -132,8 +132,8 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**Fathom-S**																		|
 | --------------------------------------------------------------------------------------------- |
-| Fathom-S ROV Board  | [FATHOM-S-ASM-ROV-BOARD-R1.zip](cad/FATHOM-S-ASM-ROV-BOARD-R1.zip)      |
-| Fathom-S Topside Board 	    | [FATHOM-S-ASM-TOPSIDE-R1.zip](cad/FATHOM-S-ASM-TOPSIDE-R1.zip) 		|
+| Fathom-S ROV Board  | [FATHOM-S-ASM-ROV-BOARD-R1.zip](fathom-s/FATHOM-S-ASM-ROV-BOARD-R1.zip)      |
+| Fathom-S Topside Board 	    | [FATHOM-S-ASM-TOPSIDE-R1.zip](fathom-s/FATHOM-S-ASM-TOPSIDE-R1.zip) 		|
 
 # Installation
 
