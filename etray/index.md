@@ -60,7 +60,7 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**Electronics Tray**																    |
 | --------------------------------------------------------------------------------------------- |
-| Electronics Tray Assembly     | [ASSEM-ETRAY-R1](/etray/cad/ASSEM-ETRAY-R1.zip)               |
+| Electronics Tray Assembly on GrabCAD    | [ASSEM-ETRAY-R1](https://grabcad.com/library/bluerobotics-e-tray-1)               |
 | O-Ring Flange                 | [WTE4-M-FLANGE-SEAL-R2.zip](http://www.bluerobotics.com/models/WTE4-M-FLANGE-SEAL-R2.zip) |
 
 # Assembly
