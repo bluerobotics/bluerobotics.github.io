@@ -136,6 +136,7 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 | IGES (.igs)                | [T100-THRUSTER-R1.IGS](/thrusters/cad/T100-THRUSTER-R1.IGS) |
 | STL (.stl)                 | [T100-THRUSTER-R1.STL](/thrusters/cad/T100-THRUSTER-R1.STL) |
 | All Formats in a Zip File (.zip)   | [T100-THRUSTER-R1.zip](/thrusters/cad/T100-THRUSTER-R1.zip) |
+| T100 Model on GrabCAD | [T100 Thruster](https://grabcad.com/library/bluerobotics-t100-thruster-1) |
 
 ### Mounting Bracket
 
