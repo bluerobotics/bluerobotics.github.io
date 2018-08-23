@@ -7,7 +7,6 @@ nav:
 - - Quick Start (On/off): quick-start-onoff-with-no-pwm-signal-source
 - - Quick Start (Dimming): quick-start-dimming-with-pwm-signal
 - Specifications: specifications
-- - Schematic: schematic
 - - Specification Table: specification-table
 - - 2D Drawings: 2d-drawings
 - - 3D Model: 3d-model

@@ -76,7 +76,7 @@ Assemble the <em>Fathom Spool</em> according to the following steps, and you can
 
 ## 3D Model
 
-All 3D models are provided in zip archives containing the follow file types:
+All 3D models are available on GrabCAD in the following file types:
 
 - SolidWorks Part (.sldprt)
 - IGES (.igs) 
@@ -85,8 +85,8 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**Fathom Spool**																						|
 | --------------------------------------------------------------------------------------------- |
-| Fathom Spool (Standard) | [TMS-ASM-SPOOL-M-R1.zip](cad/TMS-ASM-SPOOL-M-R1.zip) |
-| Fathom Spool (Large) | [TMS-ASM-SPOOL-L-R1.zip](cad/TMS-ASM-SPOOL-L-R1.zip) |
+| [Fathom Spool (Standard)](https://grabcad.com/library/blue-robotics-fathom-spool-standard-1) |
+| [Fathom Spool (Large)](https://grabcad.com/library/blue-robotics-fathom-spool-large-1)|
 
 # Assembly
 
@@ -112,7 +112,7 @@ The <em>Fathom Spool</em> kit comes flat packed and requires about one hour of a
 
 ## What's Included
 
-###Standard
+### Standard
 
 Quantity      | Part														| Usage
 ------------- | ------------------------------------------------------------| ----------------------
@@ -140,7 +140,7 @@ Quantity      | Part														| Usage
 14            | M4x20 button head cap screw	(316 stainless steel)           | Frame construction
 4             | M4x10 button head cap screw (316 stainless steel)           | Foot bumper mounting
 
-###Large
+### Large
 
 Quantity      | Part														| Usage
 ------------- | ------------------------------------------------------------| ----------------------
@@ -275,7 +275,7 @@ Use the aluminum thumbscrew to attach the crank to the crank hub to complete you
 
 # Mounting the Tether
 
-A Binder 770 connector is required on the topside end of your tether to enable use with the <em>Fathom</em> Spool. If your tether does not have a Binder 770 connector installed, refer to the [Binder 770 Installation Tutorial](/tutorials/binder770). 
+A Binder 770 connector is required on the topside end of your tether to enable use with the <em>Fathom</em> Spool. If your tether does not have a Binder 770 connector installed, refer to the [Binder 770 Installation Tutorial](/binder770/). 
 
 ## Step 1: Preparing the Connector
 
