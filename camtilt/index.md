@@ -118,7 +118,7 @@ Here are the printer settings that we used with a Lulzbot Taz 5 3D printer and S
 
 2. Open the servo box and remove the servo arm that comes installed on the servo using a #000 Philips screwdriver. Place the screw that held on that servo arm in a safe place.
 
-	<img src="/camtilt/cad/servo-arm-removal.png" class="img-responsive img-center" style="max-width:600px"  />
+	<img src="/camtilt/cad/HD-cam-servo-screw.jpg" class="img-responsive img-center" style="max-width:600px"  />
 
 3. Install the servo on the servo mount using 2 of the M2x8 screws. 
 
@@ -126,7 +126,7 @@ Here are the printer settings that we used with a Lulzbot Taz 5 3D printer and S
 	
 4. Install the camera mount onto the servo 
 	
-	a. Place the servo arm back on the servo horizontally and then rotate it as far counter-clockwise as possible.
+	a. Place the camera mount on the servo horizontally and then rotate it as far counter-clockwise as possible.
 
 	<div class="row">
 	<div class="col-sm-6">
@@ -138,6 +138,8 @@ Here are the printer settings that we used with a Lulzbot Taz 5 3D printer and S
         </div>
 
 	b. If the camera mount is now approximately vertical, reinstall the servo arm screw. If it is not vertical, remove it and place it as near vertical as possible then reinstall the servo arm screw.
+	
+	<img src="/camtilt/cad/HD-cam-mount-screw.jpg" class="img-responsive img-center" style="max-width:600px"  />
 
 5. Attach the camera to the camera mount using four M2x8 screws.
 
