@@ -118,8 +118,11 @@ liOpen: false
         <br /><br /><br />
         <hr />
         <br />
-        {% if page.topnavbar != brov2 %}
+        {% if page.topnavbar == "brov2" %}
         {% include brov2nav.html %}
+        {% endif %}
+        {% if page.topnavbar == "waterlinked" %}
+        {% include waterlinkednav.html %}
         {% endif %}
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
