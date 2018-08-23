@@ -8,6 +8,8 @@ nav:
 - - Function Diagram: function-diagram
 - - Specification Table: specification-table
 - - Schematic: schematic
+- - 2D Drawings: 2d-drawings
+- - 3D Model: 3d-model
 - Usage: usage
 
 
@@ -56,6 +58,23 @@ The <em>I<sup>2</sup>C Level Converter</em> allows you the run 3.3v logic sensor
 The [EagleCAD files](https://github.com/bluerobotics/I2C-Level-Converter) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
 
 [<img src="/level-converter/cad/level-converter-schematic.JPG" class="img-responsive" style="max-width:300px" />](https://github.com/bluerobotics/I2C-Level-Converter/raw/master/I2C-Level-Converter.pdf)
+
+## 2D Drawings
+
+<img src="/level-converter/cad/I2C.png" class="img-responsive img-center" />
+
+## 3D Model
+
+All 3D models are provided in zip archives containing the follow file types:
+
+- SolidWorks Part (.sldprt)
+- IGES (.igs) 
+- STEP (.step)
+- STL (.stl)
+
+|		**I<sup>2</sup>C Level Converter**																		|
+| --------------------------------------------------------------------------------------------- |
+| <em>I<sup>2</sup>C Level Converter</em>  | [LEVEL-CONVERTER-ASM-I2C-LEVEL-CONVERTER-R1.zip](level-converter/cad/LEVEL-CONVERTER-ASM-I2C-LEVEL-CONVERTER-R1.zip)      |
 
 # Usage
 
