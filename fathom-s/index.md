@@ -9,6 +9,8 @@ nav:
 - - Function Diagrams: function-diagrams
 - - Specification Table: specification-table
 - - Schematic: schematic
+- - 2D Drawings: 2d-drawings
+- - 3D Model: 3d-model
 - Installation: installation
 - - To Pixhawk: to-pixhawk
 - - To Arduino: to-arduino
@@ -108,6 +110,30 @@ The [EagleCAD files](https://github.com/bluerobotics/fathom-s/) for the schemati
 [<img src="/fathom-s/Fathom-S-Schematic.png" class="img-responsive" style="max-width:300px" />](https://github.com/bluerobotics/fathom-s/raw/master/Fathom-S-Schematic.pdf)
 
 [Fathom-S-Schematic.pdf](https://github.com/bluerobotics/fathom-s/raw/master/Fathom-S-Schematic.pdf)
+
+## 2D Drawings
+
+### Fathom-S ROV Board
+
+<img src="/fathom-s/cad/FATHOM-S-ROV.png" class="img-responsive img-center" />
+
+### Fathom-S Topside Board
+
+<img src="/fathom-s/cad/FATHOM-S-TOPSIDE.png" class="img-responsive img-center" />
+
+## 3D Model
+
+All 3D models are provided in zip archives containing the follow file types:
+
+- SolidWorks Part (.sldprt)
+- IGES (.igs) 
+- STEP (.step)
+- STL (.stl)
+
+|		**Fathom-S**																		|
+| --------------------------------------------------------------------------------------------- |
+| Fathom-S ROV Board  | [FATHOM-S-ASM-ROV-BOARD-R1.zip](cad/FATHOM-S-ASM-ROV-BOARD-R1.zip)      |
+| Fathom-S Topside Board 	    | [FATHOM-S-ASM-TOPSIDE-R1.zip](cad/FATHOM-S-ASM-TOPSIDE-R1.zip) 		|
 
 # Installation
 
