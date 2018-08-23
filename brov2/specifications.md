@@ -167,7 +167,7 @@ The batteries can be changed in about 30 seconds.
 
 # 3D Model
 
-These are BIG files since the model is fairly complex. If you just want to check out a 3D view or 3D models of the BlueROV, we recommend [checking out the CAD files on GrabCAD](https://grabcad.com/library/bluerov2-1).
+These are BIG files since the model is fairly complex. If you just want to check out a 3D view or 3D models of the BlueROV, we recommend [checking out the CAD files on GrabCAD](https://grabcad.com/library/bluerobotics-bluerov2-standard-1).
 
 # User Manuals
 
