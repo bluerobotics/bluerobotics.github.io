@@ -132,8 +132,8 @@ All 3D models are provided in zip archives containing the follow file types:
 
 |		**Fathom-S**																		|
 | --------------------------------------------------------------------------------------------- |
-| Fathom-S ROV Board  | [FATHOM-S-ASM-ROV-BOARD-R1.zip](fathom-s/FATHOM-S-ASM-ROV-BOARD-R1.zip)      |
-| Fathom-S Topside Board 	    | [FATHOM-S-ASM-TOPSIDE-R1.zip](fathom-s/FATHOM-S-ASM-TOPSIDE-R1.zip) 		|
+| Fathom-S ROV Board  | [FATHOM-S-ASM-ROV-BOARD-R1.zip](/fathom-s/FATHOM-S-ASM-ROV-BOARD-R1.zip)      |
+| Fathom-S Topside Board 	    | [FATHOM-S-ASM-TOPSIDE-R1.zip](/fathom-s/FATHOM-S-ASM-TOPSIDE-R1.zip) 		|
 
 # Installation
 
