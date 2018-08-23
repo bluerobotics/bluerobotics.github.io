@@ -5,13 +5,10 @@ order: 1
 topnavbar: waterlinked
 nav:
 - Introduction: introduction
-- User Manual: user-manual
 - Integration Kit: integration-kit
 - Using with the BlueROV2: using-with-the-bluerov2
 - - Installation: installation
 - - Software Setup: software-setup
-- - Operational Setup: operational-setup
-- - Navigation: navigation
 
 store-links:
 - WL Underwater GPS: http://www.bluerobotics.com/store/electronics/underwater-gps/aps-wl-11001/
@@ -28,11 +25,7 @@ manual-links:
 The Water Linked Underwater GPS provides global position of an underwater locator device using acoustic positioning and traditional GPS. On the BlueROV2 or other underwater vehicles it is a huge asset that allows position tracking for navigation, inspection, and mapping.
 
 <i class="fa fa-star fa-fw fa-1x text-default blue"></i>
-This manual only covers usage of the Underwater GPS with the BlueROV2. For general info and other applications, please visit [Water Linked's website](http://www.waterlinked.com) and the official [User Manual](#user-manual).
-
-# User Manual
-
-Please download the primary User Manual from Water Linked here: [Water Linked Underwater GPS Manual](https://waterlinked.com/usermanual).
+This manual only covers usage of the Underwater GPS with the BlueROV2. For general info and other applications, please visit [Water Linked's website](http://www.waterlinked.com), [quickstart guide](https://waterlinked.github.io/docs/explorer-kit/introduction/), and official [User Manual](https://waterlinked.com/usermanual).
 
 # Integration Kit
 
@@ -66,11 +59,9 @@ Here's our recommended installation instructions.
 
 ## Software Setup
 
-Power on the ROV and Waterlinked system, and connect your computer. Start QGroundControl. Navigate to [http://192.168.2.2:2770/waterlinked](http://192.168.2.2:2770/waterlinked) in your browser, and click the 'Start Water Linked Driver' button. This will need to be performed each time the ROV is powered on. If you do not see a webpage at this address, please perform a software update according to the instructions [here](http://discuss.bluerobotics.com/t/software-updates-september-14-2017/1491).
+Configure the Waterlinked system with a static ip address of 192.168.2.94 according to section 3.1 of the [user manual](https://waterlinked.com/usermanual). Power on the ROV and Waterlinked system, and connect your computer.
 
-<img src="/waterlinked/wlik-companion-driver.png" class="img-responsive img-center" style="max-width:650px;" />
-
-If everything is operating correctly, you should now find an ROV position on the map in QGroundControl. The ROV position is indicated by a BlueROV image. The position of the surface vessel or Water Linked Master Electronics box is indicated by a red arrow (not yet implemented). The small 'H' icon indicates the 'home position', the location of the ROV's first GPS lock.
+If everything is operating correctly, you should now find an ROV position on the map in QGroundControl. The ROV position is indicated by a BlueROV image. The position of the surface vessel or Water Linked Master Electronics box is indicated by a red arrow. The small 'H' icon indicates the 'home position', the location of the ROV's first GPS lock.
 
 <img src="/waterlinked/wlik-qgc-display.png" class="img-responsive img-center" style="max-width:650px;" />
 
@@ -78,13 +69,4 @@ To configure the Water Linked Underwater GPS system, navigate to [http://192.168
 
 ### Software Update
 
-Water Linked's latest software revision is 1.4.0 (12 December 2017). The update file can be downloaded [here](https://update.waterlinked.com). The update process is documented on page 17 of the [User Manual](https://waterlinked.com/usermanual). The Underwater GPS system displays its current software version at [192.168.2.94/#/about](http://192.168.2.94/#/about).
-
-## Operational Setup
-
-To be completed.
-
-## Navigation
-
-To be completed.
-
+Check the Waterlinked system for available software updates. You can check the Underwater GPS software version at [192.168.2.94/#/about](http://192.168.2.94/#/about). The update process is documented on the [Waterlinked website](https://waterlinked.github.io/docs/explorer-kit/gui/upgrader/).
