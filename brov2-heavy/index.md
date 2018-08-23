@@ -58,7 +58,7 @@ The <em>BlueROV2 Heavy Retrofit Kit</em> is an add-on for the [BlueROV2](/brov2)
 
 These are BIG files since the model is fairly complex. If you just want to check out a 3D view or 3D models of the BlueROV2 with the Heavy Kit installed, we recommend checking out the CAD files on GrabCAD. 
 
-[COMING SOON]
+[BlueROV2 Heavy 3D Model](https://grabcad.com/library/bluerobotics-bluerov2-heavy-1)
 
 # Assembly and Installation
 
