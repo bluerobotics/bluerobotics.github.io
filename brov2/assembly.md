@@ -549,7 +549,7 @@ If you received your BlueROV2 prior to August 7th, 2018, the following step appl
 
 Connect the tether wires to the Fathom-X Tether Interface Board. The other 6 wires can do not need to be connected to anything the operate the ROV. They are for future expansion.
 
-	<img src="/brov2/cad/tether-signal-in-bw.png" class="img-responsive" style="max-width:900px" />
+   <img src="/brov2/cad/tether-signal-in-bw.png" class="img-responsive" style="max-width:900px" />
 
 If you received your BlueROV2 prior to March 14th, 2017 you will need to [install the SOS Leak sensor using the archived instructions.](/brov2/assembly-pre201703/#installing-the-sos-leak-sensor)
 
