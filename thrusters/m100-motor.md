@@ -150,20 +150,6 @@ We recommend using the following compounds to seal the soldered wire connections
 
 The motor requires a brushless electronic speed controller (ESC). If you are using the BlueRobotics BasicESC or BlueESC, please see the appropriate product page for instructions.
 
-<div class="row">
-  <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(/assets/images/documentation/besc-3-new.png)">
-  		<a href="/besc/">Basic ESC <i class="fa fa-chevron-circle-right"></i></a>
-  	</div>
-  </div>
-  <div class="col-sm-4 col-md-4">
-  	<div class="tile" style="background-image:url(/assets/images/documentation/blueesc-inside.jpg)">
-  		<a href="/bluesc/">BlueESC <i class="fa fa-chevron-circle-right"></i></a>
-  	</div>
-  </div>
-</div>
-
-
 ## Clicking Noise
 
 If you hear a clicking noise during operation, especially when operating in air, do not be alarmed. It's normal.

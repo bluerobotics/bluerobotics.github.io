@@ -380,6 +380,9 @@ All 3D models are provided in zip archives containing the follow file types:
 
 The assembly process is simple and straightforward - it will take a few minutes!
 
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
+Liquid threadlocker may be used on WTEs with aluminum endcaps, however, most threadlockers are not chemically compatible with with acrylic or polycarbonate, and will damage domes or acrylic endcaps if used on any of the screws. Refer to the documentation and chemical compatibility notes of your threadlocker of choice for more information.
+
 **Tools Needed:**
 
 * Silicone grease
@@ -397,10 +400,8 @@ The assembly process is simple and straightforward - it will take a few minutes!
 <img src="/assets/images/tutorials/WTE/4-step-2.png" class="img-responsive" style="max-width:600px" />
 <img src="/assets/images/tutorials/WTE/4-step-1.png" class="img-responsive" style="max-width:600px" />
 1. We recommend first cleaning the O-rings and the O-ring grooves with isopropyl alcohol. This will ensure a good seal. Next, lubricate the three O-rings with a thin layer of silicone grease and then install the two thick O-rings into the grooves on the flange. The thin O-ring is placed in the groove in the face of the flange.
-
 <img src="/assets/images/tutorials/WTE/4-step-3.png" class="img-responsive" style="max-width:600px" />
 2. Attach the end-caps to the flanges with 6 socket cap screws. Gently tighten the screws in an alternating cross pattern so that the O-ring is compressed but not so tight as to damage the plastic. Do not overtighten the screws!
-
 <img src="/assets/images/tutorials/WTE/step-4.png" class="img-responsive" style="max-width:600px" />
 3. Install the vent and any necessary cable penetrators into the end-cap.  
 <img src="/assets/images/tutorials/WTE/step-5.png" class="img-responsive" style="max-width:600px" />
