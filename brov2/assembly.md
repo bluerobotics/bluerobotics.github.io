@@ -266,11 +266,11 @@ To mount the battery enclosure to the bottom panel you will need the following p
 
 Install the four M3x12 screws into the Enclosure Clamps (3" Series) so that the screws pass through the untapped holes on the first clamp and are secured into the tapped holes on the alternate clamp. Install all four screws loosely at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the Enclosure Clamps (3" Series).
 
-	<img src="/brov2/cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
+<img src="/brov2/cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
 
-	When you are finished tightening the screws, both sides should look similar to this.
+When you are finished tightening the screws, both sides should look similar to this.
 
-	<img src="/brov2/cad/brov2-battery-cradle-screws-fully-installed.png" class="img-responsive" style="max-width:900px" />
+<img src="/brov2/cad/brov2-battery-cradle-screws-fully-installed.png" class="img-responsive" style="max-width:900px" />
 	
 ## Assembling the Center Panels
 
