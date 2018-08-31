@@ -540,10 +540,16 @@ To install the wires from the penetrators you will need the following parts and 
 	<img src="/brov2/cad/port-side-motor-power-wiring-1.png" class="img-responsive" style="max-width:900px" />
 
 	<img src="/brov2/cad/sboard-side-motor-power-wiring.png" class="img-responsive" style="max-width:900px" />	
-	
-4. Connect the tether wires to the Fathom-X Tether Interface Board. The other 6 wires can do not need to be connected to anything the operate the ROV. They are for future expansion.
 
-	<img src="/brov2/cad/tether-signal-in-bw.png" class="img-responsive" style="max-width:900px" />
+4. Connect the female tether wire connector with BLUE and WHITE wires to the extension cable that is connected to the Fathom-X Tether Interface Board. The other 6 wires can do not need to be connected to anything the operate the ROV. They are for future expansion.
+
+	<img src="/brov2/cad/BROV2-Fathom-R2-install.jpg" class="img-responsive" style="max-width:900px" />
+
+If you received your BlueROV2 prior to August 7th, 2018, the following step applies to R1 tethers:
+
+Connect the tether wires to the Fathom-X Tether Interface Board. The other 6 wires can do not need to be connected to anything the operate the ROV. They are for future expansion.
+
+   <img src="/brov2/cad/tether-signal-in-bw.png" class="img-responsive" style="max-width:900px" />
 
 If you received your BlueROV2 prior to March 14th, 2017 you will need to [install the SOS Leak sensor using the archived instructions.](/brov2/assembly-pre201703/#installing-the-sos-leak-sensor)
 
