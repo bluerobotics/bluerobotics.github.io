@@ -260,13 +260,17 @@ To mount the battery enclosure to the bottom panel you will need the following p
 
 4. Apply one drop of threadlocker to each of the 4 M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 
-6. Place the Watertight Enclosure for ROV/AUV (3" Series) between the two Enclosure Clamps (3" Series). The Enclosure Clamps have tapped holes on one side and untapped holes on the other. Install the four M3x12 screws into the Enclosure Clamps (3" Series) so that the screws pass through the untapped holes on the first clamp and are secured into the tapped holes on the alternate clamp. Install all four screws loosely at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the Enclosure Clamps (3" Series).
+6. Place the Watertight Enclosure for ROV/AUV (3" Series) between the two Enclosure Clamps (3" Series). The Enclosure Clamps have tapped holes on one side and untapped holes on the other. 
 
-	<img src="/brov2/cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> Ensure NO threadlocker comes into contact with the acrylic tube.
 
-	When you are finished tightening the screws, both sides should look similar to this.
+Install the four M3x12 screws into the Enclosure Clamps (3" Series) so that the screws pass through the untapped holes on the first clamp and are secured into the tapped holes on the alternate clamp. Install all four screws loosely at first and then slowly tighten them on both sides evenly. Take care not to overtighten the screws. Keep the battery enclosure approximately centered in the Enclosure Clamps (3" Series).
 
-	<img src="/brov2/cad/brov2-battery-cradle-screws-fully-installed.png" class="img-responsive" style="max-width:900px" />
+<img src="/brov2/cad/brov-assembly-step2-annotated.png" class="img-responsive" style="max-width:900px" />
+
+When you are finished tightening the screws, both sides should look similar to this.
+
+<img src="/brov2/cad/brov2-battery-cradle-screws-fully-installed.png" class="img-responsive" style="max-width:900px" />
 	
 ## Assembling the Center Panels
 
@@ -590,15 +594,12 @@ The desiccant will absorb humidity that is inside of the Electronics Enclosure t
 To mount the Electronics Enclosure to the frame you need the following parts and tools:
 
 - 1 x Watertight Enclosure for ROV/AUV (4" Series) with Dome End Cap installed
-- 1 x Threadlocker
 - 1 x Bag with four M3x16 screws
 - 1 x 2.5 mm hex driver
 
 1. Apply silicone grease to the two radial O-rings on the O-Ring Flange (4" Series) that is attached to the Electronics Tray then install the Watertight Enclosure (4" Series) with installed Dome End Cap to the O-Ring Flange (4" Series). 
 
-2. Apply one drop of threadlocker to each of the four M3x16 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
-
-3. Mount the Electronics Enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels (the center panels _without_ the 3 large holes). Install the M3x16 screws through the clips and into the Enclosure Cradle (4" Series). It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the Enclosure Cradle (4" Series). This allows to clips to rotate so you can find the threaded hole in the Enclosure Cradle (4" Series) easily. 
+2. Mount the Electronics Enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels (the center panels _without_ the 3 large holes). Install the M3x16 screws through the clips and into the Enclosure Cradle (4" Series). It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the Enclosure Cradle (4" Series). This allows to clips to rotate so you can find the threaded hole in the Enclosure Cradle (4" Series) easily. 
 
 	<img src="/brov2/cad/clip-installation.PNG" class="img-responsive" style="max-width:900px" />
 
@@ -634,8 +635,10 @@ Here is a diagram of where the thrusters go, and how they should be oriented. Th
 <img src="http://ardusub.com/images/vectored-frame.png" class="img-responsive" style="max-width:900px" />
 </p>
 
-1. Install thrusters 1 and 2 underneath the front center panels, using the M3x16 screws. Tighten the screws so that they indent the frame slightly. It is physically possible to keep turning the screw at this point, but it isn't recommended. DO NOT use threadlocker unless you have threadlocker rated for use with polycarbonate
-	
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> DO NOT use threadlocker unless you have threadlocker rated for use with polycarbonate.
+
+1. Install thrusters 1 and 2 underneath the front center panels, using the M3x16 screws. Tighten the screws so that they indent the frame slightly. It is physically possible to keep turning the screw at this point, but it isn't recommended. 
+
 2. Install thrusters 5 and 6, using the M3x12 screws on the side panels. Tighten the screws so that they indent the frame slightly.
 
 3. Install thrusters 3 and 4 underneath the rear center panels, using the M3x16 screws. Tighten the screws so that they indent the frame slightly.

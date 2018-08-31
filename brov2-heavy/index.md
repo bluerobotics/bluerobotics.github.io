@@ -120,6 +120,9 @@ To Install the new thrusters, you will need the following parts and tools:
     - Install face seal O-ring onto the O-Ring Flange (4” Series).
     - Apply one drop of threadlocker to each of the M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
     - Install Aluminum End Cap with 14 Holes with all Cable Penetrators and Blank Penetrators installed onto the O-Ring Flange (4” Series). Do not fully tighten any screws when first installing them; it may cause the O-ring to slip out of its groove. The end cap’s orientation when installed should match the image below. Make sure that the clips are oriented correctly. One should be just right of the Thruster 3 penetrator, and the other should be just left of the Thruster 4 penetrator.
+    
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> DO NOT use threadlocker unless you have threadlocker rated for use with polycarbonate.    
+    
 3.	Install thrusters 5, 6, 7 and 8, using the M3x12 screws on the outside of the side panels. Tighten the screws so that they indent the frame slightly.
 
 <img src="/brov2-heavy/cad/heavy-tutorial-9.jpg" class="img-responsive img-center" style="max-width:800px"  />
@@ -176,12 +179,10 @@ To reassemble your BlueROV2, you will need the following parts and tools:
 
 -	4 x M3x16 screws that were placed off to the side during disassembly
 -	1 x Silicone Grease – 10g Tube
--	1 x Threadlocker
 -	1 x 2.5 mm hex driver
 
 1.	Reinstall 4” Watertight Enclosure onto ROV with the following steps:
     - Apply silicone grease to the two radial O-rings on the O-Ring Flange (4” Series) that is attached to the Electronics Tray then install the Watertight Enclosure (4” Series) with installed Dome End Cap to the O-Ring Flange (4” Series).
-    - Apply one drop of threadlocker to each of the four M3x16 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
     - Mount the Electronics Enclosure to the frame using the M3x16 screws so that the dome is on the same side as the front center panels (the center panels without the 3 large holes). Install the M3x16 screws through the clips and into the Enclosure Cradle (4” Series). It is easier to install these screws if the clips are not fully tightened until all screws are through the clips and threading into the Enclosure Cradle (4” Series). This allows to clips to rotate so you can find the threaded hole in the Enclosure Cradle (4” Series) easily.
 <img src="/brov2-heavy/cad/heavy-step-2.PNG" class="img-responsive img-center" style="max-width:800px"  />
 
