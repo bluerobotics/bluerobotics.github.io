@@ -114,31 +114,34 @@ The <em>Fathom Spool</em> kit comes flat packed and requires about one hour of a
 
 ### Standard
 
-Quantity      | Part														| Usage
-------------- | ------------------------------------------------------------| ----------------------
-2             | Frame side panel (1/2" thick black HDPE)        			|    
-2             | Spool flange (1/4" thick black HDPE)           		        |     	       
-1             | Crank Hub (black anodized aluminum)                      	|  
-1             | Slip ring cap flange (blue anodized aluminum)             	|
-1             | Crank arm (4" Series) (black anodized aluminum)  	        | 
-1 			  | Crank Handle (black plastic)                                |      
-6             | Spool standoff (blue anodized aluminum, standard or large)  | 
-1             | Frame handle (blue anodized aluminum, standard or large)    |                          
-2             | Frame feet (black anodized aluminum, standard or large)	    | 
-1             | Slip ring core (black anodized aluminum assembly)      		|    
-1             | 8m tether extension cable (yellow)           		        |     	       
-1             | Crank arm thumbscrew (black anodized aluminum)             	|  
-6             | Foot bumper (black rubber)                                	|
-2             | 8" Velcro cable tie                                       	| Tether extension cable storage
-1             | Black plastic plug 	                                        | 
-2 			  | 1/4-20 Black nylon thumbscrew                               | Spool braking        
-3             | White nylon cable clamps                                    | Spool tether clamping
-20            | M5x12 button head cap screw (316 stainless steel)           | Spool flange construction                          
-3             | 8-1/4" thread forming screw	(316 stainless steel)           | Cable clamp mounting 
-4             | M3x6 button head cap screw	(316 stainless steel)	        | Slip ring cap flange retention 
-4 			  | 4-5/8" thread forming screw	(316 stainless steel)           | Slip ring cap flange retention        
-14            | M4x20 button head cap screw	(316 stainless steel)           | Frame construction
-4             | M4x10 button head cap screw (316 stainless steel)           | Foot bumper mounting
+Identifier    | Quantity      | Part														| Usage
+                ------------- | ------------------------------------------------------------| ----------------------
+A             | 2             | Frame side panel (1/2" thick black HDPE)        			|    
+B             | 2             | Spool flange (1/4" thick black HDPE)           		        |     	       
+C             | 1             | Crank Hub (black anodized aluminum)                      	|  
+D             | 1             | Slip ring cap flange (blue anodized aluminum)             	|
+E             | 1             | Crank arm (4" Series) (blue anodized aluminum)  	        | 
+F             | 1 			  | Crank Handle (black plastic)                                |      
+G             | 6             | Spool standoff (blue anodized aluminum, standard or large)  | 
+H             | 1             | Frame handle (blue anodized aluminum, standard or large)    |                          
+I             | 2             | Frame feet (black anodized aluminum, standard or large)	    | (NOT PACKED!)
+J             | 1             | Slip ring core (black anodized aluminum assembly)      		|    
+K             | 1             | 8m tether extension cable (yellow)           		        |     	       
+L             | 1             | Crank arm thumbscrew (black anodized aluminum)             	|  
+M             | 6             | Foot bumper (black rubber)                                	|
+N             | 2             | 8" Velcro cable tie                                       	| Tether extension cable storage
+O             | 1             | Black plastic plug 	                                        | 
+P             | 2 			  | 1/4-20 Black nylon thumbscrew                               | Spool braking        
+Q             | 3             | White nylon cable clamps                                    | Spool tether clamping
+R             | 20            | M5x12 button head cap screw (316 stainless steel)           | Spool flange construction                          
+S             | 3             | 8-1/4" thread forming screw	(316 stainless steel)           | Cable clamp mounting 
+T             | 4             | M3x6 button head cap screw	(316 stainless steel)	        | Slip ring cap flange retention 
+U             | 4 			  | 4-5/8" thread forming screw	(316 stainless steel)           | Slip ring cap flange retention        
+V             | 14            | M4x20 button head cap screw	(316 stainless steel)           | Frame construction
+W             | 4             | M4x10 button head cap screw (316 stainless steel)           | Foot bumper mounting (NOT PACKED!)
+X             | 5             | 4.5" black cable ties                                       |
+
+<img src="/spool/cad/what-you-get.png" class="img-responsive img-center" style="max-width:800px"  />
 
 ### Large
 
