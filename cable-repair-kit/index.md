@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Field Repair Kit Tutorial
+title: Cable Repair Kit Tutorial
 permalink: 
 order: 1
 nav:
 - Introduction: introduction
-- - Tools You Need: tools-you-need
-- Video Tutorial: video-tutorial
+- - Warnings: warnings
+- Specifications: specifications
 - Instructions: instructions
+- - Tools You Need: tools-you-need
 - - Surface Preparation: surface-preparation
 - - Prepare the Coax Seal: prepare-the-coax-seal
 - - Wrap the Coax Seal: wrap-the-coax-seal
@@ -18,68 +19,69 @@ nav:
 
 # Introduction
 
-The *Cable Repair Kit* has all of the materials necessary to temporarily repair damaged cable or tether. The kit contains two specialized materials: Coax Seal and Silicone Tape. The Coax Seal is a hand moldable, non-toxic, non-conductive plastic that adheres to most surfaces and the Silicone Tape is a UV resistant stretchy tape that fuses only to itself. When used in a repair the coax seal forms a watertight barrier and the silicone tape is used to provide rigidity and to protect from debris. With these tools in hand a day of diving doesn't have to be called off because of a damaged cable, just perform a field repair and keep going!
+The *Cable Repair Kit* has all of the materials necessary to temporarily repair damaged cable or tether. The kit contains two specialized materials: Coax Seal and Silicone Tape. The Coax Seal is a hand moldable, non-toxic, non-conductive plastic that adheres to most surfaces and the Silicone Tape is a UV resistant and flexible ~~stretchy~~ tape that fuses only to itself. When used in a repair the coax seal forms a watertight barrier and the silicone tape is used ~~to provide rigidity and~~ to protect from debris. With these tools in hand a day of diving doesn't have to be called off because of a damaged cable, just perform a field repair and keep going!
 
-We have been using the kit to fix nicked and severed cables bla bla. Something about testing to 1000m bla bla. Maybe something about penetrators bla.
-
-
-
+We spent quite a bit of time testing out these tools and trying out different ways to apply them. Our best cable repair lasted to a full 1000m in the Crushinator! ~~Checkout the instructions below to see how we did it!~~
 
 ## Warnings
 
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>  **These repairs are not permanent. Any repairs should be fixed properly as soon as possible.**
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>  **The Cable Repair Kit isn't a permanent solution. Any repairs should be properly fixed as soon as possible.**
 
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> **The waterproofness of the repair is highly dependent on the quality of the repair. There is no guarantee that these methods will work every time.**
+<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> **~~A leak in the cable repair could leak into the ROV. There is no guarantee that these methods will work every time.~~**
 
-# Video Tutorial
+# Specifications
 
 # Instructions
 
 ## Tools You Need
 
 * Scissors
-* Acetone or Isopropyl Alcohol (Optional)
+* ~~Acetone Wipes~~
 
 ## Surface Preparation 
 
-<img src="/cable-repair-kit/cad/IMG_1349.jpg" class="img-responsive img-center" style="max-width:400px"  />
-<img src="/cable-repair-kit/cad/IMG_1356.jpg" class="img-responsive img-center" style="max-width:400px"  />
+<img src="/cable-repair-kit/cad/Damaged-Cable.JPG" class="img-responsive img-center" style="max-width:600px"  />
 
-Wipe the affected area clean of any debris or moisture. Optionally one can use a small amount of acetone or isopropyl alcohol with a towel to wipe around the area to be repaired. *Although not necessary, cleaning the cable jacket with an astringent will ensure the best possible seal.* 
+Wipe the affected area clean of any debris or moisture. Use an acetone wipe to further prepare the surface. ~~*Although optional, cleaning the cable jacket with acetone will ensure the best possible repair.*~~ 
 
 
 ## Prepare the Coax Seal
 
-<img src="/cable-repair-kit/cad/IMG_1350.jpg" class="img-responsive img-center" style="max-width:400px"  />
-<img src="/cable-repair-kit/cad/IMG_1357.jpg" class="img-responsive img-center" style="max-width:400px"  />
 
-Cut a piece of coax seal to apply to the affected area. The length depends on the type of repair you are performing. We typically use XXX for an XXX long nick and XXX for a severed cable. 
+<img src="/cable-repair-kit/cad/Coax-Cut.JPG" class="img-responsive img-center" style="max-width:600px"  />
 
-<img src="/cable-repair-kit/cad/IMG_1351.jpg" class="img-responsive img-center" style="max-width:400px"  />
-<img src="/cable-repair-kit/cad/IMG_1358.jpg" class="img-responsive img-center" style="max-width:400px"  />
+Cut a piece of coax seal to apply to the affected area. *Don't worry if its not enough, more can be added during the repair.*
 
-Massage the end of the coax seal to form a wide gripping area. Press the coax seal into the cable approximately 2cm below the affected area. 
+<img src="/cable-repair-kit/cad/Coax-Wrap-1.JPG" class="img-responsive img-center" style="max-width:600px"  />
+
+**Wrong Picture** Massage the end of the coax seal to form a wide gripping area. Press the coax seal into the cable slightly below the affected area. 
 
 ## Wrap the Coax Seal
 
-<img src="/cable-repair-kit/cad/IMG_1352.jpg" class="img-responsive img-center" style="max-width:400px"  />
-<img src="/cable-repair-kit/cad/IMG_1359.jpg" class="img-responsive img-center" style="max-width:400px"  />
 
-Slightly stretch the coax seal as you wrap it around the cable. Make sure to overlap the previous winding by about 50% each time. Continue wrapping in this manner until you terminate approximately 2cm above the affected area. *Don't worry if you run out of coax seal, just cut another piece and press it into the other material.* 
+<img src="/cable-repair-kit/cad/Coax-Wrap-2.JPG" class="img-responsive img-center" style="max-width:600px"  />
+
+Stretch the coax seal as you wrap it around the cable. Overlap the previous winding by about 50% each time. ~~Continue wrapping in this manner until you terminate approximately 2cm above the affected area.~~
 
 ## Form the Coax Seal
 
-<img src="/cable-repair-kit/cad/IMG_1353.jpg" class="img-responsive img-center" style="max-width:400px"  />
+<img src="/cable-repair-kit/cad/Coax-Smooth.JPG" class="img-responsive img-center" style="max-width:600px"  />
 
-Use your hands to gently mold coax seal into one contiguous piece. This doesn't have to be perfect, just enough so that any air has been forced out and the overlap joints are smooth.
+Use your fingers to gently mold the coax seal into one ~~contiguous~~ smooth piece. This doesn't have to be perfect, just enough so that the joints are smooth and any air has been forced out.
 
 ## Wrap the Silicone Tape
 
-<img src="/cable-repair-kit/cad/IMG_1355.jpg" class="img-responsive img-center" style="max-width:400px"  />
-<img src="/cable-repair-kit/cad/IMG_1360.jpg" class="img-responsive img-center" style="max-width:400px"  />
+
+<img src="/cable-repair-kit/cad/Silicone-Wrap.JPG" class="img-responsive img-center" style="max-width:600px"  />
 
 
-Cut off a similar length of silicone tape. Beginning slightly below the coax seal, wrap the silicone tape around the affected area while overlapping the previous winding by 50% each time.
+Cut off a similar length of silicone tape. Start wrapping the silicone tape below the coax seal. Overlap the previous winding by about 50% each time.
+
+
+## Finished
+
+<img src="/cable-repair-kit/cad/Complete.JPG" class="img-responsive img-center" style="max-width:600px"  />
+
 
 ## Removing the Repair
 
