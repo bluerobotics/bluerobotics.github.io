@@ -203,6 +203,10 @@ You can use the menu bar at the top to find the product you are looking for and 
     <div class="tile" style="background-image:url(/assets/images/documentation/Tether-wound.png)">
       <a href="/fathom/"><em>Fathom</em> Tether <i class="fa fa-chevron-circle-right"></i></a>
     </div>
+     <div class="col-sm-4 col-md-4">
+    <div class="tile" style="background-image:url(/potting/cad/cartridge_rotated_banner.png)">
+      <a href="/potting/">Potting <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
   </div>
  </div> 
 
