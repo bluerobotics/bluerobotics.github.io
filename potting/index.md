@@ -34,7 +34,8 @@ The <em>Wetlink</em> Thixotropic 80A potting compound has excellent adhesion to 
 
 # Specifications
 
-MSDS HERE
+[Thixotropic 80A MSDS - Part A](potting/cad/BlueRobotics-WL-Epoxy-PartA-MSDS.pdf) (Larger diameter cylinder on combined cartridge)
+[Thixotropic 80A MSDS - Part B](potting/cad/BlueRobotics-WL-Epoxy-PartB-MSDS.pdf) (Smaller diameter cylinder on combined cartridge)
 
 ## Specification Table
 
