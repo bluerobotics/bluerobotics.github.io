@@ -8,6 +8,7 @@ nav:
 - - Warnings: warnings
 - Specifications: specifications
 - - MSDS: msds
+- - Specification Table: specification-table
 - Instructions: instructions
 - - Tools You Need: tools-you-need
 - - Surface Preparation: surface-preparation
@@ -16,6 +17,14 @@ nav:
 - - Form the Coax Seal: form-the-coax-seal
 - - Wrap the Silicone Tape: wrap-the-silicone-tape
 
+store-links:
+- Cable Repair Kit: https://www.bluerobotics.com/store/tools/tool-kit-cable-repair-r1-rp/
+- Coax Seal: https://www.bluerobotics.com/store/tools/tool-coax-seal-0-5in-60in-r1-rp/
+- Silicone Tape: https://www.bluerobotics.com/store/tools/tool-silicone-tape-1in-10ft-r1-rp/
+- Acetone Wipes: https://www.bluerobotics.com/store/tools/potting-acetone-wipes-qty10-r1-rp/
+
+manual-links:
+- Potting Compound: /potting
 ---
 
 <img src="/cable-repair-kit/cad/Banner.png" class="img-responsive img-center" style="max-width:600px"  />
@@ -37,6 +46,12 @@ We spent quite a bit of time testing out these tools and trying out different wa
 
 # Specifications
 
+## MSDS
+
+[Coax Seal MSDS](./cad/coax-seal-msds.pdf)
+
+## Specification Table
+
 |                                    **Coax Seal**                                   |
 | ---------------------------------------------------|-------------------------------|
 | Length                                             | 1.52 m         | 5 ft         |
@@ -47,10 +62,6 @@ We spent quite a bit of time testing out these tools and trying out different wa
 | Length                                             | 3 m           | 10 ft         |
 | Width                                              | 25.4 mm       | 1.0 in        |
 | Thickness                                          | 0.5 mm        | 0.02 in       |
-
-## MSDS
-
-[Coax Seal](./cad/coax-seal-msds.pdf)
 
 # Instructions
 
