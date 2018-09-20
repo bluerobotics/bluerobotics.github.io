@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cable Repair Kit Tutorial
-permalink: 
+permalink: cable-repair-kit
 order: 1
 nav:
 - Introduction: introduction
