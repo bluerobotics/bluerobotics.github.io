@@ -4,7 +4,9 @@ title: Penetrator Potting Documentation
 nav:
 - Introduction: introduction
 - Specifications: specifications
+- - MSDS: msds
 - - Specification Table: specification-table
+- - Assembled Cutaway View: assembled-cutaway-view
 - Assembly: assembly
 - - Introduction: introduction
 - - Safety: safety
@@ -34,8 +36,11 @@ The <em>Wetlink</em> Thixotropic 80A potting compound has excellent adhesion to 
 
 # Specifications
 
-[Thixotropic 80A MSDS - Part A](potting/cad/BlueRobotics-WL-Epoxy-PartA-MSDS.pdf) (Larger diameter cylinder on combined cartridge)
-[Thixotropic 80A MSDS - Part B](potting/cad/BlueRobotics-WL-Epoxy-PartB-MSDS.pdf) (Smaller diameter cylinder on combined cartridge)
+## MSDS
+
+[Thixotropic 80A MSDS - Part A](potting/cad/BlueRobotics-WL-Epoxy-PartA-MSDS.pdf) (Larger diameter cylinder on cartridge)
+
+[Thixotropic 80A MSDS - Part B](potting/cad/BlueRobotics-WL-Epoxy-PartB-MSDS.pdf) (Smaller diameter cylinder on cartridge)
 
 ## Specification Table
 
@@ -82,7 +87,7 @@ The <em>Wetlink</em> cartridge is designed to be used with a 2:1 ratio cartridge
 
 ## Video Tutorial
 
-<iframe width="700" height="393.75" src="https://www.youtube.com/embed/9KHltdk5Ts0?list=PLZ486nvZoegusCQXQwC-5C-MzKkHBfw0d" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="393.75" src="https://www.youtube.com/embed/mKaJLWv1SCw" frameborder="0" allowfullscreen></iframe>
 <br />
 
 ## Step 1: Stripping the Jacket
