@@ -8,7 +8,7 @@ nav:
 - - Specification Table: specification-table
 - - Assembled Cutaway View: assembled-cutaway-view
 - Assembly: assembly
-- - Introduction: introduction
+- - Background: background
 - - Safety: safety
 - - Required Tools: required-tools
 - - Video Tutorial: video-tutorial
@@ -64,7 +64,7 @@ The <em>Wetlink</em> Thixotropic 80A potting compound has excellent adhesion to 
 
 # Assembly
 
-## Introduction
+## Background
 
 The <em>Wetlink</em> cartridge is designed to be used with a 2:1 ratio cartridge dispenser and bayonet lock mixing tips for simple dispensing. Potting is easy to do, and there is plenty of time to make adjustment or clean up any drips as necessary. **Proper surface preparation with acetone is <em>required</em> to achieve proper performance.**
 
