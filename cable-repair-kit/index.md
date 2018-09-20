@@ -24,7 +24,9 @@ nav:
 
 The *Cable Repair Kit* has all of the materials necessary to temporarily repair damaged cable or tether. The kit contains two specialized materials: Coax Seal and Silicone Tape. The Coax Seal is a hand moldable, non-toxic, non-conductive plastic that adheres to most surfaces and the Silicone Tape is a UV resistant and flexible tape that fuses only to itself. When used in a repair the coax seal forms a watertight barrier and the silicone tape is used to protect from debris. With these tools in hand a day of diving doesn't have to be called off because of a damaged cable, just perform a field repair and keep going!
 
+
 We spent quite a bit of time testing out these tools and trying out different ways to apply them. Our cable repairs reliably remained waterproof to 250m. That being said, our best cable repair lasted to a full 1000m in the Crushinator! 
+
 
 ## Warnings
 
@@ -55,13 +57,15 @@ We spent quite a bit of time testing out these tools and trying out different wa
 ## Tools You Need
 
 * Scissors
- 
+
 
 ## Surface Preparation 
 
 <img src="/cable-repair-kit/cad/Damaged-Cable.png" class="img-responsive img-center" style="max-width:600px"  />
 
 Wipe the affected area clean of any debris or moisture. Use an acetone wipe to further prepare the surface.
+
+
 
 ## Prepare the Coax Seal
 
@@ -79,7 +83,9 @@ Massage the end of the coax seal to form a wide gripping area. Press the coax se
 
 <img src="/cable-repair-kit/cad/Coax-Wrap-2.png" class="img-responsive img-center" style="max-width:600px"  />
 
+
 Stretch the coax seal as you wrap it around the cable. Overlap the previous winding by about 50% each time.
+
 
 ## Form the Coax Seal
 
@@ -98,5 +104,7 @@ Cut off a similar length of silicone tape. Start wrapping the silicone tape belo
 
 ## Finished
 
+
 <img src="/cable-repair-kit/cad/Complete.png" class="img-responsive img-center" style="max-width:600px"  />
+
 
