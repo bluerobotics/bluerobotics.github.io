@@ -224,7 +224,7 @@ To mount the ballast to the frame you need the following parts and tools:
 - 10 x 8-16 Thread, 5/8” Long, Thread-Forming Screws
 - 1 x #2 Phillips head screwdriver
 
-To get the longest battery life and the best driving experience, it is important to have the ROV close to balanced from front to back in water and close to neutrally buoyant. The Heavy Retrofit kit adds a bit of weight and more buoyancy to the ROV, so it will need to be retrimmed based on your operating conditions. Trimming the ballast may involve a bit of trial and error. The pictures below should provide a good starting point for mounting additional ballast.
+To get the longest battery life and the best driving experience, it is important to have the ROV close to balanced from front to back in water and close to neutrally buoyant. The Heavy Retrofit kit adds a bit of weight and more buoyancy to the ROV, so it will need to be retrimmed based on your operating conditions. Trimming the ballast may involve a bit of trial and error. 
 
 # Software Setup
 
