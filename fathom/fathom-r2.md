@@ -53,7 +53,7 @@ The _Fathom_ Tether has a polyurethane outer jacket for better flexibility and a
 
 1. Install the tether on your BlueROV2 or enclosure by lubricating the penetrator O-ring, tightening the nut with a penetrator wrench, and plugging the blue (-) / blue-white (+) twisted pair into the Fathom-X tether interface.
 
-2. Attached the tether thimble with three **thick** zip ties and secure the thimble to the ROV frame. It's very important that the thimble supports the tether so that you don't pull on the cable penetrator often. Use the [mounting instructions] (http://docs.bluerobotics.com/brov2/assembly/#mounting-the-tether-to-the-frame) for the _BlueROV2_ as an example.
+2. Attached the tether thimble with three **thick** zip ties and secure the thimble to the ROV frame. It's very important that the thimble supports the tether so that you don't pull on the cable penetrator often. Use the [mounting instructions](http://docs.bluerobotics.com/brov2/assembly/#mounting-the-tether-to-the-frame) for the _BlueROV2_ as an example.
  
 # Specifications
 
