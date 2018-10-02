@@ -21,10 +21,6 @@ nav:
 - - Specification Table: specification-table-6-series
 - - 2D Drawings: 2d-drawings-6-series
 - - 3D Models: 3d-models-6-series
-- Specs (8" Series): specifications-8-series
-- - Specification Table: specification-table-8-series
-- - 2D Drawings: 2d-drawings-8-series
-- - 3D Drawings: 3d-models-6-series
 - Assembly: assembly
 - - Video Tutorial: video-tutorial
 - - Steps: steps
@@ -313,68 +309,7 @@ All 3D models are provided in zip archives containing the follow file types:
 | Acrylic Solid End Cap			       | [WTE6-P-END-CAP-R1.zip](/wte/cad/WTE6-P-END-CAP-R1.zip)     
 | Aluminum Solid End Cap               | [WTE6-M-END-CAP-R1.zip](/wte/cad/WTE6-M-END-CAP-R1.zip)        
 | End Cap with 5 x 10mm Holes          | [WTE6-M-END-CAP-5-10MM-R1.zip](/wte/cad/WTE6-M-END-CAP-5-10MM-R1.zip) 
-| End Cap with 15 x 10mm holes         | [WTE6-M-END-CAP-15-10MM-R1.zip](/wte/cad/WTE6-M-END-CAP-15-10MM-R1.zip)  
-
-# Specifications: 8" Series
-
-## Specification Table (8" Series)
-
-| ----------------------------------- | ----------------------------- |
-|                          **8" Series Enclosure**                    |
-| ----------------------------------- | ----------------------------- |
-| Maximum Tested Depth (Saltwater)    | 130 ft      | 40 m            |
-| Maximum Pressure                    | 56.4 psi    | 392.4 kPa       |
-| Tube Inner Diameter                 | 8.0 in      | 203.2 mm        |
-| Tube Outer Diameter                 | 8.5 in      | 215.9 mm        |
-| Tube Thickness                      | 0.25 in     | 6.35 mm         |
-| Acrylic End Cap Thickness           | 0.5 in      | 12.7 mm         |
-| Aluminum End Cap Thickness          | 0.24 in     | 6 mm            |
-| Aluminum Flange Inner Diameter      | 7.0 in      | 177.8 mm        |
-| Total Length                        | 12.0 in     | 304.8 mm        |
-| Radial Seal O-ring (2 used)         | AS568-442, Buna-N             |
-| Face Seal O-ring (1 used)           | AS568-170, Buna-N             |
-| End Cap Screws (Acrylic Endcaps)    | M3x16 (Stainless Steel 316)   |
-| End Cap Screws (Aluminum & Dome Endcaps)    | M3x12 (Stainless Steel 316)   |
-| Inner Mounting Holes                | M3 threading                  |
-
-
-## 2D Drawings (8" Series)
-
-| -----------------------------------------------------------------------------------------------------------------------------------------------|
-|               **8" Series Enclosure**                                                                                                          |
-| -----------------------------------------------------------------------------------------------------------------------------------------------|
-| Assembly Model                       | [ASSEM-WTE8-R1 Drawing](/wte/cad/ASSEM-WTE8-R1.PNG)
-| Aluminum O-ring Flange               | [WTE8-M-FLANGE-SEAL-R1 Drawing](/wte/cad/WTE8-M-FLANGE-SEAL-R1.PNG)    
-| Acrylic Solid End Cap			       | [WTE8-P-END-CAP-R1 Drawing](/wte/cad/WTE8-P-END-CAP-R1.PNG)   
-| Aluminum Solid End Cap               | [WTE8-M-END-CAP-R1 Drawing](/wte/cad/WTE8-M-END-CAP-R1.PNG)   
-| Aluminum End Cap with 5 x 10mm Holes | [WTE8-M-END-CAP-5-10MM-R1 Drawing](/wte/cad/WTE8-M-END-CAP-5-10MM-R1.PNG)
-| Aluminum End Cap with 15 x 10mm Holes| [WTE8-M-END-CAP-15-10MM-R1 Drawing](/wte/cad/WTE8-M-END-CAP-15-10MM-R1.PNG)
-| Aluminum End Cap with 25 x 10mm Holes| [WTE8-M-END-CAP-25-10MM-R1 Drawing](/wte/cad/WTE8-M-END-CAP-25-10MM-R1.PNG)
-
-## 3D Models (8" Series)
-
-
-All 3D models are provided in zip archives containing the follow file types:
-
-- SolidWorks Part (.sldprt)
-- IGES (.igs) 
-- STEP (.step)
-- STL (.stl)
-
-| -----------------------------------------------------------------------------------------------------------------------------------------------|
-|               **8" Series Enclosure**                                                                                                          |
-| -----------------------------------------------------------------------------------------------------------------------------------------------|
-| Assembly Model                       | [ASSEM-WTE8-R1.zip](/wte/cad/ASSEM-WTE8-R1.zip)
-| Tube (Standard 11.75", 298mm length) | [WTE8-P-TUBE-R1.zip](/wte/cad/WTE8-P-TUBE-R1.zip)
-| Aluminum O-ring Flange               | [WTE8-M-FLANGE-SEAL-R1.zip](/wte/cad/WTE8-M-FLANGE-SEAL-R1.zip)            
-| Acrylic Solid End Cap			       | [WTE8-P-END-CAP-R1.zip](/wte/cad/WTE8-P-END-CAP-R1.zip)     
-| Aluminum Solid End Cap               | [WTE8-M-END-CAP-R1.zip](/wte/cad/WTE8-M-END-CAP-R1.zip)        
-| End Cap with 5 x 10mm Holes          | [WTE8-M-END-CAP-5-10MM-R1.zip](/wte/cad/WTE8-M-END-CAP-5-10MM-R1.zip)   
-| End Cap with 15 x 10mm Holes         | [WTE8-M-END-CAP-15-10MM-R1.zip](/wte/cad/WTE8-M-END-CAP-15-10MM-R1.zip)    
-| End Cap with 25 x 10mm Holes         | [WTE8-M-END-CAP-25-10MM-R1.zip](/wte/cad/WTE8-M-END-CAP-25-10MM-R1.zip) 
-
-
-<br />
+| End Cap with 15 x 10mm holes         | [WTE6-M-END-CAP-15-10MM-R1.zip](/wte/cad/WTE6-M-END-CAP-15-10MM-R1.zip) 
 
 # Assembly
 
