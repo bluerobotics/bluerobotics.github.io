@@ -107,9 +107,9 @@ There are some items necessary for operation that are not included with the kit.
 | Thruster Configuration                 | [6 thrusters](http://ardusub.com/images/vectored-frame.png)                   |
 |                                        | - 4 Vectored                  | 
 |                                        | - 2 Vertical                  | 
-| Forward Bollard Thrust                 | 14 kg<sub>f</sub>      | 30 lb<sub>f</sub>     |
-| Vertical Bollard Thrust                | 9 kg<sub>f</sub>       | 20 lb<sub>f</sub>      |
-| Lateral Bollard Thrust                 | 14 kg<sub>f</sub>      | 30 lb<sub>f</sub>      |
+| Forward Bollard Thrust (45°)           | 9 kg<sub>f</sub>      | 19.8 lb<sub>f</sub>     |
+| Vertical Bollard Thrust                | 7 kg<sub>f</sub>       | 15.4 lb<sub>f</sub>      |
+| Lateral Bollard Thrust (45°)           | 9 kg<sub>f</sub>      | 19.8 lb<sub>f</sub>      |
 
 ## Battery
 
