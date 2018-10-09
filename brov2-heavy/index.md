@@ -37,29 +37,6 @@ manual-links:
 
 The <em>BlueROV2 Heavy Retrofit Kit</em> is an add-on for the [BlueROV2](/brov2) that includes two additional thrusters, Basic ESCs, additional buoyancy foam, and fairings. The Heavy Retrofit Kit provides some powerful new capabilities: six degree-of-freedom control, active roll and pitch stability, and additional lifting capability.
 
-# Specifications
-
-## Specification Table (BlueROV2 with new Heavy Retrofit Kit)
-
-|  **Physical**  |
-| ------------- | --------- |
-| Length | 457 mm | 18 in |
-| Width | 575 mm | 22.5 in |
-| Height | 254 mm | 10 in |
-| Weight (in air with ballast) | 11.5kg | 26 lbs |
-|----------------------|
-
-
-## 2D Drawings
-
-<img src="/brov2-heavy/cad/2d-drawing-heavy-2018.png" class="img-responsive img-center" style="max-width:800px" />
-
-## 3D Model
-
-These are BIG files since the model is fairly complex. If you just want to check out a 3D view or 3D models of the BlueROV2 with the Heavy Kit installed, we recommend checking out the CAD files on GrabCAD. 
-
-[BlueROV2 Heavy 3D Model](https://grabcad.com/library/bluerobotics-bluerov2-heavy-1)
-
 # Assembly and Installation
 
 ## BlueROV2 Partial Disassembly
