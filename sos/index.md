@@ -3,13 +3,6 @@ layout: default
 title: SOS Leak Sensor Documentation
 order: 1
 nav:
-- Introduction: introduction
-- Specifications: specifications
-- - Function Diagram: function-diagram
-- - Specification Table: specification-table
-- - Schematic: schematic
-- - 2D Drawings: 2d-drawings
-- - 3D Model: 3d-model
 - Installation: installation
 - - General: general
 - - On the BlueROV2: on-the-bluerov2
@@ -17,7 +10,6 @@ nav:
 - Arduino Example: arduino-example
 - After a Leak: after-a-leak
 - - Probe Tip Replacement: probe-tip-replacement
-
 
 store-links:
 - SOS Leak Sensor: https://www.bluerobotics.com/store/electronics/sos-leak-sensor/
@@ -27,60 +19,6 @@ manual-links:
 ---
 
 <img src="/sos/cad/sos-banner-a.PNG" class="img-responsive" style="max-width:900px"  />
-
-# Introduction
-
-The <em>SOS</em> Leak Sensor can detect water leaking into an improperly sealed <a href="https://www.bluerobotics.com/product-category/watertight-enclosures/">Watertight Enclosure</a> quickly and reliably, before any major damage can occur! Though we are confident in the quality of our Watertight Enclosures and a leak is unlikely, the <em>SOS</em> Leak Sensor will give you additional peace of mind that your electronics are safe. A bright red LED gives a clear indication of a leak, as well as a high signal that can be interpreted by a device of your choosing. The <a href="http://ardusub.com/">ArduSub</a> firmware for the Pixhawk supports the <em>SOS</em> Leak Sensor and through QGroundControl will give you an audio and visual warning of a leak. When the <em>SOS</em> Leak Sensor is powered it is operating, and one or more wet probes will make the board LED shine and drive the signal pin high to VCC. The probe which came into contact with water will have a significantly expanded tip, indicating at which location the leak occurred.
-
-# Specifications
-
-## Function Diagram
-
-<img src="/sos/cad/function-diagram.PNG" class="img-responsive" style="max-width:800px"  />
-
-## Specification Table
-
-
-|      **Electrical**       |
-| ------------- | --------- |
-| Operating Voltage| 3.3-5v |
-| Maximum Current Draw| 20mA |
-| Output Connector | 3 pin 0.1" header |
-| Input Connector | 4 x 2 pin JST-GH |
-| ------------- | --------- |
-
-|  **Physical**  |
-| ------------- | --------- |
-| Length | 24.6 mm | 0.97 in |
-| Width | 13.3 mm | 0.52 in |
-| Height (without header pins) | 5.8 mm| 0.23 in |
-|----------------------|
-
-## Schematic
-
-The [EagleCAD files](https://github.com/bluerobotics/SOS-Leak-Sensor) for the schematic and board are available on our [GitHub page](https://github.com/bluerobotics).
-
-[<img src="/sos/cad/sos-schematic.JPG" class="img-responsive" style="max-width:300px" />](https://github.com/bluerobotics/SOS-Leak-Sensor/raw/master/SOS-Leak-Sensor.pdf)
-
-## 2D Drawings
-
-### SOS Board
-
-<img src="/sos/cad/SOS.png" class="img-responsive img-center" />
-
-## 3D Model
-
-All 3D models are provided in zip archives containing the follow file types:
-
-- SolidWorks Part (.sldprt)
-- IGES (.igs) 
-- STEP (.step)
-- STL (.stl)
-
-|		**SOS Sensor Board**																		|
-| --------------------------------------------------------------------------------------------- |
-| SOS Board   | [SOS-ASM-LEAK-SENSOR-R1.zip](cad/SOS-ASM-LEAK-SENSOR-R1.zip)      |
-
 
 # Installation
 
