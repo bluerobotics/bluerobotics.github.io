@@ -3,7 +3,6 @@ layout: default
 title: SOS Leak Sensor Documentation
 order: 1
 nav:
-- Introduction: introduction
 - Installation: installation
 - - General: general
 - - On the BlueROV2: on-the-bluerov2
@@ -20,10 +19,6 @@ manual-links:
 ---
 
 <img src="/sos/cad/sos-banner-a.PNG" class="img-responsive" style="max-width:900px"  />
-
-# Introduction
-
-The <em>SOS</em> Leak Sensor can detect water leaking into an improperly sealed <a href="https://www.bluerobotics.com/product-category/watertight-enclosures/">Watertight Enclosure</a> quickly and reliably, before any major damage can occur! Though we are confident in the quality of our Watertight Enclosures and a leak is unlikely, the <em>SOS</em> Leak Sensor will give you additional peace of mind that your electronics are safe. A bright red LED gives a clear indication of a leak, as well as a high signal that can be interpreted by a device of your choosing. The <a href="http://ardusub.com/">ArduSub</a> firmware for the Pixhawk supports the <em>SOS</em> Leak Sensor and through QGroundControl will give you an audio and visual warning of a leak. When the <em>SOS</em> Leak Sensor is powered it is operating, and one or more wet probes will make the board LED shine and drive the signal pin high to VCC. The probe which came into contact with water will have a significantly expanded tip, indicating at which location the leak occurred.
 
 # Installation
 
