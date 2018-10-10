@@ -4,9 +4,6 @@ title: M200 Motor Documentation
 permalink: /thrusters/motors/m200/
 order: 1
 nav:
-- Introduction: introduction
-- - Safety: safety
-- - Quick Start: quick-start
 - Installation: installation
 - - Video Tutorial: video-tutorial
 - - Electrical Connections: electrical-connections
@@ -36,30 +33,6 @@ tutorial-links:
 - Motor Assembly/Disassembly: /tutorials/disassembly-assembly/m100-m200-disassembly/
 ---
 <img src="/assets/images/documentation/m200-multi.png" class="img-responsive img-center" style="max-width:600px" />
-
-# Introduction
-
-The M200 Motor is a brushless electric motor for use underwater. It is pressure resistant and ruggedized against harsh ocean conditions. Many of the motor's components are used in the [T200 Thruster](/thrusters/t200).
-
-## Safety
-
-Always practice caution when you're working with electricity in water and with the spinning blades of the propeller. Keep body parts away from the motor to avoid injury.
-
-## Performance Charts
-
-<!--This performance information is given using the [3D printed M100 propeller](https://www.bluerobotics.com/store/parts/m100-p-propeller-rev-r1/).
-
-<div>
-    <a href="https://plot.ly/~rjehangir/82/" target="_blank" title="M100 Motor w/ 3D Printed Propeller: Thruster vs. PWM Input to ESC" style="display: block; text-align: center;"><img src="https://plot.ly/~rjehangir/82.png" alt="M100 Motor w/ 3D Printed Propeller: Thruster vs. PWM Input to ESC" style="max-width: 100%;width: 1368px;"  width="1368" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="rjehangir:82" src="https://plot.ly/embed.js" async></script>
-</div>
-
-<div>
-    <a href="https://plot.ly/~rjehangir/84/" target="_blank" title="M100 Motor w/ 3D Printed Prop: Power and Current vs. Input Signal to ESC" style="display: block; text-align: center;"><img src="https://plot.ly/~rjehangir/84.png" alt="M100 Motor w/ 3D Printed Prop: Power and Current vs. Input Signal to ESC" style="max-width: 100%;width: 1368px;"  width="1368" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="rjehangir:84" src="https://plot.ly/embed.js" async></script>
-</div>
-
--->
 
 # Installation
 
