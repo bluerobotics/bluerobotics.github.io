@@ -19,7 +19,7 @@ nav:
 - - Roll and Pitch Input: roll-and-pitch-input
 
 store-links:
-- Heavy Retrofit Kit: https://www.bluerobotics.com/store/rov/brov2-heavy-kit/
+- Heavy Retrofit Kit: https://www.bluerobotics.com/store/rov/bluerov2-upgrade-kits/brov2-heavy-retrofit-r1-rp/
 
 manual-links:
 - BlueROV2: /brov2/assembly/
