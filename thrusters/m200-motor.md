@@ -7,13 +7,6 @@ nav:
 - Introduction: introduction
 - - Safety: safety
 - - Quick Start: quick-start
-- - Important Notes: important-notes
-- Specifications: m200-motor-specifications
-- - Specification Table: specification-table
-- - Performance Charts: performance-charts
-- - Dimensions: dimensions
-- - 2D Drawing: 2d-drawing
-- - 3D Model: 3d-model
 - Installation: installation
 - - Video Tutorial: video-tutorial
 - - Electrical Connections: electrical-connections
@@ -52,47 +45,6 @@ The M200 Motor is a brushless electric motor for use underwater. It is pressure 
 
 Always practice caution when you're working with electricity in water and with the spinning blades of the propeller. Keep body parts away from the motor to avoid injury.
 
-## Quick Start
-
-1. Solder wires from ESC to pads on motor.
-2. Waterproof solder connection with epoxy or other potting compound. We recommend [Loctite Marine Epoxy](https://www.bluerobotics.com/store/tools/loctite-marine-epoxy/) or MG Chemicals 4229.
-3. Connect the wires to an ESC, send a signal, and the motor will start spinning. That's it.
-
-## Important Notes
-
-<i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
-Do not operate the motor for extended periods out of water. The bearings are lubricated by the water and vibration and noise will be greater when dry.
-
-<i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
-A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.
-
-# M200 Motor Specifications
-
-## Specification Table
-
-| ----------------------- | ----------------------------- |
-|                   **Performance**                       |
-| ----------------------- | ----------------------------- |
-| RPM/V (Kv rating)       | 490 RPM/volt                  |
-| Torque <sup>1</sup>     | 0.50 N m      | 4.5 in-lb     |
-| ----------------------- | ----------------------------- |
-|                    **Electrical**                       |
-| ----------------------- | ----------------------------- |
-| Operating Voltage       | 6-20 volts                    |
-| Max Current             | 22 amps                       |
-| Max Power               | 350 watts                     |
-| ----------------------- | ----------------------------- |
-|                    **Physical**                         |
-| ----------------------- | ----------------------------- |
-| Overall Length          | 62 mm         | 2.44 in       |
-| Diameter                | 36 mm         | 1.42 in       |
-| Shaft Diameter          | 5.0 mm        | 0.197 in      | 
-| Mounting Hole Threads   | M3 x 0.5                      |
-| Base Mounting Hole Spacing (diagonal) | 24 mm      | 0.94 in       |
-| Top Mounting Hole Spacing  | 19 mm      | 0.75 in       |  
-
-<small><sup>1</sup> Torque is provided as the theoretical maximum based on the motor design. This torque can only be achieved at all speeds with the proper motor controller. These numbers have not been validated experimentally.</small>
-
 ## Performance Charts
 
 <!--This performance information is given using the [3D printed M100 propeller](https://www.bluerobotics.com/store/parts/m100-p-propeller-rev-r1/).
@@ -108,22 +60,6 @@ A slight clicking noise is normal, especially when operated dry. It is caused by
 </div>
 
 -->
-
-## Dimensions
-
-## 2D Drawing
-
-<img src="/thrusters/cad/2d-drawing-m200.png" class="img-responsive img-center" />
-
-## 3D Model
-
-| File Type                  | Link                          |
-| -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [M200-MOTOR-R1.SLDPRT](/thrusters/cad/M200-MOTOR-R1.SLDPRT) |
-| STEP (.step)               | [M200-MOTOR-R1.STEP](/thrusters/cad/M200-MOTOR-R1.STEP)   |
-| IGES (.igs)                | [M200-MOTOR-R1.IGS](/thrusters/cad/M200-MOTOR-R1.IGS) |
-| STL (.stl)                 | [M200-MOTOR-R1.STL](/thrusters/cad/M200-MOTOR-R1.STL) |
-| All Formats in a Zip File (.zip)   | [M200-MOTOR-R1.zip](/thrusters/cad/M200-MOTOR-R1.zip) |
 
 # Installation
 
