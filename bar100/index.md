@@ -1,16 +1,8 @@
 ---
 layout: default
-title: Bar100 Pressure Sensor Documentation
+title: Bar100 Pressure Sensor Installation Guide and Sample Code
 order: 1
 nav:
-- Introduction: introduction
-- - Quick Start: quick-start
-- Specifications: specifications
-- - Schematic: schematic
-- - Specification Table: specification-table
-- - DF-13 Pinout: df13-pinout
-- - 2D Drawing: 2d-drawing
-- - 3D Model: 3d-model
 - Installation: installation
 - Example Code: example-code
 - - Arduino: arduino
@@ -28,90 +20,6 @@ manual-links:
 
 <img src="/bar100/cad/BAR100-5.png" class="img-responsive" style="max-width:900px"  />
 
-# Introduction
-
-The <em>Bar100</em> is a high pressure, underwater depth and temperature sensor that comes in a Blue Robotics penetrator form factor, making it easy to install on a waterproof enclosure.
-
-## Quick Start
-
-1. Download [KellerLD Arduino Library](https://github.com/bluerobotics/BlueRobotics_KellerLD_Library).
-2. Install software such as the [Example Code](#example-code) to your microcontroller.
-3. Connect the DF13 or bare wires to the appropriate microcontroller pins, using a [logic level converter](/level-converter/#introduction) if your board has 5v logic:
-  - Green: SCL (3.3v logic)
-  - White: SDA (3.3v logic)
-  - Red: +2.5-5.5v
-  - Black: Ground
-
-# Specifications
-
-## Schematic
-
-[<img src="/bar100/cad/BAR100-SCHEMATIC-R1.png" class="img-responsive" style="max-width:300px" />](/bar100/cad/BAR100-SCHEMATIC-R1.png)
-
-[Bar100 Schematic.pdf](/bar100/cad/BAR100-SCHEMATIC-R1.pdf)
-
-## Specification Table
-
-For further information please see the [Keller 7LD Data Sheet.](http://www.keller-druck.com/picts/pdf/engl/4ld_9ld_e.pdf)
-
-|      **Electrical**       |
-| ------------- | --------- |
-| **Item** | **Condition** | **Value** |
-| Supply Voltage| -- | 2.5-5.5 volts |
-| I<sup>2</sup>C Logic Voltage (SDA and SCL) | -- | 1.8 - 3.6 volts |
-| Peak Current   | -- | 1.5 mA   |
-| ------------- | --------- |
-|                **Pressure**                  		 |
-| ------------- | ---------------------------------- |
-| **Item** | **Condition** | **Value** |
-| Maximum Mechanical Pressure | -- | 350 bar |
-|Operating Pressure| -- |0-100 bar [up to 3344 ft (1019 m) in freshwater]|
-|Absolute Accuracy  (0-50&deg;C) | From 0-100 bar | +/- 500 mbar 	(5.1 m in freshwater)|
-|Resolution                      | From 0-100 bar | 3 mbar  (3 cm in freshwater)|
-|
-| ---------------- | ------------------------------- |
-|            **Temperature**            			 |
-| ------------- | ------------- | ------------- |
-| **Item** | **Condition** | **Value** |
-| Operating Temperature | -- | -40 to +110&deg;C |
-| Absolute Accuracy   | From 0-100 bar at 0-50&deg;C | +/- 2&deg;C      |
-|
-|  **Physical**                         |
-| ------------|-------------------------|
-| Overall Length | 41 mm |
-| Thread Size    | M10x1.5 20 mm threaded |
-| Recommended Through Hole Size | 10-11 mm |
-| Wrench Flats | 16 mm |
-|----------------------|
-
-## DF13 Pinout
-
-| 1 &Delta; |  Red - Positive (3.3-5.5V) |
-| 2 |  Green - I<sup>2</sup>C Clock (SCL) |
-| 3 |  White - I<sup>2</sup>C Data (SDA)  |
-| 4 |  Black - Ground          |
-
-<img src="/bar100/cad/DF-13_Pinout.png" class="img-responsive" style="max-width:900px" />
-
-**Mating Connector:** [Hirose 4-pos DF13 on Digi-Key](http://www.digikey.com/product-detail/en/DF13-4P-1.25DSA/H2193-ND/241767)
-
-## 2D Drawing
-
-<img src="/assets/images/BAR100-2view.PNG" class="img-responsive" style="max-width:900px" />
-
-## 3D Model
-
-All 3D models are provided in zip archives containing the follow file types:
-
-- SolidWorks Part (.sldprt)
-- IGES (.igs) 
-- STEP (.step)
-- STL (.stl)
-
-|		**Bar 100 Pressure Sensor**																						|
-| --------------------------------------------------------------------------------------------- |
-| Bar100 Pressure Sensor      | [BAR100-ASM-R1.zip](cad/BAR100-ASM-R1.zip) |
-| Bar100 Penetrator Nut		 | [PENETRATOR-M-NUT-10-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-NUT-10-A-R2.zip)|																								|
 
 # Installation
 
