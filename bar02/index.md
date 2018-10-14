@@ -36,7 +36,7 @@ The <em>Bar02</em> is a shallow depth, ultra-high resolution, waterproof pressur
 
 1. Download [MS5837 Arduino Library](https://github.com/bluerobotics/BlueRobotics_MS5837_Library).
 2. Install software such as the [Example Code](#example-code) to your microcontroller.
-3. Connect the DF13 or bare wires to the appropriate microcontroller pins, using a [logic level converter](/level-converter/#introduction) if your board has 5V logic:
+3. Connect the DF13 or bare wires to the appropriate microcontroller pins, using a [logic level converter](https://www.bluerobotics.com/store/electronics/level-converter-r1/) if your board has 5V logic:
   - Green: SCL (3.3V logic)
   - White: SDA (3.3V logic)
   - Red: +2.5-5.5V
