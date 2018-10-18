@@ -6,9 +6,6 @@ order: 1
 nav:
 - Introduction: introduction
 - - Warnings: warnings
-- Specifications: specifications
-- - MSDS: msds
-- - Specification Table: specification-table
 - Instructions: instructions
 - - Tools You Need: tools-you-need
 - - Surface Preparation: surface-preparation
@@ -42,26 +39,6 @@ We spent quite a bit of time testing out these tools and trying out different wa
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>  **The Cable Repair Kit isn't a permanent solution. Any damaged cables should be replaced as soon as possible**
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i> **Whether the cable will remain waterproof or not is highly dependent on the quality of the repair performed.**
-
-
-# Specifications
-
-## MSDS
-
-[Coax Seal MSDS](./cad/coax-seal-msds.pdf)
-
-## Specification Table
-
-|                                    **Coax Seal**                                   |
-| ---------------------------------------------------|-------------------------------|
-| Length                                             | 1.52 m         | 5 ft         |
-| Width                                              | 12.7 mm        | 0.5 in       |
-| Thickness											 | 1.5 mm         | 0.06 in
-|                                    **Silicone Tape**                               |
-| ---------------------------------------------------|-------------------------------|
-| Length                                             | 3 m           | 10 ft         |
-| Width                                              | 25.4 mm       | 1.0 in        |
-| Thickness                                          | 0.5 mm        | 0.02 in       |
 
 # Instructions
 
