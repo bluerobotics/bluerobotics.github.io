@@ -18,7 +18,7 @@ manual-links:
 
 We're in the process of reorganizing our documentation pages! Most product specifications, 2d drawings, and 3d models have been moved to their respective product pages.
 
-**Please continue to the [Lithium Battery Charger store page on our website](https://www.bluerobotics.com/store/comm-control-power/batteries/battery-li-4s-18ah-r2-rp/) to find the most relevant charger info!**
+**Please continue to the [Lithium Battery Charger store page on our website](https://www.bluerobotics.com/store/comm-control-power/batteries/lithium-battery-charger/) to find the most relevant charger info!**
 
 
 
