@@ -51,7 +51,7 @@ All 3D models are available on GrabCAD in the following file types:
 
 |		**WTE Clip**      |
 | ----------------------- |
-| [PLACE HOLDER](#) |
+
 
 # Installation
 
