@@ -6,10 +6,7 @@ permalink: /waterlinked/integration-kit/
 topnavbar: waterlinked
 nav:
 - Introduction: introduction
-- Specifications: specifications
-- - Specification Table: specification-table
 - Installation: installation
-- - Included Parts: included-parts
 - - Inside WL Box: inside-wl-box
 - - To ROV: to-rov
 
@@ -31,23 +28,7 @@ To install the kit on a Water Linked system, you first add a Fathom-X tether int
 
 The integration kit requires some minor assembly and instructions are below!
 
-# Specifications
-
-## Specification Table
-
-| **Item** | **Value** |
-| Cable Length (WL Box to Fathom-X) | 8 meters | 26 ft |
-
 # Installation
-
-## Included Parts
-
-| **Quantity** | **Part** |
-| 1 | 8 meter cable with Bulgin 8pos (to WL box) to cable penetrator (to BlueROV2 topside) |
-| 1 | Internal battery cable (XT90 to Molex 3mm connector) |
-| 1 | Fathom-X power cable (JST-GH to ferrules) |
-| 1 | Pre-wires bulkhead connector (Bulgin 8pos to JST-GH 3pos and ferrules) |
-| 1 | Fathom-X Tether Interface Board |
 
 ## Inside WL Box
 

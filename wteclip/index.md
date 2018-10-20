@@ -8,7 +8,6 @@ nav:
 - Specifications: specifications
 - - Specification Table: specification-table
 - - 2D Drawings: 2d-drawings
-- - 3D Model: 3d-models
 - Installation: installation
 - - Tools Needed: tools-needed
 - - Cut Rubber: cut-the-rubber-to-length
@@ -39,19 +38,6 @@ The Watertight Enclosure *Clip* secures the end cap of the enclosure tube to hel
 ## 2D Drawings
 
 <img src="/wteclip/cad/WTECLIP-M-ARM-R1-PUBLIC.PNG" class="img-responsive" style="max-width:800px"  />
-
-## 3D Models
-
-All 3D models are available on GrabCAD in the following file types:
-
-- SolidWorks Part (.sldprt)
-- IGES (.igs) 
-- STEP (.step)
-- STL (.stl)
-
-|		**WTE Clip**      |
-| ----------------------- |
-
 
 # Installation
 
