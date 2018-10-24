@@ -15,9 +15,6 @@ manual-links:
 - T100/T200 Thrusters: /thrusters/
 - M100 Motor: /thrusters/motors/
 ---
-<img src="/bescr3/cad/BESC30-R3-3-rotated-crop.PNG" class="img-responsive" style="max-width:600px" />
-
-
 # Example Code
 
 ## Arduino
