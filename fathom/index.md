@@ -13,7 +13,6 @@ nav:
 - - Stripping the Jacket: stripping-the-jacket
 - - Stripping the Twisted Pairs: stripping-the-twisted-pairs
 - - Installing Into a Penetrator: installing-into-a-penetrator
-- - Strain Relief: strain-relief
 
 
 store-links:
@@ -45,7 +44,7 @@ These pairs are colored and arranged in the same fashion as a Cat5 networking ca
 
 2. Be sure to tin the ends of the conductors prior to installing the tether into your vehicle.
 
-3. Firmly attach the tether to your vehicle by following the [strain relief tutorial](#strain-relief) or some other method that prevents the tether from pulling directly on the tether penetrator. The tether can twist the penetrator loose if you do not provide strain relief.
+3. Firmly attach the tether to your vehicle by following the [strain relief tutorial](/fathom/thimble) or some other method that prevents the tether from pulling directly on the tether penetrator. The tether can twist the penetrator loose if you do not provide strain relief.
  
 # Specifications
 
@@ -168,17 +167,6 @@ A datasheet for the polyethylene jacket material is available here: [DF4960 Poly
 20. Cut off excess Kevlar strands, and that's it!
 
 	<img src="/fathom/cad/tether-tutorial-a2.png" class="img-responsive" style="max-width:700px"  />
-	
-# Strain Relief
-
-1. Grab the tether somewhere between about 16 and 24 inches away from the penetrator and loop it around a [plastic thimble.](https://www.bluerobotics.com/store/parts/fathom-p-thimble-r1/)
-
-2. Firmly attach three alternating heavy gauge zip ties (included with thimble) at the base of the thimble.
-
-	<img src="/fathom/cad/tether-tutorial-a1.png" class="img-responsive" style="max-width:700px"  />
-	
-3. Firmly attach the thimble to your vehicle using at least two heavy gauge zip ties.
-
 
 
 
