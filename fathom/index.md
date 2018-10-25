@@ -13,7 +13,6 @@ nav:
 - - Stripping the Jacket: stripping-the-jacket
 - - Stripping the Twisted Pairs: stripping-the-twisted-pairs
 - - Installing Into a Penetrator: installing-into-a-penetrator
-- - Strain Relief: strain-relief
 
 
 store-links:
@@ -168,17 +167,6 @@ A datasheet for the polyethylene jacket material is available here: [DF4960 Poly
 20. Cut off excess Kevlar strands, and that's it!
 
 	<img src="/fathom/cad/tether-tutorial-a2.png" class="img-responsive" style="max-width:700px"  />
-	
-# Strain Relief
-
-1. Grab the tether somewhere between about 16 and 24 inches away from the penetrator and loop it around a [plastic thimble.](https://www.bluerobotics.com/store/parts/fathom-p-thimble-r1/)
-
-2. Firmly attach three alternating heavy gauge zip ties (included with thimble) at the base of the thimble.
-
-	<img src="/fathom/cad/tether-tutorial-a1.png" class="img-responsive" style="max-width:700px"  />
-	
-3. Firmly attach the thimble to your vehicle using at least two heavy gauge zip ties.
-
 
 
 
