@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Thimble Installation Tutorial
+permalink: /fathom/thimble/
 order: 1
 nav:
 - Introduction: introduction
