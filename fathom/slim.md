@@ -4,11 +4,7 @@ title: Fathom Slim Tether
 permalink: /fathom-slim/
 order: 1
 nav:
-- Introduction: introduction
-- Quick Start 
-- Specifications: specifications
-- - Specification Table: specification-table
-- - Section View: section-view
+- Moved: this-page-has-been-moved
 
 store-links:
 - Fathom Slim:  https://www.bluerobotics.com/store/cables/cab-nbpuf-1utp-26awg/
@@ -21,52 +17,9 @@ manual-links:
 - BlueROV2: /brov2/
 
 ---
-
-<img src="/fathom/cad/slim-banner.png" class="img-responsive" style="max-width:900px"  />
 	
-# Introduction
+# This Page Has Been Moved
 
-The Fathom Slim Tether is a high quality tether cable designed specifically for ROVs and other subsea applications. It is neutrally buoyant, has 300+ lb breaking strength, and is embedded with water-blocking fibers to seal any leaks. The tether has a diameter of 4.0mm and is much slimmer than the vast majority of comparable ROV tethers.
+We're in the process of reorganizing our documentation pages! Most product specifications, 2d drawings, and 3d models have been moved to their respective product pages.
 
-This tether is ideal for travel, deep dives, and long distance dives where size and drag are paramount.
- 
-# Quick Start 
-
-1. Prepare the ends of your tether for use as shown in the installation tutorial [Coming soon].
-
-2. Be sure to tin the ends of the conductors prior to installing the tether into your vehicle.
-
-3. Firmly attach the tether to your vehicle by following the strain relief tutorial [Coming soon] or some other method that prevents the tether from pulling directly on the tether penetrator. The tether can twist the penetrator loose if you do not provide strain relief.
- 
-# Specifications
-
-## Specification Table
-
-|      **Physical**       |
-| ------------- | --------- |
-| **Item** | **Value** |
-| Tether Diameter | 4.0 mm | 0.16 in |
-| Weight | 0.012 kg/m | 0.00805 lbs/ft |
-| Buoyancy in Freshwater | Neutral |
-| Buoyancy in Saltwater | Slightly Positive |
-| Wire Gauge   | 26 AWG |
-| Working Strength | 35 kg<sub>f</sub> | 80 lb<sub>f</sub> |
-| Breaking Strength | 155 kg<sub>f</sub> | 350 lb<sub>f</sub> |
-| Minimum Working Bend Diameter | 25 mm | 1 in |
-| Jacket Material | Polyurethane Foam |
-| ------------- | --------- |
-
-|      **Electrical**       |
-| ------------- | --------- |
-| **Item** | **Value** |
-| DC Resistance @ 20&deg;C| 0.0445 &Omega; / ft | 0.146 &Omega; / m |
-| Voltage Rating (Twisted Pair) | 300 VDC |
-|      **Twisted Pairs**    |
-|---|---|---------------------|
-| **Pair 1** | Wire 1 | White |
-|            | Wire 2 | Blue  |
-
-## Section View
-
-<img src="/fathom/cad/Slim-Cross-Section.png" class="img-responsive" style="max-width:900px"  />
-
+**Please continue to the [Fathom Slim Tether (ROV Ready)](https://www.bluerobotics.com/store/cables-connectors/cables/fathom-slim-nb-1p-26awg-r1/) and the [Fathom Slim Tether (by the meter)](https://www.bluerobotics.com/store/cables-connectors/cables/cab-nbpuf-1utp-26awg/) to find the most relevant info!**
