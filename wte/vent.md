@@ -6,9 +6,6 @@ order: 0
 nav:
 - Introduction: introduction
 - - Important Notes: important-notes
-- Specifications: watertight-enclosure-specifications
-- - Specification Table: specification-table
-- - 3D Model: 3d-models
 - Assembly: assembly
 
 store-links:
@@ -33,41 +30,6 @@ Always inspect the O-rings before inserting the plug. Any dust, hair, or other p
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 Use plastic tools, NOT steel or other hard tools, to remove the O-rings from the aluminum sealing flange. Hard tools can create scrapes that will compromise sealing ability.
-
-<!--<i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
-A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.-->
-
-# Watertight Enclosure Specifications
-
-## Specification Table
-
-| ----------------------------------- | ----------------------------- |
-|                          **Enclosure Vent**                         |
-| ----------------------------------- | ----------------------------- |
-| Maximum Tested Depth (Saltwater)    | 3280 ft       | 1000 m        |
-| Maximum Pressure                    | 1420 psi      | 9790 kPa      |
-| Bolt Hole Diameter                  | 0.4 in        | 10 mm         |
-| Outer Diameter                      | 0.71 in       | 18 mm         |
-| Maximum Wall Thickness              | 0.75 in       | 19 mm         |
-| Plug O-ring (2 used)                | 2mm Wide, 6mm ID, Buna-N      |
-| Bolt O-ring (1 used)                | AS568-013, Buna-N             |
-
-## 3D Models
-
-All 3D models are provided in zip archives containing the follow file types:
-
-- SolidWorks Part (.sldprt)
-- IGES (.igs) 
-- STEP (.step)
-- STL (.stl)
-
-| -----------------------------------------------------------------------------------------------------------------------------------------------|
-|               **Enclosure Vent**                                                                                                               |
-| -----------------------------------------------------------------------------------------------------------------------------------------------|
-| Vent Bolt                            | [VENT-M-BOLT-10-25-A-R3.zip](http://www.bluerobotics.com/models/VENT-M-BOLT-10-25-A-R3.zip)             |
-| Vent Plug                            | [VENT-M-PLUG-10-A-R2.zip](http://www.bluerobotics.com/models/VENT-M-PLUG-10-A-R2.zip)                   |
-| Vent Nut           			       | [PENETRATOR-M-NUT-10-A-R2.zip](http://www.bluerobotics.com/models/PENETRATOR-M-NUT-10-A-R2.zip)         |
-
 
 # Assembly
 
