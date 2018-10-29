@@ -1,0 +1,77 @@
+---
+layout: default
+title: Using the Bar30 with an Arduino
+permalink: /tutorials/changing-the-propeller/
+order: 1
+nav:
+- Introduction: introduction
+- Video Tutorial: video-tutorial
+- Instructions: instructions
+---
+<img src="/assets/images/tutorials/changing-a-propeller/all-propellers.png" class="img-responsive img-center" style="max-width:500px" />
+
+# Introduction
+
+The [_Bar30_](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/bar30-sensor-r1/) pressure sensor is a pressure sensor designed to be used underwater at pressures up to 30 bar, or around 300 meters depth in water.  It communicates  via I<sup>2</sup>C and comes with a 4-pin DF-13 connector that is compatible with the [Pixhawk](https://bluerobotics.com/store/comm-control-power/elec-packages/pixhawk-r1-rp/) autopilot, the [_Level Converter_](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/level-converter-r1/) and other microcontrollers.
+
+Using a _Bar30_ with most Arduino (including the Uno, Mega, Micro and Nano) and other 5 V microcontrollers requires an I<sup>2</sup>C logic level converter to communicate with a 3.3 V device such as the _Bar30_.  Note that some Arduino and other microcontrollers which run at 3.3 V (including Raspberry Pis and the Pixhawk autopilot) do not require a logic level converter.  Always make sure to check what voltage your microcontroller or computer uses before wiring up a sensor.
+
+Note that the voltages being discussed here are the _logic_ voltage levels, that is, what the I<sup>2</sup>C pins will be experiencing.  This is typically the same voltage at which the device runs, but not necessarily the voltage of the input power supply.  The _Bar30_ has a built-in 3.3 V converter for power, so it can accept power anywhere from 3.3 V to 5.5 V.  The _Level Converter_ can also be used to supply 3.3 V power from a 5 V source: see the _Level Converter's_ documentation for details.
+
+Most 3.3 V devices do not tolerate higher voltages, so directly connecting the pins on an Arduino Uno to a such a device may fry your device.  Some 3.3 V devices are 5 V-tolerant, meaning they will still function after being connected to 5 V logic, but they will not necessarily be able to communicate with a microcontroller with 5 V logic.
+
+## Parts
+
+* 1x Arduino microcontroller (This tutorial uses an Arduino Uno)
+* 1x [_Bar30_](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/bar30-sensor-r1/) pressure sensor
+* 1x [_Level Converter_](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/level-converter-r1/)
+* 4x Breadboard Jumpers: M/F
+
+## Tools
+
+* Soldering iron and solder (if you have not already soldered the header pins to the _Level Converter_)
+
+
+# Instructions
+
+1. Connect the _Bar30_ to the _Level Converter_ using the DF-13 connector.
+
+2. Connect the +5V and GND pins on the _Level Converter_ to the 5V and GND pins on the Arduino using two jumper wires.  Make sure you are connecting to the _Level Converter_ pins on the far side from the DF-13 connector.
+
+3. As with the power in the previous step, connect the SDA and SCL pins on the same side of the _Level Converter_ as you connected the power to the SDA and SCL pins on the Arduino.  See the table below for the pin assignments for SDA and SCL on a few common Arduino boards.
+|     Board     | SDA | SCL |
+|---------------|-----|-----|
+| Arduino Uno   | A4  | A5  |
+| Arduino Mega  | 20  | 19  |
+
+4. Download the BlueRobotics MS5837 Library
+  - via Library Manager:
+    - open the Library Manager and search for "BlueRobotics MS5837"
+    - click "Install"
+  - via GitHub:
+    - download the library in zip format from: https://github.com/bluerobotics/BlueRobotics_MS5837_Library
+    - unzip the library and place the folder in your Arduino/libraries folder
+
+5. Open the example code.  You may need to restart the Arduino IDE to see it.
+
+6. Upload your code to the Arduino.
+
+7. Open the Serial Monitor, making sure the Baud rate is set to 9600.
+
+8. That's it!  You should see pressure, depth, and temperature data being printed to the Serial Monitor.  If not, check the Troubleshooting section below.
+
+# Troubleshooting
+
+## I can't communicate with my _Bar30_
+
+* Make sure the _Bar30_ is receiving power.  Check the _Level Converter's_ voltage selection jumper pads.
+* Check your SCL and SDA connections.  Reversing them will not damage the sensor or microcontroller
+* Check your jumpers for continuity.  Some cheap jumper cables have terrible electrical connections.
+
+## The values I'm seeing are way off
+
+* Make sure you are using the correct model sensor in your code.  Code interfacing with a _Bar30_ should contain the following line for sensor initialization:
+```
+sensor.setModel(MS5837::MS5837_30BA);
+```
+If your code sets the model as `MS5837::MS5837_02BA`, the library will assume it is communicating with a [_Bar02_](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/bar02-sensor-r1-rp/) pressure sensor and will incorrectly interpret the incoming pressure data, resulting in absurd pressure and depth "measurements".
