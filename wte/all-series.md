@@ -5,10 +5,6 @@ permalink: /watertight-enclosures/
 nav:
 - Introduction: introduction
 - - Important Notes: important-notes
-- Specs (2" Series): specifications-2-series
-- - Specification Table: specification-table-2-series
-- - 2D Drawings: 2d-drawings-2-series
-- - 3D Models: 3d-models-2-series
 - Specs (3" Series): specifications-3-series
 - - Specification Table: specification-table-3-series
 - - 2D Drawings: 2d-drawings-3-series
@@ -49,68 +45,6 @@ Most threadlockers are not chemically compatible with with polycarbonate, and wi
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 Only clean the dome and acrylic tubes with acrylic specific cleaner or plain water. Solvents, alcohol and other cleaners will craze and damage the material.
-
-# Specifications: (2" Series)
-
-<img src="/assets/images/documentation/2-series-side.png" class="img-responsive img-center" style="max-width:600px" /> 
-
-## Specification Table (2" Series)
-
-| ----------------------------------- | ----------------------------- |
-|                          **2" Series Enclosure**                    |
-| ----------------------------------- | ----------------------------- |
-| Maximum Depth Rating (Acrylic Tube)      | 330 ft        | 100 m         |
-| Maximum Depth Rating (Aluminum Tube)     | 3280 ft       | 1000 m        |
-| Maximum Depth Rating (Dome)              | 3280 ft       | 1000 m        |
-| Maximum Tested Depth (Acrylic Tube) (failure)      | 660 ft        | 200 m         |
-| Maximum Tested Depth (Aluminum Tube)     | 3280 ft       | 1000 m        |
-| Maximum Tested Depth (Dome)         | 3280 ft       | 1000 m        |
-| [Failure Depth](https://youtu.be/1rX_jH3785I) (for 12" length acrylic)      | 660 ft        | 200 m         |
-| Maximum External Pressure Rating    | 146 psi       | 1000 kPa      |
-| Weight in Air (12" Length)          | 1.1 lb        | 500 g         |
-| Weight in Water (Freshwater)        | -0.72 lb      | -326 g        |
-| Displacement                        | 50.3 in^3     | 825 cm^3      |
-| Tube Inner Diameter                 | 2 in          | 50.8 mm       |
-| Tube Outer Diameter                 | 2.25 in       | 57.2 mm       |
-| Tube Thickness                      | 0.125 in      | 3.2 mm        |
-| End Cap Thickness                   | 0.24 in       | 6.0 mm        |
-| Aluminum Flange Inner Diameter      | 1.5 in        | 38 mm         |
-| Total Length                        | 12.7 in       | 322 mm        |
-| Radial Seal O-ring (2 used)         | AS568-133, Buna-N             |
-| Face Seal O-ring (1 used)           | AS568-030, Buna-N             |
-| End Cap Screws                      | M2x10 (Stainless Steel 316)   |
-| Inner Mounting Holes                | M3 threading                  |
-
-## 2D Drawings (2" Series)
-
-| -----------------------------------------------------------------------------------------------------------------------------------------------|
-|               **2" Series Enclosure**                                                                                                          |
-| -----------------------------------------------------------------------------------------------------------------------------------------------|
-| Assembly                             | [WTE2-ASM-R1 Drawing](/assets/images/WTE/drawings/WTE2/WTE2-ASM-2-R1.png)                                                        |
-| Aluminum O-ring Flange               | [WTE2-M-FLANGE-SEAL-R2 Drawing](/assets/images/WTE/drawings/WTE2/WTE2-M-FLANGE-SEAL-R2.png)               |
-| Plain Solid End Cap			       | [WTE2-P-END-CAP-R1 Drawing](/assets/images/WTE/drawings/WTE2/WTE2-SIMPLE-END-CAP-R1.png)                       |
-| End Cap with 2 x 10mm Holes          | [WTE2-P-END-CAP-2X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE2/WTE2-P-END-CAP-2-2X10MM-R1.png)         |
-| Dome End Cap                         | [WTE2-ASM-DOME-R1 Drawing](/wte/cad/WTE2-ASM-DOME-R1.PNG)                                               |
-
-## 3D Models (2" Series)
-
-All 3D models are provided in zip archives containing the follow file types:
-
-- SolidWorks Part (.sldprt)
-- IGES (.igs) 
-- STEP (.step)
-- STL (.stl)
-
-| -----------------------------------------------------------------------------------------------------------------------------------------------|
-|               **2" Series Enclosure**                                                                                                          |
-| -----------------------------------------------------------------------------------------------------------------------------------------------|
-| Assembly Model                       | [WTE2-ASM-R1.zip](http://www.bluerobotics.com/models/WTE2-ASM-R1.zip)                                   |
-| Tube (Standard 11.75", 298mm length) | [WTE2-P-TUBE-12-R1.zip](http://www.bluerobotics.com/models/WTE2-P-TUBE-12-R1.zip)                       |
-| Aluminum O-ring Flange               | [WTE2-M-FLANGE-SEAL-R2.zip](http://www.bluerobotics.com/models/WTE2-M-FLANGE-SEAL-R2.zip)               |
-| Plain Solid End Cap			       | [WTE2-P-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE2-P-END-CAP-R1.zip)                       |
-| End Cap with 2 x 10mm Holes          | [WTE2-P-END-CAP-2X10MM-R1.zip](http://www.bluerobotics.com/models/WTE2-P-END-CAP-2X10MM-R1.zip)         |
-| Dome End Cap                         | [WTE2-ASM-DOME-R1.zip](/wte/cad/WTE2-ASM-DOME-R1.zip)                                                   |
-
 
 # Specifications: 3" Series
 
