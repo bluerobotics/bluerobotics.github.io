@@ -1,13 +1,8 @@
 ---
 layout: default
-title: Fathom Spool Documentation
+title: Fathom Spool Assembly Tutorial
 order: 1
 nav:
-- Introduction: introduction
-- Specifications: specifications
-- - Specification Table: specification-table
-- - 2D Drawings: #2d-drawings
-- - 3D Model: #3d-model
 - Assembly: assembly
 - - Introduction: introduction
 - - Safety: safety
@@ -37,57 +32,6 @@ manual-links:
 
 <img src="/spool/cad/IMG_1083_banner.png" class="img-responsive img-center" style="max-width:800px"  />
 
-# Introduction
-
-The <em>Fathom Spool</em> is a rugged and easy to use tether spool for the <em>Fathom</em> and <em>Fathom Slim</em> ROV tethers. With an integrated slip ring, adjustable drag brake and secure locking cable connectors, it's quick to set up and use in a variety of conditions. Full IP67 water resistance means water splashes are no problem, and a reversible locking handle makes it easy to transport. The <em>Fathom Spool</em> is available in two configurations- a standard width version capable of storing up to 150m of <em>Fathom</em> ROV tether, and a double wide large version capable of storing up to 300m.
-
-Assemble the <em>Fathom Spool</em> according to the following steps, and you can spool and unspool long lengths of tether with ease. Two nylon brake screws in the side panels can be tightened or loosened to adjust the rolling resistance of the <em>Fathom Spool</em> as desired. The handle can be removed and installed in reverse with the alternate mounting cutouts to lock the spool in place and keep the handle tucked away for each transportation. Cable management cutouts on the side panels can be used to secure the free end of the tether.
-
-# Specifications
-
-## Specification Table
-
-|  **Physical**  |
-| ------------- | --------- |
-| Length | 366 mm | 14.41 in |
-| Width (Standard) | 350 mm | 13.78 in |
-| Width (Large) | 534 mm | 21.02 in |
-| Height | 349 mm | 13.74 in |
-| Weight (Standard) | 2.22Kg | 4.89 lbs |
-| Weight (Large) | 2.89 Kg | 6.38 lbs |
-| Maximum <em>Fathom</em> Tether Length (Standard)| 150 m | 492 ft  |
-| Maximum <em>Fathom Slim</em> Tether Length (Standard)| 540 m | 1772 ft |
-| Maximum <em>Fathom</em> Tether Length (Large)| 300 m | 984 ft |
-| Maximum <em>Fathom Slim</em> Tether Length (Large)| 1080 m |3543 ft |
-| Dust and Water Resistance| IP67 |
-| Included Cable to <em>FXTI</em> Topside Box| 8 m | 26.25 ft |
-|----------------------|
-
-
-## 2D Drawings
-
-### Fathom Spool (Standard)
-
-<img src="/spool/cad/fathom-spool-dimensions-standard.PNG" class="img-responsive img-center" style="max-width:800px" />
-
-### Fathom Spool (Large)
-
-<img src="/spool/cad/fathom-spool-dimensions-large.PNG" class="img-responsive img-center" style="max-width:800px" />
-
-## 3D Model
-
-All 3D models are available on GrabCAD in the following file types:
-
-- SolidWorks Part (.sldprt)
-- IGES (.igs) 
-- STEP (.step)
-- STL (.stl)
-
-|		**Fathom Spool**																						|
-| --------------------------------------------------------------------------------------------- |
-| [Fathom Spool (Standard)](https://grabcad.com/library/blue-robotics-fathom-spool-standard-1) |
-| [Fathom Spool (Large)](https://grabcad.com/library/blue-robotics-fathom-spool-large-1)|
-
 # Assembly
 
 ## Introduction
@@ -112,63 +56,7 @@ The <em>Fathom Spool</em> kit comes flat packed and requires about one hour of a
 
 ## What's Included
 
-### Standard
-
-Quantity      | Part														| Usage
-------------- | ------------------------------------------------------------| ----------------------
-2             | Frame side panel (1/2" thick black HDPE)        			|    
-2             | Spool flange (1/4" thick black HDPE)           		        |     	       
-1             | Crank Hub (black anodized aluminum)                      	|  
-1             | Slip ring cap flange (blue anodized aluminum)             	|
-1             | Crank arm (4" Series) (black anodized aluminum)  	        | 
-1 			  | Crank Handle (black plastic)                                |      
-6             | Spool standoff (blue anodized aluminum, standard or large)  | 
-1             | Frame handle (blue anodized aluminum, standard or large)    |                          
-2             | Frame feet (black anodized aluminum, standard or large)	    | 
-1             | Slip ring core (black anodized aluminum assembly)      		|    
-1             | 8m tether extension cable (yellow)           		        |     	       
-1             | Crank arm thumbscrew (black anodized aluminum)             	|  
-6             | Foot bumper (black rubber)                                	|
-2             | 8" Velcro cable tie                                       	| Tether extension cable storage
-1             | Black plastic plug 	                                        | 
-2 			  | 1/4-20 Black nylon thumbscrew                               | Spool braking        
-3             | White nylon cable clamps                                    | Spool tether clamping
-20            | M5x12 button head cap screw (316 stainless steel)           | Spool flange construction                          
-3             | 8-1/4" thread forming screw	(316 stainless steel)           | Cable clamp mounting 
-4             | M3x6 button head cap screw	(316 stainless steel)	        | Slip ring cap flange retention 
-4 			  | 4-5/8" thread forming screw	(316 stainless steel)           | Slip ring cap flange retention        
-14            | M4x20 button head cap screw	(316 stainless steel)           | Frame construction
-4             | M4x10 button head cap screw (316 stainless steel)           | Foot bumper mounting
-
-### Large
-
-Quantity      | Part														| Usage
-------------- | ------------------------------------------------------------| ----------------------
-2             | Spool stiffening ring (blue anodized aluminum)       		| Supporting spool flange
-2             | Frame side panel (1/2" thick black HDPE)        			|    
-2             | Spool flange (1/4" thick black HDPE)           		        |     	       
-1             | Crank Hub (black anodized aluminum)                      	|  
-1             | Slip ring cap flange (blue anodized aluminum)             	|
-1             | Crank arm (4" Series) (black anodized aluminum)  	        | 
-1 			  | Crank Handle (black plastic)                                |      
-6             | Spool standoff (blue anodized aluminum, standard or large)  | 
-1             | Frame handle (blue anodized aluminum, standard or large)    |                          
-2             | Frame feet (black anodized aluminum, standard or large)	    | 
-1             | Slip ring core (black anodized aluminum assembly)      		|    
-1             | 8m tether extension cable (yellow)           		        |     	       
-1             | Crank arm thumbscrew (black anodized aluminum)             	|  
-6             | Foot bumper (black rubber)                                	|
-2             | 8" Velcro cable tie                                       	| Tether extension cable storage
-1             | Black plastic plug 	                                        | 
-2 			  | 1/4-20 Black nylon thumbscrew                               | Spool braking        
-3             | White nylon cable clamps                                    | Spool tether clamping
-8             | M5x12 button head cap screw (316 stainless steel)           | Spool flange construction                          
-12            | M5x16 button head cap screw	(316 stainless steel)           | Spool flange construction 
-3             | 8-1/2" thread forming screw	(316 stainless steel)     	    | Cable clamp mounting 
-4             | M3x6 button head cap screw	(316 stainless steel)	        | Slip ring cap flange retention 
-4 			  | 4-5/8" thread forming screw	(316 stainless steel)           | Slip ring cap flange retention        
-14            | M4x20 button head cap screw	(316 stainless steel)           | Frame construction
-6             | M4x10 button head cap screw (316 stainless steel)           | Foot bumper mounting
+For a detailed bill of materials, please see the "Contents" tab of the [product page here](https://www.bluerobotics.com/store/cables-connectors/tether-management/tms-asm-spool-r1-rp/).
 
 
 ## Required Thread Locker Application
