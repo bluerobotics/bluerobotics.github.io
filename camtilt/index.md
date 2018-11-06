@@ -75,10 +75,6 @@ The _Camera Tilt System_ is a tilting camera mount which works seamlessly with t
 
 <img src="/camtilt/cad/CAMTILT-ANALOG-MOUNT-R1.png" class="img-responsive img-center" style="max-width:600px"  />
 
-### Raspberry Pi Camera Mount
-
-<img src="/camtilt/cad/CAMTILT-RASBPI2-CAMERA-MOUNT-R1.png" class="img-responsive img-center" style="max-width:600px"  />
-
 ## 3D Model
 
 All 3D models are provided in zip archives containing the follow file types:
@@ -93,7 +89,6 @@ All 3D models are provided in zip archives containing the follow file types:
 | Servo Mount                          | [CAMTILT-SERVO-MOUNT-R3.zip](cad/CAMTILT-P-SERVO-MOUNT-R3.zip)       |
 | Servo - HS-5055MG                    | [HS-5055MG Servo](cad/HS-5055MG.zip) |
 | Analog Camera Mount   	           | [CAMTILT-ANALOG-MOUNT-R2.zip](cad/CAMTILT-ANALOG-MOUNT-R2.zip)	      |
-| Wide Angle Raspberry Pi Camera Mount | [CAMTILT-RASPI2-CAMERA-MOUNT-R1.zip](cad/CAMTILT-RASPI2-CAMERA-MOUNT-R1.zip) |
 | Low Light HD USB Camera Mount | [CAMTILT-LOW-LIGHT-HD-USB-R7.zip](cad/CAMTILT-P-LOW-LIGHT-HD-USB-R7.zip) |
 
 ## 3D Printer Settings
