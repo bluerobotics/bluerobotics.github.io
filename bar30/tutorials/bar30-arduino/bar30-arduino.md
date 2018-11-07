@@ -1,15 +1,14 @@
 ---
 layout: default
 title: Using the Bar30 with an Arduino
-permalink: /tutorials/changing-the-propeller/
+permalink: /bar30/bar30-arduino/
 order: 1
 nav:
 - Introduction: introduction
-- Video Tutorial: video-tutorial
 - Instructions: instructions
+- Troubleshooting: troubleshooting
 ---
-<img src="/assets/images/tutorials/changing-a-propeller/all-propellers.png" class="img-responsive img-center" style="max-width:500px" />
-
+<img src="/bar30/tutorials/bar30-arduino/full-setup.jpg" class="img-responsive img-center" style="max-width:800px" />
 # Introduction
 
 The [_Bar30_](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/bar30-sensor-r1/) pressure sensor is a pressure sensor designed to be used underwater at pressures up to 30 bar, or around 300 meters depth in water.  It communicates  via I<sup>2</sup>C and comes with a 4-pin DF-13 connector that is compatible with the [Pixhawk](https://bluerobotics.com/store/comm-control-power/elec-packages/pixhawk-r1-rp/) autopilot, the [_Level Converter_](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/level-converter-r1/) and other microcontrollers.
@@ -22,6 +21,8 @@ Most 3.3 V devices do not tolerate higher voltages, so directly connecting the p
 
 ## Parts
 
+<img src="/bar30/tutorials/bar30-arduino/parts-list.jpg" class="img-responsive img-center" style="max-width:800px" />
+
 * 1x Arduino microcontroller (This tutorial uses an Arduino Uno)
 * 1x [_Bar30_](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/bar30-sensor-r1/) pressure sensor
 * 1x [_Level Converter_](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/level-converter-r1/)
@@ -30,35 +31,42 @@ Most 3.3 V devices do not tolerate higher voltages, so directly connecting the p
 ## Tools
 
 * Soldering iron and solder (if you have not already soldered the header pins to the _Level Converter_)
+* USB A to B cable (for connecting to your Arduino board)
 
 
 # Instructions
 
 1. Connect the _Bar30_ to the _Level Converter_ using the DF-13 connector.
+    <img src="/bar30/tutorials/bar30-arduino/level-converter-df-13.jpg" class="img-responsive img-center" style="max-width:800px" />
 
-2. Connect the +5V and GND pins on the _Level Converter_ to the 5V and GND pins on the Arduino using two jumper wires.  Make sure you are connecting to the _Level Converter_ pins on the far side from the DF-13 connector.
+2. Connect the +5V, SDA, SCL, and GND pins on the _Level Converter_ to the 5V and GND pins on the Arduino using four jumper wires.  Make sure you are connecting to the _Level Converter_ pins on the far side from the DF-13 connector.  See the table below for the pin assignments for SDA and SCL on a few common Arduino boards.
 
-3. As with the power in the previous step, connect the SDA and SCL pins on the same side of the _Level Converter_ as you connected the power to the SDA and SCL pins on the Arduino.  See the table below for the pin assignments for SDA and SCL on a few common Arduino boards.
-|     Board     | SDA | SCL |
-|---------------|-----|-----|
-| Arduino Uno   | A4  | A5  |
-| Arduino Mega  | 20  | 19  |
+    |     Board     | SDA | SCL |
+    |---------------|:---:|:---:|
+    | Arduino Uno   | A4  | A5  |
+    | Arduino Mega  | 20  | 19  |
 
-4. Download the BlueRobotics MS5837 Library
-  - via Library Manager:
-    - open the Library Manager and search for "BlueRobotics MS5837"
-    - click "Install"
-  - via GitHub:
-    - download the library in zip format from: https://github.com/bluerobotics/BlueRobotics_MS5837_Library
-    - unzip the library and place the folder in your Arduino/libraries folder
+    <img src="/bar30/tutorials/bar30-arduino/level-converter-jumper-pins.jpg" class="img-responsive img-center" style="max-width:800px" /> <img src="/bar30/tutorials/bar30-arduino/arduino-jumper-pins.jpg" class="img-responsive img-center" style="max-width:800px" />
 
-5. Open the example code.  You may need to restart the Arduino IDE to see it.
+3. Download the BlueRobotics MS5837 Library
+   - via Library Manager (Sketch-->Include Library-->Manage Libraries):
+     - open the Library Manager and search for "BlueRobotics MS5837"
+      <img src="/bar30/tutorials/bar30-arduino/library-manager-br-library.png" class="img-responsive img-center" style="max-width:800px" />
+     - click "Install"
 
-6. Upload your code to the Arduino.
+   - via GitHub:
+     - download the library in zip format from: https://github.com/bluerobotics/BlueRobotics_MS5837_Library
+     - unzip the library and place the folder in your Arduino/libraries folder
 
-7. Open the Serial Monitor, making sure the Baud rate is set to 9600.
+4. Open the example code.  You may need to restart the Arduino IDE to see it.
+    <img src="/bar30/tutorials/bar30-arduino/examples-list.png" class="img-responsive img-center" style="max-width:800px" />
 
-8. That's it!  You should see pressure, depth, and temperature data being printed to the Serial Monitor.  If not, check the Troubleshooting section below.
+5. Upload your code to the Arduino.
+
+6. Open the Serial Monitor, making sure the Baud rate is set to 9600.
+    <img src="/bar30/tutorials/bar30-arduino/serial-output.png" class="img-responsive img-center" style="max-width:800px" />
+
+7. That's it!  You should see pressure, depth, and temperature data being printed to the Serial Monitor.  If not, check the Troubleshooting section below.
 
 # Troubleshooting
 
