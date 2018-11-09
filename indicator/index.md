@@ -3,11 +3,6 @@ layout: default
 title: Subsea LED Indicator Light
 nav:
 - Introduction: introduction
-- - Quick Start: quick-start
-- Specifications: specifications
-- - Specification Table: specification-table
-- - 2D Drawings: 2d-drawings
-- - 3D Model: 3d-model
 - Installation: installation
 - Example Code: example-code
 - - Arduino: arduino
@@ -25,54 +20,6 @@ manual-links:
 # Introduction
 
 The Subsea LED Indicator is a simple LED light with high pressure capability! It comes in a penetrator form factor for easy installation on any of our Watertight Enclosures and it comes in four colors: white, blue, green, and red! It operates on 3-20v and each light draws up to 30mA when used at 20v. A built-in resistor makes it easy to use without any additional parts.
-
-## Quick Start
-
-1. Connect the wires to a power source
-  - White/Red/Green/Blue Wire: +3-20 volts (DC)
-  - Black Wire: Ground
-
-# Specifications
-
-## Specification Table
-
-|      **Electrical**       |
-| ------------- | --------- |
-| **Item** | **Value** |
-| Supply Voltage (V<sub>in</sub>) | 3 - 20 volts (DC) |
-| Max Current | TBD mA |
-| ------------- | --------- |
-|   **Light**    |
-|--------------|--------------|
-| Maximum Brightness | TBD mcd |
-|  **Cable and Connectors**  |
-| Cable Length | 180 mm | 7 in |
-| Connectors | Single 0.1" Male Header Pins |
-| Wires | Black - Ground |
-| | White/Red/Green/Blue - Power |
-|  **Physical**  |
-| ------------|-------------------------|
-| Pressure Rating | TBD m | TBD ft |
-| Mounting Hole Diameter | 10 mm | 0.40 in |
-|----------------------|
-
-## 2D Drawings
-
-<img src="INDICATOR10-DWG-R1.png" class="img-responsive" style="max-width:900px"  />
-
-## 3D Model
-
-All 3D models are provided in zip archives containing the follow file types:
-
-- SolidWorks Part (.sldprt)
-- IGES (.igs) 
-- STEP (.step)
-- STL (.stl)
-
-|		**Lumen Light**																			|
-| --------------------------------------------------------------------------------------------- |
-| Indicator Assembly      | [INDICATOR10-ASM-R1.zip](INDICATOR10-ASM-R1.zip)    |
-| Cable Penetrator Nut    | PENETRATOR-NUT-10-A-R2.zip [Coming Soon] 
 
 # Installation
 
