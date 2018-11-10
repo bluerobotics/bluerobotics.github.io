@@ -4,11 +4,6 @@ title: Camera Tilt System
 order: 1
 nav:
 - Introduction: introduction
-- - Quick Start 
-- Specifications: specifications
-- - Specification Table: specification-table
-- - 2D Drawings: 2d-drawings
-- - 3D Model: 3d-model
 - - 3D Printer Settings: 3d-printer-settings
 - Assembly: assembly
 - - Low-Light HD USB Camera: low-light-hd-usb-camera
@@ -31,65 +26,6 @@ manual-links:
 ---
 
 <img src="/camtilt/cad/camtilt-headline-pic3.png" class="img-responsive img-center" style="max-width:600px"  />
-
-# Introduction
-
-The _Camera Tilt System_ is a tilting camera mount which works seamlessly with the [Watertight Enclosure for ROV/AUV (4" Series)](https://www.bluerobotics.com/store/watertight-enclosures/wte4-asm-r1/) and the [Electronics Tray (4" Series)](https://www.bluerobotics.com/store/watertight-enclosures/4-series/electronics-tray-2). The tilting servo is the high-quality digital HS-5055MG servo with metal gears. The camera mounts are compatible with our [Low-Light HD USB Camera](https://bluerobotics.com/store/electronics/cam-usb-low-light-r1/), [Raspberry Pi Camera w/ Wide Angle Lens](https://www.bluerobotics.com/store/electronics/cam-rpi-wide-r1/), and our [Low-Light Analog Camera](https://www.bluerobotics.com/store/electronics/low-light-ntsc-camera/). We have also made the 3D CAD files freely available so that you can modify them to fit your camera or servo! 
-
-# Specifications
-
-[Hitec Product Page - HS-5055mg](http://hitecrcd.com/products/servos/micro-and-mini-servos/digital-micro-and-mini-servos/hs-5055mg-economy-metal-gear-feather-servo/product)
-
-
-## Specification Table
-
-| **Servo Specifications** |
-|               |  **Parameter**       |
-| ------------- | --------- |
-| **Control Signal**       | Standard 3-5V Pulse Width Control          |
-|                          | 1500 &mu;s - neutral (+/- 1&mu;s deadband) |
-|                          | 1100 &mu;s - 45&deg; counter-clockwise     |
-|                          | 1900 &mu;s - 45&deg; clockwise            |
-| **Speed**                | 0.20 sec/60&deg; at 4.8V                   |
-|                          | 0.17 sec/60&deg; at 6.0V                   |
-| **Torque**               | 18.05 oz/in @ 4.8V | 1.3 kg/cm @ 4.8V      |
-|                          | 22.2 oz/in @ 6.0V  | 1.6 kg/cm @ 6.0V      |
-| **Dimensions**           | 0.89" x 0.451" x 0.94" | 22.8 x 11.6 x 24mm |
-| **Weight**               | 0.33oz | 9.5g |
-| **Electrical Connector** | 3-pin female (0.1" pitch) |
-| **Cable Length**         | 7in | 178mm |
-| **Idle Current @ 6.0V**  | 3mA |
-
-
-## 2D Drawings
-
-### Servo Mount
-
-<img src="/camtilt/cad/CAMTILT-P-SERVO-MOUNT-R3.png" class="img-responsive img-center" style="max-width:600px"  />
-
-### HD USB Camera Mount
-
-<img src="/camtilt/cad/CAMTILT-P-LOW-LIGHT-HD-USB-R7.png" class="img-responsive img-center" style="max-width:600px"  />
-
-### Analog Camera Mount
-
-<img src="/camtilt/cad/CAMTILT-ANALOG-MOUNT-R1.png" class="img-responsive img-center" style="max-width:600px"  />
-
-## 3D Model
-
-All 3D models are provided in zip archives containing the follow file types:
-
-- SolidWorks Part (.sldprt)
-- IGES (.igs) 
-- STEP (.step)
-- STL (.stl)
-
-|		**Camtilt 3D Files**															                      |
-| ----------------------------------------------------------------------------------------------------------- |
-| Servo Mount                          | [CAMTILT-SERVO-MOUNT-R3.zip](cad/CAMTILT-P-SERVO-MOUNT-R3.zip)       |
-| Servo - HS-5055MG                    | [HS-5055MG Servo](cad/HS-5055MG.zip) |
-| Analog Camera Mount   	           | [CAMTILT-ANALOG-MOUNT-R2.zip](cad/CAMTILT-ANALOG-MOUNT-R2.zip)	      |
-| Low Light HD USB Camera Mount | [CAMTILT-LOW-LIGHT-HD-USB-R7.zip](cad/CAMTILT-P-LOW-LIGHT-HD-USB-R7.zip) |
 
 ## 3D Printer Settings
 
