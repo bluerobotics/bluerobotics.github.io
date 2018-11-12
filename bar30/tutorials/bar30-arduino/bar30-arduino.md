@@ -7,6 +7,11 @@ nav:
 - Introduction: introduction
 - Instructions: instructions
 - Troubleshooting: troubleshooting
+
+store-links:
+- Bar30 Pressure Sensor: https://www.bluerobotics.com/store/electronics/bar30-sensor-r1/
+- I2C Level Converter: https://www.bluerobotics.com/store/electronics/level-converter-r1/
+
 ---
 <img src="/bar30/tutorials/bar30-arduino/full-setup.jpg" class="img-responsive img-center" style="max-width:800px" />
 # Introduction
@@ -15,7 +20,7 @@ The [_Bar30_](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/bar3
 
 Using a _Bar30_ with most Arduino (including the Uno, Mega, Micro and Nano) and other 5 V microcontrollers requires an I<sup>2</sup>C logic level converter to communicate with a 3.3 V device such as the _Bar30_.  Note that some Arduino and other microcontrollers which run at 3.3 V (including Raspberry Pis and the Pixhawk autopilot) do not require a logic level converter.  Always make sure to check what voltage your microcontroller or computer uses before wiring up a sensor.
 
-Note that the voltages being discussed here are the _logic_ voltage levels, that is, what the I<sup>2</sup>C pins will be experiencing.  This is typically the same voltage at which the device runs, but not necessarily the voltage of the input power supply.  The _Bar30_ has a built-in 3.3 V converter for power, so it can accept power anywhere from 3.3 V to 5.5 V.  The _Level Converter_ can also be used to supply 3.3 V power from a 5 V source: see the _Level Converter's_ documentation for details.
+Note that the voltages being discussed here are the _logic_ voltage levels, that is, what the I<sup>2</sup>C pins will be experiencing.  This is typically the same voltage at which the device runs, but not necessarily the voltage of the input power supply.  The _Bar30_ has a built-in 3.3 V converter for power, so it can accept power anywhere from 3.3 V to 5.5 V.  The _Level Converter_ can also be used to supply 3.3 V power from a 5 V source: in this tutorial it is assumed that your _Level Converter_ is set up to provide _either_ 3.3 V _or_ 5 V to the sensor.  It is also assumed that both sets of header pins have been soldered to the _Level Converter_.  See the _Level Converter's_ [store page](https://www.bluerobotics.com/store/electronics/level-converter-r1/#tab-learn) for details.
 
 Most 3.3 V devices do not tolerate higher voltages, so directly connecting the pins on an Arduino Uno to a such a device may fry your device.  Some 3.3 V devices are 5 V-tolerant, meaning they will still function after being connected to 5 V logic, but they will not necessarily be able to communicate with a microcontroller with 5 V logic.
 
@@ -30,21 +35,25 @@ Most 3.3 V devices do not tolerate higher voltages, so directly connecting the p
 
 ## Tools
 
-* Soldering iron and solder (if you have not already soldered the header pins to the _Level Converter_)
 * USB A to B cable (for connecting to your Arduino board)
 
 
 # Instructions
 
 1. Connect the _Bar30_ to the _Level Converter_ using the DF-13 connector.
+
+    If your _Level Converter_ does not have the header pins soldered on as shown, you will need to solder them on yourself for the following step.  Please see the _Level Converter's_ [store page](https://www.bluerobotics.com/store/electronics/level-converter-r1/#tab-learn) for details.
+
     <img src="/bar30/tutorials/bar30-arduino/level-converter-df-13.jpg" class="img-responsive img-center" style="max-width:800px" />
 
-2. Connect the +5V, SDA, SCL, and GND pins on the _Level Converter_ to the 5V and GND pins on the Arduino using four jumper wires.  Make sure you are connecting to the _Level Converter_ pins on the far side from the DF-13 connector.  See the table below for the pin assignments for SDA and SCL on a few common Arduino boards.
+2. Connect the +5V, SDA, SCL, and GND pins on the _Level Converter_ to the 5V, SDA, SCL, and GND pins on the Arduino using four jumper wires.  Make sure you are connecting to the _Level Converter_ pins on the far side from the DF-13 connector.  See the table below for the pin assignments for SDA and SCL on a few common Arduino boards.
 
     |     Board     | SDA | SCL |
     |---------------|:---:|:---:|
     | Arduino Uno   | A4  | A5  |
     | Arduino Mega  | 20  | 19  |
+
+    Make sure the _Level Converter's_ +5V pin is connected to the Arduino's 5V pin and _not_ the 3.3V pin.  Although the _Bar30_ is a 3.3 V device which can be powered at either 3.3 V or 5 V, the _Level Converter_ is a 5 V device and as such requires a 5 V supply.
 
     <img src="/bar30/tutorials/bar30-arduino/level-converter-jumper-pins.jpg" class="img-responsive img-center" style="max-width:800px" /> <img src="/bar30/tutorials/bar30-arduino/arduino-jumper-pins.jpg" class="img-responsive img-center" style="max-width:800px" />
 
@@ -72,8 +81,8 @@ Most 3.3 V devices do not tolerate higher voltages, so directly connecting the p
 
 ## I can't communicate with my _Bar30_
 
-* Make sure the _Bar30_ is receiving power.  Check the _Level Converter's_ voltage selection jumper pads.
-* Check your SCL and SDA connections.  Reversing them will not damage the sensor or microcontroller
+* Make sure the _Bar30_ is receiving power.  Check the _Level Converter's_ voltage selection jumper pads.  Either 3.3 V or 5 V will work (5 V is recommended).  See the _Level Converter's_ [store page](https://www.bluerobotics.com/store/electronics/level-converter-r1/#tab-learn_ for details.
+* Check your SCL and SDA connections.  Try swapping the two jumpers: reversing them will not damage the sensor or microcontroller.
 * Check your jumpers for continuity.  Some cheap jumper cables have terrible electrical connections.
 
 ## The values I'm seeing are way off
