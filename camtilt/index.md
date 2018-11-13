@@ -3,8 +3,7 @@ layout: default
 title: Camera Tilt System
 order: 1
 nav:
-- Introduction: introduction
-- - 3D Printer Settings: 3d-printer-settings
+- 3D Printer Settings: 3d-printer-settings
 - Assembly: assembly
 - - Low-Light HD USB Camera: low-light-hd-usb-camera
 - - Raspberry Pi Camera: raspberry-pi-camera
@@ -27,7 +26,7 @@ manual-links:
 
 <img src="/camtilt/cad/camtilt-headline-pic3.png" class="img-responsive img-center" style="max-width:600px"  />
 
-## 3D Printer Settings
+# 3D Printer Settings
 
 Here are the printer settings that we used with a Lulzbot Taz 5 3D printer and Simplify3D slicing software.
 
