@@ -5,10 +5,6 @@ permalink: /watertight-enclosures/
 nav:
 - Introduction: introduction
 - - Important Notes: important-notes
-- Specs (3" Series): specifications-3-series
-- - Specification Table: specification-table-3-series
-- - 2D Drawings: 2d-drawings-3-series
-- - 3D Models: 3d-models-3-series
 - Assembly: assembly
 - - Video Tutorial: video-tutorial
 - - Steps: steps

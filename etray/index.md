@@ -4,10 +4,6 @@ title: Electronics Tray
 order: 1
 nav:
 - Introduction: introduction
-- Features: features
-- - Specifications: specifications
-- - 2D Drawings: 2d-drawings
-- - 3D Model: 3d-model
 - Assembly: assembly
 - - Diagram of the Tray: diagram-of-the-tray
 - - Assembling the Tray: assembling-the-electronics-tray
@@ -28,40 +24,6 @@ manual-links:
 # Introduction
 
 The _Electronics Tray_ is a convenient new way to mount your underwater electronics in a 4" watertight enclosure. We designed this tray to make installing and working on your electronics as easy as possible. The _Electronics Tray_ mounts to a 4" Watertight Enclosure O-ring Flange, so you don't need any tools to access your electronics.
-
-# Features
-
-## Specifications
-
-- 5mm thick machined ABS panels
-- Hard anodized aluminum standoffs 
-- Convenient cable routing slots and holes
-- Mounting Locations for:
-	- Up to 6 [Basic 30A ESCs](https://www.bluerobotics.com/store/speed-controllers/besc-30-r1/)	
-	- 1 [3DR PixHawk autopilot](https://www.bluerobotics.com/store/electronics/pixhawk-r1/) 
-	- 1 [Blue Robotics Tether Board](https://www.bluerobotics.com/product-category/electronics/tether-interface/)
-	- 1 [BeagleBone Black](https://beagleboard.org/black) or [Raspberry Pi 2/3](https://www.bluerobotics.com/store/electronics/rpi3-r1/)
-	- 1 [Blue Robotics Camtilt](https://www.bluerobotics.com/store/uncategorized/camera-tilt-mount/)
-	- 2 [8-Circuit Barrier Block](http://www.digikey.com/product-search/en?keywords=wm5765-nd) 
-	- 2 [9-Circuit Eurostyle Terminal Strip](http://www.alliedelec.com/m/d/51da743e94f770c045f4103843fbb9bb.pdf)
-
-## 2D Drawings
-
-<img src="/etray/cad/ASSEM-ETRAY-X1.png" class="img-responsive" style="max-width:900px" />
-
-## 3D Model
-
-All 3D models are provided in zip archives containing the follow file types:
-
-- SolidWorks Part (.sldprt)
-- IGES (.igs) 
-- STEP (.step)
-- STL (.stl)
-
-|		**Electronics Tray**																    |
-| --------------------------------------------------------------------------------------------- |
-| Electronics Tray Assembly on GrabCAD    | [ASSEM-ETRAY-R1](https://grabcad.com/library/bluerobotics-e-tray-1)               |
-| O-Ring Flange                 | [WTE4-M-FLANGE-SEAL-R2.zip](http://www.bluerobotics.com/models/WTE4-M-FLANGE-SEAL-R2.zip) |
 
 # Assembly
 
