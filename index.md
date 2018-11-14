@@ -200,11 +200,6 @@ You can use the menu bar at the top to find the product you are looking for and 
   	</div>
   </div>
   <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/assets/images/documentation/e-tray-1.png)">
-    <a href="/etray/">Electronics Tray <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/assets/images/documentation/vent-r2-1.png)">
     <a href="/vent/">Vent <i class="fa fa-chevron-circle-right"></i></a>
     </div>
