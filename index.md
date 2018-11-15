@@ -150,11 +150,6 @@ You can use the menu bar at the top to find the product you are looking for and 
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
-      <div class="tile" style="background-image:url(/potting/cad/cartridge_rotated_banner.png)">
-      <a href="/potting/">Potting Compound <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-  <div class="col-sm-4 col-md-4">
       <div class="tile" style="background-image:url(/cable-repair-kit/cad/cable-repair-kit.png)">
       <a href="/cable-repair-kit/">Cable Repair Kit <i class="fa fa-chevron-circle-right"></i></a>
     </div>
