@@ -18,6 +18,9 @@ nav:
 
 # Blue Robotics Documentation
 
+<i class="fa fa-exclamation-triangle"></i>NOTICE!!!<i class="fa fa-exclamation-triangle"></i>
+Blue Robotics product documentation is in the process of being restructured! If you do not see your documentation here, it has been moved to the respective product page in our store. Please go to our [store](https://bluerobotics.com/store/) for the latest information and guides.
+
 This is our product documentation. Think about it as an online user manual. There are instructions and tutorials for the BlueROV2 and our other products.
 
 We do our best to make this documentation as complete as possible but you can [contribute, point out errors, and make suggestions](#how-to-contribute) to help us improve the documentation.
