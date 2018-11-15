@@ -160,11 +160,6 @@ You can use the menu bar at the top to find the product you are looking for and 
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/commander/commander-1.png)">
-    <a href="/commander/">Thruster Commander <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/power-sense-module/cad/PSM-Thumbnail.jpg)">
     <a href="/power-sense-module/">Power Sense Module <i class="fa fa-chevron-circle-right"></i></a>
     </div>
