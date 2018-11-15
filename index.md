@@ -7,8 +7,6 @@ nav:
 - Product Manuals: product-manuals
 - - BlueROV2: bluerov2
 - - Thrusters, Actuators, Motors: thrusters-actuators-and-motors
-- - Sensors and Cameras: sensors-and-cameras
-- - Comm, Control, and Power: communication-control-and-power
 - - Cables and Penetrators: cables-and-penetrators
 - - Enclosures, Buoyancy, Ballast: enclosures-buoyancy-and-ballast
 - Tutorials: tutorials
