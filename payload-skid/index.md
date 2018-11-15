@@ -4,11 +4,6 @@ title: Payload Skid Documentation
 order: 1
 topnavbar: brov2
 nav:
-- Introduction: introduction
-- Specifications: specifications
-- - Specification Table: specification-table
-- - 2D Drawings: 2d-drawings
-- - 3D Model: 3d-model
 - Usage: usage
 - Assembly and Installation: assembly-and-installation
 
@@ -20,42 +15,6 @@ manual-links:
 ---
 
 <img src="/payload-skid/cad/banner-style-1.png" class="img-responsive img-center" style="max-width:800px"  />
-
-# Introduction
-
-The <em>Payload Skid</em> is a modular frame for the BlueROV2 with mounting points for additional watertight enclosures and lights. Using the Payload Skid, you can add additional large instruments and other equipment to your BlueROV2.
-
-# Specifications
-
-## Specification Table
-
-|  **Physical**  |
-| ------------- | --------- |
-| Length | 475 mm | 18 in |
-| Width | 338 mm | 13.3 in |
-| Height | 197mm | 7.7in |
-| Weight (in air) | 1200g | 2.65lbs |
-|----------------------|
-
-
-## 2D Drawings
-
-<img src="/payload-skid/cad/payload-skid-2view.png" class="img-responsive img-center" style="max-width:800px" />
-
-<img src="/payload-skid/cad/rov-payload-dimensions.png" class="img-responsive img-center" style="max-width:800px" />
-
-## 3D Model
-
-All 3D models are provided in zip archives containing the follow file types:
-
-- SolidWorks Part (.sldprt)
-- IGES (.igs) 
-- STEP (.step)
-- STL (.stl)
-
-|		**Payload Skid**																						|
-| --------------------------------------------------------------------------------------------- |
-| Payload Skid and Parts  | [BROV-PAYLOAD-SKID-R1.zip](cad/BROV-PAYLOAD-SKID-R1.zip) |
 
 # Usage
 
