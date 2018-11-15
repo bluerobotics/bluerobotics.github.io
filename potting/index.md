@@ -3,10 +3,7 @@ layout: default
 title: Penetrator Potting Documentation
 nav:
 - Introduction: introduction
-- Specifications: specifications
-- - MSDS: msds
-- - Specification Table: specification-table
-- - Assembled Cutaway View: assembled-cutaway-view
+- Assembled Cutaway View: assembled-cutaway-view
 - Assembly: assembly
 - - Background: background
 - - Safety: safety
@@ -34,31 +31,7 @@ manual-links:
 
 The <em>Wetlink</em> Thixotropic 80A potting compound has excellent adhesion to a wide range of materials, including our anodized aluminum penetrators and polyurethane cable jackets. This, combined with a high degree of flexibility and chemical resistance, makes it the ideal compound to reliably seal penetrators and retain excellent performance over time. A high degree of thixotropy, or shear thinning property, allows it to stay where applied and minimizes dripping while still being easy to dispense and reduces bubbles. We use and recommend this compound on all of our cable penetrators.
 
-# Specifications
-
-## MSDS
-
-[Thixotropic 80A MSDS - Part A](http://docs.bluerobotics.com/potting/cad/BlueRobotics-WL-Epoxy-PartA-MSDS.pdf) (Larger diameter cylinder on cartridge)
-
-[Thixotropic 80A MSDS - Part B](http://docs.bluerobotics.com/potting/cad/BlueRobotics-WL-Epoxy-PartB-MSDS.pdf) (Smaller diameter cylinder on cartridge)
-
-## Specification Table
-
-|  **Physical**  |
-| ------------- | --------- |
-| Color | Black |
-| Cartridge volume (2:1 ratio) | 50 ml | 1.69 oz |
-| Hardness | 80 Shore A |
-| Viscosity | 9000 cP at 25°C |
-| Service Temperature | -45-177°C | -50-350°F |
-| Working Time | 40 minutes |
-| Curing Schedule | 3 hours at 90°C/200°F, 24-36 hours at ambient |
-| Typical depth capability* | 1000 m | 3280 ft |
-|---------------------|
-
-*Determined using Blue Robotics polyurethane jacketed cable with appropriate sized penetrator, the below assembly procedure with thorough surface preparation, and oven curing at 90°C for 3 hours. Note that actual depth capability depends on materials and exact procedures used. Due to the nature of DIY assembly and the variation therein, actual performance of self-potted penetrators cannot be guaranteed, though penetrators potted by Blue Robotics are.
-
-## Assembled Cutaway View
+# Assembled Cutaway View
 
 <img src="/potting/cad/labeled-penetrator-cutaway.PNG" class="img-responsive" style="max-width:600px" />
 
