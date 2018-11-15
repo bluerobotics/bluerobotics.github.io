@@ -105,11 +105,6 @@ You can use the menu bar at the top to find the product you are looking for and 
     </div>
   </div>
   <div class="col-sm-4 col-md-4">
-    <div class="tile" style="background-image:url(/celsius/cad/temp-sensor-6.png)">
-    <a href="/celsius/"><em>Celsius</em> Temp Sensor <i class="fa fa-chevron-circle-right"></i></a>
-    </div>
-  </div>
-  <div class="col-sm-4 col-md-4">
     <div class="tile" style="background-image:url(/sos/cad/sos-5-a.png)">
     <a href="/sos/"><em>SOS</em> Leak Sensor <i class="fa fa-chevron-circle-right"></i></a>
     </div>
