@@ -5,11 +5,6 @@ permalink: /fxti/
 order: 1
 topnavbar: brov2
 nav:
-- Introduction: introduction
-- Specifications: specifications
-- - Specification Table: specification-table
-- - 2D Drawings: 2d-drawings
-- - 3D Model: 3d-model
 - Usage: usage
 - Integration Examples: integration-examples
 
@@ -27,48 +22,6 @@ manual-links:
 ---
 
 <img src="/fxti/cad/FXTI-Banner.JPG" class="img-responsive img-center" style="max-width:400px"  />
-
-# Introduction
-
-The _Fathom-X Tether Interface (or FXTI)_ is a simple and expandable topside enclosure to interface with the BlueROV2 and other devices that use HomePlug communication technology. The _FXTI_ has a USB-B connection on one side and a Binder 770 connector on the other. The USB connection provides power to the box and is internally connected to a USB to Ethernet adapter that is connected to a [_Fathom-X_](/fathom-x/) tether interface board.
-
-_FXTI_ has been designed for easy integration with the [_Fathom ROV Tether_](/fathom-r2/) and [_Fathom Spool_](/spool/).
-
-
-# Specifications
-
-## Specification Table
-
-|  **Physical**  |
-| ------------- | --------- |
-| Length | 122 mm | 4.8 in |
-| Width | 119 mm | 4.69 in |
-| Height | 67.8 mm | 2.67 in |
-| Weight (without USB cable) | 462 g | 1.02 lbs |
-| Enclosure Material | Anodized Aluminum |
-| Tether Connection | Binder 770 Bulkhead |
-| Computer Connection | USB Type-B Female Bulkhead Receptacle |
-| USB Cable Length | 0.91 m | 3 ft |
-| Communication | USB 2.0, Ethernet 10/100 |
-|----------------------|
-
-
-## 2D Drawings
-
-<img src="/fxti/cad/FXTI.png" class="img-responsive img-center" style="max-width:800px" />
-
-## 3D Model
-
-All 3D models are provided in zip archives containing the follow file types:
-
-- SolidWorks Part (.sldprt)
-- IGES (.igs) 
-- STEP (.step)
-- STL (.stl)
-
-|		**Fathom-X Tether Interface**																						|
-| --------------------------------------------------------------------------------------------- |
-| FXTI Assembly  | [FXTI-ASM-FXTI-R1.zip](cad/FXTI-ASM-FXTI-R1.zip) |
 
 # Usage
 
