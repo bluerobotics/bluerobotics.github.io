@@ -5,10 +5,6 @@ permalink: /watertight-enclosures/
 nav:
 - Introduction: introduction
 - - Important Notes: important-notes
-- Specs (3" Series): specifications-3-series
-- - Specification Table: specification-table-3-series
-- - 2D Drawings: 2d-drawings-3-series
-- - 3D Models: 3d-models-3-series
 - Assembly: assembly
 - - Video Tutorial: video-tutorial
 - - Steps: steps
@@ -46,70 +42,6 @@ Most threadlockers are not chemically compatible with with polycarbonate, and wi
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 Only clean the dome and acrylic tubes with acrylic specific cleaner or plain water. Solvents, alcohol and other cleaners will craze and damage the material.
 
-# Specifications: 3" Series
-
-<img src="/assets/images/documentation/3-series-side.png" class="img-responsive img-center" style="max-width:600px" />
-
-## Specification Table (3" Series)
-
-| ----------------------------------- | ----------------------------- |
-|                          **3" Series Enclosure**                    |
-| ----------------------------------- | ----------------------------- |
-| Maximum Depth Rating (Acrylic Tube) | 500 ft        | 150 m         |
-| Maximum Depth Rating (Aluminum Tube) | 1640 ft      | 500 m         |
-| Maximum Depth Rating (Dome)         | 1640 ft      | 500 m         |
-| Maximum Tested Depth (Acrylic Tube) | 660 ft        | 200 m         |
-| Maximum Tested Depth (Aluminum Tube) | 2460 ft      | 750 m         |
-| Maximum Tested Depth (Dome)         | 3280 ft      | 1000 m         |
-| Failure Depth                       | TBD                           |
-| Maximum External Pressure Rating    | 215 psi       | 1500 kPa      |
-| Tube Inner Diameter                 | 3 in          | 76.2 mm       |
-| Tube Outer Diameter                 | 3.5 in        | 88.9 mm       |
-| Tube Thickness                      | 0.25 in       | 6.3 mm        |
-| End Cap Thickness                   | 0.47 in       | 12.0 mm       |
-| Aluminum Flange Inner Diameter      | 2.5 in        | 63.5 mm         |
-| Total Length                        | 12.93 in      | 329 mm        |
-| Radial Seal O-ring (2 used)         | AS568-230, Buna-N             |
-| Face Seal O-ring (1 used)           | AS568-148, Buna-N             |
-| End Cap Screws                      | M3x12 (Stainless Steel 316)   |
-| Inner Mounting Holes                | M3 threading                  |
-
-## 2D Drawings (3" Series)
-
-| -----------------------------------------------------------------------------------------------------------------------------------------------|
-|               **3" Series Enclosure**                                                                                                          |
-| -----------------------------------------------------------------------------------------------------------------------------------------------|
-| Assembly Model                       | [WTE3-ASM-R1 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-ASM-R1.png)
-| Aluminum O-ring Flange               | [WTE3-M-FLANGE-SEAL-R2 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-M-FLANGE-SEAL-R2.png)
-| Plain Solid End Cap			       | [WTE3-P-END-CAP-R1 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-PM-END-CAP-R1.png)
-| End Cap with 4 x 10mm Holes          | [WTE3-P-END-CAP-4X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-PM-END-CAP-4X10MM-R1.png)
-| End Cap with 7 x 10mm Holes          | [WTE3-P-END-CAP-7X10MM-R1 Drawing](/assets/images/WTE/drawings/WTE3/WTE3-PM-END-CAP-7X10MM-R1.png)
-| Clamp                     		   | [WTE3-M-CLAMP-R1 Drawing](/wte/cad/WTE3-M-CLAMP-R1.PNG) 
-| Aluminum Tube                        | [WTE3-M-TUBE-8P75-R1 Drawing](/wte/cad/WTE3-M-TUBE-8P75-R1.PNG)
-| Dome End Cap                         | [WTE3-ASM-DOME-R1 Drawing](/wte/cad/WTE3-ASM-DOME-R1.PNG)                                               |
-
-
-## 3D Models (3" Series)
-
-All 3D models are provided in zip archives containing the follow file types:
-
-- SolidWorks Part (.sldprt)
-- IGES (.igs) 
-- STEP (.step)
-- STL (.stl)
-
-| -----------------------------------------------------------------------------------------------------------------------------------------------|
-|               **3" Series Enclosure**                                                                                                          |
-| -----------------------------------------------------------------------------------------------------------------------------------------------|
-| Assembly Model                       | [WTE3-ASM-R1.zip](http://www.bluerobotics.com/models/WTE3-ASM-R1.zip)
-| Acrylic Tube (Standard 11.75", 298mm length) | [WTE3-P-TUBE-R1.zip](http://www.bluerobotics.com/models/WTE3-P-TUBE-R1.zip)
-| Aluminum Tube (Standard 8.75", 222mm length) | [WTE3-M-TUBE-8P75-R1.zip](/wte/cad/WTE3-M-TUBE-8P75-R1.zip)
-| Aluminum O-ring Flange               | [WTE3-M-FLANGE-SEAL-R1.zip](http://www.bluerobotics.com/models/WTE3-M-FLANGE-SEAL-R1.zip)
-| Plain Solid End Cap			       | [WTE3-P-END-CAP-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-R1.zip)
-| End Cap with 4 x 10mm Holes          | [WTE3-P-END-CAP-4X10MM-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-4X10MM-R1.zip)
-| End Cap with 7 x 10mm Holes          | [WTE3-P-END-CAP-7X10MM-R1.zip](http://www.bluerobotics.com/models/WTE3-P-END-CAP-7X10MM-R1.zip)
-| Clamp                     		   | [WTE3-M-CLAMP-R1.zip](/wte/cad/WTE3-M-CLAMP-R1.zip) 
-| Dome End Cap                         | [WTE3-ASM-DOME-R1.zip](/wte/cad/WTE3-ASM-DOME-R1.zip)                                                   |
 
 
 # Assembly
