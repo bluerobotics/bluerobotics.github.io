@@ -3,12 +3,6 @@ layout: default
 title: Newton Gripper
 order: 1
 nav:
-- Introduction: introduction
-- - Quick Start (Open/Close): quick-start-open-and-close-with-pwm-signal-source
-- Specifications: specifications
-- - Specification Table: specification-table
-- - 2D Drawings: 2d-drawings
-- - 3D Model: 3d-model
 - Installation: installation
 - - Removing a Penetrator: removing-a-blank-penetrator
 - - Install Gripper Penetrator: install-newton-gripper-penetrator
