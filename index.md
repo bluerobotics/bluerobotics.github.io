@@ -208,6 +208,11 @@ You can use the menu bar at the top to find the product you are looking for and 
     <div class="tile" style="background-image:url(/assets/images/tutorials/vacuum-test-plug/step-4.png">
       <a href="/tutorials/vacuum-test-plug/">Using the Vacuum Plug <i class="fa fa-chevron-circle-right"></i></a>
     </div>
+  <div class="col-sm-4 col-md-4">
+      <div class="tile" style="background-image:url(/potting/cad/cartridge_rotated_banner.png)">
+      <a href="/potting/">Potting Compound <i class="fa fa-chevron-circle-right"></i></a>
+    </div>
+  </div>
   </div>
 </div>
 
