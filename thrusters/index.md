@@ -4,15 +4,8 @@ title: T100 Thruster Documentation
 permalink: /thrusters/
 order: 0
 nav:
-- Introduction: introduction
-- - Safety: safety
-- - Quick Start: quick-start
-- - Important Notes: important-notes
-- Specifications: t100-thruster-specifications
-- - Specification Table: specification-table
-- - Performance Charts: performance-charts
-- - Dimensions: dimensions
-- - 3D Model: 3d-model
+- Safety: safety
+- Important Notes: important-notes
 - Installation: installation
 - - Changing the Propeller: changing-the-propeller
 - - Mounting Options: mounting-options
@@ -46,22 +39,11 @@ tutorial-links:
 ---
 <img src="/assets/images/documentation/2-t100s.png" class="img-responsive img-center" />
 
-# Introduction
-
-The T100 Thruster is a low-cost high performance thruster for marine robotics. It was originally launched in 2014 through a [Kickstarter campaign](https://www.kickstarter.com/projects/847478159/the-t100-a-game-changing-underwater-thruster).
-
-
-
-## Safety
+# Safety
 
 Always practice caution when you're working with electricity in water and with the spinning blades of the propeller. Keep body parts away from the thruster inlet and outlet to avoid injury.
 
-## Quick Start
-
-1. Connect motor wires to ESC and connect the ESC to power and a signal.
-2. Send a signal and the thruster will start spinning. That's it.
-
-## Important Notes
+# Important Notes
 
 <i class="fa fa-exclamation-triangle fa-fw fa-2x text-warning"></i>
 Do not operate the thruster for extended periods (more than a few seconds) out of water. The bearings are lubricated by the water and vibration and noise will be greater when dry.
@@ -76,77 +58,6 @@ The thruster can handle saltwater and sandy environments pretty well, but it doe
 
 <i class="fa fa-lightbulb-o fa-fw fa-2x blue"></i>
 A slight clicking noise is normal, especially when operated dry. It is caused by slight movement of the shaft in the plastic bearings.
-
-# T100 Thruster Specifications
-
-## Specification Table
-
-|----------------------------------------------------------------------------------------|
-|                                 **Performance**                                        |
-| -------------------------------------------------------|-------------------------------|
-| Maximum Forward Thrust                                 | 2.36 kg<sub>f</sub>      | 5.2 lb<sub>f</sub>       |
-| Maximum Reverse Thrust                                 | 1.85 kg<sub>f</sub>      | 4.1 lb<sub>f</sub>       |
-| Minimum Thrust                                         | 0.01 kg<sub>f</sub>      | 0.02 lb<sub>f</sub>      |
-| Rotational Speed                                       | 300-4200 rev/min              |
-| -------------------------------------------------------|-------------------------------| 
-|                                 **Electrical**                                         |
-| -------------------------------------------------------|-------------------------------|
-| Operating Voltage                                      | 6-16 volts                    |
-| Max Current                                            | 12.5 amps                     |
-| Max Power                                              | 135 watts                     |
-| Phase Resistance                                       | 0.24 +/- 0.01 Ohms            |
-| Phase Inductance (@ 1 kHz)                             | 0.120 +/- 0.008 mH            |
-| -------------------------------------------------------|-------------------------------|
-|                                 **Physical**                                           |
-| ---------------------------------------------------------------------------------------|
-| Length                                                 | 102 mm        | 4.0 in        |
-| Diameter                                               | 100 mm        | 3.9 in        |
-| Weight in Air (with 1m cable)                          | 0.65 lb       | 295 g         |
-| Weight in Water (with 1m cable)                        | 0.26 lb       | 120 g         |
-| Propeller Diameter                                     | 76 mm         | 3.0 in        |
-| Mounting Hole Threads                                  | M3 x 0.5                      |
-| Mounting Hole Spacing                                  | 19 mm         | 0.75 in       |
-| Cable Length                                           | 1.0 m         | 39 in         |
-| Cable Diameter                                         | 6.3 mm        | 0.25 in       |
-
-## Performance Charts
-
-<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~rjehangir/34.embed?width=640&height=480"></iframe>
-
-<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~rjehangir/40.embed?width=640&height=480"></iframe>
-
-<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~rjehangir/49.embed?width=640&height=480"></iframe>
-
-<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~rjehangir/46.embed?width=640&height=480"></iframe>
-
-## Dimensions
-
-### T100 Thruster
-
-<img src="/assets/images/T100-Plain-Drawing.PNG" class="img-responsive" style="max-width:800px" />
-
-## 3D Model
-
-### T100 Thruster
-
-| File Type                  | Link                          |
-| -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [T100-THRUSTER-R1.SLDPRT](/thrusters/cad/T100-THRUSTER-R1.SLDPRT) |
-| STEP (.step)               | [T100-THRUSTER-R1.STEP](/thrusters/cad/T100-THRUSTER-R1.STEP)   |
-| IGES (.igs)                | [T100-THRUSTER-R1.IGS](/thrusters/cad/T100-THRUSTER-R1.IGS) |
-| STL (.stl)                 | [T100-THRUSTER-R1.STL](/thrusters/cad/T100-THRUSTER-R1.STL) |
-| All Formats in a Zip File (.zip)   | [T100-THRUSTER-R1.zip](/thrusters/cad/T100-THRUSTER-R1.zip) |
-| T100 Model on GrabCAD | [T100 Thruster](https://grabcad.com/library/bluerobotics-t100-thruster-1) |
-
-### Mounting Bracket
-
-| File Type                  | Link                          |
-| -------------------------- | ----------------------------- |
-| SolidWorks Part (.sldprt)  | [T100-P-BRACKET-R1.SLDPRT](/thrusters/cad/T100-P-BRACKET-R1.SLDPRT) |
-| STEP (.step)               | [T100-P-BRACKET-R1.STEP](/thrusters/cad/T100-P-BRACKET-R1.STEP)   |
-| IGES (.igs)                | [T100-P-BRACKET-R1.IGS](/thrusters/cad/T100-P-BRACKET-R1.IGS) |
-| STL (.stl)                 | [T100-P-BRACKET-R1.STL](/thrusters/cad/T100-P-BRACKET-R1.STL) |
-| All Formats in a Zip File (.zip)   | [T100-P-BRACKET-R1.zip](/thrusters/cad/T100-P-BRACKET-R1.zip) |
 
 # Installation
 

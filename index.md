@@ -11,6 +11,7 @@ nav:
 # Blue Robotics Documentation
 
 <i class="fa fa-exclamation-triangle"></i>NOTICE!!!<i class="fa fa-exclamation-triangle"></i>
+
 Blue Robotics product documentation is in the process of being restructured! Most product specifications, 2D drawings, and 3D models have been moved to their respective product pages.
 All the tutorials and manuals along with support information can be found on the <em>Learn</em> tab of each product store page.
 
