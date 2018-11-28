@@ -15,7 +15,7 @@ nav:
 Blue Robotics product documentation is in the process of being restructured! Most product specifications, 2D drawings, and 3D models have been moved to their respective product pages.
 All the tutorials and manuals along with support information can be found on the <em>Learn</em> tab of each product store page.
 
-<img src="ss.png" class="img-responsive" style="max-width:600px"  />
+<img src="ss.png" class="img-responsive img-center" style="max-width:600px"  />
 
 You can [contribute, point out errors, and make suggestions](#how-to-contribute) to help us improve the documentation.
 
