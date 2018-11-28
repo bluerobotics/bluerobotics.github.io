@@ -486,20 +486,17 @@ Here is a diagram of where the thrusters go, and how they should be oriented. Th
 
 To install the Lumen mounts you will need the following parts and tools:
 
-- 1 x Bag with the Lumen mounts, O-rings, and four M3x12 socket head cap screws 
+- 1 x Bag with four M3x12 socket head cap screws 
 - 1 x 2.5 mm hex driver 
 - 1 x BlueROV2 frame
 - 1 x Threadlocker
 
 1. Apply one drop of threadlocker to each of the M3x12 screws. Roll the screws around on a paper towel to evenly spread the threadlocker and to remove excess threadlocker.
 
-2. Install the mounts. Make sure not to overtighten the screw that goes into the slot. Only tighten it so that it slightly indents the frame. 
+2. Install the Lumens in the locations specified depending on how many light pairs you have. Installing the lights outside the frame reduces the amount of backscatter the camera sees. Make sure not to overtighten the screw that goes into the slot. Only tighten it so that it slightly indents the frame. 
 
-	<img src="/brov2/cad/brov2-light-mounts.png" class="img-responsive" style="max-width:900px" />
-	
-3. Loop one of the size 133 O-rings from the bag that had the Lumen Mounts and screws around each Lumen Mount and Lumen as shown below.
-
-<img src="/lumen/cad/lumen-tutorial-14.png" class="img-responsive" style="max-width:900px" />	
+	<img src="/brov2/cad/Lumen-R2-Mounting.jpg" class="img-responsive" style="max-width:900px" />
+		
 
 ## Mounting the Tether to the Frame
 
@@ -539,18 +536,10 @@ The buoyancy comes preinstalled in the fairings, but make sure it is still in al
 - 1 x Bag with 16 self tapping screws 
 - 1 x \#1 Phillips head screwdriver 
 
-1. Remove the Lumens from their mount. You only need to remove the lower two Lumens from their mount if you have four.
-
-	<img src="/brov2/cad/hanging-lumens.png" class="img-responsive" style="max-width:900px" />
-
-2. Install the screws through the center panels and into the fairings.
+1. Install the screws through the center panels and into the fairings.
 	
 	<img src="/brov2/cad/fairing-install-cad.PNG" class="img-responsive" style="max-width:900px" />
 	
-3. Reinstall the Lumens.
-
-	<img src="/brov2/cad/BlueROV2-front-angle.png" class="img-responsive" style="max-width:900px" />
-
 ## Mounting Ballast to the Frame
 
 To mount the ballast to the frame you need the following parts and tools:
