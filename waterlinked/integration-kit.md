@@ -36,7 +36,7 @@ Inside the Water Linked box, we'll be adding a Fathom-X tether interface board a
 
 Here's a diagram of what we'll be connecting inside the box:
 
-<img src="/waterlinked/wlik-box-diagram.png" class="img-responsive img-center" style="max-width:600px" />
+<img src="/waterlinked/wlik-box-diagram-rev2.jpg" class="img-responsive img-center" style="max-width:600px" />
 
 1. Remove the backing from the red 3M VHB tape on the back of the Fathom-X mount. 
 <img src="/waterlinked/wlik-installation-1.jpg" class="img-responsive img-center" style="max-width:500px" />
