@@ -8,14 +8,11 @@ nav:
 - License: license
 ---
 
-# Blue Robotics Documentation
+# We're working on improving our documentation.
 
-<i class="fa fa-exclamation-triangle"></i>NOTICE!!!<i class="fa fa-exclamation-triangle"></i>
+<p class="lead">Our product info can now be found in the <strong>Technical Details</strong> and <strong>Learn</strong> tabs on each product store page.</p>
 
-Blue Robotics product documentation is in the process of being restructured! Most product specifications, 2D drawings, and 3D models have been moved to their respective product pages.
-All the tutorials and manuals along with support information can be found on the <em>Learn</em> tab of each product store page.
-
-<img src="ss.png" class="img-responsive img-center" style="max-width:600px"  />
+<img src="updated-docs.png" class="img-responsive img-center" style="max-width:800px"  />
 
 You can [contribute, point out errors, and make suggestions](#how-to-contribute) to help us improve the documentation.
 
