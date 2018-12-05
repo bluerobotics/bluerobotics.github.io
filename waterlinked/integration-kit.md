@@ -75,7 +75,7 @@ The connections made inside the FXTI will connect the ROV, Topside Computer, and
 
 The connections are made on the Tether Connection PCB on the FXTI Electronics Tray and connecting the green Locator-A1 wires. Below is a picture of how the components are connected together along with step by step connection instructions.
 
-<img src="/waterlinked/wlik-setup-fxti.jpg" class="img-responsive img-center" style="max-width:600px" />
+<img src="/waterlinked/wlik-setup-fxti.png" class="img-responsive img-center" style="max-width:600px" />
 
 1. Remove one of the black plastic FXTI plugs from one of the auxiliary ports.
 
