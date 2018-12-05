@@ -16,7 +16,7 @@ nav:
 - - Battery: battery
 - - Lights: lights
 - - Tether: tether
-- - Sensors: Sensors
+- - Sensors: sensors
 - - Camera Tilt: camera-tilt
 - - Camera: camera
 - 2D Drawing: 2d-drawing

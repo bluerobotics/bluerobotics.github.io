@@ -3,7 +3,6 @@ layout: default
 title: Documentation
 order: 0
 nav:
-- Home: blue-robotics-documentation
 - How to Contribute: how-to-contribute
 - License: license
 ---
