@@ -68,12 +68,31 @@ Here's a diagram of what we'll be connecting inside the box:
 Nice job! You're done with modifications to the Water Linked box. Up next, we'll show you how to connect the box to your ROV.
 
 ## To ROV
+### If using an FXTI (recommended method)
+The connections made inside the FXTI will connect the ROV, Topside Computer, and Water Linked systems to each other. Here's a high level diagram of what that will look like:
 
+<img src="/waterlinked/wlik-setup-diagram-fxti.png" class="img-responsive img-center" style="max-width:600px" />
+
+The connections are made on the Tether Connection PCB on the FXTI Electronics Tray and connecting the green Locator-A1 wires. Below is a picture of how the components are connected together along with step by step connection instructions.
+
+<img src="/waterlinked/wlik-setup-fxti.jpg" class="img-responsive img-center" style="max-width:600px" />
+
+1. Remove one of the black plastic FXTI plugs from one of the auxiliary ports.
+
+2. Thread the Water Linked Box to FXTI Cable into the open port and secure in place with the 3D printed spacer and black penetrator nut.
+
+3. Connect the blue and blue/white wire pair into the FXTI Tether Connection PCB matching the orientation of the pre-installed blue and white wire connections.
+
+3. Connect the green and green/white Locator-A1 wire pair into the green and white pair on the Binder connector pigtail, matching colors.
+
+4. Reassemble the FXTI box.
+
+### If using the terminal block and a Fathom-X (depreciated method)
 The connections made near the topside Fathom-X interface and topside computer will connect the ROV, Topside Computer, and Water Linked systems to each other. Here's a high level diagram of what that will look like:
 
 <img src="/waterlinked/wlik-setup-diagram.png" class="img-responsive img-center" style="max-width:600px" />
 
-These connections are made on a terminal block with a few provided wires. Note that this isn't the nicest solution in the world, and we plan to have a more polished solution in the future. Below is a diagram of how the components are connected together along with step by step connection instructions.
+These connections are made on a terminal block with a few provided wires. Note that this isn't the nicest solution in the world, using an FXTI as shown above yields a much cleaner installation. Below is a diagram of how the components are connected together along with step by step connection instructions.
 
 <img src="/waterlinked/wlik-temp-topside-1.jpg" class="img-responsive img-center" style="max-width:600px" />
 
