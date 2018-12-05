@@ -104,4 +104,4 @@ These connections are made on a terminal block with a few provided wires. Note t
 
 <img src="/waterlinked/wlik-temp-topside-2.jpg" class="img-responsive img-center" style="max-width:600px" />
 
-**Note:** We strongly recommend mounting the Fathom-X and terminal block in a protective box or case. The wiring here is fairly fragile and easy to damage. Blue Robotics is working on a much better solution to this that will be available in the future.
+**Note:** We strongly recommend mounting the Fathom-X and terminal block in a protective box or case. The wiring here is fairly fragile and easy to damage. 
