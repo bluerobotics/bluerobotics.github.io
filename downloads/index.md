@@ -3,7 +3,7 @@ layout: default
 title: Downloads
 order: 1
 nav:
-- Introduction: Introduction
+- Introduction: introduction
 ---
 
 # Introduction
