@@ -82,7 +82,7 @@ Most 3.3 V devices do not tolerate higher voltages, so directly connecting the p
 
 ## I can't communicate with my _Bar30_
 
-* Make sure the _Bar30_ is receiving power.  Check the _Level Converter's_ voltage selection jumper pads.  Either 3.3 V or 5 V will work (5 V is recommended).  See the _Level Converter's_ [store page](https://www.bluerobotics.com/store/electronics/level-converter-r1/#tab-learn_ for details.
+* Make sure the _Bar30_ is receiving power.  Check the _Level Converter's_ voltage selection jumper pads.  Either 3.3 V or 5 V will work (5 V is recommended).  See the _Level Converter's_ [store page](https://www.bluerobotics.com/store/electronics/level-converter-r1/) for details.
 * Check your SCL and SDA connections.  Try swapping the two jumpers: reversing them will not damage the sensor or microcontroller.
 * Check your jumpers for continuity.  Some cheap jumper cables have terrible electrical connections.
 
