@@ -14,6 +14,7 @@ store-links:
 
 ---
 <img src="/bar30/tutorials/bar30-arduino/full-setup.jpg" class="img-responsive img-center" style="max-width:800px" />
+
 # Introduction
 
 The [_Bar30_](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/bar30-sensor-r1/) pressure sensor is a pressure sensor designed to be used underwater at pressures up to 30 bar, or around 300 meters depth in water.  It communicates  via I<sup>2</sup>C and comes with a 4-pin DF-13 connector that is compatible with the [Pixhawk](https://bluerobotics.com/store/comm-control-power/elec-packages/pixhawk-r1-rp/) autopilot, the [_Level Converter_](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/level-converter-r1/) and other microcontrollers.
