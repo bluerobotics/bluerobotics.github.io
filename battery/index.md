@@ -11,9 +11,6 @@ nav:
 - - Discharge Rate: discharge-rate
 - - LiPo Safety: lipo-safety
 - - Where to Buy: where-to-buy
-- Batteries for the Blue ROV: batteries-for-the-blue-rov
-- - Battery Clearance: battery-clearance
-- - Example Batteries: example-batteries
 - Battery Calculator: battery-calculator
 - - Learn More: learn-more
 
@@ -21,7 +18,6 @@ manual-links:
 - T100 Thruster: /thrusters/
 - T200 Thruster: /thrusters/t200
 - Basic ESC: /besc/
-- Blue ESC: /bluesc
 ---
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -78,54 +74,6 @@ LiPo batteries have a high energy density and must be treated with the proper pr
 ## Where to Buy
 
 LiPo batteries can be bought at hobby shops and online through numerous vendors, including [HobbyKing](http://www.hobbyking.com/hobbyking/store/index.asp). We use HobbyKing's Multistar, Turnigy, and Zippy brands of LiPo batteries for our testing.
-
-# Batteries for the Blue ROV
-
-## Battery Clearance
-
-The Blue ROV electronics tray will accommodate batteries up to 230mm (9in) long. However, if basic ESCs are being used, the ESCs mounted to the bottom of the tray will reduce clearances. Past 125mm (4.9in), 5mm (0.2in) of the height available is taken up by the ESC wires. Beyond 155mm (6.1in), 10mm (0.4in) is taken up by the ESC itself.
-
-<img src="/assets/images/documentation/batterytraymockup.PNG" class="img-responsive img-center" style="max-width:600px" />
-
-Due to the round shape of the enclosure, the maximum width of a battery is determined by its height. There is 47.2mm (1.858in) of clearance between the bottom of the electronics tray and the inside of the tube. However, up to an additional 2.5mm (0.098in) of clearance can be found if a battery is squeezed in such that the top shelf of the elctronics tray contacts the tube.
-
-You can use the following formula to determine whether a battery of a given height will fit its width in the enclosure:
-
-$$
-\begin{align*}
-width=2\times\sqrt{d^2-(h+x)^2}
-\end{align*}
-$$
-
-Here "d" is the inner diameter of the enclosure, "h" the height of the battery, and "x" the distance the lower part of the electronics tray is from the center of the tube. If "width" is greater than or equal to the width of the battery whose height you input, then the battery will fit, at least in height and width.
-
-$$
-\begin{align*}
-width=2\times\sqrt{50.8^2-(h+3.6)^2}
-\end{align*}
-$$
-
-For the Blue ROV, "d" is 50.8mm, and "x" is 3.6mm. If your battery is long enough to come up to the ESC wires or another obstruction on the bottom of the elctronics tray, add its height to "x". Conversely, if you wish to allow the battery tray to be moved up by the battery, you can subtract up to 2.5mm from "x". 
-
-Hobbyking's [battery finder tool](http://www.hobbyking.com/hobbyking/store/multifinder.asp?t=lipo) is very useful in finding batteries that will fit the Blue ROV. Note that the "width" and "height" dimensions in the battery finder tool are the reverse from the variables in the above fit fomula.
-
-## Example Batteries
-
-These batteries will all fit the Blue ROV with basic ESCs, many of them have been used for our testing at Blue Robotics without any issues.
-
-| Battery | Voltage | Capacity | Discharge Rate | Max Constant Current Draw | Cost**|
-|---------|---------|-------------|-------------|---------------------------|-----|
-|[Zippy](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=63430)  |11.1V (3s)| 6200mAh    | 40C         |248A| $42
-|[Turnigy](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=11939)|11.1V (3s)| 6000mAh    | 25C         |150A| $47
-|[Turnigy](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=9184)|11.1V (3s)| 5000mAh    | 20C         |100A| $22
-|[Turnigy](http://www.hobbyking.com/hobbyking/store/__9177__Turnigy_5000mAh_4S_20C_Lipo_Pack.html)|14.8V (4s)| 5000mAh    | 20C         |100A| $28
-|[Zippy](http://hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=58781)  |14.8V (4s)| 5000mAh    | 30C         |150A| $39
-|[Multistar](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=66484)|14.8V (4s)| 6600mAh  | 10C         |66A| $43
-|[Multistar](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=66480)*|14.8V (4s)| 10000mAh | 10C         |100A| $59
-|[Zippy](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=9959)  |18.5V (5s)| 4000mAh    | 40C         |160A| $36
-
-*Fits by squeezing electronics tray up, maximum sized battery confirmed to (barely) fit the Blue ROV with basic ESCs.
-**Approximate, as of Novemember 2015.
 
 # Battery Calculator 
 
