@@ -131,8 +131,6 @@ Check out the [test results section for the T100 Thruster](/thrusters/#test-resu
 
 We perform the following tests on every motor before they are shipped.
 
-* **Insulation Test**, also know as a hipot test. We submerge the motor in water and measure current leakage at high voltage (250V) to ensure that the insulation is sufficient.
-
 * **Spin Test**. The motor is operated in air across the entire speed range to ensure that it operates correctly.
 
 * **Visual Inspection**. Each motor is inspected for visual issues or damage.
