@@ -114,6 +114,9 @@ liOpen: false
         <p class="lead">{{ page.title }}</p>
         <hr />
         <br />
+        {% if page.redirect %}
+        <div class="alert alert-danger" role="alert">This page has been moved, click <a href="{{page.redirect}}">here</a> if you are not redirected in a few seconds.</div>
+        {% endif %}
         {{ content }}
         <br /><br /><br />
         <hr />
