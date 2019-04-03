@@ -32,6 +32,7 @@ manual-links:
 - Software Setup: /brov2/software-setup/
 - Operation Manual: /brov2/operation/
 
+redirect: https://www.bluerobotics.com/store/rov/bluerov2/bluerov2/
 ---
 
 <img src="/brov2/cad/BlueROV2-Honaunau-6.png" class="img-responsive img-center" style="max-width:800px" />
