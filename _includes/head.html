@@ -68,5 +68,8 @@
 	       url("{{"/assets/fonts/np naipol all in one_b.svg#fp-20698" | prepend: site.baseurl }}") format('svg');
 	}
   </style>
-  {% if page.redirect %}<meta http-equiv="refresh" content="0; URL='{{ page.redirect }}'" />{% endif %}
+  {% if page.redirect %}
+      <meta http-equiv="refresh" content="0; URL='{{ page.redirect }}'" />
+      <link rel="canonical" href="{{ page.redirect }}"/>
+  {% endif %}
 </head>
