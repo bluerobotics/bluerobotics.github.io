@@ -22,6 +22,8 @@ manual-links:
 - Enclosure Vent: /vent/
 
 tutorial-links:
+
+redirect: https://www.bluerobotics.com/learn/watertight-enclosure-assembly-guide/
 ---
 
 # Introduction
