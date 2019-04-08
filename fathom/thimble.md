@@ -11,6 +11,7 @@ store-links:
 - Fathom:  https://www.bluerobotics.com/store/parts/cables/fathom-tether-nb-4p-26awg-r1/
 - Thimble:  https://www.bluerobotics.com/store/parts/fathom-p-thimble-r1/
 
+redirect: https://www.bluerobotics.com/store/cables-connectors/tether-management/fathom-p-thimble-r1/
 ---
 	
 # Introduction
