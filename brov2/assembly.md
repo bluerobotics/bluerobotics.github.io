@@ -43,6 +43,7 @@ manual-links:
 - Software Setup: /brov2/software-setup/
 - Operations Manual: /brov2/operation/
 
+redirect: https://bluerobotics.com/learn/bluerov2-assembly/
 ---
 
 <img src="/brov2/cad/BlueROV2-Black-Sands-1.png" class="img-responsive img-center" style="max-width:800px" />
