@@ -16,6 +16,7 @@ manual-links:
 - Fathom Tether: /fathom/
 - BlueROV2: /brov2/
 
+redirect: https://www.bluerobotics.com/store/cables-connectors/cables/fathom-slim-nb-1p-26awg-r1/
 ---
 	
 # This Page Has Been Moved
