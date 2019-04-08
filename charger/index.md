@@ -12,6 +12,8 @@ store-links:
 manual-links:
 - BlueROV2: /brov2
 - Lithium-ion Battery (14.8V, 18Ah): /batteries
+
+redirect: https://www.bluerobotics.com/store/comm-control-power/batteries/lithium-battery-charger/
 ---
 
 # This Page Has Been Moved
