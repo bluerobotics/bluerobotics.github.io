@@ -11,6 +11,8 @@ store-links:
 
 manual-links:
 - Vent: /vent
+
+redirect: https://bluerobotics.com/store/electronics/switch-10-5a-r1/
 ---
 
 <img src="/switch/cad/switch-4a.png" class="img-responsive" style="max-width:900px"  />
