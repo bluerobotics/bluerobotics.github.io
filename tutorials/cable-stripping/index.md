@@ -11,6 +11,8 @@ nav:
 - Instructions: instructions
 - - Step 1 - Stripping the Jacket: step-1-stripping-the-jacket
 - - Step 2 - Stripping the Conductors: step-2-stripping-the-conductors
+
+redirect: https://www.bluerobotics.com/learn/cable-stripping/
 ---
 
 # Introduction
