@@ -16,6 +16,8 @@ store-links:
 
 manual-links:
 - BlueROV2: /brov2
+
+redirect: https://www.bluerobotics.com/store/electronics/sos-leak-sensor/
 ---
 
 <img src="/sos/cad/sos-banner-a.PNG" class="img-responsive" style="max-width:900px"  />
