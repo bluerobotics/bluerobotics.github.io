@@ -16,6 +16,8 @@ store-links:
 manual-links:
 - Watertight Enclosures: /watertight-enclosures/ 
 - Electronics Tray: /etray
+
+redirect: https://www.bluerobotics.com/learn/camera-tilt-system-assembly-guide/
 ---
 
 # This Page Has Moved
