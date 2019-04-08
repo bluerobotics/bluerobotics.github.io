@@ -16,6 +16,8 @@ store-links:
 
 manual-links:
 - WL Integration Kit: /waterlinked/integration-kit/
+
+redirect: https://www.bluerobotics.com/learn/water-linked-bluerov2-integration/
 ---
 
 <!--<img src="/switch/cad/switch-4a.png" class="img-responsive" style="max-width:900px"  />-->
