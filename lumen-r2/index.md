@@ -16,6 +16,8 @@ store-links:
 manual-links:
 - Thrusters: /thrusters
 - BlueROV: /bluerov
+
+redirect: https://bluerobotics.com/product-category/thrusters/lights/
 ---
 
 <img src="/lumen-r2/cad/Lumen-R2-Banner.JPG" class="img-responsive img-center" style="max-width:600px"  />
