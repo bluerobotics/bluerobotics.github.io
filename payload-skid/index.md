@@ -12,6 +12,8 @@ store-links:
 
 manual-links:
 - BlueROV2: /brov2/assembly/
+
+redirect: https://www.bluerobotics.com/store/rov/brov-payload-skid/
 ---
 
 <img src="/payload-skid/cad/banner-style-1.png" class="img-responsive img-center" style="max-width:800px"  />
