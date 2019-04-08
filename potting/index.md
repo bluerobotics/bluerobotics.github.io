@@ -23,6 +23,8 @@ store-links:
 
 manual-links:
 - BlueROV2: /brov2/
+
+redirect: https://www.bluerobotics.com/learn/potting-a-cable-penetrator/
 ---
 
 <img src="/potting/cad/cartridge_rotated_banner.png" class="img-responsive img-center" style="max-width:800px"  />
