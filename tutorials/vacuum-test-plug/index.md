@@ -8,6 +8,8 @@ nav:
 - Attaching the Vacuum Plug to the Pump: attaching-the-vacuum-plug-to-the-pump
 - Testing the Test Setup: testing-the-test-setup
 - Testing the Enclosure: testing-the-enclosure
+
+redirect: https://www.bluerobotics.com/learn/using-the-vacuum-test-plug/
 ---
 
 <img src="/assets/images/tutorials/vacuum-test-plug/banner.png" class="img-responsive img-center" style="max-width:600px" />
