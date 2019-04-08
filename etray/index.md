@@ -16,6 +16,8 @@ store-links:
 manual-links:
 - Watertight Enclosures: /watertight-enclosures
 - Camera Tilt: /camtilt
+
+redirect: https://www.bluerobotics.com/store/watertight-enclosures/4-series/wte4-etray-r1/
 ---
 
 <img src="/etray/cad/electronics-tray-render.png" class="img-responsive" style="max-width:900px" />
