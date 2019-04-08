@@ -7,6 +7,8 @@ nav:
 - Introduction: introduction
 - - Tools Needed: tools-needed
 - Instructions: instructions
+
+redirect: https://www.bluerobotics.com/learn/thruster-disassembly-assembly/
 ---
 
 # Introduction
