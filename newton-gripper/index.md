@@ -20,6 +20,8 @@ store-links:
 
 manual-links:
 - BlueROV2: /brov2
+
+redirect: https://bluerobotics.com/store/thrusters/grippers/newton-gripper-asm-r1-rp/
 ---
 
 <img src="/newton-gripper/cad/newton-gripper.png" class="img-responsive img-center" style="max-width:400px"  />
