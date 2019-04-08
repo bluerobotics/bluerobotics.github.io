@@ -18,6 +18,8 @@ store-links:
 
 manual-links:
 - Fathom Tether: /fathom/
+
+redirect: https://www.bluerobotics.com/store/comm-control-power/tether-interface/fathom-s-r1/
 ---
 
 <img src="Fathom-S-Both.png" class="img-responsive" style="max-width:800px"  />
