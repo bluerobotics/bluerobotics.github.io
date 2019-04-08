@@ -13,6 +13,8 @@ store-links:
 manual-links:
 - Lumen Light: /lumen
 - BlueROV2: /brov2
+
+redirect: https://www.bluerobotics.com/store/thrusters/indicators/indicator10-asm-r1/
 ---
 
 <img src="indicator-blue-1.png" class="img-responsive" style="max-width:900px"  />
