@@ -7,6 +7,8 @@ nav:
 - Introduction: introduction
 - Video Tutorial: video-tutorial
 - Instructions: instructions
+
+redirect: https://www.bluerobotics.com/learn/changing-a-propeller/
 ---
 <img src="/assets/images/tutorials/changing-a-propeller/all-propellers.png" class="img-responsive img-center" style="max-width:500px" />
 
