@@ -13,6 +13,8 @@ store-links:
 manual-links:
 - T100 Thruster: /thrusters/
 - Basic ESC: /besc/
+
+redirect: https://www.bluerobotics.com/product-category/watertight-enclosures/buoyancy/
 ---
 
 # This Page Has Been Moved
