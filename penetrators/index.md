@@ -8,6 +8,8 @@ nav:
 
 store-links:
 - Cable Penetrators: https://www.bluerobotics.com/product-category/parts/connectors/
+
+-redirect: https://bluerobotics.com/product-category/cables-connectors/penetrators/
 ---
 # This Page Has Been Moved
 
