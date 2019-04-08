@@ -26,6 +26,8 @@ manual-links:
 - BlueROV2 Specifications: /brov2/
 - Assembly Manual: /brov2/assembly/
 - Operations Manual: /brov2/operation/
+
+redirect: https://bluerobotics.com/learn/bluerov2-software-setup/
 ---
 
 <script>
