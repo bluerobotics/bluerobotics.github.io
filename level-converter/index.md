@@ -13,6 +13,8 @@ store-links:
 manual-links:
 - Bar30 Pressure Sensor: /bar30
 - Celsius Temperature Sensor: /celsius 
+
+redirect: https://www.bluerobotics.com/store/electronics/level-converter-r1/
 ---
 
 # This Page Has Been Moved
