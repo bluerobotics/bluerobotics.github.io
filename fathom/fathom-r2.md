@@ -25,6 +25,7 @@ manual-links:
 - Cable Penetrator: /tutorials/cable-penetrator/
 - Fathom-X: /fathom-x/
 
+redirect: https://www.bluerobotics.com/store/cables-connectors/cables/fathom-tether-nb-4p-26awg-r2/
 ---
 
 # This Page Has Been Moved
