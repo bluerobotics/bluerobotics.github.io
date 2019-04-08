@@ -19,6 +19,8 @@ manual-links:
 - Fathom ROV Tether R2: /fathom-r2/
 - Fathom Spool: /spool/
 - Binder 770 Plug: /binder770/
+
+redirect: https://www.bluerobotics.com/store/rov/bluerov2-accessories/fxti-asm-r1-rp/
 ---
 
 <img src="/fxti/cad/FXTI-Banner.JPG" class="img-responsive img-center" style="max-width:400px"  />
