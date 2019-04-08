@@ -17,6 +17,8 @@ store-links:
 
 manual-links:
 - Watertight Enclosures: /watertight-enclosures/
+
+redirect: https://www.bluerobotics.com/store/watertight-enclosures/vent-asm-r1/
 ---
 
 # Introduction
