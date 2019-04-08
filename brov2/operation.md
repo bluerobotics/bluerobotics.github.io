@@ -51,6 +51,8 @@ manual-links:
 - Specifications: /brov2/
 - Assembly Manual: /brov2/assembly/
 - Software Setup: /brov2/software-setup/
+
+redirect: https://bluerobotics.com/learn/bluerov2-operation/
 ---
 
 <img src="/brov2/cad/BR2-banner.png" class="img-responsive img-center" style="max-width:800px" />
