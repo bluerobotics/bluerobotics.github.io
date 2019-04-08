@@ -58,6 +58,8 @@ manual-links:
 - Specifications: /brov2/
 - Operations Manual: /brov2/operation/
 
+-redirect: https://www.bluerobotics.com/learn/bluerov2-heavy-configuration-retrofit-kit-installation/
+
 ---
 
 <img src="/brov2/cad/BlueROV2-Black-Sands-1.png" class="img-responsive img-center" style="max-width:800px" />
