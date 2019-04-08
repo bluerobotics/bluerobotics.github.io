@@ -26,6 +26,8 @@ manual-links:
 - Thruster Commander: /commander
 - Basic ESC:  /bescr3
 - Thrusters: /thrusters
+
+redirect: https://www.bluerobotics.com/store/comm-control-power/elec-packages/cmdr-r1-rp/
 ---
 
 # Introduction
