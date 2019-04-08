@@ -14,6 +14,8 @@ store-links:
 
 manual-links:
 - Potting Compound: /potting
+
+redirect: https://www.bluerobotics.com/learn/cable-repair-kit-guide/
 ---
 
 # This Page Has Moved
