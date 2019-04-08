@@ -13,6 +13,8 @@ manual-links:
 - Fathom Tether: /fathom/
 - Fathom-S Interface: /fathom-s/
 - ArduSub: http://ardusub.com/
+
+redirect: https://www.bluerobotics.com/store/electronics/fathom-x-r1/
 ---
 
 # This Page Has Been Moved
