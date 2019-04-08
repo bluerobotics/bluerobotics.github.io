@@ -28,6 +28,8 @@ store-links:
 
 manual-links:
 - BlueROV2: /brov2/
+
+redirect: https://bluerobotics.com/store/cables-connectors/tether-management/tms-asm-spool-r1-rp/
 ---
 
 <img src="/spool/cad/IMG_1083_banner.png" class="img-responsive img-center" style="max-width:800px"  />
