@@ -33,6 +33,8 @@ manual-links:
 
 tutorial-links:
 - Motor Assembly/Disassembly: /tutorials/disassembly-assembly/m100-m200-disassembly/
+
+redirect: https://www.bluerobotics.com/store/thrusters/motors/m100-motor-r1/
 ---
 <img src="/assets/images/documentation/m100-multi.png" class="img-responsive img-center" style="max-width:700px" />   
 
