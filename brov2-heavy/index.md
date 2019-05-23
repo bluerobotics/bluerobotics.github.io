@@ -24,6 +24,8 @@ store-links:
 manual-links:
 - BlueROV2: /brov2/assembly/
 - T200: /thrusters/t200
+
+redirect: https://www.bluerobotics.com/learn/bluerov2-heavy-configuration-retrofit-kit-installation/
 ---
 
 <img src="/brov2-heavy/cad/heavy-tutorial-21.jpg" class="img-responsive img-center" style="max-width:350px"  />
