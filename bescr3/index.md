@@ -14,6 +14,8 @@ store-links:
 manual-links:
 - T100/T200 Thrusters: /thrusters/
 - M100 Motor: /thrusters/motors/
+
+redirect: https://www.bluerobotics.com/store/thrusters/speed-controllers/besc30-r3/
 ---
 # Example Code
 
