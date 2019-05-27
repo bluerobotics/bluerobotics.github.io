@@ -15,6 +15,8 @@ store-links:
 manual-links:
 - Celsius Temperature Sensor: /celsius
 - I2C Level Converter: /level-converter
+
+redirect: https://www.bluerobotics.com/store/sensors-sonars-cameras/sensors/bar30-sensor-r1/
 ---
 
 <img src="/bar30/cad/pressure-sensor-4.png" class="img-responsive" style="max-width:900px"  />
