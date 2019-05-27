@@ -16,6 +16,8 @@ store-links:
 manual-links:
 - Celsius Temperature Sensor: /celsius
 - I2C Level Converter: /level-converter
+
+redirect: https://www.bluerobotics.com/store/sensors-sonars-cameras/sensors/bar100-sensor-r1/
 ---
 
 <img src="/bar100/cad/BAR100-5.png" class="img-responsive" style="max-width:900px"  />
