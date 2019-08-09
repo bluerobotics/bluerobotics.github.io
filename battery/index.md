@@ -2,6 +2,7 @@
 layout: default
 title: Battery Selection
 permalink: /battery/
+canonical_url: https://bluerobotics.com/learn/battery-selection-guide-and-calculator/
 order: 0
 nav:
 - Introduction: introduction
