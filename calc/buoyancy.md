@@ -2,6 +2,7 @@
 layout: default
 title: Buoyancy Calculator
 permalink: /calc/buoyancy/
+canonical_url: https://bluerobotics.com/learn/buoyancy-calculator/
 order: 0
 nav:
 - Calculator: calculator
