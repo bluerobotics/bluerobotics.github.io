@@ -2,6 +2,7 @@
 layout: default
 title: Pressure/Depth Calculator
 permalink: /calc/pressure-depth/
+canonical_url: https://bluerobotics.com/learn/pressure-depth-calculator/
 order: 0
 nav:
 - Calculator: calculator
