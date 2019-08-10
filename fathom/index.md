@@ -2,6 +2,7 @@
 layout: default
 title: Fathom Tether
 order: 1
+redirect: https://bluerobotics.com/store/cables-connectors/cables/fathom-tether-nb-4p-26awg-r2/
 nav:
 - Introduction: introduction
 - Quick Start 

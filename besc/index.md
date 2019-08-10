@@ -2,6 +2,7 @@
 layout: default
 title: Basic ESC Documentation (Old)
 order: 1
+canonical_url: https://bluerobotics.com/store/thrusters/speed-controllers/besc30-r3/
 nav:
 - Introduction: introduction
 - - Safety: safety

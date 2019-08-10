@@ -3,6 +3,7 @@ layout: default
 title: Other Resources
 permalink: /resources/
 order: 0
+redirect: https://bluerobotics.com/learn/under-pressure/
 nav:
 - Under Pressure Software: under-pressure-software
 ---
