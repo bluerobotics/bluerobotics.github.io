@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /
+Allow: /bluerov/
+Allow: /bluesc/
+Allow: /example/
+Allow: /downloads/
+Allow: /ping-viewer/
+Allow: /ping-protocol/
