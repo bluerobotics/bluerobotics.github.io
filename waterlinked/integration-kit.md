@@ -17,7 +17,7 @@ store-links:
 manual-links:
 - Water Linked Underwater GPS: /waterlinked
 
-redirect: https://www.bluerobotics.com/store/sensors-sonars-cameras/underwater-gps/aps-wl-brov2-kit-r1/
+redirect: https://bluerobotics.com/learn/water-linked-bluerov2-integration-r2-integration-kit/
 ---
 
 <!--<img src="/switch/cad/switch-4a.png" class="img-responsive" style="max-width:900px"  />-->
