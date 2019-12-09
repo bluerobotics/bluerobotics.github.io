@@ -12,9 +12,9 @@ Here you will find links for all of the software components you will need to ope
 
 ## QGroundControl
 
-- [Windows](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl-installer.exe)
-- [Mac](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.dmg)
-- [Linux](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/QGroundControl.AppImage)
+- [Windows](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/latest/QGroundControl-installer.exe)
+- [Mac](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/latest/QGroundControl.dmg)
+- [Linux](https://s3.amazonaws.com/downloads.bluerobotics.com/QGC/latest/QGroundControl.AppImage)
 
 Previous releases of QGroundControl can be found on our [github releases](https://github.com/bluerobotics/qgroundcontrol/releases) page.
 
