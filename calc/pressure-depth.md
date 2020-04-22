@@ -7,6 +7,8 @@ order: 0
 nav:
 - Calculator: calculator
 - Learn More: learn-more
+
+redirect: https://bluerobotics.com/learn/pressure-depth-calculator/
 ---
 
 # Calculator
