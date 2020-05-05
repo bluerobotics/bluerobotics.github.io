@@ -8,6 +8,8 @@ nav:
 - Calculator: calculator
 - Densities of Common Materials: densities-of-common-materials
 - Learn More: learn-more
+
+redirect: https://bluerobotics.com/learn/buoyancy-calculator/
 ---
 
 # Calculator 
