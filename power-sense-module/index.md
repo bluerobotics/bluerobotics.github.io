@@ -16,7 +16,6 @@ store-links:
 manual-links:
 - BlueROV2: /brov2
 
-redirect: https://www.bluerobotics.com/store/comm-control-power/elec-packages/psm-asm-r2-rp/
 ---
 
 <img src="/power-sense-module/cad/PSM-Banner.JPG" class="img-responsive" style="max-width:900px"  />
