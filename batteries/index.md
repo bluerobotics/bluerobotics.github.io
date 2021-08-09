@@ -12,6 +12,8 @@ store-links:
 manual-links:
 - BlueROV2: /brov2
 - Lithium Battery Charger: /charger
+
+redirect: https://bluerobotics.com/learn/battery-info/
 ---
 
 # This Page Has Been Moved
