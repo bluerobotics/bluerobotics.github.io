@@ -22,7 +22,7 @@ Previous releases of QGroundControl can be found on our [github releases](https:
 
 **Stable Release for Pixhawk (Pixhawk1):** <i class="fa fa-download" aria-hidden="true"></i> [ArduSub V4.0](https://firmware.ardupilot.org/Sub/stable-4.0.1/Pixhawk1/ardusub.apj)
 
-Firmware for other platforms can be downloaded from [firmware.ardupilot.org](http://http://firmware.us.ardupilot.org/). See [here](https://www.ardusub.com/getting-started/installation.html#ardusub) for instructions on how to flash the Pixhawk.
+Firmware for other platforms can be downloaded from [firmware.ardupilot.org](https://firmware.ardupilot.org/). See [here](https://www.ardusub.com/getting-started/installation.html#ardusub) for instructions on how to flash the Pixhawk.
 
 ## Raspberry Pi Images
 
