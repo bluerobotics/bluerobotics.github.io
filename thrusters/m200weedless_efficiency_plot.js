@@ -4,7 +4,7 @@ var pwm_value = [1100,1110,1136,1162,1188,1214,1240,1266,1292,1318,1344,1370,139
 var efficiency_16v = [6.37,6.67,6.96,7.43,8.13,8.75,9.65,9.85,11.58,12.57,13.83,15.76,19.45,23.19,29.33,30.06,0.00,47.35,44.19,39.40,34.72,28.07,26.07,23.37,21.44,19.30,18.00,16.48,15.60,14.46,13.57,12.90,12.58]
 
 
-var ctx = document.getElementById("t500_efficiency");
+var ctx = document.getElementById("m200_efficiency");
 
 var m200_efficiency = new Chart(ctx, {
   type: 'line',
