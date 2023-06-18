@@ -34,7 +34,7 @@ legend: {
     scales: {
       yAxes: [{
         id: 'Efficiency',
-        type: 'logarithmic',
+        type: 'linear',
         position: 'left',
         scaleLabel: {
         display: true,
