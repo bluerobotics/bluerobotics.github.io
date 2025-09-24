@@ -4,6 +4,8 @@ title: Downloads
 order: 1
 nav:
 - Introduction: introduction
+
+redirect: https://bluerobotics.com/learn/technical-reference/#software-and-firmware
 ---
 
 # Introduction
